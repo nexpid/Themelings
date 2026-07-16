@@ -117,8 +117,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GPU_SETTINGS_GET_ENABLE_HWACCEL_SYNC'] = var1;
     var1 = 'DISCORD_GPU_SETTINGS_SET_CHROMIUM_SWITCHES';
     var2['GPU_SETTINGS_SET_CHROMIUM_SWITCHES'] = var1;
-    var1 = 'DISCORD_GPU_SETTINGS_SET_SETTING';
-    var2['GPU_SETTINGS_SET_SETTING'] = var1;
     var1 = 'DISCORD_HARDWARE_GET_DISPLAY_COUNT';
     var2['HARDWARE_GET_DISPLAY_COUNT'] = var1;
     var1 = 'DISCORD_INTENTS_SET_ACTIVITY';

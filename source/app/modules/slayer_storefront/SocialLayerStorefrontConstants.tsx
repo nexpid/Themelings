@@ -52,6 +52,8 @@ case 4:
         var3['SOCIAL_LAYER_GIFT_CODE_CLAIM_MODAL_TYPE'] = var4;
         var4 = 'Social Layer Storefront Product Details Modal';
         var3['SOCIAL_LAYER_STOREFRONT_PRODUCT_DETAILS_MODAL_TYPE'] = var4;
+        var4 = '1346069614634864772';
+        var3['MARVEL_RIVALS_APPLICATION_ID'] = var4;
         var4 = 3;
         var3['GAME_SHOP_ANNOUNCEMENT_MODAL_VERSION'] = var4;
         var4 = 14;

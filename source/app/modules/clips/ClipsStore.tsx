@@ -339,7 +339,7 @@ case 0:
             var12 = arg1;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var1 = var3[var1];
             var10 = undefined;
             var3 = var2.bind(var10)(var1);
@@ -542,7 +542,7 @@ case 56:
     var10 = {'dismissedAt': null, 'numberOfGamesLaunchedSinceDismissal': 0, 'numberOfTimesDismissed': 0};
     var5['clipsEducationState'] = var10;
     var _closure1_slot34 = var5;
-    var5 = 19;
+    var5 = 20;
     var5 = var8[var5];
     var5 = var9.bind(var1)(var5);
     var10 = var5.DeviceSettingsStore;
@@ -717,7 +717,7 @@ case 0:
 case 70:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 18;
+                var2 = 19;
                 var3 = var3[var2];
                 var2 = undefined;
                 var2 = var4.bind(var2)(var3);
@@ -1190,7 +1190,7 @@ case 0:
             var2 = arg1;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 20;
+            var1 = 21;
             var1 = var4[var1];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
@@ -1446,7 +1446,7 @@ case 11:
     };
     var5[15] = var10;
     var11['migrations'] = var5;
-    var5 = 21;
+    var5 = 22;
     var5 = var8[var5];
     var19 = var9.bind(var1)(var5);
     var5 = {};
@@ -1801,48 +1801,52 @@ case 59:
         _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.sourceName;
-            var7 = var1.pid;
-            var1 = _closure1_slot34;
-            var1 = var1.clipsSettings;
-            var1 = var1.clipsEnabled;
-            if(var1) { _fun0031_ip = 72; continue _fun0031 }
+            var5 = var1.sourceName;
+            var8 = var1.pid;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 15;
+            var2 = var2[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.isClipsEnabled;
+            var2 = var2.bind(var4)();
+            if(var2) { _fun0031_ip = 93; continue _fun0031 }
+case 88:
+            var2 = false;
+            return var2;
+case 93:
+            var2 = null;
+            var4 = var5;
+            if(!(var2 != var8)) { _fun0031_ip = 65; continue _fun0031 }
 case 117:
-            var1 = false;
-            return var1;
-case 72:
-            var1 = null;
-            var3 = var4;
-            if(!(var1 != var7)) { _fun0031_ip = 116; continue _fun0031 }
-case 118:
-            var6 = _closure1_slot9;
-            var5 = var6.getGameForPID;
-            var6 = var5.bind(var6)(var7);
-            var7 = var1 == var6;
-            var5 = undefined;
-            if(var7) { _fun0031_ip = 119; continue _fun0031 }
-case 4:
-            var5 = var6.name;
+            var7 = _closure1_slot9;
+            var6 = var7.getGameForPID;
+            var7 = var6.bind(var7)(var8);
+            var8 = var2 == var7;
+            var6 = undefined;
+            if(var8) { _fun0031_ip = 118; continue _fun0031 }
 case 119:
-            if(!(var1 != var5)) { _fun0031_ip = 13; continue _fun0031 }
+            var6 = var7.name;
+case 118:
+            if(!(var2 != var6)) { _fun0031_ip = 120; continue _fun0031 }
+case 92:
+            var5 = var6;
 case 120:
             var4 = var5;
-case 13:
-            var3 = var4;
-case 116:
-            if(!(var1 != var3)) { _fun0031_ip = 121; continue _fun0031 }
+case 65:
+            if(!(var2 != var4)) { _fun0031_ip = 121; continue _fun0031 }
 case 122:
-            var1 = '';
-            if(!(var1 !== var3)) { _fun0031_ip = 121; continue _fun0031 }
+            var2 = '';
+            if(!(var2 !== var4)) { _fun0031_ip = 121; continue _fun0031 }
 case 123:
-            var1 = {};
-            var1['applicationName'] = var3;
-            var3 = new Array(0);
-            var1['newClipIds'] = var3;
-            var3 = false;
-            var1['ended'] = var3;
-            _closure1_slot25 = var1;
-            var1 = undefined;
+            var2 = {};
+            var2['applicationName'] = var4;
+            var4 = new Array(0);
+            var2['newClipIds'] = var4;
+            var4 = false;
+            var2['ended'] = var4;
+            _closure1_slot25 = var2;
             return var1;
 case 121:
             var1 = false;
@@ -1862,7 +1866,7 @@ case 0:
 case 70:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 15;
+            var2 = 16;
             var5 = var5[var2];
             var2 = undefined;
             var5 = var7.bind(var2)(var5);
@@ -2008,27 +2012,27 @@ case 0:
 case 64:
             var8 = var4.value;
             var3 = var8.isCandidate;
-            if(var3) { _fun0036_ip = 130; continue _fun0036 }
-case 131:
+            if(var3) { _fun0036_ip = 122; continue _fun0036 }
+case 130:
             var7 = _closure1_slot19;
             var3 = var8.id;
             var7[var3] = var8;
             var3 = var8.remoteClipId;
-            if(!(var5 != var3)) { _fun0036_ip = 132; continue _fun0036 }
+            if(!(var5 != var3)) { _fun0036_ip = 131; continue _fun0036 }
 case 57:
             var9 = _closure1_slot21;
             var7 = var8.remoteClipId;
             var3 = var8.id;
             var9[var7] = var3;
-            _fun0036_ip = 132; continue _fun0036;
-case 130:
+            _fun0036_ip = 131; continue _fun0036;
+case 122:
             var7 = _closure1_slot20;
             var3 = var8.id;
             var7[var3] = var8;
             var7 = _closure1_slot22;
             var3 = var7.push;
             var3 = var3.bind(var7)(var8);
-case 132:
+case 131:
             var7 = var6.bind(var1)();
             var3 = var7.done;
             var4 = var7;
@@ -2078,10 +2082,10 @@ case 0:
             var6 = var5 == var3;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0037_ip = 122; continue _fun0037 }
+            if(var6) { _fun0037_ip = 132; continue _fun0037 }
 case 133:
             var4 = var3.remoteClipId;
-case 122:
+case 132:
             if(!(var5 != var4)) { _fun0037_ip = 134; continue _fun0037 }
 case 135:
             var4 = _closure1_slot21;
@@ -2139,7 +2143,7 @@ case 112:
         var2 = {};
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var7 = 16;
+        var7 = 17;
         var10 = var9[var7];
         var1 = undefined;
         var13 = var8.bind(var1)(var10);
@@ -2275,24 +2279,28 @@ case 140:
         _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.applicationName;
+            var5 = var1.applicationName;
             var1 = null;
             _closure1_slot29 = var1;
-            var1 = _closure1_slot34;
-            var1 = var1.clipsSettings;
-            var1 = var1.clipsEnabled;
-            var3 = false;
-            if(var1) { _fun0041_ip = 72; continue _fun0041 }
-case 142:
-            return var3;
-case 72:
-            var1 = {};
-            var1['applicationName'] = var4;
-            var4 = new Array(0);
-            var1['newClipIds'] = var4;
-            var1['ended'] = var3;
-            _closure1_slot25 = var1;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 15;
+            var2 = var2[var1];
             var1 = undefined;
+            var4 = var4.bind(var1)(var2);
+            var2 = var4.isClipsEnabled;
+            var2 = var2.bind(var4)();
+            var4 = false;
+            if(var2) { _fun0041_ip = 93; continue _fun0041 }
+case 8:
+            return var4;
+case 93:
+            var2 = {};
+            var2['applicationName'] = var5;
+            var5 = new Array(0);
+            var2['newClipIds'] = var5;
+            var2['ended'] = var4;
+            _closure1_slot25 = var2;
             return var1;
         }
     };
@@ -2312,7 +2320,7 @@ case 0:
             var3 = var1.educationType;
             var1 = _closure1_slot13;
             var1 = var1.Error;
-            if(!(var1 !== var3)) { _fun0042_ip = 143; continue _fun0042 }
+            if(!(var1 !== var3)) { _fun0042_ip = 142; continue _fun0042 }
 case 77:
             var1 = _closure1_slot13;
             var1 = var1.Disabled;
@@ -2340,7 +2348,7 @@ case 8:
             var1 = var4 + var1;
             var3['numberOfTimesDismissed'] = var1;
             _fun0042_ip = 45; continue _fun0042;
-case 143:
+case 142:
             var1 = null;
             _closure1_slot29 = var1;
 case 45:
@@ -2378,10 +2386,10 @@ case 0:
             var1 = global;
             var1 = var1.Set;
             var2 = null;
-            if(!(var2 == var3)) { _fun0044_ip = 144; continue _fun0044 }
+            if(!(var2 == var3)) { _fun0044_ip = 143; continue _fun0044 }
 case 70:
             var3 = new Array(0);
-case 144:
+case 143:
             var2 = var1.prototype;
             var2 = Object.create(var2, {constructor: {value: var1}});
             var5 = var2;
@@ -2411,19 +2419,19 @@ case 0:
             var1 = var2.message;
             var3 = var1.attachments;
             var1 = null;
-            if(!(var1 == var3)) { _fun0045_ip = 145; continue _fun0045 }
+            if(!(var1 == var3)) { _fun0045_ip = 144; continue _fun0045 }
 case 79:
             var3 = new Array(0);
-case 145:
+case 144:
             var2 = var2.message;
             var6 = var2.author;
             var7 = var1 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var7) { _fun0045_ip = 146; continue _fun0045 }
-case 147:
-            var1 = var6.id;
+            if(var7) { _fun0045_ip = 145; continue _fun0045 }
 case 146:
+            var1 = var6.id;
+case 145:
             var1 = var5.bind(var2)(var4, var3, var1);
             return var1;
         }
@@ -2448,27 +2456,27 @@ case 0:
             if(var2) { _fun0046_ip = 136; continue _fun0046 }
 case 91:
             var2 = var6.value;
-            if(var5) { _fun0046_ip = 148; continue _fun0046 }
+            if(var5) { _fun0046_ip = 147; continue _fun0046 }
 case 32:
             var16 = _closure1_slot40;
             var15 = var11.channelId;
             var12 = var2.attachments;
             var14 = var12;
-            if(!(var7 == var12)) { _fun0046_ip = 149; continue _fun0046 }
-case 150:
-            var14 = new Array(0);
+            if(!(var7 == var12)) { _fun0046_ip = 148; continue _fun0046 }
 case 149:
+            var14 = new Array(0);
+case 148:
             var2 = var2.author;
             var17 = var7 == var2;
             var13 = undefined;
-            if(var17) { _fun0046_ip = 151; continue _fun0046 }
+            if(var17) { _fun0046_ip = 120; continue _fun0046 }
 case 135:
             var13 = var2.id;
-case 151:
+case 120:
             var5 = var16.bind(var9)(var15, var14, var13);
             var4 = var12;
             var3 = var2;
-case 148:
+case 147:
             var13 = var8.bind(var9)();
             var2 = var13.done;
             var6 = var13;
@@ -2499,7 +2507,7 @@ case 136:
     var5 = new var20[var11](var19, var18, var17);
     var5 = var5 instanceof Object ? var5 : var9;
     var _closure1_slot35 = var5;
-    var6 = 22;
+    var6 = 23;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

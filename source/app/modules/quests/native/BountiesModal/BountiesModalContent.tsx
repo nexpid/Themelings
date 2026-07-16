@@ -717,6 +717,8 @@ case 23:
                 return var1;
             };
             var19['renderEndCard'] = var22;
+            var22 = false;
+            var19['isScrollIndicatorVisible'] = var22;
             var19 = var21.bind(var4)(var20, var19);
             var5['children'] = var19;
             var6 = var8.bind(var4)(var6, var5);

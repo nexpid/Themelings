@@ -281,12 +281,12 @@ case 2:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
-                    var11 = arg1;
+                    var10 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0002_ip = 35; continue _fun0002 }
 case 3:
-                    var6 = var11;
-                    var10 = arg2;
+                    var6 = var10;
+                    var13 = arg2;
                     var8 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var7 = 7;
@@ -295,31 +295,34 @@ case 3:
                     var9 = var8.bind(var5)(var4);
                     var8 = var9.dispatch;
                     var4 = {};
-                    var12 = 'MUTUAL_FRIENDS_FETCH_START';
-                    var4['type'] = var12;
-                    var4['userId'] = var11;
+                    var11 = 'MUTUAL_FRIENDS_FETCH_START';
+                    var4['type'] = var11;
+                    var4['userId'] = var10;
                     var4 = var8.bind(var9)(var4);
 case 36: // try_start_0
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var4 = 6;
-                    var4 = var9[var4];
-                    var4 = var8.bind(var5)(var4);
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var10 = 6;
+                    var4 = var12[var10];
+                    var4 = var11.bind(var5)(var4);
                     var9 = var4.HTTP;
                     var8 = var9.get;
                     var4 = {};
-                    var13 = _closure1_slot6;
-                    var12 = var13.USER_RELATIONSHIPS;
-                    var11 = var6;
-                    var11 = var12.bind(var13)(var11);
-                    var4['url'] = var11;
-                    var11 = true;
-                    var4['oldFormErrors'] = var11;
-                    var4['signal'] = var10;
-                    var10 = false;
+                    var16 = _closure1_slot6;
+                    var15 = var16.USER_RELATIONSHIPS;
+                    var14 = var6;
+                    var14 = var15.bind(var16)(var14);
+                    var4['url'] = var14;
+                    var14 = true;
+                    var4['oldFormErrors'] = var14;
+                    var4['signal'] = var13;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var5)(var10);
+                    var10 = var11.rejectWithMigratedError;
+                    var10 = var10.bind(var11)();
                     var4['rejectWithError'] = var10;
                     var4 = var8.bind(var9)(var4);
-                    SaveGenerator(address=151);
+                    SaveGenerator(address=168);
 case 37:
                     return var4;
 case 38:
@@ -449,36 +452,39 @@ case 35:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var2 = arguments[0];
-            var4 = undefined;
-            if(!(var2 === var4)) { _fun0003_ip = 3; continue _fun0003 }
+            var7 = undefined;
+            if(!(var2 === var7)) { _fun0003_ip = 3; continue _fun0003 }
 case 47:
             var2 = {};
 case 3:
-            var _closure2_slot0 = var4;
+            var _closure2_slot0 = var7;
             var2 = var2.withAnalyticsToken;
-            var6 = var4 !== var2;
-            if(!var6) { _fun0003_ip = 48; continue _fun0003 }
+            var10 = var7 !== var2;
+            if(!var10) { _fun0003_ip = 48; continue _fun0003 }
 case 49:
-            var6 = var2;
+            var10 = var2;
 case 48:
-            _closure2_slot0 = var6;
-            var3 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 6;
-            var2 = var7[var2];
-            var2 = var3.bind(var4)(var2);
+            _closure2_slot0 = var10;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 6;
+            var2 = var8[var5];
+            var2 = var6.bind(var7)(var2);
             var4 = var2.HTTP;
             var3 = var4.get;
             var2 = {};
-            var5 = _closure1_slot6;
-            var5 = var5.ME;
-            var2['url'] = var5;
-            var5 = {};
-            var5['with_analytics_token'] = var6;
-            var2['query'] = var5;
-            var5 = true;
-            var2['oldFormErrors'] = var5;
-            var5 = false;
+            var9 = _closure1_slot6;
+            var9 = var9.ME;
+            var2['url'] = var9;
+            var9 = {};
+            var9['with_analytics_token'] = var10;
+            var2['query'] = var9;
+            var9 = true;
+            var2['oldFormErrors'] = var9;
+            var5 = var8[var5];
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.rejectWithMigratedError;
+            var5 = var5.bind(var6)();
             var2['rejectWithError'] = var5;
             var3 = var3.bind(var4)(var2);
             var2 = var3.then;
@@ -524,43 +530,47 @@ case 50:
     var4 = function acceptAgreements() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-            var7 = arguments[0];
-            var6 = arguments[1];
-            var10 = undefined;
-            if(!(var7 === var10)) { _fun0005_ip = 52; continue _fun0005 }
+            var10 = arguments[0];
+            var9 = arguments[1];
+            var7 = undefined;
+            if(!(var10 === var7)) { _fun0005_ip = 52; continue _fun0005 }
 case 53:
-            var7 = true;
+            var10 = true;
 case 52:
-            if(!(var6 === var10)) { _fun0005_ip = 5; continue _fun0005 }
+            if(!(var9 === var7)) { _fun0005_ip = 5; continue _fun0005 }
 case 54:
-            var6 = true;
+            var9 = true;
 case 5:
             var3 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var2 = 8;
-            var2 = var11[var2];
-            var4 = var3.bind(var10)(var2);
+            var2 = var8[var2];
+            var4 = var3.bind(var7)(var2);
             var3 = var4.patch;
             var2 = {};
             var5 = _closure1_slot6;
             var5 = var5.USER_AGREEMENTS;
             var2['url'] = var5;
             var5 = {};
-            var9 = _closure1_slot0;
-            var8 = 9;
-            var8 = var11[var8];
-            var8 = var9.bind(var10)(var8);
-            var8 = var8.NetworkActionNames;
-            var8 = var8.USER_ACCEPT_AGREEMENTS;
-            var5['event'] = var8;
+            var6 = _closure1_slot0;
+            var11 = 9;
+            var11 = var8[var11];
+            var11 = var6.bind(var7)(var11);
+            var11 = var11.NetworkActionNames;
+            var11 = var11.USER_ACCEPT_AGREEMENTS;
+            var5['event'] = var11;
             var2['trackedActionData'] = var5;
             var5 = {};
-            var5['terms'] = var7;
-            var5['privacy'] = var6;
+            var5['terms'] = var10;
+            var5['privacy'] = var9;
             var2['body'] = var5;
             var5 = true;
             var2['oldFormErrors'] = var5;
-            var5 = false;
+            var5 = 6;
+            var5 = var8[var5];
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.rejectWithMigratedError;
+            var5 = var5.bind(var6)();
             var2['rejectWithError'] = var5;
             var4 = var3.bind(var4)(var2);
             var3 = var4.then;
@@ -584,43 +594,46 @@ case 0:
             var3 = _closure1_slot5;
             var1 = var3.getCurrentUser;
             var1 = var1.bind(var3)();
-            var6 = _closure1_slot1;
+            var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 10;
-            var5 = var5[var3];
-            var3 = undefined;
-            var7 = var6.bind(var3)(var5);
-            var5 = null;
-            var6 = var5 != var1;
-            var5 = 'setFlag: user cannot be undefined';
-            var5 = var7.bind(var3)(var6, var5);
+            var3 = var5[var3];
+            var6 = undefined;
+            var5 = var4.bind(var6)(var3);
+            var3 = null;
+            var4 = var3 != var1;
+            var3 = 'setFlag: user cannot be undefined';
+            var3 = var5.bind(var6)(var4, var3);
             var1 = var1.flags;
-            var5 = arg2;
-            if(var5) { _fun0006_ip = 55; continue _fun0006 }
+            var3 = arg2;
+            if(var3) { _fun0006_ip = 55; continue _fun0006 }
 case 36:
-            var5 = ~var2;
-            var5 = var1 & var5;
+            var3 = ~var2;
+            var9 = var1 & var3;
             _fun0006_ip = 7; continue _fun0006;
 case 55:
-            var5 = var1 | var2;
+            var9 = var1 | var2;
 case 7:
-            var2 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 6;
-            var1 = var6[var1];
-            var1 = var2.bind(var3)(var1);
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 6;
+            var1 = var7[var4];
+            var1 = var5.bind(var6)(var1);
             var3 = var1.HTTP;
             var2 = var3.patch;
             var1 = {};
-            var4 = _closure1_slot6;
-            var4 = var4.ME;
-            var1['url'] = var4;
-            var4 = true;
-            var1['oldFormErrors'] = var4;
-            var4 = {};
-            var4['flags'] = var5;
-            var1['body'] = var4;
-            var4 = false;
+            var8 = _closure1_slot6;
+            var8 = var8.ME;
+            var1['url'] = var8;
+            var8 = true;
+            var1['oldFormErrors'] = var8;
+            var8 = {};
+            var8['flags'] = var9;
+            var1['body'] = var8;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.rejectWithMigratedError;
+            var4 = var4.bind(var5)();
             var1['rejectWithError'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -630,27 +643,34 @@ case 7:
     var4 = function getUser(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var8 = arg1;
-            var _closure2_slot0 = var8;
+            var12 = arg1;
+            var _closure2_slot0 = var12;
             var3 = _closure1_slot5;
             var2 = var3.getUser;
-            var4 = var2.bind(var3)(var8);
+            var4 = var2.bind(var3)(var12);
             var2 = null;
             if(!(var2 == var4)) { _fun0007_ip = 56; continue _fun0007 }
 case 57:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 6;
-            var3 = var3[var2];
-            var2 = undefined;
-            var2 = var5.bind(var2)(var3);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 6;
+            var2 = var9[var6];
+            var7 = undefined;
+            var2 = var8.bind(var7)(var2);
             var5 = var2.HTTP;
             var3 = var5.get;
-            var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-            var7 = _closure1_slot6;
-            var6 = var7.USER;
-            var6 = var6.bind(var7)(var8);
-            var2['url'] = var6;
+            var2 = {};
+            var11 = _closure1_slot6;
+            var10 = var11.USER;
+            var10 = var10.bind(var11)(var12);
+            var2['url'] = var10;
+            var10 = true;
+            var2['oldFormErrors'] = var10;
+            var6 = var9[var6];
+            var7 = var8.bind(var7)(var6);
+            var6 = var7.rejectWithMigratedError;
+            var6 = var6.bind(var7)();
+            var2['rejectWithError'] = var6;
             var3 = var3.bind(var5)(var2);
             var2 = var3.then;
             var1 = function(arg1) {

@@ -157,7 +157,7 @@ case 25: // try_start_0
                     var13 = var7.HTTP;
                     var12 = var13.get;
                     var7 = {};
-                    var23 = _closure1_slot8;
+                    var23 = _closure1_slot7;
                     var22 = var23.CHANNEL_CONVERSATIONS;
                     var21 = var10;
                     var21 = var22.bind(var23)(var21);
@@ -249,7 +249,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot9 = var4;
+        _closure1_slot8 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -257,10 +257,10 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot8 = var1;
     var4 = function fetchConversationMessages() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot10;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -268,194 +268,178 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var1 = function _fetchConversationMessages() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1, arg2, arg3) {
-            var1 = function* anon_0_(arg1, arg2, arg3) {
+        var3 = function* (arg1, arg2, arg3, arg4) {
+            var1 = function* anon_0_(arg1, arg2, arg3, arg4) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
-                    var2 = arguments[3];
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 39; continue _fun0002 }
+                    var5 = arg4;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0002_ip = 39; continue _fun0002 }
 case 3:
-                    var9 = arg1;
-                    var8 = arg3;
-                    var3 = undefined;
-                    if(!(var2 === var3)) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
-                    var2 = {};
-case 40:
-                    var5 = var2.full;
-                    if(!(var5 === var3)) { _fun0002_ip = 42; continue _fun0002 }
-case 43:
-                    var5 = false;
-case 42:
-                    var7 = var5;
-                    var2 = var2.previewLimit;
-                    if(!(var2 === var3)) { _fun0002_ip = 44; continue _fun0002 }
-case 45:
-                    var2 = _closure1_slot7;
-case 44:
-                    var13 = var2;
-                    SaveGenerator(address=68);
-case 46:
-                    return var3;
-case 47:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 48; continue _fun0002 }
-case 49:
-                    var6 = _closure1_slot0;
+                    var8 = arg1;
+                    var7 = arg3;
+                    var2 = undefined;
+                    var14 = undefined;
+                    var13 = undefined;
+                    var12 = undefined;
+                    var6 = undefined;
+                    var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var5 = 5;
-                    var5 = var10[var5];
-                    var11 = var6.bind(var3)(var5);
+                    var4 = 5;
+                    var4 = var10[var4];
+                    var11 = var9.bind(var2)(var4);
                     var10 = var11.isTopicalNavEnabled;
-                    var6 = arg2;
-                    var5 = 'fetch_conversation';
-                    var5 = var10.bind(var11)(var6, var5);
-                    if(!var5) { _fun0002_ip = 50; continue _fun0002 }
-case 51:
-                    var11 = _closure1_slot4;
-                    var10 = var11.getConversationMetadata;
-                    var6 = var9;
-                    var5 = var8;
-                    var6 = var10.bind(var11)(var6, var5);
-                    var5 = var7;
-                    var10 = null;
-                    var11 = var10 == var6;
-                    if(var5) { _fun0002_ip = 52; continue _fun0002 }
-case 53:
-                    var5 = undefined;
-                    if(var11) { _fun0002_ip = 54; continue _fun0002 }
-case 55:
-                    var5 = var6.hydratedMessages;
-case 54:
-                    var5 = var10 == var5;
-                    _fun0002_ip = 56; continue _fun0002;
-case 52:
-                    var10 = undefined;
-                    if(var11) { _fun0002_ip = 57; continue _fun0002 }
-case 58:
-                    var10 = var6.fullyHydrated;
-case 57:
-                    var6 = true;
-                    var5 = var6 !== var10;
-case 56:
-                    if(!var5) { _fun0002_ip = 50; continue _fun0002 }
-case 59:
-                    var11 = _closure1_slot4;
-                    var10 = var11.isConversationFetchPending;
-                    var6 = var8;
-                    var5 = var7;
-                    var5 = var10.bind(var11)(var6, var5);
-                    if(var5) { _fun0002_ip = 50; continue _fun0002 }
-case 60:
-                    var10 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var6 = 6;
-                    var5 = var5[var6];
-                    var11 = var10.bind(var3)(var5);
-                    var10 = var11.dispatch;
+                    var9 = arg2;
+                    var4 = 'fetch_conversation';
+                    var4 = var10.bind(var11)(var9, var4);
+                    if(!var4) { _fun0002_ip = 40; continue _fun0002 }
+case 41:
+                    var9 = null;
+                    if(!(var9 == var5)) { _fun0002_ip = 42; continue _fun0002 }
+case 43:
                     var5 = {};
-                    var12 = 'CONVERSATION_FETCH_START';
-                    var5['type'] = var12;
-                    var12 = var9;
-                    var5['channelId'] = var12;
-                    var12 = var8;
-                    var5['conversationId'] = var12;
-                    var12 = var7;
-                    var5['full'] = var12;
-                    var5 = var10.bind(var11)(var5);
-case 61: // try_start_0
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var5 = 7;
-                    var5 = var11[var5];
-                    var5 = var10.bind(var3)(var5);
-                    var11 = var5.HTTP;
-                    var10 = var11.get;
-                    var5 = {};
-                    var16 = _closure1_slot8;
-                    var15 = var16.CHANNEL_CONVERSATION_MESSAGES;
-                    var14 = var9;
-                    var12 = var8;
-                    var12 = var15.bind(var16)(var14, var12);
-                    var5['url'] = var12;
-                    var12 = var7;
-                    if(var12) { _fun0002_ip = 62; continue _fun0002 }
-case 63:
-                    var12 = {};
-                    var12['limit'] = var13;
-                    _fun0002_ip = 64; continue _fun0002;
-case 62:
-                    var12 = {};
-case 64:
-                    var5['query'] = var12;
-                    var12 = true;
-                    var5['oldFormErrors'] = var12;
-                    var5['rejectWithError'] = var12;
-                    var5 = var10.bind(var11)(var5);
-                    SaveGenerator(address=393);
-case 17:
-                    return var5;
-case 65:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(var10) { _fun0002_ip = 66; continue _fun0002 }
-case 67:
-                    var11 = _closure1_slot1;
-                    var10 = _closure1_slot2;
-                    var10 = var10[var6];
-                    var12 = var11.bind(var3)(var10);
-                    var11 = var12.dispatch;
-                    var10 = {};
-                    var13 = 'CONVERSATION_FETCH_SUCCESS';
-                    var10['type'] = var13;
-                    var13 = var9;
-                    var10['channelId'] = var13;
-                    var13 = var8;
-                    var10['conversationId'] = var13;
-                    var13 = var5.body;
-                    var13 = var13.messages;
-                    var10['messages'] = var13;
-                    var13 = var7;
-                    var10['fullyHydrated'] = var13;
-                    var10 = var11.bind(var12)(var10);
-case 68: // try_end0
-                    _fun0002_ip = 50; continue _fun0002;
-case 66:
-                    return var5;
-case 69: // catch_target0
-                    CatchBlockStart(arg_register=4);
-                    var5 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var4 = var4[var6];
-                    var6 = var5.bind(var3)(var4);
-                    var5 = var6.dispatch;
-                    var4 = {};
-                    var10 = 'CONVERSATION_FETCH_FAILURE';
-                    var4['type'] = var10;
-                    var4['channelId'] = var9;
-                    var4['conversationId'] = var8;
-                    var4['full'] = var7;
-                    var4 = var5.bind(var6)(var4);
-case 50:
-                    return var3;
+case 42:
+                    var4 = var5.previewLimit;
+                    var14 = var4;
+                    var13 = var5.includeMessageReferences;
+                    var12 = var5.includeReactions;
+                    var4 = var9 == var4;
+                    var6 = var4;
+                    var15 = _closure1_slot4;
+                    var11 = var15.getConversationMetadata;
+                    var10 = var8;
+                    var5 = var7;
+                    var5 = var11.bind(var15)(var10, var5);
+                    var10 = var9 == var5;
+                    if(var4) { _fun0002_ip = 44; continue _fun0002 }
+case 13:
+                    var4 = undefined;
+                    if(var10) { _fun0002_ip = 45; continue _fun0002 }
+case 46:
+                    var4 = var5.hydratedMessages;
+case 45:
+                    var4 = var9 == var4;
+                    _fun0002_ip = 47; continue _fun0002;
+case 44:
+                    var9 = undefined;
+                    if(var10) { _fun0002_ip = 48; continue _fun0002 }
+case 49:
+                    var9 = var5.fullyHydrated;
 case 48:
+                    var5 = true;
+                    var4 = var5 !== var9;
+case 47:
+                    if(!var4) { _fun0002_ip = 40; continue _fun0002 }
+case 50:
+                    var10 = _closure1_slot4;
+                    var9 = var10.isConversationFetchPending;
+                    var5 = var7;
+                    var4 = var6;
+                    var4 = var9.bind(var10)(var5, var4);
+                    if(var4) { _fun0002_ip = 40; continue _fun0002 }
+case 51:
+                    var9 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var5 = 6;
+                    var4 = var4[var5];
+                    var10 = var9.bind(var2)(var4);
+                    var9 = var10.dispatch;
+                    var4 = {};
+                    var11 = 'CONVERSATION_FETCH_START';
+                    var4['type'] = var11;
+                    var11 = var8;
+                    var4['channelId'] = var11;
+                    var11 = var7;
+                    var4['conversationId'] = var11;
+                    var11 = var6;
+                    var4['full'] = var11;
+                    var4 = var9.bind(var10)(var4);
+case 52: // try_start_0
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var4 = 7;
+                    var4 = var10[var4];
+                    var4 = var9.bind(var2)(var4);
+                    var10 = var4.HTTP;
+                    var9 = var10.get;
+                    var4 = {};
+                    var17 = _closure1_slot7;
+                    var16 = var17.CHANNEL_CONVERSATION_MESSAGES;
+                    var15 = var8;
+                    var11 = var7;
+                    var11 = var16.bind(var17)(var15, var11);
+                    var4['url'] = var11;
+                    var11 = {};
+                    var11['limit'] = var14;
+                    var11['include_ancestors'] = var13;
+                    var11['include_reactions'] = var12;
+                    var4['query'] = var11;
+                    var11 = true;
+                    var4['oldFormErrors'] = var11;
+                    var4['rejectWithError'] = var11;
+                    var4 = var9.bind(var10)(var4);
+                    SaveGenerator(address=382);
+case 53:
+                    return var4;
+case 54:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
+                    if(var9) { _fun0002_ip = 55; continue _fun0002 }
+case 56:
+                    var10 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var5];
+                    var11 = var10.bind(var2)(var9);
+                    var10 = var11.dispatch;
+                    var9 = {};
+                    var12 = 'CONVERSATION_FETCH_SUCCESS';
+                    var9['type'] = var12;
+                    var12 = var8;
+                    var9['channelId'] = var12;
+                    var12 = var7;
+                    var9['conversationId'] = var12;
+                    var12 = var4.body;
+                    var12 = var12.messages;
+                    var9['messages'] = var12;
+                    var12 = var4.body;
+                    var12 = var12.ancestors;
+                    var9['messageReferences'] = var12;
+                    var12 = var6;
+                    var9['fullyHydrated'] = var12;
+                    var9 = var10.bind(var11)(var9);
+case 57: // try_end0
+                    _fun0002_ip = 40; continue _fun0002;
+case 55:
+                    return var4;
+case 58: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var9 = 'CONVERSATION_FETCH_FAILURE';
+                    var3['type'] = var9;
+                    var3['channelId'] = var8;
+                    var3['conversationId'] = var7;
+                    var3['full'] = var6;
+                    var3 = var4.bind(var5)(var3);
+case 40:
                     return var2;
 case 39:
                     return var1;
                 }
             };
-            var2 = var1.next;
-            var2 = var2.bind(var1)();
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot10 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -463,7 +447,7 @@ case 39:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -488,15 +472,13 @@ case 39:
     var5 = 3;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var8 = var5.FETCH_LIMIT;
-    var _closure1_slot6 = var8;
-    var5 = var5.PREVIEW_MESSAGE_COUNT;
-    var _closure1_slot7 = var5;
+    var5 = var5.FETCH_LIMIT;
+    var _closure1_slot6 = var5;
     var5 = 4;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.Endpoints;
-    var _closure1_slot8 = var5;
+    var _closure1_slot7 = var5;
     var5 = 12;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -505,7 +487,7 @@ case 39:
     var5 = var6.bind(var7)(var5);
     var5 = function fetchChannelConversations() {
         var1 = undefined;
-        var4 = _closure1_slot9;
+        var4 = _closure1_slot8;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -536,10 +518,10 @@ case 0:
             var7 = arg3;
             var3 = arguments[3];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0003_ip = 70; continue _fun0003 }
-case 71:
+            if(!(var3 === var1)) { _fun0003_ip = 59; continue _fun0003 }
+case 60:
             var3 = true;
-case 70:
+case 59:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 6;
@@ -552,33 +534,30 @@ case 70:
             var4['channelId'] = var6;
             var4['conversationId'] = var7;
             var4 = var5.bind(var8)(var4);
-            var8 = _closure1_slot10;
-            var5 = {};
-            var4 = true;
-            var5['full'] = var4;
+            var8 = _closure1_slot9;
             var12 = arg2;
+            var10 = {'includeReactions': true, 'includeMessageReferences': true};
             var14 = undefined;
             var13 = var6;
             var11 = var7;
-            var10 = var5;
             var4 = var14[var8](var13, var12, var11, var10, var9);
             var5 = _closure1_slot4;
             var4 = var5.getConversationMetadata;
             var5 = var4.bind(var5)(var6, var7);
-            if(!var3) { _fun0003_ip = 72; continue _fun0003 }
-case 73:
+            if(!var3) { _fun0003_ip = 61; continue _fun0003 }
+case 62:
             var7 = null;
             var8 = var7 == var5;
             var4 = undefined;
-            if(var8) { _fun0003_ip = 74; continue _fun0003 }
-case 75:
+            if(var8) { _fun0003_ip = 13; continue _fun0003 }
+case 63:
             var8 = var5.conversation;
             var4 = var8.startMessageId;
-case 74:
+case 13:
             var3 = var7 != var4;
-case 72:
-            if(!var3) { _fun0003_ip = 76; continue _fun0003 }
-case 77:
+case 61:
+            if(!var3) { _fun0003_ip = 64; continue _fun0003 }
+case 65:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 8;
@@ -593,7 +572,7 @@ case 77:
             var5 = false;
             var2['flash'] = var5;
             var2 = var3.bind(var4)(var2);
-case 76:
+case 64:
             return var1;
         }
     };
@@ -660,8 +639,8 @@ case 0:
             var4 = _closure1_slot5;
             var3 = var4.shouldTriggerOnNextExposure;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0004_ip = 78; continue _fun0004 }
-case 79:
+            if(!var3) { _fun0004_ip = 66; continue _fun0004 }
+case 67:
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
             var3 = 10;
@@ -675,7 +654,7 @@ case 79:
             var3 = var3.SurveyActionTypes;
             var3 = var3.TOPICAL_NAVIGATION_MULTIPLE_IMPRESSIONS;
             var3 = var4.bind(var7)(var3);
-case 78:
+case 66:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 6;

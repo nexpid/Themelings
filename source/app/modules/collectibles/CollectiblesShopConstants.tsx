@@ -246,6 +246,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BUNDLE_VIEW_PROFILE_EFFECT'] = var18;
     var18 = 'bundle_view_nameplate';
     var2['BUNDLE_VIEW_NAMEPLATE'] = var18;
+    var18 = 'bundle_view_product';
+    var2['BUNDLE_VIEW_PRODUCT'] = var18;
     var18 = 'full_profile_preview';
     var2['FULL_PROFILE_PREVIEW'] = var18;
     var18 = 'full_profile_preview_button';

@@ -185,11 +185,11 @@ case 14: // try_start_1 // try_start_5
                     var14 = 19;
                     var19 = var19[var14];
                     var19 = var20.bind(var3)(var19);
-                    var20 = var19.SubscriptionProductIds;
+                    var20 = var19.IAPProductIds;
                     var19 = var20.includes;
                     var18 = var18.productId;
                     var18 = var19.bind(var20)(var18);
-                    if(var18) { _fun0002_ip = 15; continue _fun0002 }
+                    if(!var18) { _fun0002_ip = 15; continue _fun0002 }
 case 16: // try_start_0
                     var20 = _closure1_slot1;
                     var19 = _closure1_slot2;

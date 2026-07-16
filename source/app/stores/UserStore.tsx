@@ -1275,6 +1275,9 @@ case 155:
     var1 = function handleConversationFetchSuccess(arg1) {
         var1 = arg1;
         var3 = var1.messages;
+        var2 = var1.messageReferences;
+        var1 = var3.concat;
+        var3 = var1.bind(var3)(var2);
         var2 = var3.forEach;
         var1 = function(arg1) {
             var4 = _closure1_slot30;

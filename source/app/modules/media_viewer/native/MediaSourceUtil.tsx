@@ -459,6 +459,8 @@ case 65:
             var14['height'] = var16;
             var16 = var2.url;
             var14['sourceURI'] = var16;
+            var16 = var2.content_type;
+            var14['contentType'] = var16;
             var16 = var2.description;
             var14['description'] = var16;
             var16 = 'attachment';
@@ -624,6 +626,8 @@ case 64:
             var7 = var2.height;
             var1['height'] = var7;
             var1['sourceURI'] = var6;
+            var6 = var2.content_type;
+            var1['contentType'] = var6;
             var6 = var2.description;
             var1['description'] = var6;
             var6 = 'attachment';

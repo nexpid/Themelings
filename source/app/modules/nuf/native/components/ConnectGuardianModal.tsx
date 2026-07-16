@@ -238,7 +238,7 @@ case 8:
             var14 = 13;
             var20 = var17[var14];
             var20 = var18.bind(var5)(var20);
-            var20 = var20.vELYWk;
+            var20 = var20.ITlV6p;
             var20 = var21.bind(var22)(var20);
             var7['children'] = var20;
             var11 = var9.bind(var5)(var11, var7);
@@ -257,7 +257,7 @@ case 8:
             var23 = var24.format;
             var21 = var17[var14];
             var21 = var18.bind(var5)(var21);
-            var22 = var21.pDByAB;
+            var22 = var21.F4GT2S;
             var21 = {};
             var25 = 'https://support.discord.com/hc/articles/14155060633623';
             var21['link'] = var25;

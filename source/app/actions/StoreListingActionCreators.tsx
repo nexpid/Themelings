@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.Endpoints;
     var _closure1_slot6 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -69,35 +69,39 @@ case 2:
                     return var1;
                 }
             };
-            var6 = var3.bind(var4)(var2);
-            var3 = var6.length;
+            var9 = var3.bind(var4)(var2);
+            var3 = var9.length;
             var2 = 0;
             if(!(var2 !== var3)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var2 = 4;
-            var3 = var3[var2];
-            var2 = undefined;
-            var4 = var4.bind(var2)(var3);
+            var2 = var8[var2];
+            var6 = undefined;
+            var4 = var7.bind(var6)(var2);
             var3 = var4.httpGetWithCountryCodeQuery;
             var2 = {};
             var5 = _closure1_slot6;
             var5 = var5.STORE_PUBLISHED_LISTINGS_APPLICATIONS;
             var2['url'] = var5;
             var5 = {};
-            var5['application_ids'] = var6;
+            var5['application_ids'] = var9;
             var2['query'] = var5;
             var5 = true;
             var2['oldFormErrors'] = var5;
-            var5 = false;
+            var5 = 5;
+            var5 = var8[var5];
+            var6 = var7.bind(var6)(var5);
+            var5 = var6.rejectWithMigratedError;
+            var5 = var5.bind(var6)();
             var2['rejectWithError'] = var5;
             var3 = var3.bind(var4)(var2);
             var2 = var3.then;
             var1 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 5;
+                var1 = 6;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -124,24 +128,28 @@ case 8:
     };
     var3['fetchStoreListingsForApplications'] = var4;
     var4 = function fetchAllStoreListingsForApplication(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
         var1 = 4;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
+        var1 = var7[var1];
+        var5 = undefined;
+        var3 = var6.bind(var5)(var1);
         var2 = var3.httpGetWithCountryCodeQuery;
         var1 = {};
         var4 = _closure1_slot6;
         var4 = var4.STORE_PUBLISHED_LISTINGS_SKUS;
         var1['url'] = var4;
         var4 = {};
-        var5 = arg1;
-        var4['application_id'] = var5;
+        var8 = arg1;
+        var4['application_id'] = var8;
         var1['query'] = var4;
         var4 = true;
         var1['oldFormErrors'] = var4;
-        var4 = false;
+        var4 = 5;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var3 = var2.bind(var3)(var1);
         var2 = var3.then;
@@ -149,7 +157,7 @@ case 8:
             var1 = arg1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
@@ -182,56 +190,62 @@ case 8:
     var2 = function fetchStoreListingForSku(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-            var8 = arg1;
-            var _closure2_slot0 = var8;
+            var10 = arg1;
+            var _closure2_slot0 = var10;
             var3 = _closure1_slot4;
             var2 = var3.get;
-            var2 = var2.bind(var3)(var8);
+            var2 = var2.bind(var3)(var10);
             var3 = null;
-            var5 = var3 != var2;
-            if(!var5) { _fun0003_ip = 9; continue _fun0003 }
+            var6 = var3 != var2;
+            if(!var6) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 6;
+            var3 = 7;
             var4 = var4[var3];
             var3 = undefined;
             var4 = var7.bind(var3)(var4);
             var3 = var4.isTestModeForApplication;
             var2 = var2.applicationId;
-            var5 = var3.bind(var4)(var2);
+            var6 = var3.bind(var4)(var2);
 case 9:
-            var _closure2_slot1 = var5;
+            var _closure2_slot1 = var6;
             var3 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var2 = 5;
-            var2 = var7[var2];
-            var4 = undefined;
-            var9 = var3.bind(var4)(var2);
-            var3 = var9.dispatch;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var7 = undefined;
+            var8 = var3.bind(var7)(var2);
+            var3 = var8.dispatch;
             var2 = {};
-            var10 = 'STORE_LISTINGS_FETCH_START';
-            var2['type'] = var10;
-            var2['skuId'] = var8;
-            var2 = var3.bind(var9)(var2);
+            var9 = 'STORE_LISTINGS_FETCH_START';
+            var2['type'] = var9;
+            var2['skuId'] = var10;
+            var2 = var3.bind(var8)(var2);
             var3 = _closure1_slot0;
             var2 = 4;
-            var2 = var7[var2];
-            var4 = var3.bind(var4)(var2);
+            var2 = var4[var2];
+            var4 = var3.bind(var7)(var2);
             var3 = var4.httpGetWithCountryCodeQuery;
             var2 = {};
-            var7 = _closure1_slot6;
-            if(var5) { _fun0003_ip = 11; continue _fun0003 }
+            var9 = _closure1_slot6;
+            if(var6) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var5 = var7.STORE_PUBLISHED_LISTINGS_SKU;
-            var5 = var5.bind(var7)(var8);
+            var6 = var9.STORE_PUBLISHED_LISTINGS_SKU;
+            var6 = var6.bind(var9)(var10);
             _fun0003_ip = 13; continue _fun0003;
 case 11:
-            var6 = var7.STORE_LISTINGS_SKU;
-            var5 = var6.bind(var7)(var8);
+            var8 = var9.STORE_LISTINGS_SKU;
+            var6 = var8.bind(var9)(var10);
 case 13:
-            var2['url'] = var5;
-            var5 = false;
+            var2['url'] = var6;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 5;
+            var5 = var8[var5];
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.rejectWithMigratedError;
+            var5 = var5.bind(var6)();
             var2['rejectWithError'] = var5;
             var4 = var3.bind(var4)(var2);
             var3 = var4.then;
@@ -242,7 +256,7 @@ case 0:
                     var6 = _closure2_slot1;
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 5;
+                    var1 = 6;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -271,7 +285,7 @@ case 16:
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 5;
+                var1 = 6;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);

@@ -112,12 +112,17 @@ case 6:
             var8 = var1;
             if(!var8) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            var1 = 'success';
+            var8 = var1 === var2;
+case 8:
+            if(!var8) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var5 = var9.has;
             var1 = _closure1_slot3;
             var1 = var1.TIER_2;
             var1 = var5.bind(var9)(var1);
             var8 = !var1;
-case 8:
+case 10:
             _closure2_slot4 = var8;
             var1 = {};
             var6 = _closure1_slot2;
@@ -153,8 +158,8 @@ case 0:
                     };
                     var4 = var3.bind(var4)(var2);
                     var2 = _closure2_slot4;
-                    if(!var2) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(!var2) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var3 = var4.unshift;
                     var2 = {};
                     var7 = _closure1_slot0;
@@ -169,7 +174,7 @@ case 11:
                     var5 = 'takeover';
                     var2['itemSource'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 10:
+case 12:
                     var3 = var4.slice;
                     var2 = _closure2_slot1;
                     var1 = 0;

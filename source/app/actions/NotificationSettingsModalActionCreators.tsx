@@ -479,33 +479,36 @@ case 0:
 case 9:
                     var2 = _closure1_slot4;
                     var2 = var2.accountNotificationSettings;
-                    var10 = var2.flags;
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
+                    var8 = var2.flags;
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
                     var2 = 11;
-                    var2 = var6[var2];
+                    var2 = var10[var2];
                     var4 = undefined;
-                    var9 = var5.bind(var4)(var2);
-                    var8 = var9.setFlag;
-                    var7 = _closure2_slot0;
+                    var7 = var9.bind(var4)(var2);
+                    var6 = var7.setFlag;
+                    var5 = _closure2_slot0;
                     var2 = _closure2_slot1;
-                    var8 = var8.bind(var9)(var10, var7, var2);
-                    var2 = 12;
-                    var2 = var6[var2];
-                    var2 = var5.bind(var4)(var2);
+                    var8 = var6.bind(var7)(var8, var5, var2);
+                    var7 = 12;
+                    var2 = var10[var7];
+                    var2 = var9.bind(var4)(var2);
                     var6 = var2.HTTP;
                     var5 = var6.patch;
                     var2 = {};
-                    var7 = _closure1_slot5;
-                    var7 = var7.ACCOUNT_NOTIFICATION_SETTINGS;
-                    var2['url'] = var7;
-                    var7 = {};
-                    var7['flags'] = var8;
-                    var2['body'] = var7;
-                    var7 = false;
+                    var11 = _closure1_slot5;
+                    var11 = var11.ACCOUNT_NOTIFICATION_SETTINGS;
+                    var2['url'] = var11;
+                    var11 = {};
+                    var11['flags'] = var8;
+                    var2['body'] = var11;
+                    var7 = var10[var7];
+                    var9 = var9.bind(var4)(var7);
+                    var7 = var9.rejectWithMigratedError;
+                    var7 = var7.bind(var9)();
                     var2['rejectWithError'] = var7;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=140);
+                    SaveGenerator(address=157);
 case 10:
                     return var2;
 case 11:
@@ -525,7 +528,7 @@ case 13:
                     var7['flags'] = var8;
                     var3['settings'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=201);
+                    SaveGenerator(address=218);
 case 14:
                     return var3;
 case 15:

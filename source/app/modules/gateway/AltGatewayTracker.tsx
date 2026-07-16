@@ -67,27 +67,55 @@ case 4:
             }
         };
         var1['value'] = var2;
-        var2 = new Array(5);
+        var2 = new Array(7);
         var2[0] = var1;
         var1 = {};
-        var6 = 'getAltGatewayUrl';
+        var6 = 'isAssignedToAltGateway';
         var1['key'] = var6;
         var6 = function value() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var2 = this;
-                var1 = var2.shouldUseAltGateway;
-                var2 = var1.bind(var2)();
+                var3 = _closure1_slot2;
                 var1 = null;
-                if(!var2) { _fun0002_ip = 6; continue _fun0002 }
+                var1 = var1 != var3;
+                if(!var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-                var1 = _closure1_slot2;
+                var1 = _closure1_slot3;
 case 6:
                 return var1;
             }
         };
         var1['value'] = var6;
         var2[1] = var1;
+        var1 = {};
+        var6 = 'getDidFallBack';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var1 = var1.fallbackTripped;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[2] = var1;
+        var1 = {};
+        var6 = 'getAltGatewayUrl';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.shouldUseAltGateway;
+                var2 = var1.bind(var2)();
+                var1 = null;
+                if(!var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
+                var1 = _closure1_slot2;
+case 8:
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[3] = var1;
         var1 = {};
         var6 = 'recordSuccess';
         var1['key'] = var6;
@@ -99,35 +127,35 @@ case 6:
             return var1;
         };
         var1['value'] = var6;
-        var2[2] = var1;
+        var2[4] = var1;
         var1 = {};
         var6 = 'recordFailure';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                 var2 = this;
                 var1 = var2.shouldUseAltGateway;
                 var1 = var1.bind(var2)();
-                if(!var1) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                if(!var1) { _fun0004_ip = 10; continue _fun0004 }
+case 7:
                 var3 = var2.failures;
                 var1 = 1;
                 var1 = var3 + var1;
                 var2['failures'] = var1;
                 var3 = var2.failures;
                 var1 = 3;
-                if(!(var3 >= var1)) { _fun0003_ip = 8; continue _fun0003 }
-case 10:
+                if(!(var3 >= var1)) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                 var1 = true;
                 var2['fallbackTripped'] = var1;
-case 8:
+case 10:
                 var1 = undefined;
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[3] = var1;
+        var2[5] = var1;
         var1 = {};
         var6 = 'reset';
         var1['key'] = var6;
@@ -141,7 +169,7 @@ case 8:
             return var1;
         };
         var1['value'] = var5;
-        var2[4] = var1;
+        var2[6] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

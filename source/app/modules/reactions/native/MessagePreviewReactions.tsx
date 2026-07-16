@@ -26,12 +26,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot4 = var4;
-    var4 = new Array(0);
     var _closure1_slot5 = var4;
-    var4 = 7;
+    var4 = new Array(0);
+    var _closure1_slot6 = var4;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -44,36 +48,49 @@ case 0:
             var12 = var1.channelId;
             var11 = var1.messageId;
             var10 = var1.emoji;
-            var1 = function usePreviewMessageReactions(arg1) {
-                var6 = arg1;
-                var _closure3_slot0 = var6;
+            var1 = function usePreviewMessageReactions(arg1, arg2) {
+                var7 = arg1;
+                var6 = arg2;
+                var _closure3_slot0 = var7;
+                var _closure3_slot1 = var6;
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 3;
+                var3 = 4;
                 var4 = var4[var3];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var4);
                 var4 = var5.useStateFromStores;
+                var8 = _closure1_slot4;
+                var3 = new Array(2);
+                var3[0] = var8;
                 var2 = _closure1_slot3;
-                var3 = new Array(1);
-                var3[0] = var2;
-                var2 = new Array(1);
-                var2[0] = var6;
+                var3[1] = var2;
+                var2 = new Array(2);
+                var2[0] = var7;
+                var2[1] = var6;
                 var1 = function() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                        var4 = _closure1_slot3;
-                        var3 = var4.getMessage;
-                        var2 = _closure3_slot0;
-                        var2 = var3.bind(var4)(var2);
+                        var5 = _closure1_slot4;
+                        var3 = var5.getMessage;
+                        var2 = _closure3_slot1;
+                        var2 = var3.bind(var5)(var2);
                         var3 = null;
                         if(!(var3 == var2)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:
-                        var1 = _closure1_slot5;
-                        _fun0002_ip = 4; continue _fun0002;
+                        var7 = _closure1_slot3;
+                        var6 = var7.getMessage;
+                        var5 = _closure3_slot0;
+                        var4 = _closure3_slot1;
+                        var2 = var6.bind(var7)(var5, var4);
 case 2:
-                        var1 = var2.reactions;
+                        if(!(var3 == var2)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                        var1 = _closure1_slot6;
+                        _fun0002_ip = 6; continue _fun0002;
 case 4:
+                        var1 = var2.reactions;
+case 6:
                         return var1;
                     }
                 };
@@ -81,19 +98,19 @@ case 4:
                 return var1;
             };
             var4 = undefined;
-            var9 = var1.bind(var4)(var11);
+            var9 = var1.bind(var4)(var12, var11);
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 4;
+            var1 = 5;
             var2 = var7[var1];
             var3 = var5.bind(var4)(var2);
-            var2 = 5;
+            var2 = 6;
             var2 = var7[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.MESSAGE_PREVIEW_REACTIONS;
             var2 = var3.bind(var4)(var2);
             var5 = var2.analyticsLocations;
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var2 = _closure1_slot0;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
@@ -102,23 +119,23 @@ case 4:
             var1['value'] = var5;
             var7 = var9.length;
             var5 = 0;
-            if(!(!(var7 > var5))) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var8 = _closure1_slot4;
+            if(!(!(var7 > var5))) { _fun0001_ip = 7; continue _fun0001 }
+case 8:
+            var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var5 = 6;
+            var5 = 7;
             var5 = var13[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.MessageReactionsEmpty;
             var5 = {};
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 7; continue _fun0001;
-case 5:
-            var8 = _closure1_slot4;
+            _fun0001_ip = 9; continue _fun0001;
+case 7:
+            var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var6 = 6;
+            var6 = 7;
             var6 = var13[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.MessageReactionsContent;
@@ -128,7 +145,7 @@ case 5:
             var6['emoji'] = var10;
             var6['reactions'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 7:
+case 9:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

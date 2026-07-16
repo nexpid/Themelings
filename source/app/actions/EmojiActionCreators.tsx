@@ -349,59 +349,65 @@ case 19:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var2 = arg1;
-            var15 = var2.guildId;
-            var _closure2_slot0 = var15;
-            var13 = var2.image;
-            var12 = var2.name;
-            var11 = var2.roles;
-            var7 = var2.analyticsLocation;
-            var9 = var2.originalMd5;
-            var8 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var17 = var2.guildId;
+            var _closure2_slot0 = var17;
+            var15 = var2.image;
+            var14 = var2.name;
+            var13 = var2.roles;
+            var10 = var2.analyticsLocation;
+            var11 = var2.originalMd5;
+            var9 = _closure1_slot1;
+            var12 = _closure1_slot2;
             var2 = 8;
-            var2 = var10[var2];
-            var6 = undefined;
-            var4 = var8.bind(var6)(var2);
+            var2 = var12[var2];
+            var7 = undefined;
+            var4 = var9.bind(var7)(var2);
             var3 = var4.dispatch;
             var2 = {};
-            var14 = 'EMOJI_UPLOAD_START';
-            var2['type'] = var14;
-            var2['guildId'] = var15;
+            var6 = 'EMOJI_UPLOAD_START';
+            var2['type'] = var6;
+            var2['guildId'] = var17;
             var2 = var3.bind(var4)(var2);
             var3 = _closure1_slot0;
-            var2 = 9;
-            var2 = var10[var2];
-            var2 = var3.bind(var6)(var2);
+            var8 = 9;
+            var2 = var12[var8];
+            var2 = var3.bind(var7)(var2);
             var4 = var2.HTTP;
             var3 = var4.post;
             var2 = {};
-            var14 = _closure1_slot7;
-            var5 = var14.GUILD_EMOJIS;
-            var5 = var5.bind(var14)(var15);
-            var2['url'] = var5;
-            var5 = {};
-            var5['image'] = var13;
-            var5['name'] = var12;
-            var5['roles'] = var11;
-            var2['body'] = var5;
-            var5 = 10;
-            var5 = var10[var5];
-            var8 = var8.bind(var6)(var5);
-            var5 = var8.buildHeadersForMd5;
-            var5 = var5.bind(var8)(var9);
-            var2['headers'] = var5;
-            var5 = {};
-            var8 = null;
-            var8 = var8 == var7;
-            if(var8) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
-            var6 = var7.page;
+            var16 = _closure1_slot7;
+            var6 = var16.GUILD_EMOJIS;
+            var6 = var6.bind(var16)(var17);
+            var2['url'] = var6;
+            var6 = {};
+            var6['image'] = var15;
+            var6['name'] = var14;
+            var6['roles'] = var13;
+            var2['body'] = var6;
+            var6 = 10;
+            var6 = var12[var6];
+            var9 = var9.bind(var7)(var6);
+            var6 = var9.buildHeadersForMd5;
+            var6 = var6.bind(var9)(var11);
+            var2['headers'] = var6;
+            var6 = {};
+            var9 = null;
+            var11 = var9 == var10;
+            var9 = undefined;
+            if(var11) { _fun0005_ip = 27; continue _fun0005 }
+case 6:
+            var9 = var10.page;
 case 27:
-            var5['client_event_source'] = var6;
-            var2['context'] = var5;
-            var5 = true;
-            var2['oldFormErrors'] = var5;
-            var5 = false;
+            var6['client_event_source'] = var9;
+            var2['context'] = var6;
+            var6 = true;
+            var2['oldFormErrors'] = var6;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var8];
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.rejectWithMigratedError;
+            var5 = var5.bind(var6)();
             var2['rejectWithError'] = var5;
             var4 = var3.bind(var4)(var2);
             var3 = var4.then;
@@ -452,45 +458,51 @@ case 27:
     var4 = function deleteEmoji(arg1, arg2, arg3) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var9 = arg1;
-            var8 = arg2;
-            var6 = arg3;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 8;
-            var1 = var3[var1];
-            var4 = undefined;
-            var7 = var2.bind(var4)(var1);
-            var2 = var7.dispatch;
-            var1 = {};
-            var10 = 'EMOJI_DELETE';
-            var1['type'] = var10;
-            var1['guildId'] = var9;
-            var1['emojiId'] = var8;
-            var1 = var2.bind(var7)(var1);
+            var11 = arg1;
+            var10 = arg2;
+            var9 = arg3;
+            var3 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var2 = 8;
+            var2 = var1[var2];
+            var6 = undefined;
+            var5 = var3.bind(var6)(var2);
+            var3 = var5.dispatch;
+            var2 = {};
+            var7 = 'EMOJI_DELETE';
+            var2['type'] = var7;
+            var2['guildId'] = var11;
+            var2['emojiId'] = var10;
+            var2 = var3.bind(var5)(var2);
             var2 = _closure1_slot0;
-            var1 = 9;
-            var1 = var3[var1];
-            var1 = var2.bind(var4)(var1);
+            var7 = 9;
+            var1 = var1[var7];
+            var1 = var2.bind(var6)(var1);
             var3 = var1.HTTP;
             var2 = var3.del;
             var1 = {};
-            var7 = _closure1_slot7;
-            var5 = var7.GUILD_EMOJI;
-            var5 = var5.bind(var7)(var9, var8);
+            var8 = _closure1_slot7;
+            var5 = var8.GUILD_EMOJI;
+            var5 = var5.bind(var8)(var11, var10);
             var1['url'] = var5;
             var5 = null;
-            var5 = var5 != var6;
-            if(!var5) { _fun0006_ip = 29; continue _fun0006 }
-case 30:
-            var5 = {};
-            var5['replaced_by'] = var6;
-            var4 = var5;
+            var8 = var5 != var9;
+            var5 = undefined;
+            if(!var8) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
-            var1['body'] = var4;
-            var4 = true;
-            var1['oldFormErrors'] = var4;
-            var4 = false;
+            var8 = {};
+            var8['replaced_by'] = var9;
+            var5 = var8;
+case 28:
+            var1['body'] = var5;
+            var5 = true;
+            var1['oldFormErrors'] = var5;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var7];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.rejectWithMigratedError;
+            var4 = var4.bind(var5)();
             var1['rejectWithError'] = var4;
             var3 = var2.bind(var3)(var1);
             var2 = var3.then;
@@ -541,8 +553,8 @@ case 0:
             var5 = var5.bind(var1)(var4);
             var _closure2_slot0 = var5;
             var4 = null;
-            if(!(var4 != var5)) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
+            if(!(var4 != var5)) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 6;
@@ -571,23 +583,23 @@ case 0:
                     var1 = var3.emojis;
                     var2 = var2.bind(var4)(var1);
                     var1 = _closure1_slot8;
-                    if(!(!(var2 >= var1))) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
+                    if(!(!(var2 >= var1))) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
                     var5 = var3.emojis;
                     var4 = var5.includes;
                     var1 = _closure2_slot0;
                     var1 = var4.bind(var5)(var1);
                     var1 = !var1;
-                    if(!var1) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
+                    if(!var1) { _fun0008_ip = 34; continue _fun0008 }
+case 35:
                     var4 = var3.emojis;
                     var3 = var4.push;
                     var2 = _closure2_slot0;
                     var2 = var3.bind(var4)(var2);
                     var1 = undefined;
-case 35:
-                    _fun0008_ip = 37; continue _fun0008;
-case 33:
+case 34:
+                    _fun0008_ip = 36; continue _fun0008;
+case 32:
                     var3 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var2 = 18;
@@ -622,12 +634,12 @@ case 33:
                     var2['body'] = var5;
                     var2 = var3.bind(var4)(var2);
                     var1 = false;
-case 37:
+case 36:
                     return var1;
                 }
             };
             var2 = var5.bind(var6)(var3, var2, var4);
-case 31:
+case 30:
             return var1;
         }
     };
@@ -641,8 +653,8 @@ case 0:
             var5 = var5.bind(var1)(var4);
             var _closure2_slot0 = var5;
             var4 = null;
-            if(!(var4 != var5)) { _fun0009_ip = 31; continue _fun0009 }
-case 32:
+            if(!(var4 != var5)) { _fun0009_ip = 30; continue _fun0009 }
+case 31:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var4 = 6;
@@ -666,11 +678,11 @@ case 0:
                     var4 = var5.includes;
                     var2 = _closure2_slot0;
                     var2 = var4.bind(var5)(var2);
-                    if(var2) { _fun0010_ip = 38; continue _fun0010 }
-case 39:
+                    if(var2) { _fun0010_ip = 37; continue _fun0010 }
+case 38:
                     var2 = false;
                     return var2;
-case 38:
+case 37:
                     var5 = var3.emojis;
                     var4 = var5.filter;
                     var2 = function(arg1) {
@@ -685,7 +697,7 @@ case 38:
                 }
             };
             var2 = var5.bind(var6)(var3, var2, var4);
-case 31:
+case 30:
             return var1;
         }
     };

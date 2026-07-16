@@ -84,39 +84,48 @@ case 2:
             var2[3] = var7;
             var2[4] = var6;
             var2[5] = var5;
-            var1 = function(arg1) {
-                var3 = _closure1_slot1;
-                var9 = _closure1_slot2;
-                var1 = 5;
-                var2 = var9[var1];
-                var1 = undefined;
-                var5 = var3.bind(var1)(var2);
-                var4 = var5.track;
-                var2 = _closure1_slot4;
-                var3 = var2.SHOP_PRODUCT_DETAIL_PAGE_CLICKED;
-                var2 = {};
-                var8 = _closure2_slot0;
-                var2['sku_id'] = var8;
-                var8 = arg1;
-                var2['cta'] = var8;
-                var8 = _closure2_slot4;
-                var2['shop_session_id'] = var8;
-                var8 = _closure2_slot3;
-                var2['card_id'] = var8;
-                var8 = _closure2_slot1;
-                var2['product_sku_ids'] = var8;
-                var8 = _closure2_slot2;
-                var2['location_stack'] = var8;
-                var8 = _closure1_slot0;
-                var7 = 4;
-                var7 = var9[var7];
-                var8 = var8.bind(var1)(var7);
-                var7 = var8.getAnalyticsShopDiscountSource;
-                var6 = _closure2_slot5;
-                var6 = var7.bind(var8)(var6);
-                var2['discount_source'] = var6;
-                var2 = var4.bind(var5)(var3, var2);
-                return var1;
+            var1 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var6 = arg2;
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 5;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.track;
+                    var2 = _closure1_slot4;
+                    var3 = var2.SHOP_PRODUCT_DETAIL_PAGE_CLICKED;
+                    var2 = {};
+                    var8 = null;
+                    if(!(var8 == var6)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var6 = _closure2_slot0;
+case 4:
+                    var2['sku_id'] = var6;
+                    var6 = arg1;
+                    var2['cta'] = var6;
+                    var8 = _closure2_slot4;
+                    var2['shop_session_id'] = var8;
+                    var8 = _closure2_slot3;
+                    var2['card_id'] = var8;
+                    var8 = _closure2_slot1;
+                    var2['product_sku_ids'] = var8;
+                    var8 = _closure2_slot2;
+                    var2['location_stack'] = var8;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = 4;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var1)(var7);
+                    var7 = var8.getAnalyticsShopDiscountSource;
+                    var6 = _closure2_slot5;
+                    var6 = var7.bind(var8)(var6);
+                    var2['discount_source'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
+                }
             };
             var1 = var3.bind(var4)(var1, var2);
             return var1;

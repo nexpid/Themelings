@@ -1163,8 +1163,11 @@ case 62:
     var4['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var13;
     var13 = function handleConversationFetchSuccess(arg1) {
         var1 = arg1;
-        var4 = var1.messages;
-        var3 = _closure1_slot23;
+        var3 = var1.messages;
+        var2 = var1.messageReferences;
+        var4 = _closure1_slot23;
+        var1 = var3.concat;
+        var3 = var1.bind(var3)(var2);
         var2 = undefined;
         var1 = function(arg1) {
             var3 = _closure1_slot22;
@@ -1173,7 +1176,7 @@ case 62:
             var1 = var3.bind(var2)(var1);
             return var1;
         };
-        var1 = var3.bind(var2)(var4, var1);
+        var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
     var4['CONVERSATION_FETCH_SUCCESS'] = var13;

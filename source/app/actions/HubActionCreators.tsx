@@ -28,31 +28,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var7 = function signup(arg1, arg2) {
         var2 = _closure1_slot1;
-        var8 = _closure1_slot2;
+        var7 = _closure1_slot2;
         var1 = 2;
-        var1 = var8[var1];
-        var7 = undefined;
-        var3 = var2.bind(var7)(var1);
+        var1 = var7[var1];
+        var6 = undefined;
+        var3 = var2.bind(var6)(var1);
         var2 = var3.post;
         var1 = {};
         var4 = _closure1_slot4;
         var4 = var4.HUB_WAITLIST_SIGNUP;
         var1['url'] = var4;
         var4 = {};
-        var6 = arg1;
-        var4['email'] = var6;
-        var6 = arg2;
-        var4['school'] = var6;
+        var8 = arg1;
+        var4['email'] = var8;
+        var8 = arg2;
+        var4['school'] = var8;
         var1['body'] = var4;
         var4 = {};
-        var6 = _closure1_slot0;
-        var5 = 3;
-        var5 = var8[var5];
-        var5 = var6.bind(var7)(var5);
-        var5 = var5.NetworkActionNames;
-        var5 = var5.HUB_WAITLIST_SIGNUP;
-        var4['event'] = var5;
-        var5 = function properties(arg1) {
+        var5 = _closure1_slot0;
+        var8 = 3;
+        var8 = var7[var8];
+        var8 = var5.bind(var6)(var8);
+        var8 = var8.NetworkActionNames;
+        var8 = var8.HUB_WAITLIST_SIGNUP;
+        var4['event'] = var8;
+        var8 = function properties(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var2 = arg1;
@@ -94,9 +94,13 @@ case 5:
                 return var1;
             }
         };
-        var4['properties'] = var5;
+        var4['properties'] = var8;
         var1['trackedActionData'] = var4;
-        var4 = false;
+        var4 = 5;
+        var4 = var7[var4];
+        var5 = var5.bind(var6)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -120,11 +124,11 @@ case 0:
                     if(var2) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
                     var3 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var2 = 2;
-                    var2 = var9[var2];
-                    var8 = undefined;
-                    var4 = var3.bind(var8)(var2);
+                    var2 = var8[var2];
+                    var7 = undefined;
+                    var4 = var3.bind(var7)(var2);
                     var3 = var4.post;
                     var2 = {};
                     var5 = _closure1_slot4;
@@ -135,20 +139,20 @@ case 8:
                     var5['email'] = var10;
                     var10 = _closure2_slot2;
                     var5['guild_id'] = var10;
-                    var7 = _closure2_slot1;
-                    var5['allow_multiple_guilds'] = var7;
-                    var7 = true;
-                    var5['use_verification_code'] = var7;
+                    var9 = _closure2_slot1;
+                    var5['allow_multiple_guilds'] = var9;
+                    var9 = true;
+                    var5['use_verification_code'] = var9;
                     var2['body'] = var5;
                     var5 = {};
-                    var7 = _closure1_slot0;
-                    var6 = 3;
-                    var6 = var9[var6];
-                    var6 = var7.bind(var8)(var6);
-                    var6 = var6.NetworkActionNames;
-                    var6 = var6.HUB_EMAIL_VERIFY_SEND;
-                    var5['event'] = var6;
-                    var6 = function properties(arg1) {
+                    var6 = _closure1_slot0;
+                    var9 = 3;
+                    var9 = var8[var9];
+                    var9 = var6.bind(var7)(var9);
+                    var9 = var9.NetworkActionNames;
+                    var9 = var9.HUB_EMAIL_VERIFY_SEND;
+                    var5['event'] = var9;
+                    var9 = function properties(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                             var1 = arg1;
@@ -177,12 +181,16 @@ case 9:
                             return var1;
                         }
                     };
-                    var5['properties'] = var6;
+                    var5['properties'] = var9;
                     var2['trackedActionData'] = var5;
-                    var5 = false;
+                    var5 = 5;
+                    var5 = var8[var5];
+                    var6 = var6.bind(var7)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=172);
+                    SaveGenerator(address=192);
 case 10:
                     return var2;
 case 11:
@@ -224,9 +232,9 @@ case 8:
                     if(!(var7 != var3)) { _fun0004_ip = 15; continue _fun0004 }
 case 4: // try_start_0
                     var6 = _closure1_slot1;
-                    var12 = _closure1_slot2;
+                    var11 = _closure1_slot2;
                     var3 = 2;
-                    var3 = var12[var3];
+                    var3 = var11[var3];
                     var8 = var6.bind(var2)(var3);
                     var6 = var8.post;
                     var3 = {};
@@ -238,18 +246,22 @@ case 4: // try_start_0
                     var9['token'] = var10;
                     var3['body'] = var9;
                     var9 = {};
-                    var11 = _closure1_slot0;
-                    var10 = 3;
-                    var10 = var12[var10];
-                    var10 = var11.bind(var2)(var10);
-                    var10 = var10.NetworkActionNames;
-                    var10 = var10.HUB_EMAIL_VERIFY;
-                    var9['event'] = var10;
+                    var10 = _closure1_slot0;
+                    var12 = 3;
+                    var12 = var11[var12];
+                    var12 = var10.bind(var2)(var12);
+                    var12 = var12.NetworkActionNames;
+                    var12 = var12.HUB_EMAIL_VERIFY;
+                    var9['event'] = var12;
                     var3['trackedActionData'] = var9;
-                    var9 = false;
+                    var9 = 5;
+                    var9 = var11[var9];
+                    var10 = var10.bind(var2)(var9);
+                    var9 = var10.rejectWithMigratedError;
+                    var9 = var9.bind(var10)();
                     var3['rejectWithError'] = var9;
                     var3 = var6.bind(var8)(var3);
-                    SaveGenerator(address=145);
+                    SaveGenerator(address=165);
 case 16:
                     return var3;
 case 17:
@@ -267,7 +279,7 @@ case 20:
 case 13:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 5;
+                    var4 = 6;
                     var4 = var6[var4];
                     var6 = var5.bind(var2)(var4);
                     var5 = var6.dispatch;
@@ -284,7 +296,7 @@ case 22: // catch_target0
                     CatchBlockStart(arg_register=5);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var3 = 5;
+                    var3 = 6;
                     var3 = var5[var3];
                     var5 = var4.bind(var2)(var3);
                     var4 = var5.dispatch;
@@ -334,9 +346,9 @@ case 25:
                     return var5;
 case 24: // try_start_0
                     var7 = _closure1_slot1;
-                    var13 = _closure1_slot2;
+                    var12 = _closure1_slot2;
                     var2 = 2;
-                    var2 = var13[var2];
+                    var2 = var12[var2];
                     var9 = var7.bind(var5)(var2);
                     var7 = var9.post;
                     var2 = {};
@@ -344,26 +356,30 @@ case 24: // try_start_0
                     var10 = var10.HUB_EMAIL_VERIFY_CODE;
                     var2['url'] = var10;
                     var10 = {};
-                    var12 = _closure2_slot0;
-                    var10['code'] = var12;
-                    var12 = _closure2_slot1;
-                    var10['guild_id'] = var12;
+                    var13 = _closure2_slot0;
+                    var10['code'] = var13;
+                    var13 = _closure2_slot1;
+                    var10['guild_id'] = var13;
                     var11 = _closure2_slot2;
                     var10['email'] = var11;
                     var2['body'] = var10;
                     var10 = {};
-                    var12 = _closure1_slot0;
-                    var11 = 3;
-                    var11 = var13[var11];
-                    var11 = var12.bind(var5)(var11);
-                    var11 = var11.NetworkActionNames;
-                    var11 = var11.HUB_EMAIL_VERIFY;
-                    var10['event'] = var11;
+                    var11 = _closure1_slot0;
+                    var13 = 3;
+                    var13 = var12[var13];
+                    var13 = var11.bind(var5)(var13);
+                    var13 = var13.NetworkActionNames;
+                    var13 = var13.HUB_EMAIL_VERIFY;
+                    var10['event'] = var13;
                     var2['trackedActionData'] = var10;
-                    var10 = false;
+                    var10 = 5;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var5)(var10);
+                    var10 = var11.rejectWithMigratedError;
+                    var10 = var10.bind(var11)();
                     var2['rejectWithError'] = var10;
                     var2 = var7.bind(var9)(var2);
-                    SaveGenerator(address=163);
+                    SaveGenerator(address=183);
 case 26:
                     return var2;
 case 27:
@@ -382,7 +398,7 @@ case 31:
 case 30:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 5;
+                    var4 = 6;
                     var4 = var7[var4];
                     var7 = var6.bind(var5)(var4);
                     var6 = var7.dispatch;
@@ -400,7 +416,7 @@ case 33: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 5;
+                    var3 = 6;
                     var3 = var6[var3];
                     var5 = var4.bind(var5)(var3);
                     var4 = var5.dispatch;
@@ -422,7 +438,7 @@ case 23:
         return var1;
     };
     var2['verifyCode'] = var4;
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

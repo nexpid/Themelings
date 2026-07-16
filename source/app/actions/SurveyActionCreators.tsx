@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.Endpoints;
     var _closure1_slot7 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -119,26 +119,26 @@ case 8:
             var5['disable_auto_seen'] = var2;
 case 7:
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var2 = 4;
-            var2 = var9[var2];
-            var8 = undefined;
-            var4 = var3.bind(var8)(var2);
+            var2 = var8[var2];
+            var7 = undefined;
+            var4 = var3.bind(var7)(var2);
             var3 = var4.get;
             var2 = {};
-            var7 = _closure1_slot7;
-            var7 = var7.USER_SURVEY;
-            var2['url'] = var7;
+            var9 = _closure1_slot7;
+            var9 = var9.USER_SURVEY;
+            var2['url'] = var9;
             var2['query'] = var5;
             var5 = {};
-            var7 = _closure1_slot0;
-            var6 = 5;
-            var6 = var9[var6];
-            var6 = var7.bind(var8)(var6);
-            var6 = var6.NetworkActionNames;
-            var6 = var6.USER_SURVEY_FETCH;
-            var5['event'] = var6;
-            var6 = function properties(arg1) {
+            var6 = _closure1_slot0;
+            var9 = 5;
+            var9 = var8[var9];
+            var9 = var6.bind(var7)(var9);
+            var9 = var9.NetworkActionNames;
+            var9 = var9.USER_SURVEY_FETCH;
+            var5['event'] = var9;
+            var9 = function properties(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = arg1;
@@ -173,9 +173,13 @@ case 10:
                     return var1;
                 }
             };
-            var5['properties'] = var6;
+            var5['properties'] = var9;
             var2['trackedActionData'] = var5;
-            var5 = false;
+            var5 = 7;
+            var5 = var8[var5];
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.rejectWithMigratedError;
+            var5 = var5.bind(var6)();
             var2['rejectWithError'] = var5;
             var4 = var3.bind(var4)(var2);
             var3 = var4.then;
@@ -263,35 +267,35 @@ case 19:
             return var1;
 case 17:
             var2 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var1 = 2;
-            var1 = var9[var1];
-            var8 = undefined;
-            var4 = var2.bind(var8)(var1);
+            var1 = var7[var1];
+            var6 = undefined;
+            var4 = var2.bind(var6)(var1);
             var3 = var4.dispatch;
             var1 = {};
-            var7 = 'SURVEY_SEEN';
-            var1['type'] = var7;
+            var9 = 'SURVEY_SEEN';
+            var1['type'] = var9;
             var1['key'] = var10;
             var1 = var3.bind(var4)(var1);
             var1 = 4;
-            var1 = var9[var1];
-            var3 = var2.bind(var8)(var1);
+            var1 = var7[var1];
+            var3 = var2.bind(var6)(var1);
             var2 = var3.post;
             var1 = {};
-            var7 = _closure1_slot7;
-            var4 = var7.USER_SURVEY_SEEN;
-            var4 = var4.bind(var7)(var10);
+            var9 = _closure1_slot7;
+            var4 = var9.USER_SURVEY_SEEN;
+            var4 = var4.bind(var9)(var10);
             var1['url'] = var4;
             var4 = {};
-            var7 = _closure1_slot0;
-            var6 = 5;
-            var6 = var9[var6];
-            var6 = var7.bind(var8)(var6);
-            var6 = var6.NetworkActionNames;
-            var6 = var6.USER_SURVEY_SEEN;
-            var4['event'] = var6;
-            var5 = function properties() {
+            var5 = _closure1_slot0;
+            var9 = 5;
+            var9 = var7[var9];
+            var9 = var5.bind(var6)(var9);
+            var9 = var9.NetworkActionNames;
+            var9 = var9.USER_SURVEY_SEEN;
+            var4['event'] = var9;
+            var8 = function properties() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 6;
@@ -305,9 +309,13 @@ case 17:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var4['properties'] = var5;
+            var4['properties'] = var8;
             var1['trackedActionData'] = var4;
-            var4 = false;
+            var4 = 7;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.rejectWithMigratedError;
+            var4 = var4.bind(var5)();
             var1['rejectWithError'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;

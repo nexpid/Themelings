@@ -1,11 +1,11 @@
 // app/modules/collectibles/native/CollectiblesBadges.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -20,13 +20,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var4 = 1;
-    var4 = var6[var4];
+    var12 = 1;
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot3 = var4;
-    var10 = 2;
-    var4 = var6[var10];
+    var13 = 2;
+    var4 = var6[var13];
     var4 = var5.bind(var1)(var4);
     var4 = var4.PremiumTypes;
     var _closure1_slot4 = var4;
@@ -43,78 +43,113 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var11 = 5;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BACKGROUND_BRAND;
-    var9['backgroundColor'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.round;
-    var9['borderRadius'] = var13;
-    var13 = 6;
-    var9['paddingHorizontal'] = var13;
-    var9['paddingVertical'] = var10;
-    var4['newIconBadge'] = var9;
-    var9 = {};
     var10 = 'uppercase';
     var9['textTransform'] = var10;
-    var4['newIconBadgeText'] = var9;
+    var4['badgeTextUppercase'] = var9;
     var9 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
+    var10 = 5;
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.WHITE;
+    var9['backgroundColor'] = var14;
+    var4['badgeSurfaceDarkMode'] = var9;
+    var9 = {};
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BADGE_BACKGROUND_BRAND;
+    var9['backgroundColor'] = var14;
+    var4['badgeSurfaceLightMode'] = var9;
+    var9 = {};
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_BRAND;
+    var9['backgroundColor'] = var14;
+    var14 = var6[var10];
+    var14 = var11.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.round;
+    var9['borderRadius'] = var14;
+    var14 = 6;
+    var9['paddingHorizontal'] = var14;
+    var9['paddingVertical'] = var13;
+    var4['newIconBadge'] = var9;
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
     var13 = var13.WHITE;
     var9['backgroundColor'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.radii;
     var13 = var13.md;
     var9['borderRadius'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.space;
     var13 = var13.PX_8;
     var9['paddingHorizontal'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.space;
     var13 = var13.PX_4;
     var9['paddingVertical'] = var13;
     var4['limitedTimeBadge'] = var9;
     var9 = {};
-    var9['textTransform'] = var10;
-    var4['limitedTimeBadgeText'] = var9;
-    var9 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
     var13 = var13.ICON_OVERLAY_DARK;
     var9['backgroundColor'] = var13;
-    var9['padding'] = var11;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
+    var9['padding'] = var10;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.radii;
     var13 = var13.round;
     var9['borderRadius'] = var13;
     var4['lockIconBadge'] = var9;
     var9 = {'backgroundColor': null, 'flexDirection': 'row', 'paddingHorizontal': 5, 'paddingVertical': 3, 'borderRadius': null, 'alignItems': 'center', 'gap': 2};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.unsafe_rawColors;
     var13 = var13.PREMIUM_TIER_2_PINK_FOR_GRADIENTS_2;
     var9['backgroundColor'] = var13;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.radii;
-    var11 = var11.round;
-    var9['borderRadius'] = var11;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.round;
+    var9['borderRadius'] = var13;
     var4['newLockIconBadge'] = var9;
     var9 = {};
-    var9['textTransform'] = var10;
-    var4['newLockIconBadgeText'] = var9;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_4;
+    var9['paddingHorizontal'] = var13;
+    var13 = 1.5;
+    var9['paddingVertical'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.round;
+    var9['borderRadius'] = var13;
+    var9['flexShrink'] = var12;
+    var4['badgePill'] = var9;
+    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4, 'paddingHorizontal': null, 'paddingVertical': 2};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_8;
+    var9['paddingHorizontal'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.radii;
+    var10 = var10.round;
+    var9['borderRadius'] = var10;
+    var4['iconTextBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
     var4 = 11;
@@ -144,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10.bind(var4)(var5);
         var6 = var5.Text;
         var5 = {'variant': 'text-sm/bold', 'color': 'text-overlay-light'};
-        var7 = var7.newIconBadgeText;
+        var7 = var7.badgeTextUppercase;
         var5['style'] = var7;
         var7 = 7;
         var8 = var11[var7];
@@ -245,7 +280,7 @@ case 4:
             var7 = var13.bind(var5)(var7);
             var8 = var7.Text;
             var7 = {'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
-            var10 = var10.newLockIconBadgeText;
+            var10 = var10.badgeTextUppercase;
             var7['style'] = var10;
             var10 = 7;
             var11 = var14[var10];
@@ -349,7 +384,7 @@ case 4:
             var7 = var13.bind(var5)(var7);
             var8 = var7.Text;
             var7 = {'variant': 'text-xs/bold', 'color': 'text-overlay-light'};
-            var10 = var10.newLockIconBadgeText;
+            var10 = var10.badgeTextUppercase;
             var7['style'] = var10;
             var10 = 7;
             var11 = var14[var10];
@@ -371,7 +406,7 @@ case 6:
         }
     };
     var3['PremiumBadge'] = var4;
-    var2 = function LimitedTimeBadge(arg1) {
+    var4 = function LimitedTimeBadge(arg1) {
         var1 = arg1;
         var8 = var1.style;
         var1 = _closure1_slot7;
@@ -392,7 +427,7 @@ case 6:
         var5 = var10.bind(var4)(var5);
         var6 = var5.Text;
         var5 = {'variant': 'text-xs/bold', 'color': 'text-overlay-dark'};
-        var7 = var7.limitedTimeBadgeText;
+        var7 = var7.badgeTextUppercase;
         var5['style'] = var7;
         var7 = 7;
         var8 = var11[var7];
@@ -410,6 +445,114 @@ case 6:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['LimitedTimeBadge'] = var2;
+    var3['LimitedTimeBadge'] = var4;
+    var4 = function IconBadgePill(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var7 = var1.icon;
+            var6 = var1.accessibilityLabel;
+            var9 = var1.isDark;
+            var1 = _closure1_slot7;
+            var4 = undefined;
+            var11 = var1.bind(var4)();
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var10 = var11.badgePill;
+            var8 = new Array(2);
+            var8[0] = var10;
+            if(var9) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
+            var10 = var11.badgeSurfaceLightMode;
+            _fun0003_ip = 9; continue _fun0003;
+case 7:
+            var10 = var11.badgeSurfaceDarkMode;
+case 9:
+            var8[1] = var10;
+            var1['style'] = var8;
+            var1['accessibilityLabel'] = var6;
+            var6 = _closure1_slot5;
+            var5 = {};
+            var8 = 'xs';
+            var5['size'] = var8;
+            var8 = 'white';
+            if(!var9) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
+            var8 = 'black';
+case 10:
+            var5['color'] = var8;
+            var5 = var6.bind(var4)(var7, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['IconBadgePill'] = var4;
+    var2 = function IconTextBadge(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+            var1 = arg1;
+            var8 = var1.icon;
+            var9 = var1.label;
+            var12 = var1.isDark;
+            var1 = _closure1_slot7;
+            var4 = undefined;
+            var10 = var1.bind(var4)();
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var7 = var10.iconTextBadge;
+            var5 = new Array(2);
+            var5[0] = var7;
+            if(var12) { _fun0004_ip = 7; continue _fun0004 }
+case 8:
+            var7 = var10.badgeSurfaceLightMode;
+            _fun0004_ip = 9; continue _fun0004;
+case 7:
+            var7 = var10.badgeSurfaceDarkMode;
+case 9:
+            var5[1] = var7;
+            var1['style'] = var5;
+            var7 = _closure1_slot5;
+            var5 = {};
+            var11 = 'xs';
+            var5['size'] = var11;
+            var11 = 'white';
+            if(!var12) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
+            var11 = 'black';
+case 11:
+            var5['color'] = var11;
+            var7 = var7.bind(var4)(var8, var5);
+            var5 = new Array(2);
+            var5[0] = var7;
+            var8 = _closure1_slot5;
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var6 = 6;
+            var6 = var11[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Text;
+            var6 = {};
+            var11 = 'text-xs/bold';
+            var6['variant'] = var11;
+            var11 = 'text-overlay-light';
+            if(!var12) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
+            var11 = 'text-overlay-dark';
+case 13:
+            var6['color'] = var11;
+            var10 = var10.badgeTextUppercase;
+            var6['style'] = var10;
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['IconTextBadge'] = var2;
     return var1;
 })();

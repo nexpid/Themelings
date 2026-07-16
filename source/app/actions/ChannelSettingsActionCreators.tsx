@@ -198,37 +198,37 @@ case 2:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     StartGenerator();
-                    var36 = arg1;
+                    var38 = arg1;
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0002_ip = 7; continue _fun0002 }
 case 8:
-                    var _closure4_slot0 = var36;
-                    var34 = var2.name;
-                    var33 = var2.type;
-                    var32 = var2.position;
-                    var31 = var2.topic;
-                    var30 = var2.bitrate;
-                    var29 = var2.userLimit;
-                    var28 = var2.nsfw;
-                    var27 = var2.flags;
-                    var26 = var2.permissionOverwrites;
-                    var25 = var2.rateLimitPerUser;
-                    var24 = var2.defaultThreadRateLimitPerUser;
-                    var23 = var2.defaultAutoArchiveDuration;
-                    var22 = var2.template;
-                    var20 = var2.defaultReactionEmoji;
-                    var21 = var2.rtcRegion;
-                    var18 = var2.videoQualityMode;
-                    var17 = var2.autoArchiveDuration;
-                    var16 = var2.locked;
-                    var11 = var2.invitable;
-                    var19 = var2.availableTags;
-                    var15 = var2.defaultSortOrder;
-                    var14 = var2.defaultForumLayout;
+                    var _closure4_slot0 = var38;
+                    var36 = var2.name;
+                    var35 = var2.type;
+                    var34 = var2.position;
+                    var33 = var2.topic;
+                    var32 = var2.bitrate;
+                    var31 = var2.userLimit;
+                    var30 = var2.nsfw;
+                    var29 = var2.flags;
+                    var28 = var2.permissionOverwrites;
+                    var27 = var2.rateLimitPerUser;
+                    var26 = var2.defaultThreadRateLimitPerUser;
+                    var25 = var2.defaultAutoArchiveDuration;
+                    var24 = var2.template;
+                    var22 = var2.defaultReactionEmoji;
+                    var23 = var2.rtcRegion;
+                    var20 = var2.videoQualityMode;
+                    var19 = var2.autoArchiveDuration;
+                    var18 = var2.locked;
+                    var14 = var2.invitable;
+                    var21 = var2.availableTags;
+                    var17 = var2.defaultSortOrder;
+                    var16 = var2.defaultForumLayout;
                     var13 = var2.defaultTagSetting;
-                    var12 = var2.iconEmoji;
-                    var9 = var2.themeColor;
+                    var15 = var2.iconEmoji;
+                    var12 = var2.themeColor;
                     var10 = undefined;
                     var _closure4_slot1 = var10;
                     SaveGenerator(address=178);
@@ -240,23 +240,23 @@ case 10:
 case 12:
                     var5 = _closure1_slot5;
                     var3 = var5.getChannel;
-                    var3 = var3.bind(var5)(var36);
+                    var3 = var3.bind(var5)(var38);
                     _closure4_slot1 = var3;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 4;
                     var3 = var6[var3];
-                    var35 = var5.bind(var10)(var3);
-                    var7 = var35.dispatch;
+                    var9 = var5.bind(var10)(var3);
+                    var7 = var9.dispatch;
                     var3 = {};
-                    var37 = 'CHANNEL_SETTINGS_SUBMIT';
-                    var3['type'] = var37;
-                    var3 = var7.bind(var35)(var3);
+                    var11 = 'CHANNEL_SETTINGS_SUBMIT';
+                    var3['type'] = var11;
+                    var3 = var7.bind(var9)(var3);
                     var3 = 6;
                     var3 = var6[var3];
                     var5 = var5.bind(var10)(var3);
                     var3 = var5.unarchiveThreadIfNecessary;
-                    var3 = var3.bind(var5)(var36);
+                    var3 = var3.bind(var5)(var38);
                     SaveGenerator(address=277);
 case 13:
                     return var3;
@@ -265,70 +265,70 @@ case 14:
                     if(var5) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
                     var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var5 = 7;
-                    var5 = var7[var5];
+                    var5 = _closure1_slot2;
+                    var11 = 7;
+                    var5 = var5[var11];
                     var5 = var6.bind(var10)(var5);
                     var7 = var5.HTTP;
                     var6 = var7.patch;
                     var5 = {};
-                    var35 = _closure1_slot6;
-                    var8 = var35.CHANNEL;
-                    var8 = var8.bind(var35)(var36);
-                    var5['url'] = var8;
-                    var8 = {};
-                    var8['name'] = var34;
-                    var8['type'] = var33;
-                    var8['position'] = var32;
-                    var8['topic'] = var31;
-                    var8['bitrate'] = var30;
-                    var8['user_limit'] = var29;
-                    var8['nsfw'] = var28;
-                    var8['flags'] = var27;
-                    var8['permission_overwrites'] = var26;
-                    var8['rate_limit_per_user'] = var25;
-                    var8['default_thread_rate_limit_per_user'] = var24;
-                    var8['default_auto_archive_duration'] = var23;
-                    var8['template'] = var22;
-                    var8['rtc_region'] = var21;
-                    var8['video_quality_mode'] = var18;
-                    var8['auto_archive_duration'] = var17;
-                    var8['locked'] = var16;
-                    var8['invitable'] = var11;
-                    var11 = null;
-                    if(!(var11 == var20)) { _fun0002_ip = 17; continue _fun0002 }
+                    var37 = _closure1_slot6;
+                    var9 = var37.CHANNEL;
+                    var9 = var9.bind(var37)(var38);
+                    var5['url'] = var9;
+                    var9 = {};
+                    var9['name'] = var36;
+                    var9['type'] = var35;
+                    var9['position'] = var34;
+                    var9['topic'] = var33;
+                    var9['bitrate'] = var32;
+                    var9['user_limit'] = var31;
+                    var9['nsfw'] = var30;
+                    var9['flags'] = var29;
+                    var9['permission_overwrites'] = var28;
+                    var9['rate_limit_per_user'] = var27;
+                    var9['default_thread_rate_limit_per_user'] = var26;
+                    var9['default_auto_archive_duration'] = var25;
+                    var9['template'] = var24;
+                    var9['rtc_region'] = var23;
+                    var9['video_quality_mode'] = var20;
+                    var9['auto_archive_duration'] = var19;
+                    var9['locked'] = var18;
+                    var9['invitable'] = var14;
+                    var14 = null;
+                    if(!(var14 == var22)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
-                    var16 = undefined;
-                    if(!(var11 === var20)) { _fun0002_ip = 19; continue _fun0002 }
+                    var18 = undefined;
+                    if(!(var14 === var22)) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
-                    var16 = null;
+                    var18 = null;
 case 19:
                     _fun0002_ip = 21; continue _fun0002;
 case 17:
-                    var17 = {};
-                    var21 = var11 == var20;
-                    var18 = undefined;
-                    if(var21) { _fun0002_ip = 22; continue _fun0002 }
+                    var19 = {};
+                    var23 = var14 == var22;
+                    var20 = undefined;
+                    if(var23) { _fun0002_ip = 22; continue _fun0002 }
 case 23:
-                    var18 = var20.emojiId;
+                    var20 = var22.emojiId;
 case 22:
-                    var17['emoji_id'] = var18;
-                    var21 = var11 == var20;
-                    var18 = undefined;
-                    if(var21) { _fun0002_ip = 24; continue _fun0002 }
+                    var19['emoji_id'] = var20;
+                    var23 = var14 == var22;
+                    var20 = undefined;
+                    if(var23) { _fun0002_ip = 24; continue _fun0002 }
 case 25:
-                    var18 = var20.emojiName;
+                    var20 = var22.emojiName;
 case 24:
-                    var17['emoji_name'] = var18;
-                    var16 = var17;
+                    var19['emoji_name'] = var20;
+                    var18 = var19;
 case 21:
-                    var8['default_reaction_emoji'] = var16;
-                    var17 = var11 == var19;
-                    var16 = undefined;
-                    if(var17) { _fun0002_ip = 26; continue _fun0002 }
+                    var9['default_reaction_emoji'] = var18;
+                    var19 = var14 == var21;
+                    var18 = undefined;
+                    if(var19) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-                    var18 = var19.map;
-                    var17 = function(arg1) {
+                    var20 = var21.map;
+                    var19 = function(arg1) {
                         var2 = arg1;
                         var1 = {};
                         var3 = var2.id;
@@ -343,34 +343,39 @@ case 27:
                         var1['moderated'] = var2;
                         return var1;
                     };
-                    var16 = var18.bind(var19)(var17);
+                    var18 = var20.bind(var21)(var19);
 case 26:
-                    var8['available_tags'] = var16;
-                    var8['default_sort_order'] = var15;
-                    var8['default_forum_layout'] = var14;
-                    var8['default_tag_setting'] = var13;
-                    if(!(var11 == var12)) { _fun0002_ip = 28; continue _fun0002 }
+                    var9['available_tags'] = var18;
+                    var9['default_sort_order'] = var17;
+                    var9['default_forum_layout'] = var16;
+                    var9['default_tag_setting'] = var13;
+                    if(!(var14 == var15)) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
-                    var10 = undefined;
-                    if(!(var11 === var12)) { _fun0002_ip = 30; continue _fun0002 }
+                    var13 = undefined;
+                    if(!(var14 === var15)) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
-                    var10 = null;
+                    var13 = null;
 case 30:
                     _fun0002_ip = 32; continue _fun0002;
 case 28:
-                    var11 = {};
-                    var13 = var12.id;
-                    var11['id'] = var13;
-                    var12 = var12.name;
-                    var11['name'] = var12;
-                    var10 = var11;
+                    var14 = {};
+                    var16 = var15.id;
+                    var14['id'] = var16;
+                    var15 = var15.name;
+                    var14['name'] = var15;
+                    var13 = var14;
 case 32:
-                    var8['icon_emoji'] = var10;
-                    var8['theme_color'] = var9;
-                    var5['body'] = var8;
-                    var8 = true;
-                    var5['oldFormErrors'] = var8;
-                    var8 = false;
+                    var9['icon_emoji'] = var13;
+                    var9['theme_color'] = var12;
+                    var5['body'] = var9;
+                    var9 = true;
+                    var5['oldFormErrors'] = var9;
+                    var9 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var8 = var8[var11];
+                    var9 = var9.bind(var10)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var5['rejectWithError'] = var8;
                     var7 = var6.bind(var7)(var5);
                     var6 = var7.then;
@@ -566,25 +571,28 @@ case 41:
     };
     var _closure1_slot11 = var1;
     var4 = function updateVoiceChannelStatus(arg1, arg2) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 7;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 7;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.put;
         var1 = {};
-        var6 = _closure1_slot6;
-        var5 = var6.UPDATE_VOICE_CHANNEL_STATUS;
-        var4 = arg1;
-        var4 = var5.bind(var6)(var4);
-        var1['url'] = var4;
-        var4 = {};
-        var5 = arg2;
-        var4['status'] = var5;
-        var1['body'] = var4;
-        var4 = false;
+        var10 = _closure1_slot6;
+        var9 = var10.UPDATE_VOICE_CHANNEL_STATUS;
+        var8 = arg1;
+        var8 = var9.bind(var10)(var8);
+        var1['url'] = var8;
+        var8 = {};
+        var9 = arg2;
+        var8['status'] = var9;
+        var1['body'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;

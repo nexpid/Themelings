@@ -378,49 +378,52 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
-                    var5 = {};
+                    var9 = {};
                     var2 = _closure2_slot3;
                     var3 = null;
                     if(!(var3 != var2)) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
                     var2 = _closure2_slot3;
-                    var5['channel_id'] = var2;
+                    var9['channel_id'] = var2;
 case 26:
                     var2 = _closure2_slot4;
                     if(!(var3 != var2)) { _fun0004_ip = 5; continue _fun0004 }
 case 28:
                     var2 = _closure2_slot4;
-                    var5['message_id'] = var2;
+                    var9['message_id'] = var2;
 case 5:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 5;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 5;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var10 = _closure1_slot5;
-                    var9 = var10.USER_ACTIVITY_JOIN;
-                    var8 = _closure2_slot0;
-                    var7 = _closure2_slot1;
-                    var6 = _closure2_slot2;
-                    var6 = var9.bind(var10)(var8, var7, var6);
-                    var2['url'] = var6;
-                    var6 = 3;
-                    var2['retries'] = var6;
-                    var2['query'] = var5;
-                    var5 = false;
+                    var14 = _closure1_slot5;
+                    var13 = var14.USER_ACTIVITY_JOIN;
+                    var12 = _closure2_slot0;
+                    var11 = _closure2_slot1;
+                    var10 = _closure2_slot2;
+                    var10 = var13.bind(var14)(var12, var11, var10);
+                    var2['url'] = var10;
+                    var10 = 3;
+                    var2['retries'] = var10;
+                    var2['query'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=151);
+                    SaveGenerator(address=168);
 case 29:
                     return var2;
-case 30:
+case 22:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                    if(var3) { _fun0004_ip = 30; continue _fun0004 }
+case 31:
                     var3 = {};
                     var4 = var2.body;
                     var4 = var4.secret;
@@ -429,7 +432,7 @@ case 32:
                     var4 = var4.join_url;
                     var3['joinUrl'] = var4;
                     return var3;
-case 31:
+case 30:
                     return var2;
 case 24:
                     return var1;
@@ -453,7 +456,7 @@ case 24:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 33; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 32; continue _fun0005 }
 case 25:
                     var4 = _closure2_slot0;
                     var3 = var4.map;
@@ -472,39 +475,42 @@ case 25:
                         var1['channel_id'] = var2;
                         return var1;
                     };
-                    var6 = var3.bind(var4)(var2);
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 5;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var10 = var3.bind(var4)(var2);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 5;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var5 = _closure1_slot5;
-                    var5 = var5.USER_ACTIVITY_SUBSCRIBE;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var5['subscriptions'] = var6;
-                    var2['body'] = var5;
-                    var5 = 1;
-                    var2['retries'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot5;
+                    var9 = var9.USER_ACTIVITY_SUBSCRIBE;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var9['subscriptions'] = var10;
+                    var2['body'] = var9;
+                    var9 = 1;
+                    var2['retries'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=122);
-case 34:
+                    SaveGenerator(address=139);
+case 33:
                     return var2;
-case 35:
+case 34:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                    if(var3) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
                     var3 = var2.body;
                     return var3;
-case 36:
+case 35:
                     return var2;
-case 33:
+case 32:
                     return var1;
                 }
             };

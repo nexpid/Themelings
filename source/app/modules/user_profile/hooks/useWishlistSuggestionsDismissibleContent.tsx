@@ -62,6 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['minItemsToDismiss'] = var11;
     var9[1] = var10;
+    var10 = {};
+    var11 = 10;
+    var10['minItemsToDismiss'] = var11;
+    var9[2] = var10;
     var4['variations'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;

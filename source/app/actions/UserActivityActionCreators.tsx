@@ -16,12 +16,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     StartGenerator();
-                    var10 = arg1;
+                    var13 = arg1;
                     var9 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var2 = var10.metadata;
+                    var2 = var13.metadata;
                     var5 = null;
                     if(!(var5 != var2)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
@@ -38,26 +38,33 @@ case 4:
                     var3 = var3.bind(var4)(var9);
                     if(!(var5 == var3)) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-                    var4 = var10.session_id;
+                    var4 = var13.session_id;
                     if(!(var5 != var4)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var4 = 5;
-                    var4 = var7[var4];
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var10 = 5;
+                    var4 = var12[var10];
                     var8 = undefined;
-                    var4 = var5.bind(var8)(var4);
+                    var4 = var11.bind(var8)(var4);
                     var7 = var4.HTTP;
                     var5 = var7.get;
-                    var4 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    var13 = _closure1_slot5;
-                    var12 = var13.USER_ACTIVITY_METADATA;
-                    var11 = var10.session_id;
-                    var10 = var10.application_id;
-                    var10 = var12.bind(var13)(var9, var11, var10);
-                    var4['url'] = var10;
+                    var4 = {};
+                    var16 = _closure1_slot5;
+                    var15 = var16.USER_ACTIVITY_METADATA;
+                    var14 = var13.session_id;
+                    var13 = var13.application_id;
+                    var13 = var15.bind(var16)(var9, var14, var13);
+                    var4['url'] = var13;
+                    var13 = true;
+                    var4['oldFormErrors'] = var13;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var8)(var10);
+                    var10 = var11.rejectWithMigratedError;
+                    var10 = var10.bind(var11)();
+                    var4['rejectWithError'] = var10;
                     var4 = var5.bind(var7)(var4);
-                    SaveGenerator(address=186);
+                    SaveGenerator(address=206);
 case 11:
                     return var4;
 case 12:
@@ -85,9 +92,9 @@ case 9:
                     var6 = var4.Error;
                     var4 = var6.prototype;
                     var5 = Object.create(var4, {constructor: {value: var6}});
-                    var16 = 'null/undefined session_id';
-                    var17 = var5;
-                    var4 = new var17[var6](var16, var15);
+                    var19 = 'null/undefined session_id';
+                    var20 = var5;
+                    var4 = new var20[var6](var19, var18);
                     var4 = var4 instanceof Object ? var4 : var5;
                     throw var4;
 case 7:

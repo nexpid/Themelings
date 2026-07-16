@@ -22,13 +22,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 100;
     var3['GAME_AUTOCOMPLETE_MAX_QUERY_LENGTH'] = var4;
-    var4 = function normalizeGameAutocompleteQuery(arg1) {
+    var4 = 7;
+    var3['MIN_TRUSTED_EMPTY_PREFIX_LENGTH'] = var4;
+    var4 = function shouldSuppressAutocompleteFetch(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var9 = arg1;
+            var8 = arg2;
+            var1 = var9.length;
+            var7 = 1;
+            var6 = var1 - var7;
+            var2 = 0;
+            var5 = undefined;
+            var4 = null;
+            if(!(var6 >= var7)) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = var9.slice;
+            var1 = var1.bind(var9)(var2, var6);
+            var1 = var8.bind(var5)(var1);
+            var3 = var6;
+            if(!(var4 == var1)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var6 = var3 - 1;
+            if(var6 >= var7) { _fun0001_ip = 3; continue _fun0001 }
+case 2:
+            var4 = false;
+            return var4;
+case 4:
+            var1 = var1.length;
+            var2 = var1 > var2;
+            var1 = !var2;
+            if(var2) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+            var2 = 7;
+            var1 = var3 >= var2;
+case 6:
+            return var1;
+        }
+    };
+    var3['shouldSuppressAutocompleteFetch'] = var4;
+    var4 = function normalizeGameAutocompleteQuery(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            if(!(var1 != var3)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var2 = var3.trim;
             var3 = var2.bind(var3)();
             var2 = var3.toLowerCase;
@@ -44,12 +83,12 @@ case 3:
             var2 = var3.length;
             var4 = var2 > var4;
             var2 = null;
-            if(!var4) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var4) { _fun0002_ip = 6; continue _fun0002 }
+case 10:
             var2 = var3;
-case 4:
+case 6:
             return var2;
-case 2:
+case 8:
             return var1;
         }
     };

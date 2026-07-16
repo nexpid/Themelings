@@ -2374,6 +2374,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NITRO_GDM_CAP_COACHMARK'] = var2;
     var1 = 'NITRO_GDM_CAP_COACHMARK';
     var4[var2] = var1;
+    var2 = 795;
+    var4['BOUNTIES_RECURRING_SWIPE_UP_NUX'] = var2;
+    var1 = 'BOUNTIES_RECURRING_SWIPE_UP_NUX';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

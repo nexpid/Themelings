@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var1 = arg1;
             var14 = var1.streamId;
-            var12 = var1.user;
+            var10 = var1.user;
             var15 = var1.resizeMode;
             var4 = var1.ringing;
             var7 = var1.avatarSize;
@@ -145,26 +145,26 @@ case 0:
             var13 = var1.gestureEnabled;
             var3 = var1.hasVideo;
             var _closure2_slot0 = var3;
-            var11 = var1.guildId;
+            var9 = var1.guildId;
             var1 = _closure1_slot17;
             var5 = undefined;
-            var9 = var1.bind(var5)();
-            var _closure2_slot1 = var9;
-            var1 = var12.id;
+            var11 = var1.bind(var5)();
+            var _closure2_slot1 = var11;
+            var1 = var10.id;
             var _closure2_slot2 = var1;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var17 = 14;
-            var10 = var19[var17];
-            var22 = var18.bind(var5)(var10);
+            var12 = var19[var17];
+            var22 = var18.bind(var5)(var12);
             var21 = var22.useStateFromStores;
-            var10 = _closure1_slot8;
+            var12 = _closure1_slot8;
             var20 = new Array(1);
-            var20[0] = var10;
+            var20[0] = var12;
             var16 = new Array(2);
             var16[0] = var3;
             var16[1] = var1;
-            var10 = function() {
+            var12 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = _closure2_slot0;
@@ -179,7 +179,7 @@ case 2:
                     return var1;
                 }
             };
-            var10 = var21.bind(var22)(var20, var10, var16);
+            var12 = var21.bind(var22)(var20, var12, var16);
             var16 = var19[var17];
             var24 = var18.bind(var5)(var16);
             var23 = var24.useStateFromStoresArray;
@@ -259,32 +259,34 @@ case 10:
             var13 = var15[var13];
             var13 = var14.bind(var5)(var13);
             var13 = var13.VideoSpinnerContext;
-            if(var10) { _fun0001_ip = 11; continue _fun0001 }
+            if(var12) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var10 = var13.REMOTE_VIDEO;
+            var12 = var13.REMOTE_VIDEO;
             _fun0001_ip = 13; continue _fun0001;
 case 11:
-            var10 = var13.SELF_VIDEO;
+            var12 = var13.SELF_VIDEO;
 case 13:
-            var1['videoSpinnerContext'] = var10;
-            var10 = var12.id;
-            var1['userId'] = var10;
+            var1['videoSpinnerContext'] = var12;
+            var12 = var10.id;
+            var1['userId'] = var12;
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 14; continue _fun0001;
 case 7:
             var4 = _closure1_slot14;
             var3 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var2 = 15;
-            var2 = var10[var2];
+            var2 = var12[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var9 = var9.imageBackground;
-            var2['style'] = var9;
-            var10 = var12.getAvatarURL;
-            var9 = 128;
-            var9 = var10.bind(var12)(var11, var9);
-            var2['url'] = var9;
+            var11 = var11.imageBackground;
+            var2['style'] = var11;
+            var12 = var10.getAvatarURL;
+            var11 = 128;
+            var11 = var12.bind(var10)(var9, var11);
+            var2['url'] = var11;
+            var2['user'] = var10;
+            var2['guildId'] = var9;
             var2['speaking'] = var8;
             var2['size'] = var7;
             var6 = function renderVideoDetails() {

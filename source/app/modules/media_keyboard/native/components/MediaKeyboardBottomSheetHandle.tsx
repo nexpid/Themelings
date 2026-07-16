@@ -135,6 +135,8 @@ case 6:
             var3 = _closure1_slot3;
             var1 = {};
             var1['accessibilityLabel'] = var6;
+            var8 = 'button';
+            var1['accessibilityRole'] = var8;
             var8 = null;
             var8 = var8 == var7;
             var1['aria-hidden'] = var8;

@@ -27,8 +27,8 @@ case 0:
             var3 = var1.src;
             var10 = var1.sourceWidth;
             var11 = var1.sourceHeight;
-            var9 = var1.targetWidth;
-            var12 = var1.targetHeight;
+            var12 = var1.targetWidth;
+            var9 = var1.targetHeight;
             var5 = var1.format;
             var7 = undefined;
             if(!(var5 === var7)) { _fun0002_ip = 4; continue _fun0002 }
@@ -54,7 +54,7 @@ case 6:
             var14[0] = var6;
             var16 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var8 = 4;
+            var8 = 5;
             var6 = var6[var8];
             var16 = var16.bind(var7)(var6);
             var6 = var16.parse;
@@ -79,35 +79,83 @@ case 8:
             var6['format'] = var5;
 case 10:
             var5 = _closure1_slot9;
-            var9 = var5.bind(var7)(var9);
-            var5 = var5.bind(var7)(var12);
-            var10 = var9 === var10;
-            if(!var10) { _fun0002_ip = 12; continue _fun0002 }
+            var15 = var5.bind(var7)(var12);
+            var14 = var5.bind(var7)(var9);
+            if(!(var15 === var10)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var10 = var5 === var11;
+            if(!(var14 !== var11)) { _fun0002_ip = 14; continue _fun0002 }
 case 12:
-            if(var10) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            var12 = 'native/ImageUtils.getSrcWithWidthAndHeight';
+case 15: // try_start_0
+            var9 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var5 = 3;
+            var5 = var13[var5];
+            var5 = var9.bind(var7)(var5);
+            var9 = var5.getAttachmentImageLadderConfig;
+            var5 = {};
+            var5['location'] = var12;
+            var5 = var9.bind(var7)(var5);
+            var9 = var5.enabled;
+            var5 = true;
+            var5 = var5 === var9;
+case 16: // try_end0
+            _fun0002_ip = 17; continue _fun0002;
+case 18: // catch_target0
+            CatchBlockStart(arg_register=8);
+            var5 = false;
+case 17:
+            if(var5) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var5 = {};
+            var5['width'] = var15;
+            var5['height'] = var14;
+            _fun0002_ip = 21; continue _fun0002;
+case 19:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var9 = 6;
+            var9 = var13[var9];
+            var13 = var12.bind(var7)(var9);
+            var12 = var13.snapAttachmentDimensions;
+            var9 = {};
+            var9['targetWidth'] = var15;
+            var9['targetHeight'] = var14;
+            var9['sourceWidth'] = var10;
+            var9['sourceHeight'] = var11;
+            var5 = var12.bind(var13)(var9);
+case 21:
+            var9 = var5.width;
+            var9 = var9 === var10;
+            if(!var9) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
+            var10 = var5.height;
+            var9 = var10 === var11;
+case 22:
+            if(var9) { _fun0002_ip = 14; continue _fun0002 }
+case 24:
+            var9 = var5.width;
             var9 = var9 | 0;
             var6['width'] = var9;
+            var5 = var5.height;
             var5 = var5 | 0;
             var6['height'] = var5;
 case 14:
-            if(!var1) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!var1) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var1 = true;
             var6['animated'] = var1;
-case 16:
+case 25:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 5;
+            var1 = 7;
             var1 = var9[var1];
             var5 = var5.bind(var7)(var1);
             var1 = var5.isEmpty;
             var5 = var1.bind(var5)(var6);
             var1 = var3;
-            if(var5) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(var5) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var5 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -116,7 +164,7 @@ case 19:
             var2 = var2.bind(var5)(var6);
             var2 = var4 + var2;
             var1 = var3 + var2;
-case 18:
+case 27:
             return var1;
         }
     };
@@ -129,10 +177,10 @@ case 0:
             var7 = arg3;
             var4 = arguments[3];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0003_ip = 20; continue _fun0003 }
+            if(!(var4 === var3)) { _fun0003_ip = 29; continue _fun0003 }
 case 2:
             var4 = null;
-case 20:
+case 29:
             var5 = _closure1_slot7;
             var2 = var5.test;
             var2 = var2.bind(var5)(var9);
@@ -144,7 +192,7 @@ case 4:
 case 7:
             var5 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 3;
+            var2 = 4;
             var2 = var11[var2];
             var5 = var5.bind(var3)(var2);
             var2 = var5.getWindowDimensions;
@@ -161,21 +209,21 @@ case 7:
             var5 = var13 / var5;
             var5 = var11.bind(var12)(var5);
             var5 = var5 * var6;
-            if(!(!(var8 > var7))) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+            if(!(!(var8 > var7))) { _fun0003_ip = 30; continue _fun0003 }
+case 31:
             var6 = var5 / var7;
-            _fun0003_ip = 23; continue _fun0003;
-case 21:
+            _fun0003_ip = 32; continue _fun0003;
+case 30:
             var6 = var2 / var8;
-case 23:
+case 32:
             var11 = global;
             var5 = var11.Math;
             var2 = var5.min;
             var2 = var2.bind(var5)(var6, var10);
             var6 = var8;
             var5 = var7;
-            if(!(var2 < var10)) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+            if(!(var2 < var10)) { _fun0003_ip = 33; continue _fun0003 }
+case 34:
             var13 = var11.Math;
             var12 = var13.ceil;
             var10 = var8 * var2;
@@ -184,7 +232,7 @@ case 25:
             var11 = var12.ceil;
             var2 = var7 * var2;
             var5 = var11.bind(var12)(var2);
-case 24:
+case 33:
             var2 = _closure1_slot10;
             var1 = {};
             var1['src'] = var9;
@@ -200,12 +248,12 @@ case 24:
     var2 = function getPaletteForAvatarMobile(arg1) {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var2 = 6;
+        var2 = 8;
         var2 = var7[var2];
         var5 = undefined;
         var4 = var6.bind(var5)(var2);
         var3 = var4.ensureAvatarSource;
-        var2 = 7;
+        var2 = 9;
         var2 = var7[var2];
         var6 = var6.bind(var5)(var2);
         var5 = var6.makeSource;
@@ -250,7 +298,7 @@ case 24:
     var8 = {};
     var8['getMobileOptimizedSrc'] = var4;
     var8['getPaletteForAvatarMobile'] = var2;
-    var9 = 8;
+    var9 = 10;
     var9 = var11[var9];
     var11 = var10.bind(var1)(var9);
     var10 = var11.fileFinishedImporting;

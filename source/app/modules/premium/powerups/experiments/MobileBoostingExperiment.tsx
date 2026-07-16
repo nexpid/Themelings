@@ -36,18 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/premium/powerups/experiments/MobileBoostingExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var4 = function useMobileBoostingEnabled(arg1) {
-        var3 = _closure1_slot0;
-        var2 = var3.useConfig;
-        var1 = {};
-        var4 = arg1;
-        var1['location'] = var4;
-        var1 = var2.bind(var3)(var1);
-        var1 = var1.enabled;
-        return var1;
-    };
-    var3['useMobileBoostingEnabled'] = var4;
-    var2 = function getShouldRemoveYearlyUpsell(arg1) {
+    var4 = function getShouldRemoveYearlyUpsell(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};
@@ -57,6 +46,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.removeYearlyUpsell;
         return var1;
     };
-    var3['getShouldRemoveYearlyUpsell'] = var2;
+    var3['getShouldRemoveYearlyUpsell'] = var4;
+    var2 = function getMobileBoostingEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var3['getMobileBoostingEnabled'] = var2;
     return var1;
 })();

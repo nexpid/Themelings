@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['link'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -146,49 +146,63 @@ case 2:
             var4[0] = var1;
             var4[1] = var17;
             var3 = function() {
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 9;
-                var1 = var3[var1];
-                var5 = undefined;
-                var4 = var2.bind(var5)(var1);
-                var3 = var4.parseBioReact;
-                var2 = _closure2_slot0;
-                var1 = {};
-                var6 = _closure2_slot2;
-                var1['linkVariant'] = var6;
-                var1['textVariant'] = var6;
-                var1 = var3.bind(var4)(var2, var5, var1);
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var8[var1];
+                    var5 = undefined;
+                    var4 = var7.bind(var5)(var1);
+                    var3 = var4.parseBioReact;
+                    var2 = _closure2_slot0;
+                    var1 = {};
+                    var6 = _closure2_slot2;
+                    var1['linkVariant'] = var6;
+                    var1['textVariant'] = var6;
+                    var6 = 10;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var5)(var6);
+                    var6 = var7.isAndroid;
+                    var7 = var6.bind(var7)();
+                    var6 = undefined;
+                    if(!var7) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var6 = 3;
+case 4:
+                    var1['customEmojiOffsetY'] = var6;
+                    var1 = var3.bind(var4)(var2, var5, var1);
+                    return var1;
+                }
             };
             var6 = var6.bind(var9)(var3, var4);
             var3 = var1.length;
             var1 = 0;
             var16 = var1 === var3;
-            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(!var16) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var4[var1];
             var1 = var3.bind(var5)(var1);
             var1 = var1.bind(var5)(var2);
             var16 = !var1;
-case 4:
+case 6:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var4[var1];
             var1 = var3.bind(var5)(var1);
             var1 = var1.bind(var5)(var2);
-            if(var1) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            if(!var16) { _fun0001_ip = 8; continue _fun0001 }
+            if(var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
+            if(!var16) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var1 = null;
             var2 = var1 == var8;
-            if(var2) { _fun0001_ip = 10; continue _fun0001 }
-case 8:
+            if(var2) { _fun0001_ip = 12; continue _fun0001 }
+case 10:
             var4 = _closure1_slot8;
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -199,23 +213,23 @@ case 8:
             var2 = {};
             var2['variant'] = var17;
             var9 = 'text-default';
-            if(!var16) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
+            if(!var16) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
             var9 = 'text-muted';
-case 11:
+case 13:
             var2['color'] = var9;
             var2['lineClamp'] = var12;
             var9 = var11.text;
             var2['style'] = var9;
-            if(!var16) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!var16) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var6 = var8;
-case 13:
+case 15:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 10:
-            _fun0001_ip = 15; continue _fun0001;
-case 6:
+case 12:
+            _fun0001_ip = 17; continue _fun0001;
+case 8:
             var4 = _closure1_slot7;
             var3 = _closure1_slot9;
             var2 = {};
@@ -229,17 +243,17 @@ case 6:
             var10['variant'] = var17;
             var13 = 'text-default';
             var6 = var13;
-            if(!var16) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(!var16) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
             var6 = 'text-muted';
-case 16:
+case 18:
             var10['color'] = var6;
             var10['lineClamp'] = var12;
             var6 = var11.text;
             var10['style'] = var6;
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var15 = 11;
+            var15 = 12;
             var6 = var8[var15];
             var6 = var9.bind(var5)(var6);
             var21 = var6.intl;
@@ -264,10 +278,10 @@ case 16:
             var9 = var8.Text;
             var8 = {};
             var8['variant'] = var17;
-            if(!var16) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
+            if(!var16) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var13 = 'text-muted';
-case 18:
+case 20:
             var8['color'] = var13;
             var8['lineClamp'] = var12;
             var11 = var11.span;
@@ -304,7 +318,7 @@ case 18:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 15:
+case 17:
             return var1;
         }
     };

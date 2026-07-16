@@ -810,6 +810,40 @@ case 51:
         }
     };
     var3['getReadyPayloadByteSizeAnalytics'] = var4;
+    var4 = function logGatewayConnected(arg1, arg2, arg3) {
+        var2 = arg1;
+        var8 = arg2;
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var1 = 5;
+        var4 = var4[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var4);
+        var5 = var6.track;
+        var3 = _closure1_slot7;
+        var4 = var3.GATEWAY_CONNECTED;
+        var3 = {};
+        var7 = var2.failedConnectAttempts;
+        var3['num_failed_connect_attempts'] = var7;
+        var7 = arg3;
+        var3['gateway_url'] = var7;
+        var7 = var8.isAssignedToAltGateway;
+        var7 = var7.bind(var8)();
+        var3['assigned_to_alt_gateway'] = var7;
+        var7 = var8.getDidFallBack;
+        var7 = var7.bind(var8)();
+        var3['did_fall_back_from_alt_gateway'] = var7;
+        var7 = var2.hasConnectedOnce;
+        var3['is_reconnect'] = var7;
+        var2 = var2.isFastConnect;
+        var3['is_fast_connect'] = var2;
+        var2 = {};
+        var7 = true;
+        var2['logEventProperties'] = var7;
+        var2 = var5.bind(var6)(var4, var3, var2);
+        return var1;
+    };
+    var3['logGatewayConnected'] = var4;
     var4 = function createResumeAnalytics(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:

@@ -7,7 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = function shouldFetch(arg1) {
+    var1 = function shouldFetchStorefrontPromotions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
@@ -29,10 +29,10 @@ case 7:
             var2 = 'error';
             if(!(var2 !== var4)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             _fun0001_ip = 10; continue _fun0001;
 case 8:
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot9;
 case 10:
             var1 = global;
             var4 = var1.Date;
@@ -53,7 +53,7 @@ case 2:
         }
     };
     var _closure1_slot11 = var1;
-    var1 = function _fetchStorefrontPromotions() {
+    var1 = function _maybeFetchStorefrontPromotions() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
@@ -340,17 +340,17 @@ case 41:
                     var5 = var4.applicationId;
                     var4 = var4.shouldFetch;
                     if(!var4) { _fun0005_ip = 42; continue _fun0005 }
-case 35:
+case 43:
                     var4 = var5;
-                    if(!(var11 == var4)) { _fun0005_ip = 43; continue _fun0005 }
-case 44:
+                    if(!(var11 == var4)) { _fun0005_ip = 44; continue _fun0005 }
+case 10:
                     var4 = {};
                     var7 = 'skus';
                     var4['type'] = var7;
                     var7 = var3;
                     var4['skuIds'] = var7;
                     _fun0005_ip = 45; continue _fun0005;
-case 43:
+case 44:
                     var7 = {};
                     var8 = 'application';
                     var7['type'] = var8;
@@ -414,14 +414,14 @@ case 50:
                     var9[9] = var13;
                     var10 = var12;
                     if(!(var11 == var10)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+case 20:
                     var10 = {};
-                    _fun0005_ip = 54; continue _fun0005;
+                    _fun0005_ip = 53; continue _fun0005;
 case 52:
                     var11 = {};
                     var11['promotion_id_override'] = var12;
                     var10 = var11;
-case 54:
+case 53:
                     var16 = var9;
                     var15 = var10;
                     var10 = copyDataProperties(var16, var15);
@@ -429,13 +429,13 @@ case 54:
                     var9 = true;
                     var3['rejectWithError'] = var9;
                     var3 = var5.bind(var7)(var3);
-                    SaveGenerator(address=357);
-case 55:
+                    SaveGenerator(address=353);
+case 54:
                     return var3;
-case 56:
+case 55:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 57; continue _fun0005 }
-case 58:
+                    if(var5) { _fun0005_ip = 56; continue _fun0005 }
+case 57:
                     var10 = var3.body;
                     var5 = _closure1_slot1;
                     var11 = _closure1_slot2;
@@ -455,11 +455,11 @@ case 58:
                     var8 = var8.bind(var9)(var10);
                     var4['data'] = var8;
                     var4 = var5.bind(var7)(var4);
-case 59: // try_end0
+case 58: // try_end0
                     _fun0005_ip = 42; continue _fun0005;
-case 57:
+case 56:
                     return var3;
-case 60: // catch_target0
+case 59: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -531,16 +531,14 @@ case 40:
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
-    var9 = var8.HOUR;
-    var8 = 12;
+    var9 = var8.MINUTE;
+    var8 = 10;
     var8 = var8 * var9;
     var _closure1_slot9 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
-    var9 = var8.MINUTE;
-    var8 = 10;
-    var8 = var8 * var9;
+    var8 = var8.MINUTE;
     var _closure1_slot10 = var8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -552,7 +550,7 @@ case 40:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/storefront/StorefrontActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function fetchStorefrontPromotions() {
+    var4 = function maybeFetchStorefrontPromotions() {
         var1 = undefined;
         var4 = _closure1_slot12;
         var3 = var4.apply;
@@ -562,7 +560,7 @@ case 40:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['fetchStorefrontPromotions'] = var4;
+    var3['maybeFetchStorefrontPromotions'] = var4;
     var4 = function fetchStorefrontPricesForApplicationId() {
         var1 = undefined;
         var4 = _closure1_slot13;

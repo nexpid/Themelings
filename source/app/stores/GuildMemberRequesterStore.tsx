@@ -638,26 +638,29 @@ case 50:
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.channelId;
-            var5 = var1.messages;
+            var5 = var1.channelId;
+            var6 = var1.messages;
+            var3 = var1.messageReferences;
             var2 = _closure1_slot7;
             var1 = var2.getChannel;
-            var2 = var1.bind(var2)(var4);
-            var6 = null;
-            var1 = var6 != var2;
-            if(!var1) { _fun0012_ip = 9; continue _fun0012 }
-case 43:
+            var2 = var1.bind(var2)(var5);
+            var7 = null;
+            var1 = var7 != var2;
+            if(!var1) { _fun0012_ip = 8; continue _fun0012 }
+case 6:
+            var5 = var2.guild_id;
+            var1 = var7 != var5;
+case 8:
+            if(!var1) { _fun0012_ip = 51; continue _fun0012 }
+case 52:
+            var5 = _closure1_slot14;
             var4 = var2.guild_id;
-            var1 = var6 != var4;
-case 9:
-            if(!var1) { _fun0012_ip = 44; continue _fun0012 }
-case 42:
-            var4 = _closure1_slot14;
-            var3 = var2.guild_id;
+            var2 = var6.concat;
+            var3 = var2.bind(var6)(var3);
             var2 = undefined;
-            var2 = var4.bind(var2)(var3, var5);
+            var2 = var5.bind(var2)(var4, var3);
             var1 = false;
-case 44:
+case 51:
             return var1;
         }
     };
@@ -672,10 +675,10 @@ case 0:
             var1 = var3.getChannel;
             var1 = var1.bind(var3)(var4);
             var4 = null;
-            if(!(var4 != var1)) { _fun0013_ip = 51; continue _fun0013 }
-case 52:
+            if(!(var4 != var1)) { _fun0013_ip = 53; continue _fun0013 }
+case 54:
             var3 = var1.guild_id;
-            if(!(var4 != var3)) { _fun0013_ip = 51; continue _fun0013 }
+            if(!(var4 != var3)) { _fun0013_ip = 53; continue _fun0013 }
 case 6:
             var4 = var5.map;
             var3 = function(arg1) {
@@ -684,10 +687,10 @@ case 0:
                     var1 = arg1;
                     var1 = var1.messages;
                     var2 = null;
-                    if(!(var2 == var1)) { _fun0014_ip = 53; continue _fun0014 }
-case 54:
+                    if(!(var2 == var1)) { _fun0014_ip = 55; continue _fun0014 }
+case 56:
                     var1 = new Array(0);
-case 53:
+case 55:
                     return var1;
                 }
             };
@@ -700,7 +703,7 @@ case 53:
             var1 = var3.bind(var1)(var2, var4);
             var1 = false;
             return var1;
-case 51:
+case 53:
             var1 = false;
             return var1;
         }

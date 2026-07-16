@@ -35,6 +35,8 @@ case 2:
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
+            var15 = var13.pressable;
+            var1['style'] = var15;
             var1['disabled'] = var14;
             var11 = function onPress() {
                 var4 = _closure1_slot0;
@@ -127,8 +129,17 @@ case 4:
     var9 = var6.bind(var1)(var5);
     var8 = var9.createStyles;
     var5 = {};
-    var10 = {'borderWidth': 2, 'borderColor': null, 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'marginTop': 10};
+    var10 = {};
+    var12 = 10;
+    var10['marginTop'] = var12;
     var12 = 6;
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.sm;
+    var10['borderRadius'] = var14;
+    var5['pressable'] = var10;
+    var10 = {'borderWidth': 2, 'borderColor': null, 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center'};
     var14 = var7[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.colors;

@@ -161,7 +161,7 @@ case 9:
             }
         };
         var5['value'] = var1;
-        var1 = new Array(3);
+        var1 = new Array(4);
         var1[0] = var5;
         var5 = {};
         var7 = 'getClosestResults';
@@ -213,10 +213,63 @@ case 13:
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
+        var7 = 'shouldSuppressFetch';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                var2 = _closure1_slot0;
+                var1 = _closure1_slot1;
+                var7 = 5;
+                var1 = var1[var7];
+                var5 = undefined;
+                var4 = var2.bind(var5)(var1);
+                var2 = var4.normalizeGameAutocompleteQuery;
+                var1 = arg1;
+                var6 = var2.bind(var4)(var1);
+                var1 = null;
+                var1 = var1 != var6;
+                if(!var1) { _fun0005_ip = 18; continue _fun0005 }
+case 10:
+                var4 = _closure1_slot7;
+                var2 = var4.has;
+                var2 = var2.bind(var4)(var6);
+                var2 = !var2;
+                if(!var2) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
+                var8 = _closure1_slot8;
+                var4 = var8.has;
+                var4 = var4.bind(var8)(var6);
+                var2 = !var4;
+case 19:
+                if(!var2) { _fun0005_ip = 13; continue _fun0005 }
+case 21:
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var3 = var3[var7];
+                var5 = var4.bind(var5)(var3);
+                var4 = var5.shouldSuppressAutocompleteFetch;
+                var3 = function(arg1) {
+                    var3 = _closure1_slot7;
+                    var2 = var3.get;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var2 = var4.bind(var5)(var6, var3);
+case 13:
+                var1 = var2;
+case 18:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
         var7 = 'isFetching';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -229,7 +282,7 @@ case 0:
                 var4 = var3.bind(var4)(var1);
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0005_ip = 9; continue _fun0005 }
+                if(!var1) { _fun0006_ip = 9; continue _fun0006 }
 case 10:
                 var3 = _closure1_slot8;
                 var2 = var3.has;
@@ -239,7 +292,7 @@ case 9:
             }
         };
         var5['value'] = var6;
-        var1[2] = var5;
+        var1[3] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -281,7 +334,7 @@ case 9:
     };
     var2['GAME_AUTOCOMPLETE_FETCH'] = var9;
     var9 = function handleFetchSuccess(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.query;
@@ -299,23 +352,23 @@ case 0:
             var1 = var1.size;
             var3 = 100;
             var2 = null;
-            if(!(var1 > var3)) { _fun0006_ip = 18; continue _fun0006 }
-case 19:
+            if(!(var1 > var3)) { _fun0007_ip = 22; continue _fun0007 }
+case 23:
             var5 = _closure1_slot7;
             var1 = var5.keys;
             var5 = var1.bind(var5)();
             var1 = var5.next;
             var1 = var1.bind(var5)();
             var6 = var1.value;
-            if(!(var2 != var6)) { _fun0006_ip = 18; continue _fun0006 }
-case 20:
+            if(!(var2 != var6)) { _fun0007_ip = 22; continue _fun0007 }
+case 24:
             var5 = _closure1_slot7;
             var1 = var5.delete;
             var1 = var1.bind(var5)(var6);
             var1 = _closure1_slot7;
             var1 = var1.size;
-            if(var1 > var3) { _fun0006_ip = 19; continue _fun0006 }
-case 18:
+            if(var1 > var3) { _fun0007_ip = 23; continue _fun0007 }
+case 22:
             var1 = undefined;
             return var1;
         }
