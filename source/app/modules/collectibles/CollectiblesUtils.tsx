@@ -1446,7 +1446,7 @@ case 95:
     var3['isCollectiblesGiftCode'] = var6;
     var6 = 3.8;
     var3['LOGO_ASPECT_RATIO'] = var6;
-    var6 = function(arg1) {
+    var6 = function getLogoSize(arg1) {
         var2 = 3.8;
         var1 = arg1;
         var1 = var2 * var1;

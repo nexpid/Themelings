@@ -13,6 +13,7 @@ case 0:
             var2 = arg1;
             var6 = var2.channel;
             var _closure2_slot0 = var6;
+            var13 = var2.ctaProps;
             var7 = var2.topBorder;
             var2 = _closure1_slot14;
             var4 = undefined;
@@ -118,7 +119,7 @@ case 0:
                 var2 = var18[var6](var17, var16, var15, var14, var13);
                 return var1;
             };
-            var13 = var3.bind(var5)(var1, var2);
+            var14 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot13;
             var2 = _closure1_slot4;
             var1 = {};
@@ -151,13 +152,13 @@ case 4:
             var12 = 18;
             var8 = var16[var12];
             var8 = var15.bind(var4)(var8);
-            var14 = var8.intl;
-            var11 = var14.string;
+            var17 = var8.intl;
+            var11 = var17.string;
             var8 = var16[var12];
             var8 = var15.bind(var4)(var8);
             var8 = var8.t;
             var8 = var8.iOWmmB;
-            var8 = var11.bind(var14)(var8);
+            var8 = var11.bind(var17)(var8);
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
@@ -173,9 +174,14 @@ case 4:
             var9 = var15.bind(var4)(var9);
             var10 = var9.Button;
             var9 = {};
-            var9['onPress'] = var13;
-            var13 = 'sm';
-            var9['size'] = var13;
+            var19 = var9;
+            var18 = var13;
+            var13 = copyDataProperties(var19, var18);
+            var13 = 'onPress';
+            var9[12] = var14;
+            var14 = 'sm';
+            var13 = 'size';
+            var9[12] = var14;
             var13 = var16[var12];
             var13 = var15.bind(var4)(var13);
             var14 = var13.intl;
@@ -184,8 +190,9 @@ case 4:
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
             var12 = var12.TD/+zP;
-            var12 = var13.bind(var14)(var12);
-            var9['text'] = var12;
+            var13 = var13.bind(var14)(var12);
+            var12 = 'text';
+            var9[11] = var13;
             var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -589,7 +596,7 @@ case 14:
             var3 = var5.bind(var6)(var3);
             var3 = var3.t;
             if(var4) { _fun0004_ip = 15; continue _fun0004 }
-case 4:
+case 5:
             var24 = var3.BctFH/;
             _fun0004_ip = 16; continue _fun0004;
 case 15:

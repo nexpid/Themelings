@@ -403,7 +403,7 @@ case 12:
             var5 = var16[var2];
             var7 = var21.bind(var4)(var5);
             var5 = {};
-            var11 = function onPress() {
+            var11 = function inviteFriends() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var3 = _closure2_slot1;
@@ -495,7 +495,7 @@ case 14:
             var5 = var16[var2];
             var7 = var21.bind(var4)(var5);
             var5 = {};
-            var17 = function onPress() {
+            var17 = function goToChannel() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = _closure2_slot1;
@@ -577,7 +577,7 @@ case 19:
             var2 = var10[var2];
             var3 = var17.bind(var4)(var2);
             var2 = {};
-            var14 = function onPress() {
+            var14 = function goToBoosts() {
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 11;

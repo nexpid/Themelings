@@ -257,7 +257,7 @@ case 7:
     var4 = var8.bind(var9)(var4);
     var _closure1_slot7 = var4;
     var4 = var7.memo;
-    var2 = function(arg1) {
+    var2 = function CardProductVariants(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var1 = arg1;

@@ -137,7 +137,7 @@ case 0:
             var12 = 12;
             var12 = var7[var12];
             var21 = var22.bind(var1)(var12);
-            var20 = var21.UNSAFE_useIsDismissibleContentDismissed;
+            var20 = var21.useIsDismissibleContentDismissed_UNSAFE;
             var12 = 7;
             var7 = var7[var12];
             var7 = var22.bind(var1)(var7);
@@ -445,7 +445,10 @@ case 37:
                     var3 = _closure2_slot5;
                     var6 = undefined;
                     var3 = var3.bind(var6)();
-                    var5 = function checkIdle() {
+                    var3 = _closure2_slot12;
+                    var2 = global;
+                    var5 = var2.setTimeout;
+                    var4 = function checkIdle() {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                             var3 = _closure2_slot12;
@@ -490,12 +493,9 @@ case 41:
                             return var1;
                         }
                     };
-                    var _closure3_slot0 = var5;
-                    var3 = _closure2_slot12;
-                    var2 = global;
-                    var4 = var2.setTimeout;
+                    var _closure3_slot0 = var4;
                     var2 = 2000;
-                    var2 = var4.bind(var6)(var5, var2);
+                    var2 = var5.bind(var6)(var4, var2);
                     var3['current'] = var2;
                     var1 = function() {
                         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {

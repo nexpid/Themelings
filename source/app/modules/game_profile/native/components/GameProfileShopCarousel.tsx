@@ -7,6 +7,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
+    var1 = function HorizontalSpacing() {
+        var4 = _closure1_slot6;
+        var3 = _closure1_slot4;
+        var2 = {};
+        var5 = {};
+        var7 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 6;
+        var6 = var6[var1];
+        var1 = undefined;
+        var6 = var7.bind(var1)(var6);
+        var6 = var6.COLLECTIBLES_SHOP_CARD_GAP;
+        var5['width'] = var6;
+        var2['style'] = var5;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot9 = var1;
     var1 = function GameProfileShopCarouselContent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -239,11 +257,9 @@ case 3:
             var7['renderItem'] = var12;
             var12 = false;
             var7['showsHorizontalScrollIndicator'] = var12;
-            var12 = _closure1_slot9;
-            var7['ItemSeparatorComponent'] = var12;
-            var12 = _closure1_slot9;
-            var7['ListHeaderComponent'] = var12;
             var11 = _closure1_slot9;
+            var7['ItemSeparatorComponent'] = var11;
+            var7['ListHeaderComponent'] = var11;
             var7['ListFooterComponent'] = var11;
             var11 = 'fast';
             var7['decelerationRate'] = var11;
@@ -336,24 +352,6 @@ case 2:
     var4['card'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = function HorizontalSpacing() {
-        var4 = _closure1_slot6;
-        var3 = _closure1_slot4;
-        var2 = {};
-        var5 = {};
-        var7 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 6;
-        var6 = var6[var1];
-        var1 = undefined;
-        var6 = var7.bind(var1)(var6);
-        var6 = var6.COLLECTIBLES_SHOP_CARD_GAP;
-        var5['width'] = var6;
-        var2['style'] = var5;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot9 = var4;
     var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

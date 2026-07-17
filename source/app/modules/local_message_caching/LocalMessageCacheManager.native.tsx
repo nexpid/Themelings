@@ -1293,22 +1293,28 @@ case 101:
                 };
                 var1['handleMessageDelete'] = var3;
                 var3 = function() {
-                    var3 = _closure1_slot16;
-                    var1 = undefined;
-                    var2 = function() {
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 17;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var1 = var3.bind(var1)(var2);
-                        var3 = var1.Storage;
-                        var2 = var3.remove;
-                        var1 = 'LocalMessageCacheManagerMessageCacheKey';
-                        var1 = var2.bind(var3)(var1);
+                    var2 = function removeAllCachedMessages() {
+                        var3 = _closure1_slot16;
+                        var2 = undefined;
+                        var1 = function() {
+                            var3 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var1 = 17;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var1 = var3.bind(var1)(var2);
+                            var3 = var1.Storage;
+                            var2 = var3.remove;
+                            var1 = 'LocalMessageCacheManagerMessageCacheKey';
+                            var1 = var2.bind(var3)(var1);
+                            return var1;
+                        };
+                        var1 = var3.bind(var2)(var1);
                         return var1;
                     };
-                    var2 = var3.bind(var1)(var2);
+                    var1 = undefined;
+                    var2 = var2.bind(var1)();
+                    var2 = !var2;
                     return var1;
                 };
                 var1['handleLogout'] = var3;

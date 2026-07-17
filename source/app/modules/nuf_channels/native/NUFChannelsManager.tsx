@@ -46,6 +46,37 @@ case 4:
         }
     };
     var _closure1_slot15 = var1;
+    var1 = function requiresChannelOnboard() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 11;
+            var1 = var4[var1];
+            var5 = undefined;
+            var1 = var3.bind(var5)(var1);
+            var4 = var1.Storage;
+            var3 = var4.get;
+            var1 = _closure1_slot14;
+            var1 = var3.bind(var4)(var1);
+            var1 = !var1;
+            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 12;
+            var3 = var6[var3];
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.isNewUser;
+            var5 = _closure1_slot11;
+            var2 = var5.getCurrentUser;
+            var2 = var2.bind(var5)();
+            var1 = var3.bind(var4)(var2);
+case 6:
+            return var1;
+        }
+    };
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -101,36 +132,7 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.GuildMemberFlags;
     var _closure1_slot13 = var4;
-    var4 = function requiresChannelOnboard() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 11;
-            var1 = var4[var1];
-            var5 = undefined;
-            var1 = var3.bind(var5)(var1);
-            var4 = var1.Storage;
-            var3 = var4.get;
-            var1 = '2020_02_nuf_channels';
-            var1 = var3.bind(var4)(var1);
-            var1 = !var1;
-            if(!var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var3 = 12;
-            var3 = var6[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.isNewUser;
-            var5 = _closure1_slot11;
-            var2 = var5.getCurrentUser;
-            var2 = var2.bind(var5)();
-            var1 = var3.bind(var4)(var2);
-case 6:
-            return var1;
-        }
-    };
+    var4 = '2020_02_nuf_channels';
     var _closure1_slot14 = var4;
     var4 = 19;
     var4 = var6[var4];
@@ -289,32 +291,32 @@ case 33:
 case 32:
                         if(!var3) { _fun0004_ip = 11; continue _fun0004 }
 case 34:
-                        var3 = _closure1_slot14;
+                        var3 = _closure1_slot16;
                         var3 = var3.bind(var1)();
                         if(!var3) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
-                        var5 = _closure1_slot1;
-                        var4 = _closure1_slot2;
+                        var4 = _closure1_slot1;
+                        var5 = _closure1_slot2;
                         var3 = 15;
-                        var3 = var4[var3];
-                        var7 = var5.bind(var1)(var3);
-                        var6 = var7.openLazy;
-                        var3 = _closure1_slot0;
-                        var2 = 17;
-                        var2 = var4[var2];
-                        var8 = var3.bind(var1)(var2);
-                        var2 = 16;
-                        var5 = var4[var2];
-                        var2 = var4.paths;
-                        var5 = var8.bind(var1)(var5, var2);
-                        var2 = 'NUFChannelsActionSheet';
-                        var2 = var6.bind(var7)(var5, var2);
-                        var2 = 11;
-                        var2 = var4[var2];
-                        var2 = var3.bind(var1)(var2);
-                        var5 = var2.Storage;
+                        var3 = var5[var3];
+                        var8 = var4.bind(var1)(var3);
+                        var7 = var8.openLazy;
+                        var4 = _closure1_slot0;
+                        var3 = 17;
+                        var3 = var5[var3];
+                        var9 = var4.bind(var1)(var3);
+                        var3 = 16;
+                        var6 = var5[var3];
+                        var3 = var5.paths;
+                        var6 = var9.bind(var1)(var6, var3);
+                        var3 = 'NUFChannelsActionSheet';
+                        var3 = var7.bind(var8)(var6, var3);
+                        var3 = 11;
+                        var3 = var5[var3];
+                        var3 = var4.bind(var1)(var3);
+                        var5 = var3.Storage;
                         var4 = var5.set;
-                        var3 = '2020_02_nuf_channels';
+                        var3 = _closure1_slot14;
                         var2 = true;
                         var2 = var4.bind(var5)(var3, var2);
 case 35:
@@ -340,8 +342,8 @@ case 0:
                         var1 = '2020_02_nuf_voice_channels';
                         var1 = var3.bind(var4)(var1);
                         var1 = !var1;
-                        if(!var1) { _fun0005_ip = 6; continue _fun0005 }
-case 7:
+                        if(!var1) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var3 = 12;
@@ -352,7 +354,7 @@ case 7:
                         var2 = var5.getCurrentUser;
                         var2 = var2.bind(var5)();
                         var1 = var3.bind(var4)(var2);
-case 6:
+case 37:
                         return var1;
                     }
                 };
@@ -376,12 +378,12 @@ case 6:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 11;
-                    var5 = var4[var2];
+                    var6 = var4[var2];
                     var1 = undefined;
-                    var5 = var3.bind(var1)(var5);
-                    var7 = var5.Storage;
+                    var6 = var3.bind(var1)(var6);
+                    var7 = var6.Storage;
                     var6 = var7.remove;
-                    var5 = '2020_02_nuf_channels';
+                    var5 = _closure1_slot14;
                     var5 = var6.bind(var7)(var5);
                     var2 = var4[var2];
                     var2 = var3.bind(var1)(var2);
@@ -407,11 +409,11 @@ case 6:
         var1 = function value() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var3 = _closure1_slot14;
+                var3 = _closure1_slot16;
                 var1 = undefined;
                 var3 = var3.bind(var1)();
-                if(!var3) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+                if(!var3) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var2 = 18;
@@ -420,14 +422,14 @@ case 38:
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0006_ip = 37; continue _fun0006 }
-case 39:
+                if(!(var2 != var5)) { _fun0006_ip = 39; continue _fun0006 }
+case 41:
                 var4 = var5.addListener;
                 var2 = this;
                 var3 = var2.handleNavigationStateChanged;
                 var2 = 'state';
                 var2 = var4.bind(var5)(var2, var3);
-case 37:
+case 39:
                 return var1;
             }
         };
@@ -449,14 +451,14 @@ case 0:
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+                if(!(var2 != var5)) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
                 var4 = var5.removeListener;
                 var2 = this;
                 var3 = var2.handleNavigationStateChanged;
                 var2 = 'state';
                 var2 = var4.bind(var5)(var2, var3);
-case 40:
+case 42:
                 return var1;
             }
         };

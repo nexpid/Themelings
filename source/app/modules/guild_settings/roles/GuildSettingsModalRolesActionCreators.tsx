@@ -32,11 +32,11 @@ case 0:
                     if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var6 = var2.guildId;
-                    var16 = var2.roleId;
-                    var14 = var2.name;
-                    var12 = var2.permissions;
-                    var13 = var2.color;
-                    var11 = var2.hoist;
+                    var17 = var2.roleId;
+                    var15 = var2.name;
+                    var13 = var2.permissions;
+                    var14 = var2.color;
+                    var12 = var2.hoist;
                     var10 = var2.mentionable;
                     var7 = undefined;
                     SaveGenerator(address=58);
@@ -47,37 +47,42 @@ case 5:
                     if(var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
                     var5 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var3 = 2;
-                    var3 = var8[var3];
+                    var3 = _closure1_slot2;
+                    var11 = 2;
+                    var3 = var3[var11];
                     var3 = var5.bind(var7)(var3);
                     var8 = var3.HTTP;
                     var5 = var8.patch;
                     var3 = {};
-                    var15 = _closure1_slot4;
-                    var9 = var15.GUILD_ROLE;
-                    var9 = var9.bind(var15)(var6, var16);
+                    var16 = _closure1_slot4;
+                    var9 = var16.GUILD_ROLE;
+                    var9 = var9.bind(var16)(var6, var17);
                     var3['url'] = var9;
                     var9 = {};
-                    var9['name'] = var14;
-                    var9['permissions'] = var12;
-                    var12 = null;
-                    var14 = var12 != var13;
-                    var12 = 0;
-                    if(!var14) { _fun0001_ip = 8; continue _fun0001 }
+                    var9['name'] = var15;
+                    var9['permissions'] = var13;
+                    var13 = null;
+                    var15 = var13 != var14;
+                    var13 = 0;
+                    if(!var15) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var12 = var13;
+                    var13 = var14;
 case 8:
-                    var9['color'] = var12;
-                    var9['hoist'] = var11;
+                    var9['color'] = var13;
+                    var9['hoist'] = var12;
                     var9['mentionable'] = var10;
                     var3['body'] = var9;
                     var9 = true;
                     var3['oldFormErrors'] = var9;
-                    var9 = false;
+                    var10 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var11];
+                    var10 = var10.bind(var7)(var9);
+                    var9 = var10.rejectWithMigratedError;
+                    var9 = var9.bind(var10)();
                     var3['rejectWithError'] = var9;
                     var3 = var5.bind(var8)(var3);
-                    SaveGenerator(address=188);
+                    SaveGenerator(address=213);
 case 10:
                     return var3;
 case 11:

@@ -45,12 +45,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var5 = arg1;
-            var10 = var5.item;
+            var10 = var5.sku;
             var8 = var5.source;
             var7 = var5.wishlistOwnerId;
             var6 = var5.size;
             var _closure2_slot0 = var6;
-            var4 = {'item': 0, 'source': 0, 'wishlistOwnerId': 0, 'size': 0};
+            var4 = {'sku': 0, 'source': 0, 'wishlistOwnerId': 0, 'size': 0};
             var3 = null;
             var16 = var4;
             var15 = null;
@@ -92,7 +92,7 @@ case 5:
             var11 = var9.bind(var4)(var3);
             var9 = var11.isPremium;
             var13 = _closure1_slot5;
-            var3 = var10.skuId;
+            var3 = var10.id;
             var3 = var13[var3];
             var7 = var9.bind(var11)(var12, var3);
 case 4:
@@ -123,7 +123,6 @@ case 4:
             var1 = var11[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var10 = var10.sku;
             var10 = var10.name;
             var1['accessibilityLabel'] = var10;
             var1['renderPreview'] = var9;

@@ -321,6 +321,28 @@ case 21:
             var3 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
+                    var10 = function handleShow(arg1) {
+                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                            var1 = _closure3_slot0;
+                            if(var1) { _fun0009_ip = 23; continue _fun0009 }
+case 3:
+                            var2 = arg1;
+                            var3 = var2.key;
+                            var2 = 'GiftCardMobileConsumptionActionSheet';
+                            var1 = var3 !== var2;
+case 23:
+                            if(var1) { _fun0009_ip = 24; continue _fun0009 }
+case 25:
+                            var1 = _closure1_slot9;
+                            var1 = var1.Opened;
+                            _closure1_slot10 = var1;
+case 24:
+                            var1 = undefined;
+                            return var1;
+                        }
+                    };
+                    var _closure3_slot1 = var10;
                     var6 = _closure2_slot3;
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -330,42 +352,20 @@ case 0:
                     var4 = var7.bind(var5)(var4);
                     var4 = var4.DismissibleContent;
                     var4 = var4.GIFT_CARD_MOBILE_CONSUMPTION_UNAVAILABLE_HALFSHEET;
-                    if(!(var6 === var4)) { _fun0008_ip = 23; continue _fun0008 }
-case 24:
+                    if(!(var6 === var4)) { _fun0008_ip = 26; continue _fun0008 }
+case 5:
                     var6 = _closure1_slot10;
                     var4 = _closure1_slot9;
                     var4 = var4.Idle;
-                    if(!(var6 !== var4)) { _fun0008_ip = 25; continue _fun0008 }
-case 23:
+                    if(!(var6 !== var4)) { _fun0008_ip = 27; continue _fun0008 }
+case 26:
                     return var5;
-case 25:
+case 27:
                     var4 = _closure1_slot9;
                     var4 = var4.Opening;
                     _closure1_slot10 = var4;
                     var4 = false;
                     var _closure3_slot0 = var4;
-                    var10 = function handleShow(arg1) {
-                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-                            var1 = _closure3_slot0;
-                            if(var1) { _fun0009_ip = 26; continue _fun0009 }
-case 3:
-                            var2 = arg1;
-                            var3 = var2.key;
-                            var2 = 'GiftCardMobileConsumptionActionSheet';
-                            var1 = var3 !== var2;
-case 26:
-                            if(var1) { _fun0009_ip = 27; continue _fun0009 }
-case 28:
-                            var1 = _closure1_slot9;
-                            var1 = var1.Opened;
-                            _closure1_slot10 = var1;
-case 27:
-                            var1 = undefined;
-                            return var1;
-                        }
-                    };
-                    var _closure3_slot1 = var10;
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var7 = 11;
@@ -387,19 +387,19 @@ case 27:
                         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                             var1 = _closure3_slot0;
-                            if(var1) { _fun0010_ip = 28; continue _fun0010 }
+                            if(var1) { _fun0010_ip = 25; continue _fun0010 }
 case 3:
                             var3 = _closure1_slot10;
                             var2 = _closure1_slot9;
                             var2 = var2.Opening;
                             var1 = var3 !== var2;
-case 28:
-                            if(var1) { _fun0010_ip = 29; continue _fun0010 }
-case 30:
+case 25:
+                            if(var1) { _fun0010_ip = 28; continue _fun0010 }
+case 29:
                             var1 = _closure1_slot9;
                             var1 = var1.Idle;
                             _closure1_slot10 = var1;
-case 29:
+case 28:
                             var1 = undefined;
                             return var1;
                         }
@@ -436,12 +436,12 @@ case 0:
                             var4 = _closure1_slot10;
                             var2 = _closure1_slot9;
                             var2 = var2.Opening;
-                            if(!(var4 === var2)) { _fun0011_ip = 31; continue _fun0011 }
-case 32:
+                            if(!(var4 === var2)) { _fun0011_ip = 30; continue _fun0011 }
+case 31:
                             var2 = _closure1_slot9;
                             var2 = var2.Idle;
                             _closure1_slot10 = var2;
-case 31:
+case 30:
                             return var1;
                         }
                     };
@@ -455,38 +455,38 @@ case 31:
             var2 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                    var5 = _closure2_slot3;
-                    var6 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var3 = 8;
-                    var3 = var4[var3];
-                    var4 = undefined;
-                    var3 = var6.bind(var4)(var3);
-                    var3 = var3.DismissibleContent;
-                    var3 = var3.GIFT_CARD_MOBILE_CONSUMPTION_UNAVAILABLE_HALFSHEET;
-                    if(!(var5 !== var3)) { _fun0012_ip = 33; continue _fun0012 }
-case 24:
-                    return var4;
-case 33:
                     var5 = function handleHide(arg1) {
                         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                             var1 = arg1;
                             var2 = var1.key;
                             var1 = 'GiftCardMobileConsumptionActionSheet';
-                            if(!(var2 === var1)) { _fun0013_ip = 27; continue _fun0013 }
-case 34:
+                            if(!(var2 === var1)) { _fun0013_ip = 24; continue _fun0013 }
+case 32:
                             var3 = _closure2_slot5;
                             var2 = var3.current;
                             var1 = _closure1_slot7;
                             var1 = var1.USER_DISMISS;
                             var1 = var2.bind(var3)(var1);
-case 27:
+case 24:
                             var1 = undefined;
                             return var1;
                         }
                     };
                     var _closure3_slot0 = var5;
+                    var6 = _closure2_slot3;
+                    var7 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 8;
+                    var3 = var4[var3];
+                    var4 = undefined;
+                    var3 = var7.bind(var4)(var3);
+                    var3 = var3.DismissibleContent;
+                    var3 = var3.GIFT_CARD_MOBILE_CONSUMPTION_UNAVAILABLE_HALFSHEET;
+                    if(!(var6 !== var3)) { _fun0012_ip = 33; continue _fun0012 }
+case 5:
+                    return var4;
+case 33:
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var2 = 11;

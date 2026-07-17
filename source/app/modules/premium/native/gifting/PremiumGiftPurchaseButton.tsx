@@ -422,10 +422,90 @@ case 0:
             var1 = var1.defaultSelection;
             var _closure2_slot0 = var1;
             var4 = undefined;
+            var _closure2_slot1 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
             var _closure2_slot10 = var4;
-            var _closure2_slot11 = var4;
+            var1 = function navigateToRewardSelection(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var5 = arg1;
+                    var1 = _closure2_slot8;
+                    if(!var1) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                    var3 = _closure2_slot7;
+                    var4 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 28;
+                    var2 = var7[var2];
+                    var8 = undefined;
+                    var2 = var4.bind(var8)(var2);
+                    var2 = var2.PaymentFlowStep;
+                    var2 = var2.REWARD_SKU_SELECT;
+                    var2 = var3.bind(var8)(var2);
+                    var7 = null;
+                    if(!(var7 == var5)) { _fun0003_ip = 11; continue _fun0003 }
+case 12:
+                    var5 = _closure2_slot0;
+case 11:
+                    var4 = _closure2_slot1;
+                    var3 = var4.navigate;
+                    var2 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var1 = 29;
+                    var1 = var9[var1];
+                    var1 = var2.bind(var8)(var1);
+                    var1 = var1.PremiumGiftScreens;
+                    var2 = var1.REWARD_SELECT;
+                    var1 = {};
+                    var1['defaultHighlightedReward'] = var5;
+                    var5 = _closure2_slot3;
+                    if(!(var7 == var5)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+                    var5 = new Array(0);
+                    _fun0003_ip = 15; continue _fun0003;
+case 13:
+                    var5 = _closure2_slot3;
+case 15:
+                    var1['allRewards'] = var5;
+                    var5 = _closure2_slot4;
+                    if(!(var7 == var5)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+                    var5 = new Array(0);
+                    _fun0003_ip = 18; continue _fun0003;
+case 16:
+                    var5 = _closure2_slot4;
+case 18:
+                    var1['claimableRewards'] = var5;
+                    var5 = function onSelect(arg1) {
+                        var4 = _closure2_slot6;
+                        var1 = undefined;
+                        var3 = arg1;
+                        var3 = var4.bind(var1)(var3);
+                        var4 = _closure2_slot1;
+                        var3 = var4.navigate;
+                        var5 = _closure1_slot0;
+                        var6 = _closure1_slot2;
+                        var2 = 29;
+                        var2 = var6[var2];
+                        var2 = var5.bind(var1)(var2);
+                        var2 = var2.PremiumGiftScreens;
+                        var2 = var2.CUSTOMIZATION;
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
+                    };
+                    var1['onSelect'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+case 9:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var _closure2_slot11 = var1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 11;
@@ -442,7 +522,7 @@ case 0:
             var5 = var3.bind(var4)(var1);
             var1 = var5.useNavigation;
             var1 = var1.bind(var5)();
-            var _closure2_slot1 = var1;
+            _closure2_slot1 = var1;
             var1 = 20;
             var1 = var2[var1];
             var5 = var3.bind(var4)(var1);
@@ -453,15 +533,15 @@ case 0:
             var11 = var5.isPurchasing;
             var9 = var5.productId;
             var1 = var5.allRewards;
-            var _closure2_slot3 = var1;
+            _closure2_slot3 = var1;
             var13 = var5.claimableRewards;
-            var _closure2_slot4 = var13;
+            _closure2_slot4 = var13;
             var8 = var5.selectedGiftingPromotionReward;
             var _closure2_slot5 = var8;
             var1 = var5.setSelectedGiftingPromotionReward;
-            var _closure2_slot6 = var1;
+            _closure2_slot6 = var1;
             var5 = var5.setCurrentAnalyticsStep;
-            var _closure2_slot7 = var5;
+            _closure2_slot7 = var5;
             var12 = 21;
             var5 = var2[var12];
             var15 = var3.bind(var4)(var5);
@@ -488,7 +568,7 @@ case 0:
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var3 = _closure1_slot10;
                     var2 = var3.getMarketingComponentByType;
@@ -504,19 +584,19 @@ case 0:
                     var5 = null;
                     var3 = var5 == var2;
                     var1 = null;
-                    if(var3) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                    if(var3) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
                     var3 = var2.properties;
                     var3 = var3.properties;
                     var4 = var3.oneofKind;
                     var3 = 'giftCustomizationBanner';
                     var1 = null;
-                    if(!(var3 === var4)) { _fun0003_ip = 9; continue _fun0003 }
+                    if(!(var3 === var4)) { _fun0004_ip = 19; continue _fun0004 }
 case 3:
                     var2 = var2.properties;
                     var2 = var2.properties;
                     var1 = var2.giftCustomizationBanner;
-case 9:
+case 19:
                     return var1;
                 }
             };
@@ -524,10 +604,10 @@ case 9:
             var18 = null;
             var2 = var18 == var28;
             var3 = undefined;
-            if(var2) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+            if(var2) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var3 = var28.assetVariant;
-case 11:
+case 21:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 24;
@@ -537,20 +617,20 @@ case 11:
             var2 = var2.LARGE_TILTED;
             var25 = var3 === var2;
             var15 = var18 != var13;
-            if(!var15) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!var15) { _fun0002_ip = 23; continue _fun0002 }
+case 24:
             var3 = var13.length;
             var2 = 0;
             var15 = var3 > var2;
-case 13:
+case 23:
             _closure2_slot8 = var15;
             var20 = var18 != var13;
-            if(!var20) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+            if(!var20) { _fun0002_ip = 25; continue _fun0002 }
+case 26:
             var3 = var13.length;
             var2 = 1;
             var20 = var2 === var3;
-case 15:
+case 25:
             _closure2_slot9 = var20;
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -559,10 +639,10 @@ case 15:
             var2 = var3.bind(var4)(var2);
             var14 = var2.bind(var4)();
             var7 = var14;
-            if(!var7) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+            if(!var7) { _fun0002_ip = 27; continue _fun0002 }
+case 28:
             var7 = var18 == var8;
-case 17:
+case 27:
             _closure2_slot10 = var7;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -608,82 +688,6 @@ case 17:
             var2 = var12.bind(var16)(var3, var2);
             var17 = var2.nextTier;
             var19 = var2.giftsToNextTier;
-            var2 = function navigateToRewardSelection(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var5 = arg1;
-                    var1 = _closure2_slot8;
-                    if(!var1) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
-                    var3 = _closure2_slot7;
-                    var4 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 28;
-                    var2 = var7[var2];
-                    var8 = undefined;
-                    var2 = var4.bind(var8)(var2);
-                    var2 = var2.PaymentFlowStep;
-                    var2 = var2.REWARD_SKU_SELECT;
-                    var2 = var3.bind(var8)(var2);
-                    var7 = null;
-                    if(!(var7 == var5)) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
-                    var5 = _closure2_slot0;
-case 21:
-                    var4 = _closure2_slot1;
-                    var3 = var4.navigate;
-                    var2 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var1 = 29;
-                    var1 = var9[var1];
-                    var1 = var2.bind(var8)(var1);
-                    var1 = var1.PremiumGiftScreens;
-                    var2 = var1.REWARD_SELECT;
-                    var1 = {};
-                    var1['defaultHighlightedReward'] = var5;
-                    var5 = _closure2_slot3;
-                    if(!(var7 == var5)) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
-                    var5 = new Array(0);
-                    _fun0004_ip = 25; continue _fun0004;
-case 23:
-                    var5 = _closure2_slot3;
-case 25:
-                    var1['allRewards'] = var5;
-                    var5 = _closure2_slot4;
-                    if(!(var7 == var5)) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
-                    var5 = new Array(0);
-                    _fun0004_ip = 28; continue _fun0004;
-case 26:
-                    var5 = _closure2_slot4;
-case 28:
-                    var1['claimableRewards'] = var5;
-                    var5 = function onSelect(arg1) {
-                        var4 = _closure2_slot6;
-                        var1 = undefined;
-                        var3 = arg1;
-                        var3 = var4.bind(var1)(var3);
-                        var4 = _closure2_slot1;
-                        var3 = var4.navigate;
-                        var5 = _closure1_slot0;
-                        var6 = _closure1_slot2;
-                        var2 = 29;
-                        var2 = var6[var2];
-                        var2 = var5.bind(var1)(var2);
-                        var2 = var2.PremiumGiftScreens;
-                        var2 = var2.CUSTOMIZATION;
-                        var2 = var3.bind(var4)(var2);
-                        return var1;
-                    };
-                    var1['onSelect'] = var5;
-                    var1 = var3.bind(var4)(var2, var1);
-case 19:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            _closure2_slot11 = var2;
             var12 = _closure1_slot3;
             var3 = var12.useEffect;
             var2 = new Array(3);
@@ -1141,7 +1145,7 @@ case 0:
                     if(!var3) { _fun0006_ip = 85; continue _fun0006 }
 case 86:
                     var3 = _closure2_slot8;
-                    if(var3) { _fun0006_ip = 21; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 11; continue _fun0006 }
 case 85:
                     var4 = _closure2_slot2;
                     var3 = function() {
@@ -1160,7 +1164,7 @@ case 85:
                     };
                     var3 = var4.bind(var1)(var3);
                     _fun0006_ip = 87; continue _fun0006;
-case 21:
+case 11:
                     var2 = _closure2_slot11;
                     var2 = var2.bind(var1)();
 case 87:

@@ -340,17 +340,17 @@ case 41:
                     var5 = var4.applicationId;
                     var4 = var4.shouldFetch;
                     if(!var4) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+case 35:
                     var4 = var5;
-                    if(!(var11 == var4)) { _fun0005_ip = 44; continue _fun0005 }
-case 10:
+                    if(!(var11 == var4)) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
                     var4 = {};
                     var7 = 'skus';
                     var4['type'] = var7;
                     var7 = var3;
                     var4['skuIds'] = var7;
                     _fun0005_ip = 45; continue _fun0005;
-case 44:
+case 43:
                     var7 = {};
                     var8 = 'application';
                     var7['type'] = var8;
@@ -414,14 +414,14 @@ case 50:
                     var9[9] = var13;
                     var10 = var12;
                     if(!(var11 == var10)) { _fun0005_ip = 52; continue _fun0005 }
-case 20:
+case 53:
                     var10 = {};
-                    _fun0005_ip = 53; continue _fun0005;
+                    _fun0005_ip = 54; continue _fun0005;
 case 52:
                     var11 = {};
                     var11['promotion_id_override'] = var12;
                     var10 = var11;
-case 53:
+case 54:
                     var16 = var9;
                     var15 = var10;
                     var10 = copyDataProperties(var16, var15);
@@ -429,13 +429,13 @@ case 53:
                     var9 = true;
                     var3['rejectWithError'] = var9;
                     var3 = var5.bind(var7)(var3);
-                    SaveGenerator(address=353);
-case 54:
-                    return var3;
+                    SaveGenerator(address=357);
 case 55:
+                    return var3;
+case 56:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+                    if(var5) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
                     var10 = var3.body;
                     var5 = _closure1_slot1;
                     var11 = _closure1_slot2;
@@ -455,11 +455,11 @@ case 57:
                     var8 = var8.bind(var9)(var10);
                     var4['data'] = var8;
                     var4 = var5.bind(var7)(var4);
-case 58: // try_end0
+case 59: // try_end0
                     _fun0005_ip = 42; continue _fun0005;
-case 56:
+case 57:
                     return var3;
-case 59: // catch_target0
+case 60: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;

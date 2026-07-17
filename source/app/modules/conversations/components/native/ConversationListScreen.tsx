@@ -725,7 +725,7 @@ case 63:
                     var2 = var9.has;
                     var2 = var2.bind(var9)(var10);
                     if(var2) { _fun0008_ip = 64; continue _fun0008 }
-case 45:
+case 65:
                     var9 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var5];
@@ -778,10 +778,10 @@ case 62:
             var11 = var11.content;
             var5['contentContainerStyle'] = var11;
             var11 = undefined;
-            if(!var13) { _fun0004_ip = 65; continue _fun0004 }
-case 66:
+            if(!var13) { _fun0004_ip = 66; continue _fun0004 }
+case 67:
             var11 = var12;
-case 65:
+case 66:
             var5['onEndReached'] = var11;
             var11 = _closure1_slot16;
             var5['ListEmptyComponent'] = var11;

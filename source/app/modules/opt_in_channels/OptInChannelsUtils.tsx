@@ -439,7 +439,7 @@ case 0:
             var2 = var10[var2];
             var8 = undefined;
             var11 = var9.bind(var8)(var2);
-            var7 = var11.UNSAFE_useIsDismissibleContentDismissed;
+            var7 = var11.useIsDismissibleContentDismissed_UNSAFE;
             var2 = 19;
             var2 = var10[var2];
             var2 = var9.bind(var8)(var2);

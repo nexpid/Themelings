@@ -34,18 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/user_settings/age_group/native/SettingsAgeGroupResetAlert.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SettingsAgeGroupResetAlert() {
-        var14 = _closure1_slot0;
-        var15 = _closure1_slot2;
-        var2 = 2;
-        var2 = var15[var2];
-        var4 = undefined;
-        var3 = var14.bind(var4)(var2);
-        var2 = var3.useNavigation;
-        var2 = var2.bind(var3)();
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var4 = _closure1_slot3;
-            var3 = undefined;
+        var1 = function _handleConfirm() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot3;
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -119,21 +111,25 @@ case 2:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot1 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var13 = var1.bind(var4)();
+        var _closure2_slot1 = var1;
+        var14 = _closure1_slot0;
+        var15 = _closure1_slot2;
+        var1 = 2;
+        var1 = var15[var1];
+        var4 = undefined;
+        var2 = var14.bind(var4)(var1);
+        var1 = var2.useNavigation;
+        var1 = var1.bind(var2)();
+        var _closure2_slot0 = var1;
         var3 = _closure1_slot4;
         var10 = 7;
         var1 = var15[var10];
@@ -173,6 +169,16 @@ case 2:
         var11 = {};
         var16 = 'destructive';
         var11['variant'] = var16;
+        var13 = function handleConfirm() {
+            var1 = undefined;
+            var4 = _closure2_slot1;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var11['onPress'] = var13;
         var13 = var15[var9];
         var13 = var14.bind(var4)(var13);

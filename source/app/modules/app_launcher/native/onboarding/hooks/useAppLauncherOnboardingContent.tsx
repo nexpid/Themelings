@@ -253,7 +253,7 @@ case 0:
                     var3 = var7[var6];
                     var9 = undefined;
                     var10 = var4.bind(var9)(var3);
-                    var8 = var10.UNSAFE_useIsDismissibleContentDismissed;
+                    var8 = var10.useIsDismissibleContentDismissed_UNSAFE;
                     var3 = 5;
                     var5 = var7[var3];
                     var5 = var4.bind(var9)(var5);
@@ -262,7 +262,7 @@ case 0:
                     var5 = var8.bind(var10)(var5);
                     var6 = var7[var6];
                     var8 = var4.bind(var9)(var6);
-                    var6 = var8.UNSAFE_useIsDismissibleContentDismissed;
+                    var6 = var8.useIsDismissibleContentDismissed_UNSAFE;
                     var3 = var7[var3];
                     var3 = var4.bind(var9)(var3);
                     var3 = var3.DismissibleContent;

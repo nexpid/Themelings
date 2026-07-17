@@ -83,7 +83,7 @@ case 0:
             var3 = 22;
             var3 = var8[var3];
             var10 = var4.bind(var5)(var3);
-            var9 = var10.UNSAFE_useIsDismissibleContentDismissed;
+            var9 = var10.useIsDismissibleContentDismissed_UNSAFE;
             var3 = 23;
             var3 = var8[var3];
             var3 = var4.bind(var5)(var3);

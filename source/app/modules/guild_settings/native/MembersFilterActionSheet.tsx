@@ -234,14 +234,14 @@ case 0:
                     var13 = _closure2_slot5;
                     var11 = 'dot';
                     var13 = var11 === var13;
-                    if(!var13) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                    if(!var13) { _fun0003_ip = 4; continue _fun0003 }
+case 9:
                     var14 = var6.colorString;
                     var11 = null;
                     var13 = var11 != var14;
-case 9:
-                    if(!var13) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+case 4:
+                    if(!var13) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var15 = _closure1_slot8;
                     var14 = _closure1_slot0;
                     var16 = _closure1_slot2;
@@ -258,7 +258,7 @@ case 12:
                     var16 = var6.colorStrings;
                     var11['colors'] = var16;
                     var13 = var15.bind(var3)(var14, var11);
-case 11:
+case 10:
                     var11 = new Array(2);
                     var11[0] = var13;
                     var14 = _closure1_slot8;
@@ -279,18 +279,18 @@ case 11:
                     var19 = null;
                     var17 = var19 != var16;
                     var16 = null;
-                    if(!var17) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
+                    if(!var17) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var18 = _closure2_slot5;
                     var17 = 'username';
                     var16 = null;
-                    if(!(var17 === var18)) { _fun0003_ip = 13; continue _fun0003 }
-case 15:
+                    if(!(var17 === var18)) { _fun0003_ip = 12; continue _fun0003 }
+case 14:
                     var17 = {};
                     var18 = var6.colorString;
                     var17['color'] = var18;
                     var16 = var17;
-case 13:
+case 12:
                     var15[1] = var16;
                     var12['style'] = var15;
                     var15 = var6.name;

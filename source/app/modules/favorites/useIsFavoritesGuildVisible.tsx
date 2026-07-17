@@ -132,7 +132,7 @@ case 7:
         var7 = 9;
         var7 = var6[var7];
         var8 = var4.bind(var3)(var7);
-        var7 = var8.UNSAFE_useIsDismissibleContentDismissed;
+        var7 = var8.useIsDismissibleContentDismissed_UNSAFE;
         var2 = var6[var2];
         var2 = var4.bind(var3)(var2);
         var2 = var2.DismissibleContent;

@@ -339,10 +339,8 @@ case 6:
             var5 = var13[var5];
             var5 = var8.bind(var4)(var5);
             var8 = var5.ContextMenu;
-            var5 = {};
+            var5 = {'items': null, 'keyboardShouldPersistTaps': 'handled', 'triggerOnTap': true};
             var5['items'] = var12;
-            var12 = 'handled';
-            var5['keyboardShouldPersistTaps'] = var12;
             var12 = function children(arg1) {
                 var3 = arg1;
                 var8 = var3.ref;

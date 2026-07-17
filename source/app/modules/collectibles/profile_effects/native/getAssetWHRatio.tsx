@@ -37,7 +37,7 @@ case 4:
     var4 = var5.bind(var6)(var4);
     var4 = 0.5113636363636364;
     var3['DEFAULT_PROFILE_EFFECT_WH_RATIO'] = var4;
-    var2 = function(arg1) {
+    var2 = function getAssetWHRatio(arg1) {
         var1 = arg1;
         var5 = _closure1_slot0;
         var3 = var1.width;

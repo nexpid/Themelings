@@ -560,19 +560,19 @@ case 0:
                             var1 = undefined;
                             var8 = var5.bind(var1)(var3);
                             var3 = arg1;
-                            if(var3) { _fun0004_ip = 19; continue _fun0004 }
+                            if(var3) { _fun0004_ip = 27; continue _fun0004 }
 case 13:
                             var6 = var8.remove;
                             var5 = _closure2_slot2;
                             var3 = _closure3_slot0;
                             var3 = var6.bind(var8)(var5, var3);
-                            _fun0004_ip = 27; continue _fun0004;
-case 19:
+                            _fun0004_ip = 28; continue _fun0004;
+case 27:
                             var7 = var8.add;
                             var6 = _closure2_slot2;
                             var5 = _closure3_slot0;
                             var3 = var7.bind(var8)(var6, var5);
-case 27:
+case 28:
                             var3 = var4.bind(var1)(var3);
                             var3 = _closure2_slot10;
                             var2 = true;
@@ -618,8 +618,8 @@ case 0:
                     var2 = var1.leadingItem;
                     var1 = null;
                     var2 = var1 != var2;
-                    if(!var2) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                    if(!var2) { _fun0005_ip = 29; continue _fun0005 }
+case 30:
                     var5 = _closure1_slot14;
                     var4 = _closure1_slot6;
                     var3 = {};
@@ -628,7 +628,7 @@ case 29:
                     var3['style'] = var2;
                     var2 = undefined;
                     var1 = var5.bind(var2)(var4, var3);
-case 28:
+case 29:
                     return var1;
                 }
             };

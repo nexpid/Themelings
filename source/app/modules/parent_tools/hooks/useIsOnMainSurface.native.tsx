@@ -137,21 +137,7 @@ case 7:
         var3 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var2 = 2;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
-                var3 = var4.getRootNavigationRef;
-                var5 = var3.bind(var4)();
-                var _closure3_slot0 = var5;
-                var3 = null;
-                if(!(var3 == var5)) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
-                return var2;
-case 16:
-                var4 = function handleNavigationChange() {
+                var5 = function handleNavigationChange() {
                     var3 = _closure2_slot0;
                     var1 = _closure1_slot6;
                     var2 = undefined;
@@ -159,11 +145,25 @@ case 16:
                     var1 = var3.bind(var2)(var1);
                     return var1;
                 };
-                var _closure3_slot1 = var4;
-                var2 = var4.bind(var2)();
-                var3 = var5.addListener;
+                var _closure3_slot1 = var5;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot1;
+                var2 = 2;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
+                var3 = var4.getRootNavigationRef;
+                var4 = var3.bind(var4)();
+                var _closure3_slot0 = var4;
+                var3 = null;
+                if(!(var3 == var4)) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+                return var2;
+case 16:
+                var2 = var5.bind(var2)();
+                var3 = var4.addListener;
                 var2 = 'state';
-                var2 = var3.bind(var5)(var2, var4);
+                var2 = var3.bind(var4)(var2, var5);
                 var1 = function() {
                     var4 = _closure3_slot0;
                     var3 = var4.removeListener;

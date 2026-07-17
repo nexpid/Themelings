@@ -457,16 +457,16 @@ case 55:
             var3 = var7.bind(var3)(var6);
             var3 = var3.UploadPlatform;
             var3 = var3.REACT_NATIVE;
-            if(!(var5 !== var3)) { _fun0006_ip = 14; continue _fun0006 }
-case 56:
+            if(!(var5 !== var3)) { _fun0006_ip = 56; continue _fun0006 }
+case 57:
             var3 = false;
             return var3;
-case 14:
+case 56:
             var2 = var2.item;
             var3 = var4.filename;
             var5 = var2.originalUri;
             var4 = var4.uri;
-            if(!(var5 !== var4)) { _fun0006_ip = 57; continue _fun0006 }
+            if(!(var5 !== var4)) { _fun0006_ip = 20; continue _fun0006 }
 case 58:
             if(!(var1 != var3)) { _fun0006_ip = 59; continue _fun0006 }
 case 60:
@@ -482,7 +482,7 @@ case 59:
 case 62:
             var1 = true;
             return var1;
-case 57:
+case 20:
             var1 = true;
             return var1;
 case 53:
@@ -535,8 +535,8 @@ case 65:
             var5 = null;
             var1 = var5 != var6;
 case 64:
-            if(!var1) { _fun0008_ip = 56; continue _fun0008 }
-case 66:
+            if(!var1) { _fun0008_ip = 66; continue _fun0008 }
+case 67:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
             var5 = 4;
@@ -545,9 +545,9 @@ case 66:
             var5 = var6.fileIsInAppDir;
             var3 = var3.uri;
             var1 = var5.bind(var6)(var3);
-case 56:
-            if(!var1) { _fun0008_ip = 67; continue _fun0008 }
-case 68:
+case 66:
+            if(!var1) { _fun0008_ip = 68; continue _fun0008 }
+case 69:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 5;
@@ -555,7 +555,7 @@ case 68:
             var3 = var3.bind(var4)(var2);
             var2 = var3.isLibdiscoreInitialized;
             var1 = var2.bind(var3)();
-case 67:
+case 68:
             return var1;
         }
     };

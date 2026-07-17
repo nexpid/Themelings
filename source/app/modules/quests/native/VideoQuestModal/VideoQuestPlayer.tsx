@@ -305,7 +305,7 @@ case 2:
     var4['ERRORED'] = var5;
     var _closure1_slot22 = var4;
     var5 = {};
-    var9 = 'function VideoQuestPlayerTsx3(){const{hasLoaded,showControls,playerState,PlayerState,isVideoEnded,externallyPaused}=this.__closure;return hasLoaded&&(showControls.get()||playerState===PlayerState.PAUSED||playerState===PlayerState.ENDED||playerState===PlayerState.ERRORED||isVideoEnded||externallyPaused);}';
+    var9 = 'function shouldShowControls_VideoQuestPlayerTsx3(){const{hasLoaded,showControls,playerState,PlayerState,isVideoEnded,externallyPaused}=this.__closure;return hasLoaded&&(showControls.get()||playerState===PlayerState.PAUSED||playerState===PlayerState.ENDED||playerState===PlayerState.ERRORED||isVideoEnded||externallyPaused);}';
     var5['code'] = var9;
     var _closure1_slot23 = var5;
     var5 = {};
@@ -582,13 +582,13 @@ case 19:
             var3 = var6.useState;
             var3 = var3.bind(var6)(var10);
             var3 = var9.bind(var5)(var3, var50);
-            var9 = var3[var31];
-            _closure2_slot19 = var9;
+            var34 = var3[var31];
+            _closure2_slot19 = var34;
             var3 = var3[var44];
             _closure2_slot20 = var3;
-            var11 = var6.useRef;
+            var9 = var6.useRef;
             var3 = var48.progressSeconds;
-            var3 = var11.bind(var6)(var3);
+            var3 = var9.bind(var6)(var3);
             _closure2_slot21 = var3;
             var3 = var6.useRef;
             var3 = var3.bind(var6)(var1);
@@ -596,7 +596,6 @@ case 19:
             var3 = var6.useRef;
             var3 = var3.bind(var6)(var31);
             _closure2_slot23 = var3;
-            var34 = var9;
             if(!var34) { _fun0002_ip = 21; continue _fun0002 }
 case 22:
             var3 = _closure1_slot22;
@@ -605,10 +604,10 @@ case 22:
 case 21:
             if(!var34) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-            var11 = _closure1_slot18;
+            var9 = _closure1_slot18;
             var6 = var22.timestampSec;
             var3 = var22.duration;
-            var34 = var11.bind(var5)(var6, var3);
+            var34 = var9.bind(var5)(var6, var3);
 case 23:
             _closure2_slot24 = var34;
             var32 = _closure1_slot0;
@@ -619,67 +618,76 @@ case 23:
             var3 = var6.useSharedValue;
             var49 = var3.bind(var6)(var10);
             _closure2_slot25 = var49;
-            var3 = function K() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            var3 = function() {
+                var1 = function shouldShowControls() {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var1 = _closure2_slot19;
-                    if(!var1) { _fun0004_ip = 25; continue _fun0004 }
+                        var1 = _closure2_slot19;
+                        if(!var1) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
-                    var4 = _closure2_slot25;
-                    var2 = var4.get;
-                    var2 = var2.bind(var4)();
-                    if(var2) { _fun0004_ip = 4; continue _fun0004 }
+                        var4 = _closure2_slot25;
+                        var2 = var4.get;
+                        var2 = var2.bind(var4)();
+                        if(var2) { _fun0004_ip = 4; continue _fun0004 }
 case 27:
-                    var5 = _closure2_slot16;
-                    var4 = _closure1_slot22;
-                    var4 = var4.PAUSED;
-                    var2 = var5 === var4;
+                        var5 = _closure2_slot16;
+                        var4 = _closure1_slot22;
+                        var4 = var4.PAUSED;
+                        var2 = var5 === var4;
 case 4:
-                    if(var2) { _fun0004_ip = 28; continue _fun0004 }
+                        if(var2) { _fun0004_ip = 28; continue _fun0004 }
 case 2:
-                    var5 = _closure2_slot16;
-                    var4 = _closure1_slot22;
-                    var4 = var4.ENDED;
-                    var2 = var5 === var4;
+                        var5 = _closure2_slot16;
+                        var4 = _closure1_slot22;
+                        var4 = var4.ENDED;
+                        var2 = var5 === var4;
 case 28:
-                    if(var2) { _fun0004_ip = 29; continue _fun0004 }
+                        if(var2) { _fun0004_ip = 29; continue _fun0004 }
 case 19:
-                    var5 = _closure2_slot16;
-                    var4 = _closure1_slot22;
-                    var4 = var4.ERRORED;
-                    var2 = var5 === var4;
+                        var5 = _closure2_slot16;
+                        var4 = _closure1_slot22;
+                        var4 = var4.ERRORED;
+                        var2 = var5 === var4;
 case 29:
-                    if(var2) { _fun0004_ip = 30; continue _fun0004 }
+                        if(var2) { _fun0004_ip = 30; continue _fun0004 }
 case 6:
-                    var2 = _closure2_slot24;
+                        var2 = _closure2_slot24;
 case 30:
-                    if(var2) { _fun0004_ip = 31; continue _fun0004 }
+                        if(var2) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                    var2 = _closure2_slot4;
+                        var2 = _closure2_slot4;
 case 31:
-                    var1 = var2;
+                        var1 = var2;
 case 25:
-                    return var1;
-                }
+                        return var1;
+                    }
+                };
+                var3 = {};
+                var2 = _closure2_slot19;
+                var3['hasLoaded'] = var2;
+                var2 = _closure2_slot25;
+                var3['showControls'] = var2;
+                var2 = _closure2_slot16;
+                var3['playerState'] = var2;
+                var5 = _closure1_slot22;
+                var3['PlayerState'] = var5;
+                var5 = _closure2_slot24;
+                var3['isVideoEnded'] = var5;
+                var4 = _closure2_slot4;
+                var3['externallyPaused'] = var4;
+                var1['__closure'] = var3;
+                var3 = 11602236169344.0;
+                var1['__workletHash'] = var3;
+                var2 = _closure1_slot23;
+                var1['__initData'] = var2;
+                return var1;
             };
-            var6 = {};
-            var6['hasLoaded'] = var9;
-            var6['showControls'] = var49;
-            var6['playerState'] = var35;
-            var9 = _closure1_slot22;
-            var6['PlayerState'] = var9;
-            var6['isVideoEnded'] = var34;
-            var6['externallyPaused'] = var4;
-            var3['__closure'] = var6;
-            var6 = 9198261161185.0;
-            var3['__workletHash'] = var6;
-            var6 = _closure1_slot23;
-            var3['__initData'] = var6;
+            var3 = var3.bind(var5)();
             _closure2_slot26 = var3;
             var6 = var27[var18];
             var11 = var32.bind(var5)(var6);
             var9 = var11.useAnimatedStyle;
-            var6 = function W() {
+            var6 = function K() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot26;
@@ -741,7 +749,7 @@ case 6:
             var3 = var27[var18];
             var11 = var32.bind(var5)(var3);
             var6 = var11.useAnimatedStyle;
-            var3 = function Z() {
+            var3 = function W() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;

@@ -451,25 +451,25 @@ case 0:
             var4 = _closure1_slot6;
             var4 = var4.ADMINISTRATOR;
             if(!(var4 !== var6)) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+case 3:
             var4 = _closure1_slot6;
             var4 = var4.ROLE;
             if(!(var4 !== var6)) { _fun0005_ip = 18; continue _fun0005 }
-case 20:
+case 19:
             var4 = _closure1_slot6;
             var4 = var4.OWNER;
-            if(!(var4 !== var6)) { _fun0005_ip = 21; continue _fun0005 }
-case 22:
+            if(!(var4 !== var6)) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
             var4 = _closure1_slot6;
             var4 = var4.MEMBER;
-            if(!(var4 !== var6)) { _fun0005_ip = 21; continue _fun0005 }
-case 23:
+            if(!(var4 !== var6)) { _fun0005_ip = 20; continue _fun0005 }
+case 22:
             var4 = _closure1_slot6;
             var4 = var4.EMPTY_STATE;
-            if(!(var4 !== var6)) { _fun0005_ip = 24; continue _fun0005 }
-case 25:
-            return var3;
+            if(!(var4 !== var6)) { _fun0005_ip = 23; continue _fun0005 }
 case 24:
+            return var3;
+case 23:
             var7 = _closure1_slot7;
             var6 = _closure1_slot13;
             var4 = {};
@@ -480,7 +480,7 @@ case 24:
             var3 = undefined;
             var3 = var7.bind(var3)(var6, var4);
             return var3;
-case 21:
+case 20:
             var7 = _closure1_slot7;
             var6 = _closure1_slot12;
             var4 = {};

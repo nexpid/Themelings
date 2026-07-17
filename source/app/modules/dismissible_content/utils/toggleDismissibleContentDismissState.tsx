@@ -78,7 +78,7 @@ case 2:
         var3 = 8;
         var3 = var11[var3];
         var8 = var4.bind(var5)(var3);
-        var4 = var8.UNSAFE_useIsDismissibleContentDismissed;
+        var4 = var8.useIsDismissibleContentDismissed_UNSAFE;
         var3 = {};
         var10 = _closure1_slot1;
         var9 = 9;

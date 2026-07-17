@@ -490,10 +490,10 @@ case 0:
                 var10 = new Array(2);
                 var10[0] = var17;
                 var17 = undefined;
-                if(!var12) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
-                var17 = var14.mention;
+                if(!var12) { _fun0004_ip = 24; continue _fun0004 }
 case 28:
+                var17 = var14.mention;
+case 24:
                 var10[1] = var17;
                 var7['style'] = var10;
                 var9 = var9.HermesInternal;
@@ -523,22 +523,22 @@ case 28:
                 var13 = var18[var13];
                 var13 = var17.bind(var4)(var13);
                 var13 = var13.t;
-                if(var16) { _fun0004_ip = 30; continue _fun0004 }
-case 31:
-                if(var12) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+                if(var16) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
+                if(var12) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
                 var12 = var13.FCRiT3;
                 var12 = var14.bind(var15)(var12);
-                _fun0004_ip = 34; continue _fun0004;
-case 32:
+                _fun0004_ip = 33; continue _fun0004;
+case 31:
                 var16 = var13["8zH0LJ"];
                 var12 = var14.bind(var15)(var16);
-case 34:
-                _fun0004_ip = 35; continue _fun0004;
-case 30:
+case 33:
+                _fun0004_ip = 34; continue _fun0004;
+case 29:
                 var13 = var13.y2b7CA;
                 var12 = var14.bind(var15)(var13);
-case 35:
+case 34:
                 var9['children'] = var12;
                 var9 = var11.bind(var4)(var10, var9);
                 var7['children'] = var9;
@@ -582,15 +582,15 @@ case 0:
             var13 = var2.afterItem;
             var14 = var2.compact;
             var4 = undefined;
-            if(!(var14 === var4)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
-            var14 = false;
+            if(!(var14 === var4)) { _fun0005_ip = 35; continue _fun0005 }
 case 36:
+            var14 = false;
+case 35:
             var11 = var2.contentInset;
-            if(!(var11 === var4)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
-            var11 = {'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
+            if(!(var11 === var4)) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
+            var11 = {'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
+case 37:
             var12 = function handlePress(arg1) {
                 var1 = arg1;
                 var4 = var1.section;
@@ -632,8 +632,8 @@ case 38:
             var6 = null;
             var10 = var6 != var5;
             var9 = null;
-            if(!var10) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!var10) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var16 = _closure1_slot13;
             var15 = _closure1_slot16;
             var10 = {};
@@ -644,13 +644,13 @@ case 41:
             var10['useReducedMotion'] = var7;
             var5 = 'BEFORE';
             var9 = var16.bind(var4)(var15, var10, var5);
-case 40:
+case 39:
             var5 = new Array(2);
             var5[0] = var9;
             var9 = var6 != var13;
             var6 = null;
-            if(!var9) { _fun0005_ip = 42; continue _fun0005 }
-case 43:
+            if(!var9) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var10 = _closure1_slot13;
             var9 = _closure1_slot16;
             var8 = {};
@@ -663,7 +663,7 @@ case 43:
             var8['useReducedMotion'] = var7;
             var7 = 'AFTER';
             var6 = var10.bind(var4)(var9, var8, var7);
-case 42:
+case 41:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

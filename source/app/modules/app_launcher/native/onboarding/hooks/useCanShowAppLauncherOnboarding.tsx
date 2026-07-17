@@ -373,7 +373,7 @@ case 26:
             var4 = 12;
             var6 = var1[var4];
             var12 = var18.bind(var20)(var6);
-            var7 = var12.UNSAFE_useIsDismissibleContentDismissed;
+            var7 = var12.useIsDismissibleContentDismissed_UNSAFE;
             var6 = var1[var21];
             var6 = var18.bind(var20)(var6);
             var6 = var6.DismissibleContent;
@@ -381,7 +381,7 @@ case 26:
             var12 = var7.bind(var12)(var6);
             var6 = var1[var4];
             var22 = var18.bind(var20)(var6);
-            var7 = var22.UNSAFE_useIsDismissibleContentDismissed;
+            var7 = var22.useIsDismissibleContentDismissed_UNSAFE;
             var6 = var1[var21];
             var6 = var18.bind(var20)(var6);
             var6 = var6.DismissibleContent;
@@ -389,7 +389,7 @@ case 26:
             var6 = var7.bind(var22)(var6);
             var4 = var1[var4];
             var7 = var18.bind(var20)(var4);
-            var4 = var7.UNSAFE_useIsDismissibleContentDismissed;
+            var4 = var7.useIsDismissibleContentDismissed_UNSAFE;
             var1 = var1[var21];
             var1 = var18.bind(var20)(var1);
             var1 = var1.DismissibleContent;

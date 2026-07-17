@@ -170,7 +170,7 @@ case 2:
     var5 = 5.333333333333333;
     var3['NAMEPLATE_ASPECT_RATIO'] = var5;
     var3['getCollectibleTypeName'] = var4;
-    var4 = function(arg1) {
+    var4 = function getAvatarDecorationPreviewUrl(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;

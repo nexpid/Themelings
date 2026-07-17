@@ -143,7 +143,7 @@ case 7:
         var1 = var6[var1];
         var4 = undefined;
         var3 = var5.bind(var4)(var1);
-        var2 = var3.UNSAFE_useIsDismissibleContentDismissed;
+        var2 = var3.useIsDismissibleContentDismissed_UNSAFE;
         var1 = 5;
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
@@ -299,7 +299,7 @@ case 16:
     };
     var3['markReferralProgramPopoverSeen'] = var5;
     var3['isReferralProgramPopoverSeen'] = var4;
-    var2 = function() {
+    var2 = function useIsReferralProgramPopoverShowable() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = _closure1_slot0;

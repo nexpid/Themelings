@@ -173,6 +173,7 @@ case 6:
             var6 = var9;
 case 5:
             var3['pendingDisplayNameStyles'] = var6;
+            var3['ignoreDisabledStylesSetting'] = var14;
             var5 = var5.bind(var4)(var3);
             _closure2_slot6 = var5;
             var6 = _closure1_slot0;
@@ -314,18 +315,14 @@ case 12:
                     var5 = var5[var1];
                     var1 = undefined;
                     var7 = var7.bind(var1)(var5);
-                    var5 = {};
+                    var5 = {'userId': null, 'guildId': null, 'userName': 'Gg', 'pendingDisplayNameStyles': null, 'ignoreDisabledStylesSetting': true, 'variant': 'heading-xl/semibold'};
                     var8 = _closure2_slot0;
                     var8 = var8.id;
                     var5['userId'] = var8;
                     var8 = _closure2_slot1;
                     var5['guildId'] = var8;
-                    var8 = 'Gg';
-                    var5['userName'] = var8;
                     var8 = _closure2_slot6;
                     var5['pendingDisplayNameStyles'] = var8;
-                    var8 = 'heading-xl/semibold';
-                    var5['variant'] = var8;
                     var5 = var4.bind(var1)(var7, var5);
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);

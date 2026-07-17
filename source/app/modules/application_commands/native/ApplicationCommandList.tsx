@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/application_commands/native/ApplicationCommandList.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function ApplicationCommandList(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -237,12 +237,12 @@ case 0:
                     var3 = var1.height;
                     var1 = _closure1_slot7;
                     var1 = var3 - var1;
-                    if(!(var2 >= var1)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                    if(!(var2 >= var1)) { _fun0004_ip = 3; continue _fun0004 }
+case 14:
                     var2 = _closure2_slot5;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 14:
+case 3:
                     var1 = undefined;
                     return var1;
                 }

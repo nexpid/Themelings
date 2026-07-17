@@ -1139,7 +1139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['getPlatformUserUrl'] = var13;
     var8[22] = var2;
-    var2 = {'type': null, 'name': 'TikTok', 'icon': null, 'enabled': true, 'hasMetadata': true};
+    var2 = {'type': null, 'name': 'TikTok', 'icon': null, 'enabled': false, 'hasMetadata': true};
     var13 = var10.TIKTOK;
     var2['type'] = var13;
     var13 = {};

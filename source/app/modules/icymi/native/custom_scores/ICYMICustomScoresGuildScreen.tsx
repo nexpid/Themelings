@@ -1116,16 +1116,16 @@ case 0:
                     var2 = var9.kind;
                     var1 = 'header';
                     if(!(var1 !== var2)) { _fun0012_ip = 85; continue _fun0012 }
-case 57:
+case 86:
                     var1 = 'categoryHeader';
-                    if(!(var1 !== var2)) { _fun0012_ip = 86; continue _fun0012 }
-case 59:
-                    var1 = 'channel';
                     if(!(var1 !== var2)) { _fun0012_ip = 87; continue _fun0012 }
-case 88:
+case 33:
+                    var1 = 'channel';
+                    if(!(var1 !== var2)) { _fun0012_ip = 88; continue _fun0012 }
+case 61:
                     var1 = null;
                     return var1;
-case 87:
+case 88:
                     var4 = _closure1_slot11;
                     var3 = _closure1_slot17;
                     var2 = {};
@@ -1140,7 +1140,7 @@ case 87:
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;
-case 86:
+case 87:
                     var4 = _closure1_slot12;
                     var3 = _closure1_slot5;
                     var2 = {};

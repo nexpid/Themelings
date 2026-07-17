@@ -338,7 +338,7 @@ case 17:
         }
     };
     var4['VOICE_CHANNEL_EFFECT_SEND'] = var5;
-    var5 = function VOICE_CHANNEL_EFFECT_SENT_LOCAL() {
+    var5 = function handleVoiceChannelEffectSentLocal() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = global;

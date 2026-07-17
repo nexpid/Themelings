@@ -313,7 +313,7 @@ case 52:
                     var7 = var6.Error;
                     var7 = var9 instanceof var7;
                     if(var7) { _fun0005_ip = 54; continue _fun0005 }
-case 26:
+case 55:
                     var9 = var6.Error;
                     var7 = var6.String;
                     var6 = var4;
@@ -323,10 +323,10 @@ case 26:
                     var20 = var7;
                     var6 = new var20[var9](var19, var18);
                     var6 = var6 instanceof Object ? var6 : var7;
-                    _fun0005_ip = 55; continue _fun0005;
+                    _fun0005_ip = 56; continue _fun0005;
 case 54:
                     var6 = var4;
-case 55:
+case 56:
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var3 = 4;

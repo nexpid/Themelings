@@ -358,7 +358,7 @@ case 16:
         return var1;
     };
     var2['UPLOAD_ATTACHMENT_POP_FILE'] = var9;
-    var9 = function UPLOAD_ATTACHMENT_ADD_FILES(arg1) {
+    var9 = function handleAddFiles(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;

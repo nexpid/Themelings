@@ -38,48 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot9 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
-    var1 = 0;
-    var2 = var6[var1];
-    var1 = undefined;
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot2 = var2;
-    var2 = 1;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = {};
-    var _closure1_slot8 = var2;
+    var _closure1_slot9 = var1;
     var2 = function setDefaultState() {
         var2 = {};
         var1 = {};
@@ -92,7 +57,42 @@ case 4:
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot9 = var2;
+    var _closure1_slot10 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var8 = {};
+    var1 = true;
+    var8['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var8);
+    var1 = 0;
+    var8 = var6[var1];
+    var1 = undefined;
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot2 = var8;
+    var8 = 1;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot5 = var8;
+    var8 = 4;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot6 = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = {};
+    var _closure1_slot8 = var8;
     var2 = var2.bind(var1)();
     var2 = 7;
     var2 = var6[var2];
@@ -111,7 +111,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -215,7 +215,7 @@ case 9:
     var8['persistKey'] = var2;
     var2 = 8;
     var2 = var6[var2];
-    var12 = var7.bind(var1)(var2);
+    var13 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleConnectionOpen() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -285,7 +285,7 @@ case 4:
     };
     var2['LOAD_GUILD_AFFINITIES_SUCCESS'] = var9;
     var4 = function handleLogout() {
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot10;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
@@ -293,9 +293,9 @@ case 4:
     var2['LOGOUT'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
-    var13 = var4;
-    var11 = var2;
-    var2 = new var13[var8](var12, var11, var10);
+    var14 = var4;
+    var12 = var2;
+    var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 9;
     var4 = var6[var4];

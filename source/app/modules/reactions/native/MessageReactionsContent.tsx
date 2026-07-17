@@ -1789,7 +1789,7 @@ case 82:
     var6 = var7.bind(var8)(var6);
     var3['useReactors'] = var5;
     var3['useReactorsOnScrollNative'] = var4;
-    var4 = function() {
+    var4 = function MessageReactionsEmpty() {
         var1 = _closure1_slot19;
         var4 = undefined;
         var9 = var1.bind(var4)();
@@ -1861,7 +1861,7 @@ case 82:
         return var1;
     };
     var3['MessageReactionsEmpty'] = var4;
-    var2 = function(arg1) {
+    var2 = function MessageReactionsContent(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var3 = arg1;

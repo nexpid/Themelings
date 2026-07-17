@@ -230,6 +230,21 @@ case 42:
             _fun0001_ip = 41; continue _fun0001;
         }
 case 43:
+        var3 = 15;
+        var2 = var8[var3];
+        var6 = var10.bind(var1)(var2);
+        for(var2 in var6)
+case 44:
+        {
+case 45:
+            var12 = var2;
+            var11 = var8[var3];
+            var11 = var10.bind(var1)(var11);
+            var11 = var11[var12];
+            var9[var12] = var11;
+            _fun0001_ip = 44; continue _fun0001;
+        }
+case 46:
         return var1;
     }
 })();

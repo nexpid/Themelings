@@ -20,23 +20,26 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var3[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 3;
+                    var2 = var10[var8];
                     var3 = undefined;
-                    var2 = var5.bind(var3)(var2);
+                    var2 = var9.bind(var3)(var2);
                     var6 = var2.HTTP;
                     var5 = var6.get;
                     var2 = {};
-                    var9 = _closure1_slot4;
-                    var8 = var9.GUILD_ROLE_SUBSCRIPTION_LISTING_TEMPLATES;
-                    var8 = var8.bind(var9)(var7);
-                    var2['url'] = var8;
-                    var8 = false;
+                    var12 = _closure1_slot4;
+                    var11 = var12.GUILD_ROLE_SUBSCRIPTION_LISTING_TEMPLATES;
+                    var11 = var11.bind(var12)(var7);
+                    var2['url'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=84);
+                    SaveGenerator(address=101);
 case 4:
                     return var2;
 case 5:

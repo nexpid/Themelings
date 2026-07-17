@@ -231,15 +231,6 @@ case 3:
     var _closure1_slot23 = var1;
     var1 = function rebuildGuild(arg1) {
         var3 = arg1;
-        var5 = _closure1_slot12;
-        var1 = var5.getChannels;
-        var5 = var1.bind(var5)(var3);
-        var1 = {};
-        var6 = new Array(0);
-        var1['_categories'] = var6;
-        var6 = new Array(0);
-        var1['null'] = var6;
-        var _closure2_slot0 = var1;
         var6 = function updateChannel(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -270,6 +261,15 @@ case 41:
                 return var1;
             }
         };
+        var5 = _closure1_slot12;
+        var1 = var5.getChannels;
+        var5 = var1.bind(var5)(var3);
+        var1 = {};
+        var7 = new Array(0);
+        var1['_categories'] = var7;
+        var7 = new Array(0);
+        var1['null'] = var7;
+        var _closure2_slot0 = var1;
         var7 = _closure1_slot14;
         var7 = var7.GUILD_CATEGORY;
         var8 = var5[var7];
@@ -280,11 +280,12 @@ case 41:
             var3 = _closure2_slot0;
             var5 = var3._categories;
             var4 = var5.push;
-            var2 = {};
-            var2['channel'] = var1;
+            var3 = {};
+            var3['channel'] = var1;
             var6 = -1;
-            var2['index'] = var6;
-            var2 = var4.bind(var5)(var2);
+            var3['index'] = var6;
+            var3 = var4.bind(var5)(var3);
+            var3 = _closure2_slot0;
             var2 = var1.id;
             var1 = new Array(0);
             var3[var2] = var1;

@@ -1056,7 +1056,7 @@ case 80:
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/client_themes/native/ThemedGradient.tsx';
     var6 = var7.bind(var8)(var6);
-    var6 = function _default(arg1) {
+    var6 = function ThemedGradient(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var4 = arg1;
@@ -1255,7 +1255,7 @@ case 87:
     var3['default'] = var6;
     var3['Gradient'] = var5;
     var3['validateColors'] = var4;
-    var2 = function(arg1) {
+    var2 = function CustomThemedGradient(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var3 = arg1;

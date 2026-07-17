@@ -48,54 +48,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var2;
     var2 = {};
     var7 = function startEvent(arg1, arg2) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 5;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.patch;
         var1 = {};
-        var8 = _closure1_slot10;
-        var7 = var8.GUILD_EVENT;
-        var6 = arg2;
-        var4 = arg1;
-        var4 = var7.bind(var8)(var6, var4);
-        var1['url'] = var4;
-        var4 = {};
-        var5 = _closure1_slot8;
-        var5 = var5.ACTIVE;
-        var4['status'] = var5;
-        var1['body'] = var4;
-        var4 = false;
+        var12 = _closure1_slot10;
+        var11 = var12.GUILD_EVENT;
+        var10 = arg2;
+        var8 = arg1;
+        var8 = var11.bind(var12)(var10, var8);
+        var1['url'] = var8;
+        var8 = {};
+        var9 = _closure1_slot8;
+        var9 = var9.ACTIVE;
+        var8['status'] = var9;
+        var1['body'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
     var2['startEvent'] = var7;
     var7 = function endEvent(arg1, arg2) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 5;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.patch;
         var1 = {};
-        var8 = _closure1_slot10;
-        var7 = var8.GUILD_EVENT;
-        var6 = arg2;
-        var4 = arg1;
-        var4 = var7.bind(var8)(var6, var4);
-        var1['url'] = var4;
-        var4 = {};
-        var5 = _closure1_slot8;
-        var5 = var5.COMPLETED;
-        var4['status'] = var5;
-        var1['body'] = var4;
-        var4 = false;
+        var12 = _closure1_slot10;
+        var11 = var12.GUILD_EVENT;
+        var10 = arg2;
+        var8 = arg1;
+        var8 = var11.bind(var12)(var10, var8);
+        var1['url'] = var8;
+        var8 = {};
+        var9 = _closure1_slot8;
+        var9 = var9.COMPLETED;
+        var8['status'] = var9;
+        var1['body'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -132,74 +138,77 @@ case 0:
             var3 = var4.has;
             var2 = var1.entityType;
             var2 = var3.bind(var4)(var2);
-            var6 = null;
+            var5 = null;
             var3 = null;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var3 = var1.channelId;
 case 2:
-            var7 = _closure1_slot7;
-            var4 = var7.has;
+            var6 = _closure1_slot7;
+            var4 = var6.has;
             var2 = var1.entityType;
-            var4 = var4.bind(var7)(var2);
+            var4 = var4.bind(var6)(var2);
             var2 = null;
             if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var2 = var1.entityMetadata;
 case 4:
             var4 = var1.image;
-            if(!(var6 != var4)) { _fun0001_ip = 6; continue _fun0001 }
+            if(!(var5 != var4)) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var7 = /^data:/;
-            var6 = var7.test;
+            var6 = /^data:/;
+            var5 = var6.test;
             var4 = var1.image;
-            var7 = var6.bind(var7)(var4);
-            var4 = false;
-            var6 = undefined;
-            if(!(var4 !== var7)) { _fun0001_ip = 8; continue _fun0001 }
+            var6 = var5.bind(var6)(var4);
+            var5 = false;
+            var4 = undefined;
+            if(!(var5 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
 case 6:
-            var6 = var1.image;
+            var4 = var1.image;
 case 8:
-            var4 = {};
-            var7 = var1.name;
-            var4['name'] = var7;
-            var7 = var1.description;
-            var4['description'] = var7;
-            var4['image'] = var6;
-            var6 = var1.privacyLevel;
-            var4['privacy_level'] = var6;
-            var6 = var1.scheduledStartTime;
-            var4['scheduled_start_time'] = var6;
-            var6 = var1.scheduledEndTime;
-            var4['scheduled_end_time'] = var6;
-            var6 = var1.entityType;
-            var4['entity_type'] = var6;
-            var4['channel_id'] = var3;
-            var4['entity_metadata'] = var2;
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var8 = {};
+            var5 = var1.name;
+            var8['name'] = var5;
+            var5 = var1.description;
+            var8['description'] = var5;
+            var8['image'] = var4;
+            var4 = var1.privacyLevel;
+            var8['privacy_level'] = var4;
+            var4 = var1.scheduledStartTime;
+            var8['scheduled_start_time'] = var4;
+            var4 = var1.scheduledEndTime;
+            var8['scheduled_end_time'] = var4;
+            var4 = var1.entityType;
+            var8['entity_type'] = var4;
+            var8['channel_id'] = var3;
+            var8['entity_metadata'] = var2;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var2 = 8;
-            var7 = var6[var2];
-            var2 = undefined;
-            var8 = var3.bind(var2)(var7);
-            var7 = var8.recurrenceRuleToServer;
+            var2 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var2);
+            var2 = var3.recurrenceRuleToServer;
             var1 = var1.recurrenceRule;
-            var1 = var7.bind(var8)(var1);
-            var4['recurrence_rule'] = var1;
-            var1 = 5;
-            var1 = var6[var1];
-            var1 = var3.bind(var2)(var1);
+            var1 = var2.bind(var3)(var1);
+            var8['recurrence_rule'] = var1;
+            var4 = 5;
+            var1 = var7[var4];
+            var1 = var6.bind(var5)(var1);
             var3 = var1.HTTP;
             var2 = var3.patch;
             var1 = {};
-            var8 = _closure1_slot10;
-            var7 = var8.GUILD_EVENT;
-            var6 = arg3;
-            var5 = arg1;
-            var5 = var7.bind(var8)(var6, var5);
-            var1['url'] = var5;
-            var1['body'] = var4;
-            var4 = false;
+            var12 = _closure1_slot10;
+            var11 = var12.GUILD_EVENT;
+            var10 = arg3;
+            var9 = arg1;
+            var9 = var11.bind(var12)(var10, var9);
+            var1['url'] = var9;
+            var1['body'] = var8;
+            var4 = var7[var4];
+            var5 = var6.bind(var5)(var4);
+            var4 = var5.rejectWithMigratedError;
+            var4 = var4.bind(var5)();
             var1['rejectWithError'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -208,48 +217,51 @@ case 8:
     var2['saveEvent'] = var7;
     var7 = function createGuildEvent(arg1, arg2) {
         var1 = arg1;
-        var4 = {};
+        var8 = {};
         var2 = var1.name;
-        var4['name'] = var2;
+        var8['name'] = var2;
         var2 = var1.description;
-        var4['description'] = var2;
+        var8['description'] = var2;
         var2 = var1.image;
-        var4['image'] = var2;
+        var8['image'] = var2;
         var2 = var1.privacyLevel;
-        var4['privacy_level'] = var2;
+        var8['privacy_level'] = var2;
         var2 = var1.scheduledStartTime;
-        var4['scheduled_start_time'] = var2;
+        var8['scheduled_start_time'] = var2;
         var2 = var1.scheduledEndTime;
-        var4['scheduled_end_time'] = var2;
+        var8['scheduled_end_time'] = var2;
         var2 = var1.entityType;
-        var4['entity_type'] = var2;
+        var8['entity_type'] = var2;
         var2 = var1.channelId;
-        var4['channel_id'] = var2;
+        var8['channel_id'] = var2;
         var2 = var1.entityMetadata;
-        var4['entity_metadata'] = var2;
-        var3 = _closure1_slot0;
-        var6 = _closure1_slot2;
+        var8['entity_metadata'] = var2;
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
         var2 = 8;
-        var7 = var6[var2];
-        var2 = undefined;
-        var8 = var3.bind(var2)(var7);
-        var7 = var8.recurrenceRuleToServer;
+        var2 = var7[var2];
+        var5 = undefined;
+        var3 = var6.bind(var5)(var2);
+        var2 = var3.recurrenceRuleToServer;
         var1 = var1.recurrenceRule;
-        var1 = var7.bind(var8)(var1);
-        var4['recurrence_rule'] = var1;
-        var1 = 5;
-        var1 = var6[var1];
-        var1 = var3.bind(var2)(var1);
+        var1 = var2.bind(var3)(var1);
+        var8['recurrence_rule'] = var1;
+        var4 = 5;
+        var1 = var7[var4];
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var7 = _closure1_slot10;
-        var6 = var7.GUILD_EVENTS_FOR_GUILD;
-        var5 = arg2;
-        var5 = var6.bind(var7)(var5);
-        var1['url'] = var5;
-        var1['body'] = var4;
-        var4 = false;
+        var11 = _closure1_slot10;
+        var10 = var11.GUILD_EVENTS_FOR_GUILD;
+        var9 = arg2;
+        var9 = var10.bind(var11)(var9);
+        var1['url'] = var9;
+        var1['body'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -270,24 +282,28 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 9; continue _fun0002 }
 case 10:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
                     var2 = 9;
-                    var2 = var5[var2];
+                    var2 = var9[var2];
                     var6 = undefined;
-                    var5 = var3.bind(var6)(var2);
+                    var5 = var8.bind(var6)(var2);
                     var3 = var5.httpGetWithCountryCodeQuery;
                     var2 = {};
-                    var10 = _closure1_slot10;
-                    var9 = var10.GUILD_EVENT;
-                    var8 = _closure2_slot0;
+                    var12 = _closure1_slot10;
+                    var11 = var12.GUILD_EVENT;
+                    var10 = _closure2_slot0;
                     var7 = _closure2_slot1;
-                    var7 = var9.bind(var10)(var8, var7);
+                    var7 = var11.bind(var12)(var10, var7);
                     var2['url'] = var7;
-                    var7 = false;
+                    var7 = 5;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var2['rejectWithError'] = var7;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=89);
+                    SaveGenerator(address=109);
 case 11:
                     return var2;
 case 12:
@@ -339,17 +355,21 @@ case 10:
                     var2 = _closure2_slot0;
                     var2 = var3.bind(var6)(var2);
                     var5['url'] = var2;
-                    var2 = false;
-                    var5['rejectWithError'] = var2;
                     var3 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var2 = 9;
-                    var2 = var6[var2];
+                    var8 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var8[var2];
                     var6 = undefined;
+                    var9 = var3.bind(var6)(var2);
+                    var2 = var9.rejectWithMigratedError;
+                    var2 = var2.bind(var9)();
+                    var5['rejectWithError'] = var2;
+                    var2 = 9;
+                    var2 = var8[var2];
                     var3 = var3.bind(var6)(var2);
                     var2 = var3.httpGetWithCountryCodeQuery;
                     var2 = var2.bind(var3)(var5);
-                    SaveGenerator(address=84);
+                    SaveGenerator(address=104);
 case 16:
                     return var2;
 case 17:
@@ -412,24 +432,27 @@ case 10:
                     var3 = _closure2_slot2;
                     var2['guild_scheduled_event_exception_ids'] = var3;
                     var5['query'] = var2;
-                    var2 = false;
-                    var5['rejectWithError'] = var2;
                     var3 = _closure1_slot0;
-                    var6 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var2 = 5;
-                    var2 = var6[var2];
+                    var9 = var8[var2];
                     var6 = undefined;
+                    var10 = var3.bind(var6)(var9);
+                    var9 = var10.rejectWithMigratedError;
+                    var9 = var9.bind(var10)();
+                    var5['rejectWithError'] = var9;
+                    var2 = var8[var2];
                     var2 = var3.bind(var6)(var2);
                     var3 = var2.HTTP;
                     var2 = var3.get;
                     var2 = var2.bind(var3)(var5);
-                    SaveGenerator(address=111);
+                    SaveGenerator(address=128);
 case 21:
                     return var2;
 case 22:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0004_ip = 23; continue _fun0004 }
-case 6:
+case 24:
                     var5 = var2.body;
                     var3 = {};
                     var8 = var5.guild_scheduled_event_count;
@@ -466,49 +489,55 @@ case 20:
     };
     var2['fetchGuildEventUserCounts'] = var7;
     var7 = function cancelGuildEvent(arg1, arg2) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 5;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.patch;
         var1 = {};
-        var8 = _closure1_slot10;
-        var7 = var8.GUILD_EVENT;
-        var6 = arg2;
-        var4 = arg1;
-        var4 = var7.bind(var8)(var6, var4);
-        var1['url'] = var4;
-        var4 = {};
-        var5 = _closure1_slot8;
-        var5 = var5.CANCELED;
-        var4['status'] = var5;
-        var1['body'] = var4;
-        var4 = false;
+        var12 = _closure1_slot10;
+        var11 = var12.GUILD_EVENT;
+        var10 = arg2;
+        var8 = arg1;
+        var8 = var11.bind(var12)(var10, var8);
+        var1['url'] = var8;
+        var8 = {};
+        var9 = _closure1_slot8;
+        var9 = var9.CANCELED;
+        var8['status'] = var9;
+        var1['body'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
     var2['cancelGuildEvent'] = var7;
     var7 = function deleteGuildEvent(arg1, arg2) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 5;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.del;
         var1 = {};
-        var7 = _closure1_slot10;
-        var6 = var7.GUILD_EVENT;
-        var5 = arg2;
-        var4 = arg1;
-        var4 = var6.bind(var7)(var5, var4);
-        var1['url'] = var4;
-        var4 = false;
+        var11 = _closure1_slot10;
+        var10 = var11.GUILD_EVENT;
+        var9 = arg2;
+        var8 = arg1;
+        var8 = var10.bind(var11)(var9, var8);
+        var1['url'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -525,35 +554,38 @@ case 20:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 24; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 25; continue _fun0005 }
 case 10:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var3[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 5;
+                    var2 = var10[var8];
                     var3 = undefined;
-                    var2 = var5.bind(var3)(var2);
+                    var2 = var9.bind(var3)(var2);
                     var6 = var2.HTTP;
                     var5 = var6.get;
                     var2 = {};
                     var7 = _closure1_slot10;
                     var7 = var7.USER_GUILD_EVENTS;
                     var2['url'] = var7;
-                    var8 = {};
-                    var10 = _closure2_slot0;
-                    var9 = new Array(1);
-                    var9[0] = var10;
-                    var8['guild_ids'] = var9;
-                    var2['query'] = var8;
-                    var8 = false;
+                    var11 = {};
+                    var13 = _closure2_slot0;
+                    var12 = new Array(1);
+                    var12[0] = var13;
+                    var11['guild_ids'] = var12;
+                    var2['query'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=103);
-case 25:
-                    return var2;
+                    SaveGenerator(address=120);
 case 26:
+                    return var2;
+case 27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 27; continue _fun0005 }
+                    if(var5) { _fun0005_ip = 28; continue _fun0005 }
 case 21:
                     var8 = var2.body;
                     var5 = _closure1_slot1;
@@ -570,9 +602,9 @@ case 21:
                     var4['guildId'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 27:
+case 28:
                     return var2;
-case 24:
+case 25:
                     return var1;
                 }
             };
@@ -600,62 +632,65 @@ case 24:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 28; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 29; continue _fun0006 }
 case 10:
                     var5 = undefined;
                     var6 = undefined;
                     var4 = _closure1_slot4;
                     var2 = var4.getId;
                     var6 = var2.bind(var4)();
-case 29: // try_start_0
+case 30: // try_start_0
                     var4 = _closure1_slot1;
-                    var7 = _closure1_slot2;
+                    var10 = _closure1_slot2;
                     var2 = 10;
-                    var2 = var7[var2];
-                    var8 = var4.bind(var5)(var2);
-                    var4 = var8.dispatch;
+                    var2 = var10[var2];
+                    var7 = var4.bind(var5)(var2);
+                    var4 = var7.dispatch;
                     var2 = {};
-                    var9 = 'GUILD_SCHEDULED_EVENT_USER_ADD';
-                    var2['type'] = var9;
-                    var9 = var6;
-                    var2['userId'] = var9;
-                    var13 = _closure2_slot2;
-                    var2['guildId'] = var13;
-                    var12 = _closure2_slot0;
-                    var2['guildEventId'] = var12;
-                    var11 = _closure2_slot1;
-                    var2['guildEventExceptionId'] = var11;
-                    var9 = _closure2_slot3;
-                    var2['response'] = var9;
-                    var2 = var4.bind(var8)(var2);
-                    var4 = _closure1_slot0;
-                    var2 = 5;
-                    var2 = var7[var2];
-                    var2 = var4.bind(var5)(var2);
+                    var8 = 'GUILD_SCHEDULED_EVENT_USER_ADD';
+                    var2['type'] = var8;
+                    var8 = var6;
+                    var2['userId'] = var8;
+                    var16 = _closure2_slot2;
+                    var2['guildId'] = var16;
+                    var15 = _closure2_slot0;
+                    var2['guildEventId'] = var15;
+                    var14 = _closure2_slot1;
+                    var2['guildEventExceptionId'] = var14;
+                    var12 = _closure2_slot3;
+                    var2['response'] = var12;
+                    var2 = var4.bind(var7)(var2);
+                    var9 = _closure1_slot0;
+                    var8 = 5;
+                    var2 = var10[var8];
+                    var2 = var9.bind(var5)(var2);
                     var7 = var2.HTTP;
                     var4 = var7.put;
                     var2 = {};
-                    var10 = _closure1_slot10;
-                    var8 = var10.USER_GUILD_EVENT;
-                    var8 = var8.bind(var10)(var13, var12, var11);
-                    var2['url'] = var8;
-                    var8 = {};
-                    var8['response'] = var9;
-                    var2['body'] = var8;
-                    var8 = false;
+                    var13 = _closure1_slot10;
+                    var11 = var13.USER_GUILD_EVENT;
+                    var11 = var11.bind(var13)(var16, var15, var14);
+                    var2['url'] = var11;
+                    var11 = {};
+                    var11['response'] = var12;
+                    var2['body'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var5)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var4.bind(var7)(var2);
-                    SaveGenerator(address=192);
-case 30:
-                    return var2;
+                    SaveGenerator(address=209);
 case 31:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 32; continue _fun0006 }
-case 33: // try_end0
                     return var2;
 case 32:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0006_ip = 33; continue _fun0006 }
+case 34: // try_end0
                     return var2;
-case 34: // catch_target0
+case 33:
+                    return var2;
+case 35: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -677,7 +712,7 @@ case 34: // catch_target0
                     var3['response'] = var6;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 28:
+case 29:
                     return var1;
                 }
             };
@@ -703,7 +738,7 @@ case 28:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 35; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 36; continue _fun0007 }
 case 10:
                     var5 = undefined;
                     var8 = undefined;
@@ -719,56 +754,59 @@ case 10:
                     var4 = var9.bind(var10)(var4, var2, var11);
                     var6 = var4;
                     var2 = null;
-                    if(!(var2 == var4)) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+                    if(!(var2 == var4)) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
                     return var5;
-case 36: // try_start_0
+case 37: // try_start_0
                     var4 = _closure1_slot1;
-                    var9 = _closure1_slot2;
+                    var12 = _closure1_slot2;
                     var2 = 10;
-                    var2 = var9[var2];
-                    var10 = var4.bind(var5)(var2);
-                    var4 = var10.dispatch;
+                    var2 = var12[var2];
+                    var9 = var4.bind(var5)(var2);
+                    var4 = var9.dispatch;
                     var2 = {};
-                    var11 = 'GUILD_SCHEDULED_EVENT_USER_REMOVE';
-                    var2['type'] = var11;
-                    var11 = var8;
-                    var2['userId'] = var11;
-                    var14 = _closure2_slot2;
-                    var2['guildId'] = var14;
-                    var13 = _closure2_slot0;
-                    var2['guildEventId'] = var13;
-                    var12 = _closure2_slot1;
-                    var2['guildEventExceptionId'] = var12;
-                    var11 = var6;
-                    var11 = var11.response;
-                    var2['response'] = var11;
-                    var2 = var4.bind(var10)(var2);
-                    var4 = _closure1_slot0;
-                    var2 = 5;
-                    var2 = var9[var2];
-                    var2 = var4.bind(var5)(var2);
+                    var10 = 'GUILD_SCHEDULED_EVENT_USER_REMOVE';
+                    var2['type'] = var10;
+                    var10 = var8;
+                    var2['userId'] = var10;
+                    var17 = _closure2_slot2;
+                    var2['guildId'] = var17;
+                    var16 = _closure2_slot0;
+                    var2['guildEventId'] = var16;
+                    var15 = _closure2_slot1;
+                    var2['guildEventExceptionId'] = var15;
+                    var10 = var6;
+                    var10 = var10.response;
+                    var2['response'] = var10;
+                    var2 = var4.bind(var9)(var2);
+                    var11 = _closure1_slot0;
+                    var10 = 5;
+                    var2 = var12[var10];
+                    var2 = var11.bind(var5)(var2);
                     var9 = var2.HTTP;
                     var4 = var9.del;
                     var2 = {};
-                    var11 = _closure1_slot10;
-                    var10 = var11.USER_GUILD_EVENT;
-                    var10 = var10.bind(var11)(var14, var13, var12);
-                    var2['url'] = var10;
-                    var10 = false;
+                    var14 = _closure1_slot10;
+                    var13 = var14.USER_GUILD_EVENT;
+                    var13 = var13.bind(var14)(var17, var16, var15);
+                    var2['url'] = var13;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var5)(var10);
+                    var10 = var11.rejectWithMigratedError;
+                    var10 = var10.bind(var11)();
                     var2['rejectWithError'] = var10;
                     var2 = var4.bind(var9)(var2);
-                    SaveGenerator(address=230);
-case 38:
-                    return var2;
+                    SaveGenerator(address=247);
 case 39:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0007_ip = 40; continue _fun0007 }
-case 41: // try_end0
                     return var2;
 case 40:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0007_ip = 41; continue _fun0007 }
+case 42: // try_end0
                     return var2;
-case 42: // catch_target0
+case 41:
+                    return var2;
+case 43: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -790,7 +828,7 @@ case 42: // catch_target0
                     var3['response'] = var6;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
-case 35:
+case 36:
                     return var1;
                 }
             };
@@ -822,7 +860,7 @@ case 35:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 43; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 44; continue _fun0008 }
 case 10:
                     var6 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -835,8 +873,8 @@ case 10:
                     var6 = _closure2_slot1;
                     var7 = var8.bind(var9)(var7, var6);
                     var6 = null;
-                    if(!(var6 == var7)) { _fun0008_ip = 44; continue _fun0008 }
-case 45: // try_start_0
+                    if(!(var6 == var7)) { _fun0008_ip = 45; continue _fun0008 }
+case 46: // try_start_0
                     var12 = _closure2_slot5;
                     var11 = var12.createRsvpForGuildEvent;
                     var16 = _closure2_slot0;
@@ -846,30 +884,30 @@ case 45: // try_start_0
                     var17 = var12;
                     var7 = var17[var11](var16, var15, var14, var13, var12);
                     SaveGenerator(address=101);
-case 46:
+case 47:
                     return var7;
-case 25:
-                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0008_ip = 47; continue _fun0008 }
 case 48:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
+                    if(var8) { _fun0008_ip = 49; continue _fun0008 }
+case 11:
                     var8 = _closure2_slot4;
                     if(!(var6 != var8)) { _fun0008_ip = 8; continue _fun0008 }
-case 49:
+case 14:
                     var8 = _closure2_slot4;
                     var8 = var8.bind(var2)();
 case 8: // try_end0
-                    _fun0008_ip = 38; continue _fun0008;
-case 47:
+                    _fun0008_ip = 50; continue _fun0008;
+case 49:
                     return var7;
-case 50: // catch_target0
+case 22: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var7 = _closure2_slot4;
-                    if(!(var6 != var7)) { _fun0008_ip = 38; continue _fun0008 }
+                    if(!(var6 != var7)) { _fun0008_ip = 50; continue _fun0008 }
 case 51:
                     var7 = _closure2_slot4;
                     var5 = var7.bind(var2)(var5);
-                    _fun0008_ip = 38; continue _fun0008;
-case 44: // try_start_1
+                    _fun0008_ip = 50; continue _fun0008;
+case 45: // try_start_1
                     var10 = _closure2_slot5;
                     var9 = var10.deleteRsvpForGuildEvent;
                     var8 = _closure2_slot0;
@@ -884,24 +922,24 @@ case 53:
                     if(var7) { _fun0008_ip = 54; continue _fun0008 }
 case 55:
                     var7 = _closure2_slot4;
-                    if(!(var6 != var7)) { _fun0008_ip = 34; continue _fun0008 }
-case 56:
+                    if(!(var6 != var7)) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                     var7 = _closure2_slot4;
                     var7 = var7.bind(var2)();
-case 34: // try_end1
-                    _fun0008_ip = 38; continue _fun0008;
+case 56: // try_end1
+                    _fun0008_ip = 50; continue _fun0008;
 case 54:
                     return var5;
-case 57: // catch_target1
+case 32: // catch_target1
                     CatchBlockStart(arg_register=2);
                     var5 = _closure2_slot4;
-                    if(!(var6 != var5)) { _fun0008_ip = 38; continue _fun0008 }
+                    if(!(var6 != var5)) { _fun0008_ip = 50; continue _fun0008 }
 case 58:
                     var4 = _closure2_slot4;
                     var3 = var4.bind(var2)(var3);
-case 38:
+case 50:
                     return var2;
-case 43:
+case 44:
                     return var1;
                 }
             };
@@ -944,37 +982,40 @@ case 63:
                         var2 = _closure2_slot2;
                         if(!(var3 != var2)) { _fun0010_ip = 62; continue _fun0010 }
 case 64:
-                        var4 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var2 = 5;
-                        var2 = var5[var2];
+                        var9 = _closure1_slot0;
+                        var10 = _closure1_slot2;
+                        var8 = 5;
+                        var2 = var10[var8];
                         var5 = undefined;
-                        var2 = var4.bind(var5)(var2);
+                        var2 = var9.bind(var5)(var2);
                         var7 = var2.HTTP;
                         var4 = var7.get;
                         var2 = {};
-                        var12 = _closure1_slot10;
-                        var11 = var12.GUILD_EVENT_USERS;
-                        var10 = _closure2_slot2;
-                        var9 = _closure2_slot0;
-                        var8 = _closure2_slot1;
-                        var8 = var11.bind(var12)(var10, var9, var8);
-                        var2['url'] = var8;
-                        var8 = {};
-                        var9 = _closure2_slot3;
-                        var8['limit'] = var9;
-                        var9 = true;
-                        var8['with_member'] = var9;
-                        var2['query'] = var8;
-                        var8 = false;
+                        var15 = _closure1_slot10;
+                        var14 = var15.GUILD_EVENT_USERS;
+                        var13 = _closure2_slot2;
+                        var12 = _closure2_slot0;
+                        var11 = _closure2_slot1;
+                        var11 = var14.bind(var15)(var13, var12, var11);
+                        var2['url'] = var11;
+                        var11 = {};
+                        var12 = _closure2_slot3;
+                        var11['limit'] = var12;
+                        var12 = true;
+                        var11['with_member'] = var12;
+                        var2['query'] = var11;
+                        var8 = var10[var8];
+                        var9 = var9.bind(var5)(var8);
+                        var8 = var9.rejectWithMigratedError;
+                        var8 = var8.bind(var9)();
                         var2['rejectWithError'] = var8;
                         var2 = var4.bind(var7)(var2);
-                        SaveGenerator(address=146);
+                        SaveGenerator(address=163);
 case 65:
                         return var2;
 case 66:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0010_ip = 42; continue _fun0010 }
+                        if(var4) { _fun0010_ip = 43; continue _fun0010 }
 case 67:
                         var4 = _closure1_slot1;
                         var7 = _closure1_slot2;
@@ -997,7 +1038,7 @@ case 67:
                         var3 = var2.body;
                         var3 = var3.users;
                         return var3;
-case 42:
+case 43:
                         return var2;
 case 62:
                         var2 = new Array(0);
@@ -1016,32 +1057,35 @@ case 61:
     var2['fetchUsersForGuildEvent'] = var7;
     var7 = function createGuildEventException(arg1, arg2, arg3) {
         var1 = arg1;
-        var8 = var1.original_scheduled_start_time;
-        var7 = var1.scheduled_start_time;
-        var6 = var1.scheduled_end_time;
-        var5 = var1.is_canceled;
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var12 = var1.original_scheduled_start_time;
+        var11 = var1.scheduled_start_time;
+        var10 = var1.scheduled_end_time;
+        var9 = var1.is_canceled;
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 5;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var11 = _closure1_slot10;
-        var10 = var11.GUILD_EVENT_EXCEPTIONS;
-        var9 = arg2;
-        var4 = arg3;
-        var4 = var10.bind(var11)(var9, var4);
-        var1['url'] = var4;
-        var4 = {};
-        var4['original_scheduled_start_time'] = var8;
-        var4['scheduled_start_time'] = var7;
-        var4['scheduled_end_time'] = var6;
-        var4['is_canceled'] = var5;
-        var1['body'] = var4;
-        var4 = false;
+        var15 = _closure1_slot10;
+        var14 = var15.GUILD_EVENT_EXCEPTIONS;
+        var13 = arg2;
+        var8 = arg3;
+        var8 = var14.bind(var15)(var13, var8);
+        var1['url'] = var8;
+        var8 = {};
+        var8['original_scheduled_start_time'] = var12;
+        var8['scheduled_start_time'] = var11;
+        var8['scheduled_end_time'] = var10;
+        var8['is_canceled'] = var9;
+        var1['body'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
@@ -1049,54 +1093,60 @@ case 61:
     var2['createGuildEventException'] = var7;
     var7 = function updateGuildEventException(arg1, arg2, arg3, arg4) {
         var1 = arg1;
-        var7 = var1.scheduled_start_time;
-        var6 = var1.scheduled_end_time;
-        var5 = var1.is_canceled;
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var11 = var1.scheduled_start_time;
+        var10 = var1.scheduled_end_time;
+        var9 = var1.is_canceled;
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 5;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.patch;
         var1 = {};
-        var11 = _closure1_slot10;
-        var10 = var11.GUILD_EVENT_EXCEPTION;
-        var9 = arg2;
-        var8 = arg3;
-        var4 = arg4;
-        var4 = var10.bind(var11)(var9, var8, var4);
-        var1['url'] = var4;
-        var4 = {};
-        var4['scheduled_start_time'] = var7;
-        var4['scheduled_end_time'] = var6;
-        var4['is_canceled'] = var5;
-        var1['body'] = var4;
-        var4 = false;
+        var15 = _closure1_slot10;
+        var14 = var15.GUILD_EVENT_EXCEPTION;
+        var13 = arg2;
+        var12 = arg3;
+        var8 = arg4;
+        var8 = var14.bind(var15)(var13, var12, var8);
+        var1['url'] = var8;
+        var8 = {};
+        var8['scheduled_start_time'] = var11;
+        var8['scheduled_end_time'] = var10;
+        var8['is_canceled'] = var9;
+        var1['body'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
     var2['updateGuildEventException'] = var7;
     var7 = function deleteGuildEventException(arg1, arg2, arg3) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 5;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.del;
         var1 = {};
-        var8 = _closure1_slot10;
-        var7 = var8.GUILD_EVENT_EXCEPTION;
-        var6 = arg1;
-        var5 = arg2;
-        var4 = arg3;
-        var4 = var7.bind(var8)(var6, var5, var4);
-        var1['url'] = var4;
-        var4 = false;
+        var12 = _closure1_slot10;
+        var11 = var12.GUILD_EVENT_EXCEPTION;
+        var10 = arg1;
+        var9 = arg2;
+        var8 = arg3;
+        var8 = var11.bind(var12)(var10, var9, var8);
+        var1['url'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;

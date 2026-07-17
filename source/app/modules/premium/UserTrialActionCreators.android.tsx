@@ -46,30 +46,33 @@ case 3:
                     var2 = null;
                     if(!(var2 == var3)) { _fun0001_ip = 4; continue _fun0001 }
 case 5: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 2;
-                    var2 = var5[var2];
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = 2;
+                    var2 = var9[var7];
                     var5 = undefined;
-                    var2 = var4.bind(var5)(var2);
+                    var2 = var8.bind(var5)(var2);
                     var6 = var2.HTTP;
                     var4 = var6.post;
                     var2 = {};
-                    var9 = _closure1_slot4;
-                    var8 = var9.USER_TRIAL_OFFER_ACKNOWLEDGED;
-                    var7 = _closure2_slot0;
-                    var7 = var7.id;
-                    var7 = var8.bind(var9)(var7);
-                    var2['url'] = var7;
-                    var7 = {};
-                    var8 = _closure1_slot5;
-                    var8 = var8.GOOGLE;
-                    var7['payment_gateway'] = var8;
-                    var2['body'] = var7;
-                    var7 = false;
+                    var12 = _closure1_slot4;
+                    var11 = var12.USER_TRIAL_OFFER_ACKNOWLEDGED;
+                    var10 = _closure2_slot0;
+                    var10 = var10.id;
+                    var10 = var11.bind(var12)(var10);
+                    var2['url'] = var10;
+                    var10 = {};
+                    var11 = _closure1_slot5;
+                    var11 = var11.GOOGLE;
+                    var10['payment_gateway'] = var11;
+                    var2['body'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var5)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var2['rejectWithError'] = var7;
                     var2 = var4.bind(var6)(var2);
-                    SaveGenerator(address=134);
+                    SaveGenerator(address=151);
 case 6:
                     return var2;
 case 7:

@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 'family-center-request-modal';
     var3['FAMILY_CENTER_REQUEST_MODAL_KEY'] = var4;
-    var4 = function(arg1, arg2) {
+    var4 = function handleFamilyCenterQRCodeScan(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;

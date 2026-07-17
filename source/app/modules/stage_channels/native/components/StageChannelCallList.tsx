@@ -7,52 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
-    var11 = 0;
-    var4 = var6[var11];
-    var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var10 = 1;
-    var7 = var6[var10];
-    var4 = metroImportAll;
-    var8 = var4.bind(var1)(var7);
-    var _closure1_slot4 = var8;
-    var9 = 2;
-    var4 = var6[var9];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.useActiveSpeakerPillScrollHandler;
-    var _closure1_slot5 = var7;
-    var4 = var4.useActiveSpeakerPillState;
-    var _closure1_slot6 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.MAX_AUDIENCE_ROW_LIMIT;
-    var _closure1_slot7 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot8 = var7;
-    var4 = var4.jsxs;
-    var _closure1_slot9 = var4;
-    var4 = {'direction': null, 'radius': 13, 'inset': 4294967290};
-    var7 = 5;
-    var7 = var6[var7];
-    var7 = var5.bind(var1)(var7);
-    var7 = var7.CutoutDirection;
-    var7 = var7.RIGHT;
-    var4['direction'] = var7;
-    var _closure1_slot10 = var4;
-    var4 = function getSpeakerRowHeight(arg1, arg2) {
+    var1 = function getSpeakerRowHeight(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg2;
@@ -115,7 +70,52 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot11 = var4;
+    var _closure1_slot13 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var11 = 0;
+    var4 = var6[var11];
+    var1 = undefined;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var10 = 1;
+    var7 = var6[var10];
+    var4 = metroImportAll;
+    var8 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var8;
+    var9 = 2;
+    var4 = var6[var9];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.useActiveSpeakerPillScrollHandler;
+    var _closure1_slot5 = var7;
+    var4 = var4.useActiveSpeakerPillState;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MAX_AUDIENCE_ROW_LIMIT;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot8 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot9 = var4;
+    var4 = {'direction': null, 'radius': 13, 'inset': 4294967290};
+    var7 = 5;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.CutoutDirection;
+    var7 = var7.RIGHT;
+    var4['direction'] = var7;
+    var _closure1_slot10 = var4;
     var4 = {};
     var4['STREAM'] = var11;
     var7 = 'STREAM';
@@ -126,7 +126,7 @@ case 2:
     var4['AUDIENCE'] = var9;
     var7 = 'AUDIENCE';
     var4[var9] = var7;
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var7 = var8.memo;
     var4 = function(arg1) {
         var1 = arg1;
@@ -194,7 +194,7 @@ case 0:
                 var8 = var5.Math;
                 var6 = var8.max;
                 var4 = _closure2_slot1;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.STREAM;
                 var9 = var4[var1];
                 var4 = null;
@@ -211,7 +211,7 @@ case 8:
                 var6 = var5.Math;
                 var5 = var6.max;
                 var9 = _closure2_slot1;
-                var8 = _closure1_slot12;
+                var8 = _closure1_slot11;
                 var8 = var8.SPEAKER;
                 var8 = var9[var8];
                 var9 = var4 != var8;
@@ -223,7 +223,7 @@ case 10:
                 var4 = var5.bind(var6)(var4, var7);
                 var1[1] = var4;
                 var3 = _closure2_slot1;
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 var2 = var2.AUDIENCE;
                 var2 = var3[var2];
                 var1[2] = var2;
@@ -259,15 +259,15 @@ case 10:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var2 = arg1;
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var3 = var3.STREAM;
                 if(!(var3 !== var2)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var3 = var3.SPEAKER;
                 if(!(var3 !== var2)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var3 = var3.AUDIENCE;
                 if(!(var3 !== var2)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
@@ -331,15 +331,15 @@ case 23:
                 var1 = var2.bind(var1)(var7);
                 var3 = var6 + var1;
 case 22:
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.STREAM;
                 if(!(var1 !== var7)) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.SPEAKER;
                 if(!(var1 !== var7)) { _fun0004_ip = 26; continue _fun0004 }
 case 6:
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.AUDIENCE;
                 if(!(var1 !== var7)) { _fun0004_ip = 27; continue _fun0004 }
 case 28:
@@ -368,7 +368,7 @@ case 26:
                 var8 = var8[var4];
                 if(!(var5 != var8)) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                var10 = _closure1_slot11;
+                var10 = _closure1_slot13;
                 var8 = _closure2_slot2;
                 var8 = var8[var7];
                 var8 = var8[var4];
@@ -391,7 +391,7 @@ case 24:
                 var1 = var3;
                 if(!(var5 != var4)) { _fun0004_ip = 35; continue _fun0004 }
 case 36:
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot13;
                 var4 = undefined;
                 var2 = 1;
                 var2 = var5.bind(var4)(var6, var2);
@@ -451,15 +451,15 @@ case 21:
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var2 = arg1;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.STREAM;
                 if(!(var1 !== var2)) { _fun0005_ip = 37; continue _fun0005 }
 case 38:
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.AUDIENCE;
                 if(!(var1 !== var2)) { _fun0005_ip = 39; continue _fun0005 }
 case 40:
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.SPEAKER;
                 if(!(var1 !== var2)) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
@@ -596,11 +596,11 @@ case 37:
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var2 = arg1;
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var3 = var3.SPEAKER;
                 if(!(var3 !== var2)) { _fun0006_ip = 49; continue _fun0006 }
 case 13:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var3 = var3.AUDIENCE;
                 if(!(var3 !== var2)) { _fun0006_ip = 49; continue _fun0006 }
 case 15:
@@ -627,11 +627,11 @@ case 49:
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var2 = arg1;
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var3 = var3.SPEAKER;
                 if(!(var3 !== var2)) { _fun0007_ip = 50; continue _fun0007 }
 case 13:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var3 = var3.AUDIENCE;
                 if(!(var3 !== var2)) { _fun0007_ip = 51; continue _fun0007 }
 case 15:
@@ -683,15 +683,15 @@ case 52:
                 var2 = var2[var9];
                 if(!(var3 != var2)) { _fun0008_ip = 54; continue _fun0008 }
 case 9:
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot11;
                 var4 = var4.STREAM;
                 if(!(var4 !== var10)) { _fun0008_ip = 55; continue _fun0008 }
 case 56:
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot11;
                 var4 = var4.SPEAKER;
                 if(!(var4 !== var10)) { _fun0008_ip = 57; continue _fun0008 }
 case 28:
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot11;
                 var4 = var4.AUDIENCE;
                 if(!(var4 !== var10)) { _fun0008_ip = 58; continue _fun0008 }
 case 59:
@@ -824,7 +824,7 @@ case 54:
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var4 = _closure2_slot9;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.STREAM;
                 var1 = var4[var1];
                 var5 = 0;
@@ -833,7 +833,7 @@ case 0:
                 if(!var4) { _fun0009_ip = 64; continue _fun0009 }
 case 65:
                 var4 = _closure2_slot13;
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 var3 = var2.STREAM;
                 var2 = undefined;
                 var1 = var4.bind(var2)(var3, var5);
@@ -851,7 +851,7 @@ case 64:
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var2 = _closure2_slot9;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot11;
                 var1 = var1.SPEAKER;
                 var2 = var2[var1];
                 var1 = 0;
@@ -862,7 +862,7 @@ case 0:
                 if(!var2) { _fun0010_ip = 66; continue _fun0010 }
 case 67:
                 var9 = _closure2_slot13;
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 var8 = var2.SPEAKER;
                 var8 = var9.bind(var5)(var8, var3);
                 var4 = var4 + var8;
@@ -940,7 +940,7 @@ case 71:
         return var1;
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot13 = var4;
+    var _closure1_slot12 = var4;
     var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -1038,7 +1038,7 @@ case 74:
         var2 = 1;
         var5 = var3[var2];
         var3 = _closure1_slot8;
-        var2 = _closure1_slot13;
+        var2 = _closure1_slot12;
         var1 = {};
         var1['channel'] = var7;
         var1['listSections'] = var6;

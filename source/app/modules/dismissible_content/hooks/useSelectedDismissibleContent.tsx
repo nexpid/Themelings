@@ -75,7 +75,7 @@ case 4:
             var9 = 1;
             var2 = var8[var9];
             var11 = var4.bind(var7)(var2);
-            var10 = var11.UNSAFE_useGetSingleUseGuildDismissibleContent;
+            var10 = var11.useGetSingleUseGuildDismissibleContent_UNSAFE;
             var3 = arg1;
             var2 = arg3;
             var3 = var10.bind(var11)(var3, var6, var2);
@@ -224,7 +224,7 @@ case 4:
             var9 = 1;
             var2 = var8[var9];
             var12 = var4.bind(var7)(var2);
-            var11 = var12.UNSAFE_useGetSnowflakeBoundGuildDismissibleContent;
+            var11 = var12.useGetSnowflakeBoundGuildDismissibleContent_UNSAFE;
             var16 = arg1;
             var15 = arg3;
             var13 = arg4;
@@ -299,7 +299,7 @@ case 2:
         var2 = var7[var8];
         var4 = undefined;
         var11 = var5.bind(var4)(var2);
-        var10 = var11.UNSAFE_useGetTimeRecurringGuildDismissibleContent;
+        var10 = var11.useGetTimeRecurringGuildDismissibleContent_UNSAFE;
         var15 = arg1;
         var13 = arg3;
         var12 = arg4;

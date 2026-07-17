@@ -7,6 +7,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var8;
+    var1 = function Spacing() {
+        var4 = _closure1_slot7;
+        var3 = _closure1_slot4;
+        var2 = {};
+        var1 = {};
+        var5 = 12;
+        var1['width'] = var5;
+        var2['style'] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot10 = var1;
+    var1 = function HeaderAndFooterSpacing() {
+        var4 = _closure1_slot7;
+        var3 = _closure1_slot4;
+        var2 = {};
+        var1 = {};
+        var5 = 16;
+        var1['width'] = var5;
+        var2['style'] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot11 = var1;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -103,32 +129,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['viewAllIcon'] = var11;
     var6 = var9.bind(var10)(var6);
     var _closure1_slot9 = var6;
-    var6 = function Spacing() {
-        var4 = _closure1_slot7;
-        var3 = _closure1_slot4;
-        var2 = {};
-        var1 = {};
-        var5 = 12;
-        var1['width'] = var5;
-        var2['style'] = var1;
-        var1 = undefined;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot10 = var6;
-    var6 = function HeaderAndFooterSpacing() {
-        var4 = _closure1_slot7;
-        var3 = _closure1_slot4;
-        var2 = {};
-        var1 = {};
-        var5 = 16;
-        var1['width'] = var5;
-        var2['style'] = var1;
-        var1 = undefined;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot11 = var6;
     var6 = 23;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var3['CATEGORY_CONTAINER_HEIGHT'] = var5;
     var3['CATEGORY_CONTAINER_BOTTOM_MARGIN'] = var4;
-    var2 = function(arg1) {
+    var2 = function ShopCategory(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -316,29 +316,30 @@ case 7:
             var3[0] = var2;
             var2 = function(arg1) {
                 var1 = arg1;
-                var7 = var1.item;
-                var9 = var1.index;
+                var8 = var1.item;
+                var7 = var1.index;
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
-                var8 = _closure1_slot2;
+                var9 = _closure1_slot2;
                 var1 = 14;
-                var1 = var8[var1];
+                var1 = var9[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.CollectiblesAnalyticsProvider;
                 var1 = {};
                 var6 = {};
-                var6['tilePosition'] = var9;
+                var6['tilePosition'] = var7;
                 var1['newValue'] = var6;
+                var7 = _closure1_slot7;
                 var6 = _closure1_slot1;
                 var5 = 5;
-                var5 = var8[var5];
+                var5 = var9[var5];
                 var6 = var6.bind(var3)(var5);
                 var5 = {};
-                var5['product'] = var7;
-                var7 = _closure2_slot3;
-                var5['unpublishedAt'] = var7;
-                var5 = var4.bind(var3)(var6, var5);
+                var5['product'] = var8;
+                var8 = _closure2_slot3;
+                var5['unpublishedAt'] = var8;
+                var5 = var7.bind(var3)(var6, var5);
                 var1['children'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
@@ -483,11 +484,12 @@ case 18:
 case 17:
             var8 = new Array(2);
             var8[0] = var11;
-            var11 = _closure1_slot7;
-            var22 = _closure1_slot4;
-            var21 = {};
+            var22 = _closure1_slot7;
+            var21 = _closure1_slot4;
+            var11 = {};
             var16 = var16.viewAllIcon;
-            var21['style'] = var16;
+            var11['style'] = var16;
+            var26 = _closure1_slot7;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var24 = 22;
@@ -495,15 +497,16 @@ case 17:
             var24 = var16.bind(var4)(var24);
             var25 = var24.ChevronSmallRightIcon;
             var24 = {'size': 'sm', 'color': 'white'};
-            var24 = var11.bind(var4)(var25, var24);
-            var21['children'] = var24;
-            var21 = var11.bind(var4)(var22, var21);
-            var8[1] = var21;
+            var24 = var26.bind(var4)(var25, var24);
+            var11['children'] = var24;
+            var11 = var22.bind(var4)(var21, var11);
+            var8[1] = var11;
             var9['children'] = var8;
             var8 = var23.storeListingId;
             var9 = var7.bind(var4)(var10, var9, var8);
             var8 = new Array(2);
             var8[0] = var9;
+            var11 = _closure1_slot7;
             var9 = var17[var15];
             var9 = var16.bind(var4)(var9);
             var10 = var9.FlashList;

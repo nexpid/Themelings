@@ -187,8 +187,7 @@ case 3:
                 var2 = var4 / var1;
 case 2:
                 var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
                 return var1;
             }
         };

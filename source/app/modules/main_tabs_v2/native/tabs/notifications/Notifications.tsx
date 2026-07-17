@@ -300,7 +300,7 @@ case 11:
     var7 = 2;
     var7 = var9[var7];
     var7 = var8.bind(var1)(var7);
-    var7 = var7.MainTabsNavigatorScreens;
+    var7 = var7.YouBarNavigatorScreens;
     var _closure1_slot5 = var7;
     var7 = 3;
     var7 = var9[var7];

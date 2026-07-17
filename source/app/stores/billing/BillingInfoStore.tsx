@@ -539,7 +539,7 @@ case 19:
         return var1;
     };
     var2['LOGOUT'] = var9;
-    var4 = function CONNECTION_OPEN(arg1) {
+    var4 = function handleConnectionOpen(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;

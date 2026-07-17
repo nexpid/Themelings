@@ -517,7 +517,7 @@ case 46:
     var4 = var8.bind(var9)(var4);
     var _closure1_slot10 = var4;
     var4 = var7.memo;
-    var2 = function(arg1) {
+    var2 = function SoundboardSoundPickerListComponent(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;

@@ -48,7 +48,7 @@ case 0:
                 return var1;
             };
             var3 = var5.bind(var7)(var3, var2);
-            var2 = function(arg1) {
+            var2 = function useAnimationStyles(arg1) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
                 var10 = _closure1_slot0;

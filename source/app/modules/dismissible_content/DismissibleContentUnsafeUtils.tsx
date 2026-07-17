@@ -556,7 +556,7 @@ case 56:
     var6 = 'modules/dismissible_content/DismissibleContentUnsafeUtils.tsx';
     var6 = var7.bind(var8)(var6);
     var3['UNSAFE_isDismissibleContentDismissed'] = var5;
-    var5 = function UNSAFE_useIsDismissibleContentDismissed(arg1) {
+    var5 = function useIsDismissibleContentDismissed_UNSAFE(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var2 = arguments[1];
@@ -591,7 +591,7 @@ case 60:
             return var1;
         }
     };
-    var3['UNSAFE_useIsDismissibleContentDismissed'] = var5;
+    var3['useIsDismissibleContentDismissed_UNSAFE'] = var5;
     var5 = function UNSAFE_markDismissibleContentAsDismissed() {
         var1 = undefined;
         var4 = _closure1_slot7;

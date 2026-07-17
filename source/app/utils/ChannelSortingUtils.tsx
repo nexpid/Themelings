@@ -661,10 +661,6 @@ case 0:
             var11 = arg4;
             var _closure2_slot0 = var6;
             var _closure2_slot1 = var5;
-            var2 = new Array(0);
-            var _closure2_slot4 = var2;
-            var2 = new Array(0);
-            var9 = var11._categories;
             var4 = function generateUpdates(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -752,6 +748,10 @@ case 119:
                     return var1;
                 }
             };
+            var2 = new Array(0);
+            var _closure2_slot4 = var2;
+            var2 = new Array(0);
+            var9 = var11._categories;
             var3 = var6.isCategory;
             var3 = var3.bind(var6)();
             if(!var3) { _fun0008_ip = 120; continue _fun0008 }

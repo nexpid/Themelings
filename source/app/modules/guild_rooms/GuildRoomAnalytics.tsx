@@ -127,44 +127,23 @@ case 14:
     var1 = function withVoiceMetadata(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var10 = arg1;
-            var5 = arg2;
-            var _closure2_slot0 = var10;
-            var _closure2_slot1 = var5;
-            var3 = _closure1_slot4;
-            var2 = var3.getMediaSessionId;
-            var2 = var2.bind(var3)();
-            var3 = null;
-            if(!(var3 != var2)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-            var3 = {};
-            var6 = global;
-            var8 = var6.Object;
-            var7 = var8.keys;
-            var9 = _closure1_slot5;
-            var6 = var9.getVoiceStatesForChannel;
-            var6 = var6.bind(var9)(var10);
-            var6 = var7.bind(var8)(var6);
-            var6 = var6.length;
-            var3['voice_state_count'] = var6;
-            var3['voice_media_session_id'] = var2;
-            var2 = undefined;
-            var2 = var5.bind(var2)(var3);
-            _fun0004_ip = 18; continue _fun0004;
-case 16:
-            var2 = function cleanup() {
+            var11 = arg1;
+            var6 = arg2;
+            var _closure2_slot0 = var11;
+            var _closure2_slot1 = var6;
+            var1 = function cleanup() {
                 var4 = _closure1_slot4;
                 var3 = var4.removeChangeListener;
-                var2 = _closure2_slot3;
+                var2 = _closure2_slot4;
                 var2 = var3.bind(var4)(var2);
                 var2 = global;
                 var3 = var2.clearTimeout;
-                var2 = _closure2_slot4;
+                var2 = _closure2_slot2;
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var _closure2_slot2 = var2;
+            var _closure2_slot3 = var1;
             var3 = function onChange() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -172,9 +151,9 @@ case 0:
                     var1 = var2.getMediaSessionId;
                     var4 = var1.bind(var2)();
                     var1 = null;
-                    if(!(var1 != var4)) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
-                    var1 = _closure2_slot2;
+                    if(!(var1 != var4)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
+                    var1 = _closure2_slot3;
                     var3 = undefined;
                     var1 = var1.bind(var3)();
                     var2 = _closure2_slot1;
@@ -191,17 +170,38 @@ case 20:
                     var1['voice_state_count'] = var5;
                     var1['voice_media_session_id'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 19:
+case 16:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var _closure2_slot3 = var3;
+            var _closure2_slot4 = var3;
+            var5 = _closure1_slot4;
+            var2 = var5.getMediaSessionId;
+            var2 = var2.bind(var5)();
+            var5 = null;
+            if(!(var5 != var2)) { _fun0004_ip = 18; continue _fun0004 }
+case 13:
+            var5 = {};
+            var7 = global;
+            var9 = var7.Object;
+            var8 = var9.keys;
+            var10 = _closure1_slot5;
+            var7 = var10.getVoiceStatesForChannel;
+            var7 = var7.bind(var10)(var11);
+            var7 = var8.bind(var9)(var7);
+            var7 = var7.length;
+            var5['voice_state_count'] = var7;
+            var5['voice_media_session_id'] = var2;
+            var2 = undefined;
+            var2 = var6.bind(var2)(var5);
+            _fun0004_ip = 19; continue _fun0004;
+case 18:
             var2 = global;
             var7 = var2.setTimeout;
             var6 = undefined;
             var5 = function() {
-                var2 = _closure2_slot2;
+                var2 = _closure2_slot3;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var3 = _closure2_slot1;
@@ -221,11 +221,11 @@ case 19:
             };
             var2 = 2500;
             var2 = var7.bind(var6)(var5, var2);
-            var _closure2_slot4 = var2;
+            var _closure2_slot2 = var2;
             var2 = _closure1_slot4;
             var1 = var2.addChangeListener;
             var1 = var1.bind(var2)(var3);
-case 18:
+case 19:
             var1 = undefined;
             return var1;
         }
@@ -518,28 +518,28 @@ case 0:
                 var9 = null;
                 var12 = var9 == var8;
                 var8 = undefined;
-                if(var12) { _fun0006_ip = 21; continue _fun0006 }
-case 22:
+                if(var12) { _fun0006_ip = 20; continue _fun0006 }
+case 21:
                 var12 = _closure2_slot1;
                 var8 = var12.x;
-case 21:
-                if(!(var10 === var8)) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+case 20:
+                if(!(var10 === var8)) { _fun0006_ip = 22; continue _fun0006 }
+case 23:
                 var8 = _closure2_slot0;
                 var10 = var8.y;
                 var8 = _closure2_slot1;
                 var9 = var9 == var8;
                 var8 = undefined;
-                if(var9) { _fun0006_ip = 25; continue _fun0006 }
-case 26:
+                if(var9) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
                 var9 = _closure2_slot1;
                 var8 = var9.y;
-case 25:
+case 24:
                 var9 = 'user_selected';
-                if(!(var10 !== var8)) { _fun0006_ip = 27; continue _fun0006 }
-case 23:
+                if(!(var10 !== var8)) { _fun0006_ip = 26; continue _fun0006 }
+case 22:
                 var9 = 'default';
-case 27:
+case 26:
                 var8 = 'update_reason';
                 var2[7] = var9;
                 var7 = _closure2_slot2;

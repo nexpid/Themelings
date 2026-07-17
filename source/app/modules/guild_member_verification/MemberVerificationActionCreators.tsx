@@ -22,7 +22,7 @@ case 0:
 case 3:
                     var6 = arg1;
                     var2 = undefined;
-                    var13 = undefined;
+                    var14 = undefined;
                     var11 = undefined;
                     var5 = undefined;
                     var7 = undefined;
@@ -34,58 +34,63 @@ case 5:
                     var4 = var6;
                     var3 = var8.bind(var9)(var4);
 case 4:
-                    var13 = var3;
+                    var14 = var3;
                     var8 = _closure1_slot7;
                     var4 = var8.getCurrentUser;
-                    var14 = var4.bind(var8)();
+                    var13 = var4.bind(var8)();
                     var10 = _closure1_slot5;
                     var9 = var10.isMember;
                     var8 = var6;
-                    var15 = var12 == var14;
+                    var15 = var12 == var13;
                     var4 = undefined;
                     if(var15) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var4 = var14.id;
+                    var4 = var13.id;
 case 6:
                     var4 = var9.bind(var10)(var8, var4);
                     var11 = !var4;
 case 8: // try_start_0
                     var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var4 = 6;
-                    var4 = var9[var4];
+                    var4 = _closure1_slot2;
+                    var13 = 6;
+                    var4 = var4[var13];
                     var4 = var8.bind(var2)(var4);
                     var9 = var4.HTTP;
                     var8 = var9.get;
                     var4 = {};
-                    var15 = _closure1_slot9;
-                    var14 = var15.GUILD_MEMBER_VERIFICATION;
+                    var16 = _closure1_slot9;
+                    var15 = var16.GUILD_MEMBER_VERIFICATION;
                     var10 = var6;
-                    var10 = var14.bind(var15)(var10);
+                    var10 = var15.bind(var16)(var10);
                     var4['url'] = var10;
                     var10 = {};
                     var10['with_guild'] = var11;
-                    var11 = var13;
-                    var14 = var12 != var11;
+                    var11 = var14;
+                    var15 = var12 != var11;
                     var11 = undefined;
-                    if(!var14) { _fun0001_ip = 9; continue _fun0001 }
+                    if(!var15) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-                    var15 = _closure1_slot0;
-                    var16 = _closure1_slot2;
-                    var14 = 7;
-                    var14 = var16[var14];
-                    var15 = var15.bind(var2)(var14);
-                    var14 = var15.parseInviteCodeFromInviteKey;
-                    var11 = var14.bind(var15)(var13);
+                    var16 = _closure1_slot0;
+                    var17 = _closure1_slot2;
+                    var15 = 7;
+                    var15 = var17[var15];
+                    var16 = var16.bind(var2)(var15);
+                    var15 = var16.parseInviteCodeFromInviteKey;
+                    var11 = var15.bind(var16)(var14);
 case 9:
                     var10['invite_code'] = var11;
                     var4['query'] = var10;
                     var10 = true;
                     var4['oldFormErrors'] = var10;
-                    var10 = false;
+                    var11 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var10 = var10[var13];
+                    var11 = var11.bind(var2)(var10);
+                    var10 = var11.rejectWithMigratedError;
+                    var10 = var10.bind(var11)();
                     var4['rejectWithError'] = var10;
                     var4 = var8.bind(var9)(var4);
-                    SaveGenerator(address=244);
+                    SaveGenerator(address=269);
 case 11:
                     return var4;
 case 12:
@@ -186,33 +191,36 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 21; continue _fun0002 }
 case 3:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 6;
-                    var2 = var3[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 6;
+                    var2 = var10[var8];
                     var3 = undefined;
-                    var2 = var5.bind(var3)(var2);
+                    var2 = var9.bind(var3)(var2);
                     var6 = var2.HTTP;
                     var5 = var6.patch;
                     var2 = {};
-                    var9 = _closure1_slot9;
-                    var8 = var9.GUILD_MEMBER_VERIFICATION;
-                    var8 = var8.bind(var9)(var7);
-                    var2['url'] = var8;
-                    var8 = {};
-                    var9 = arg2;
-                    var8['form_fields'] = var9;
-                    var9 = arg3;
-                    var8['enabled'] = var9;
-                    var9 = arg4;
-                    var8['bulk_action'] = var9;
-                    var2['body'] = var8;
-                    var8 = true;
-                    var2['oldFormErrors'] = var8;
-                    var8 = false;
+                    var12 = _closure1_slot9;
+                    var11 = var12.GUILD_MEMBER_VERIFICATION;
+                    var11 = var11.bind(var12)(var7);
+                    var2['url'] = var11;
+                    var11 = {};
+                    var12 = arg2;
+                    var11['form_fields'] = var12;
+                    var12 = arg3;
+                    var11['enabled'] = var12;
+                    var12 = arg4;
+                    var11['bulk_action'] = var12;
+                    var2['body'] = var11;
+                    var11 = true;
+                    var2['oldFormErrors'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=123);
+                    SaveGenerator(address=140);
 case 22:
                     return var2;
 case 23:
@@ -271,29 +279,32 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 26; continue _fun0003 }
 case 3:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 6;
-                    var2 = var3[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 6;
+                    var2 = var10[var8];
                     var3 = undefined;
-                    var2 = var5.bind(var3)(var2);
+                    var2 = var9.bind(var3)(var2);
                     var6 = var2.HTTP;
                     var5 = var6.patch;
                     var2 = {};
-                    var9 = _closure1_slot9;
-                    var8 = var9.GUILD_MEMBER_VERIFICATION;
-                    var8 = var8.bind(var9)(var7);
-                    var2['url'] = var8;
-                    var8 = {};
-                    var9 = arg2;
-                    var8['description'] = var9;
-                    var2['body'] = var8;
-                    var8 = true;
-                    var2['oldFormErrors'] = var8;
-                    var8 = false;
+                    var12 = _closure1_slot9;
+                    var11 = var12.GUILD_MEMBER_VERIFICATION;
+                    var11 = var11.bind(var12)(var7);
+                    var2['url'] = var11;
+                    var11 = {};
+                    var12 = arg2;
+                    var11['description'] = var12;
+                    var2['body'] = var11;
+                    var11 = true;
+                    var2['oldFormErrors'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=105);
+                    SaveGenerator(address=122);
 case 27:
                     return var2;
 case 28:
@@ -351,38 +362,41 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0004_ip = 31; continue _fun0004 }
 case 32:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 6;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 6;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.patch;
                     var2 = {};
-                    var8 = _closure1_slot9;
-                    var7 = var8.GUILD_MEMBER_VERIFICATION;
-                    var6 = arg1;
-                    var6 = var7.bind(var8)(var6);
-                    var2['url'] = var6;
-                    var6 = {};
-                    var7 = arg2;
-                    var6['enabled'] = var7;
-                    var2['body'] = var6;
-                    var6 = true;
-                    var2['oldFormErrors'] = var6;
-                    var6 = false;
+                    var11 = _closure1_slot9;
+                    var10 = var11.GUILD_MEMBER_VERIFICATION;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg2;
+                    var9['enabled'] = var10;
+                    var2['body'] = var9;
+                    var9 = true;
+                    var2['oldFormErrors'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=102);
-case 33:
+                    SaveGenerator(address=122);
+case 27:
                     return var2;
-case 34:
+case 28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 30; continue _fun0004 }
-case 8:
-                    return var3;
+                    if(var4) { _fun0004_ip = 33; continue _fun0004 }
 case 30:
+                    return var3;
+case 33:
                     return var2;
 case 31:
                     return var1;
@@ -400,63 +414,11 @@ case 31:
         return var1;
     };
     var _closure1_slot13 = var1;
-    var2 = function showCoachmark(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 8;
-        var2 = var2[var1];
+    var1 = function _submitVerificationForm() {
+        var5 = undefined;
         var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'USER_GUILD_JOIN_REQUEST_COACHMARK_SHOW';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['guildId'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var _closure1_slot14 = var2;
-    var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var4);
-    var1 = 0;
-    var4 = var7[var1];
-    var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var7[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var8 = var4.AnalyticEvents;
-    var _closure1_slot8 = var8;
-    var4 = var4.Endpoints;
-    var _closure1_slot9 = var4;
-    var4 = function() {
         var4 = _closure1_slot3;
-        var3 = undefined;
-        var2 = function* (arg1, arg2) {
+        var3 = function* (arg1, arg2) {
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -464,63 +426,66 @@ case 0:
                     var3 = arg1;
                     var2 = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 35; continue _fun0005 }
-case 36:
+                    if(var5) { _fun0005_ip = 34; continue _fun0005 }
+case 35:
                     var4 = var3;
                     var _closure4_slot0 = var3;
                     var14 = arg2;
                     var3 = undefined;
-                    if(!(var2 === var3)) { _fun0005_ip = 37; continue _fun0005 }
-case 38:
-                    var2 = 200;
+                    if(!(var2 === var3)) { _fun0005_ip = 36; continue _fun0005 }
 case 37:
+                    var2 = 200;
+case 36:
                     var12 = var2;
                     var7 = undefined;
                     var11 = undefined;
                     var9 = undefined;
                     SaveGenerator(address=50);
-case 39:
+case 38:
                     return var3;
-case 40:
+case 39:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+                    if(var5) { _fun0005_ip = 40; continue _fun0005 }
+case 41:
                     var15 = _closure1_slot4;
                     var13 = var15.isFullServerPreview;
                     var6 = var4;
                     var6 = var13.bind(var15)(var6);
-                    if(var6) { _fun0005_ip = 43; continue _fun0005 }
-case 44: // try_start_0
-                    var13 = _closure1_slot0;
-                    var15 = _closure1_slot2;
-                    var6 = 6;
-                    var6 = var15[var6];
-                    var6 = var13.bind(var3)(var6);
+                    if(var6) { _fun0005_ip = 42; continue _fun0005 }
+case 43: // try_start_0
+                    var17 = _closure1_slot0;
+                    var18 = _closure1_slot2;
+                    var16 = 6;
+                    var6 = var18[var16];
+                    var6 = var17.bind(var3)(var6);
                     var15 = var6.HTTP;
                     var13 = var15.put;
                     var6 = {};
-                    var18 = _closure1_slot9;
-                    var17 = var18.GUILD_MEMBER_REQUEST_TO_JOIN;
-                    var16 = var4;
-                    var16 = var17.bind(var18)(var16);
-                    var6['url'] = var16;
-                    var16 = {};
-                    var17 = var14;
-                    var18 = var17.version;
-                    var16['version'] = var18;
-                    var17 = var17.formFields;
-                    var16['form_fields'] = var17;
-                    var6['body'] = var16;
-                    var16 = false;
+                    var21 = _closure1_slot9;
+                    var20 = var21.GUILD_MEMBER_REQUEST_TO_JOIN;
+                    var19 = var4;
+                    var19 = var20.bind(var21)(var19);
+                    var6['url'] = var19;
+                    var19 = {};
+                    var20 = var14;
+                    var21 = var20.version;
+                    var19['version'] = var21;
+                    var20 = var20.formFields;
+                    var19['form_fields'] = var20;
+                    var6['body'] = var19;
+                    var16 = var18[var16];
+                    var17 = var17.bind(var3)(var16);
+                    var16 = var17.rejectWithMigratedError;
+                    var16 = var16.bind(var17)();
                     var6['rejectWithError'] = var16;
                     var6 = var13.bind(var15)(var6);
-                    SaveGenerator(address=187);
-case 45:
+                    SaveGenerator(address=204);
+case 44:
                     return var6;
-case 46:
+case 45:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=12);
-                    if(var13) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+                    if(var13) { _fun0005_ip = 46; continue _fun0005 }
+case 47:
                     var18 = var6.body;
                     var9 = var18;
                     var15 = _closure1_slot1;
@@ -544,43 +509,43 @@ case 48:
                     var14 = var14.formFields;
                     var14 = var15.bind(var16)(var14);
                     var13 = var14;
-                    if(!var14) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+                    if(!var14) { _fun0005_ip = 48; continue _fun0005 }
+case 49:
                     var15 = var12;
                     var14 = -1;
                     var13 = var14 !== var15;
-case 49:
-                    if(!var13) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+case 48:
+                    if(!var13) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
                     var13 = global;
                     var13 = var13.setTimeout;
                     var10 = function() {
-                        var3 = _closure1_slot14;
+                        var3 = _closure1_slot15;
                         var2 = _closure4_slot0;
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         return var1;
                     };
                     var10 = var13.bind(var3)(var10, var12);
-case 51: // try_end0
+case 50: // try_end0
                     return var9;
-case 47:
+case 46:
                     return var6;
-case 53: // catch_target0
+case 52: // catch_target0
                     CatchBlockStart(arg_register=5);
                     var8 = var6;
                     var9 = var6.status;
                     var6 = 429;
-                    if(!(var6 !== var9)) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+                    if(!(var6 !== var9)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
                     var6 = 403;
-                    if(!(var6 !== var9)) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+                    if(!(var6 !== var9)) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
                     var6 = {};
                     var12 = var8;
-                    var21 = var6;
-                    var20 = var12;
-                    var9 = copyDataProperties(var21, var20);
+                    var23 = var6;
+                    var22 = var12;
+                    var9 = copyDataProperties(var23, var22);
                     var10 = _closure1_slot0;
                     var13 = _closure1_slot2;
                     var9 = 15;
@@ -589,23 +554,23 @@ case 57:
                     var9 = var9.APIError;
                     var10 = var9.prototype;
                     var10 = Object.create(var10, {constructor: {value: var9}});
-                    var22 = var10;
-                    var21 = var12;
-                    var9 = new var22[var9](var21, var20);
+                    var24 = var10;
+                    var23 = var12;
+                    var9 = new var24[var9](var23, var22);
                     var9 = var9 instanceof Object ? var9 : var10;
                     var11 = var9;
                     var10 = null;
                     var12 = var10 == var9;
                     var9 = undefined;
-                    if(var12) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
+                    if(var12) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
                     var12 = var11;
                     var11 = var12.getAnyErrorMessage;
                     var9 = var11.bind(var12)();
-case 58:
+case 57:
                     var7 = var9;
-                    if(!(var10 == var9)) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
+                    if(!(var10 == var9)) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
                     var9 = 14;
@@ -618,18 +583,18 @@ case 61:
                     var9 = var9.t;
                     var9 = var9.R0RpRX;
                     var9 = var10.bind(var11)(var9);
-                    _fun0005_ip = 62; continue _fun0005;
-case 60:
+                    _fun0005_ip = 61; continue _fun0005;
+case 59:
                     var9 = var7;
-case 62:
+case 61:
                     var7 = 'message';
                     var6[6] = var9;
                     throw var6;
-case 56:
+case 55:
                     var6 = {};
-                    var20 = var8;
-                    var21 = var6;
-                    var7 = copyDataProperties(var21, var20);
+                    var22 = var8;
+                    var23 = var6;
+                    var7 = copyDataProperties(var23, var22);
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var7 = 14;
@@ -645,7 +610,7 @@ case 56:
                     var7 = 'message';
                     var6[6] = var9;
                     throw var6;
-case 54:
+case 53:
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var6 = 12;
@@ -692,9 +657,9 @@ case 54:
                     var6['confirmText'] = var13;
                     var6 = var9.bind(var12)(var6);
                     var6 = {};
-                    var20 = var8;
-                    var21 = var6;
-                    var8 = copyDataProperties(var21, var20);
+                    var22 = var8;
+                    var23 = var6;
+                    var8 = copyDataProperties(var23, var22);
                     var8 = var11[var7];
                     var8 = var10.bind(var3)(var8);
                     var9 = var8.intl;
@@ -707,7 +672,7 @@ case 54:
                     var7 = 'message';
                     var6[6] = var8;
                     throw var6;
-case 43:
+case 42:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var5 = 10;
@@ -722,9 +687,9 @@ case 43:
                     var4['memberOptions'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
                     return var3;
-case 41:
+case 40:
                     return var2;
-case 35:
+case 34:
                     return var1;
                 }
             };
@@ -732,23 +697,71 @@ case 35:
             var2 = var2.bind(var1)();
             return var1;
         };
-        var2 = var4.bind(var3)(var2);
-        var _closure2_slot0 = var2;
-        var1 = function() {
-            var1 = undefined;
-            var4 = _closure2_slot0;
-            var3 = var4.apply;
-            var1 = arguments;
-            var2 = var1;
-            var1 = this;
-            var1 = var3.bind(var4)(var1, var2);
-            return var1;
-        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot14 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var8 = var4.bind(var1)();
+    var _closure1_slot14 = var1;
+    var2 = function showCoachmark(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'USER_GUILD_JOIN_REQUEST_COACHMARK_SHOW';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['guildId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot15 = var2;
+    var1 = global;
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
     var4 = {};
-    var9 = function fetchVerificationForm() {
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var9.bind(var10)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var8 = var4.AnalyticEvents;
+    var _closure1_slot8 = var8;
+    var4 = var4.Endpoints;
+    var _closure1_slot9 = var4;
+    var4 = {};
+    var8 = function fetchVerificationForm() {
         var1 = undefined;
         var4 = _closure1_slot10;
         var3 = var4.apply;
@@ -758,8 +771,8 @@ case 35:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var4['fetchVerificationForm'] = var9;
-    var9 = function updateVerificationForm() {
+    var4['fetchVerificationForm'] = var8;
+    var8 = function updateVerificationForm() {
         var1 = undefined;
         var4 = _closure1_slot11;
         var3 = var4.apply;
@@ -769,8 +782,8 @@ case 35:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var4['updateVerificationForm'] = var9;
-    var9 = function updateVerificationFormFieldsLocal(arg1, arg2) {
+    var4['updateVerificationForm'] = var8;
+    var8 = function updateVerificationFormFieldsLocal(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 8;
@@ -792,8 +805,8 @@ case 35:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var4['updateVerificationFormFieldsLocal'] = var9;
-    var9 = function updateVerificationFormDescription() {
+    var4['updateVerificationFormFieldsLocal'] = var8;
+    var8 = function updateVerificationFormDescription() {
         var1 = undefined;
         var4 = _closure1_slot12;
         var3 = var4.apply;
@@ -803,8 +816,8 @@ case 35:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var4['updateVerificationFormDescription'] = var9;
-    var9 = function updateVerificationFormDescriptionLocal(arg1, arg2) {
+    var4['updateVerificationFormDescription'] = var8;
+    var8 = function updateVerificationFormDescriptionLocal(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 8;
@@ -826,8 +839,8 @@ case 35:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var4['updateVerificationFormDescriptionLocal'] = var9;
-    var9 = function enableVerificationForm() {
+    var4['updateVerificationFormDescriptionLocal'] = var8;
+    var8 = function enableVerificationForm() {
         var1 = undefined;
         var4 = _closure1_slot13;
         var3 = var4.apply;
@@ -837,7 +850,17 @@ case 35:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var4['enableVerificationForm'] = var9;
+    var4['enableVerificationForm'] = var8;
+    var8 = function submitVerificationForm() {
+        var1 = undefined;
+        var4 = _closure1_slot14;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
     var4['submitVerificationForm'] = var8;
     var8 = function clearCoachmark() {
         var3 = _closure1_slot1;

@@ -87,101 +87,52 @@ case 2:
     var2 = function GuildRoleSubscriptionGroupSetupModal(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var4 = arg1;
-            var13 = var4.editStateId;
+            var3 = arg1;
+            var12 = var3.editStateId;
             var5 = null;
-            var3 = Object.create(var5);
+            var2 = Object.create(var5);
             var7 = 0;
-            var3['editStateId'] = var7;
+            var2['editStateId'] = var7;
             var20 = {};
-            var19 = var4;
-            var18 = var3;
+            var19 = var3;
+            var18 = var2;
             var16 = copyDataProperties(var20, var19, var18);
             var _closure2_slot0 = var16;
             var4 = undefined;
+            var _closure2_slot1 = var4;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
+            var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
             var _closure2_slot10 = var4;
-            var8 = var16.guildId;
-            var _closure2_slot1 = var8;
-            var3 = _closure1_slot6;
-            var2 = var3.useState;
-            var3 = var2.bind(var3)();
-            var2 = _closure1_slot4;
-            var12 = 2;
-            var2 = var2.bind(var4)(var3, var12);
-            var3 = var2[var7];
-            var _closure2_slot2 = var3;
-            var6 = 1;
-            var2 = var2[var6];
-            var _closure2_slot3 = var2;
-            var3 = _closure1_slot0;
-            var9 = _closure1_slot3;
-            var2 = 7;
-            var10 = var9[var2];
-            var14 = var3.bind(var4)(var10);
-            var10 = var14.useCreateSubscriptionGroupListing;
-            var10 = var10.bind(var14)();
-            var10 = var10.createSubscriptionGroupListing;
-            var _closure2_slot4 = var10;
-            var2 = var9[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.useUpdateSubscriptionsSettings;
-            var2 = var2.bind(var3)();
-            var3 = var2.updateSubscriptionsSettings;
-            var _closure2_slot5 = var3;
-            var2 = var2.error;
-            var10 = _closure1_slot6;
-            var3 = var10.useState;
-            var10 = var3.bind(var10)(var13);
-            var3 = _closure1_slot4;
-            var3 = var3.bind(var4)(var10, var12);
-            var7 = var3[var7];
-            var _closure2_slot6 = var7;
-            var3 = var3[var6];
-            var _closure2_slot7 = var3;
-            var6 = _closure1_slot2;
-            var3 = 8;
-            var3 = var9[var3];
-            var6 = var6.bind(var4)(var3);
-            var3 = var6.useCreateOrUpdateListingFromEditState;
-            var3 = var3.bind(var6)();
-            var6 = var3.handleCreateOrUpdateFromEditState;
-            var _closure2_slot8 = var6;
-            var3 = var3.error;
-            if(!(var5 != var2)) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
-            var3 = var2;
-case 15:
-            var6 = var5 != var3;
-            var2 = undefined;
-            if(!var6) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
-            var2 = var3;
-case 17:
-            _closure2_slot9 = var2;
-            var3 = function() {
-                var4 = _closure1_slot5;
-                var3 = undefined;
+            var1 = function _handleCreateGroupAndTier() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot5;
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                            if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                             var2 = _closure2_slot2;
                             var10 = null;
                             var2 = var10 == var2;
                             var3 = undefined;
                             var7 = undefined;
-                            if(var2) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                            if(var2) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                             var2 = _closure2_slot2;
                             var7 = var2.id;
-case 21:
-                            if(!(var10 == var7)) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
+case 17:
+                            if(!(var10 == var7)) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                             var17 = _closure2_slot1;
                             var16 = _closure2_slot4;
                             var15 = _closure2_slot5;
@@ -199,20 +150,20 @@ case 24:
                             var18 = undefined;
                             var2 = var18[var2](var17, var16, var15, var14, var13);
                             SaveGenerator(address=78);
-case 25:
+case 21:
                             return var2;
-case 26:
+case 22:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                             var7 = var2;
-                            if(!var5) { _fun0003_ip = 23; continue _fun0003 }
-case 27:
-                            return var2;
+                            if(!var5) { _fun0003_ip = 19; continue _fun0003 }
 case 23:
-                            if(!(var10 != var7)) { _fun0003_ip = 28; continue _fun0003 }
-case 29:
+                            return var2;
+case 19:
+                            if(!(var10 != var7)) { _fun0003_ip = 24; continue _fun0003 }
+case 25:
                             var2 = _closure2_slot9;
-                            if(!(var10 != var2)) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+                            if(!(var10 != var2)) { _fun0003_ip = 26; continue _fun0003 }
+case 27:
                             var5 = _closure1_slot0;
                             var8 = _closure1_slot3;
                             var2 = 9;
@@ -222,8 +173,8 @@ case 31:
                             var11 = _closure2_slot9;
                             var2 = var11.getAnyErrorMessage;
                             var2 = var2.bind(var11)();
-                            if(!(var10 == var2)) { _fun0003_ip = 32; continue _fun0003 }
-case 33:
+                            if(!(var10 == var2)) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
                             var12 = _closure1_slot0;
                             var13 = _closure1_slot3;
                             var9 = 10;
@@ -236,9 +187,9 @@ case 33:
                             var9 = var9.t;
                             var9 = var9.ZUEGFn;
                             var2 = var10.bind(var11)(var9);
-case 32:
+case 28:
                             var2 = var5.bind(var8)(var2);
-case 30:
+case 26:
                             var5 = _closure2_slot8;
                             var2 = {};
                             var8 = _closure2_slot1;
@@ -257,47 +208,100 @@ case 30:
                             var2['onBeforeDispatchNewListing'] = var6;
                             var2 = var5.bind(var3)(var2);
                             SaveGenerator(address=261);
-case 34:
+case 30:
                             return var2;
-case 35:
+case 31:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0003_ip = 36; continue _fun0003 }
-case 37:
-                            if(!var2) { _fun0003_ip = 28; continue _fun0003 }
-case 38:
+                            if(var5) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
+                            if(!var2) { _fun0003_ip = 24; continue _fun0003 }
+case 34:
                             var5 = _closure2_slot0;
                             var4 = var5.onClose;
                             var4 = var4.bind(var5)();
-case 28:
+case 24:
                             return var3;
-case 36:
+case 32:
                             return var2;
-case 19:
+case 15:
                             return var1;
                         }
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot11 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var15 = var3.bind(var4)();
+            var _closure2_slot11 = var1;
+            var8 = var16.guildId;
+            _closure2_slot1 = var8;
+            var2 = _closure1_slot6;
+            var1 = var2.useState;
+            var2 = var1.bind(var2)();
+            var1 = _closure1_slot4;
+            var10 = 2;
+            var1 = var1.bind(var4)(var2, var10);
+            var2 = var1[var7];
+            _closure2_slot2 = var2;
+            var3 = 1;
+            var1 = var1[var3];
+            _closure2_slot3 = var1;
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var1 = 7;
+            var9 = var6[var1];
+            var13 = var2.bind(var4)(var9);
+            var9 = var13.useCreateSubscriptionGroupListing;
+            var9 = var9.bind(var13)();
+            var9 = var9.createSubscriptionGroupListing;
+            _closure2_slot4 = var9;
+            var1 = var6[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.useUpdateSubscriptionsSettings;
+            var1 = var1.bind(var2)();
+            var2 = var1.updateSubscriptionsSettings;
+            _closure2_slot5 = var2;
+            var1 = var1.error;
             var9 = _closure1_slot6;
-            var6 = var9.useEffect;
-            var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
+            var2 = var9.useState;
+            var9 = var2.bind(var9)(var12);
+            var2 = _closure1_slot4;
+            var2 = var2.bind(var4)(var9, var10);
+            var7 = var2[var7];
+            _closure2_slot6 = var7;
+            var2 = var2[var3];
+            _closure2_slot7 = var2;
+            var3 = _closure1_slot2;
+            var2 = 8;
+            var2 = var6[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useCreateOrUpdateListingFromEditState;
+            var2 = var2.bind(var3)();
+            var3 = var2.handleCreateOrUpdateFromEditState;
+            _closure2_slot8 = var3;
+            var2 = var2.error;
+            if(!(var5 != var1)) { _fun0002_ip = 35; continue _fun0002 }
+case 36:
+            var2 = var1;
+case 35:
+            var3 = var5 != var2;
+            var1 = undefined;
+            if(!var3) { _fun0002_ip = 37; continue _fun0002 }
+case 38:
+            var1 = var2;
+case 37:
+            _closure2_slot9 = var1;
+            var6 = _closure1_slot6;
+            var3 = var6.useEffect;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var2 = _closure2_slot9;
@@ -335,10 +339,10 @@ case 39:
                     return var1;
                 }
             };
-            var2 = var6.bind(var9)(var2, var3);
-            var9 = _closure1_slot6;
-            var6 = var9.useMemo;
-            var3 = function() {
+            var1 = var3.bind(var6)(var1, var2);
+            var6 = _closure1_slot6;
+            var3 = var6.useMemo;
+            var2 = function() {
                 var1 = _closure1_slot8;
                 var2 = var1.GATING;
                 var1 = new Array(7);
@@ -369,12 +373,12 @@ case 39:
                 var1[6] = var2;
                 return var1;
             };
-            var2 = new Array(0);
-            var14 = var6.bind(var9)(var3, var2);
+            var1 = new Array(0);
+            var14 = var3.bind(var6)(var2, var1);
             _closure2_slot10 = var14;
-            var9 = _closure1_slot6;
-            var6 = var9.useMemo;
-            var3 = function() {
+            var6 = _closure1_slot6;
+            var3 = var6.useMemo;
+            var2 = function() {
                 var1 = {};
                 var3 = _closure1_slot8;
                 var8 = var3.GATING;
@@ -400,8 +404,8 @@ case 39:
                 var1[2] = var2;
                 return var1;
             };
-            var2 = new Array(0);
-            var12 = var6.bind(var9)(var3, var2);
+            var1 = new Array(0);
+            var12 = var3.bind(var6)(var2, var1);
             var6 = _closure1_slot6;
             var3 = var6.useCallback;
             var2 = new Array(1);
@@ -463,8 +467,18 @@ case 39:
             var19 = var16;
             var16 = copyDataProperties(var20, var19);
             var16 = _closure1_slot9;
-            var11 = 'modalKey';
-            var8[10] = var16;
+            var15 = 'modalKey';
+            var8[14] = var16;
+            var15 = function handleCreateGroupAndTier() {
+                var1 = undefined;
+                var4 = _closure2_slot11;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var11 = 'onDone';
             var8[10] = var15;
             var11 = 'steps';

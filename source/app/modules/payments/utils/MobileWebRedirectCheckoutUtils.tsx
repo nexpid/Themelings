@@ -72,7 +72,7 @@ case 2:
     var4 = var5.bind(var6)(var4);
     var4 = 'mobile_web_redirect_checkout';
     var3['MOBILE_WEB_REDIRECT_CHECKOUT_ERROR_TAG'] = var4;
-    var4 = function(arg1, arg2, arg3) {
+    var4 = function captureMobileWebRedirectCheckoutSentryError(arg1, arg2, arg3) {
         var2 = arg3;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;

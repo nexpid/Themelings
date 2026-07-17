@@ -1,20 +1,32 @@
 // app/utils/native/PrivateChannelCallUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var13 = require;
-    var12 = metroImportDefault;
+    var15 = metroImportDefault;
     var3 = exports;
     var14 = dependencyMap;
     var _closure1_slot0 = var13;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var15;
     var _closure1_slot2 = var14;
+    var11 = function getVoiceChannelKeyByChannelId(arg1) {
+        var5 = _closure1_slot17;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var4 = var1.concat;
+        var3 = '';
+        var2 = '-';
+        var1 = arg1;
+        var1 = var4.bind(var3)(var5, var2, var1);
+        return var1;
+    };
+    var _closure1_slot18 = var11;
     var10 = function getVoiceChannelKey(arg1) {
-        var3 = _closure1_slot17;
+        var3 = _closure1_slot18;
         var2 = undefined;
         var1 = arg1;
         var1 = var3.bind(var2)(var1);
         return var1;
     };
-    var _closure1_slot18 = var10;
+    var _closure1_slot19 = var10;
     var9 = function openChannelCallModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -61,7 +73,7 @@ case 5:
             var5 = var5.bind(var1)(var4, var3);
             var4 = {};
             var4['channel'] = var6;
-            var9 = _closure1_slot18;
+            var9 = _closure1_slot19;
             var3 = var6.id;
             var3 = var9.bind(var1)(var3);
             var3 = var7.bind(var8)(var5, var4, var3);
@@ -90,11 +102,11 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot19 = var9;
+    var _closure1_slot20 = var9;
     var8 = function dismissVoiceChannelScreens(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot19;
             var1 = arg1;
             var3 = var1.id;
             var1 = undefined;
@@ -123,7 +135,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot20 = var8;
+    var _closure1_slot21 = var8;
     var7 = function monkeyPatchCall() {
         var1 = global;
         var3 = var1.Promise;
@@ -141,7 +153,7 @@ case 0:
                 var4 = null;
                 if(!(var4 != var5)) { _fun0003_ip = 8; continue _fun0003 }
 case 9:
-                var3 = _closure1_slot20;
+                var3 = _closure1_slot21;
                 var2 = undefined;
                 var2 = var3.bind(var2)(var5);
 case 8:
@@ -166,7 +178,7 @@ case 8:
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot21 = var7;
+    var _closure1_slot22 = var7;
     var6 = function showGuardCallAlert(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -222,7 +234,7 @@ case 8:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot22 = var6;
+    var _closure1_slot23 = var6;
     var5 = function guardPrivateCallForChannel(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -253,7 +265,7 @@ case 10:
             var3 = var4.bind(var3)();
             _fun0004_ip = 15; continue _fun0004;
 case 14:
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot23;
             var4 = _closure1_slot3;
             var2 = undefined;
             var1 = function* () {
@@ -264,7 +276,7 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0005_ip = 16; continue _fun0005 }
 case 17:
-                        var2 = _closure1_slot21;
+                        var2 = _closure1_slot22;
                         var3 = undefined;
                         var2 = var2.bind(var3)();
                         SaveGenerator(address=24);
@@ -292,12 +304,12 @@ case 15:
             return var1;
         }
     };
-    var _closure1_slot23 = var5;
+    var _closure1_slot24 = var5;
     var4 = function openGuildVoiceModal(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var3 = arg1;
-            var5 = _closure1_slot18;
+            var5 = _closure1_slot19;
             var4 = var3.id;
             var1 = undefined;
             var6 = var5.bind(var1)(var4);
@@ -310,91 +322,81 @@ case 0:
             var4 = var4.bind(var5)(var6);
             if(var4) { _fun0006_ip = 22; continue _fun0006 }
 case 23:
-            var2 = _closure1_slot19;
+            var2 = _closure1_slot20;
             var2 = var2.bind(var1)(var3);
 case 22:
             return var1;
         }
     };
-    var _closure1_slot24 = var4;
+    var _closure1_slot25 = var4;
     var1 = global;
-    var16 = var1.Object;
-    var15 = var16.defineProperty;
-    var11 = {};
+    var17 = var1.Object;
+    var16 = var17.defineProperty;
+    var12 = {};
     var1 = true;
-    var11['value'] = var1;
+    var12['value'] = var1;
     var1 = '__esModule';
-    var1 = var15.bind(var16)(var3, var1, var11);
+    var1 = var16.bind(var17)(var3, var1, var12);
     var1 = 0;
-    var11 = var14[var1];
+    var12 = var14[var1];
     var1 = undefined;
-    var11 = var12.bind(var1)(var11);
-    var _closure1_slot3 = var11;
-    var11 = 1;
-    var15 = var14[var11];
-    var11 = metroImportAll;
-    var11 = var11.bind(var1)(var15);
-    var _closure1_slot4 = var11;
-    var11 = 2;
-    var11 = var14[var11];
-    var11 = var12.bind(var1)(var11);
-    var _closure1_slot5 = var11;
-    var11 = 3;
-    var11 = var14[var11];
-    var11 = var12.bind(var1)(var11);
-    var _closure1_slot6 = var11;
-    var11 = 4;
-    var11 = var14[var11];
-    var11 = var12.bind(var1)(var11);
-    var _closure1_slot7 = var11;
-    var11 = 5;
-    var11 = var14[var11];
-    var11 = var12.bind(var1)(var11);
-    var _closure1_slot8 = var11;
-    var11 = 6;
-    var11 = var14[var11];
-    var11 = var12.bind(var1)(var11);
-    var _closure1_slot9 = var11;
-    var11 = 7;
-    var11 = var14[var11];
-    var11 = var12.bind(var1)(var11);
-    var _closure1_slot10 = var11;
-    var11 = 8;
-    var11 = var14[var11];
-    var11 = var13.bind(var1)(var11);
-    var12 = var11.ChannelTypes;
-    var _closure1_slot11 = var12;
-    var12 = var11.ComponentActions;
-    var _closure1_slot12 = var12;
-    var11 = var11.NOOP;
-    var _closure1_slot13 = var11;
-    var11 = 9;
-    var11 = var14[var11];
-    var11 = var13.bind(var1)(var11);
-    var11 = var11.AgeGateSource;
-    var _closure1_slot14 = var11;
-    var11 = 10;
-    var11 = var14[var11];
-    var11 = var13.bind(var1)(var11);
-    var11 = var11.NativePermissionTypes;
-    var _closure1_slot15 = var11;
-    var11 = 11;
-    var11 = var14[var11];
-    var11 = var13.bind(var1)(var11);
-    var11 = var11.jsx;
-    var _closure1_slot16 = var11;
-    var11 = function getVoiceChannelKeyByChannelId(arg1) {
-        var1 = global;
-        var1 = var1.HermesInternal;
-        var5 = var1.concat;
-        var4 = '';
-        var3 = 'voice-channel';
-        var2 = '-';
-        var1 = arg1;
-        var1 = var5.bind(var4)(var3, var2, var1);
-        return var1;
-    };
-    var _closure1_slot17 = var11;
+    var12 = var15.bind(var1)(var12);
+    var _closure1_slot3 = var12;
+    var12 = 1;
+    var16 = var14[var12];
+    var12 = metroImportAll;
+    var12 = var12.bind(var1)(var16);
+    var _closure1_slot4 = var12;
+    var12 = 2;
+    var12 = var14[var12];
+    var12 = var15.bind(var1)(var12);
+    var _closure1_slot5 = var12;
+    var12 = 3;
+    var12 = var14[var12];
+    var12 = var15.bind(var1)(var12);
+    var _closure1_slot6 = var12;
+    var12 = 4;
+    var12 = var14[var12];
+    var12 = var15.bind(var1)(var12);
+    var _closure1_slot7 = var12;
+    var12 = 5;
+    var12 = var14[var12];
+    var12 = var15.bind(var1)(var12);
+    var _closure1_slot8 = var12;
+    var12 = 6;
+    var12 = var14[var12];
+    var12 = var15.bind(var1)(var12);
+    var _closure1_slot9 = var12;
+    var12 = 7;
+    var12 = var14[var12];
+    var12 = var15.bind(var1)(var12);
+    var _closure1_slot10 = var12;
+    var12 = 8;
+    var12 = var14[var12];
+    var12 = var13.bind(var1)(var12);
+    var15 = var12.ChannelTypes;
+    var _closure1_slot11 = var15;
+    var15 = var12.ComponentActions;
+    var _closure1_slot12 = var15;
+    var12 = var12.NOOP;
+    var _closure1_slot13 = var12;
+    var12 = 9;
+    var12 = var14[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.AgeGateSource;
+    var _closure1_slot14 = var12;
+    var12 = 10;
+    var12 = var14[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.NativePermissionTypes;
+    var _closure1_slot15 = var12;
+    var12 = 11;
+    var12 = var14[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.jsx;
+    var _closure1_slot16 = var12;
+    var12 = 'voice-channel';
+    var _closure1_slot17 = var12;
     var12 = 33;
     var12 = var14[var12];
     var14 = var13.bind(var1)(var12);
@@ -406,7 +408,7 @@ case 22:
     var10 = function isVoiceChannelModalKey(arg1) {
         var3 = arg1;
         var2 = var3.startsWith;
-        var1 = 'voice-channel';
+        var1 = _closure1_slot17;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
@@ -469,7 +471,7 @@ case 24:
         var4 = var3[var4];
         var3 = var3.paths;
         var4 = var8.bind(var1)(var4, var3);
-        var3 = _closure1_slot18;
+        var3 = _closure1_slot19;
         var2 = var7.id;
         var3 = var3.bind(var1)(var2);
         var2 = {};
@@ -486,7 +488,7 @@ case 24:
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
         var3 = var4.hideActionSheet;
-        var5 = _closure1_slot18;
+        var5 = _closure1_slot19;
         var2 = arg1;
         var2 = var2.id;
         var2 = var5.bind(var1)(var2);
@@ -582,7 +584,7 @@ case 28:
                 return var1;
             };
             var _closure2_slot2 = var3;
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var2 = function onConfirm() {
                 var1 = undefined;
                 var4 = _closure2_slot2;
@@ -773,7 +775,7 @@ case 46:
             var3 = var3.bind(var1)(var4);
             if(var3) { _fun0010_ip = 47; continue _fun0010 }
 case 48:
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var2 = function onConfirm() {
                 var1 = undefined;
                 var4 = _closure2_slot2;
@@ -875,7 +877,7 @@ case 49:
                 return var1;
             };
             var _closure2_slot2 = var3;
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var2 = function onConfirm() {
                 var1 = undefined;
                 var4 = _closure2_slot2;
@@ -975,7 +977,7 @@ case 28:
                 return var1;
             };
             var _closure2_slot2 = var3;
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot24;
             var2 = function onConfirm() {
                 var1 = undefined;
                 var4 = _closure2_slot2;
@@ -1004,7 +1006,7 @@ case 52:
             var2 = var2.bind(var3)();
             if(var2) { _fun0017_ip = 53; continue _fun0017 }
 case 54:
-            var4 = _closure1_slot24;
+            var4 = _closure1_slot25;
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             _fun0017_ip = 55; continue _fun0017;
@@ -1019,7 +1021,7 @@ case 53:
             var2 = var2.bind(var4)(var3);
             _fun0017_ip = 55; continue _fun0017;
 case 51:
-            var2 = _closure1_slot19;
+            var2 = _closure1_slot20;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
 case 55:

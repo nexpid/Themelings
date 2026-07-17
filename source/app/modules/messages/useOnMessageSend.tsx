@@ -49,52 +49,52 @@ case 2:
             var3[0] = var7;
             var3[1] = var6;
             var2 = function() {
-                var10 = function handleMessageCreate(arg1) {
+                var5 = function handleMessage(arg1) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                        var3 = _closure2_slot1;
+                        var1 = undefined;
+                        var3 = var1 !== var3;
+                        if(!var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                        var4 = arg1;
+                        var5 = var4.channelId;
+                        var4 = _closure2_slot1;
+                        var3 = var5 !== var4;
+case 4:
+                        if(var3) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                        var2 = _closure2_slot0;
+                        var2 = var2.bind(var1)();
+case 6:
+                        return var1;
+                    }
+                };
+                var _closure3_slot0 = var5;
+                var10 = function handleMessageCreate(arg1) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var3 = arg1;
                         var1 = var3.optimistic;
-                        if(var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+                        if(var1) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                         var2 = var3.message;
                         var4 = var2.state;
                         var2 = _closure1_slot3;
                         var2 = var2.SENDING;
                         var1 = var4 === var2;
-case 4:
-                        if(!var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+case 8:
+                        if(!var1) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                         var2 = _closure3_slot0;
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
-case 6:
+case 10:
                         var1 = undefined;
                         return var1;
                     }
                 };
                 var _closure3_slot1 = var10;
-                var5 = function handleMessage(arg1) {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                        var3 = _closure2_slot1;
-                        var1 = undefined;
-                        var3 = var1 !== var3;
-                        if(!var3) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
-                        var4 = arg1;
-                        var5 = var4.channelId;
-                        var4 = _closure2_slot1;
-                        var3 = var5 !== var4;
-case 8:
-                        if(var3) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                        var2 = _closure2_slot0;
-                        var2 = var2.bind(var1)();
-case 10:
-                        return var1;
-                    }
-                };
-                var _closure3_slot0 = var5;
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var2 = 2;

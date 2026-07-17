@@ -299,6 +299,7 @@ case 0:
             var4 = undefined;
             var _closure2_slot1 = var4;
             var _closure2_slot3 = var4;
+            var _closure2_slot7 = var4;
             var1 = _closure1_slot19;
             var15 = var1.bind(var4)();
             var10 = var5.application;
@@ -540,7 +541,7 @@ case 9:
                 }
             };
             var11 = var11.bind(var12)(var3, var2);
-            var _closure2_slot7 = var11;
+            _closure2_slot7 = var11;
             var1 = var20[var1];
             var13 = var22.bind(var4)(var1);
             var12 = var13.useStateFromStoresObject;
@@ -558,12 +559,13 @@ case 0:
 case 8:
                     var1 = {};
                     var4 = _closure1_slot10;
-                    var2 = var4.getChannelMuteConfig;
+                    var6 = var4.getChannelMuteConfig;
                     var3 = _closure2_slot7;
-                    var2 = var2.bind(var4)(var5, var3);
-                    var1['appDMChannelMuteConfig'] = var2;
-                    var2 = var4.isChannelMuted;
-                    var2 = var2.bind(var4)(var5, var3);
+                    var3 = var6.bind(var4)(var5, var3);
+                    var1['appDMChannelMuteConfig'] = var3;
+                    var3 = var4.isChannelMuted;
+                    var2 = _closure2_slot7;
+                    var2 = var3.bind(var4)(var5, var2);
                     var1['muted'] = var2;
                     _fun0006_ip = 12; continue _fun0006;
 case 11:

@@ -263,39 +263,40 @@ case 6:
             var34 = var1.balance;
             var1 = 14;
             var1 = var3[var1];
-            var1 = var2.bind(var4)(var1);
-            var3 = var1.BountiesStage1Experiment;
-            var2 = var3.useConfig;
-            var1 = {};
-            var5 = _closure1_slot7;
-            var5 = var5.VIDEO_MODAL_MOBILE;
-            var1['location'] = var5;
-            var1 = var2.bind(var3)(var1);
-            var3 = var1.enabled;
-            var25 = var1.loopingEnabled;
-            var2 = var1.rewardTimerSeconds;
-            var6 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useBountiesExperience;
+            var1 = _closure1_slot7;
+            var1 = var1.VIDEO_MODAL_MOBILE;
+            var2 = var2.bind(var3)(var1);
+            var25 = var2.loopingEnabled;
+            var1 = var2.ownedByVerticalScrollExperiment;
+            var3 = var2.stage1Enabled;
+            var2 = var2.rewardTimerSeconds;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
             var5 = 15;
-            var1 = var1[var5];
-            var1 = var6.bind(var4)(var1);
-            var1 = var1.BountyVideoEndMode;
+            var6 = var6[var5];
+            var6 = var8.bind(var4)(var6);
+            var6 = var6.BountyVideoEndMode;
             if(var25) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var20 = var1.END_CARD;
+            var20 = var6.END_CARD;
             _fun0001_ip = 9; continue _fun0001;
 case 7:
-            var20 = var1.LOOP;
+            var20 = var6.LOOP;
 case 9:
-            var1 = 1000;
             if(var3) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var3 = var15.rewardTimerSeconds;
-            var8 = var1 * var3;
-            _fun0001_ip = 12; continue _fun0001;
-case 10:
-            var8 = var1 * var2;
+            if(var1) { _fun0001_ip = 10; continue _fun0001 }
 case 12:
+            var3 = var15.rewardTimerSeconds;
+            var1 = 1000;
+            var8 = var1 * var3;
+            _fun0001_ip = 13; continue _fun0001;
+case 10:
+            var1 = 1000;
+            var8 = var1 * var2;
+case 13:
             _closure2_slot4 = var8;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -322,8 +323,8 @@ case 12:
 case 0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0004_ip = 13; continue _fun0004 }
-case 14: // try_start_0
+                        if(var2) { _fun0004_ip = 14; continue _fun0004 }
+case 15: // try_start_0
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var2 = 17;
@@ -336,16 +337,16 @@ case 14: // try_start_0
                         var2 = _closure2_slot1;
                         var2 = var4.bind(var5)(var3, var2);
                         SaveGenerator(address=64);
-case 15:
-                        return var2;
 case 16:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0004_ip = 17; continue _fun0004 }
-case 18: // try_end0
-                        _fun0004_ip = 19; continue _fun0004;
-case 17:
                         return var2;
-case 20: // catch_target0
+case 17:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                        if(var3) { _fun0004_ip = 18; continue _fun0004 }
+case 19: // try_end0
+                        _fun0004_ip = 20; continue _fun0004;
+case 18:
+                        return var2;
+case 21: // catch_target0
                         CatchBlockStart(arg_register=3);
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -355,10 +356,10 @@ case 20: // catch_target0
                         var3 = var5.bind(var2)(var3);
                         var2 = var3.openBountyRewardClaimErrorToast;
                         var2 = var2.bind(var3)(var4);
-case 19:
+case 20:
                         var2 = undefined;
                         return var2;
-case 13:
+case 14:
                         return var1;
                     }
                 };
@@ -431,10 +432,10 @@ case 13:
             var6 = 0;
             var12 = var12 > var6;
             var6 = null;
-            if(!var12) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+            if(!var12) { _fun0001_ip = 22; continue _fun0001 }
+case 23:
             var6 = var24.duration;
-case 21:
+case 22:
             var2['initialVideoDurationSec'] = var6;
             var2 = var3.bind(var5)(var2);
             var35 = var2.isCtaVisible;
@@ -510,10 +511,10 @@ case 0:
                     var8 = null;
                     var12 = var8 != var12;
                     var8 = 0;
-                    if(!var12) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
+                    if(!var12) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
                     var8 = _closure2_slot10;
-case 23:
+case 24:
                     var8 = var10.bind(var11)(var9, var8);
                     var7['video_progress'] = var8;
                     var8 = _closure2_slot9;
@@ -601,10 +602,10 @@ case 0:
                     var8 = null;
                     var12 = var8 != var12;
                     var8 = 0;
-                    if(!var12) { _fun0006_ip = 23; continue _fun0006 }
-case 24:
+                    if(!var12) { _fun0006_ip = 24; continue _fun0006 }
+case 25:
                     var8 = _closure2_slot10;
-case 23:
+case 24:
                     var8 = var10.bind(var11)(var9, var8);
                     var7['video_progress'] = var8;
                     var8 = true;
@@ -718,7 +719,7 @@ case 23:
             };
             var19['renderEndCard'] = var22;
             var22 = false;
-            var19['isScrollIndicatorVisible'] = var22;
+            var19['isScrollIndicatorEnabled'] = var22;
             var19 = var21.bind(var4)(var20, var19);
             var5['children'] = var19;
             var6 = var8.bind(var4)(var6, var5);
@@ -912,8 +913,8 @@ case 0:
             var _closure2_slot2 = var11;
             var1 = null;
             var2 = var1 == var11;
-            if(var2) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
+            if(var2) { _fun0007_ip = 26; continue _fun0007 }
+case 27:
             var4 = _closure1_slot10;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -964,7 +965,7 @@ case 26:
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 25:
+case 26:
             return var1;
         }
     };

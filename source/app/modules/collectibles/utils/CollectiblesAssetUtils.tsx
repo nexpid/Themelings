@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var5.parseSkuIdFromServerData;
     var3['parseSkuIdFromServerData'] = var5;
     var3['CollectiblesItemAssetFormat'] = var4;
-    var2 = function(arg1) {
+    var2 = function getCollectiblesItemAssetUrl(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;

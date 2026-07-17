@@ -556,7 +556,7 @@ case 79:
             var20 = var20["6Ge2LG"];
             var20 = var21.bind(var22)(var20);
             var19['buttonPrimaryText'] = var20;
-            var20 = function buttonPrimaryOnPress() {
+            var20 = function handleGetVerificationRole() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var2 = _closure2_slot4;
@@ -899,7 +899,7 @@ case 46:
             var14 = var14.XyHpKH;
             var14 = var15.bind(var16)(var14);
             var2['buttonPrimaryText'] = var14;
-            var13 = function buttonPrimaryOnPress() {
+            var13 = function handleUnblock() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var3 = _closure2_slot0;

@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function WishlistViewMoreCard(arg1) {
         var1 = arg1;
-        var14 = var1.item;
+        var14 = var1.sku;
         var13 = var1.size;
         var10 = var1.recipientName;
         var15 = var1.overflowCount;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var17 = true;
         var5['accessibilityHidden'] = var17;
-        var5['item'] = var14;
+        var5['sku'] = var14;
         var5['size'] = var13;
         var5['recipientName'] = var10;
         var7 = var8.bind(var4)(var7, var5);

@@ -7,6 +7,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
+    var1 = function CancelButton() {
+        var2 = _closure1_slot18;
+        var4 = undefined;
+        var5 = var2.bind(var4)();
+        var _closure2_slot0 = var5;
+        var3 = _closure1_slot15;
+        var9 = _closure1_slot0;
+        var10 = _closure1_slot2;
+        var1 = 16;
+        var1 = var10[var1];
+        var1 = var9.bind(var4)(var1);
+        var2 = var1.HeaderBackButton;
+        var1 = {};
+        var7 = function onPress() {
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 11;
+            var3 = var3[var1];
+            var1 = undefined;
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.popWithKey;
+            var2 = _closure1_slot17;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        };
+        var1['onPress'] = var7;
+        var6 = function backImage() {
+            var4 = _closure1_slot15;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 17;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.XSmallIcon;
+            var1 = {};
+            var5 = 'lg';
+            var1['size'] = var5;
+            var5 = _closure2_slot0;
+            var6 = var5.closeButtonIcon;
+            var5 = new Array(1);
+            var5[0] = var6;
+            var1['style'] = var5;
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var1['backImage'] = var6;
+        var6 = 18;
+        var7 = var10[var6];
+        var7 = var9.bind(var4)(var7);
+        var8 = var7.intl;
+        var7 = var8.string;
+        var6 = var10[var6];
+        var6 = var9.bind(var4)(var6);
+        var6 = var6.t;
+        var6 = var6.cpT0Cq;
+        var6 = var7.bind(var8)(var6);
+        var1['accessibilityLabel'] = var6;
+        var6 = false;
+        var1['labelVisible'] = var6;
+        var5 = var5.closeButton;
+        var1['style'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot25 = var1;
     var1 = function StaticOrb() {
         var1 = _closure1_slot24;
         var4 = undefined;
@@ -38,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = function AnimatedOrbContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -224,7 +290,7 @@ case 15:
             return var1;
         }
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -290,6 +356,8 @@ case 15:
     var _closure1_slot15 = var7;
     var4 = var4.jsxs;
     var _closure1_slot16 = var4;
+    var4 = 'QuestOrbsRewardModal';
+    var _closure1_slot17 = var4;
     var4 = 14;
     var7 = var6[var4];
     var10 = var5.bind(var1)(var7);
@@ -311,7 +379,7 @@ case 15:
     var11['tintColor'] = var12;
     var7['closeButtonIcon'] = var11;
     var7 = var8.bind(var10)(var7);
-    var _closure1_slot17 = var7;
+    var _closure1_slot18 = var7;
     var7 = var6[var4];
     var10 = var5.bind(var1)(var7);
     var8 = var10.createStyles;
@@ -393,72 +461,6 @@ case 15:
         return var1;
     };
     var7 = var8.bind(var10)(var7);
-    var _closure1_slot18 = var7;
-    var7 = function CancelButton() {
-        var2 = _closure1_slot17;
-        var4 = undefined;
-        var5 = var2.bind(var4)();
-        var _closure2_slot0 = var5;
-        var3 = _closure1_slot15;
-        var9 = _closure1_slot0;
-        var10 = _closure1_slot2;
-        var1 = 16;
-        var1 = var10[var1];
-        var1 = var9.bind(var4)(var1);
-        var2 = var1.HeaderBackButton;
-        var1 = {};
-        var7 = function onPress() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 11;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.popWithKey;
-            var2 = 'QuestOrbsRewardModal';
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var1['onPress'] = var7;
-        var6 = function backImage() {
-            var4 = _closure1_slot15;
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 17;
-            var1 = var3[var1];
-            var3 = undefined;
-            var1 = var2.bind(var3)(var1);
-            var2 = var1.XSmallIcon;
-            var1 = {};
-            var5 = 'lg';
-            var1['size'] = var5;
-            var5 = _closure2_slot0;
-            var6 = var5.closeButtonIcon;
-            var5 = new Array(1);
-            var5[0] = var6;
-            var1['style'] = var5;
-            var1 = var4.bind(var3)(var2, var1);
-            return var1;
-        };
-        var1['backImage'] = var6;
-        var6 = 18;
-        var7 = var10[var6];
-        var7 = var9.bind(var4)(var7);
-        var8 = var7.intl;
-        var7 = var8.string;
-        var6 = var10[var6];
-        var6 = var9.bind(var4)(var6);
-        var6 = var6.t;
-        var6 = var6.cpT0Cq;
-        var6 = var7.bind(var8)(var6);
-        var1['accessibilityLabel'] = var6;
-        var6 = false;
-        var1['labelVisible'] = var6;
-        var5 = var5.closeButton;
-        var1['style'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
     var _closure1_slot19 = var7;
     var8 = var9.memo;
     var7 = function(arg1) {
@@ -718,7 +720,7 @@ case 31:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/quests/native/QuestOrbsRewardModal.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function _default(arg1) {
+    var4 = function QuestOrbsRewardModal(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
@@ -730,7 +732,7 @@ case 0:
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot19;
             var14 = var2.bind(var4)();
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -885,7 +887,7 @@ case 35:
                 var1 = undefined;
                 var4 = var7.bind(var1)(var2);
                 var3 = var4.popWithKey;
-                var2 = 'QuestOrbsRewardModal';
+                var2 = _closure1_slot17;
                 var2 = var3.bind(var4)(var2);
                 var3 = _closure1_slot0;
                 var2 = 33;
@@ -923,7 +925,7 @@ case 35:
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.popWithKey;
-                var2 = 'QuestOrbsRewardModal';
+                var2 = _closure1_slot17;
                 var2 = var3.bind(var4)(var2);
                 var6 = _closure1_slot0;
                 var2 = 35;
@@ -1179,7 +1181,7 @@ case 60:
             var13 = var14.header;
             var10['style'] = var13;
             var21 = _closure1_slot15;
-            var16 = _closure1_slot19;
+            var16 = _closure1_slot25;
             var13 = {};
             var13 = var21.bind(var4)(var16, var13);
             var10['children'] = var13;
@@ -1194,13 +1196,13 @@ case 60:
             var21 = _closure1_slot15;
             if(var15) { _fun0008_ip = 61; continue _fun0008 }
 case 62:
-            var16 = _closure1_slot26;
+            var16 = _closure1_slot27;
             var15 = {};
             var15['isAppActive'] = var20;
             var15 = var21.bind(var4)(var16, var15);
             _fun0008_ip = 63; continue _fun0008;
 case 61:
-            var20 = _closure1_slot25;
+            var20 = _closure1_slot26;
             var16 = {};
             var15 = var21.bind(var4)(var20, var16);
 case 63:
@@ -1474,15 +1476,15 @@ case 59:
         }
     };
     var3['default'] = var4;
-    var2 = function(arg1) {
+    var2 = function openQuestOrbsRewardModal(arg1) {
         var1 = arg1;
-        var2 = var1.quest;
-        var5 = _closure1_slot1;
-        var4 = _closure1_slot2;
+        var7 = var1.quest;
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
         var1 = 11;
-        var4 = var4[var1];
+        var3 = var3[var1];
         var1 = undefined;
-        var6 = var5.bind(var1)(var4);
+        var6 = var4.bind(var1)(var3);
         var5 = var6.pushLazy;
         var4 = _closure1_slot4;
         var3 = function* () {
@@ -1522,8 +1524,8 @@ case 73:
         };
         var4 = var4.bind(var1)(var3);
         var3 = {};
-        var3['quest'] = var2;
-        var2 = 'QuestOrbsRewardModal';
+        var3['quest'] = var7;
+        var2 = _closure1_slot17;
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;
     };

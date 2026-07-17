@@ -1421,17 +1421,6 @@ case 98:
     var1 = function TrialOfferSheetExample() {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-            var7 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 26;
-            var1 = var5[var1];
-            var4 = undefined;
-            var2 = var7.bind(var4)(var1);
-            var1 = var2.usePremiumTrialOffer;
-            var2 = var1.bind(var2)();
-            var _closure2_slot0 = var2;
-            var1 = null;
-            var12 = var1 != var2;
             var1 = function openTrialOfferActionSheet(arg1) {
                 _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
@@ -1472,6 +1461,17 @@ case 19:
                 }
             };
             var _closure2_slot1 = var1;
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 26;
+            var1 = var5[var1];
+            var4 = undefined;
+            var2 = var7.bind(var4)(var1);
+            var1 = var2.usePremiumTrialOffer;
+            var2 = var1.bind(var2)();
+            var _closure2_slot0 = var2;
+            var1 = null;
+            var12 = var1 != var2;
             var3 = _closure1_slot18;
             var1 = 19;
             var1 = var5[var1];

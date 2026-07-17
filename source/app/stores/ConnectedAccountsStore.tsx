@@ -39,11 +39,57 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot18 = var2;
+            _closure1_slot17 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
+    };
+    var _closure1_slot17 = var1;
+    var1 = function updateAccounts(arg1) {
+        var4 = arg1;
+        var3 = var4.filter;
+        var2 = function(arg1) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                var2 = arg1;
+                var5 = _closure1_slot9;
+                var4 = var5.has;
+                var1 = var2.type;
+                var1 = var4.bind(var5)(var1);
+                var1 = !var1;
+                if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var3 = 7;
+                var4 = var4[var3];
+                var3 = undefined;
+                var4 = var5.bind(var3)(var4);
+                var3 = var4.isSupported;
+                var2 = var2.type;
+                var1 = var3.bind(var4)(var2);
+case 6:
+                return var1;
+            }
+        };
+        var3 = var3.bind(var4)(var2);
+        _closure1_slot11 = var3;
+        var3 = var4.filter;
+        var1 = function(arg1) {
+            var3 = _closure1_slot9;
+            var2 = var3.has;
+            var1 = arg1;
+            var1 = var1.type;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1 = var3.bind(var4)(var1);
+        _closure1_slot12 = var1;
+        var1 = false;
+        _closure1_slot10 = var1;
+        var1 = undefined;
+        return var1;
     };
     var _closure1_slot18 = var1;
     var2 = global;
@@ -112,52 +158,6 @@ case 4:
     var _closure1_slot15 = var2;
     var2 = {};
     var _closure1_slot16 = var2;
-    var2 = function updateAccounts(arg1) {
-        var4 = arg1;
-        var3 = var4.filter;
-        var2 = function(arg1) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                var2 = arg1;
-                var5 = _closure1_slot9;
-                var4 = var5.has;
-                var1 = var2.type;
-                var1 = var4.bind(var5)(var1);
-                var1 = !var1;
-                if(!var1) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
-                var5 = _closure1_slot1;
-                var4 = _closure1_slot2;
-                var3 = 7;
-                var4 = var4[var3];
-                var3 = undefined;
-                var4 = var5.bind(var3)(var4);
-                var3 = var4.isSupported;
-                var2 = var2.type;
-                var1 = var3.bind(var4)(var2);
-case 6:
-                return var1;
-            }
-        };
-        var3 = var3.bind(var4)(var2);
-        _closure1_slot11 = var3;
-        var3 = var4.filter;
-        var1 = function(arg1) {
-            var3 = _closure1_slot9;
-            var2 = var3.has;
-            var1 = arg1;
-            var1 = var1.type;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var1 = var3.bind(var4)(var1);
-        _closure1_slot12 = var1;
-        var1 = false;
-        _closure1_slot10 = var1;
-        var1 = undefined;
-        return var1;
-    };
-    var _closure1_slot17 = var2;
     var2 = 10;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -175,7 +175,7 @@ case 0:
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot17;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0003_ip = 6; continue _fun0003 }
 case 8:
@@ -385,9 +385,10 @@ case 10:
     var14 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleConnectionOpen(arg1) {
+        var3 = _closure1_slot18;
         var1 = arg1;
-        var3 = var1.connectedAccounts;
-        var2 = var3.map;
+        var4 = var1.connectedAccounts;
+        var2 = var4.map;
         var1 = function(arg1) {
             var3 = _closure1_slot8;
             var1 = var3.prototype;
@@ -398,10 +399,9 @@ case 10:
             var1 = var1 instanceof Object ? var1 : var2;
             return var1;
         };
-        var3 = var2.bind(var3)(var1);
-        var2 = _closure1_slot17;
+        var2 = var2.bind(var4)(var1);
         var1 = undefined;
-        var2 = var2.bind(var1)(var3);
+        var2 = var3.bind(var1)(var2);
         return var1;
     };
     var2['CONNECTION_OPEN'] = var9;
@@ -426,8 +426,9 @@ case 15:
             var2 = var2.bind(var3)();
             _fun0007_ip = 18; continue _fun0007;
 case 17:
-            var3 = var1.accounts;
-            var2 = var3.map;
+            var3 = _closure1_slot18;
+            var4 = var1.accounts;
+            var2 = var4.map;
             var1 = function(arg1) {
                 var2 = arg1;
                 var3 = _closure1_slot8;
@@ -473,10 +474,9 @@ case 17:
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             };
-            var3 = var2.bind(var3)(var1);
-            var2 = _closure1_slot17;
+            var2 = var2.bind(var4)(var1);
             var1 = undefined;
-            var1 = var2.bind(var1)(var3);
+            var1 = var3.bind(var1)(var2);
 case 18:
             var1 = undefined;
             return var1;

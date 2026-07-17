@@ -783,7 +783,7 @@ case 0:
             var3 = 17;
             var3 = var13[var3];
             var14 = var7.bind(var4)(var3);
-            var10 = var14.UNSAFE_useIsDismissibleContentDismissed;
+            var10 = var14.useIsDismissibleContentDismissed_UNSAFE;
             var3 = 18;
             var3 = var13[var3];
             var3 = var7.bind(var4)(var3);
@@ -913,11 +913,11 @@ case 0:
                     var3 = var1.channel;
                     var1 = null;
                     var4 = var1 == var3;
-                    if(var4) { _fun0007_ip = 37; continue _fun0007 }
-case 8:
-                    var7 = _closure1_slot12;
-                    if(var2) { _fun0007_ip = 38; continue _fun0007 }
+                    if(var4) { _fun0007_ip = 38; continue _fun0007 }
 case 39:
+                    var7 = _closure1_slot12;
+                    if(var2) { _fun0007_ip = 40; continue _fun0007 }
+case 41:
                     var8 = _closure1_slot17;
                     var6 = {};
                     var6['channel'] = var3;
@@ -934,8 +934,8 @@ case 39:
                     var5 = var3.id;
                     var2 = undefined;
                     var2 = var7.bind(var2)(var8, var6, var5);
-                    _fun0007_ip = 40; continue _fun0007;
-case 38:
+                    _fun0007_ip = 42; continue _fun0007;
+case 40:
                     var6 = _closure1_slot16;
                     var5 = {};
                     var5['channel'] = var3;
@@ -944,9 +944,9 @@ case 38:
                     var4 = var3.id;
                     var3 = undefined;
                     var2 = var7.bind(var3)(var6, var5, var4);
-case 40:
+case 42:
                     var1 = var2;
-case 37:
+case 38:
                     return var1;
                 }
             };
@@ -986,8 +986,8 @@ case 37:
             var7 = var6.FlashList;
             var6 = {};
             var13 = null;
-            if(var14) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
+            if(var14) { _fun0005_ip = 43; continue _fun0005 }
+case 44:
             var16 = _closure1_slot13;
             var25 = _closure1_slot0;
             var28 = _closure1_slot2;
@@ -1130,7 +1130,7 @@ case 42:
             var17[2] = var18;
             var14['children'] = var17;
             var13 = var16.bind(var4)(var15, var14);
-case 41:
+case 43:
             var6['ListHeaderComponent'] = var13;
             var17 = _closure1_slot0;
             var13 = _closure1_slot2;

@@ -330,8 +330,8 @@ case 8:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var26 = var1.title;
-            var _closure2_slot0 = var26;
+            var21 = var1.title;
+            var _closure2_slot0 = var21;
             var14 = var1.originDestinationId;
             var2 = var1.linkText;
             var _closure2_slot1 = var2;
@@ -341,56 +341,14 @@ case 0:
             var _closure2_slot3 = var2;
             var1 = var1.onShare;
             var _closure2_slot4 = var1;
-            var3 = _closure1_slot5;
-            var2 = var3.useState;
-            var1 = new Array(0);
-            var2 = var2.bind(var3)(var1);
-            var1 = _closure1_slot3;
             var4 = undefined;
-            var5 = 2;
-            var3 = var1.bind(var4)(var2, var5);
-            var22 = 0;
-            var1 = var3[var22];
-            var _closure2_slot5 = var1;
-            var2 = 1;
-            var17 = var3[var2];
-            var11 = var1.length;
-            var7 = _closure1_slot5;
-            var3 = var7.useState;
-            var1 = false;
-            var3 = var3.bind(var7)(var1);
-            var1 = _closure1_slot3;
-            var1 = var1.bind(var4)(var3, var5);
-            var10 = var1[var22];
-            var1 = var1[var2];
-            var _closure2_slot6 = var1;
-            var3 = _closure1_slot5;
-            var1 = var3.useState;
-            var7 = null;
-            var3 = var1.bind(var3)(var7);
-            var1 = _closure1_slot3;
-            var1 = var1.bind(var4)(var3, var5);
-            var3 = var1[var22];
-            var _closure2_slot7 = var3;
-            var16 = var1[var2];
-            var5 = _closure1_slot5;
-            var3 = var5.useCallback;
-            var2 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 28;
-                var2 = var2[var1];
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
+            var1 = function _handleSendForwards() {
+                var4 = undefined;
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.pop;
-                var2 = var2.bind(var3)();
-                return var1;
-            };
-            var1 = new Array(0);
-            var23 = var3.bind(var5)(var2, var1);
-            var1 = function() {
-                var4 = _closure1_slot4;
-                var3 = undefined;
+                var3 = _closure1_slot4;
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -524,8 +482,9 @@ case 34:
                                             var14 = var4.id;
                                             var5['channelId'] = var14;
                                             var14 = {};
+                                            var16 = _closure2_slot7;
+                                            var14['uri'] = var16;
                                             var15 = _closure2_slot7;
-                                            var14['uri'] = var15;
                                             var14['originalUri'] = var15;
                                             var16 = _closure1_slot0;
                                             var15 = 33;
@@ -601,7 +560,7 @@ case 33:
                                             var20 = var8;
                                             var18 = var4;
                                             var2 = var22[var6](var21, var20, var19, var18, var17);
-                                            SaveGenerator(address=482);
+                                            SaveGenerator(address=486);
 case 35:
                                             return var2;
 case 36:
@@ -619,7 +578,7 @@ case 22:
                                 };
                                 var2 = var4.bind(var3)(var2);
                                 var _closure6_slot0 = var2;
-                                var1 = function() {
+                                var1 = function(arg1) {
                                     var1 = undefined;
                                     var4 = _closure6_slot0;
                                     var3 = var4.apply;
@@ -654,21 +613,62 @@ case 12:
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot10 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var9 = var1.bind(var4)();
+            var _closure2_slot10 = var1;
+            var3 = _closure1_slot5;
+            var2 = var3.useState;
+            var1 = new Array(0);
+            var2 = var2.bind(var3)(var1);
+            var1 = _closure1_slot3;
+            var5 = 2;
+            var3 = var1.bind(var4)(var2, var5);
+            var22 = 0;
+            var1 = var3[var22];
+            _closure2_slot5 = var1;
+            var2 = 1;
+            var17 = var3[var2];
+            var11 = var1.length;
+            var7 = _closure1_slot5;
+            var3 = var7.useState;
+            var1 = false;
+            var3 = var3.bind(var7)(var1);
+            var1 = _closure1_slot3;
+            var1 = var1.bind(var4)(var3, var5);
+            var10 = var1[var22];
+            var1 = var1[var2];
+            _closure2_slot6 = var1;
+            var3 = _closure1_slot5;
+            var1 = var3.useState;
+            var7 = null;
+            var3 = var1.bind(var3)(var7);
+            var1 = _closure1_slot3;
+            var1 = var1.bind(var4)(var3, var5);
+            var3 = var1[var22];
+            _closure2_slot7 = var3;
+            var16 = var1[var2];
+            var5 = _closure1_slot5;
+            var3 = var5.useCallback;
+            var2 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 28;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.pop;
+                var2 = var2.bind(var3)();
+                return var1;
+            };
+            var1 = new Array(0);
+            var23 = var3.bind(var5)(var2, var1);
             var1 = _closure1_slot15;
             var15 = var1.bind(var4)();
             var2 = _closure1_slot1;
@@ -731,7 +731,7 @@ case 26:
             var15 = var24.bind(var4)(var15);
             var19 = var15.Header;
             var15 = {};
-            var15['title'] = var26;
+            var15['title'] = var21;
             var21 = function headerTitle() {
                 var4 = _closure1_slot13;
                 var2 = _closure1_slot0;
@@ -820,6 +820,16 @@ case 42:
             var6 = {};
             var6['count'] = var11;
             var6['isSending'] = var10;
+            var9 = function handleSendForwards(arg1) {
+                var1 = undefined;
+                var4 = _closure2_slot10;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var6['onSend'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[3] = var6;

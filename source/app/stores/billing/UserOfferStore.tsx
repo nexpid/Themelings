@@ -77,7 +77,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot23;
+            var9 = _closure1_slot22;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -89,7 +89,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot23;
+            var7 = _closure1_slot22;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -148,7 +148,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,7 +181,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot22 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -214,13 +214,13 @@ case 37:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot24 = var2;
+            _closure1_slot23 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot23 = var1;
     var4 = function handleReset() {
         var3 = _closure1_slot20;
         var1 = {};
@@ -236,7 +236,12 @@ case 37:
         var3['isFetching'] = var2;
         return var1;
     };
-    var _closure1_slot25 = var4;
+    var _closure1_slot24 = var4;
+    var1 = function emitChanges() {
+        var1 = true;
+        return var1;
+    };
+    var _closure1_slot25 = var1;
     var1 = function rehydrateDiscountOffer(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -466,11 +471,6 @@ case 47:
     var2['lastFetchSuccessful'] = var8;
     var _closure1_slot19 = var2;
     var _closure1_slot20 = var2;
-    var2 = function emitChanges() {
-        var1 = true;
-        return var1;
-    };
-    var _closure1_slot21 = var2;
     var2 = 13;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -488,7 +488,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot24;
+                var1 = _closure1_slot23;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0007_ip = 54; continue _fun0007 }
 case 50:
@@ -606,7 +606,7 @@ case 58:
                 var2 = _closure1_slot9;
                 var3 = new Array(1);
                 var3[0] = var2;
-                var2 = _closure1_slot21;
+                var2 = _closure1_slot25;
                 var2 = var6.bind(var4)(var3, var2);
                 var6 = var4.syncWith;
                 var2 = _closure1_slot11;
@@ -674,7 +674,7 @@ case 66:
         var7 = function value(arg1) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                var2 = _closure1_slot22;
+                var2 = _closure1_slot21;
                 var6 = undefined;
                 var1 = arg1;
                 var5 = var2.bind(var6)(var1);
@@ -1373,7 +1373,7 @@ case 5:
         var7 = 'forceReset';
         var5['key'] = var7;
         var7 = function value() {
-            var2 = _closure1_slot25;
+            var2 = _closure1_slot24;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
@@ -1611,7 +1611,7 @@ case 61:
 case 34:
             if(!var2) { _fun0036_ip = 84; continue _fun0036 }
 case 95:
-            var3 = _closure1_slot25;
+            var3 = _closure1_slot24;
             var2 = undefined;
             var2 = var3.bind(var2)();
 case 84:
@@ -1705,7 +1705,7 @@ case 117:
     };
     var2['BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS'] = var11;
     var11 = function handleUserOfferFetchFail() {
-        var3 = _closure1_slot25;
+        var3 = _closure1_slot24;
         var1 = undefined;
         var3 = var3.bind(var1)();
         var4 = _closure1_slot20;

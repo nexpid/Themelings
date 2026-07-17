@@ -126,22 +126,22 @@ case 0:
                     var2 = _closure1_slot5;
                     var2 = var2.USER;
                     if(!(var2 !== var3)) { _fun0003_ip = 6; continue _fun0003 }
-case 2:
+case 7:
                     var2 = _closure1_slot5;
                     var2 = var2.ROLE;
-                    if(!(var2 !== var3)) { _fun0003_ip = 7; continue _fun0003 }
-case 8:
+                    if(!(var2 !== var3)) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var2 = _closure1_slot5;
                     var2 = var2.CHANNEL;
-                    if(!(var2 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                    if(!(var2 !== var3)) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var2 = _closure1_slot5;
                     var2 = var2.EMOJI;
-                    if(!(var2 !== var3)) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                    if(!(var2 !== var3)) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var2 = null;
                     return var2;
-case 11:
+case 12:
                     var7 = _closure1_slot6;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -166,7 +166,7 @@ case 11:
                     var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
-case 9:
+case 10:
                     var7 = _closure1_slot6;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -191,7 +191,7 @@ case 9:
                     var2[7] = var9;
                     var2 = var7.bind(var4)(var3, var2);
                     return var2;
-case 7:
+case 8:
                     var7 = _closure1_slot6;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -255,10 +255,10 @@ case 6:
             var1 = var8.length;
             var13 = 0;
             var1 = var1 > var13;
-            if(!var1) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!var1) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var13 = 1;
-case 13:
+case 14:
             _closure2_slot5 = var13;
             var15 = _closure1_slot0;
             var6 = _closure1_slot2;

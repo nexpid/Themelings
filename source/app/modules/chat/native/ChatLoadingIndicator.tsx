@@ -178,54 +178,8 @@ case 8:
     var4 = function() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var4 = 16;
-            var6 = var5[var4];
-            var4 = undefined;
-            var9 = var2.bind(var4)(var6);
-            var8 = var9.useStateFromStoresObject;
-            var6 = _closure1_slot8;
-            var7 = new Array(3);
-            var7[0] = var6;
-            var6 = _closure1_slot7;
-            var7[1] = var6;
-            var6 = _closure1_slot9;
-            var7[2] = var6;
-            var6 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var3 = _closure1_slot9;
-                    var2 = var3.getChannelId;
-                    var4 = var2.bind(var3)();
-                    var3 = _closure1_slot7;
-                    var2 = var3.isConnected;
-                    var2 = var2.bind(var3)();
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
-                    var3 = _closure1_slot8;
-                    var1 = var3.getMessages;
-                    var3 = var1.bind(var3)(var4);
-                    var1 = {};
-                    var4 = var3.cached;
-                    var1['messagesCached'] = var4;
-                    var3 = var3.ready;
-                    var1['messagesReady'] = var3;
-                    var1['connected'] = var2;
-                    return var1;
-case 10:
-                    var1 = {'messagesCached': false, 'messagesReady': false};
-                    var1['connected'] = var2;
-                    return var1;
-                }
-            };
-            var6 = var8.bind(var9)(var7, var6);
-            var7 = var6.messagesCached;
-            var9 = var6.messagesReady;
-            var6 = var6.connected;
             var8 = function renderField(arg1, arg2, arg3) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var8 = arg2;
                     var10 = arg3;
@@ -251,28 +205,28 @@ case 0:
                     var11 = 'text-md/normal';
                     var6['variant'] = var11;
                     var11 = 'text-feedback-critical';
-                    if(!var8) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                    if(!var8) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
                     var11 = 'text-feedback-positive';
-case 12:
+case 10:
                     var6['color'] = var11;
                     var11 = 'false';
                     var14 = var11;
-                    if(!var8) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                    if(!var8) { _fun0003_ip = 12; continue _fun0003 }
+case 13:
                     var14 = 'true';
-case 14:
+case 12:
                     var6['children'] = var14;
                     var6 = var13.bind(var1)(var9, var6);
                     var5[3] = var6;
                     var9 = null;
                     var13 = var9 != var10;
                     var6 = null;
-                    if(!var13) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                    if(!var13) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                     var6 = null;
-                    if(!(var8 !== var10)) { _fun0004_ip = 16; continue _fun0004 }
-case 18:
+                    if(!(var8 !== var10)) { _fun0003_ip = 14; continue _fun0003 }
+case 16:
                     var9 = _closure1_slot14;
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -280,23 +234,69 @@ case 18:
                     var7 = var8.bind(var1)(var7);
                     var8 = var7.Text;
                     var7 = {'variant': 'text-md/normal', 'color': 'text-muted'};
-                    if(!var10) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                    if(!var10) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                     var11 = 'true';
-case 19:
+case 17:
                     var10 = [' ', '(should be '];
                     var10[2] = var11;
                     var11 = ' to hide loading indicator)';
                     var10[3] = var11;
                     var7['children'] = var10;
                     var6 = var9.bind(var1)(var8, var7);
-case 16:
+case 14:
                     var5[4] = var6;
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;
                 }
             };
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var4 = 16;
+            var6 = var5[var4];
+            var4 = undefined;
+            var9 = var2.bind(var4)(var6);
+            var7 = var9.useStateFromStoresObject;
+            var10 = _closure1_slot8;
+            var6 = new Array(3);
+            var6[0] = var10;
+            var10 = _closure1_slot7;
+            var6[1] = var10;
+            var10 = _closure1_slot9;
+            var6[2] = var10;
+            var3 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var3 = _closure1_slot9;
+                    var2 = var3.getChannelId;
+                    var4 = var2.bind(var3)();
+                    var3 = _closure1_slot7;
+                    var2 = var3.isConnected;
+                    var2 = var2.bind(var3)();
+                    var3 = null;
+                    if(!(var3 != var4)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+                    var3 = _closure1_slot8;
+                    var1 = var3.getMessages;
+                    var3 = var1.bind(var3)(var4);
+                    var1 = {};
+                    var4 = var3.cached;
+                    var1['messagesCached'] = var4;
+                    var3 = var3.ready;
+                    var1['messagesReady'] = var3;
+                    var1['connected'] = var2;
+                    return var1;
+case 19:
+                    var1 = {'messagesCached': false, 'messagesReady': false};
+                    var1['connected'] = var2;
+                    return var1;
+                }
+            };
+            var3 = var7.bind(var9)(var6, var3);
+            var7 = var3.messagesCached;
+            var9 = var3.messagesReady;
+            var6 = var3.connected;
             var3 = _closure1_slot14;
             var1 = 17;
             var1 = var5[var1];
@@ -403,11 +403,11 @@ case 6:
                 var1 = var2.isConnected;
                 var2 = var1.bind(var2)();
                 var1 = var3.cached;
-                if(var1) { _fun0005_ip = 12; continue _fun0005 }
+                if(var1) { _fun0005_ip = 10; continue _fun0005 }
 case 30:
                 var3 = var3.ready;
                 var1 = !var3;
-case 12:
+case 10:
                 if(var1) { _fun0005_ip = 31; continue _fun0005 }
 case 32:
                 var1 = !var2;
@@ -515,11 +515,11 @@ case 0:
                     var3 = null;
                     var5 = var3 == var4;
                     var1 = undefined;
-                    if(var5) { _fun0008_ip = 11; continue _fun0008 }
+                    if(var5) { _fun0008_ip = 20; continue _fun0008 }
 case 33:
                     var5 = var4.isStaff;
                     var1 = var5.bind(var4)();
-case 11:
+case 20:
                     if(var1) { _fun0008_ip = 35; continue _fun0008 }
 case 36:
                     var3 = var3 == var4;

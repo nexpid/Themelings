@@ -310,15 +310,21 @@ case 20:
                 var3 = var4.requestReport;
                 var6 = var3.bind(var4)();
 case 19:
-                var2 = var2 != var6;
-                if(!var2) { _fun0006_ip = 21; continue _fun0006 }
+                var2 = var2 == var6;
+                if(var2) { _fun0006_ip = 21; continue _fun0006 }
 case 22:
-                var4 = var6.totalFrameCount;
-                var3 = 0;
-                var2 = var3 !== var4;
-case 21:
-                if(!var2) { _fun0006_ip = 23; continue _fun0006 }
+                var3 = var6.totalFrameCount;
+                var5 = 0;
+                var3 = var5 === var3;
+                if(!var3) { _fun0006_ip = 23; continue _fun0006 }
 case 24:
+                var4 = var6.frameMetricsTotalFrameCount;
+                var3 = var5 === var4;
+case 23:
+                var2 = var3;
+case 21:
+                if(var2) { _fun0006_ip = 25; continue _fun0006 }
+case 26:
                 var3 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var2 = 7;
@@ -336,20 +342,26 @@ case 24:
                 var10 = var7.bind(var8)();
                 var11 = var2;
                 var7 = copyDataProperties(var11, var10);
-                var8 = 1;
+                var8 = 2;
                 var7 = 'version';
                 var2[6] = var8;
                 var8 = var6.totalFrameCount;
                 var7 = 'total_frame_count';
                 var2[6] = var8;
-                var7 = var6.jankFrameCount;
-                var6 = 'jank_frame_count';
+                var8 = var6.jankFrameCount;
+                var7 = 'jank_frame_count';
+                var2[6] = var8;
+                var8 = var6.frameMetricsTotalFrameCount;
+                var7 = 'frame_metrics_total_frame_count';
+                var2[6] = var8;
+                var7 = var6.frameMetricsJankFrameCount;
+                var6 = 'frame_metrics_jank_frame_count';
                 var2[5] = var7;
                 var7 = arg1;
                 var6 = 'trigger';
                 var2[5] = var7;
                 var2 = var4.bind(var5)(var3, var2);
-case 23:
+case 25:
                 return var1;
             }
         };

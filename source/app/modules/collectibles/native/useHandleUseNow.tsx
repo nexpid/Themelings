@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MainTabsNavigatorScreens;
+    var4 = var4.RootNavigatorScreen;
     var _closure1_slot4 = var4;
     var4 = 9;
     var4 = var6[var4];

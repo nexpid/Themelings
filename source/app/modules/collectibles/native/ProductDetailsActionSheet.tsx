@@ -795,13 +795,23 @@ case 66:
             var2 = var27 === var2;
             if(!var2) { _fun0003_ip = 67; continue _fun0003 }
 case 68:
-            var2 = var3;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 36;
+            var5 = var7[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.isGooglePlayBillingSupported;
+            var2 = var5.bind(var6)();
 case 67:
+            if(!var2) { _fun0003_ip = 69; continue _fun0003 }
+case 70:
+            var2 = var3;
+case 69:
             var26 = var2;
 case 65:
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var2 = 36;
+            var2 = 37;
             var2 = var13[var2];
             var2 = var3.bind(var4)(var2);
             var23 = var2.bind(var4)(var12);
@@ -813,7 +823,7 @@ case 65:
             var1 = {};
             var1['value'] = var20;
             var7 = _closure1_slot14;
-            var5 = 37;
+            var5 = 38;
             var5 = var13[var5];
             var5 = var9.bind(var4)(var5);
             var6 = var5.BottomSheet;
@@ -827,7 +837,7 @@ case 0:
                     var2 = var1 == var4;
                     var1 = undefined;
                     if(var2) { _fun0006_ip = 14; continue _fun0006 }
-case 69:
+case 71:
                     var3 = var4.scrollToEnd;
                     var2 = {};
                     var5 = true;
@@ -849,7 +859,7 @@ case 14:
             var5['onDismiss'] = var11;
             var5['ref'] = var8;
             var11 = _closure1_slot14;
-            var8 = 38;
+            var8 = 39;
             var8 = var13[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.BottomSheetScrollView;
@@ -864,21 +874,21 @@ case 14:
             var10 = {};
             var15 = var34.actionButtons;
             var10['style'] = var15;
-            if(!var17) { _fun0003_ip = 70; continue _fun0003 }
-case 71:
+            if(!var17) { _fun0003_ip = 72; continue _fun0003 }
+case 73:
             var36 = _closure1_slot13;
             var35 = _closure1_slot17;
             var15 = {};
             var15['handlePreviewPress'] = var33;
             var15['onTrackPress'] = var19;
             var17 = var36.bind(var4)(var35, var15);
-case 70:
+case 72:
             var15 = new Array(2);
             var15[0] = var17;
             var36 = _closure1_slot13;
             var35 = _closure1_slot1;
             var37 = _closure1_slot2;
-            var17 = 39;
+            var17 = 40;
             var17 = var37[var17];
             var35 = var35.bind(var4)(var17);
             var17 = {};
@@ -893,8 +903,8 @@ case 70:
             var13 = new Array(6);
             var13[0] = var10;
             var10 = var24 != var22;
-            if(!var10) { _fun0003_ip = 72; continue _fun0003 }
-case 73:
+            if(!var10) { _fun0003_ip = 74; continue _fun0003 }
+case 75:
             var17 = _closure1_slot13;
             var15 = _closure1_slot8;
             var14 = {};
@@ -902,12 +912,12 @@ case 73:
             var14['style'] = var34;
             var14['children'] = var22;
             var10 = var17.bind(var4)(var15, var14);
-case 72:
+case 74:
             var13[1] = var10;
             var15 = _closure1_slot13;
             var17 = _closure1_slot1;
             var22 = _closure1_slot2;
-            var10 = 40;
+            var10 = 41;
             var10 = var22[var10];
             var14 = var17.bind(var4)(var10);
             var10 = {};
@@ -919,7 +929,7 @@ case 72:
             var10 = var15.bind(var4)(var14, var10);
             var13[2] = var10;
             var15 = _closure1_slot13;
-            var10 = 41;
+            var10 = 42;
             var10 = var22[var10];
             var14 = var17.bind(var4)(var10);
             var10 = {};
@@ -928,7 +938,7 @@ case 72:
             var10 = var15.bind(var4)(var14, var10);
             var13[3] = var10;
             var15 = _closure1_slot13;
-            var10 = 42;
+            var10 = 43;
             var10 = var22[var10];
             var14 = var17.bind(var4)(var10);
             var10 = {};
@@ -939,7 +949,7 @@ case 72:
             var13[4] = var10;
             var28 = _closure1_slot13;
             var10 = _closure1_slot0;
-            var14 = 43;
+            var14 = 44;
             var14 = var22[var14];
             var14 = var10.bind(var4)(var14);
             var15 = var14.Spacer;
@@ -957,7 +967,7 @@ case 72:
             var8 = new Array(2);
             var8[0] = var9;
             var11 = _closure1_slot13;
-            var9 = 44;
+            var9 = 45;
             var9 = var22[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.NativePaymentContextProvider;
@@ -966,7 +976,7 @@ case 72:
             var9['skuIDs'] = var13;
             var9['activeSubscription'] = var24;
             var15 = _closure1_slot13;
-            var13 = 45;
+            var13 = 46;
             var13 = var22[var13];
             var14 = var17.bind(var4)(var13);
             var13 = {};
@@ -982,7 +992,7 @@ case 72:
             var18 = function onOrderRetryCancellation() {
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 46;
+                var2 = 47;
                 var2 = var6[var2];
                 var5 = undefined;
                 var3 = var3.bind(var5)(var2);
@@ -997,7 +1007,7 @@ case 72:
             };
             var13['onOrderRetryCancellation'] = var18;
             var18 = _closure1_slot13;
-            var16 = 47;
+            var16 = 48;
             var16 = var22[var16];
             var17 = var17.bind(var4)(var16);
             var16 = {};
@@ -1025,20 +1035,20 @@ case 72:
 case 0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 48;
+            var2 = 49;
             var2 = var4[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
             var2 = var3.isIOS;
             var3 = var2.bind(var3)();
             var2 = _closure1_slot11;
-            if(var3) { _fun0007_ip = 74; continue _fun0007 }
-case 75:
+            if(var3) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
             var6 = var2.GOOGLE;
-            _fun0007_ip = 76; continue _fun0007;
-case 74:
-            var6 = var2.APPLE_ADVANCED_COMMERCE;
+            _fun0007_ip = 78; continue _fun0007;
 case 76:
+            var6 = var2.APPLE_ADVANCED_COMMERCE;
+case 78:
             var3 = _closure1_slot13;
             var2 = _closure1_slot18;
             var1 = {};
@@ -1198,7 +1208,7 @@ case 76:
     var4['badgeWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = 49;
+    var4 = 50;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1210,10 +1220,10 @@ case 0:
             var3 = arg1;
             var6 = var3.shopAnalyticsContext;
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0008_ip = 77; continue _fun0008 }
-case 78:
+            if(!(var6 === var4)) { _fun0008_ip = 79; continue _fun0008 }
+case 80:
             var6 = _closure1_slot15;
-case 77:
+case 79:
             var1 = null;
             var2 = Object.create(var1);
             var1 = 0;

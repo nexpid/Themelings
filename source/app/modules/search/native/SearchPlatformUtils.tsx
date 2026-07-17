@@ -767,30 +767,13 @@ case 69:
     var12 = function subscribeSearchQueryState(arg1, arg2, arg3, arg4) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-            var8 = arg1;
-            var7 = arg2;
-            var5 = arg3;
+            var9 = arg1;
+            var8 = arg2;
+            var6 = arg3;
             var3 = arg4;
-            var _closure2_slot0 = var8;
-            var _closure2_slot1 = var7;
-            var _closure2_slot2 = var5;
-            var6 = _closure1_slot4;
-            var4 = var6.getManager;
-            var6 = var4.bind(var6)(var8);
-            var4 = undefined;
-            var6 = var7.bind(var4)(var6);
-            var _closure2_slot3 = var6;
-            if(!var3) { _fun0011_ip = 71; continue _fun0011 }
-case 72:
-            var7 = _closure2_slot3;
-            var6 = null;
-            var3 = var6 != var7;
-case 71:
-            if(!var3) { _fun0011_ip = 48; continue _fun0011 }
-case 73:
-            var3 = _closure2_slot3;
-            var3 = var5.bind(var4)(var3, var4);
-case 48:
+            var _closure2_slot0 = var9;
+            var _closure2_slot1 = var8;
+            var _closure2_slot2 = var6;
             var4 = function callback() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
@@ -812,17 +795,34 @@ case 2:
                     var5 = var5.bind(var1)(var3);
                     var3 = _closure2_slot3;
                     var3 = var5.bind(var1)(var3, var4);
-                    if(var3) { _fun0012_ip = 74; continue _fun0012 }
+                    if(var3) { _fun0012_ip = 71; continue _fun0012 }
 case 57:
                     var3 = _closure2_slot3;
                     _closure2_slot3 = var4;
                     var2 = _closure2_slot2;
                     var2 = var2.bind(var1)(var4, var3);
-case 74:
+case 71:
                     return var1;
                 }
             };
             var _closure2_slot4 = var4;
+            var7 = _closure1_slot4;
+            var5 = var7.getManager;
+            var7 = var5.bind(var7)(var9);
+            var5 = undefined;
+            var7 = var8.bind(var5)(var7);
+            var _closure2_slot3 = var7;
+            if(!var3) { _fun0011_ip = 57; continue _fun0011 }
+case 72:
+            var8 = _closure2_slot3;
+            var7 = null;
+            var3 = var7 != var8;
+case 57:
+            if(!var3) { _fun0011_ip = 50; continue _fun0011 }
+case 62:
+            var3 = _closure2_slot3;
+            var3 = var6.bind(var5)(var3, var5);
+case 50:
             var3 = _closure1_slot4;
             var2 = var3.addChangeListener;
             var2 = var2.bind(var3)(var4);
@@ -931,8 +931,8 @@ case 0:
             var1 = var2.getIsInitialFetchComplete;
             var1 = var1.bind(var2)(var14);
             var4 = true;
-            if(!var1) { _fun0013_ip = 75; continue _fun0013 }
-case 76:
+            if(!var1) { _fun0013_ip = 73; continue _fun0013 }
+case 74:
             var2 = _closure1_slot3;
             var1 = var2.getCursor;
             var2 = var1.bind(var2)(var14);
@@ -950,35 +950,35 @@ case 76:
             var14 = var1.SearchResultExactCountEnabled;
             var1 = var14.getSetting;
             var1 = var1.bind(var14)();
-            if(var1) { _fun0013_ip = 77; continue _fun0013 }
-case 78:
+            if(var1) { _fun0013_ip = 75; continue _fun0013 }
+case 76:
             var1 = null;
-            if(!(var1 != var12)) { _fun0013_ip = 79; continue _fun0013 }
-case 80:
-            if(!(!(var12 < var13))) { _fun0013_ip = 77; continue _fun0013 }
-case 79:
-            var1 = var1 != var2;
-            _fun0013_ip = 81; continue _fun0013;
+            if(!(var1 != var12)) { _fun0013_ip = 77; continue _fun0013 }
+case 78:
+            if(!(!(var12 < var13))) { _fun0013_ip = 75; continue _fun0013 }
 case 77:
+            var1 = var1 != var2;
+            _fun0013_ip = 79; continue _fun0013;
+case 75:
             var13 = null;
             var2 = var13 != var2;
+            if(!var2) { _fun0013_ip = 80; continue _fun0013 }
+case 81:
+            var2 = var13 != var12;
+case 80:
             if(!var2) { _fun0013_ip = 82; continue _fun0013 }
 case 83:
-            var2 = var13 != var12;
+            var2 = var13 != var3;
 case 82:
             if(!var2) { _fun0013_ip = 84; continue _fun0013 }
 case 85:
-            var2 = var13 != var3;
-case 84:
-            if(!var2) { _fun0013_ip = 86; continue _fun0013 }
-case 87:
             var3 = var3.length;
             var2 = var3 < var12;
-case 86:
+case 84:
             var1 = var2;
-case 81:
+case 79:
             var4 = var1;
-case 75:
+case 73:
             var2 = _closure1_slot3;
             var1 = var2.getIsFetching;
             var2 = var1.bind(var2)(var10);
@@ -986,17 +986,17 @@ case 75:
             var1 = var3.getIsInitialFetchComplete;
             var3 = var1.bind(var3)(var10);
             var1 = !var4;
-            if(!var4) { _fun0013_ip = 88; continue _fun0013 }
-case 89:
+            if(!var4) { _fun0013_ip = 86; continue _fun0013 }
+case 87:
             var1 = !var3;
-case 88:
-            if(var1) { _fun0013_ip = 90; continue _fun0013 }
-case 91:
+case 86:
+            if(var1) { _fun0013_ip = 88; continue _fun0013 }
+case 89:
             var1 = var2;
-case 90:
+case 88:
             var1 = !var1;
-            if(!var1) { _fun0013_ip = 92; continue _fun0013 }
-case 93:
+            if(!var1) { _fun0013_ip = 90; continue _fun0013 }
+case 91:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 18;
@@ -1036,10 +1036,10 @@ case 93:
             var9 = var7.bind(var9)(var10);
             var7 = null;
             var10 = var7 != var9;
-            if(!var10) { _fun0013_ip = 94; continue _fun0013 }
-case 95:
+            if(!var10) { _fun0013_ip = 92; continue _fun0013 }
+case 93:
             var7 = var9;
-case 94:
+case 92:
             var6['cursor'] = var7;
             var2['pagination'] = var6;
             var7 = _closure1_slot0;
@@ -1055,7 +1055,7 @@ case 94:
             var5 = var5.NEWEST;
             var2['searchMode'] = var5;
             var1 = var3.bind(var4)(var2);
-case 92:
+case 90:
             return var1;
         }
     };
@@ -1122,7 +1122,7 @@ case 0:
                 var1 = undefined;
                 var3 = undefined;
                 if(var7) { _fun0014_ip = 63; continue _fun0014 }
-case 96:
+case 94:
                 var3 = var6.textInputValue;
 case 63:
                 var2 = var2.textInputChangedFromInput;
@@ -1158,7 +1158,7 @@ case 0:
             var5 = null;
             var5 = var5 != var3;
             if(!var5) { _fun0015_ip = 28; continue _fun0015 }
-case 97:
+case 95:
             var1 = var3;
 case 28:
             var _closure2_slot0 = var1;
@@ -1177,8 +1177,8 @@ case 0:
                     var _closure3_slot2 = var4;
                     var7 = var4.attachments;
                     var1 = null;
-                    if(!(var1 != var7)) { _fun0016_ip = 72; continue _fun0016 }
-case 98:
+                    if(!(var1 != var7)) { _fun0016_ip = 96; continue _fun0016 }
+case 97:
                     var5 = var7.forEach;
                     var2 = function(arg1, arg2) {
                         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
@@ -1192,8 +1192,8 @@ case 0:
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.isThumbnailAttachment;
                             var2 = var2.bind(var3)(var7);
-                            if(var2) { _fun0017_ip = 99; continue _fun0017 }
-case 100:
+                            if(var2) { _fun0017_ip = 98; continue _fun0017 }
+case 99:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var2 = var2[var4];
@@ -1201,14 +1201,14 @@ case 100:
                             var2 = var3.isValidImageAttachment;
                             var2 = var2.bind(var3)(var7);
                             if(var2) { _fun0017_ip = 13; continue _fun0017 }
-case 101:
+case 100:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var2 = var2[var4];
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.isValidVideoAttachment;
                             var2 = var2.bind(var3)(var7);
-                            if(!var2) { _fun0017_ip = 99; continue _fun0017 }
+                            if(!var2) { _fun0017_ip = 98; continue _fun0017 }
 case 13:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
@@ -1222,7 +1222,7 @@ case 13:
                             var14 = var7;
                             var6 = var15[var9](var14, var13, var12, var11, var10);
                             var4 = null;
-                            if(!(var4 != var6)) { _fun0017_ip = 99; continue _fun0017 }
+                            if(!(var4 != var6)) { _fun0017_ip = 98; continue _fun0017 }
 case 52:
                             var5 = _closure2_slot1;
                             var4 = var5.push;
@@ -1245,15 +1245,15 @@ case 52:
                             var2 = _closure3_slot1;
                             var2 = var2 + 1;
                             _closure3_slot1 = var2;
-case 99:
+case 98:
                             return var1;
                         }
                     };
                     var2 = var5.bind(var7)(var2);
-case 72:
+case 96:
                     var5 = var4.embeds;
-                    if(!(var1 != var5)) { _fun0016_ip = 102; continue _fun0016 }
-case 71:
+                    if(!(var1 != var5)) { _fun0016_ip = 101; continue _fun0016 }
+case 102:
                     var2 = var5.forEach;
                     var1 = function(arg1, arg2) {
                         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
@@ -1267,7 +1267,7 @@ case 0:
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.isValidImageEmbed;
                             var2 = var2.bind(var3)(var7);
-                            if(var2) { _fun0018_ip = 101; continue _fun0018 }
+                            if(var2) { _fun0018_ip = 100; continue _fun0018 }
 case 103:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
@@ -1276,7 +1276,7 @@ case 103:
                             var2 = var3.isValidVideoEmbed;
                             var2 = var2.bind(var3)(var7);
                             if(!var2) { _fun0018_ip = 104; continue _fun0018 }
-case 101:
+case 100:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var2 = var2[var4];
@@ -1318,7 +1318,7 @@ case 104:
                         }
                     };
                     var1 = var2.bind(var5)(var1);
-case 102:
+case 101:
                     var8 = _closure1_slot17;
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -1454,7 +1454,7 @@ case 62:
                     var3 = var4.push;
                     var2 = {};
                     var9 = _closure1_slot10;
-                    if(var10) { _fun0020_ip = 79; continue _fun0020 }
+                    if(var10) { _fun0020_ip = 77; continue _fun0020 }
 case 43:
                     var10 = var9.ATTACHMENT;
                     var2['type'] = var10;
@@ -1469,7 +1469,7 @@ case 43:
                     var2['attachment'] = var5;
                     var10 = var3.bind(var4)(var2);
                     _fun0020_ip = 113; continue _fun0020;
-case 79:
+case 77:
                     var9 = var9.AUDIO;
                     var2['type'] = var9;
                     var7 = _closure2_slot0;
@@ -1554,7 +1554,7 @@ case 0:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.isValidImageEmbed;
                     var2 = var2.bind(var3)(var6);
-                    if(var2) { _fun0022_ip = 101; continue _fun0022 }
+                    if(var2) { _fun0022_ip = 100; continue _fun0022 }
 case 103:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -1563,7 +1563,7 @@ case 103:
                     var2 = var3.isValidVideoEmbed;
                     var2 = var2.bind(var3)(var6);
                     if(!var2) { _fun0022_ip = 117; continue _fun0022 }
-case 101:
+case 100:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var4];

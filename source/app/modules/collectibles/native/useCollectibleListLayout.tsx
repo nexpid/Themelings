@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/useCollectibleListLayout.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default() {
+    var2 = function useCollectibleListLayout() {
         var4 = _closure1_slot2;
         var5 = undefined;
         var1 = 0;

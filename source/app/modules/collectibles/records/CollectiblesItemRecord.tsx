@@ -326,33 +326,33 @@ case 0:
             var2 = var4.productLine;
             var1 = _closure1_slot7;
             var1 = var1.COLLECTIBLES;
-            if(!(var2 === var1)) { _fun0006_ip = 39; continue _fun0006 }
-case 46:
+            if(!(var2 === var1)) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
             var2 = var4.type;
             var1 = _closure1_slot8;
             var1 = var1.BUNDLE;
-            if(!(var2 !== var1)) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(!(var2 !== var1)) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
             var3 = var4.tenantMetadata;
             var7 = null;
             var5 = var7 == var3;
             var1 = undefined;
             var2 = undefined;
-            if(var5) { _fun0006_ip = 49; continue _fun0006 }
+            if(var5) { _fun0006_ip = 50; continue _fun0006 }
 case 30:
             var2 = var3.collectibles;
-case 49:
+case 50:
             var5 = var7 == var2;
             var3 = undefined;
-            if(var5) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+            if(var5) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
             var3 = var2.item;
-case 50:
-            if(!(var7 == var3)) { _fun0006_ip = 52; continue _fun0006 }
-case 39:
+case 51:
+            if(!(var7 == var3)) { _fun0006_ip = 11; continue _fun0006 }
+case 46:
             var2 = undefined;
             return var2;
-case 52:
+case 11:
             var5 = var3.type;
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -378,17 +378,17 @@ case 56:
             var2 = var2.CollectiblesItemType;
             var2 = var2.PROFILE_EFFECT;
             if(!(var2 !== var5)) { _fun0006_ip = 57; continue _fun0006 }
-case 40:
+case 58:
             var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var8];
             var2 = var6.bind(var1)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.PROFILE_FRAME;
-            if(!(var2 !== var5)) { _fun0006_ip = 58; continue _fun0006 }
+            if(!(var2 !== var5)) { _fun0006_ip = 23; continue _fun0006 }
 case 59:
             return var1;
-case 58:
+case 23:
             var1 = {};
             var2 = 'single';
             var1['type'] = var2;
@@ -502,7 +502,7 @@ case 53:
             var2 = var2 instanceof Object ? var2 : var3;
             var1['item'] = var2;
             return var1;
-case 47:
+case 48:
             var5 = new Array(0);
             var6 = _closure1_slot9;
             var2 = var4.bundledSkus;

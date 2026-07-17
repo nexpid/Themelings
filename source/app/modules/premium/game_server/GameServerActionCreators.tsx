@@ -45,9 +45,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function fetchGameServerCatalog(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var8 = arg1;
+            var10 = arg1;
             var3 = arguments[1];
-            var _closure2_slot0 = var8;
+            var _closure2_slot0 = var10;
             var1 = undefined;
             if(!(var3 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -66,31 +66,41 @@ case 7:
             var5 = var6.isStaff;
             var3 = var5.bind(var6)();
 case 6:
-            var7 = var4 != var3;
-            if(!var7) { _fun0001_ip = 8; continue _fun0001 }
+            var9 = var4 != var3;
+            if(!var9) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var7 = var3;
+            var9 = var3;
 case 8:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var3 = 6;
-            var3 = var5[var3];
-            var5 = var4.bind(var1)(var3);
+            var3 = var8[var3];
+            var5 = var7.bind(var1)(var3);
             var4 = var5.httpGetWithCountryCodeQuery;
-            var3 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
-            var11 = _closure1_slot7;
-            var10 = var11.STOREFRONT_COLLECTION_WITH_PRODUCTS;
+            var3 = {};
+            var13 = _closure1_slot7;
+            var12 = var13.STOREFRONT_COLLECTION_WITH_PRODUCTS;
             var6 = _closure1_slot5;
-            var6 = var10.bind(var11)(var6);
+            var6 = var12.bind(var13)(var6);
             var3['url'] = var6;
             var6 = {};
-            var9 = _closure1_slot3;
-            var9 = var9.locale;
-            var6['locale'] = var9;
-            var6['guild_id'] = var8;
-            var6['include_unpublished_products'] = var7;
-            var6['include_unpublished_collection'] = var7;
+            var11 = _closure1_slot3;
+            var11 = var11.locale;
+            var6['locale'] = var11;
+            var6['guild_id'] = var10;
+            var6['include_unpublished_products'] = var9;
+            var6['include_unpublished_collection'] = var9;
             var3['query'] = var6;
+            var6 = true;
+            var3['oldFormErrors'] = var6;
+            var6 = 7;
+            var6 = var8[var6];
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.rejectWithMigratedError;
+            var6 = var6.bind(var7)();
+            var3['rejectWithError'] = var6;
+            var6 = 2;
+            var3['retries'] = var6;
             var5 = var4.bind(var5)(var3);
             var4 = var5.then;
             var3 = function(arg1) {
@@ -102,7 +112,7 @@ case 8:
                     var1 = arg1;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 8;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -179,40 +189,50 @@ case 4:
 case 0:
             var2 = _closure1_slot4;
             var1 = var2.getCurrentUser;
-            var5 = var1.bind(var2)();
+            var4 = var1.bind(var2)();
             var2 = null;
-            var4 = var2 == var5;
-            var3 = undefined;
+            var3 = var2 == var4;
+            var6 = undefined;
             var1 = undefined;
-            if(var4) { _fun0002_ip = 10; continue _fun0002 }
+            if(var3) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var4 = var5.isStaff;
-            var1 = var4.bind(var5)();
+            var3 = var4.isStaff;
+            var1 = var3.bind(var4)();
 case 10:
-            var5 = var2 != var1;
-            if(!var5) { _fun0002_ip = 12; continue _fun0002 }
+            var8 = var2 != var1;
+            if(!var8) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
-            var5 = var1;
+            var8 = var1;
 case 12:
-            var2 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var1 = 6;
-            var1 = var4[var1];
-            var3 = var2.bind(var3)(var1);
+            var1 = var7[var1];
+            var3 = var5.bind(var6)(var1);
             var2 = var3.httpGetWithCountryCodeQuery;
-            var1 = {'url': null, 'query': null, 'oldFormErrors': true, 'rejectWithError': false, 'retries': 2};
-            var8 = _closure1_slot7;
-            var7 = var8.STOREFRONT_COLLECTION_WITH_PRODUCTS;
+            var1 = {};
+            var11 = _closure1_slot7;
+            var10 = var11.STOREFRONT_COLLECTION_WITH_PRODUCTS;
             var4 = _closure1_slot5;
-            var4 = var7.bind(var8)(var4);
+            var4 = var10.bind(var11)(var4);
             var1['url'] = var4;
             var4 = {};
-            var6 = _closure1_slot3;
-            var6 = var6.locale;
-            var4['locale'] = var6;
-            var4['include_unpublished_products'] = var5;
-            var4['include_unpublished_collection'] = var5;
+            var9 = _closure1_slot3;
+            var9 = var9.locale;
+            var4['locale'] = var9;
+            var4['include_unpublished_products'] = var8;
+            var4['include_unpublished_collection'] = var8;
             var1['query'] = var4;
+            var4 = true;
+            var1['oldFormErrors'] = var4;
+            var4 = 7;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.rejectWithMigratedError;
+            var4 = var4.bind(var5)();
+            var1['rejectWithError'] = var4;
+            var4 = 2;
+            var1['retries'] = var4;
             var3 = var2.bind(var3)(var1);
             var2 = var3.then;
             var1 = function(arg1) {
@@ -224,7 +244,7 @@ case 12:
                     var1 = arg1;
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 8;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -271,7 +291,7 @@ case 2:
 case 15:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var4[var1];
             var1 = var2.bind(var6)(var1);
             var4 = var1.HTTP;
@@ -533,7 +553,7 @@ case 26:
     var4 = function enableGameServerForGuild(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -562,7 +582,7 @@ case 26:
     var4 = function updateGameServerForGuild(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -591,7 +611,7 @@ case 26:
     var4 = function disableGameServerForGuild(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -618,7 +638,7 @@ case 26:
     var4 = function fetchGameServerRegions(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -674,7 +694,7 @@ case 26:
         var _closure2_slot0 = var8;
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 8;
+        var2 = 7;
         var3 = var3[var2];
         var2 = undefined;
         var2 = var4.bind(var2)(var3);

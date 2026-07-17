@@ -96,6 +96,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var24 = arg1;
+            var9 = function getSource() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = _closure2_slot0;
+                    var3 = null;
+                    if(!(var3 != var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var1 = _closure2_slot0;
+                    var1 = var1.avatar;
+                    if(!(var3 == var1)) { _fun0002_ip = 4; continue _fun0002 }
+case 2:
+                    var4 = _closure2_slot1;
+                    var3 = var4.getAvatarSource;
+                    var1 = _closure2_slot2;
+                    var1 = var3.bind(var4)(var1);
+                    _fun0002_ip = 5; continue _fun0002;
+case 4:
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var3 = 12;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.getGuildMemberAvatarSource;
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var1 = var4.bind(var5)(var3, var2);
+case 5:
+                    return var1;
+                }
+            };
             var1 = var24.member;
             var _closure2_slot0 = var1;
             var1 = var24.user;
@@ -123,8 +154,8 @@ case 0:
             var13 = _closure1_slot2;
             var3 = 9;
             var3 = var13[var3];
-            var9 = var23.bind(var5)(var3);
-            var7 = var9.useStateFromStores;
+            var11 = var23.bind(var5)(var3);
+            var7 = var11.useStateFromStores;
             var3 = _closure1_slot4;
             var4 = new Array(1);
             var4[0] = var3;
@@ -134,32 +165,32 @@ case 0:
                 var1 = !var1;
                 return var1;
             };
-            var25 = var7.bind(var9)(var4, var3);
+            var25 = var7.bind(var11)(var4, var3);
             var _closure2_slot4 = var25;
             var4 = 10;
             var3 = var13[var4];
-            var9 = var23.bind(var5)(var3);
-            var7 = var9.useAnimatedStyle;
-            var3 = function c() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            var7 = var23.bind(var5)(var3);
+            var3 = var7.useAnimatedStyle;
+            var2 = function c() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = _closure2_slot3;
                     var3 = {};
-                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                    if(var1) { _fun0003_ip = 2; continue _fun0003 }
+case 6:
                     var1 = 1;
                     var3['opacity'] = var1;
                     var1 = var3;
-                    _fun0002_ip = 4; continue _fun0002;
+                    _fun0003_ip = 7; continue _fun0003;
 case 2:
                     var2 = _closure2_slot4;
-                    if(var2) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                    if(var2) { _fun0003_ip = 8; continue _fun0003 }
+case 9:
                     var2 = 0.4;
                     var3['opacity'] = var2;
                     var2 = var3;
-                    _fun0002_ip = 7; continue _fun0002;
-case 5:
+                    _fun0003_ip = 10; continue _fun0003;
+case 8:
                     var14 = _closure1_slot0;
                     var15 = _closure1_slot2;
                     var10 = 10;
@@ -213,9 +244,9 @@ case 5:
                     var4 = var6.bind(var7)(var5, var4);
                     var3['opacity'] = var4;
                     var2 = var3;
-case 7:
+case 10:
                     var1 = var2;
-case 4:
+case 7:
                     return var1;
                 }
             };
@@ -253,43 +284,12 @@ case 4:
             var11['PULSE_STARTING_OPACITY'] = var13;
             var13 = 500;
             var11['FADE_DURATION'] = var13;
-            var3['__closure'] = var11;
+            var2['__closure'] = var11;
             var11 = 9430639809025.0;
-            var3['__workletHash'] = var11;
+            var2['__workletHash'] = var11;
             var11 = _closure1_slot9;
-            var3['__initData'] = var11;
-            var7 = var7.bind(var9)(var3);
-            var9 = function getSource() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-                    var1 = _closure2_slot0;
-                    var3 = null;
-                    if(!(var3 != var1)) { _fun0003_ip = 2; continue _fun0003 }
-case 8:
-                    var1 = _closure2_slot0;
-                    var1 = var1.avatar;
-                    if(!(var3 == var1)) { _fun0003_ip = 9; continue _fun0003 }
-case 2:
-                    var4 = _closure2_slot1;
-                    var3 = var4.getAvatarSource;
-                    var1 = _closure2_slot2;
-                    var1 = var3.bind(var4)(var1);
-                    _fun0003_ip = 10; continue _fun0003;
-case 9:
-                    var5 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var3 = 12;
-                    var4 = var4[var3];
-                    var3 = undefined;
-                    var5 = var5.bind(var3)(var4);
-                    var4 = var5.getGuildMemberAvatarSource;
-                    var3 = _closure2_slot0;
-                    var2 = _closure2_slot1;
-                    var1 = var4.bind(var5)(var3, var2);
-case 10:
-                    return var1;
-                }
-            };
+            var2['__initData'] = var11;
+            var7 = var3.bind(var7)(var2);
             if(var1) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
             var3 = _closure1_slot6;

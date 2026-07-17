@@ -703,8 +703,6 @@ case 15:
             };
 case 14:
             var _closure2_slot6 = var2;
-            var2 = _closure1_slot13;
-            var19 = var2.bind(var4)();
             var15 = function handleOpenDatePicker(arg1) {
                 var2 = arg1;
                 var _closure3_slot0 = var2;
@@ -819,6 +817,8 @@ case 16:
                 };
                 return var1;
             };
+            var1 = _closure1_slot13;
+            var19 = var1.bind(var4)();
             var3 = _closure1_slot11;
             var2 = _closure1_slot5;
             var1 = {};

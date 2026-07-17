@@ -195,13 +195,13 @@ case 0:
                     var3 = var5.type;
                     var8 = 'SECTION';
                     if(!(var8 !== var3)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+case 2:
                     var1 = 'EMOJI';
-                    if(!(var1 !== var3)) { _fun0003_ip = 10; continue _fun0003 }
-case 11:
+                    if(!(var1 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
                     var1 = null;
                     return var1;
-case 10:
+case 9:
                     var4 = _closure2_slot7;
                     var3 = 1;
                     var1 = var2 - var3;
@@ -210,27 +210,27 @@ case 10:
                     var10 = var1 == var6;
                     var4 = undefined;
                     var7 = undefined;
-                    if(var10) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-                    var7 = var6.type;
+                    if(var10) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
+                    var7 = var6.type;
+case 11:
                     var10 = _closure2_slot7;
                     var6 = var2 + var3;
                     var6 = var10[var6];
                     var10 = var1 == var6;
                     var1 = undefined;
-                    if(var10) { _fun0003_ip = 14; continue _fun0003 }
-case 15:
-                    var1 = var6.type;
+                    if(var10) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
+                    var1 = var6.type;
+case 13:
                     var6 = var8 === var1;
-                    if(var6) { _fun0003_ip = 16; continue _fun0003 }
-case 17:
+                    if(var6) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
                     var1 = _closure2_slot7;
                     var1 = var1.length;
                     var1 = var1 - var3;
                     var6 = var2 === var1;
-case 16:
+case 15:
                     var3 = _closure1_slot9;
                     var2 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -245,19 +245,19 @@ case 16:
                     var10 = var10.id;
                     var1['guildId'] = var10;
                     var10 = _closure2_slot0;
-                    if(var10) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
+                    if(var10) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                     var11 = var5.emoji;
                     var11 = var11.available;
                     var10 = !var11;
-case 18:
-                    if(var10) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+case 17:
+                    if(var10) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                     var12 = _closure2_slot6;
                     var11 = var5.emoji;
                     var11 = var12.bind(var4)(var11);
                     var10 = !var11;
-case 20:
+case 19:
                     var1['disabled'] = var10;
                     var9 = _closure2_slot3;
                     var1['onSelectRolesForEmoji'] = var9;
@@ -292,10 +292,10 @@ case 8:
             var11[0] = var16;
             var17 = var1 == var2;
             var16 = undefined;
-            if(var17) { _fun0001_ip = 22; continue _fun0001 }
-case 23:
-            var16 = var2.length;
+            if(var17) { _fun0001_ip = 21; continue _fun0001 }
 case 22:
+            var16 = var2.length;
+case 21:
             var11[1] = var16;
             var11[2] = var15;
             var11[3] = var14;
@@ -318,11 +318,11 @@ case 0:
                     var6 = null;
                     var8 = var6 == var7;
                     var7 = undefined;
-                    if(var8) { _fun0004_ip = 13; continue _fun0004 }
+                    if(var8) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
                     var8 = _closure2_slot4;
                     var7 = var8.length;
-case 13:
+case 23:
                     var8 = var6 != var7;
                     var6 = 0;
                     if(!var8) { _fun0004_ip = 25; continue _fun0004 }

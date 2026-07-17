@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 'ACTIVITY_SHARE_LINK_MODAL';
     var3['ACTIVITY_SHARE_LINK_MODAL'] = var4;
-    var4 = function(arg1) {
+    var4 = function openActivityShareLinkModal(arg1) {
         var1 = arg1;
         var10 = var1.applicationId;
         var9 = var1.customId;

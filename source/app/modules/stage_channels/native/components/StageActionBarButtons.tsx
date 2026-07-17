@@ -934,7 +934,7 @@ case 26:
     };
     var3['RequestToSpeakListButton'] = var7;
     var3['AgeVerificationSpeakerActionSheet'] = var6;
-    var6 = function(arg1) {
+    var6 = function RequestToSpeakButton(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;

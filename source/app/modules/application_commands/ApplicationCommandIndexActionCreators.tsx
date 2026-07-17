@@ -12,6 +12,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1, arg2) {
+            var2 = function end(arg1) {
+                var1 = arg1;
+                var8 = var1.error;
+                var7 = global;
+                var2 = var7.performance;
+                var1 = var2.now;
+                var2 = var1.bind(var2)();
+                var1 = undefined;
+                var9 = var2 - var1;
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 5;
+                var2 = var4[var2];
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.track;
+                var2 = _closure1_slot5;
+                var3 = var2.APPLICATION_COMMAND_PERFORMANCE;
+                var2 = {};
+                var2['duration_ms'] = var9;
+                var2['error'] = var8;
+                var8 = var7.c;
+                var8 = var8.signal;
+                var8 = var8.aborted;
+                var2['aborted'] = var8;
+                var8 = true;
+                var2['include_applications'] = var8;
+                var10 = var7.Math;
+                var9 = var10.max;
+                var7 = 1;
+                var8 = var1 - var7;
+                var7 = 0;
+                var7 = var9.bind(var10)(var8, var7);
+                var2['retries'] = var7;
+                var7 = null;
+                var2['kind'] = var7;
+                var2['command_type'] = var7;
+                var2['url'] = var1;
+                var7 = _closure1_slot4;
+                var7 = var7.type;
+                var2['target_type'] = var7;
+                var7 = _closure1_slot8;
+                var6 = _closure1_slot4;
+                var6 = var7.bind(var1)(var6);
+                var2['target_id'] = var6;
+                var2['failure_statuses'] = var1;
+                var2 = var4.bind(var5)(var3, var2);
+                return var1;
+            };
+            var _closure3_slot0 = var2;
             var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -29,7 +78,105 @@ case 3:
                     var _closure4_slot4 = var3;
                     var _closure4_slot5 = var3;
                     var _closure4_slot6 = var3;
-                    var _closure4_slot7 = var3;
+                    var5 = function retry() {
+                        var1 = undefined;
+                        var4 = _closure4_slot8;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
+                    };
+                    var _closure4_slot7 = var5;
+                    var5 = function _retry() {
+                        var4 = undefined;
+                        var1 = undefined;
+                        var3 = _closure1_slot3;
+                        var2 = function* (arg1) {
+                            var1 = function* anon_0_(arg1) {
+                                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                                    StartGenerator();
+                                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                                    if(var3) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                                    var3 = arg1;
+                                    var _closure7_slot0 = var3;
+                                    var4 = _closure4_slot4;
+                                    var3 = 3;
+                                    if(!(!(var4 >= var3))) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                                    var3 = global;
+                                    var4 = var3.Promise;
+                                    var3 = var4.prototype;
+                                    var3 = Object.create(var3, {constructor: {value: var4}});
+                                    var8 = function(arg1) {
+                                        var1 = global;
+                                        var4 = var1.setTimeout;
+                                        var3 = _closure7_slot0;
+                                        var2 = undefined;
+                                        var1 = arg1;
+                                        var1 = var4.bind(var2)(var1, var3);
+                                        return var1;
+                                    };
+                                    var9 = var3;
+                                    var2 = new var9[var4](var8, var7);
+                                    var3 = var2 instanceof Object ? var2 : var3;
+                                    SaveGenerator(address=70);
+case 8:
+                                    return var3;
+case 9:
+                                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=1);
+                                    if(var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+                                    var4 = _closure4_slot6;
+                                    var2 = undefined;
+                                    var2 = var4.bind(var2)();
+                                    _fun0002_ip = 12; continue _fun0002;
+case 10:
+                                    return var3;
+case 6:
+                                    var5 = _closure4_slot5;
+                                    var4 = var5.push;
+                                    var3 = 1002;
+                                    var3 = var4.bind(var5)(var3);
+                                    var4 = _closure4_slot9;
+                                    var3 = {};
+                                    var5 = true;
+                                    var3['error'] = var5;
+                                    var5 = undefined;
+                                    var3 = var4.bind(var5)(var3);
+                                    var4 = _closure1_slot1;
+                                    var7 = _closure1_slot2;
+                                    var3 = 2;
+                                    var3 = var7[var3];
+                                    var5 = var4.bind(var5)(var3);
+                                    var4 = var5.dispatch;
+                                    var3 = {};
+                                    var7 = 'APPLICATION_COMMAND_INDEX_FETCH_FAILURE';
+                                    var3['type'] = var7;
+                                    var6 = _closure4_slot0;
+                                    var3['target'] = var6;
+                                    var2 = var4.bind(var5)(var3);
+case 12:
+                                    return var2;
+case 4:
+                                    return var1;
+                                }
+                            };
+                            return var1;
+                        };
+                        var4 = var3.bind(var4)(var2);
+                        _closure4_slot8 = var4;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
+                    };
+                    var _closure4_slot8 = var5;
                     var5 = function end(arg1) {
                         var1 = arg1;
                         var9 = var1.error;
@@ -46,7 +193,7 @@ case 3:
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
                         var4 = var5.track;
-                        var2 = _closure1_slot4;
+                        var2 = _closure1_slot5;
                         var3 = var2.APPLICATION_COMMAND_PERFORMANCE;
                         var2 = {};
                         var2['duration_ms'] = var10;
@@ -73,7 +220,7 @@ case 3:
                         var8 = _closure4_slot0;
                         var9 = var8.type;
                         var2['target_type'] = var9;
-                        var7 = _closure1_slot7;
+                        var7 = _closure1_slot8;
                         var7 = var7.bind(var1)(var8);
                         var2['target_id'] = var7;
                         var6 = _closure4_slot5;
@@ -81,7 +228,7 @@ case 3:
                         var2 = var4.bind(var5)(var3, var2);
                         return var1;
                     };
-                    var _closure4_slot8 = var5;
+                    var _closure4_slot9 = var5;
                     var5 = global;
                     var6 = var5.performance;
                     var5 = var6.now;
@@ -93,135 +240,42 @@ case 3:
                     _closure4_slot5 = var5;
                     var6 = var2.type;
                     var5 = 'channel';
-                    if(!(var5 !== var6)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+                    if(!(var5 !== var6)) { _fun0001_ip = 13; continue _fun0001 }
+case 14:
                     var5 = 'guild';
-                    if(!(var5 !== var6)) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+                    if(!(var5 !== var6)) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
                     var5 = 'user';
-                    if(!(var5 !== var6)) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+                    if(!(var5 !== var6)) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
                     var5 = 'application';
-                    if(!(var5 === var6)) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
-                    var7 = _closure1_slot5;
+                    if(!(var5 === var6)) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+                    var7 = _closure1_slot6;
                     var6 = var7.APPLICATION_COMMAND_INDEX_APPLICATION;
                     var5 = var2.applicationId;
                     var5 = var6.bind(var7)(var5);
                     _closure4_slot2 = var5;
-                    _fun0001_ip = 10; continue _fun0001;
-case 8:
-                    var5 = _closure1_slot5;
+                    _fun0001_ip = 19; continue _fun0001;
+case 17:
+                    var5 = _closure1_slot6;
                     var5 = var5.APPLICATION_COMMAND_INDEX_USER;
                     _closure4_slot2 = var5;
-                    _fun0001_ip = 10; continue _fun0001;
-case 6:
-                    var7 = _closure1_slot5;
+                    _fun0001_ip = 19; continue _fun0001;
+case 15:
+                    var7 = _closure1_slot6;
                     var6 = var7.APPLICATION_COMMAND_INDEX_GUILD;
                     var5 = var2.guildId;
                     var5 = var6.bind(var7)(var5);
                     _closure4_slot2 = var5;
-                    _fun0001_ip = 10; continue _fun0001;
-case 4:
-                    var6 = _closure1_slot5;
+                    _fun0001_ip = 19; continue _fun0001;
+case 13:
+                    var6 = _closure1_slot6;
                     var5 = var6.APPLICATION_COMMAND_INDEX_CHANNEL;
                     var2 = var2.channelId;
                     var2 = var5.bind(var6)(var2);
                     _closure4_slot2 = var2;
-case 10:
-                    var2 = function() {
-                        var4 = _closure1_slot3;
-                        var3 = undefined;
-                        var2 = function* (arg1) {
-                            var1 = function* anon_0_(arg1) {
-                                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                                    StartGenerator();
-                                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                                    if(var3) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-                                    var3 = arg1;
-                                    var _closure7_slot0 = var3;
-                                    var4 = _closure4_slot4;
-                                    var3 = 3;
-                                    if(!(!(var4 >= var3))) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
-                                    var3 = global;
-                                    var4 = var3.Promise;
-                                    var3 = var4.prototype;
-                                    var3 = Object.create(var3, {constructor: {value: var4}});
-                                    var8 = function(arg1) {
-                                        var1 = global;
-                                        var4 = var1.setTimeout;
-                                        var3 = _closure7_slot0;
-                                        var2 = undefined;
-                                        var1 = arg1;
-                                        var1 = var4.bind(var2)(var1, var3);
-                                        return var1;
-                                    };
-                                    var9 = var3;
-                                    var2 = new var9[var4](var8, var7);
-                                    var3 = var2 instanceof Object ? var2 : var3;
-                                    SaveGenerator(address=70);
-case 16:
-                                    return var3;
-case 17:
-                                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=1);
-                                    if(var2) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
-                                    var4 = _closure4_slot7;
-                                    var2 = undefined;
-                                    var2 = var4.bind(var2)();
-                                    _fun0002_ip = 20; continue _fun0002;
-case 18:
-                                    return var3;
-case 14:
-                                    var5 = _closure4_slot5;
-                                    var4 = var5.push;
-                                    var3 = 1002;
-                                    var3 = var4.bind(var5)(var3);
-                                    var4 = _closure4_slot8;
-                                    var3 = {};
-                                    var5 = true;
-                                    var3['error'] = var5;
-                                    var5 = undefined;
-                                    var3 = var4.bind(var5)(var3);
-                                    var4 = _closure1_slot1;
-                                    var7 = _closure1_slot2;
-                                    var3 = 2;
-                                    var3 = var7[var3];
-                                    var5 = var4.bind(var5)(var3);
-                                    var4 = var5.dispatch;
-                                    var3 = {};
-                                    var7 = 'APPLICATION_COMMAND_INDEX_FETCH_FAILURE';
-                                    var3['type'] = var7;
-                                    var6 = _closure4_slot0;
-                                    var3['target'] = var6;
-                                    var2 = var4.bind(var5)(var3);
-case 20:
-                                    return var2;
-case 12:
-                                    return var1;
-                                }
-                            };
-                            return var1;
-                        };
-                        var2 = var4.bind(var3)(var2);
-                        var _closure5_slot0 = var2;
-                        var1 = function() {
-                            var1 = undefined;
-                            var4 = _closure5_slot0;
-                            var3 = var4.apply;
-                            var1 = arguments;
-                            var2 = var1;
-                            var1 = this;
-                            var1 = var3.bind(var4)(var1, var2);
-                            return var1;
-                        };
-                        return var1;
-                    };
-                    var2 = var2.bind(var3)();
-                    _closure4_slot6 = var2;
                     var2 = function fetch() {
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -262,7 +316,7 @@ case 0:
                                 var5 = 202;
                                 if(!(var5 !== var1)) { _fun0003_ip = 21; continue _fun0003 }
 case 3:
-                                var2 = _closure4_slot8;
+                                var2 = _closure4_slot9;
                                 var1 = {};
                                 var3 = false;
                                 var1['error'] = var3;
@@ -287,7 +341,7 @@ case 21:
                                 var4 = _closure4_slot5;
                                 var3 = var4.push;
                                 var3 = var3.bind(var4)(var5);
-                                var4 = _closure4_slot6;
+                                var4 = _closure4_slot7;
                                 var3 = undefined;
                                 var2 = 5000;
                                 var1 = var4.bind(var3)(var2);
@@ -319,7 +373,7 @@ case 28:
                                 var1 = var7;
 case 27:
                                 var1 = var4.bind(var5)(var1);
-                                var4 = _closure4_slot8;
+                                var4 = _closure4_slot9;
                                 var1 = {};
                                 var5 = true;
                                 var1['error'] = var5;
@@ -342,7 +396,7 @@ case 25:
                                 var5 = _closure4_slot5;
                                 var4 = var5.push;
                                 var4 = var4.bind(var5)(var6);
-                                var5 = _closure4_slot6;
+                                var5 = _closure4_slot7;
                                 var3 = var3.body;
                                 var6 = var3.retry_after;
                                 var7 = _closure1_slot1;
@@ -362,7 +416,7 @@ case 23:
                                 var4 = var5.push;
                                 var3 = 1001;
                                 var3 = var4.bind(var5)(var3);
-                                var4 = _closure4_slot8;
+                                var4 = _closure4_slot9;
                                 var3 = {};
                                 var2 = true;
                                 var3['error'] = var2;
@@ -376,15 +430,15 @@ case 30:
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
-                    _closure4_slot7 = var2;
+                    _closure4_slot6 = var2;
                     var2 = var2.bind(var3)();
-                    SaveGenerator(address=267);
+                    SaveGenerator(address=268);
 case 31:
                     return var2;
 case 32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0001_ip = 33; continue _fun0001 }
-case 30:
+case 34:
                     return var3;
 case 33:
                     return var2;
@@ -395,7 +449,7 @@ case 2:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot6 = var4;
+        _closure1_slot7 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -403,24 +457,24 @@ case 2:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot7 = var1;
     var1 = function getTargetId(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.type;
             var2 = 'channel';
-            if(!(var2 !== var3)) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+            if(!(var2 !== var3)) { _fun0005_ip = 35; continue _fun0005 }
+case 36:
             var2 = 'guild';
-            if(!(var2 !== var3)) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+            if(!(var2 !== var3)) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
             var2 = 'user';
-            if(!(var2 !== var3)) { _fun0005_ip = 38; continue _fun0005 }
-case 39:
+            if(!(var2 !== var3)) { _fun0005_ip = 39; continue _fun0005 }
+case 40:
             var2 = 'application';
-            if(!(var2 !== var3)) { _fun0005_ip = 40; continue _fun0005 }
-case 41:
+            if(!(var2 !== var3)) { _fun0005_ip = 41; continue _fun0005 }
+case 42:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 6;
@@ -430,21 +484,21 @@ case 41:
             var3 = var4.assertNever;
             var3 = var3.bind(var4)(var1);
             return var2;
-case 40:
+case 41:
             var2 = var1.applicationId;
             return var2;
-case 38:
+case 39:
             var2 = null;
             return var2;
-case 36:
+case 37:
             var2 = var1.guildId;
             return var2;
-case 34:
+case 35:
             var1 = var1.channelId;
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -461,10 +515,11 @@ case 34:
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
     var7 = var4.AnalyticEvents;
-    var _closure1_slot4 = var7;
+    var _closure1_slot5 = var7;
     var4 = var4.Endpoints;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -473,7 +528,7 @@ case 34:
     var4 = var5.bind(var6)(var4);
     var4 = function fetchApplicationCommandIndex() {
         var1 = undefined;
-        var4 = _closure1_slot6;
+        var4 = _closure1_slot7;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

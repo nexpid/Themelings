@@ -567,33 +567,50 @@ case 54:
             var2['alignItems'] = var6;
             var1['content'] = var2;
             var2 = {};
-            var6 = '100%';
-            var2['width'] = var6;
-            var6 = var5;
-            if(!var8) { _fun0003_ip = 8; continue _fun0003 }
+            var9 = '100%';
+            var6 = var9;
+            if(!var8) { _fun0003_ip = 9; continue _fun0003 }
 case 56:
-            var6 = var5;
-            if(var4) { _fun0003_ip = 8; continue _fun0003 }
+            var6 = var9;
+            if(var4) { _fun0003_ip = 9; continue _fun0003 }
 case 57:
             var6 = undefined;
-case 8:
-            var2['flexShrink'] = var6;
+case 9:
+            var2['width'] = var6;
             var6 = undefined;
             if(!var8) { _fun0003_ip = 58; continue _fun0003 }
-case 11:
+case 59:
             var6 = undefined;
             if(var4) { _fun0003_ip = 58; continue _fun0003 }
-case 59:
-            var6 = '70%';
+case 11:
+            var6 = var5;
 case 58:
+            var2['flexGrow'] = var6;
+            var6 = var5;
+            if(!var8) { _fun0003_ip = 60; continue _fun0003 }
+case 61:
+            var6 = var5;
+            if(var4) { _fun0003_ip = 60; continue _fun0003 }
+case 62:
+            var6 = undefined;
+case 60:
+            var2['flexShrink'] = var6;
+            var6 = undefined;
+            if(!var8) { _fun0003_ip = 63; continue _fun0003 }
+case 64:
+            var6 = undefined;
+            if(var4) { _fun0003_ip = 63; continue _fun0003 }
+case 65:
+            var6 = '70%';
+case 63:
             var2['maxWidth'] = var6;
             var1['labels'] = var2;
             var2 = {};
             var2['flexShrink'] = var5;
-            if(!var4) { _fun0003_ip = 60; continue _fun0003 }
-case 61:
+            if(!var4) { _fun0003_ip = 66; continue _fun0003 }
+case 67:
             var3 = 0;
-case 60:
+case 66:
             var2['marginStart'] = var3;
             var1['trailingText'] = var2;
             var2 = {};

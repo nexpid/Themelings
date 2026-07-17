@@ -336,7 +336,7 @@ case 15:
 case 14:
                     var _closure3_slot1 = var13;
                     if(!(var6 != var13)) { _fun0004_ip = 12; continue _fun0004 }
-case 16:
+case 6:
                     var12 = _closure1_slot6;
                     var6 = var5;
                     var7 = var6.item;
@@ -352,8 +352,8 @@ case 16:
                     var6 = var9.bind(var1)(var6);
                     var6 = var6.RowTypes;
                     var6 = var6.CHANNEL;
-                    if(!(var7 !== var6)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+                    if(!(var7 !== var6)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                     var6 = var5;
                     var7 = var6.type;
                     var9 = _closure1_slot0;
@@ -362,8 +362,8 @@ case 18:
                     var6 = var9.bind(var1)(var6);
                     var6 = var6.RowTypes;
                     var6 = var6.DM;
-                    if(!(var7 !== var6)) { _fun0004_ip = 19; continue _fun0004 }
-case 20:
+                    if(!(var7 !== var6)) { _fun0004_ip = 18; continue _fun0004 }
+case 19:
                     var6 = var5;
                     var7 = var6.type;
                     var9 = _closure1_slot0;
@@ -373,11 +373,11 @@ case 20:
                     var6 = var6.RowTypes;
                     var6 = var6.FRIEND;
                     if(!(var7 === var6)) { _fun0004_ip = 12; continue _fun0004 }
-case 19:
+case 18:
                     var6 = var5;
                     var6 = var6.item;
                     var10 = var6.id;
-case 21: // try_start_0
+case 20: // try_start_0
                     var12 = _closure1_slot1;
                     var13 = _closure1_slot2;
                     var6 = 17;
@@ -412,9 +412,9 @@ case 21: // try_start_0
                         return var1;
                     };
                     var6 = var7.bind(var9)(var6);
-case 22: // try_end0
+case 21: // try_end0
                     _fun0004_ip = 12; continue _fun0004;
-case 23: // catch_target0
+case 22: // catch_target0
                     CatchBlockStart(arg_register=8);
                     var7 = _closure2_slot2;
                     var6 = global;
@@ -422,10 +422,10 @@ case 23: // catch_target0
                     var6 = var6.bind(var1)(var9);
                     var6 = var7.bind(var1)(var6);
                     _fun0004_ip = 12; continue _fun0004;
-case 17:
+case 16:
                     var5 = var5.item;
                     var11 = var5.id;
-case 24: // try_start_1
+case 23: // try_start_1
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var5 = 17;
@@ -459,9 +459,9 @@ case 24: // try_start_1
                         return var1;
                     };
                     var3 = var4.bind(var5)(var3);
-case 25: // try_end1
+case 24: // try_end1
                     _fun0004_ip = 12; continue _fun0004;
-case 26: // catch_target1
+case 25: // catch_target1
                     CatchBlockStart(arg_register=3);
                     var3 = _closure2_slot2;
                     var2 = global;
@@ -538,16 +538,16 @@ case 12:
             var3 = var8.bind(var11)(var7, var3);
             var3 = var21.length;
             var8 = var6 === var3;
-            if(!var8) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
-            var8 = var2;
+            if(!var8) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
+            var8 = var2;
+case 26:
             var3 = var21.length;
             var15 = var6 === var3;
-            if(!var15) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
-            var15 = !var2;
+            if(!var15) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
+            var15 = !var2;
+case 28:
             var3 = _closure1_slot13;
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -563,14 +563,14 @@ case 29:
             var6 = var5.BottomSheet;
             var5 = {'showGradient': null, 'scrollable': true, 'startExpanded': true};
             var11 = var10 != var12;
-            if(var11) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
-            var11 = !var8;
+            if(var11) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
-            if(var11) { _fun0002_ip = 33; continue _fun0002 }
-case 34:
-            var11 = !var15;
+            var11 = !var8;
+case 30:
+            if(var11) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
+            var11 = !var15;
+case 32:
             var5['showGradient'] = var11;
             var16 = _closure1_slot13;
             var25 = _closure1_slot0;
@@ -593,8 +593,8 @@ case 33:
             var11['title'] = var18;
             var11 = var16.bind(var4)(var14, var11);
             var5['header'] = var11;
-            if(!(var10 == var12)) { _fun0002_ip = 35; continue _fun0002 }
-case 12:
+            if(!(var10 == var12)) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             if(var8) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
             var11 = _closure1_slot15;
@@ -685,7 +685,7 @@ case 36:
             var8 = var14.bind(var4)(var11, var10);
 case 41:
             _fun0002_ip = 42; continue _fun0002;
-case 35:
+case 34:
             var11 = _closure1_slot13;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;

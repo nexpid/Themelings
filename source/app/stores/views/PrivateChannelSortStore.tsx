@@ -249,7 +249,7 @@ case 5:
     var12 = var2.SecondaryIndexMap;
     var2 = var12.prototype;
     var8 = Object.create(var2, {constructor: {value: var12}});
-    var15 = function(arg1) {
+    var15 = function indexBy(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var2 = arg1;
@@ -274,7 +274,7 @@ case 24:
             return var1;
         }
     };
-    var14 = function(arg1) {
+    var14 = function sortBy(arg1) {
         var1 = arg1;
         var3 = var1.lastMessageId;
         var4 = _closure1_slot1;

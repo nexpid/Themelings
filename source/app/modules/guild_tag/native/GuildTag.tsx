@@ -174,9 +174,6 @@ case 17:
 case 16:
                 var _closure2_slot5 = var2;
                 var _closure2_slot6 = var5;
-                var3 = _closure1_slot11;
-                var7 = var3.bind(var5)();
-                _closure2_slot6 = var7;
                 var6 = function renderContent() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -242,6 +239,9 @@ case 19:
                         return var1;
                     }
                 };
+                var3 = _closure1_slot11;
+                var7 = var3.bind(var5)();
+                _closure2_slot6 = var7;
                 var1 = null;
                 if(!(var1 == var10)) { _fun0003_ip = 20; continue _fun0003 }
 case 21:

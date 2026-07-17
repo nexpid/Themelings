@@ -58,75 +58,30 @@ case 0:
             var _closure2_slot1 = var2;
             var1 = var1.hideActionSheet;
             var _closure2_slot2 = var1;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 6;
-            var2 = var4[var2];
             var5 = undefined;
-            var6 = var3.bind(var5)(var2);
-            var4 = var6.useStateFromStores;
-            var2 = _closure1_slot8;
-            var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var3 = _closure1_slot8;
-                    var2 = var3.getStickersByGuildId;
-                    var1 = _closure2_slot0;
-                    var4 = var2.bind(var3)(var1);
-                    var1 = null;
-                    var2 = var1 == var4;
-                    var1 = undefined;
-                    if(var2) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var3 = var4.find;
-                    var2 = function(arg1) {
-                        var1 = arg1;
-                        var2 = var1.id;
-                        var1 = _closure2_slot1;
-                        var1 = var2 === var1;
-                        return var1;
-                    };
-                    var1 = var3.bind(var4)(var2);
-case 2:
-                    return var1;
-                }
-            };
-            var8 = var4.bind(var6)(var3, var2);
-            var _closure2_slot3 = var8;
-            var4 = _closure1_slot5;
-            var3 = var4.useState;
-            var2 = false;
-            var6 = var3.bind(var4)(var2);
-            var3 = _closure1_slot4;
-            var2 = 2;
-            var3 = var3.bind(var5)(var6, var2);
-            var2 = 0;
-            var15 = var3[var2];
-            var2 = 1;
-            var2 = var3[var2];
-            var _closure2_slot4 = var2;
-            var2 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var _closure2_slot3 = var5;
+            var _closure2_slot4 = var5;
+            var2 = function _onDeleteSticker() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0003_ip = 4; continue _fun0003 }
-case 5:
+                            if(var2) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
                             var4 = _closure2_slot3;
                             var2 = null;
-                            if(!(var2 != var4)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                            if(!(var2 != var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
                             var4 = _closure2_slot4;
                             var5 = undefined;
                             var2 = true;
                             var2 = var4.bind(var5)(var2);
-case 8: // try_start_0 // try_start_1
+case 6: // try_start_0 // try_start_1
                             var4 = _closure1_slot0;
                             var6 = _closure1_slot2;
                             var2 = 7;
@@ -136,22 +91,22 @@ case 8: // try_start_0 // try_start_1
                             var2 = _closure2_slot3;
                             var2 = var4.bind(var6)(var2);
                             SaveGenerator(address=81);
-case 9:
+case 7:
                             return var2;
-case 10:
+case 8:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+                            if(var4) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                             var4 = _closure2_slot2;
                             var4 = var4.bind(var5)();
-case 13: // try_end0
-                            _fun0003_ip = 14; continue _fun0003;
-case 11: // try_end1
+case 11: // try_end0
+                            _fun0002_ip = 12; continue _fun0002;
+case 9: // try_end1
                             var6 = _closure2_slot4;
                             var4 = false;
                             var4 = var6.bind(var5)(var4);
                             return var2;
-case 15: // try_start_2 // catch_target0
+case 13: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=1);
                             var4 = _closure1_slot1;
                             var11 = _closure1_slot2;
@@ -180,40 +135,83 @@ case 15: // try_start_2 // catch_target0
                             var7 = var8.bind(var9)(var7);
                             var2['content'] = var7;
                             var2 = var4.bind(var6)(var2);
-case 14: // try_end2
+case 12: // try_end2
                             var4 = _closure2_slot4;
                             var2 = false;
                             var2 = var4.bind(var5)(var2);
-case 6:
+case 4:
                             var2 = undefined;
                             return var2;
-case 16: // catch_target1 // catch_target2
+case 14: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
                             var4 = _closure2_slot4;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
                             throw var2;
-case 4:
+case 2:
                             return var1;
                         }
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot5 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var14 = var2.bind(var5)();
+            var _closure2_slot5 = var2;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 6;
+            var2 = var4[var2];
+            var6 = var3.bind(var5)(var2);
+            var4 = var6.useStateFromStores;
+            var2 = _closure1_slot8;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var3 = _closure1_slot8;
+                    var2 = var3.getStickersByGuildId;
+                    var1 = _closure2_slot0;
+                    var4 = var2.bind(var3)(var1);
+                    var1 = null;
+                    var2 = var1 == var4;
+                    var1 = undefined;
+                    if(var2) { _fun0003_ip = 15; continue _fun0003 }
+case 16:
+                    var3 = var4.find;
+                    var2 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.id;
+                        var1 = _closure2_slot1;
+                        var1 = var2 === var1;
+                        return var1;
+                    };
+                    var1 = var3.bind(var4)(var2);
+case 15:
+                    return var1;
+                }
+            };
+            var8 = var4.bind(var6)(var3, var2);
+            _closure2_slot3 = var8;
+            var4 = _closure1_slot5;
+            var3 = var4.useState;
+            var2 = false;
+            var6 = var3.bind(var4)(var2);
+            var3 = _closure1_slot4;
+            var2 = 2;
+            var3 = var3.bind(var5)(var6, var2);
+            var2 = 0;
+            var15 = var3[var2];
+            var2 = 1;
+            var2 = var3[var2];
+            _closure2_slot4 = var2;
             var3 = var4.useEffect;
             var2 = new Array(2);
             var2[0] = var1;
@@ -287,24 +285,24 @@ case 20:
             var11 = var19.bind(var5)(var11);
             var13 = var11.TableRow;
             var11 = {};
-            var20 = 16;
-            var20 = var21[var20];
-            var20 = var19.bind(var5)(var20);
-            var22 = var20.PencilIcon;
-            var20 = {};
-            var20 = var4.bind(var5)(var22, var20);
-            var11['icon'] = var20;
+            var18 = 16;
+            var18 = var21[var18];
+            var18 = var19.bind(var5)(var18);
+            var20 = var18.PencilIcon;
+            var18 = {};
+            var18 = var4.bind(var5)(var20, var18);
+            var11['icon'] = var18;
             var20 = 10;
-            var22 = var21[var20];
-            var22 = var19.bind(var5)(var22);
-            var24 = var22.intl;
-            var23 = var24.string;
-            var22 = var21[var20];
-            var22 = var19.bind(var5)(var22);
-            var22 = var22.t;
-            var22 = var22.tdhW5b;
-            var22 = var23.bind(var24)(var22);
-            var11['label'] = var22;
+            var18 = var21[var20];
+            var18 = var19.bind(var5)(var18);
+            var23 = var18.intl;
+            var22 = var23.string;
+            var18 = var21[var20];
+            var18 = var19.bind(var5)(var18);
+            var18 = var18.t;
+            var18 = var18.tdhW5b;
+            var18 = var22.bind(var23)(var18);
+            var11['label'] = var18;
             var18 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -361,6 +359,16 @@ case 21:
             var16 = 'danger';
             var12['variant'] = var16;
             var12['disabled'] = var15;
+            var14 = function onDeleteSticker() {
+                var1 = undefined;
+                var4 = _closure2_slot5;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var12['onPress'] = var14;
             var12 = var4.bind(var5)(var13, var12);
             var11[1] = var12;

@@ -1,13 +1,13 @@
 // app/modules/markup/PlatformMarkupRules.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var9 = metroImportDefault;
+    var6 = require;
+    var10 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var9;
-    var _closure1_slot2 = var6;
-    var1 = function decorateWithIcon(arg1) {
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var7;
+    var2 = function decorateWithIcon(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
@@ -74,28 +74,28 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot5 = var2;
     var1 = global;
-    var8 = var1.Object;
-    var4 = var8.defineProperty;
-    var2 = {};
-    var1 = true;
-    var2['value'] = var1;
-    var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
-    var1 = 0;
-    var2 = var6[var1];
-    var1 = undefined;
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.Image;
-    var _closure1_slot3 = var2;
-    var2 = /^[\u200B-\u200D\uFEFF\u180E\u061C]/;
-    var _closure1_slot4 = var2;
-    var2 = {};
+    var9 = var1.Object;
+    var5 = var9.defineProperty;
     var4 = {};
-    var8 = ['\\'];
-    var4['requiredFirstCharacters'] = var8;
-    var8 = function match(arg1, arg2) {
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.Image;
+    var _closure1_slot3 = var4;
+    var4 = /^[\u200B-\u200D\uFEFF\u180E\u061C]/;
+    var _closure1_slot4 = var4;
+    var4 = {};
+    var5 = {};
+    var9 = ['\\'];
+    var5['requiredFirstCharacters'] = var9;
+    var9 = function match(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg2;
@@ -142,36 +142,36 @@ case 11:
             return var1;
         }
     };
-    var4['match'] = var8;
-    var2['escape'] = var4;
-    var4 = {};
-    var8 = 3;
-    var8 = var6[var8];
-    var8 = var9.bind(var1)(var8);
-    var8 = var8.defaultRules;
-    var12 = var8.escape;
-    var13 = var4;
-    var8 = copyDataProperties(var13, var12);
-    var8 = 'requiredFirstCharacters';
-    var4[7] = var1;
-    var10 = function match(arg1) {
+    var5['match'] = var9;
+    var4['escape'] = var5;
+    var5 = {};
+    var9 = 3;
+    var9 = var7[var9];
+    var9 = var10.bind(var1)(var9);
+    var9 = var9.defaultRules;
+    var13 = var9.escape;
+    var14 = var5;
+    var9 = copyDataProperties(var14, var13);
+    var9 = 'requiredFirstCharacters';
+    var5[8] = var1;
+    var11 = function match(arg1) {
         var3 = _closure1_slot4;
         var2 = var3.exec;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var8 = 'match';
-    var4[7] = var10;
-    var10 = function parse() {
+    var9 = 'match';
+    var5[8] = var11;
+    var11 = function parse() {
         var1 = {'type': 'text', 'content': ''};
         return var1;
     };
-    var8 = 'parse';
-    var4[7] = var10;
-    var2['invisibleUnicode'] = var4;
-    var4 = {};
-    var8 = function parse(arg1, arg2, arg3) {
+    var9 = 'parse';
+    var5[8] = var11;
+    var4['invisibleUnicode'] = var5;
+    var5 = {};
+    var9 = function parse(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var3 = arg1;
@@ -217,10 +217,10 @@ case 17:
             return var1;
         }
     };
-    var4['parse'] = var8;
-    var2['text'] = var4;
-    var4 = {};
-    var8 = function parse(arg1) {
+    var5['parse'] = var9;
+    var4['text'] = var5;
+    var5 = {};
+    var9 = function parse(arg1) {
         var4 = arg1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -241,25 +241,25 @@ case 17:
         var1['surrogate'] = var2;
         return var1;
     };
-    var4['parse'] = var8;
-    var2['emoji'] = var4;
-    var4 = {};
-    var8 = 4;
-    var10 = var6[var8];
-    var10 = var9.bind(var1)(var10);
-    var10 = var10.order;
-    var4['order'] = var10;
-    var10 = ['<'];
-    var4['requiredFirstCharacters'] = var10;
-    var10 = function match(arg1) {
+    var5['parse'] = var9;
+    var4['emoji'] = var5;
+    var5 = {};
+    var9 = 4;
+    var11 = var7[var9];
+    var11 = var10.bind(var1)(var11);
+    var11 = var11.order;
+    var5['order'] = var11;
+    var11 = ['<'];
+    var5['requiredFirstCharacters'] = var11;
+    var11 = function match(arg1) {
         var3 = /^<(a)?:(\w+):(\d+)>/;
         var2 = var3.exec;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['match'] = var10;
-    var10 = function parse(arg1, arg2, arg3) {
+    var5['match'] = var11;
+    var11 = function parse(arg1, arg2, arg3) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = arg1;
@@ -350,10 +350,10 @@ case 33:
             return var1;
         }
     };
-    var4['parse'] = var10;
-    var2['customEmoji'] = var4;
-    var4 = {};
-    var10 = function parse(arg1, arg2, arg3) {
+    var5['parse'] = var11;
+    var4['customEmoji'] = var5;
+    var5 = {};
+    var11 = function parse(arg1, arg2, arg3) {
         var2 = _closure1_slot1;
         var4 = _closure1_slot2;
         var1 = 6;
@@ -381,10 +381,10 @@ case 33:
         var1[1] = var3;
         return var1;
     };
-    var4['parse'] = var10;
-    var2['channelMention'] = var4;
-    var4 = {};
-    var10 = function parse(arg1, arg2, arg3) {
+    var5['parse'] = var11;
+    var4['channelMention'] = var5;
+    var5 = {};
+    var11 = function parse(arg1, arg2, arg3) {
         var2 = _closure1_slot1;
         var4 = _closure1_slot2;
         var1 = 6;
@@ -412,10 +412,10 @@ case 33:
         var1[1] = var3;
         return var1;
     };
-    var4['parse'] = var10;
-    var2['channelOrMessageUrl'] = var4;
-    var4 = {};
-    var10 = function parse(arg1, arg2, arg3) {
+    var5['parse'] = var11;
+    var4['channelOrMessageUrl'] = var5;
+    var5 = {};
+    var11 = function parse(arg1, arg2, arg3) {
         var2 = _closure1_slot1;
         var4 = _closure1_slot2;
         var1 = 6;
@@ -443,10 +443,10 @@ case 33:
         var1[1] = var3;
         return var1;
     };
-    var4['parse'] = var10;
-    var2['mediaPostLink'] = var4;
-    var4 = {};
-    var10 = function parse(arg1, arg2, arg3) {
+    var5['parse'] = var11;
+    var4['mediaPostLink'] = var5;
+    var5 = {};
+    var11 = function parse(arg1, arg2, arg3) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 7;
@@ -461,24 +461,24 @@ case 33:
         var1 = var4.bind(var5)(var3, var2, var1);
         return var1;
     };
-    var4['parse'] = var10;
-    var2['attachmentLink'] = var4;
-    var4 = {};
-    var8 = var6[var8];
-    var8 = var9.bind(var1)(var8);
-    var8 = var8.order;
-    var4['order'] = var8;
-    var8 = ['@'];
-    var4['requiredFirstCharacters'] = var8;
-    var8 = function match(arg1) {
+    var5['parse'] = var11;
+    var4['attachmentLink'] = var5;
+    var5 = {};
+    var9 = var7[var9];
+    var9 = var10.bind(var1)(var9);
+    var9 = var9.order;
+    var5['order'] = var9;
+    var9 = ['@'];
+    var5['requiredFirstCharacters'] = var9;
+    var9 = function match(arg1) {
         var3 = /^(@silent(?![^\s]))/;
         var2 = var3.exec;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['match'] = var8;
-    var7 = function parse(arg1) {
+    var5['match'] = var9;
+    var8 = function parse(arg1) {
         var1 = {};
         var2 = 'text';
         var1['type'] = var2;
@@ -488,14 +488,15 @@ case 33:
         var1['content'] = var2;
         return var1;
     };
-    var4['parse'] = var7;
-    var2['silentPrefix'] = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/markup/PlatformMarkupRules.native.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var5['parse'] = var8;
+    var4['silentPrefix'] = var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/markup/PlatformMarkupRules.native.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['decorateWithIcon'] = var2;
     return var1;
 })();

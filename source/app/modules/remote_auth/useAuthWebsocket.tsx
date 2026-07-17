@@ -296,18 +296,18 @@ case 0:
                         var1 = var5.bind(var4)(var3, var2, var1);
                         return var1;
                     };
-                    var _closure3_slot8 = var2;
+                    var _closure3_slot7 = var2;
                     var2 = function info(arg1) {
                         var3 = _closure1_slot8;
                         var2 = var3.info;
-                        var5 = _closure3_slot8;
+                        var5 = _closure3_slot7;
                         var4 = undefined;
                         var1 = arg1;
                         var1 = var5.bind(var4)(var1);
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var _closure3_slot9 = var2;
+                    var _closure3_slot8 = var2;
                     var2 = function getKeyPair() {
                         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -329,14 +329,14 @@ case 15:
                             return var1;
                         }
                     };
-                    var _closure3_slot10 = var2;
+                    var _closure3_slot9 = var2;
                     var2 = function doHeartbeat() {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                             var2 = _closure3_slot6;
                             if(var2) { _fun0007_ip = 17; continue _fun0007 }
 case 10:
-                            var4 = _closure3_slot9;
+                            var4 = _closure3_slot8;
                             var3 = undefined;
                             var2 = 'heartbeat timeout, reconnecting.';
                             var2 = var4.bind(var3)(var2);
@@ -364,10 +364,10 @@ case 18:
                             return var1;
                         }
                     };
-                    var _closure3_slot11 = var2;
+                    var _closure3_slot10 = var2;
                     var7 = function onmessage() {
                         var1 = undefined;
-                        var4 = _closure3_slot13;
+                        var4 = _closure3_slot12;
                         var3 = var4.apply;
                         var1 = arguments;
                         var2 = var1;
@@ -375,7 +375,7 @@ case 18:
                         var1 = var3.bind(var4)(var1, var2);
                         return var1;
                     };
-                    var _closure3_slot12 = var7;
+                    var _closure3_slot11 = var7;
                     var2 = function _onmessage() {
                         var4 = undefined;
                         var1 = undefined;
@@ -427,7 +427,7 @@ case 33:
 case 35:
                                     var10 = _closure1_slot8;
                                     var7 = var10.warn;
-                                    var11 = _closure3_slot8;
+                                    var11 = _closure3_slot7;
                                     var6 = 'received unsupported message';
                                     var6 = var11.bind(var8)(var6);
                                     var6 = var7.bind(var10)(var6);
@@ -438,7 +438,7 @@ case 34:
                                     _closure3_slot6 = var6;
                                     return var8;
 case 32:
-                                    var10 = _closure3_slot9;
+                                    var10 = _closure3_slot8;
                                     var13 = var3.timeout_ms;
                                     var6 = var4.HermesInternal;
                                     var12 = var6.concat;
@@ -459,7 +459,7 @@ case 32:
                                     var6 = function() {
                                         var1 = null;
                                         _closure3_slot5 = var1;
-                                        var5 = _closure3_slot11;
+                                        var5 = _closure3_slot10;
                                         var1 = undefined;
                                         var2 = var5.bind(var1)();
                                         var2 = global;
@@ -474,7 +474,7 @@ case 32:
                                     var6 = undefined;
                                     return var6;
 case 31:
-                                    var7 = _closure3_slot9;
+                                    var7 = _closure3_slot8;
                                     var6 = 'remote auth handshake cancelled.';
                                     var6 = var7.bind(var8)(var6);
                                     var6 = _closure2_slot10;
@@ -492,7 +492,7 @@ case 30:
                                     var6 = _closure1_slot6;
                                     var6 = var6.WAVE_EMPHASIZE;
                                     var6 = var7.bind(var12)(var6);
-                                    var12 = _closure3_slot9;
+                                    var12 = _closure3_slot8;
                                     var7 = 'remote auth handshake started, awaiting ticket/cancel.';
                                     var7 = var12.bind(var8)(var7);
                                     var12 = var3.encrypted_user_payload;
@@ -500,7 +500,7 @@ case 30:
                                     var7 = var13[var7];
                                     var10 = var10.bind(var8)(var7);
                                     var7 = var10.decodeEncodedUserRecord;
-                                    var6 = _closure3_slot10;
+                                    var6 = _closure3_slot9;
                                     var6 = var6.bind(var8)();
                                     var6 = var7.bind(var10)(var6, var12);
                                     SaveGenerator(address=464);
@@ -713,7 +713,7 @@ case 27:
                                     var5 = var11[var5];
                                     var12 = var7.bind(var8)(var5);
                                     var11 = var12.publicKeyFingerprint;
-                                    var5 = _closure3_slot10;
+                                    var5 = _closure3_slot9;
                                     var5 = var5.bind(var8)();
                                     var5 = var11.bind(var12)(var5);
                                     SaveGenerator(address=840);
@@ -726,7 +726,7 @@ case 66:
                                     var11 = var3.fingerprint;
                                     if(!(var5 === var11)) { _fun0008_ip = 67; continue _fun0008 }
 case 68:
-                                    var11 = _closure3_slot9;
+                                    var11 = _closure3_slot8;
                                     var7 = 'handshake complete awaiting remote auth.';
                                     var7 = var11.bind(var8)(var7);
                                     var7 = _closure2_slot7;
@@ -767,7 +767,7 @@ case 25:
                                     var3 = var6[var3];
                                     var7 = var5.bind(var8)(var3);
                                     var6 = var7.decryptNonce;
-                                    var3 = _closure3_slot10;
+                                    var3 = _closure3_slot9;
                                     var3 = var3.bind(var8)();
                                     var3 = var6.bind(var7)(var3, var10);
                                     SaveGenerator(address=1059);
@@ -777,7 +777,7 @@ case 70:
                                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
                                     if(var6) { _fun0008_ip = 71; continue _fun0008 }
 case 72:
-                                    var7 = _closure3_slot9;
+                                    var7 = _closure3_slot8;
                                     var6 = 'computed nonce proof';
                                     var6 = var7.bind(var8)(var6);
                                     var6 = _closure3_slot1;
@@ -804,7 +804,7 @@ case 19:
                             return var1;
                         };
                         var4 = var3.bind(var4)(var2);
-                        _closure3_slot13 = var4;
+                        _closure3_slot12 = var4;
                         var3 = var4.apply;
                         var1 = arguments;
                         var2 = var1;
@@ -812,99 +812,29 @@ case 19:
                         var1 = var3.bind(var4)(var1, var2);
                         return var1;
                     };
-                    var _closure3_slot13 = var2;
-                    var6 = function onclose(arg1) {
-                        var1 = arg1;
-                        var3 = _closure3_slot9;
-                        var6 = var1.code;
-                        var5 = var1.reason;
-                        var1 = global;
-                        var1 = var1.HermesInternal;
-                        var4 = var1.concat;
-                        var2 = 'disconnected, code: ';
-                        var1 = ' ';
-                        var2 = var4.bind(var2)(var6, var1, var5);
+                    var _closure3_slot12 = var2;
+                    var8 = function onopen() {
                         var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
-                        var2 = _closure2_slot11;
-                        var2 = var2.bind(var1)();
+                        var4 = _closure3_slot14;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
                         return var1;
                     };
-                    var _closure3_slot14 = var6;
-                    var5 = function onerror(arg1) {
-                        var3 = _closure3_slot9;
-                        var1 = global;
-                        var5 = var1.JSON;
-                        var4 = var5.stringify;
-                        var2 = arg1;
-                        var4 = var4.bind(var5)(var2);
-                        var1 = var1.HermesInternal;
-                        var2 = var1.concat;
-                        var1 = 'disconnected, error: ';
-                        var2 = var2.bind(var1)(var4);
+                    var _closure3_slot13 = var8;
+                    var2 = function _onopen() {
+                        var4 = undefined;
                         var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
-                        var2 = _closure2_slot11;
-                        var2 = var2.bind(var1)();
-                        return var1;
-                    };
-                    var _closure3_slot15 = var5;
-                    var2 = global;
-                    var4 = var2.Date;
-                    var3 = var4.now;
-                    var3 = var3.bind(var4)();
-                    var _closure3_slot0 = var3;
-                    var3 = var2.window;
-                    var3 = var3.GLOBAL_ENV;
-                    var9 = var3.REMOTE_AUTH_ENDPOINT;
-                    var3 = var2.HermesInternal;
-                    var8 = var3.concat;
-                    var4 = '';
-                    var3 = '/?v=2';
-                    var8 = var8.bind(var4)(var9, var3);
-                    var4 = var8.startsWith;
-                    var3 = '//';
-                    var3 = var4.bind(var8)(var3);
-                    var11 = var8;
-                    if(!var3) { _fun0005_ip = 73; continue _fun0005 }
-case 74:
-                    var3 = var2.HermesInternal;
-                    var4 = var3.concat;
-                    var3 = 'wss:';
-                    var11 = var4.bind(var3)(var8);
-case 73:
-                    var9 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var3 = 8;
-                    var4 = var4[var3];
-                    var3 = undefined;
-                    var4 = var9.bind(var3)(var4);
-                    var4 = var4.bind(var3)(var11);
-                    var _closure3_slot1 = var4;
-                    var9 = _closure1_slot8;
-                    var8 = var9.info;
-                    var2 = var2.HermesInternal;
-                    var10 = var2.concat;
-                    var2 = '[0ms] connecting to ';
-                    var2 = var10.bind(var2)(var11);
-                    var2 = var8.bind(var9)(var2);
-                    var2 = null;
-                    var _closure3_slot2 = var2;
-                    var _closure3_slot3 = var2;
-                    var _closure3_slot4 = var2;
-                    var _closure3_slot5 = var2;
-                    var2 = true;
-                    var _closure3_slot6 = var2;
-                    var2 = function() {
-                        var4 = _closure1_slot3;
-                        var3 = undefined;
+                        var3 = _closure1_slot3;
                         var2 = function* () {
                             var1 = function* anon_0_() {
                                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(var2) { _fun0010_ip = 75; continue _fun0010 }
+                                    if(var2) { _fun0010_ip = 73; continue _fun0010 }
 case 10:
                                     var3 = _closure1_slot1;
                                     var2 = _closure1_slot2;
@@ -917,10 +847,10 @@ case 10:
                                     SaveGenerator(address=51);
 case 15:
                                     return var2;
-case 76:
+case 74:
                                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                    if(var3) { _fun0010_ip = 77; continue _fun0010 }
-case 78:
+                                    if(var3) { _fun0010_ip = 75; continue _fun0010 }
+case 76:
                                     _closure3_slot2 = var2;
                                     var7 = _closure1_slot1;
                                     var3 = _closure1_slot2;
@@ -930,14 +860,14 @@ case 78:
                                     var3 = _closure3_slot2;
                                     var3 = var7.bind(var9)(var3);
                                     SaveGenerator(address=105);
-case 79:
+case 77:
                                     return var3;
-case 80:
+case 78:
                                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                                    if(var7) { _fun0010_ip = 81; continue _fun0010 }
-case 82:
+                                    if(var7) { _fun0010_ip = 79; continue _fun0010 }
+case 80:
                                     _closure3_slot3 = var3;
-                                    var9 = _closure3_slot9;
+                                    var9 = _closure3_slot8;
                                     var7 = _closure1_slot1;
                                     var4 = _closure1_slot2;
                                     var4 = var4[var8];
@@ -946,12 +876,12 @@ case 82:
                                     var4 = _closure3_slot2;
                                     var4 = var7.bind(var8)(var4);
                                     SaveGenerator(address=158);
-case 83:
+case 81:
                                     return var4;
-case 84:
+case 82:
                                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                                    if(var7) { _fun0010_ip = 85; continue _fun0010 }
-case 86:
+                                    if(var7) { _fun0010_ip = 83; continue _fun0010 }
+case 84:
                                     var7 = global;
                                     var8 = var7.HermesInternal;
                                     var10 = var8.concat;
@@ -973,34 +903,110 @@ case 86:
                                     var6 = _closure3_slot2;
                                     var7['current'] = var6;
                                     return var5;
-case 85:
+case 83:
                                     return var4;
-case 81:
+case 79:
                                     return var3;
-case 77:
-                                    return var2;
 case 75:
+                                    return var2;
+case 73:
                                     return var1;
                                 }
                             };
                             return var1;
                         };
-                        var2 = var4.bind(var3)(var2);
-                        var _closure4_slot0 = var2;
-                        var1 = function() {
-                            var1 = undefined;
-                            var4 = _closure4_slot0;
-                            var3 = var4.apply;
-                            var1 = arguments;
-                            var2 = var1;
-                            var1 = this;
-                            var1 = var3.bind(var4)(var1, var2);
-                            return var1;
-                        };
+                        var4 = var3.bind(var4)(var2);
+                        _closure3_slot14 = var4;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
                         return var1;
                     };
-                    var8 = var2.bind(var3)();
-                    var _closure3_slot7 = var8;
+                    var _closure3_slot14 = var2;
+                    var6 = function onclose(arg1) {
+                        var1 = arg1;
+                        var3 = _closure3_slot8;
+                        var6 = var1.code;
+                        var5 = var1.reason;
+                        var1 = global;
+                        var1 = var1.HermesInternal;
+                        var4 = var1.concat;
+                        var2 = 'disconnected, code: ';
+                        var1 = ' ';
+                        var2 = var4.bind(var2)(var6, var1, var5);
+                        var1 = undefined;
+                        var2 = var3.bind(var1)(var2);
+                        var2 = _closure2_slot11;
+                        var2 = var2.bind(var1)();
+                        return var1;
+                    };
+                    var _closure3_slot15 = var6;
+                    var5 = function onerror(arg1) {
+                        var3 = _closure3_slot8;
+                        var1 = global;
+                        var5 = var1.JSON;
+                        var4 = var5.stringify;
+                        var2 = arg1;
+                        var4 = var4.bind(var5)(var2);
+                        var1 = var1.HermesInternal;
+                        var2 = var1.concat;
+                        var1 = 'disconnected, error: ';
+                        var2 = var2.bind(var1)(var4);
+                        var1 = undefined;
+                        var2 = var3.bind(var1)(var2);
+                        var2 = _closure2_slot11;
+                        var2 = var2.bind(var1)();
+                        return var1;
+                    };
+                    var _closure3_slot16 = var5;
+                    var2 = global;
+                    var4 = var2.Date;
+                    var3 = var4.now;
+                    var3 = var3.bind(var4)();
+                    var _closure3_slot0 = var3;
+                    var3 = var2.window;
+                    var3 = var3.GLOBAL_ENV;
+                    var10 = var3.REMOTE_AUTH_ENDPOINT;
+                    var3 = var2.HermesInternal;
+                    var9 = var3.concat;
+                    var4 = '';
+                    var3 = '/?v=2';
+                    var9 = var9.bind(var4)(var10, var3);
+                    var4 = var9.startsWith;
+                    var3 = '//';
+                    var3 = var4.bind(var9)(var3);
+                    var11 = var9;
+                    if(!var3) { _fun0005_ip = 85; continue _fun0005 }
+case 86:
+                    var3 = var2.HermesInternal;
+                    var4 = var3.concat;
+                    var3 = 'wss:';
+                    var11 = var4.bind(var3)(var9);
+case 85:
+                    var10 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var4 = 8;
+                    var4 = var9[var4];
+                    var9 = undefined;
+                    var4 = var10.bind(var9)(var4);
+                    var4 = var4.bind(var9)(var11);
+                    var _closure3_slot1 = var4;
+                    var9 = _closure1_slot8;
+                    var3 = var9.info;
+                    var2 = var2.HermesInternal;
+                    var10 = var2.concat;
+                    var2 = '[0ms] connecting to ';
+                    var2 = var10.bind(var2)(var11);
+                    var2 = var3.bind(var9)(var2);
+                    var2 = null;
+                    var _closure3_slot2 = var2;
+                    var _closure3_slot3 = var2;
+                    var _closure3_slot4 = var2;
+                    var _closure3_slot5 = var2;
+                    var2 = true;
+                    var _closure3_slot6 = var2;
                     var3 = var4.addEventListener;
                     var2 = 'open';
                     var2 = var3.bind(var4)(var2, var8);
@@ -1016,28 +1022,28 @@ case 75:
                     var1 = function() {
                         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                            var4 = _closure3_slot9;
+                            var4 = _closure3_slot8;
                             var1 = undefined;
                             var3 = 'cleaning up';
                             var3 = var4.bind(var1)(var3);
                             var6 = _closure3_slot1;
                             var5 = var6.removeEventListener;
-                            var4 = _closure3_slot7;
+                            var4 = _closure3_slot13;
                             var3 = 'open';
                             var3 = var5.bind(var6)(var3, var4);
                             var6 = _closure3_slot1;
                             var5 = var6.removeEventListener;
-                            var4 = _closure3_slot12;
+                            var4 = _closure3_slot11;
                             var3 = 'message';
                             var3 = var5.bind(var6)(var3, var4);
                             var6 = _closure3_slot1;
                             var5 = var6.removeEventListener;
-                            var4 = _closure3_slot14;
+                            var4 = _closure3_slot15;
                             var3 = 'close';
                             var3 = var5.bind(var6)(var3, var4);
                             var6 = _closure3_slot1;
                             var5 = var6.removeEventListener;
-                            var4 = _closure3_slot15;
+                            var4 = _closure3_slot16;
                             var3 = 'error';
                             var3 = var5.bind(var6)(var3, var4);
                             var5 = _closure3_slot1;

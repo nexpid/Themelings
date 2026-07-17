@@ -624,7 +624,7 @@ case 34:
         }
     };
     var3['getStickerAssetUrl'] = var5;
-    var5 = function(arg1, arg2) {
+    var5 = function getStickerPackBannerAssetUrl(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var6 = arg2;

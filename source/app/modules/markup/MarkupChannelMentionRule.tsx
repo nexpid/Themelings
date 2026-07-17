@@ -1,13 +1,13 @@
 // app/modules/markup/MarkupChannelMentionRule.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var10 = metroImportDefault;
+    var9 = require;
+    var14 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var10;
-    var _closure1_slot2 = var6;
-    var1 = function getGuildIdFromChannelId(arg1) {
+    var10 = dependencyMap;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var14;
+    var _closure1_slot2 = var10;
+    var6 = function getGuildIdFromChannelId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = _closure1_slot4;
@@ -25,7 +25,7 @@ case 2:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot11 = var6;
     var1 = function makeGuild(arg1) {
         var5 = arg1;
         var1 = {};
@@ -128,7 +128,7 @@ case 6:
         }
     };
     var _closure1_slot14 = var1;
-    var1 = function getChannel(arg1, arg2) {
+    var5 = function getChannel(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var13 = arg1;
@@ -262,7 +262,7 @@ case 19:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot15 = var5;
     var1 = function makeLink(arg1) {
         var2 = arg1;
         var1 = {};
@@ -290,7 +290,7 @@ case 19:
         return var1;
     };
     var _closure1_slot17 = var1;
-    var1 = function handleUnknownChannel(arg1, arg2, arg3, arg4, arg5) {
+    var4 = function handleUnknownChannel(arg1, arg2, arg3, arg4, arg5) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var3 = arg1;
@@ -360,7 +360,7 @@ case 23:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot18 = var4;
     var1 = function formatChannelMentionContent(arg1, arg2, arg3, arg4) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -489,7 +489,7 @@ case 43:
         }
     };
     var _closure1_slot19 = var1;
-    var1 = function parseChannel(arg1, arg2, arg3, arg4) {
+    var2 = function parseChannel(arg1, arg2, arg3, arg4) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var6 = arg1;
@@ -660,65 +660,65 @@ case 60:
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot20 = var2;
     var1 = global;
-    var8 = var1.Object;
-    var4 = var8.defineProperty;
-    var2 = {};
+    var12 = var1.Object;
+    var8 = var12.defineProperty;
+    var7 = {};
     var1 = true;
-    var2['value'] = var1;
+    var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
+    var1 = var8.bind(var12)(var3, var1, var7);
     var1 = 0;
-    var2 = var6[var1];
+    var7 = var10[var1];
     var1 = undefined;
-    var2 = var10.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var6[var2];
-    var2 = var10.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var10.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var10.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var10.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var10.bind(var1)(var2);
-    var _closure1_slot8 = var2;
-    var2 = 6;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var4 = var2.ChannelTypes;
-    var _closure1_slot9 = var4;
-    var2 = var2.ME;
-    var _closure1_slot10 = var2;
-    var2 = {};
-    var4 = {};
-    var8 = 15;
-    var8 = var6[var8];
-    var8 = var10.bind(var1)(var8);
-    var8 = var8.order;
-    var4['order'] = var8;
-    var8 = ['<'];
-    var4['requiredFirstCharacters'] = var8;
-    var8 = function match(arg1) {
+    var7 = var14.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var10[var7];
+    var7 = var14.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var10[var7];
+    var7 = var14.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var10[var7];
+    var7 = var14.bind(var1)(var7);
+    var _closure1_slot6 = var7;
+    var7 = 4;
+    var7 = var10[var7];
+    var7 = var14.bind(var1)(var7);
+    var _closure1_slot7 = var7;
+    var7 = 5;
+    var7 = var10[var7];
+    var7 = var14.bind(var1)(var7);
+    var _closure1_slot8 = var7;
+    var7 = 6;
+    var7 = var10[var7];
+    var7 = var9.bind(var1)(var7);
+    var8 = var7.ChannelTypes;
+    var _closure1_slot9 = var8;
+    var7 = var7.ME;
+    var _closure1_slot10 = var7;
+    var7 = {};
+    var8 = {};
+    var12 = 15;
+    var12 = var10[var12];
+    var12 = var14.bind(var1)(var12);
+    var12 = var12.order;
+    var8['order'] = var12;
+    var12 = ['<'];
+    var8['requiredFirstCharacters'] = var12;
+    var12 = function match(arg1) {
         var3 = /^<#(\d+)>/;
         var2 = var3.exec;
         var1 = arg1;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['match'] = var8;
-    var8 = function parse(arg1, arg2, arg3) {
+    var8['match'] = var12;
+    var12 = function parse(arg1, arg2, arg3) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var3 = arg3;
@@ -761,21 +761,21 @@ case 61:
             return var1;
         }
     };
-    var4['parse'] = var8;
-    var2['channelMention'] = var4;
-    var4 = {};
-    var8 = 16;
-    var9 = var6[var8];
-    var9 = var10.bind(var1)(var9);
-    var9 = var9.defaultRules;
-    var9 = var9.url;
-    var11 = var9.order;
-    var9 = 0.5;
-    var11 = var11 - var9;
-    var4['order'] = var11;
-    var11 = ['h'];
-    var4['requiredFirstCharacters'] = var11;
-    var11 = function match(arg1) {
+    var8['parse'] = var12;
+    var7['channelMention'] = var8;
+    var8 = {};
+    var12 = 16;
+    var13 = var10[var12];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.defaultRules;
+    var13 = var13.url;
+    var15 = var13.order;
+    var13 = 0.5;
+    var15 = var15 - var13;
+    var8['order'] = var15;
+    var15 = ['h'];
+    var8['requiredFirstCharacters'] = var15;
+    var15 = function match(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
             var3 = _closure1_slot0;
@@ -818,8 +818,8 @@ case 49:
             return var1;
         }
     };
-    var4['match'] = var11;
-    var11 = function parse(arg1, arg2, arg3) {
+    var8['match'] = var15;
+    var15 = function parse(arg1, arg2, arg3) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var4 = arg1;
@@ -870,19 +870,19 @@ case 70:
             return var1;
         }
     };
-    var4['parse'] = var11;
-    var2['channelOrMessageUrl'] = var4;
-    var4 = {};
-    var8 = var6[var8];
-    var8 = var10.bind(var1)(var8);
-    var8 = var8.defaultRules;
-    var8 = var8.url;
-    var8 = var8.order;
-    var8 = var8 - var9;
-    var4['order'] = var8;
-    var8 = ['h'];
-    var4['requiredFirstCharacters'] = var8;
-    var8 = function match(arg1) {
+    var8['parse'] = var15;
+    var7['channelOrMessageUrl'] = var8;
+    var8 = {};
+    var12 = var10[var12];
+    var12 = var14.bind(var1)(var12);
+    var12 = var12.defaultRules;
+    var12 = var12.url;
+    var12 = var12.order;
+    var12 = var12 - var13;
+    var8['order'] = var12;
+    var12 = ['h'];
+    var8['requiredFirstCharacters'] = var12;
+    var12 = function match(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 14;
@@ -895,8 +895,8 @@ case 70:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var4['match'] = var8;
-    var7 = function parse(arg1, arg2, arg3) {
+    var8['match'] = var12;
+    var11 = function parse(arg1, arg2, arg3) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var4 = arg1;
@@ -966,14 +966,18 @@ case 73:
             return var1;
         }
     };
-    var4['parse'] = var7;
-    var2['mediaPostLink'] = var4;
-    var4 = 17;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/markup/MarkupChannelMentionRule.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var8['parse'] = var11;
+    var7['mediaPostLink'] = var8;
+    var8 = 17;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/markup/MarkupChannelMentionRule.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['default'] = var7;
+    var3['getGuildIdFromChannelId'] = var6;
+    var3['getChannel'] = var5;
+    var3['handleUnknownChannel'] = var4;
+    var3['parseChannel'] = var2;
     return var1;
 })();

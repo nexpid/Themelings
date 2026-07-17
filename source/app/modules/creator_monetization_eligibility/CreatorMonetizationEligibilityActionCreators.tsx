@@ -19,24 +19,27 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 3;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.post;
                     var2 = {};
-                    var8 = _closure1_slot4;
-                    var7 = var8.CREATOR_MONETIZATION_ENABLE_REQUESTS;
-                    var6 = arg1;
-                    var6 = var7.bind(var8)(var6);
-                    var2['url'] = var6;
-                    var6 = false;
+                    var11 = _closure1_slot4;
+                    var10 = var11.CREATOR_MONETIZATION_ENABLE_REQUESTS;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=82);
+                    SaveGenerator(address=99);
 case 4:
                     return var2;
 case 5:
@@ -74,24 +77,27 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var7 = _closure1_slot4;
-                    var6 = var7.CREATOR_MONETIZATION_ELIGIBILITY;
-                    var5 = arg1;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot4;
+                    var10 = var11.CREATOR_MONETIZATION_ELIGIBILITY;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=81);
+                    SaveGenerator(address=98);
 case 9:
                     return var2;
 case 10:
@@ -130,25 +136,28 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 8; continue _fun0003 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 3;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.post;
                     var2 = {};
-                    var9 = _closure1_slot4;
-                    var8 = var9.CREATOR_MONETIZATION_ACCEPT_TERMS;
-                    var7 = arg1;
-                    var6 = arg2;
-                    var6 = var8.bind(var9)(var7, var6);
-                    var2['url'] = var6;
-                    var6 = false;
+                    var12 = _closure1_slot4;
+                    var11 = var12.CREATOR_MONETIZATION_ACCEPT_TERMS;
+                    var10 = arg1;
+                    var9 = arg2;
+                    var9 = var11.bind(var12)(var10, var9);
+                    var2['url'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=86);
+                    SaveGenerator(address=103);
 case 13:
                     return var2;
 case 14:
@@ -186,24 +195,27 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0004_ip = 2; continue _fun0004 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 3;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.post;
                     var2 = {};
-                    var8 = _closure1_slot4;
-                    var7 = var8.CREATOR_MONETIZATION_ACCEPT_TERMS_V2;
-                    var6 = arg1;
-                    var6 = var7.bind(var8)(var6);
-                    var2['url'] = var6;
-                    var6 = false;
+                    var11 = _closure1_slot4;
+                    var10 = var11.CREATOR_MONETIZATION_ACCEPT_TERMS_V2;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=82);
+                    SaveGenerator(address=99);
 case 4:
                     return var2;
 case 5:
@@ -241,24 +253,27 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0005_ip = 8; continue _fun0005 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var7 = _closure1_slot4;
-                    var6 = var7.CREATOR_MONETIZATION_MARKETING_ONBOARDING;
-                    var5 = arg1;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot4;
+                    var10 = var11.CREATOR_MONETIZATION_MARKETING_ONBOARDING;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=81);
+                    SaveGenerator(address=98);
 case 9:
                     return var2;
 case 10:
@@ -297,28 +312,31 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0006_ip = 16; continue _fun0006 }
 case 17:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var5[var2];
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = 3;
+                    var2 = var9[var7];
                     var6 = undefined;
-                    var2 = var3.bind(var6)(var2);
+                    var2 = var8.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.post;
                     var2 = {};
-                    var9 = _closure1_slot4;
-                    var8 = var9.CREATOR_MONETIZATION_OWNERSHIP_TRANSFER_ONBOARD;
-                    var7 = arg1;
-                    var7 = var8.bind(var9)(var7);
-                    var2['url'] = var7;
-                    var7 = {};
-                    var8 = arg2;
-                    var7['team_id'] = var8;
-                    var2['body'] = var7;
-                    var7 = false;
+                    var12 = _closure1_slot4;
+                    var11 = var12.CREATOR_MONETIZATION_OWNERSHIP_TRANSFER_ONBOARD;
+                    var10 = arg1;
+                    var10 = var11.bind(var12)(var10);
+                    var2['url'] = var10;
+                    var10 = {};
+                    var11 = arg2;
+                    var10['team_id'] = var11;
+                    var2['body'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var2['rejectWithError'] = var7;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=99);
+                    SaveGenerator(address=116);
 case 18:
                     return var2;
 case 19:
@@ -374,26 +392,29 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0007_ip = 24; continue _fun0007 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 3;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.post;
                     var2 = {};
-                    var8 = _closure1_slot4;
-                    var7 = var8.CREATOR_MONETIZATION_REMOVE_MONETIZATION;
-                    var6 = arg1;
-                    var6 = var7.bind(var8)(var6);
-                    var2['url'] = var6;
-                    var6 = {};
-                    var2['body'] = var6;
-                    var6 = false;
+                    var11 = _closure1_slot4;
+                    var10 = var11.CREATOR_MONETIZATION_REMOVE_MONETIZATION;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var9 = {};
+                    var2['body'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=88);
+                    SaveGenerator(address=105);
 case 14:
                     return var2;
 case 7:
@@ -465,14 +486,14 @@ case 29:
                     var3['includeTeam'] = var7;
                     var3 = var4.bind(var5)(var6, var3);
                     SaveGenerator(address=98);
-case 30:
+case 9:
                     return var3;
-case 8:
+case 10:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
+                    if(var4) { _fun0008_ip = 30; continue _fun0008 }
+case 12:
                     return var3;
-case 31:
+case 30:
                     return var3;
 case 28:
                     return var2;
@@ -588,42 +609,48 @@ case 25:
     };
     var3['ownershipTransferOnboard'] = var4;
     var4 = function acceptNewTerms(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 3;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var6 = _closure1_slot4;
-        var5 = var6.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS;
-        var4 = arg1;
-        var4 = var5.bind(var6)(var4);
-        var1['url'] = var4;
-        var4 = false;
+        var10 = _closure1_slot4;
+        var9 = var10.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS;
+        var8 = arg1;
+        var8 = var9.bind(var10)(var8);
+        var1['url'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;
     };
     var3['acceptNewTerms'] = var4;
     var4 = function acceptNewTermsDemonetized(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 3;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var6 = _closure1_slot4;
-        var5 = var6.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED;
-        var4 = arg1;
-        var4 = var5.bind(var6)(var4);
-        var1['url'] = var4;
-        var4 = false;
+        var10 = _closure1_slot4;
+        var9 = var10.CREATOR_MONETIZATION_ACCEPT_NEW_TERMS_DEMONETIZED;
+        var8 = arg1;
+        var8 = var9.bind(var10)(var8);
+        var1['url'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;

@@ -992,7 +992,7 @@ case 88:
         }
     };
     var3['useGetSnowflakeBoundDismissibleContent'] = var4;
-    var4 = function UNSAFE_useGetSnowflakeBoundGuildDismissibleContent(arg1, arg2, arg3, arg4) {
+    var4 = function useGetSnowflakeBoundGuildDismissibleContent_UNSAFE(arg1, arg2, arg3, arg4) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var5 = arg1;
@@ -1166,7 +1166,7 @@ case 106:
             return var1;
         }
     };
-    var3['UNSAFE_useGetSnowflakeBoundGuildDismissibleContent'] = var4;
+    var3['useGetSnowflakeBoundGuildDismissibleContent_UNSAFE'] = var4;
     var4 = function useGetTimeRecurringSnowflakeBoundDismissibleContent(arg1, arg2, arg3, arg4) {
         _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
@@ -1267,7 +1267,7 @@ case 88:
         }
     };
     var3['useGetTimeRecurringSnowflakeBoundDismissibleContent'] = var4;
-    var4 = function UNSAFE_useGetSingleUseGuildDismissibleContent(arg1, arg2, arg3) {
+    var4 = function useGetSingleUseGuildDismissibleContent_UNSAFE(arg1, arg2, arg3) {
         _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var6 = arg2;
@@ -1411,8 +1411,8 @@ case 90:
             return var1;
         }
     };
-    var3['UNSAFE_useGetSingleUseGuildDismissibleContent'] = var4;
-    var4 = function UNSAFE_useGetTimeRecurringGuildDismissibleContent(arg1, arg2, arg3, arg4) {
+    var3['useGetSingleUseGuildDismissibleContent_UNSAFE'] = var4;
+    var4 = function useGetTimeRecurringGuildDismissibleContent_UNSAFE(arg1, arg2, arg3, arg4) {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var5 = arg1;
@@ -1542,7 +1542,7 @@ case 90:
             return var1;
         }
     };
-    var3['UNSAFE_useGetTimeRecurringGuildDismissibleContent'] = var4;
+    var3['useGetTimeRecurringGuildDismissibleContent_UNSAFE'] = var4;
     var2 = function useDangerouslyPeekDismissibleContents(arg1) {
         var3 = arg1;
         var6 = _closure1_slot0;

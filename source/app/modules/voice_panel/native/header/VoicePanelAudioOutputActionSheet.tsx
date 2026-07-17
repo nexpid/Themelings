@@ -363,7 +363,7 @@ case 22:
             var1 = 22;
             var1 = var7[var1];
             var3 = var4.bind(var5)(var1);
-            var2 = var3.UNSAFE_useIsDismissibleContentDismissed;
+            var2 = var3.useIsDismissibleContentDismissed_UNSAFE;
             var1 = 23;
             var1 = var7[var1];
             var1 = var4.bind(var5)(var1);

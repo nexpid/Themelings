@@ -121,7 +121,7 @@ case 5:
                     var2 = var2.ApplicationCommandType;
                     var2 = var2.USER;
                     if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
-case 6:
+case 2:
                     return var6;
 case 4:
                     var2 = _closure1_slot0;
@@ -140,11 +140,11 @@ case 4:
                     var7 = null;
                     var7 = var7 == var8;
                     var6 = undefined;
-                    if(var7) { _fun0002_ip = 7; continue _fun0002 }
-case 8:
+                    if(var7) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var7 = _closure2_slot1;
                     var6 = var7.name;
-case 7:
+case 6:
                     var1['applicationName'] = var6;
                     var5 = _closure2_slot0;
                     var5 = var5.displayName;
@@ -172,8 +172,8 @@ case 7:
             var9 = var9.displayName;
             var1['label'] = var9;
             var8 = var8 != var12;
-            if(!var8) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
+            if(!var8) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var11 = _closure1_slot5;
             var10 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -185,7 +185,7 @@ case 10:
             var9['style'] = var13;
             var9['source'] = var12;
             var8 = var11.bind(var4)(var10, var9);
-case 9:
+case 8:
             var1['icon'] = var8;
             var9 = _closure1_slot5;
             var8 = _closure1_slot0;
@@ -330,8 +330,8 @@ case 0:
             var1['label'] = var7;
             var7 = null;
             var7 = var7 != var11;
-            if(!var7) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+            if(!var7) { _fun0003_ip = 10; continue _fun0003 }
+case 11:
             var10 = _closure1_slot5;
             var9 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -343,7 +343,7 @@ case 12:
             var8['style'] = var12;
             var8['source'] = var11;
             var7 = var10.bind(var4)(var9, var8);
-case 11:
+case 10:
             var1['icon'] = var7;
             var1['start'] = var6;
             var1['end'] = var5;

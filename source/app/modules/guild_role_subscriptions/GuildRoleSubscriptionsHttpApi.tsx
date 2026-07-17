@@ -17,28 +17,31 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var7 = arg1;
-                    var6 = arg2;
-                    var5 = arg3;
+                    var11 = arg1;
+                    var10 = arg2;
+                    var9 = arg3;
 case 4: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.patch;
                     var2 = {};
-                    var9 = _closure1_slot3;
-                    var8 = var9.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
-                    var6 = var8.bind(var9)(var7, var6);
-                    var2['url'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
+                    var10 = var12.bind(var13)(var11, var10);
+                    var2['url'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=96);
+                    SaveGenerator(address=113);
 case 5:
                     return var2;
 case 6:
@@ -61,9 +64,9 @@ case 10: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var12 = var3;
-                    var11 = var4;
-                    var2 = new var12[var2](var11, var10);
+                    var16 = var3;
+                    var15 = var4;
+                    var2 = new var16[var2](var15, var14);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 2:
@@ -94,27 +97,30 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 11; continue _fun0002 }
 case 3:
-                    var6 = arg1;
-                    var5 = arg2;
+                    var10 = arg1;
+                    var9 = arg2;
 case 12: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var8 = _closure1_slot3;
-                    var7 = var8.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
-                    var6 = var7.bind(var8)(var6);
-                    var2['url'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var12 = _closure1_slot3;
+                    var11 = var12.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
+                    var10 = var11.bind(var12)(var10);
+                    var2['url'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=92);
+                    SaveGenerator(address=109);
 case 13:
                     return var2;
 case 14:
@@ -137,9 +143,9 @@ case 18: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var10 = var3;
-                    var9 = var4;
-                    var2 = new var10[var2](var9, var8);
+                    var14 = var3;
+                    var13 = var4;
+                    var2 = new var14[var2](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 11:
@@ -170,26 +176,29 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 19; continue _fun0003 }
 case 3:
-                    var7 = arg1;
-                    var6 = arg2;
+                    var10 = arg1;
+                    var9 = arg2;
 case 12: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var6 = 3;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.del;
                     var2 = {};
-                    var9 = _closure1_slot3;
-                    var8 = var9.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
-                    var6 = var8.bind(var9)(var7, var6);
-                    var2['url'] = var6;
-                    var6 = false;
+                    var12 = _closure1_slot3;
+                    var11 = var12.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
+                    var9 = var11.bind(var12)(var10, var9);
+                    var2['url'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=89);
+                    SaveGenerator(address=106);
 case 20:
                     return var2;
 case 21:
@@ -210,9 +219,9 @@ case 23: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var12 = var3;
-                    var11 = var4;
-                    var2 = new var12[var2](var11, var10);
+                    var15 = var3;
+                    var14 = var4;
+                    var2 = new var15[var2](var14, var13);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 19:
@@ -244,17 +253,17 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0004_ip = 24; continue _fun0004 }
 case 25:
-                    var10 = arg1;
-                    var7 = arg2;
-                    var8 = var5.priceTier;
+                    var13 = arg1;
+                    var10 = arg2;
+                    var11 = var5.priceTier;
                     var2 = null;
                     var4 = Object.create(var2);
                     var2 = 0;
                     var4['priceTier'] = var2;
-                    var15 = {};
-                    var14 = var5;
-                    var13 = var4;
-                    var9 = copyDataProperties(var15, var14, var13);
+                    var18 = {};
+                    var17 = var5;
+                    var16 = var4;
+                    var12 = copyDataProperties(var18, var17, var16);
                     var6 = undefined;
                     SaveGenerator(address=55);
 case 26:
@@ -263,30 +272,33 @@ case 27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0004_ip = 28; continue _fun0004 }
 case 29: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot1;
-                    var3 = 3;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var6)(var3);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var7 = 3;
+                    var3 = var9[var7];
+                    var3 = var8.bind(var6)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.post;
                     var3 = {};
-                    var12 = _closure1_slot3;
-                    var11 = var12.GUILD_ROLE_SUBSCRIPTION_LISTINGS;
-                    var7 = var11.bind(var12)(var10, var7);
-                    var3['url'] = var7;
-                    var7 = {};
-                    var14 = var9;
-                    var15 = var7;
-                    var9 = copyDataProperties(var15, var14);
-                    var9 = var8;
-                    var8 = 'price_tier';
-                    var7[7] = var9;
-                    var3['body'] = var7;
-                    var7 = false;
+                    var15 = _closure1_slot3;
+                    var14 = var15.GUILD_ROLE_SUBSCRIPTION_LISTINGS;
+                    var10 = var14.bind(var15)(var13, var10);
+                    var3['url'] = var10;
+                    var10 = {};
+                    var17 = var12;
+                    var18 = var10;
+                    var12 = copyDataProperties(var18, var17);
+                    var12 = var11;
+                    var11 = 'price_tier';
+                    var10[10] = var12;
+                    var3['body'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=163);
+                    SaveGenerator(address=180);
 case 30:
                     return var3;
 case 31:
@@ -308,9 +320,9 @@ case 35: // catch_target0
                     var3 = var3.APIError;
                     var4 = var3.prototype;
                     var4 = Object.create(var4, {constructor: {value: var3}});
-                    var16 = var4;
-                    var15 = var5;
-                    var3 = new var16[var3](var15, var14);
+                    var19 = var4;
+                    var18 = var5;
+                    var3 = new var19[var3](var18, var17);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
 case 28:
@@ -346,18 +358,18 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0005_ip = 36; continue _fun0005 }
 case 25:
-                    var11 = arg1;
-                    var10 = arg2;
-                    var7 = arg3;
-                    var8 = var5.priceTier;
+                    var14 = arg1;
+                    var13 = arg2;
+                    var10 = arg3;
+                    var11 = var5.priceTier;
                     var2 = null;
                     var4 = Object.create(var2);
                     var2 = 0;
                     var4['priceTier'] = var2;
-                    var16 = {};
-                    var15 = var5;
-                    var14 = var4;
-                    var9 = copyDataProperties(var16, var15, var14);
+                    var19 = {};
+                    var18 = var5;
+                    var17 = var4;
+                    var12 = copyDataProperties(var19, var18, var17);
                     var6 = undefined;
                     SaveGenerator(address=58);
 case 37:
@@ -366,30 +378,33 @@ case 38:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0005_ip = 39; continue _fun0005 }
 case 40: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot1;
-                    var3 = 3;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var6)(var3);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var7 = 3;
+                    var3 = var9[var7];
+                    var3 = var8.bind(var6)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.patch;
                     var3 = {};
-                    var13 = _closure1_slot3;
-                    var12 = var13.GUILD_ROLE_SUBSCRIPTION_LISTINGS;
-                    var7 = var12.bind(var13)(var11, var10, var7);
-                    var3['url'] = var7;
-                    var7 = {};
-                    var15 = var9;
-                    var16 = var7;
-                    var9 = copyDataProperties(var16, var15);
-                    var9 = var8;
-                    var8 = 'price_tier';
-                    var7[7] = var9;
-                    var3['body'] = var7;
-                    var7 = false;
+                    var16 = _closure1_slot3;
+                    var15 = var16.GUILD_ROLE_SUBSCRIPTION_LISTINGS;
+                    var10 = var15.bind(var16)(var14, var13, var10);
+                    var3['url'] = var10;
+                    var10 = {};
+                    var18 = var12;
+                    var19 = var10;
+                    var12 = copyDataProperties(var19, var18);
+                    var12 = var11;
+                    var11 = 'price_tier';
+                    var10[10] = var12;
+                    var3['body'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=167);
+                    SaveGenerator(address=184);
 case 41:
                     return var3;
 case 11:
@@ -411,9 +426,9 @@ case 45: // catch_target0
                     var3 = var3.APIError;
                     var4 = var3.prototype;
                     var4 = Object.create(var4, {constructor: {value: var3}});
-                    var17 = var4;
-                    var16 = var5;
-                    var3 = new var17[var3](var16, var15);
+                    var20 = var4;
+                    var19 = var5;
+                    var3 = new var20[var3](var19, var18);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
 case 39:
@@ -449,17 +464,17 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0006_ip = 46; continue _fun0006 }
 case 25:
-                    var8 = arg1;
+                    var11 = arg1;
                     var6 = undefined;
                     if(!(var2 === var6)) { _fun0006_ip = 47; continue _fun0006 }
 case 48:
                     var5 = {};
-                    var9 = false;
-                    var5['includeSoftDeleted'] = var9;
+                    var7 = false;
+                    var5['includeSoftDeleted'] = var7;
                     var2 = var5;
 case 47:
                     var4 = var2;
-                    var7 = undefined;
+                    var10 = undefined;
                     SaveGenerator(address=43);
 case 49:
                     return var6;
@@ -472,25 +487,28 @@ case 52:
                     var3['include_soft_deleted'] = var5;
                     var4 = var4.countryCode;
                     var3['country_code'] = var4;
-                    var7 = var3;
+                    var10 = var3;
 case 53: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot1;
-                    var3 = 3;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var6)(var3);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var7 = 3;
+                    var3 = var9[var7];
+                    var3 = var8.bind(var6)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.get;
                     var3 = {};
-                    var10 = _closure1_slot3;
-                    var9 = var10.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
-                    var8 = var9.bind(var10)(var8);
-                    var3['url'] = var8;
-                    var3['query'] = var7;
-                    var7 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
+                    var11 = var12.bind(var13)(var11);
+                    var3['url'] = var11;
+                    var3['query'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=155);
+                    SaveGenerator(address=172);
 case 54:
                     return var3;
 case 55:
@@ -512,9 +530,9 @@ case 57: // catch_target0
                     var3 = var3.APIError;
                     var4 = var3.prototype;
                     var4 = Object.create(var4, {constructor: {value: var3}});
-                    var12 = var4;
-                    var11 = var5;
-                    var3 = new var12[var3](var11, var10);
+                    var15 = var4;
+                    var14 = var5;
+                    var3 = new var15[var3](var14, var13);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
 case 51:
@@ -549,27 +567,30 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0007_ip = 16; continue _fun0007 }
 case 58:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var7 = _closure1_slot3;
-                    var6 = var7.GUILD_ROLE_SUBSCRIPTIONS_SETTINGS;
-                    var5 = arg1;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot3;
+                    var10 = var11.GUILD_ROLE_SUBSCRIPTIONS_SETTINGS;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=81);
+                    SaveGenerator(address=98);
 case 59:
                     return var2;
-case 53:
+case 60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0007_ip = 22; continue _fun0007 }
 case 20:
@@ -605,27 +626,30 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0008_ip = 11; continue _fun0008 }
 case 3:
-                    var6 = arg1;
-                    var5 = arg2;
+                    var10 = arg1;
+                    var9 = arg2;
 case 12: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.patch;
                     var2 = {};
-                    var8 = _closure1_slot3;
-                    var7 = var8.GUILD_ROLE_SUBSCRIPTIONS_SETTINGS;
-                    var6 = var7.bind(var8)(var6);
-                    var2['url'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var12 = _closure1_slot3;
+                    var11 = var12.GUILD_ROLE_SUBSCRIPTIONS_SETTINGS;
+                    var10 = var11.bind(var12)(var10);
+                    var2['url'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=92);
+                    SaveGenerator(address=109);
 case 13:
                     return var2;
 case 14:
@@ -648,9 +672,9 @@ case 18: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var10 = var3;
-                    var9 = var4;
-                    var2 = new var10[var2](var9, var8);
+                    var14 = var3;
+                    var13 = var4;
+                    var2 = new var14[var2](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 11:
@@ -679,44 +703,47 @@ case 11:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 60; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 61; continue _fun0009 }
 case 3:
-                    var6 = arg1;
+                    var10 = arg1;
 case 25: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var5 = _closure1_slot3;
-                    var5 = var5.PRICE_TIERS;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var7 = _closure1_slot4;
-                    var7 = var7.GUILD_ROLE_SUBSCRIPTIONS;
-                    var5['price_tier_type'] = var7;
-                    var5['guild_id'] = var6;
-                    var2['query'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot3;
+                    var9 = var9.PRICE_TIERS;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var11 = _closure1_slot4;
+                    var11 = var11.GUILD_ROLE_SUBSCRIPTIONS;
+                    var9['price_tier_type'] = var11;
+                    var9['guild_id'] = var10;
+                    var2['query'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=107);
-case 61:
+                    SaveGenerator(address=124);
+case 62:
                     return var2;
 case 9:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0009_ip = 62; continue _fun0009 }
+                    if(var3) { _fun0009_ip = 63; continue _fun0009 }
 case 10:
                     var3 = var2.body;
-case 63: // try_end0
+case 64: // try_end0
                     return var3;
-case 62:
+case 63:
                     return var2;
-case 64: // catch_target0
+case 65: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot1;
@@ -727,12 +754,12 @@ case 64: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var9 = var3;
-                    var8 = var4;
-                    var2 = new var9[var2](var8, var7);
+                    var13 = var3;
+                    var12 = var4;
+                    var2 = new var13[var2](var12, var11);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
-case 60:
+case 61:
                     return var1;
                 }
             };
@@ -759,55 +786,58 @@ case 0:
                     StartGenerator();
                     var2 = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0010_ip = 65; continue _fun0010 }
+                    if(var3) { _fun0010_ip = 66; continue _fun0010 }
 case 25:
-                    var9 = arg1;
-                    var7 = arg2;
+                    var12 = arg1;
+                    var10 = arg2;
                     var6 = undefined;
-                    if(!(var2 === var6)) { _fun0010_ip = 66; continue _fun0010 }
-case 67:
-                    var2 = {};
-case 66:
-                    var8 = var2;
-                    SaveGenerator(address=34);
+                    if(!(var2 === var6)) { _fun0010_ip = 67; continue _fun0010 }
 case 68:
+                    var2 = {};
+case 67:
+                    var11 = var2;
+                    SaveGenerator(address=34);
+case 69:
                     return var6;
 case 47:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0010_ip = 69; continue _fun0010 }
+                    if(var3) { _fun0010_ip = 70; continue _fun0010 }
 case 50: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot1;
-                    var3 = 3;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var6)(var3);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var7 = 3;
+                    var3 = var9[var7];
+                    var3 = var8.bind(var6)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.get;
                     var3 = {};
-                    var11 = _closure1_slot3;
-                    var10 = var11.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
-                    var7 = var10.bind(var11)(var9, var7);
-                    var3['url'] = var7;
-                    var7 = {};
-                    var9 = var8.includeDraftListings;
-                    var7['include_draft_listings'] = var9;
-                    var8 = var8.includeArchivedListings;
-                    var7['include_archived_listings'] = var8;
-                    var3['query'] = var7;
-                    var7 = false;
+                    var14 = _closure1_slot3;
+                    var13 = var14.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTINGS;
+                    var10 = var13.bind(var14)(var12, var10);
+                    var3['url'] = var10;
+                    var10 = {};
+                    var12 = var11.includeDraftListings;
+                    var10['include_draft_listings'] = var12;
+                    var11 = var11.includeArchivedListings;
+                    var10['include_archived_listings'] = var11;
+                    var3['query'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=148);
-case 70:
-                    return var3;
+                    SaveGenerator(address=165);
 case 71:
+                    return var3;
+case 72:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0010_ip = 72; continue _fun0010 }
-case 73:
+                    if(var4) { _fun0010_ip = 73; continue _fun0010 }
+case 74:
                     var4 = var3.body;
 case 19: // try_end0
                     return var4;
-case 72:
+case 73:
                     return var3;
 case 41: // catch_target0
                     CatchBlockStart(arg_register=4);
@@ -819,14 +849,14 @@ case 41: // catch_target0
                     var3 = var3.APIError;
                     var4 = var3.prototype;
                     var4 = Object.create(var4, {constructor: {value: var3}});
-                    var14 = var4;
-                    var13 = var5;
-                    var3 = new var14[var3](var13, var12);
+                    var17 = var4;
+                    var16 = var5;
+                    var3 = new var17[var3](var16, var15);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
-case 69:
+case 70:
                     return var2;
-case 65:
+case 66:
                     return var1;
                 }
             };
@@ -856,28 +886,31 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0011_ip = 19; continue _fun0011 }
 case 3:
-                    var5 = arg1;
+                    var9 = arg1;
 case 25: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var7 = _closure1_slot3;
-                    var6 = var7.SUBSCRIPTION_PLAN_GUILD_ROLE_GROUP_LISTING;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot3;
+                    var10 = var11.SUBSCRIPTION_PLAN_GUILD_ROLE_GROUP_LISTING;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=84);
-case 74:
-                    return var2;
+                    SaveGenerator(address=101);
 case 75:
+                    return var2;
+case 76:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0011_ip = 16; continue _fun0011 }
 case 13:
@@ -897,9 +930,9 @@ case 23: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var9 = var3;
-                    var8 = var4;
-                    var2 = new var9[var2](var8, var7);
+                    var13 = var3;
+                    var12 = var4;
+                    var2 = new var13[var2](var12, var11);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 19:
@@ -930,37 +963,40 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0012_ip = 31; continue _fun0012 }
 case 3:
-                    var8 = arg1;
-                    var7 = arg2;
-                    var6 = arg3;
+                    var11 = arg1;
+                    var10 = arg2;
+                    var9 = arg3;
 case 4: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var6 = 3;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.del;
                     var2 = {};
-                    var10 = _closure1_slot3;
-                    var9 = var10.GUILD_ROLE_SUBSCRIPTION_LISTINGS;
-                    var6 = var9.bind(var10)(var8, var7, var6);
-                    var2['url'] = var6;
-                    var6 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.GUILD_ROLE_SUBSCRIPTION_LISTINGS;
+                    var9 = var12.bind(var13)(var11, var10, var9);
+                    var2['url'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=93);
-case 76:
-                    return var2;
+                    SaveGenerator(address=110);
 case 77:
+                    return var2;
+case 78:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0012_ip = 8; continue _fun0012 }
-case 78: // try_end0
+case 79: // try_end0
                     return var3;
 case 8:
                     return var2;
-case 61: // catch_target0
+case 62: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot1;
@@ -971,9 +1007,9 @@ case 61: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var14 = var3;
-                    var13 = var4;
-                    var2 = new var14[var2](var13, var12);
+                    var17 = var3;
+                    var16 = var4;
+                    var2 = new var17[var2](var16, var15);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 31:
@@ -1002,37 +1038,40 @@ case 31:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0013_ip = 79; continue _fun0013 }
+                    if(var2) { _fun0013_ip = 80; continue _fun0013 }
 case 3:
-                    var7 = arg1;
-                    var6 = arg2;
-                    var5 = arg3;
+                    var11 = arg1;
+                    var10 = arg2;
+                    var9 = arg3;
 case 4: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var9 = _closure1_slot3;
-                    var8 = var9.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTING_ARCHIVE;
-                    var5 = var8.bind(var9)(var7, var6, var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.GUILD_ROLE_SUBSCRIPTION_GROUP_LISTING_ARCHIVE;
+                    var9 = var12.bind(var13)(var11, var10, var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=93);
-case 76:
-                    return var2;
+                    SaveGenerator(address=110);
 case 77:
+                    return var2;
+case 78:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0013_ip = 9; continue _fun0013 }
-case 78:
+case 79:
                     var3 = var2.body;
-case 80: // try_end0
+case 81: // try_end0
                     return var3;
 case 9:
                     return var2;
@@ -1047,12 +1086,12 @@ case 7: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var13 = var3;
-                    var12 = var4;
-                    var2 = new var13[var2](var12, var11);
+                    var17 = var3;
+                    var16 = var4;
+                    var2 = new var17[var2](var16, var15);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
-case 79:
+case 80:
                     return var1;
                 }
             };
@@ -1080,28 +1119,31 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0014_ip = 19; continue _fun0014 }
 case 3:
-                    var5 = arg1;
+                    var9 = arg1;
 case 25: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var7 = _closure1_slot3;
-                    var6 = var7.GUILD_ROLE_SUBSCRIPTION_TRIALS;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot3;
+                    var10 = var11.GUILD_ROLE_SUBSCRIPTION_TRIALS;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=84);
-case 74:
-                    return var2;
+                    SaveGenerator(address=101);
 case 75:
+                    return var2;
+case 76:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0014_ip = 16; continue _fun0014 }
 case 13:
@@ -1121,9 +1163,9 @@ case 23: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var9 = var3;
-                    var8 = var4;
-                    var2 = new var9[var2](var8, var7);
+                    var13 = var3;
+                    var12 = var4;
+                    var2 = new var13[var2](var12, var11);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 19:
@@ -1154,28 +1196,31 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0015_ip = 2; continue _fun0015 }
 case 3:
-                    var7 = arg1;
-                    var6 = arg2;
-                    var5 = arg3;
+                    var11 = arg1;
+                    var10 = arg2;
+                    var9 = arg3;
 case 4: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.patch;
                     var2 = {};
-                    var9 = _closure1_slot3;
-                    var8 = var9.GUILD_ROLE_SUBSCRIPTION_LISTING_TRIAL;
-                    var6 = var8.bind(var9)(var7, var6);
-                    var2['url'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.GUILD_ROLE_SUBSCRIPTION_LISTING_TRIAL;
+                    var10 = var12.bind(var13)(var11, var10);
+                    var2['url'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=96);
+                    SaveGenerator(address=113);
 case 5:
                     return var2;
 case 6:
@@ -1198,9 +1243,9 @@ case 10: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var12 = var3;
-                    var11 = var4;
-                    var2 = new var12[var2](var11, var10);
+                    var16 = var3;
+                    var15 = var4;
+                    var2 = new var16[var2](var15, var14);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 2:
@@ -1231,27 +1276,30 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0016_ip = 11; continue _fun0016 }
 case 3:
-                    var7 = arg1;
-                    var6 = arg2;
-                    var5 = arg3;
+                    var11 = arg1;
+                    var10 = arg2;
+                    var9 = arg3;
 case 4: // try_start_0
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 3;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 3;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var9 = _closure1_slot3;
-                    var8 = var9.GUILD_ROLE_SUBSCRIPTION_TRIAL_ELIGIBILITY;
-                    var5 = var8.bind(var9)(var7, var6, var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.GUILD_ROLE_SUBSCRIPTION_TRIAL_ELIGIBILITY;
+                    var9 = var12.bind(var13)(var11, var10, var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=92);
+                    SaveGenerator(address=109);
 case 13:
                     return var2;
 case 14:
@@ -1274,9 +1322,9 @@ case 18: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var13 = var3;
-                    var12 = var4;
-                    var2 = new var13[var2](var12, var11);
+                    var17 = var3;
+                    var16 = var4;
+                    var2 = new var17[var2](var16, var15);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
 case 11:
@@ -1306,51 +1354,54 @@ case 0:
                     StartGenerator();
                     var2 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0017_ip = 81; continue _fun0017 }
+                    if(var3) { _fun0017_ip = 82; continue _fun0017 }
 case 25:
-                    var8 = arg1;
+                    var11 = arg1;
                     var6 = undefined;
-                    if(!(var2 === var6)) { _fun0017_ip = 82; continue _fun0017 }
+                    if(!(var2 === var6)) { _fun0017_ip = 83; continue _fun0017 }
 case 48:
                     var2 = {};
-case 82:
-                    var7 = var2.signal;
+case 83:
+                    var10 = var2.signal;
                     SaveGenerator(address=34);
-case 68:
+case 69:
                     return var6;
 case 47:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0017_ip = 83; continue _fun0017 }
+                    if(var3) { _fun0017_ip = 84; continue _fun0017 }
 case 50: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot1;
-                    var3 = 3;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var6)(var3);
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot1;
+                    var7 = 3;
+                    var3 = var9[var7];
+                    var3 = var8.bind(var6)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.get;
                     var3 = {};
-                    var10 = _closure1_slot3;
-                    var9 = var10.CREATOR_MONETIZATION_RESTRICTIONS;
-                    var8 = var9.bind(var10)(var8);
-                    var3['url'] = var8;
-                    var3['signal'] = var7;
-                    var7 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.CREATOR_MONETIZATION_RESTRICTIONS;
+                    var11 = var12.bind(var13)(var11);
+                    var3['url'] = var11;
+                    var3['signal'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var6)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var3['rejectWithError'] = var7;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=117);
-case 84:
-                    return var3;
+                    SaveGenerator(address=134);
 case 85:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0017_ip = 86; continue _fun0017 }
-case 87:
-                    var4 = var3.body;
-case 88: // try_end0
-                    return var4;
-case 86:
                     return var3;
-case 89: // catch_target0
+case 86:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0017_ip = 87; continue _fun0017 }
+case 88:
+                    var4 = var3.body;
+case 89: // try_end0
+                    return var4;
+case 87:
+                    return var3;
+case 90: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot1;
@@ -1360,14 +1411,14 @@ case 89: // catch_target0
                     var3 = var3.APIError;
                     var4 = var3.prototype;
                     var4 = Object.create(var4, {constructor: {value: var3}});
-                    var12 = var4;
-                    var11 = var5;
-                    var3 = new var12[var3](var11, var10);
+                    var15 = var4;
+                    var14 = var5;
+                    var3 = new var15[var3](var14, var13);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
-case 83:
+case 84:
                     return var2;
-case 81:
+case 82:
                     return var1;
                 }
             };
@@ -1395,54 +1446,57 @@ case 81:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0018_ip = 90; continue _fun0018 }
+                    if(var2) { _fun0018_ip = 91; continue _fun0018 }
 case 3:
-                    var8 = arg1;
+                    var11 = arg1;
                     var5 = undefined;
                     var4 = undefined;
                     var3 = undefined;
 case 4: // try_start_0
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var2 = 3;
-                    var2 = var7[var2];
-                    var2 = var6.bind(var5)(var2);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot1;
+                    var8 = 3;
+                    var2 = var10[var8];
+                    var2 = var9.bind(var5)(var2);
                     var7 = var2.HTTP;
                     var6 = var7.get;
                     var2 = {};
-                    var10 = _closure1_slot3;
-                    var9 = var10.GUILD_DISCOVERY_SLUG;
-                    var8 = var9.bind(var10)(var8);
-                    var2['url'] = var8;
-                    var8 = false;
+                    var13 = _closure1_slot3;
+                    var12 = var13.GUILD_DISCOVERY_SLUG;
+                    var11 = var12.bind(var13)(var11);
+                    var2['url'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var5)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var6.bind(var7)(var2);
-                    SaveGenerator(address=88);
-case 91:
-                    return var2;
+                    SaveGenerator(address=105);
 case 92:
+                    return var2;
+case 93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0018_ip = 93; continue _fun0018 }
+                    if(var6) { _fun0018_ip = 94; continue _fun0018 }
 case 5:
                     var3 = var2;
                     var7 = var2.body;
                     var4 = var7;
                     var6 = null;
-                    if(!(var6 == var7)) { _fun0018_ip = 94; continue _fun0018 }
-case 95:
+                    if(!(var6 == var7)) { _fun0018_ip = 95; continue _fun0018 }
+case 96:
                     var6 = global;
                     var7 = var6.JSON;
                     var6 = var7.parse;
                     var3 = var3.text;
                     var3 = var6.bind(var7)(var3);
-                    _fun0018_ip = 96; continue _fun0018;
-case 94:
+                    _fun0018_ip = 97; continue _fun0018;
+case 95:
                     var3 = var4;
-case 96: // try_end0
+case 97: // try_end0
                     return var3;
-case 93:
+case 94:
                     return var2;
-case 70: // catch_target0
+case 71: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot1;
@@ -1452,12 +1506,12 @@ case 70: // catch_target0
                     var2 = var2.APIError;
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var12 = var3;
-                    var11 = var4;
-                    var2 = new var12[var2](var11, var10);
+                    var15 = var3;
+                    var14 = var4;
+                    var2 = new var15[var2](var14, var13);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
-case 90:
+case 91:
                     return var1;
                 }
             };

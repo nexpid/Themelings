@@ -249,7 +249,7 @@ case 13:
         }
     };
     var2['TOOLTIP_ACKNOWLEDGE'] = var9;
-    var4 = function TOOLTIP_SHOW_ATTEMPT(arg1) {
+    var4 = function hasAttemptedToShowTooltip(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;

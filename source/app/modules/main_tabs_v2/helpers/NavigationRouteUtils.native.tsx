@@ -1887,24 +1887,6 @@ case 34:
     var3['coerceSidebarRoute'] = var11;
     var3['coerceTabsRoute'] = var10;
     var3['coerceGuildsRoute'] = var9;
-    var9 = function coerceMessagesRoute(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
-case 0:
-            var1 = arg1;
-            var2 = null;
-            if(!(var2 != var1)) { _fun0030_ip = 42; continue _fun0030 }
-case 43:
-            var3 = var1.name;
-            var2 = 'messages';
-            if(!(var2 !== var3)) { _fun0030_ip = 44; continue _fun0030 }
-case 42:
-            var2 = undefined;
-            return var2;
-case 44:
-            return var1;
-        }
-    };
-    var3['coerceMessagesRoute'] = var9;
     var3['coerceICYMIRoute'] = var8;
     var3['coerceModalRoute'] = var7;
     var3['isModalOpen'] = var6;
@@ -1933,7 +1915,7 @@ case 44:
         var3 = new Array(1);
         var3[0] = var6;
         var2 = function() {
-            _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -1944,7 +1926,7 @@ case 0:
                 var2 = var3.getRootNavigationRef;
                 var4 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 == var4)) { _fun0031_ip = 186; continue _fun0031 }
+                if(!(var2 == var4)) { _fun0030_ip = 186; continue _fun0030 }
 case 46:
                 return var1;
 case 186:
@@ -1988,7 +1970,7 @@ case 186:
         var _closure2_slot0 = var4;
         var4 = _closure1_slot4;
         var3 = function() {
-            _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+            _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -1999,7 +1981,7 @@ case 0:
                 var2 = var3.getRootNavigationRef;
                 var4 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 == var4)) { _fun0032_ip = 186; continue _fun0032 }
+                if(!(var2 == var4)) { _fun0031_ip = 186; continue _fun0031 }
 case 46:
                 return var1;
 case 186:
@@ -2043,7 +2025,7 @@ case 186:
         var _closure2_slot0 = var4;
         var4 = _closure1_slot4;
         var3 = function() {
-            _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+            _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
 case 0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -2054,7 +2036,7 @@ case 0:
                 var2 = var3.getRootNavigationRef;
                 var4 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 == var4)) { _fun0033_ip = 186; continue _fun0033 }
+                if(!(var2 == var4)) { _fun0032_ip = 186; continue _fun0032 }
 case 46:
                 return var1;
 case 186:
@@ -2078,7 +2060,7 @@ case 186:
     };
     var3['useCurrentNavigationRouteName'] = var4;
     var4 = function getCurrentRouteParents() {
-        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
 case 0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -2089,11 +2071,11 @@ case 0:
             var1 = var2.getRootNavigationRef;
             var4 = var1.bind(var2)();
             var2 = null;
-            if(!(var2 != var4)) { _fun0034_ip = 187; continue _fun0034 }
+            if(!(var2 != var4)) { _fun0033_ip = 187; continue _fun0033 }
 case 71:
             var1 = var4.isReady;
             var1 = var1.bind(var4)();
-            if(!var1) { _fun0034_ip = 187; continue _fun0034 }
+            if(!var1) { _fun0033_ip = 187; continue _fun0033 }
 case 141:
             var1 = new Array(0);
             var3 = var4.getRootState;
@@ -2101,13 +2083,13 @@ case 141:
             var5 = var2 == var3;
             var7 = undefined;
             var4 = undefined;
-            if(var5) { _fun0034_ip = 188; continue _fun0034 }
+            if(var5) { _fun0033_ip = 188; continue _fun0033 }
 case 113:
             var9 = var3.routes;
             var6 = var3.index;
             var10 = var2 != var6;
             var5 = 0;
-            if(!var10) { _fun0034_ip = 64; continue _fun0034 }
+            if(!var10) { _fun0033_ip = 64; continue _fun0033 }
 case 51:
             var5 = var6;
 case 64:
@@ -2117,7 +2099,7 @@ case 64:
 case 188:
             var5 = var3;
             var3 = var5;
-            if(!(var2 != var4)) { _fun0034_ip = 189; continue _fun0034 }
+            if(!(var2 != var4)) { _fun0033_ip = 189; continue _fun0033 }
 case 190:
             var4 = var1.push;
             var4 = var4.bind(var1)(var5);
@@ -2125,7 +2107,7 @@ case 190:
             var10 = var5.index;
             var11 = var2 != var10;
             var4 = 0;
-            if(!var11) { _fun0034_ip = 14; continue _fun0034 }
+            if(!var11) { _fun0033_ip = 14; continue _fun0033 }
 case 191:
             var4 = var10;
 case 14:
@@ -2133,13 +2115,13 @@ case 14:
             var9 = var4.state;
             var10 = var2 == var9;
             var4 = undefined;
-            if(var10) { _fun0034_ip = 192; continue _fun0034 }
+            if(var10) { _fun0033_ip = 192; continue _fun0033 }
 case 59:
             var12 = var9.routes;
             var11 = var9.index;
             var13 = var2 != var11;
             var10 = 0;
-            if(!var13) { _fun0034_ip = 193; continue _fun0034 }
+            if(!var13) { _fun0033_ip = 193; continue _fun0033 }
 case 194:
             var10 = var11;
 case 193:
@@ -2149,9 +2131,9 @@ case 193:
 case 192:
             var5 = var9;
             var3 = var5;
-            if(var2 != var4) { _fun0034_ip = 190; continue _fun0034 }
+            if(var2 != var4) { _fun0033_ip = 190; continue _fun0033 }
 case 189:
-            if(!(var2 != var3)) { _fun0034_ip = 137; continue _fun0034 }
+            if(!(var2 != var3)) { _fun0033_ip = 137; continue _fun0033 }
 case 81:
             var2 = var1.push;
             var2 = var2.bind(var1)(var3);
@@ -2164,7 +2146,7 @@ case 187:
     };
     var3['getCurrentRouteParents'] = var4;
     var4 = function getTabsRouteIfActive(arg1) {
-        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
 case 0:
             var1 = arg1;
             var4 = _closure1_slot11;
@@ -2176,11 +2158,11 @@ case 0:
             var1 = null;
             var6 = var1 == var5;
             var4 = undefined;
-            if(var6) { _fun0035_ip = 195; continue _fun0035 }
+            if(var6) { _fun0034_ip = 195; continue _fun0034 }
 case 186:
             var4 = var5.state;
 case 195:
-            if(!(var1 == var4)) { _fun0035_ip = 63; continue _fun0035 }
+            if(!(var1 == var4)) { _fun0034_ip = 63; continue _fun0034 }
 case 196:
             return var3;
 case 63:
@@ -2191,7 +2173,7 @@ case 63:
             var5 = var5.index;
             var6 = var1 != var5;
             var1 = 0;
-            if(!var6) { _fun0035_ip = 197; continue _fun0035 }
+            if(!var6) { _fun0034_ip = 197; continue _fun0034 }
 case 174:
             var1 = var5;
 case 197:
@@ -2202,7 +2184,7 @@ case 197:
     };
     var3['getTabsRouteIfActive'] = var4;
     var4 = function getICYMIRouteIfActive(arg1) {
-        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
 case 0:
             var8 = arg1;
             var4 = _closure1_slot11;
@@ -2210,12 +2192,12 @@ case 0:
             var6 = var5 == var8;
             var3 = undefined;
             var1 = undefined;
-            if(var6) { _fun0036_ip = 37; continue _fun0036 }
+            if(var6) { _fun0035_ip = 37; continue _fun0035 }
 case 31:
             var7 = var8.routes;
             var9 = var5 == var8;
             var6 = undefined;
-            if(var9) { _fun0036_ip = 186; continue _fun0036 }
+            if(var9) { _fun0035_ip = 186; continue _fun0035 }
 case 198:
             var6 = var8.index;
 case 186:
@@ -2224,11 +2206,11 @@ case 37:
             var1 = var4.bind(var3)(var1);
             var6 = var5 == var1;
             var4 = undefined;
-            if(var6) { _fun0036_ip = 199; continue _fun0036 }
+            if(var6) { _fun0035_ip = 199; continue _fun0035 }
 case 7:
             var4 = var1.state;
 case 199:
-            if(!(var5 != var4)) { _fun0036_ip = 117; continue _fun0036 }
+            if(!(var5 != var4)) { _fun0035_ip = 117; continue _fun0035 }
 case 35:
             var4 = _closure1_slot13;
             var1 = var1.state;
@@ -2238,11 +2220,11 @@ case 35:
             var1 = var4.bind(var3)(var1);
             var6 = var5 == var1;
             var4 = undefined;
-            if(var6) { _fun0036_ip = 13; continue _fun0036 }
+            if(var6) { _fun0035_ip = 13; continue _fun0035 }
 case 51:
             var4 = var1.state;
 case 13:
-            if(!(var5 == var4)) { _fun0036_ip = 53; continue _fun0036 }
+            if(!(var5 == var4)) { _fun0035_ip = 53; continue _fun0035 }
 case 117:
             return var3;
 case 53:
@@ -2258,7 +2240,7 @@ case 53:
     };
     var3['getICYMIRouteIfActive'] = var4;
     var2 = function setHomeDrawerState(arg1) {
-        _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
+        _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -2269,23 +2251,23 @@ case 0:
             var2 = var4.getRootNavigationRef;
             var4 = var2.bind(var4)();
             var5 = null;
-            if(!(var5 != var4)) { _fun0037_ip = 200; continue _fun0037 }
+            if(!(var5 != var4)) { _fun0036_ip = 200; continue _fun0036 }
 case 46:
             var2 = var5 == var4;
             var6 = undefined;
-            if(var2) { _fun0037_ip = 141; continue _fun0037 }
+            if(var2) { _fun0036_ip = 141; continue _fun0036 }
 case 181:
             var2 = var4.getCurrentRoute;
             var6 = var2.bind(var4)();
 case 141:
             var2 = var5 != var6;
-            if(!var2) { _fun0037_ip = 66; continue _fun0037 }
+            if(!var2) { _fun0036_ip = 66; continue _fun0036 }
 case 30:
             var3 = _closure1_slot14;
             var3 = var3.bind(var1)(var6);
             var2 = var5 != var3;
 case 66:
-            if(!var2) { _fun0037_ip = 200; continue _fun0037 }
+            if(!var2) { _fun0036_ip = 200; continue _fun0036 }
 case 183:
             var3 = var4.setParams;
             var2 = {};

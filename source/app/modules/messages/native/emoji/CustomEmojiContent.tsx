@@ -160,6 +160,7 @@ case 0:
             var _closure2_slot3 = var9;
             var4 = undefined;
             var _closure2_slot4 = var4;
+            var _closure2_slot5 = var4;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
@@ -419,7 +420,7 @@ case 16:
                 return var1;
             };
             var8 = var8.bind(var10)(var6, var5);
-            var _closure2_slot5 = var8;
+            _closure2_slot5 = var8;
             var6 = _closure1_slot1;
             var5 = 9;
             var5 = var3[var5];

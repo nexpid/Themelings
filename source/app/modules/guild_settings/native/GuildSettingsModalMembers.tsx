@@ -714,7 +714,6 @@ case 57:
             var8 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-                    var1 = new Array(0);
                     var11 = function guildRoleIsFiltered(arg1) {
                         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -748,6 +747,7 @@ case 59:
                             return var1;
                         }
                     };
+                    var1 = new Array(0);
                     var4 = _closure2_slot11;
                     var3 = _closure1_slot21;
                     if(var4) { _fun0008_ip = 60; continue _fun0008 }

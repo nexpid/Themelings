@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 28;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -179,9 +179,9 @@ case 0:
             var1 = 'devtools-dc-search';
             var23 = '';
             var1 = var3.bind(var5)(var1, var23);
-            var9 = _closure1_slot3;
-            var6 = 2;
-            var1 = var9.bind(var4)(var1, var6);
+            var13 = _closure1_slot3;
+            var9 = 2;
+            var1 = var13.bind(var4)(var1, var9);
             var8 = 0;
             var24 = var1[var8];
             var _closure2_slot1 = var24;
@@ -190,7 +190,7 @@ case 0:
             var _closure2_slot2 = var1;
             var5 = _closure1_slot4;
             var14 = var5.useCallback;
-            var13 = function(arg1) {
+            var6 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var12 = arg1;
@@ -257,9 +257,9 @@ case 9:
                 }
             };
             var1 = new Array(0);
-            var1 = var14.bind(var5)(var13, var1);
+            var1 = var14.bind(var5)(var6, var1);
             var _closure2_slot3 = var1;
-            var13 = var5.useState;
+            var6 = var5.useState;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -277,8 +277,8 @@ case 10:
                     return var1;
                 }
             };
-            var1 = var13.bind(var5)(var1);
-            var1 = var9.bind(var4)(var1, var6);
+            var1 = var6.bind(var5)(var1);
+            var1 = var13.bind(var4)(var1, var9);
             var6 = var1[var8];
             var15 = var6.sections;
             var6 = var6.dismissableContent;
@@ -287,11 +287,11 @@ case 10:
             var _closure2_slot5 = var1;
             var1 = 15;
             var1 = var25[var1];
-            var13 = var21.bind(var4)(var1);
-            var9 = var13.useStateFromStoresObject;
+            var17 = var21.bind(var4)(var1);
+            var16 = var17.useStateFromStoresObject;
             var1 = _closure1_slot6;
-            var3 = new Array(1);
-            var3[0] = var1;
+            var14 = new Array(1);
+            var14[0] = var1;
             var1 = function() {
                 var1 = {};
                 var2 = _closure1_slot6;
@@ -301,10 +301,43 @@ case 10:
                 var1['newUserMinAgeRequiredOverridden'] = var2;
                 return var1;
             };
-            var1 = var9.bind(var13)(var3, var1);
+            var1 = var16.bind(var17)(var14, var1);
             var32 = var1.dailyCapOverridden;
-            var30 = var1.newUserMinAgeRequiredOverridden;
+            var33 = var1.newUserMinAgeRequiredOverridden;
             var1 = 16;
+            var1 = var25[var1];
+            var14 = var21.bind(var4)(var1);
+            var1 = var14.useForceBountiesSwipeUpNux;
+            var1 = var1.bind(var14)();
+            var1 = var13.bind(var4)(var1, var9);
+            var30 = var1[var8];
+            var1 = var1[var3];
+            var _closure2_slot6 = var1;
+            var9 = var5.useCallback;
+            var3 = new Array(1);
+            var3[0] = var1;
+            var1 = function(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var2 = arg1;
+                    var3 = _closure2_slot6;
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    if(!var2) { _fun0004_ip = 12; continue _fun0004 }
+case 13:
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 17;
+                    var2 = var4[var2];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.clearDismissedScrollAffordanceBountyIds;
+                    var2 = var2.bind(var3)();
+case 12:
+                    return var1;
+                }
+            };
+            var31 = var9.bind(var5)(var1, var3);
+            var1 = 18;
             var1 = var25[var1];
             var1 = var2.bind(var4)(var1);
             var18 = var1.bind(var4)();
@@ -339,7 +372,7 @@ case 10:
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 17;
+                var1 = 19;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -361,7 +394,7 @@ case 10:
             var5 = {};
             var9 = var20.section;
             var5['style'] = var9;
-            var14 = 18;
+            var14 = 20;
             var9 = var25[var14];
             var9 = var21.bind(var4)(var9);
             var26 = var9.TableRowGroup;
@@ -371,34 +404,47 @@ case 10:
             var27 = var21.bind(var4)(var27);
             var29 = var27.TableSwitchRow;
             var27 = {};
-            var31 = 19;
-            var33 = var25[var31];
-            var33 = var21.bind(var4)(var33);
-            var33 = var33.overrideDismissibleContentFramework;
-            var27['onValueChange'] = var33;
+            var34 = 21;
+            var35 = var25[var34];
+            var35 = var21.bind(var4)(var35);
+            var35 = var35.overrideDismissibleContentFramework;
+            var27['onValueChange'] = var35;
             var27['value'] = var32;
             var32 = 'Daily limit';
             var27['label'] = var32;
             var32 = 'When enabled, bypass the daily limit of dismissible content shown';
             var27['subLabel'] = var32;
             var29 = var13.bind(var4)(var29, var27);
-            var27 = new Array(2);
+            var27 = new Array(3);
             var27[0] = var29;
+            var29 = var25[var28];
+            var29 = var21.bind(var4)(var29);
+            var32 = var29.TableSwitchRow;
+            var29 = {};
+            var34 = var25[var34];
+            var34 = var21.bind(var4)(var34);
+            var34 = var34.overrideNewUserMinAgeRequired;
+            var29['onValueChange'] = var34;
+            var29['value'] = var33;
+            var33 = 'New user account minimum age';
+            var29['label'] = var33;
+            var33 = 'When enabled, bypass the minimum age requirement for new user accounts';
+            var29['subLabel'] = var33;
+            var29 = var13.bind(var4)(var32, var29);
+            var27[1] = var29;
             var28 = var25[var28];
             var28 = var21.bind(var4)(var28);
             var29 = var28.TableSwitchRow;
             var28 = {};
-            var31 = var25[var31];
-            var31 = var21.bind(var4)(var31);
-            var31 = var31.overrideNewUserMinAgeRequired;
             var28['onValueChange'] = var31;
+            var30 = var10 === var30;
             var28['value'] = var30;
-            var30 = 'New user account minimum age';
+            var30 = 'Force bounties swipe-up NUX';
             var28['label'] = var30;
-            var30 = 'When enabled, bypass the minimum age requirement for new user accounts';
+            var30 = 'When enabled, treat bounties swipe-up NUX as shown so scroll affordances always appear. Reopen the bounties modal after toggling.';
             var28['subLabel'] = var30;
             var28 = var13.bind(var4)(var29, var28);
-            var27[1] = var28;
+            var27[2] = var28;
             var9['children'] = var27;
             var9 = var3.bind(var4)(var26, var9);
             var5['children'] = var9;
@@ -412,26 +458,26 @@ case 10:
             var14 = var21.bind(var4)(var14);
             var26 = var14.TableRowGroup;
             var14 = {'title': 'Bulk actions', 'hasIcons': true};
-            var28 = 20;
+            var28 = 22;
             var27 = var25[var28];
             var27 = var21.bind(var4)(var27);
             var29 = var27.TableRow;
             var27 = {};
             var30 = 'Clear all dismissed dismissible contents';
             var27['label'] = var30;
-            var31 = 21;
+            var31 = 23;
             var30 = var25[var31];
             var30 = var21.bind(var4)(var30);
             var30 = var30.clearDismissedContents;
             var27['onPress'] = var30;
-            var33 = 22;
+            var33 = 24;
             var30 = var25[var33];
             var30 = var21.bind(var4)(var30);
             var32 = var30.TrashIcon;
             var30 = {};
             var30 = var13.bind(var4)(var32, var30);
             var27['icon'] = var30;
-            var30 = 23;
+            var30 = 25;
             var32 = var25[var30];
             var32 = var21.bind(var4)(var32);
             var34 = var32.TableRowArrow;
@@ -475,7 +521,7 @@ case 10:
             var31 = var21.bind(var4)(var31);
             var31 = var31.checkAllDismissedContents;
             var28['onPress'] = var31;
-            var31 = 24;
+            var31 = 26;
             var31 = var25[var31];
             var31 = var21.bind(var4)(var31);
             var32 = var31.DoubleCheckmarkIcon;
@@ -498,7 +544,7 @@ case 10:
             var9 = {};
             var14 = var20.search;
             var9['style'] = var14;
-            var14 = 25;
+            var14 = 27;
             var14 = var25[var14];
             var14 = var21.bind(var4)(var14);
             var21 = var14.SearchField;
@@ -507,10 +553,10 @@ case 10:
             var14['size'] = var25;
             var25 = null;
             var25 = var25 != var24;
-            if(!var25) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var25) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var23 = var24;
-case 12:
+case 14:
             var14['defaultValue'] = var23;
             var22 = function onChange(arg1) {
                 var4 = arg1;
@@ -529,8 +575,8 @@ case 12:
             var9 = var13.bind(var4)(var2, var9);
             var5[2] = var9;
             var6 = var6.length;
-            if(!(!(var6 > var8))) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!(!(var6 > var8))) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var9 = _closure1_slot8;
             var8 = _closure1_slot5;
             var6 = {};
@@ -539,7 +585,7 @@ case 15:
             var22 = _closure1_slot7;
             var21 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var13 = 17;
+            var13 = 19;
             var13 = var23[var13];
             var13 = var21.bind(var4)(var13);
             var14 = var13.Text;
@@ -556,7 +602,7 @@ case 15:
             var14 = var22.bind(var4)(var14, var13);
             var13 = new Array(2);
             var13[0] = var14;
-            var14 = 27;
+            var14 = 29;
             var14 = var23[var14];
             var14 = var21.bind(var4)(var14);
             var21 = var14.SearchEmpty;
@@ -565,12 +611,12 @@ case 15:
             var13[1] = var14;
             var6['children'] = var13;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0001_ip = 16; continue _fun0001;
-case 14:
+            _fun0001_ip = 18; continue _fun0001;
+case 16:
             var9 = _closure1_slot7;
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var7 = 26;
+            var7 = 28;
             var7 = var14[var7];
             var8 = var13.bind(var4)(var7);
             var7 = {};
@@ -594,7 +640,7 @@ case 14:
             var7['insetEnd'] = var11;
             var7['wrapChildren'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 16:
+case 18:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

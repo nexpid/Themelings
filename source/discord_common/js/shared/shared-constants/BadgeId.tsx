@@ -94,6 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GAME_VARIETY'] = var4;
     var1 = 'GAME_VARIETY';
     var2[var4] = var1;
+    var4 = 22;
+    var2['STAFF'] = var4;
+    var1 = 'STAFF';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

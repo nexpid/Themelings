@@ -1,4 +1,4 @@
-// discord_assets/assets/ads/bounties-swipe-up-prompt-wip-2.png.js
+// discord_assets/assets/mana/rive/native/BountiesScrollIndicator.riv.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/ads/bounties-swipe-up-prompt-wip-2.png.js';
+    var2 = '../discord_assets/assets/mana/rive/native/BountiesScrollIndicator.riv.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/a5a492f73141e27d6972f57d4bbe26d25dbc7b8ba6409359016b6d5d5bc45ca5.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/1e918604996bb9b8036daa2327751ba1303d49b157f1d6994392e9a914b7bf0a.riv';
     var3['default'] = var2;
     var2 = {};
-    var4 = 42270;
+    var4 = 5663;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

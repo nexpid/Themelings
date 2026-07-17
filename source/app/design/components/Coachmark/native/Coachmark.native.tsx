@@ -535,7 +535,7 @@ case 43:
             if(!var8) { _fun0001_ip = 45; continue _fun0001 }
 case 46:
             var11 = _closure1_slot10;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var5 = {};
             var5['position'] = var19;
             var5['adjustmentX'] = var10;
@@ -593,7 +593,7 @@ case 49:
             if(!var6) { _fun0001_ip = 50; continue _fun0001 }
 case 51:
             var9 = _closure1_slot10;
-            var8 = _closure1_slot16;
+            var8 = _closure1_slot17;
             var7 = {};
             var7['position'] = var11;
             var7['adjustmentX'] = var10;
@@ -605,7 +605,68 @@ case 50:
             return var1;
         }
     };
-    var _closure1_slot17 = var4;
+    var _closure1_slot16 = var4;
+    var1 = function Cursor(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+            var1 = arg1;
+            var2 = var1.position;
+            var8 = var1.adjustmentX;
+            var1 = _closure1_slot14;
+            var4 = undefined;
+            var9 = var1.bind(var4)();
+            var1 = 'top';
+            var3 = var1 === var2;
+            var10 = 'column';
+            if(!var3) { _fun0003_ip = 52; continue _fun0003 }
+case 53:
+            var10 = 'column-reverse';
+case 52:
+            var1 = {};
+            var2 = -6;
+            if(var3) { _fun0003_ip = 54; continue _fun0003 }
+case 55:
+            var1['marginBottom'] = var2;
+            var7 = var1;
+            _fun0003_ip = 56; continue _fun0003;
+case 54:
+            var1['marginTop'] = var2;
+            var7 = var1;
+case 56:
+            var3 = _closure1_slot11;
+            var2 = _closure1_slot7;
+            var1 = {};
+            var11 = var9.cursorContainer;
+            var5 = new Array(3);
+            var5[0] = var11;
+            var5[1] = var7;
+            var7 = {};
+            var7['flexDirection'] = var10;
+            var8 = -var8;
+            var7['left'] = var8;
+            var5[2] = var7;
+            var1['style'] = var5;
+            var8 = _closure1_slot10;
+            var7 = _closure1_slot7;
+            var5 = {};
+            var10 = var9.cursorHead;
+            var5['style'] = var10;
+            var7 = var8.bind(var4)(var7, var5);
+            var5 = new Array(2);
+            var5[0] = var7;
+            var8 = _closure1_slot10;
+            var7 = _closure1_slot7;
+            var6 = {};
+            var9 = var9.cursorSpine;
+            var6['style'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot17 = var1;
     var1 = ['style'];
     var _closure1_slot3 = var1;
     var1 = global;
@@ -792,67 +853,6 @@ case 50:
     var _closure1_slot14 = var5;
     var5 = {'21/9': 90, '16/9': 90, '6/4': 60, '2/1': 40, '1/1': 40};
     var _closure1_slot15 = var5;
-    var5 = function Cursor(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var1 = arg1;
-            var2 = var1.position;
-            var8 = var1.adjustmentX;
-            var1 = _closure1_slot14;
-            var4 = undefined;
-            var9 = var1.bind(var4)();
-            var1 = 'top';
-            var3 = var1 === var2;
-            var10 = 'column';
-            if(!var3) { _fun0003_ip = 52; continue _fun0003 }
-case 53:
-            var10 = 'column-reverse';
-case 52:
-            var1 = {};
-            var2 = -6;
-            if(var3) { _fun0003_ip = 54; continue _fun0003 }
-case 55:
-            var1['marginBottom'] = var2;
-            var7 = var1;
-            _fun0003_ip = 56; continue _fun0003;
-case 54:
-            var1['marginTop'] = var2;
-            var7 = var1;
-case 56:
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot7;
-            var1 = {};
-            var11 = var9.cursorContainer;
-            var5 = new Array(3);
-            var5[0] = var11;
-            var5[1] = var7;
-            var7 = {};
-            var7['flexDirection'] = var10;
-            var8 = -var8;
-            var7['left'] = var8;
-            var5[2] = var7;
-            var1['style'] = var5;
-            var8 = _closure1_slot10;
-            var7 = _closure1_slot7;
-            var5 = {};
-            var10 = var9.cursorHead;
-            var5['style'] = var10;
-            var7 = var8.bind(var4)(var7, var5);
-            var5 = new Array(2);
-            var5[0] = var7;
-            var8 = _closure1_slot10;
-            var7 = _closure1_slot7;
-            var6 = {};
-            var9 = var9.cursorSpine;
-            var6['style'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
-            var5[1] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var _closure1_slot16 = var5;
     var5 = 21;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -888,7 +888,7 @@ case 57:
             var1 = {};
             var1['theme'] = var6;
             var7 = _closure1_slot10;
-            var6 = _closure1_slot17;
+            var6 = _closure1_slot16;
             var5 = {};
             var10 = var5;
             var9 = var8;

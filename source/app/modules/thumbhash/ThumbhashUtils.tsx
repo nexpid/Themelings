@@ -28,83 +28,6 @@ case 7:
 case 6:
             var _closure2_slot1 = var53;
             var _closure2_slot2 = var53;
-            var1 = global;
-            var2 = var1.Math;
-            var51 = var2.PI;
-            var2 = var1.Math;
-            var50 = var2.min;
-            var2 = var1.Math;
-            var49 = var2.max;
-            var2 = var1.Math;
-            var48 = var2.cos;
-            var2 = var1.Math;
-            var3 = var2.round;
-            var47 = 0;
-            var6 = var5[var47];
-            var46 = 1;
-            var2 = var5[var46];
-            var8 = 8;
-            var2 = var2 << var8;
-            var6 = var6 | var2;
-            var45 = 2;
-            var7 = var5[var45];
-            var2 = 16;
-            var2 = var7 << var2;
-            var7 = var6 | var2;
-            var44 = 3;
-            var6 = var5[var44];
-            var43 = 4;
-            var2 = var5[var43];
-            var2 = var2 << var8;
-            var11 = var6 | var2;
-            var2 = 23;
-            var42 = var7 >> var2;
-            var8 = 15;
-            var2 = var11 >> var8;
-            var6 = 7;
-            if(var2) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var9 = var6 & var11;
-            _fun0001_ip = 10; continue _fun0001;
-case 8:
-            var12 = var6;
-            if(!var42) { _fun0001_ip = 11; continue _fun0001 }
-case 12:
-            var12 = 5;
-case 11:
-            var9 = var12;
-case 10:
-            var41 = var49.bind(var53)(var44, var9);
-            if(var2) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
-            var2 = var6;
-            if(!var42) { _fun0001_ip = 15; continue _fun0001 }
-case 16:
-            var2 = 5;
-case 15:
-            _fun0001_ip = 17; continue _fun0001;
-case 13:
-            var2 = var6 & var11;
-case 17:
-            var40 = var49.bind(var53)(var44, var2);
-            var39 = var46;
-            if(!var42) { _fun0001_ip = 18; continue _fun0001 }
-case 19:
-            var2 = 5;
-            var2 = var5[var2];
-            var2 = var8 & var2;
-            var39 = var2 / var8;
-case 18:
-            var38 = 5;
-            var2 = var5[var38];
-            var2 = var2 >> var43;
-            var6 = var38;
-            if(!var42) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var6 = 6;
-case 20:
-            _closure2_slot1 = var6;
-            _closure2_slot2 = var47;
             var4 = function decodeChannel(arg1, arg2, arg3) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -119,18 +42,18 @@ case 0:
                     var4 = 15;
                     var3 = 7.5;
                     var2 = 0;
-                    if(!var12) { _fun0002_ip = 22; continue _fun0002 }
-case 23:
+                    if(!var12) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                     var14 = var6;
-                    if(!var2) { _fun0002_ip = 24; continue _fun0002 }
-case 25:
+                    if(!var2) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var14 = 0;
-case 24:
+case 10:
                     var13 = var14 * var10;
                     var12 = var10 - var2;
                     var12 = var11 * var12;
-                    if(!(var13 < var12)) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+                    if(!(var13 < var12)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var13 = var1.push;
                     var15 = _closure2_slot0;
                     var16 = _closure2_slot1;
@@ -154,14 +77,91 @@ case 27:
                     var13 = var14 * var10;
                     var12 = var10 - var2;
                     var12 = var11 * var12;
-                    if(var13 < var12) { _fun0002_ip = 27; continue _fun0002 }
-case 26:
+                    if(var13 < var12) { _fun0002_ip = 13; continue _fun0002 }
+case 12:
                     var2 = var2 + 1;
-                    if(var2 < var10) { _fun0002_ip = 23; continue _fun0002 }
-case 22:
+                    if(var2 < var10) { _fun0002_ip = 9; continue _fun0002 }
+case 8:
                     return var1;
                 }
             };
+            var1 = global;
+            var2 = var1.Math;
+            var51 = var2.PI;
+            var2 = var1.Math;
+            var50 = var2.min;
+            var2 = var1.Math;
+            var49 = var2.max;
+            var2 = var1.Math;
+            var48 = var2.cos;
+            var2 = var1.Math;
+            var3 = var2.round;
+            var47 = 0;
+            var7 = var5[var47];
+            var46 = 1;
+            var2 = var5[var46];
+            var9 = 8;
+            var2 = var2 << var9;
+            var7 = var7 | var2;
+            var45 = 2;
+            var8 = var5[var45];
+            var2 = 16;
+            var2 = var8 << var2;
+            var7 = var7 | var2;
+            var44 = 3;
+            var8 = var5[var44];
+            var43 = 4;
+            var2 = var5[var43];
+            var2 = var2 << var9;
+            var11 = var8 | var2;
+            var2 = 23;
+            var42 = var7 >> var2;
+            var8 = 15;
+            var2 = var11 >> var8;
+            var9 = 7;
+            if(var2) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var12 = var9 & var11;
+            _fun0001_ip = 16; continue _fun0001;
+case 14:
+            var13 = var9;
+            if(!var42) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
+            var13 = 5;
+case 17:
+            var12 = var13;
+case 16:
+            var41 = var49.bind(var53)(var44, var12);
+            if(var2) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
+            var2 = var9;
+            if(!var42) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
+            var2 = 5;
+case 21:
+            _fun0001_ip = 23; continue _fun0001;
+case 19:
+            var2 = var9 & var11;
+case 23:
+            var40 = var49.bind(var53)(var44, var2);
+            var39 = var46;
+            if(!var42) { _fun0001_ip = 24; continue _fun0001 }
+case 25:
+            var2 = 5;
+            var2 = var5[var2];
+            var2 = var8 & var2;
+            var39 = var2 / var8;
+case 24:
+            var38 = 5;
+            var2 = var5[var38];
+            var2 = var2 >> var43;
+            var9 = var38;
+            if(!var42) { _fun0001_ip = 26; continue _fun0001 }
+case 27:
+            var9 = 6;
+case 26:
+            _closure2_slot1 = var9;
+            _closure2_slot2 = var47;
             var6 = 18;
             var6 = var7 >> var6;
             var9 = 31;

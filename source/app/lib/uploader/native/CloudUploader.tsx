@@ -647,7 +647,7 @@ case 60:
                     var7 = var7.item;
                     var7 = var7.uri;
                     var7 = var8.bind(var20)(var7);
-                    SaveGenerator(address=411);
+                    SaveGenerator(address=412);
 case 61:
                     return var7;
 case 62:
@@ -1068,8 +1068,8 @@ case 0:
                     var2 = var4.bind(var1)(var2);
                     var2 = var2.UploadPlatform;
                     var2 = var2.REACT_NATIVE;
-                    if(!(var3 === var2)) { _fun0012_ip = 104; continue _fun0012 }
-case 4:
+                    if(!(var3 === var2)) { _fun0012_ip = 58; continue _fun0012 }
+case 28:
                     var2 = 0;
                     var5['compressionProgress'] = var2;
                     var2 = _closure3_slot0;
@@ -1077,7 +1077,7 @@ case 4:
                     var3 = var4.set;
                     var2 = var5.uri;
                     var2 = var3.bind(var4)(var2, var5);
-case 104:
+case 58:
                     return var1;
                 }
             };
@@ -1099,8 +1099,8 @@ case 0:
                     var3 = var2.uploadItems;
                     var2 = var3.has;
                     var2 = var2.bind(var3)(var6);
-                    if(!var2) { _fun0013_ip = 105; continue _fun0013 }
-case 106:
+                    if(!var2) { _fun0013_ip = 104; continue _fun0013 }
+case 105:
                     var2 = _closure3_slot0;
                     var5 = var2.uploadItems;
                     var3 = var5.get;
@@ -1123,8 +1123,8 @@ case 106:
                     var5 = 'compressionProgress';
                     var7 = var4.bind(var6)(var2, var5);
                     var4 = 100;
-                    if(!(!(var7 >= var4))) { _fun0013_ip = 107; continue _fun0013 }
-case 108:
+                    if(!(!(var7 >= var4))) { _fun0013_ip = 106; continue _fun0013 }
+case 107:
                     var6 = _closure3_slot0;
                     var2 = {};
                     var10 = var6._file;
@@ -1132,16 +1132,16 @@ case 108:
                     var8 = copyDataProperties(var11, var10);
                     var2[4] = var7;
                     var6['_file'] = var2;
-                    _fun0013_ip = 109; continue _fun0013;
-case 107:
+                    _fun0013_ip = 108; continue _fun0013;
+case 106:
                     var2 = _closure3_slot1;
                     var2 = var2.bind(var3)();
                     var2 = _closure3_slot0;
                     var2 = var2._file;
                     var6 = var2.items;
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0013_ip = 110; continue _fun0013 }
-case 111:
+                    if(!(var2 != var6)) { _fun0013_ip = 109; continue _fun0013 }
+case 110:
                     var3 = var6.forEach;
                     var2 = function(arg1) {
                         var1 = arg1;
@@ -1152,7 +1152,7 @@ case 111:
                         return var1;
                     };
                     var2 = var3.bind(var6)(var2);
-case 110:
+case 109:
                     var3 = _closure3_slot0;
                     var2 = {};
                     var10 = var3._file;
@@ -1160,13 +1160,13 @@ case 110:
                     var6 = copyDataProperties(var11, var10);
                     var2[4] = var4;
                     var3['_file'] = var2;
-case 109:
+case 108:
                     var4 = _closure3_slot0;
                     var3 = var4.emit;
                     var2 = var4._file;
                     var1 = 'compression-progress';
                     var1 = var3.bind(var4)(var1, var2);
-case 105:
+case 104:
                     var1 = undefined;
                     return var1;
                 }

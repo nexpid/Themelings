@@ -19,25 +19,28 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 2;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 2;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var8 = _closure1_slot4;
-                    var7 = var8.APPLICATION_SUBSCRIPTION_GROUP_LISTING;
-                    var6 = arg1;
-                    var5 = arg2;
-                    var5 = var7.bind(var8)(var6, var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var12 = _closure1_slot4;
+                    var11 = var12.APPLICATION_SUBSCRIPTION_GROUP_LISTING;
+                    var10 = arg1;
+                    var9 = arg2;
+                    var9 = var11.bind(var12)(var10, var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=85);
+                    SaveGenerator(address=102);
 case 4:
                     return var2;
 case 5:
@@ -75,36 +78,39 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 8; continue _fun0002 }
-case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 2;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+case 9:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 2;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var7 = _closure1_slot4;
-                    var6 = var7.GUILD_ENTITLEMENTS;
-                    var5 = arg1;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = {'with_sku': true, 'with_application': true};
-                    var2['query'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot4;
+                    var10 = var11.GUILD_ENTITLEMENTS;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var9 = {'with_sku': true, 'with_application': true};
+                    var2['query'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=100);
-case 9:
-                    return var2;
+                    SaveGenerator(address=120);
 case 10:
+                    return var2;
+case 11:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                    if(var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
                     var3 = var2.body;
                     return var3;
-case 11:
+case 12:
                     return var2;
 case 8:
                     return var1;
@@ -132,37 +138,40 @@ case 8:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 9; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 14; continue _fun0003 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 2;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 2;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var7 = _closure1_slot4;
-                    var6 = var7.SUBSCRIPTION_PLAN_GROUP_LISTING;
-                    var5 = arg1;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot4;
+                    var10 = var11.SUBSCRIPTION_PLAN_GROUP_LISTING;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=81);
-case 13:
-                    return var2;
-case 14:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
-                    var3 = var2.body;
-                    return var3;
+                    SaveGenerator(address=98);
 case 15:
                     return var2;
-case 9:
+case 16:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+                    var3 = var2.body;
+                    return var3;
+case 17:
+                    return var2;
+case 14:
                     return var1;
                 }
             };
@@ -188,41 +197,44 @@ case 9:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 17; continue _fun0004 }
-case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 2;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    if(var2) { _fun0004_ip = 19; continue _fun0004 }
+case 9:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 2;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var5 = _closure1_slot4;
-                    var5 = var5.ELIGIBLE_APPLICATION_SUBSCRIPTION_GUILDS;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var6 = arg1;
-                    var5['application_id'] = var6;
-                    var6 = arg2;
-                    var5['sku_id'] = var6;
-                    var2['query'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot4;
+                    var9 = var9.ELIGIBLE_APPLICATION_SUBSCRIPTION_GUILDS;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg1;
+                    var9['application_id'] = var10;
+                    var10 = arg2;
+                    var9['sku_id'] = var10;
+                    var2['query'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=96);
-case 18:
-                    return var2;
-case 19:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 20; continue _fun0004 }
-case 2:
-                    var3 = var2.body;
-                    return var3;
+                    SaveGenerator(address=116);
 case 20:
                     return var2;
-case 17:
+case 6:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0004_ip = 21; continue _fun0004 }
+case 22:
+                    var3 = var2.body;
+                    return var3;
+case 21:
+                    return var2;
+case 19:
                     return var1;
                 }
             };
@@ -296,34 +308,37 @@ case 17:
     };
     var3['getSubscriptionGroupForSubscriptionPlan'] = var4;
     var4 = function fetchApplication(arg1, arg2) {
-        var7 = arg1;
-        var _closure2_slot0 = var7;
+        var11 = arg1;
+        var _closure2_slot0 = var11;
         var3 = _closure1_slot1;
-        var6 = _closure1_slot2;
+        var8 = _closure1_slot2;
         var2 = 3;
-        var2 = var6[var2];
-        var4 = undefined;
-        var8 = var3.bind(var4)(var2);
-        var3 = var8.dispatch;
+        var2 = var8[var2];
+        var7 = undefined;
+        var4 = var3.bind(var7)(var2);
+        var3 = var4.dispatch;
         var2 = {};
-        var9 = 'APPLICATION_FETCH';
-        var2['type'] = var9;
-        var2['applicationId'] = var7;
-        var2 = var3.bind(var8)(var2);
-        var3 = _closure1_slot0;
-        var2 = 2;
-        var2 = var6[var2];
+        var5 = 'APPLICATION_FETCH';
+        var2['type'] = var5;
+        var2['applicationId'] = var11;
         var2 = var3.bind(var4)(var2);
+        var6 = _closure1_slot0;
+        var5 = 2;
+        var2 = var8[var5];
+        var2 = var6.bind(var7)(var2);
         var4 = var2.HTTP;
         var3 = var4.get;
         var2 = {};
-        var6 = _closure1_slot4;
-        var5 = var6.APPLICATION_PUBLIC;
-        var5 = var5.bind(var6)(var7);
-        var2['url'] = var5;
-        var5 = arg2;
-        var2['signal'] = var5;
-        var5 = false;
+        var10 = _closure1_slot4;
+        var9 = var10.APPLICATION_PUBLIC;
+        var9 = var9.bind(var10)(var11);
+        var2['url'] = var9;
+        var9 = arg2;
+        var2['signal'] = var9;
+        var5 = var8[var5];
+        var6 = var6.bind(var7)(var5);
+        var5 = var6.rejectWithMigratedError;
+        var5 = var5.bind(var6)();
         var2['rejectWithError'] = var5;
         var4 = var3.bind(var4)(var2);
         var3 = var4.then;

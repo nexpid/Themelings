@@ -247,7 +247,7 @@ case 13:
         }
     };
     var3['formatUserActivityTimestamp'] = var6;
-    var6 = function(arg1, arg2) {
+    var6 = function formatLinkTimestamp(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
             var4 = arg1;

@@ -474,7 +474,7 @@ case 66:
                     var9 = var12.renderItem;
                     var2 = _closure2_slot1;
                     if(!(var9 === var2)) { _fun0006_ip = 65; continue _fun0006 }
-case 51:
+case 67:
                     var2 = var1.set;
                     var2 = var2.bind(var1)(var10, var12);
                     _fun0006_ip = 63; continue _fun0006;
@@ -498,12 +498,12 @@ case 65:
                     var9['cleanUp'] = var11;
                     var9['renderItem'] = var2;
                     var2 = var9.children;
-                    if(!(var7 == var2)) { _fun0006_ip = 67; continue _fun0006 }
-case 68:
+                    if(!(var7 == var2)) { _fun0006_ip = 68; continue _fun0006 }
+case 69:
                     var2 = var1.delete;
                     var2 = var2.bind(var1)(var10);
                     _fun0006_ip = 63; continue _fun0006;
-case 67:
+case 68:
                     var2 = var1.set;
                     var2 = var2.bind(var1)(var10, var9);
 case 63:
@@ -549,8 +549,8 @@ case 33:
             var8 = var6.bind(var3)(var7);
             var7 = var8.bind(var3)();
             var6 = var7.done;
-            if(var6) { _fun0004_ip = 69; continue _fun0004 }
-case 70:
+            if(var6) { _fun0004_ip = 70; continue _fun0004 }
+case 71:
             var12 = var7.value;
             var6 = _closure1_slot0;
             var6 = var6.bind(var3)(var12, var10);
@@ -561,16 +561,16 @@ case 70:
             var12 = var8.bind(var3)();
             var6 = var12.done;
             var7 = var12;
-            if(!var6) { _fun0004_ip = 70; continue _fun0004 }
-case 69:
+            if(!var6) { _fun0004_ip = 71; continue _fun0004 }
+case 70:
             var7 = var2.length;
             var6 = 0;
             var6 = var7 > var6;
             var1 = null;
-            if(!var6) { _fun0004_ip = 71; continue _fun0004 }
-case 72:
+            if(!var6) { _fun0004_ip = 72; continue _fun0004 }
+case 73:
             var1 = var4.bind(var3)(var2, var5);
-case 71:
+case 72:
             return var1;
         }
     };
@@ -639,16 +639,16 @@ case 71:
 case 0:
                 var3 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0010_ip = 73; continue _fun0010 }
-case 74:
+                if(!(var1 == var3)) { _fun0010_ip = 74; continue _fun0010 }
+case 75:
                 var1 = new Array(0);
-                _fun0010_ip = 75; continue _fun0010;
-case 73:
+                _fun0010_ip = 76; continue _fun0010;
+case 74:
                 var3 = _closure2_slot0;
                 var2 = new Array(1);
                 var2[0] = var3;
                 var1 = var2;
-case 75:
+case 76:
                 return var1;
             }
         };

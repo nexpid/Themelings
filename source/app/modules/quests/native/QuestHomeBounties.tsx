@@ -1043,7 +1043,7 @@ case 0:
                     var8 = !var7;
                     var7 = !var8;
                     if(var8) { _fun0013_ip = 63; continue _fun0013 }
-case 27:
+case 64:
                     var7 = undefined;
 case 63:
                     var2['overrideVisibility'] = var7;
@@ -1101,7 +1101,7 @@ case 0:
                         var2 = var5[var2];
                         var5 = null;
                         if(!(var5 != var2)) { _fun0014_ip = 48; continue _fun0014 }
-case 64:
+case 65:
                         var5 = _closure2_slot10;
                         var5 = var5.current;
                         var7 = var5.children;
@@ -1201,8 +1201,8 @@ case 48:
             var9 = var13.bind(var4)(var9, var5);
             var5 = new Array(2);
             var5[0] = var9;
-            if(!var8) { _fun0002_ip = 65; continue _fun0002 }
-case 66:
+            if(!var8) { _fun0002_ip = 66; continue _fun0002 }
+case 67:
             var9 = _closure1_slot9;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -1214,7 +1214,7 @@ case 66:
             var7['obtainableOrbRewards'] = var11;
             var7['showOrbShopPlaceholderCarousel'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 65:
+case 66:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -1356,10 +1356,10 @@ case 0:
             var18 = var1.obtainableOrbRewards;
             var17 = var1.showOrbShopPlaceholderCarousel;
             var5 = undefined;
-            if(!(var17 === var5)) { _fun0015_ip = 67; continue _fun0015 }
-case 68:
+            if(!(var17 === var5)) { _fun0015_ip = 68; continue _fun0015 }
+case 69:
             var17 = false;
-case 67:
+case 68:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 34;
@@ -1377,11 +1377,11 @@ case 67:
                 _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                     var1 = arg1;
-                    if(var1) { _fun0016_ip = 69; continue _fun0016 }
-case 70:
+                    if(var1) { _fun0016_ip = 70; continue _fun0016 }
+case 71:
                     var6 = new Array(0);
-                    _fun0016_ip = 71; continue _fun0016;
-case 69:
+                    _fun0016_ip = 72; continue _fun0016;
+case 70:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var1 = 16;
@@ -1393,7 +1393,7 @@ case 69:
                     var1 = new Array(1);
                     var1[0] = var3;
                     var6 = var1;
-case 71:
+case 72:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var1 = 17;
@@ -1434,12 +1434,12 @@ case 0:
                             var4 = var4.BOUNTIES_NUX_PROMO_SHEET;
                             var4 = var5 !== var4;
                             if(var4) { _fun0017_ip = 53; continue _fun0017 }
-case 72:
+case 73:
                             var5 = _closure3_slot2;
                             var4 = var5.current;
 case 53:
-                            if(var4) { _fun0017_ip = 73; continue _fun0017 }
-case 74:
+                            if(var4) { _fun0017_ip = 74; continue _fun0017 }
+case 75:
                             var4 = _closure3_slot2;
                             var3 = true;
                             var4['current'] = var3;
@@ -1449,7 +1449,7 @@ case 74:
                             var2 = var4[var2];
                             var2 = var3.bind(var1)(var2);
                             var2 = var2.bind(var1)();
-case 73:
+case 74:
                             return var1;
                         }
                     };
@@ -1474,13 +1474,13 @@ case 0:
                                     var1 = undefined;
                                     var3 = var5.bind(var1)(var3);
                                     var3 = var3.PROMO_SHEET_KEY;
-                                    if(!(var4 === var3)) { _fun0019_ip = 75; continue _fun0019 }
-case 76:
+                                    if(!(var4 === var3)) { _fun0019_ip = 76; continue _fun0019 }
+case 77:
                                     var3 = _closure3_slot1;
                                     var2 = _closure1_slot8;
                                     var2 = var2.USER_DISMISS;
                                     var2 = var3.bind(var1)(var2);
-case 75:
+case 76:
                                     return var1;
                                 }
                             };
@@ -1494,10 +1494,10 @@ case 75:
                             var3 = var7.bind(var4)(var3);
                             var3 = var3.DismissibleContent;
                             var3 = var3.BOUNTIES_NUX_PROMO_SHEET;
-                            if(!(var6 !== var3)) { _fun0018_ip = 74; continue _fun0018 }
+                            if(!(var6 !== var3)) { _fun0018_ip = 75; continue _fun0018 }
 case 17:
                             return var4;
-case 74:
+case 75:
                             var3 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var2 = 18;
@@ -1545,7 +1545,7 @@ case 74:
             var11 = var4.bind(var9)(var3, var2);
             var14 = !var10;
             if(var10) { _fun0015_ip = 39; continue _fun0015 }
-case 77:
+case 78:
             var14 = !var11;
 case 39:
             if(!var14) { _fun0015_ip = 12; continue _fun0015 }
@@ -1562,18 +1562,18 @@ case 10:
             var1 = var3.bind(var5)(var1);
             var1 = var1.MIN_PRODUCTS_FOR_ORB_SHOP_CAROUSEL;
             var1 = var2 >= var1;
-            if(var1) { _fun0015_ip = 78; continue _fun0015 }
-case 79:
+            if(var1) { _fun0015_ip = 79; continue _fun0015 }
+case 80:
             var1 = var17;
-case 78:
+case 79:
             var14 = var1;
 case 57:
-            if(var10) { _fun0015_ip = 80; continue _fun0015 }
-case 81:
-            if(var11) { _fun0015_ip = 80; continue _fun0015 }
+            if(var10) { _fun0015_ip = 81; continue _fun0015 }
 case 82:
-            if(var6) { _fun0015_ip = 83; continue _fun0015 }
-case 84:
+            if(var11) { _fun0015_ip = 81; continue _fun0015 }
+case 83:
+            if(var6) { _fun0015_ip = 84; continue _fun0015 }
+case 85:
             var3 = _closure1_slot9;
             var2 = _closure1_slot19;
             var1 = {};
@@ -1582,8 +1582,8 @@ case 84:
             var1['obtainableOrbRewards'] = var18;
             var1['showOrbShopPlaceholderCarousel'] = var17;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0015_ip = 85; continue _fun0015;
-case 83:
+            _fun0015_ip = 86; continue _fun0015;
+case 84:
             var4 = _closure1_slot10;
             var3 = _closure1_slot5;
             var2 = {};
@@ -1601,8 +1601,8 @@ case 83:
             var9 = new Array(2);
             var9[0] = var13;
             var13 = null;
-            if(!var14) { _fun0015_ip = 86; continue _fun0015 }
-case 87:
+            if(!var14) { _fun0015_ip = 87; continue _fun0015 }
+case 88:
             var16 = _closure1_slot9;
             var15 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -1614,35 +1614,35 @@ case 87:
             var14['obtainableOrbRewards'] = var18;
             var14['showOrbShopPlaceholderCarousel'] = var17;
             var13 = var16.bind(var5)(var15, var14);
-case 86:
+case 87:
             var9[1] = var13;
             var2['children'] = var9;
             var1 = var4.bind(var5)(var3, var2);
-case 85:
-            _fun0015_ip = 88; continue _fun0015;
-case 80:
+case 86:
+            _fun0015_ip = 89; continue _fun0015;
+case 81:
             var4 = _closure1_slot9;
             var3 = _closure1_slot5;
             var2 = {};
             var8 = var8.container;
             var2['style'] = var8;
             var9 = _closure1_slot9;
-            if(var6) { _fun0015_ip = 89; continue _fun0015 }
-case 90:
+            if(var6) { _fun0015_ip = 90; continue _fun0015 }
+case 91:
             var8 = _closure1_slot15;
             var6 = {};
             var14 = _closure1_slot7;
-            if(var10) { _fun0015_ip = 91; continue _fun0015 }
-case 92:
-            var13 = var14.COMPLETED;
-            _fun0015_ip = 93; continue _fun0015;
-case 91:
-            var13 = var14.EMPTY;
+            if(var10) { _fun0015_ip = 92; continue _fun0015 }
 case 93:
+            var13 = var14.COMPLETED;
+            _fun0015_ip = 94; continue _fun0015;
+case 92:
+            var13 = var14.EMPTY;
+case 94:
             var6['reason'] = var13;
             var6 = var9.bind(var5)(var8, var6);
-            _fun0015_ip = 94; continue _fun0015;
-case 89:
+            _fun0015_ip = 95; continue _fun0015;
+case 90:
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
             var7 = 36;
@@ -1650,16 +1650,16 @@ case 89:
             var8 = var8.bind(var5)(var7);
             var7 = {};
             var7['bounties'] = var12;
-            if(var10) { _fun0015_ip = 95; continue _fun0015 }
-case 96:
+            if(var10) { _fun0015_ip = 96; continue _fun0015 }
+case 97:
             var10 = var11;
-case 95:
+case 96:
             var7['isEmptyOrCompleted'] = var10;
             var6 = var9.bind(var5)(var8, var7);
-case 94:
+case 95:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 88:
+case 89:
             return var1;
         }
     };

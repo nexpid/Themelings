@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.MainTabsNavigatorScreens;
+    var4 = var4.YouBarNavigatorScreens;
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];

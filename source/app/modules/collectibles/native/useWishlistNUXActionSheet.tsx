@@ -120,7 +120,7 @@ case 0:
             var1 = 5;
             var1 = var8[var1];
             var5 = var6.bind(var7)(var1);
-            var4 = var5.UNSAFE_useIsDismissibleContentDismissed;
+            var4 = var5.useIsDismissibleContentDismissed_UNSAFE;
             var1 = 6;
             var1 = var8[var1];
             var1 = var6.bind(var7)(var1);

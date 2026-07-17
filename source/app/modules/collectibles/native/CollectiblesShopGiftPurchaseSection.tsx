@@ -639,7 +639,7 @@ case 22:
     var7 = 'failed';
     var4['FAILED'] = var7;
     var _closure1_slot17 = var4;
-    var4 = 36;
+    var4 = 37;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -703,13 +703,23 @@ case 40:
             var2 = var18 === var2;
             if(!var2) { _fun0007_ip = 41; continue _fun0007 }
 case 42:
-            var2 = var3;
+            var7 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var6 = 32;
+            var6 = var10[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = var7.isGooglePlayBillingSupported;
+            var2 = var6.bind(var7)();
 case 41:
+            if(!var2) { _fun0007_ip = 43; continue _fun0007 }
+case 44:
+            var2 = var3;
+case 43:
             var17 = var2;
 case 39:
             var7 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var2 = 32;
+            var2 = 33;
             var2 = var19[var2];
             var2 = var7.bind(var4)(var2);
             var11 = var2.bind(var4)(var5);
@@ -722,7 +732,7 @@ case 39:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 33;
+                    var1 = 34;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -730,18 +740,18 @@ case 0:
                     var2 = var2.bind(var3)();
                     var4 = _closure2_slot0;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0008_ip = 43; continue _fun0008 }
-case 44:
+                    if(!(var3 != var4)) { _fun0008_ip = 45; continue _fun0008 }
+case 46:
                     var2 = _closure2_slot0;
                     var2 = var2.bind(var1)();
-case 43:
+case 45:
                     return var1;
                 }
             };
             var10 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot14;
             var2 = _closure1_slot0;
-            var1 = 34;
+            var1 = 35;
             var1 = var19[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.NativePaymentContextProvider;
@@ -751,7 +761,7 @@ case 43:
             var16 = null;
             var1['activeSubscription'] = var16;
             var8 = _closure1_slot14;
-            var6 = 35;
+            var6 = 36;
             var6 = var19[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};

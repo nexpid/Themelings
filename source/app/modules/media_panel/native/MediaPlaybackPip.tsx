@@ -701,7 +701,7 @@ case 11:
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/media_panel/native/MediaPlaybackPip.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default() {
+    var2 = function MediaPlaybackPip() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = _closure1_slot17;

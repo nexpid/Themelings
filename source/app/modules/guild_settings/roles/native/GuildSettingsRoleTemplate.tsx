@@ -428,17 +428,17 @@ case 0:
                     var2 = {};
                     var1 = !var5;
                     var6 = !var1;
-                    if(!var5) { _fun0004_ip = 5; continue _fun0004 }
-case 9:
+                    if(!var5) { _fun0004_ip = 9; continue _fun0004 }
+case 10:
                     var6 = undefined;
-case 5:
+case 9:
                     var2['accessible'] = var6;
                     var2['accessibilityElementsHidden'] = var1;
                     var1 = 'no-hide-descendants';
-                    if(!var5) { _fun0004_ip = 10; continue _fun0004 }
-case 11:
+                    if(!var5) { _fun0004_ip = 11; continue _fun0004 }
+case 12:
                     var1 = 'yes';
-case 10:
+case 11:
                     var2['importantForAccessibility'] = var1;
                     var10 = _closure2_slot3;
                     var1 = var10.cardWrapper;
@@ -488,12 +488,12 @@ case 10:
                     var18 = null;
                     var11 = var18 != var17;
                     var10 = null;
-                    if(!var11) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                    if(!var11) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                     var11 = '';
                     var10 = null;
-                    if(!(var11 !== var17)) { _fun0004_ip = 12; continue _fun0004 }
-case 14:
+                    if(!(var11 !== var17)) { _fun0004_ip = 13; continue _fun0004 }
+case 15:
                     var18 = _closure1_slot15;
                     var17 = _closure1_slot0;
                     var11 = _closure1_slot2;
@@ -509,7 +509,7 @@ case 14:
                     var19 = var19.bind(var20)();
                     var11['children'] = var19;
                     var10 = var18.bind(var1)(var17, var11);
-case 12:
+case 13:
                     var17 = new Array(2);
                     var17[0] = var10;
                     var11 = _closure1_slot15;
@@ -648,24 +648,24 @@ case 0:
                             var4 = var7.getGuild;
                             var7 = var4.bind(var7)(var8);
                             var4 = null;
-                            if(!(var4 != var7)) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                            if(!(var4 != var7)) { _fun0005_ip = 16; continue _fun0005 }
+case 17:
                             var8 = var7.features;
                             var7 = var8.has;
                             var6 = _closure1_slot14;
                             var6 = var6.COMMUNITY;
                             var6 = var7.bind(var8)(var6);
-                            if(!var6) { _fun0005_ip = 17; continue _fun0005 }
+                            if(!var6) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
+                            if(!(var4 == var3)) { _fun0005_ip = 20; continue _fun0005 }
 case 18:
-                            if(!(var4 == var3)) { _fun0005_ip = 19; continue _fun0005 }
-case 17:
                             var4 = _closure2_slot0;
                             var4 = var4.bind(var1)(var5);
-                            _fun0005_ip = 15; continue _fun0005;
-case 19:
+                            _fun0005_ip = 16; continue _fun0005;
+case 20:
                             var2 = _closure2_slot0;
                             var2 = var2.bind(var1)(var3);
-case 15:
+case 16:
                             return var1;
                         }
                     };

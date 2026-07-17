@@ -20,9 +20,36 @@ case 2:
             return var1;
         }
     };
+    var _closure1_slot16 = var1;
+    var1 = function getGuildIconTop(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+            var3 = arg1;
+            var2 = _closure1_slot16;
+            var1 = undefined;
+            var2 = var2.bind(var1)(var3);
+            var1 = 'one-column';
+            if(!(var1 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+            var3 = 2;
+            var4 = var2 / var3;
+            var1 = 80;
+            var1 = var1 - var4;
+            var1 = var1 - var3;
+            _fun0002_ip = 6; continue _fun0002;
+case 4:
+            var3 = 2;
+            var4 = var2 / var3;
+            var2 = 88;
+            var2 = var2 - var4;
+            var1 = var2 - var3;
+case 6:
+            return var1;
+        }
+    };
     var _closure1_slot17 = var1;
     var1 = function getCardWidth(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -36,11 +63,11 @@ case 0:
             var4 = 'one-column';
             var2 = arg1;
             var1 = var3;
-            if(!(var4 !== var2)) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+            if(!(var4 !== var2)) { _fun0003_ip = 7; continue _fun0003 }
+case 8:
             var2 = 2;
             var1 = var3 / var2;
-case 4:
+case 7:
             return var1;
         }
     };
@@ -98,33 +125,6 @@ case 4:
     var _closure1_slot13 = var7;
     var4 = var4.jsxs;
     var _closure1_slot14 = var4;
-    var4 = function getGuildIconTop(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
-case 0:
-            var3 = arg1;
-            var2 = _closure1_slot17;
-            var1 = undefined;
-            var2 = var2.bind(var1)(var3);
-            var1 = 'one-column';
-            if(!(var1 !== var3)) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
-            var3 = 2;
-            var4 = var2 / var3;
-            var1 = 80;
-            var1 = var1 - var4;
-            var1 = var1 - var3;
-            _fun0003_ip = 8; continue _fun0003;
-case 6:
-            var3 = 2;
-            var4 = var2 / var3;
-            var2 = 88;
-            var2 = var2 - var4;
-            var1 = var2 - var3;
-case 8:
-            return var1;
-        }
-    };
-    var _closure1_slot15 = var4;
     var4 = 9;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -141,7 +141,7 @@ case 0:
 case 10:
             var10 = 12;
 case 9:
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot16;
             var6 = undefined;
             var3 = var1.bind(var6)(var12);
             var1 = {};
@@ -209,7 +209,7 @@ case 13:
             var2['marginHorizontal'] = var8;
             var1['content'] = var2;
             var2 = {'position': 'absolute', 'top': null, 'left': 16};
-            var8 = _closure1_slot15;
+            var8 = _closure1_slot17;
             var8 = var8.bind(var6)(var12);
             var2['top'] = var8;
             var1['guildIconContainer'] = var2;
@@ -342,7 +342,7 @@ case 23:
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot16 = var4;
+    var _closure1_slot15 = var4;
     var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -363,7 +363,7 @@ case 0:
             var _closure2_slot3 = var1;
             var4 = undefined;
             var _closure2_slot9 = var4;
-            var2 = _closure1_slot16;
+            var2 = _closure1_slot15;
             var11 = var2.bind(var4)(var26);
             var9 = _closure1_slot5;
             var3 = var9.useState;
@@ -412,7 +412,7 @@ case 0:
             };
             var19 = var8.bind(var13)(var5, var3);
             var _closure2_slot7 = var19;
-            var3 = _closure1_slot17;
+            var3 = _closure1_slot16;
             var30 = var3.bind(var4)(var26);
             var _closure2_slot8 = var30;
             var8 = var9.useMemo;
@@ -780,7 +780,7 @@ case 53:
             var17['shape'] = var14;
             var14 = 12;
             var17['x'] = var14;
-            var14 = _closure1_slot15;
+            var14 = _closure1_slot17;
             var14 = var14.bind(var4)(var26);
             var18 = 4;
             var14 = var14 - var18;

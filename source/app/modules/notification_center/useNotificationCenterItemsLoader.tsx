@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PAGE_SIZE_WITH_MENTIONS'] = var4;
     var4 = 20;
     var3['PAGE_SIZE'] = var4;
-    var2 = function(arg1) {
+    var2 = function useNotificationCenterItemsLoader(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;

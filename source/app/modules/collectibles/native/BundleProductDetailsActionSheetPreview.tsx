@@ -7,6 +7,98 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
+    var1 = function BundleThumbnail(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var2 = arg1;
+            var14 = var2.item;
+            var9 = var2.index;
+            var _closure2_slot0 = var9;
+            var6 = var2.isSelected;
+            var10 = var2.setSelected;
+            var _closure2_slot1 = var10;
+            var5 = var2.label;
+            var4 = var2.trackedSkuId;
+            var _closure2_slot2 = var4;
+            var8 = var2.onTrackPress;
+            var _closure2_slot3 = var8;
+            var3 = _closure1_slot4;
+            var2 = new Array(4);
+            var2[0] = var10;
+            var2[1] = var9;
+            var2[2] = var8;
+            var2[3] = var4;
+            var4 = undefined;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var3 = _closure2_slot3;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var5 = _closure2_slot3;
+                    var2 = _closure1_slot11;
+                    var4 = var2.BUNDLE_VIEW_PRODUCT;
+                    var3 = _closure2_slot2;
+                    var2 = undefined;
+                    var2 = var5.bind(var2)(var4, var3);
+case 2:
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                }
+            };
+            var8 = var3.bind(var4)(var1, var2);
+            var1 = _closure1_slot14;
+            var10 = var1.bind(var4)();
+            var3 = _closure1_slot13;
+            var2 = _closure1_slot8;
+            var1 = {};
+            var9 = 'radio';
+            var1['role'] = var9;
+            var1['aria-checked'] = var6;
+            var1['onPress'] = var8;
+            var1['aria-label'] = var5;
+            var9 = _closure1_slot12;
+            var8 = _closure1_slot10;
+            var5 = {};
+            var11 = var10.bundleThumbnail;
+            var5['style'] = var11;
+            var13 = _closure1_slot12;
+            var12 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var11 = 7;
+            var11 = var15[var11];
+            var12 = var12.bind(var4)(var11);
+            var11 = {};
+            var11['item'] = var14;
+            var14 = 56;
+            var11['size'] = var14;
+            var11 = var13.bind(var4)(var12, var11);
+            var5['children'] = var11;
+            var8 = var9.bind(var4)(var8, var5);
+            var5 = new Array(2);
+            var5[0] = var8;
+            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var9 = _closure1_slot12;
+            var8 = _closure1_slot10;
+            var7 = {};
+            var10 = var10.selectedRing;
+            var7['style'] = var10;
+            var10 = 'none';
+            var7['pointerEvents'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+case 4:
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot15 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -136,97 +228,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['bundleInfoContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = function BundleThumbnail(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
-case 0:
-            var2 = arg1;
-            var13 = var2.item;
-            var9 = var2.index;
-            var _closure2_slot0 = var9;
-            var6 = var2.isSelected;
-            var10 = var2.setSelected;
-            var _closure2_slot1 = var10;
-            var5 = var2.label;
-            var4 = var2.trackedSkuId;
-            var _closure2_slot2 = var4;
-            var8 = var2.onTrackPress;
-            var _closure2_slot3 = var8;
-            var3 = _closure1_slot4;
-            var2 = new Array(4);
-            var2[0] = var10;
-            var2[1] = var9;
-            var2[2] = var8;
-            var2[3] = var4;
-            var4 = undefined;
-            var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
-case 0:
-                    var3 = _closure2_slot3;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var5 = _closure2_slot3;
-                    var2 = _closure1_slot11;
-                    var4 = var2.BUNDLE_VIEW_PRODUCT;
-                    var3 = _closure2_slot2;
-                    var2 = undefined;
-                    var2 = var5.bind(var2)(var4, var3);
-case 2:
-                    var3 = _closure2_slot1;
-                    var2 = _closure2_slot0;
-                    var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
-                }
-            };
-            var8 = var3.bind(var4)(var1, var2);
-            var1 = _closure1_slot14;
-            var10 = var1.bind(var4)();
-            var3 = _closure1_slot13;
-            var2 = _closure1_slot8;
-            var1 = {};
-            var9 = 'radio';
-            var1['role'] = var9;
-            var1['aria-checked'] = var6;
-            var1['onPress'] = var8;
-            var1['aria-label'] = var5;
-            var9 = _closure1_slot12;
-            var8 = _closure1_slot10;
-            var5 = {};
-            var11 = var10.bundleThumbnail;
-            var5['style'] = var11;
-            var12 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var11 = 7;
-            var11 = var14[var11];
-            var12 = var12.bind(var4)(var11);
-            var11 = {};
-            var11['item'] = var13;
-            var13 = 56;
-            var11['size'] = var13;
-            var11 = var9.bind(var4)(var12, var11);
-            var5['children'] = var11;
-            var8 = var9.bind(var4)(var8, var5);
-            var5 = new Array(2);
-            var5[0] = var8;
-            if(!var6) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var9 = _closure1_slot12;
-            var8 = _closure1_slot10;
-            var7 = {};
-            var10 = var10.selectedRing;
-            var7['style'] = var10;
-            var10 = 'none';
-            var7['pointerEvents'] = var10;
-            var6 = var9.bind(var4)(var8, var7);
-case 4:
-            var5[1] = var6;
-            var1['children'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var _closure1_slot15 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -237,34 +238,34 @@ case 4:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var12 = var1.product;
-            var9 = var1.width;
-            var8 = var1.handlePreviewPress;
-            var7 = var1.onTrackPress;
-            var _closure2_slot0 = var7;
+            var17 = var1.product;
+            var10 = var1.width;
+            var9 = var1.handlePreviewPress;
+            var8 = var1.onTrackPress;
+            var _closure2_slot0 = var8;
             var1 = var1.onActiveItemChange;
             var _closure2_slot1 = var1;
             var4 = undefined;
             var _closure2_slot5 = var4;
             var2 = _closure1_slot14;
-            var24 = var2.bind(var4)();
-            var15 = _closure1_slot7;
+            var29 = var2.bind(var4)();
+            var13 = _closure1_slot7;
             var2 = 0;
-            var3 = var15.bind(var4)(var2);
-            var13 = _closure1_slot3;
+            var3 = var13.bind(var4)(var2);
+            var12 = _closure1_slot3;
             var11 = 2;
-            var3 = var13.bind(var4)(var3, var11);
+            var3 = var12.bind(var4)(var3, var11);
             var5 = var3[var2];
-            var10 = 1;
-            var6 = var3[var10];
+            var7 = 1;
+            var6 = var3[var7];
             var _closure2_slot2 = var6;
-            var3 = var12.skuId;
-            var3 = var15.bind(var4)(var3);
-            var3 = var13.bind(var4)(var3, var11);
-            var13 = var3[var2];
-            var11 = var3[var10];
-            var15 = _closure1_slot6;
-            var10 = function() {
+            var3 = var17.skuId;
+            var3 = var13.bind(var4)(var3);
+            var3 = var12.bind(var4)(var3, var11);
+            var12 = var3[var2];
+            var11 = var3[var7];
+            var13 = _closure1_slot6;
+            var7 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 8;
@@ -280,23 +281,23 @@ case 0:
                 return var1;
             };
             var3 = new Array(0);
-            var18 = var15.bind(var4)(var10, var3);
-            var23 = var12.items;
-            var3 = var12.bundledProducts;
+            var21 = var13.bind(var4)(var7, var3);
+            var28 = var17.items;
+            var3 = var17.bundledProducts;
             var _closure2_slot3 = var3;
             var _closure2_slot4 = var5;
-            var10 = var12.skuId;
-            if(!(var10 !== var13)) { _fun0003_ip = 6; continue _fun0003 }
+            var7 = var17.skuId;
+            if(!(var7 !== var12)) { _fun0003_ip = 6; continue _fun0003 }
 case 7:
-            var10 = var12.skuId;
-            var10 = var11.bind(var4)(var10);
+            var7 = var17.skuId;
+            var7 = var11.bind(var4)(var7);
             var6 = var6.bind(var4)(var2);
             _closure2_slot4 = var2;
             var5 = 0;
 case 6:
-            var2 = var23[var5];
+            var2 = var28[var5];
             _closure2_slot5 = var2;
-            var10 = _closure1_slot5;
+            var7 = _closure1_slot5;
             var6 = new Array(2);
             var6[0] = var2;
             var6[1] = var1;
@@ -316,125 +317,135 @@ case 8:
                     return var1;
                 }
             };
-            var1 = var10.bind(var4)(var1, var6);
-            var13 = null;
-            var6 = var13 == var3;
+            var1 = var7.bind(var4)(var1, var6);
+            var18 = null;
+            var6 = var18 == var3;
             var1 = undefined;
             if(var6) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
             var1 = var3[var5];
 case 9:
-            var3 = var13 == var1;
-            var15 = undefined;
-            if(var3) { _fun0003_ip = 4; continue _fun0003 }
-case 11:
-            var15 = var1.name;
-case 4:
-            if(!(var13 == var15)) { _fun0003_ip = 12; continue _fun0003 }
-case 13:
-            var15 = var2.skuId;
+            var3 = var18 == var1;
+            var20 = undefined;
+            if(var3) { _fun0003_ip = 11; continue _fun0003 }
 case 12:
-            var11 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var20 = var1.name;
+case 11:
+            if(!(var18 == var20)) { _fun0003_ip = 13; continue _fun0003 }
+case 14:
+            var20 = var2.skuId;
+case 13:
+            var15 = _closure1_slot0;
+            var14 = _closure1_slot2;
             var1 = 9;
-            var1 = var10[var1];
-            var5 = var11.bind(var4)(var1);
+            var1 = var14[var1];
+            var5 = var15.bind(var4)(var1);
             var3 = var5.getCollectibleTypeLabel;
             var1 = var2.type;
-            var19 = var3.bind(var5)(var1);
-            var17 = {};
+            var24 = var3.bind(var5)(var1);
+            var11 = {};
             var1 = var2.skuId;
-            var17['skuId'] = var1;
+            var11['skuId'] = var1;
             var1 = var2.type;
-            var17['type'] = var1;
+            var11['type'] = var1;
             var1 = new Array(1);
             var1[0] = var2;
-            var17['items'] = var1;
+            var11['items'] = var1;
             var3 = _closure1_slot13;
             var2 = _closure1_slot10;
             var1 = {};
-            var5 = var24.previewContainer;
+            var5 = var29.previewContainer;
             var1['style'] = var5;
-            var16 = _closure1_slot12;
+            var7 = _closure1_slot12;
             var5 = 10;
-            var5 = var10[var5];
-            var5 = var11.bind(var4)(var5);
+            var5 = var14[var5];
+            var5 = var15.bind(var4)(var5);
             var6 = var5.IndividualProductPreview;
             var5 = {};
-            var5['product'] = var17;
-            var5['width'] = var9;
-            var5['handlePreviewPress'] = var8;
-            var5['onTrackPress'] = var7;
-            var6 = var16.bind(var4)(var6, var5);
+            var5['product'] = var11;
+            var5['width'] = var10;
+            var5['handlePreviewPress'] = var9;
+            var5['onTrackPress'] = var8;
+            var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
+            var8 = _closure1_slot13;
+            var7 = _closure1_slot10;
             var6 = {};
-            var7 = var24.bundleContainer;
-            var6['style'] = var7;
-            var7 = {};
-            var8 = var24.bundleInfoContainer;
-            var7['style'] = var8;
-            var17 = 11;
-            var8 = var10[var17];
-            var8 = var11.bind(var4)(var8);
-            var9 = var8.Text;
-            var8 = {};
-            var20 = 'heading-xl/bold';
-            var8['variant'] = var20;
-            var12 = var12.name;
-            var8['children'] = var12;
-            var9 = var16.bind(var4)(var9, var8);
-            var8 = new Array(2);
-            var8[0] = var9;
-            var9 = var10[var17];
-            var9 = var11.bind(var4)(var9);
-            var12 = var9.Text;
-            var9 = {'variant': 'text-sm/medium', 'color': 'text-default'};
-            var22 = 12;
-            var20 = var10[var22];
-            var20 = var11.bind(var4)(var20);
-            var27 = var20.intl;
-            var26 = var27.formatToPlainString;
-            var20 = var10[var22];
-            var20 = var11.bind(var4)(var20);
-            var20 = var20.t;
-            var25 = var20["/0Yndu"];
-            var20 = {};
-            var28 = var23.length;
-            var20['num'] = var28;
-            var20 = var26.bind(var27)(var25, var20);
-            var9['children'] = var20;
-            var9 = var16.bind(var4)(var12, var9);
-            var8[1] = var9;
-            var7['children'] = var8;
-            var8 = var3.bind(var4)(var2, var7);
-            var7 = new Array(2);
-            var7[0] = var8;
-            var8 = {};
-            var9 = var24.bundleInfoContainer;
-            var8['style'] = var9;
-            var9 = 8;
-            var9 = var10[var9];
-            var9 = var11.bind(var4)(var9);
-            var12 = var9.GestureDetector;
+            var9 = var29.bundleContainer;
+            var6['style'] = var9;
+            var11 = _closure1_slot13;
+            var10 = _closure1_slot10;
             var9 = {};
-            var9['gesture'] = var18;
-            var20 = _closure1_slot9;
-            var18 = {'horizontal': true, 'showsHorizontalScrollIndicator': false, 'contentContainerStyle': null, 'role': 'radiogroup'};
-            var24 = var24.bundleThumbnailRow;
-            var18['contentContainerStyle'] = var24;
-            var24 = var10[var22];
-            var24 = var11.bind(var4)(var24);
-            var25 = var24.intl;
-            var24 = var25.string;
-            var22 = var10[var22];
-            var22 = var11.bind(var4)(var22);
-            var22 = var22.t;
-            var22 = var22.cTbdgu;
-            var22 = var24.bind(var25)(var22);
-            var18['aria-label'] = var22;
-            var22 = var23.map;
-            var21 = function(arg1, arg2) {
+            var12 = var29.bundleInfoContainer;
+            var9['style'] = var12;
+            var16 = _closure1_slot12;
+            var22 = 11;
+            var12 = var14[var22];
+            var12 = var15.bind(var4)(var12);
+            var13 = var12.Text;
+            var12 = {};
+            var23 = 'heading-xl/bold';
+            var12['variant'] = var23;
+            var17 = var17.name;
+            var12['children'] = var17;
+            var13 = var16.bind(var4)(var13, var12);
+            var12 = new Array(2);
+            var12[0] = var13;
+            var17 = _closure1_slot12;
+            var13 = var14[var22];
+            var13 = var15.bind(var4)(var13);
+            var16 = var13.Text;
+            var13 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+            var27 = 12;
+            var23 = var14[var27];
+            var23 = var15.bind(var4)(var23);
+            var31 = var23.intl;
+            var30 = var31.formatToPlainString;
+            var23 = var14[var27];
+            var23 = var15.bind(var4)(var23);
+            var23 = var23.t;
+            var25 = var23["/0Yndu"];
+            var23 = {};
+            var32 = var28.length;
+            var23['num'] = var32;
+            var23 = var30.bind(var31)(var25, var23);
+            var13['children'] = var23;
+            var13 = var17.bind(var4)(var16, var13);
+            var12[1] = var13;
+            var9['children'] = var12;
+            var10 = var11.bind(var4)(var10, var9);
+            var9 = new Array(2);
+            var9[0] = var10;
+            var12 = _closure1_slot13;
+            var11 = _closure1_slot10;
+            var10 = {};
+            var13 = var29.bundleInfoContainer;
+            var10['style'] = var13;
+            var17 = _closure1_slot12;
+            var13 = 8;
+            var13 = var14[var13];
+            var13 = var15.bind(var4)(var13);
+            var16 = var13.GestureDetector;
+            var13 = {};
+            var13['gesture'] = var21;
+            var25 = _closure1_slot12;
+            var23 = _closure1_slot9;
+            var21 = {'horizontal': true, 'showsHorizontalScrollIndicator': false, 'contentContainerStyle': null, 'role': 'radiogroup'};
+            var29 = var29.bundleThumbnailRow;
+            var21['contentContainerStyle'] = var29;
+            var29 = var14[var27];
+            var29 = var15.bind(var4)(var29);
+            var30 = var29.intl;
+            var29 = var30.string;
+            var27 = var14[var27];
+            var27 = var15.bind(var4)(var27);
+            var27 = var27.t;
+            var27 = var27.cTbdgu;
+            var27 = var29.bind(var30)(var27);
+            var21['aria-label'] = var27;
+            var27 = var28.map;
+            var26 = function(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = arg1;
@@ -454,38 +465,38 @@ case 0:
                     var9 = var8 == var2;
                     var2 = undefined;
                     var7 = undefined;
-                    if(var9) { _fun0005_ip = 14; continue _fun0005 }
-case 15:
+                    if(var9) { _fun0005_ip = 15; continue _fun0005 }
+case 16:
                     var9 = _closure2_slot3;
                     var9 = var9[var10];
                     var11 = var8 == var9;
                     var7 = undefined;
-                    if(var11) { _fun0005_ip = 14; continue _fun0005 }
-case 16:
-                    var7 = var9.name;
-case 14:
-                    if(!(var8 == var7)) { _fun0005_ip = 17; continue _fun0005 }
-case 18:
-                    var7 = var1.skuId;
+                    if(var11) { _fun0005_ip = 15; continue _fun0005 }
 case 17:
+                    var7 = var9.name;
+case 15:
+                    if(!(var8 == var7)) { _fun0005_ip = 18; continue _fun0005 }
+case 19:
+                    var7 = var1.skuId;
+case 18:
                     var3['label'] = var7;
                     var7 = _closure2_slot3;
                     var9 = var8 == var7;
                     var7 = undefined;
-                    if(var9) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
+                    if(var9) { _fun0005_ip = 20; continue _fun0005 }
+case 21:
                     var9 = _closure2_slot3;
                     var9 = var9[var10];
                     var10 = var8 == var9;
                     var7 = undefined;
-                    if(var10) { _fun0005_ip = 19; continue _fun0005 }
-case 21:
-                    var7 = var9.skuId;
-case 19:
-                    if(!(var8 == var7)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-                    var7 = var1.skuId;
+                    if(var10) { _fun0005_ip = 20; continue _fun0005 }
 case 22:
+                    var7 = var9.skuId;
+case 20:
+                    if(!(var8 == var7)) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
+                    var7 = var1.skuId;
+case 23:
                     var3['trackedSkuId'] = var7;
                     var6 = _closure2_slot0;
                     var3['onTrackPress'] = var6;
@@ -494,46 +505,47 @@ case 22:
                     return var1;
                 }
             };
-            var21 = var22.bind(var23)(var21);
-            var18['children'] = var21;
-            var18 = var16.bind(var4)(var20, var18);
-            var9['children'] = var18;
-            var12 = var16.bind(var4)(var12, var9);
-            var9 = new Array(2);
-            var9[0] = var12;
-            var10 = var10[var17];
-            var10 = var11.bind(var4)(var10);
-            var11 = var10.Text;
-            var10 = {'variant': 'text-sm/medium', 'color': 'text-default'};
-            var12 = new Array(2);
-            var12[0] = var15;
-            var13 = var13 != var19;
-            if(!var13) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
-            var16 = _closure1_slot12;
-            var15 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var14 = var14[var17];
+            var26 = var27.bind(var28)(var26);
+            var21['children'] = var26;
+            var21 = var25.bind(var4)(var23, var21);
+            var13['children'] = var21;
+            var16 = var17.bind(var4)(var16, var13);
+            var13 = new Array(2);
+            var13[0] = var16;
+            var16 = _closure1_slot13;
+            var14 = var14[var22];
             var14 = var15.bind(var4)(var14);
             var15 = var14.Text;
-            var14 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
-            var17 = global;
-            var17 = var17.HermesInternal;
-            var18 = var17.concat;
-            var17 = ' - ';
-            var17 = var18.bind(var17)(var19);
+            var14 = {'variant': 'text-sm/medium', 'color': 'text-default'};
+            var17 = new Array(2);
+            var17[0] = var20;
+            var18 = var18 != var24;
+            if(!var18) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+            var21 = _closure1_slot12;
+            var20 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var19 = var19[var22];
+            var19 = var20.bind(var4)(var19);
+            var20 = var19.Text;
+            var19 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
+            var22 = global;
+            var22 = var22.HermesInternal;
+            var23 = var22.concat;
+            var22 = ' - ';
+            var22 = var23.bind(var22)(var24);
+            var19['children'] = var22;
+            var18 = var21.bind(var4)(var20, var19);
+case 25:
+            var17[1] = var18;
             var14['children'] = var17;
-            var13 = var16.bind(var4)(var15, var14);
-case 24:
-            var12[1] = var13;
-            var10['children'] = var12;
-            var10 = var3.bind(var4)(var11, var10);
+            var14 = var16.bind(var4)(var15, var14);
+            var13[1] = var14;
+            var10['children'] = var13;
+            var10 = var12.bind(var4)(var11, var10);
             var9[1] = var10;
-            var8['children'] = var9;
-            var8 = var3.bind(var4)(var2, var8);
-            var7[1] = var8;
-            var6['children'] = var7;
-            var6 = var3.bind(var4)(var2, var6);
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -240,43 +240,6 @@ case 13:
     var7 = var8.bind(var9)(var7);
     var3['BannerMode'] = var6;
     var3['BANNER_CONFIG_MOBILE'] = var5;
-    var5 = function getBannerModeFromDisplayItems(arg1) {
-        var2 = arg1;
-        var5 = var2.totalUnownedWishlistItemCount;
-        var4 = var2.wishlistInDmLength;
-        var6 = var2.displayItems;
-        var3 = _closure1_slot4;
-        var2 = {};
-        var2['totalUnownedWishlistItemCount'] = var5;
-        var2['wishlistInDmLength'] = var4;
-        var5 = var6.filter;
-        var4 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.item;
-            var2 = var1.sku;
-            var1 = null;
-            var1 = var1 != var2;
-            return var1;
-        };
-        var5 = var5.bind(var6)(var4);
-        var4 = var5.map;
-        var1 = function(arg1) {
-            var1 = arg1;
-            var3 = var1.item;
-            var2 = var1.source;
-            var1 = {};
-            var3 = var3.sku;
-            var1['sku'] = var3;
-            var1['source'] = var2;
-            return var1;
-        };
-        var1 = var4.bind(var5)(var1);
-        var2['displayItems'] = var1;
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        return var1;
-    };
-    var3['getBannerModeFromDisplayItems'] = var5;
     var3['getBannerMode'] = var4;
     var2 = function useWishlistBannerConfig(arg1) {
         var4 = arg1;

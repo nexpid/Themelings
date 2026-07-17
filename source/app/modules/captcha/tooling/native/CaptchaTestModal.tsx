@@ -19,32 +19,10 @@ case 3:
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var5;
             var _closure2_slot3 = var5;
-            var1 = _closure1_slot9;
-            var16 = var1.bind(var5)();
-            var3 = _closure1_slot5;
-            var1 = var3.useState;
-            var3 = var1.bind(var3)(var8);
-            var1 = _closure1_slot4;
-            var7 = 2;
-            var1 = var1.bind(var5)(var3, var7);
-            var4 = 0;
-            var11 = var1[var4];
-            _closure2_slot0 = var11;
-            var3 = 1;
-            var1 = var1[var3];
-            _closure2_slot1 = var1;
-            var6 = _closure1_slot5;
-            var1 = var6.useState;
-            var6 = var1.bind(var6)(var8);
-            var1 = _closure1_slot4;
-            var1 = var1.bind(var5)(var6, var7);
-            var23 = var1[var4];
-            _closure2_slot2 = var23;
-            var1 = var1[var3];
-            _closure2_slot3 = var1;
-            var1 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var1 = function _sendCaptchaRequest() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
                         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -118,21 +96,39 @@ case 4:
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot4 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var17 = var1.bind(var5)();
+            var _closure2_slot4 = var1;
+            var1 = _closure1_slot9;
+            var16 = var1.bind(var5)();
+            var3 = _closure1_slot5;
+            var1 = var3.useState;
+            var3 = var1.bind(var3)(var8);
+            var1 = _closure1_slot4;
+            var7 = 2;
+            var1 = var1.bind(var5)(var3, var7);
+            var4 = 0;
+            var11 = var1[var4];
+            _closure2_slot0 = var11;
+            var3 = 1;
+            var1 = var1[var3];
+            _closure2_slot1 = var1;
+            var6 = _closure1_slot5;
+            var1 = var6.useState;
+            var6 = var1.bind(var6)(var8);
+            var1 = _closure1_slot4;
+            var1 = var1.bind(var5)(var6, var7);
+            var22 = var1[var4];
+            _closure2_slot2 = var22;
+            var1 = var1[var3];
+            _closure2_slot3 = var1;
             var4 = _closure1_slot8;
             var3 = _closure1_slot6;
             var1 = {};
@@ -157,18 +153,18 @@ case 4:
             var19 = var21.bind(var5)(var20, var19);
             var20 = new Array(2);
             var20[0] = var19;
-            var26 = _closure1_slot7;
-            var24 = 11;
-            var19 = var13[var24];
+            var25 = _closure1_slot7;
+            var23 = 11;
+            var19 = var13[var23];
             var19 = var12.bind(var5)(var19);
-            var25 = var19.RadioGroup;
+            var24 = var19.RadioGroup;
             var21 = {};
             var19 = true;
             var21['withSpacing'] = var19;
             var21['value'] = var11;
-            var27 = _closure1_slot12;
-            var21['options'] = var27;
-            var27 = function onChange(arg1) {
+            var26 = _closure1_slot12;
+            var21['options'] = var26;
+            var26 = function onChange(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = arg1;
@@ -192,8 +188,8 @@ case 16:
                     return var1;
                 }
             };
-            var21['onChange'] = var27;
-            var21 = var26.bind(var5)(var25, var21);
+            var21['onChange'] = var26;
+            var21 = var25.bind(var5)(var24, var21);
             var20[1] = var21;
             var9['children'] = var20;
             var10 = var18.bind(var5)(var10, var9);
@@ -210,25 +206,25 @@ case 19:
             var13 = _closure1_slot8;
             var12 = _closure1_slot6;
             var11 = {};
-            var25 = _closure1_slot7;
+            var24 = _closure1_slot7;
             var20 = _closure1_slot0;
             var18 = _closure1_slot2;
             var15 = var18[var15];
             var15 = var20.bind(var5)(var15);
             var21 = var15.Text;
             var15 = {'variant': 'heading-lg/bold', 'color': 'mobile-text-heading-primary', 'children': 'Difficulty'};
-            var21 = var25.bind(var5)(var21, var15);
+            var21 = var24.bind(var5)(var21, var15);
             var15 = new Array(2);
             var15[0] = var21;
             var21 = _closure1_slot7;
-            var18 = var18[var24];
+            var18 = var18[var23];
             var18 = var20.bind(var5)(var18);
             var20 = var18.RadioGroup;
             var18 = {};
             var18['withSpacing'] = var19;
-            var18['value'] = var23;
-            var23 = _closure1_slot10;
-            var18['options'] = var23;
+            var18['value'] = var22;
+            var22 = _closure1_slot10;
+            var18['options'] = var22;
             var22 = function onChange(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -292,6 +288,16 @@ case 18:
             var14 = var15.bind(var5)(var14);
             var15 = var14.Button;
             var14 = {};
+            var17 = function sendCaptchaRequest() {
+                var1 = undefined;
+                var4 = _closure2_slot4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var14['onPress'] = var17;
             var17 = 'Submit';
             var14['text'] = var17;
@@ -306,9 +312,9 @@ case 18:
             var1 = var4.bind(var5)(var3, var1);
             return var1;
 case 2:
-            var28 = "Cannot destructure 'undefined' or 'null'.";
-            var29 = var2;
-            var1 = throwTypeError(var29, var28);
+            var27 = "Cannot destructure 'undefined' or 'null'.";
+            var28 = var2;
+            var1 = throwTypeError(var28, var27);
             var1 = undefined;
             throw var1;
         }
@@ -509,15 +515,15 @@ case 2:
                 var2['headerTitle'] = var6;
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var5 = 14;
+                var5 = 15;
                 var6 = var6[var5];
                 var5 = undefined;
                 var7 = var7.bind(var5)(var6);
                 var6 = var7.getHeaderCloseButton;
-                var5 = function() {
+                var5 = function closeModal() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 15;
+                    var1 = 14;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);

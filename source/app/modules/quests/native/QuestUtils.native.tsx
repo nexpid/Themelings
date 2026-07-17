@@ -909,7 +909,7 @@ case 37:
         }
     };
     var3['isHeroVideoSupported'] = var4;
-    var4 = function() {
+    var4 = function openDiscordQuestsFAQ() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 26;

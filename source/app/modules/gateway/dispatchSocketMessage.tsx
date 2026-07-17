@@ -4448,23 +4448,23 @@ case 0:
                     var3 = var1.items;
                     var4 = var1.item;
                     var1 = 'SYNC';
-                    if(!(var1 !== var2)) { _fun0057_ip = 104; continue _fun0057 }
-case 99:
+                    if(!(var1 !== var2)) { _fun0057_ip = 168; continue _fun0057 }
+case 190:
                     var1 = 'UPDATE';
-                    if(!(var1 !== var2)) { _fun0057_ip = 113; continue _fun0057 }
-case 43:
+                    if(!(var1 !== var2)) { _fun0057_ip = 191; continue _fun0057 }
+case 45:
                     var1 = 'INSERT';
-                    if(!(var1 === var2)) { _fun0057_ip = 190; continue _fun0057 }
-case 113:
+                    if(!(var1 === var2)) { _fun0057_ip = 108; continue _fun0057 }
+case 191:
                     var2 = _closure3_slot0;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var4);
-                    _fun0057_ip = 190; continue _fun0057;
-case 104:
+                    _fun0057_ip = 108; continue _fun0057;
+case 168:
                     var2 = var3.forEach;
                     var1 = _closure3_slot0;
                     var1 = var2.bind(var3)(var1);
-case 190:
+case 108:
                     var1 = undefined;
                     return var1;
                 }
@@ -5266,10 +5266,10 @@ case 0:
             var5 = var1.party_id;
             var4 = null;
             var6 = var4 != var5;
-            if(!var6) { _fun0058_ip = 191; continue _fun0058 }
+            if(!var6) { _fun0058_ip = 192; continue _fun0058 }
 case 97:
             var4 = var5;
-case 191:
+case 192:
             var2['partyId'] = var4;
             var1 = var1.remote_clip_id;
             var2['remoteClipId'] = var1;
@@ -5538,7 +5538,7 @@ case 42:
 case 0:
             var1 = arg1;
             var2 = var1.integrity_check;
-            if(var2) { _fun0060_ip = 192; continue _fun0060 }
+            if(var2) { _fun0060_ip = 193; continue _fun0060 }
 case 106:
             var4 = var1.channels;
             var3 = var4.forEach;
@@ -5551,7 +5551,7 @@ case 106:
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
-case 192:
+case 193:
             var3 = _closure1_slot27;
             var2 = {};
             var4 = 'CHANNEL_SYNC';
@@ -5639,7 +5639,7 @@ case 36:
                 var1['deaf'] = var3;
                 var3 = var2.mute;
                 if(var3) { _fun0061_ip = 92; continue _fun0061 }
-case 193:
+case 194:
                 var3 = false;
 case 92:
                 var1['mute'] = var3;
@@ -5648,7 +5648,7 @@ case 92:
                 var6 = var3 != var5;
                 var4 = null;
                 if(!var6) { _fun0061_ip = 173; continue _fun0061 }
-case 194:
+case 195:
                 var4 = var5;
 case 173:
                 var1['requestToSpeakTimestamp'] = var4;
@@ -5671,10 +5671,10 @@ case 176:
 case 183:
                 var1['selfStream'] = var4;
                 var4 = var2.self_video;
-                if(var4) { _fun0061_ip = 195; continue _fun0061 }
-case 196:
+                if(var4) { _fun0061_ip = 196; continue _fun0061 }
+case 197:
                 var4 = false;
-case 195:
+case 196:
                 var1['selfVideo'] = var4;
                 var4 = var2.session_id;
                 var1['sessionId'] = var4;
@@ -5684,10 +5684,10 @@ case 195:
                 var1['userId'] = var4;
                 var4 = var2.discoverable;
                 var3 = var3 == var4;
-                if(var3) { _fun0061_ip = 197; continue _fun0061 }
-case 198:
+                if(var3) { _fun0061_ip = 198; continue _fun0061 }
+case 199:
                 var3 = var4;
-case 197:
+case 198:
                 var1['discoverable'] = var3;
                 var2 = var2.connected_at;
                 var1['connectedAt'] = var2;

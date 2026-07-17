@@ -90,9 +90,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var12];
     var13 = var9.bind(var1)(var13);
     var13 = var13.colors;
-    var13 = var13.ICON_OVERLAY_DARK;
+    var13 = var13.SWITCH_THUMB_ICON_DEFAULT;
     var11['tintColor'] = var13;
     var7['unselectedIcon'] = var11;
+    var11 = {};
+    var13 = var6[var12];
+    var13 = var9.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.SWITCH_THUMB_ICON_ACTIVE;
+    var11['tintColor'] = var13;
+    var7['selectedIcon'] = var11;
     var11 = {};
     var13 = var6[var12];
     var13 = var9.bind(var1)(var13);
@@ -314,7 +321,7 @@ case 9:
             var9 = var25[var10];
             var17 = var24.bind(var4)(var9);
             var16 = var17.useAnimatedStyle;
-            var9 = function U() {
+            var9 = function G() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = {};
@@ -539,7 +546,7 @@ case 28:
             var18 = var20.SMALL_20;
 case 30:
             var16['size'] = var18;
-            var20 = var8.selected;
+            var20 = var8.selectedIcon;
             var18 = new Array(2);
             var18[0] = var20;
             var18[1] = var19;

@@ -419,7 +419,7 @@ case 36:
                 return var1;
             }
         };
-        var _closure2_slot42 = var5;
+        var _closure2_slot41 = var5;
         var2 = function maybeRescrollToMessageId(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -473,7 +473,7 @@ case 2:
                         var3 = false;
                         if(!var4) { _fun0007_ip = 51; continue _fun0007 }
 case 4:
-                        var7 = _closure2_slot41;
+                        var7 = _closure2_slot44;
                         var5 = {};
                         var4 = _closure3_slot0;
                         var5['scrollToMessageId'] = var4;
@@ -527,7 +527,7 @@ case 48:
                 return var1;
             }
         };
-        var _closure2_slot43 = var2;
+        var _closure2_slot42 = var2;
         var3 = function scrollToMessageId(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -605,7 +605,7 @@ case 64:
 case 67:
                 if(var6) { _fun0008_ip = 66; continue _fun0008 }
 case 68:
-                var12 = _closure2_slot43;
+                var12 = _closure2_slot42;
                 var7 = _closure1_slot0;
                 var14 = _closure1_slot2;
                 var6 = 2;
@@ -680,7 +680,7 @@ case 72:
                 return var1;
             }
         };
-        var _closure2_slot44 = var3;
+        var _closure2_slot43 = var3;
         var4 = function updateRows() {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -774,7 +774,7 @@ case 95:
                 var14 = null;
                 if(!(var14 != var2)) { _fun0009_ip = 97; continue _fun0009 }
 case 67:
-                var4 = _closure2_slot42;
+                var4 = _closure2_slot41;
                 var2 = {};
                 var2['forceRender'] = var12;
                 var2['updateMessageIds'] = var10;
@@ -842,7 +842,7 @@ case 112:
                 var2 = var2.bind(var1)(var17);
                 if(var2) { _fun0009_ip = 111; continue _fun0009 }
 case 113:
-                var4 = _closure2_slot44;
+                var4 = _closure2_slot43;
                 var2 = {};
                 var2['scrollToMessageId'] = var16;
                 var2['jumpTargetId'] = var15;
@@ -966,7 +966,7 @@ case 97:
                 return var1;
             }
         };
-        var _closure2_slot41 = var4;
+        var _closure2_slot44 = var4;
         var1 = {};
         var1['createRows'] = var5;
         var1['updateRows'] = var4;

@@ -1344,52 +1344,52 @@ case 0:
                 var1 = arg1;
                 var3 = var1.op;
                 var2 = 'SYNC';
-                if(!(var2 !== var3)) { _fun0021_ip = 52; continue _fun0021 }
-case 69:
+                if(!(var2 !== var3)) { _fun0021_ip = 69; continue _fun0021 }
+case 70:
                 var2 = 'INVALIDATE';
-                if(!(var2 !== var3)) { _fun0021_ip = 70; continue _fun0021 }
-case 71:
+                if(!(var2 !== var3)) { _fun0021_ip = 71; continue _fun0021 }
+case 72:
                 var2 = 'INSERT';
-                if(!(var2 !== var3)) { _fun0021_ip = 72; continue _fun0021 }
-case 73:
+                if(!(var2 !== var3)) { _fun0021_ip = 73; continue _fun0021 }
+case 74:
                 var2 = 'UPDATE';
-                if(!(var2 !== var3)) { _fun0021_ip = 74; continue _fun0021 }
-case 75:
+                if(!(var2 !== var3)) { _fun0021_ip = 75; continue _fun0021 }
+case 76:
                 var2 = 'DELETE';
-                if(!(var2 === var3)) { _fun0021_ip = 76; continue _fun0021 }
-case 77:
+                if(!(var2 === var3)) { _fun0021_ip = 77; continue _fun0021 }
+case 78:
                 var4 = _closure2_slot0;
                 var3 = var4.delete;
                 var2 = var1.index;
                 var2 = var3.bind(var4)(var2);
-                _fun0021_ip = 76; continue _fun0021;
-case 74:
+                _fun0021_ip = 77; continue _fun0021;
+case 75:
                 var5 = _closure2_slot0;
                 var4 = var5.update;
                 var3 = var1.index;
                 var2 = var1.item;
                 var2 = var4.bind(var5)(var3, var2);
-                _fun0021_ip = 76; continue _fun0021;
-case 72:
+                _fun0021_ip = 77; continue _fun0021;
+case 73:
                 var5 = _closure2_slot0;
                 var4 = var5.insert;
                 var3 = var1.index;
                 var2 = var1.item;
                 var2 = var4.bind(var5)(var3, var2);
-                _fun0021_ip = 76; continue _fun0021;
-case 70:
+                _fun0021_ip = 77; continue _fun0021;
+case 71:
                 var4 = _closure2_slot0;
                 var3 = var4.invalidate;
                 var2 = var1.range;
                 var2 = var3.bind(var4)(var2);
-                _fun0021_ip = 76; continue _fun0021;
-case 52:
+                _fun0021_ip = 77; continue _fun0021;
+case 69:
                 var4 = _closure2_slot0;
                 var3 = var4.sync;
                 var2 = var1.range;
                 var1 = var1.items;
                 var1 = var3.bind(var4)(var2, var1);
-case 76:
+case 77:
                 var1 = undefined;
                 return var1;
             }
@@ -1415,7 +1415,7 @@ case 0:
                 var1 = var2.updateOwnerId;
                 var1 = var1.bind(var2)();
                 if(!var1) { _fun0022_ip = 23; continue _fun0022 }
-case 78:
+case 79:
                 var1 = var2.rebuildMembers;
                 var1 = var1.bind(var2)();
 case 23:

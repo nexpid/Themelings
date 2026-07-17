@@ -63,21 +63,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/directory_channels/native/components/GuildDirectoryCreateOrAddDescription.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function GuildDirectoryCreateOrAddDescription(arg1) {
-        var2 = arg1;
-        var11 = var2.directoryChannelId;
+        var1 = arg1;
+        var11 = var1.directoryChannelId;
         var _closure2_slot0 = var11;
-        var3 = var2.directoryGuildName;
-        var _closure2_slot1 = var3;
-        var3 = var2.guild;
-        var _closure2_slot2 = var3;
-        var2 = var2.createGuild;
-        var _closure2_slot3 = var2;
-        var2 = _closure1_slot8;
-        var4 = undefined;
-        var19 = var2.bind(var4)();
-        var1 = function() {
-            var4 = _closure1_slot3;
-            var3 = undefined;
+        var2 = var1.directoryGuildName;
+        var _closure2_slot1 = var2;
+        var2 = var1.guild;
+        var _closure2_slot2 = var2;
+        var1 = var1.createGuild;
+        var _closure2_slot3 = var1;
+        var1 = function _onSubmit() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot3;
             var2 = function* (arg1, arg2) {
                 var1 = function* anon_0_(arg1, arg2) {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -170,21 +168,19 @@ case 2:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot4 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var13 = var1.bind(var4)();
+        var _closure2_slot4 = var1;
+        var1 = _closure1_slot8;
+        var4 = undefined;
+        var19 = var1.bind(var4)();
         var3 = _closure1_slot6;
         var15 = _closure1_slot0;
         var16 = _closure1_slot2;
@@ -252,6 +248,16 @@ case 2:
         var9 = var16[var9];
         var10 = var10.bind(var4)(var9);
         var9 = {};
+        var13 = function onSubmit(arg1, arg2) {
+            var1 = undefined;
+            var4 = _closure2_slot4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
+            return var1;
+        };
         var9['onSubmit'] = var13;
         var13 = var16[var12];
         var13 = var15.bind(var4)(var13);

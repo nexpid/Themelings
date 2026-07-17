@@ -20,27 +20,30 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 4;
-                    var2 = var5[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 4;
+                    var2 = var10[var8];
                     var6 = undefined;
-                    var2 = var3.bind(var6)(var2);
+                    var2 = var9.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.get;
                     var2 = {};
-                    var9 = _closure1_slot6;
-                    var8 = var9.GUILD_INTEGRATIONS;
-                    var8 = var8.bind(var9)(var7);
-                    var2['url'] = var8;
-                    var8 = true;
-                    var9 = {'include_applications': true, 'include_role_connections_metadata': true};
-                    var2['query'] = var9;
-                    var2['oldFormErrors'] = var8;
-                    var8 = false;
+                    var12 = _closure1_slot6;
+                    var11 = var12.GUILD_INTEGRATIONS;
+                    var11 = var11.bind(var12)(var7);
+                    var2['url'] = var11;
+                    var11 = true;
+                    var12 = {'include_applications': true, 'include_role_connections_metadata': true};
+                    var2['query'] = var12;
+                    var2['oldFormErrors'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var6)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=110);
+                    SaveGenerator(address=127);
 case 4:
                     return var2;
 case 5:
@@ -77,14 +80,14 @@ case 8:
                             var3 = 'user';
                             var5 = var3 in var4;
                             var2 = undefined;
-                            if(!var5) { _fun0002_ip = 11; continue _fun0002 }
-case 12:
+                            if(!var5) { _fun0002_ip = 7; continue _fun0002 }
+case 11:
                             var7 = var4.user;
                             var5 = null;
                             var5 = var5 != var7;
                             var2 = undefined;
-                            if(!var5) { _fun0002_ip = 11; continue _fun0002 }
-case 13:
+                            if(!var5) { _fun0002_ip = 7; continue _fun0002 }
+case 12:
                             var6 = _closure1_slot5;
                             var10 = var4.user;
                             var5 = var6.prototype;
@@ -92,7 +95,7 @@ case 13:
                             var11 = var5;
                             var4 = new var11[var6](var10, var9);
                             var2 = var4 instanceof Object ? var4 : var5;
-case 11:
+case 7:
                             var1[2] = var2;
                             return var1;
                         }

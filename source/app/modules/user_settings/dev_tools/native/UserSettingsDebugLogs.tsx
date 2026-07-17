@@ -417,10 +417,10 @@ case 0:
                     var9 = null;
                     var12 = var9 != var10;
                     var9 = '';
-                    if(!var12) { _fun0006_ip = 14; continue _fun0006 }
-case 15:
+                    if(!var12) { _fun0006_ip = 2; continue _fun0006 }
+case 3:
                     var9 = var10;
-case 14:
+case 2:
                     var8[2] = var9;
                     var6['children'] = var8;
                     var7 = var4.bind(var1)(var7, var6);

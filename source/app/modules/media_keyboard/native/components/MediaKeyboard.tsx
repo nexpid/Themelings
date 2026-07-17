@@ -222,43 +222,6 @@ case 2:
             var10[7] = var22;
             var10[8] = var6;
             var6 = function() {
-                var1 = function onAttachFileParams(arg1) {
-                    var1 = arg1;
-                    var _closure4_slot0 = var1;
-                    var1 = {};
-                    var4 = _closure2_slot0;
-                    var1['channel'] = var4;
-                    var4 = _closure2_slot8;
-                    var4 = var4.uploadLimit;
-                    var1['uploadLimit'] = var4;
-                    var3 = _closure2_slot9;
-                    var1['extensions'] = var3;
-                    var3 = function onDismissKeyboard() {
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 21;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var2 = var3.bind(var1)(var2);
-                        var1 = var2.dismissKeyboard;
-                        var1 = var1.bind(var2)();
-                        return var1;
-                    };
-                    var1['onDismissKeyboard'] = var3;
-                    var3 = _closure3_slot0;
-                    var1['onRestoreKeyboard'] = var3;
-                    var2 = function onSelectFiles(arg1) {
-                        var4 = _closure3_slot1;
-                        var3 = _closure4_slot0;
-                        var2 = undefined;
-                        var1 = arg1;
-                        var1 = var4.bind(var2)(var1, var3);
-                        return var1;
-                    };
-                    var1['onSelectFiles'] = var2;
-                    return var1;
-                };
-                var _closure3_slot3 = var1;
                 var1 = function onRestoreKeyboard() {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -365,6 +328,43 @@ case 8:
                     }
                 };
                 var _closure3_slot1 = var1;
+                var1 = function onAttachFileParams(arg1) {
+                    var1 = arg1;
+                    var _closure4_slot0 = var1;
+                    var1 = {};
+                    var4 = _closure2_slot0;
+                    var1['channel'] = var4;
+                    var4 = _closure2_slot8;
+                    var4 = var4.uploadLimit;
+                    var1['uploadLimit'] = var4;
+                    var3 = _closure2_slot9;
+                    var1['extensions'] = var3;
+                    var3 = function onDismissKeyboard() {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 21;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var2 = var3.bind(var1)(var2);
+                        var1 = var2.dismissKeyboard;
+                        var1 = var1.bind(var2)();
+                        return var1;
+                    };
+                    var1['onDismissKeyboard'] = var3;
+                    var3 = _closure3_slot0;
+                    var1['onRestoreKeyboard'] = var3;
+                    var2 = function onSelectFiles(arg1) {
+                        var4 = _closure3_slot1;
+                        var3 = _closure4_slot0;
+                        var2 = undefined;
+                        var1 = arg1;
+                        var1 = var4.bind(var2)(var1, var3);
+                        return var1;
+                    };
+                    var1['onSelectFiles'] = var2;
+                    return var1;
+                };
+                var _closure3_slot2 = var1;
                 var1 = function onSelectItem(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -462,7 +462,7 @@ case 15:
                         return var1;
                     }
                 };
-                var _closure3_slot2 = var1;
+                var _closure3_slot3 = var1;
                 var1 = {};
                 var3 = function onAttachPress() {
                     var7 = _closure1_slot0;
@@ -473,7 +473,7 @@ case 15:
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleAttachFile;
                     var2 = {};
-                    var6 = _closure3_slot3;
+                    var6 = _closure3_slot2;
                     var5 = 22;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
@@ -495,7 +495,7 @@ case 15:
                     var4 = var7.bind(var1)(var2);
                     var3 = var4.handleCameraDialog;
                     var2 = {};
-                    var6 = _closure3_slot3;
+                    var6 = _closure3_slot2;
                     var5 = 22;
                     var5 = var8[var5];
                     var5 = var7.bind(var1)(var5);
@@ -553,7 +553,7 @@ case 0:
                         var7 = var4.bind(var1)(var2);
                         var6 = var7.handleViewAllDialog;
                         var3 = {};
-                        var8 = _closure3_slot3;
+                        var8 = _closure3_slot2;
                         var2 = 22;
                         var2 = var5[var2];
                         var2 = var4.bind(var1)(var2);
@@ -611,7 +611,7 @@ case 25:
                     var5 = var1.channelId;
                     var4 = var1.item;
                     var1 = var1.isIncluded;
-                    var3 = _closure3_slot2;
+                    var3 = _closure3_slot3;
                     var2 = {};
                     var2['channelId'] = var5;
                     var2['item'] = var4;
@@ -652,20 +652,20 @@ case 0:
                         var4 = new var14[var4](var13, var12, var11);
                         var8 = var4 instanceof Object ? var4 : var6;
                         var7 = undefined;
-                        if(!var3) { _fun0007_ip = 10; continue _fun0007 }
-case 28:
+                        if(!var3) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
                         var10 = _closure1_slot5;
                         var6 = var10.getUpload;
                         var4 = var8.id;
                         var3 = _closure1_slot4;
                         var3 = var3.ChannelMessage;
                         var7 = var6.bind(var10)(var9, var4, var3);
-case 10:
+case 28:
                         var6 = null;
                         var3 = var6 == var7;
                         var4 = undefined;
-                        if(var3) { _fun0007_ip = 29; continue _fun0007 }
-case 30:
+                        if(var3) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
                         var4 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
@@ -682,7 +682,7 @@ case 30:
                             var1 = var11[var5](var10, var9, var8, var7, var6);
                             return var1;
                         };
-case 29:
+case 30:
                         _closure4_slot3 = var4;
                         var3 = _closure1_slot1;
                         var10 = _closure1_slot2;
@@ -695,17 +695,17 @@ case 29:
                         var2['disableAddDescription'] = var9;
                         var9 = var6 == var7;
                         var2['disableSpoiler'] = var9;
-                        if(!(var6 != var7)) { _fun0007_ip = 31; continue _fun0007 }
-case 32:
+                        if(!(var6 != var7)) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                         var8 = var7;
-case 31:
+case 32:
                         var2['upload'] = var8;
                         var7 = var6 == var7;
                         var6 = undefined;
-                        if(!var7) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
+                        if(!var7) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
                         var6 = function() {
-                            var3 = _closure3_slot2;
+                            var3 = _closure3_slot3;
                             var2 = {};
                             var4 = _closure4_slot0;
                             var2['channelId'] = var4;
@@ -717,19 +717,19 @@ case 34:
                             var1 = var3.bind(var1)(var2);
                             return var1;
                         };
-case 33:
+case 34:
                         var2['onAdd'] = var6;
                         var5 = function onEdit(arg1) {
                             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
                                 var3 = _closure4_slot3;
                                 var2 = null;
-                                if(!(var2 != var3)) { _fun0008_ip = 35; continue _fun0008 }
-case 36:
+                                if(!(var2 != var3)) { _fun0008_ip = 36; continue _fun0008 }
+case 37:
                                 var2 = _closure4_slot3;
                                 var1 = undefined;
                                 var1 = var2.bind(var1)();
-case 35:
+case 36:
                                 var4 = _closure3_slot1;
                                 var3 = new Array(1);
                                 var1 = arg1;
@@ -833,11 +833,11 @@ case 0:
                         var2 = _closure2_slot2;
                         var3 = var2.current;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0009_ip = 37; continue _fun0009 }
-case 38:
+                        if(!(var2 != var3)) { _fun0009_ip = 38; continue _fun0009 }
+case 39:
                         var2 = var3.collapse;
                         var2 = var2.bind(var3)();
-case 37:
+case 38:
                         var1 = _closure2_slot1;
                         var2 = var1.current;
                         var1 = var2.handleSend;
@@ -851,10 +851,10 @@ case 37:
             };
             var10 = var15.bind(var16)(var6, var10);
             _closure2_slot12 = var10;
-            if(!var2) { _fun0001_ip = 39; continue _fun0001 }
-case 40:
+            if(!var2) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
             var2 = var7.canStartThreads;
-case 39:
+case 40:
             _closure2_slot13 = var2;
             var6 = _closure1_slot3;
             var16 = var6.useMemo;
@@ -870,11 +870,11 @@ case 39:
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var2 = _closure2_slot7;
-                    if(var2) { _fun0010_ip = 41; continue _fun0010 }
-case 42:
+                    if(var2) { _fun0010_ip = 42; continue _fun0010 }
+case 43:
                     var9 = new Array(0);
-                    _fun0010_ip = 43; continue _fun0010;
-case 41:
+                    _fun0010_ip = 44; continue _fun0010;
+case 42:
                     var3 = {};
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -903,13 +903,13 @@ case 41:
                     var2 = new Array(1);
                     var2[0] = var3;
                     var9 = var2;
-case 43:
-                    var2 = _closure2_slot13;
-                    if(var2) { _fun0010_ip = 44; continue _fun0010 }
-case 45:
-                    var4 = new Array(0);
-                    _fun0010_ip = 46; continue _fun0010;
 case 44:
+                    var2 = _closure2_slot13;
+                    if(var2) { _fun0010_ip = 45; continue _fun0010 }
+case 46:
+                    var4 = new Array(0);
+                    _fun0010_ip = 47; continue _fun0010;
+case 45:
                     var3 = {};
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -938,7 +938,7 @@ case 44:
                     var2 = new Array(1);
                     var2[0] = var3;
                     var4 = var2;
-case 46:
+case 47:
                     var2 = {};
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -1074,10 +1074,10 @@ case 0:
                     var1 = arg1;
                     var8 = var1.animateOnMount;
                     var4 = undefined;
-                    if(!(var8 === var4)) { _fun0011_ip = 47; continue _fun0011 }
-case 48:
+                    if(!(var8 === var4)) { _fun0011_ip = 48; continue _fun0011 }
+case 49:
                     var8 = false;
-case 47:
+case 48:
                     var6 = var1.initialPosition;
                     var3 = _closure1_slot13;
                     var7 = _closure1_slot1;
@@ -1127,14 +1127,14 @@ case 0:
                             var1 = null;
                             var3 = var1 == var4;
                             var1 = undefined;
-                            if(var3) { _fun0012_ip = 49; continue _fun0012 }
-case 35:
+                            if(var3) { _fun0012_ip = 50; continue _fun0012 }
+case 36:
                             var3 = var4.setInsetFab;
                             var5 = _closure2_slot6;
                             var2 = arg1;
                             var2 = var2 + var5;
                             var1 = var3.bind(var4)(var2);
-case 49:
+case 50:
                             return var1;
                         }
                     };

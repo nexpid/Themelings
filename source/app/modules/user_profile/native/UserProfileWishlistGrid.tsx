@@ -1829,39 +1829,48 @@ case 116:
             var17 = function(arg1) {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                    var1 = arg1;
-                    var _closure3_slot0 = var1;
-                    var5 = _closure1_slot22;
-                    var3 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var2 = 58;
-                    var2 = var4[var2];
-                    var4 = undefined;
-                    var3 = var3.bind(var4)(var2);
-                    var2 = {};
-                    var2['item'] = var1;
-                    var6 = function onPress() {
+                    var2 = arg1;
+                    var _closure3_slot0 = var2;
+                    var1 = var2.sku;
+                    var9 = null;
+                    var3 = var9 == var1;
+                    var1 = null;
+                    if(var3) { _fun0012_ip = 118; continue _fun0012 }
+case 119:
+                    var6 = _closure1_slot22;
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 58;
+                    var3 = var5[var3];
+                    var5 = undefined;
+                    var4 = var4.bind(var5)(var3);
+                    var3 = {};
+                    var8 = var2.sku;
+                    var3['sku'] = var8;
+                    var8 = var2.isOwned;
+                    var3['isOwned'] = var8;
+                    var7 = function onPress() {
                         var3 = _closure2_slot13;
                         var2 = _closure3_slot0;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var2['onPress'] = var6;
-                    var6 = _closure2_slot1;
-                    var2['size'] = var6;
-                    var8 = _closure2_slot8;
-                    var6 = null;
-                    var8 = var6 == var8;
-                    var6 = undefined;
-                    if(var8) { _fun0012_ip = 118; continue _fun0012 }
-case 119:
+                    var3['onPress'] = var7;
+                    var7 = _closure2_slot1;
+                    var3['size'] = var7;
                     var7 = _closure2_slot8;
-                    var6 = var7.id;
+                    var9 = var9 == var7;
+                    var7 = undefined;
+                    if(var9) { _fun0012_ip = 120; continue _fun0012 }
+case 121:
+                    var8 = _closure2_slot8;
+                    var7 = var8.id;
+case 120:
+                    var3['wishlistOwnerId'] = var7;
+                    var2 = var2.skuId;
+                    var1 = var6.bind(var5)(var4, var3, var2);
 case 118:
-                    var2['wishlistOwnerId'] = var6;
-                    var1 = var1.skuId;
-                    var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
             };
@@ -1872,8 +1881,8 @@ case 118:
             var9 = var11.bind(var5)(var10, var9);
             var8[2] = var9;
             var9 = var6;
-            if(!var9) { _fun0003_ip = 120; continue _fun0003 }
-case 121:
+            if(!var9) { _fun0003_ip = 122; continue _fun0003 }
+case 123:
             var12 = _closure1_slot23;
             var11 = _closure1_slot5;
             var10 = {};
@@ -1915,7 +1924,7 @@ case 121:
             var13[1] = var14;
             var10['children'] = var13;
             var9 = var12.bind(var5)(var11, var10);
-case 120:
+case 122:
             var8[3] = var9;
             var3['children'] = var8;
             var3 = var7.bind(var5)(var4, var3);

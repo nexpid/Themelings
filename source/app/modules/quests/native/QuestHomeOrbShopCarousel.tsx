@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot17;
+            var9 = _closure1_slot15;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot17;
+            var7 = _closure1_slot15;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot14 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -181,6 +181,32 @@ case 4:
 case 35:
             return var1;
         }
+    };
+    var _closure1_slot15 = var1;
+    var1 = function ListEdgeSpacer() {
+        var4 = _closure1_slot8;
+        var3 = _closure1_slot5;
+        var2 = {};
+        var1 = {};
+        var5 = _closure1_slot10;
+        var1['width'] = var5;
+        var2['style'] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot16 = var1;
+    var1 = function ItemSeparator() {
+        var4 = _closure1_slot8;
+        var3 = _closure1_slot5;
+        var2 = {};
+        var1 = {};
+        var5 = _closure1_slot11;
+        var1['width'] = var5;
+        var2['style'] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
     var _closure1_slot17 = var1;
     var1 = function QuestHomeOrbShopCarouselHeading(arg1) {
@@ -293,7 +319,7 @@ case 35:
         var8 = {};
         var8['busy'] = var9;
         var1['accessibilityState'] = var8;
-        var8 = _closure1_slot15;
+        var8 = _closure1_slot13;
         var1['data'] = var8;
         var1['keyExtractor'] = var7;
         var1['renderItem'] = var6;
@@ -303,11 +329,10 @@ case 35:
         var1['snapToInterval'] = var6;
         var6 = false;
         var1['showsHorizontalScrollIndicator'] = var6;
-        var6 = _closure1_slot13;
+        var6 = _closure1_slot16;
         var1['ListHeaderComponent'] = var6;
-        var6 = _closure1_slot13;
         var1['ListFooterComponent'] = var6;
-        var5 = _closure1_slot14;
+        var5 = _closure1_slot17;
         var1['ItemSeparatorComponent'] = var5;
         var1 = var4.bind(var3)(var2, var1);
         return var1;
@@ -369,32 +394,6 @@ case 35:
     var7 = var7.COLLECTIBLES_SHOP_CARD_WIDTH;
     var7 = var7 + var8;
     var _closure1_slot12 = var7;
-    var7 = function ListEdgeSpacer() {
-        var4 = _closure1_slot8;
-        var3 = _closure1_slot5;
-        var2 = {};
-        var1 = {};
-        var5 = _closure1_slot10;
-        var1['width'] = var5;
-        var2['style'] = var1;
-        var1 = undefined;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot13 = var7;
-    var7 = function ItemSeparator() {
-        var4 = _closure1_slot8;
-        var3 = _closure1_slot5;
-        var2 = {};
-        var1 = {};
-        var5 = _closure1_slot11;
-        var1['width'] = var5;
-        var2['style'] = var1;
-        var1 = undefined;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
-    };
-    var _closure1_slot14 = var7;
     var9 = var4.Array;
     var8 = var9.from;
     var7 = {};
@@ -408,7 +407,7 @@ case 35:
         return var1;
     };
     var4 = var8.bind(var9)(var7, var4);
-    var _closure1_slot15 = var4;
+    var _closure1_slot13 = var4;
     var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -676,11 +675,10 @@ case 53:
             var19 = _closure1_slot12;
             var13['snapToInterval'] = var19;
             var13['showsHorizontalScrollIndicator'] = var18;
-            var18 = _closure1_slot13;
+            var18 = _closure1_slot16;
             var13['ListHeaderComponent'] = var18;
-            var18 = _closure1_slot13;
             var13['ListFooterComponent'] = var18;
-            var18 = _closure1_slot14;
+            var18 = _closure1_slot17;
             var13['ItemSeparatorComponent'] = var18;
             var13['onMomentumScrollEnd'] = var17;
             var13 = var16.bind(var6)(var15, var13);
@@ -734,7 +732,7 @@ case 48:
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var2 = _closure1_slot16;
+                    var2 = _closure1_slot14;
                     var1 = _closure1_slot6;
                     var1 = var1.questHomeBounties;
                     var7 = undefined;

@@ -374,29 +374,32 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0005_ip = 35; continue _fun0005 }
 case 3: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 8;
-                    var2 = var5[var2];
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = 8;
+                    var2 = var9[var7];
                     var5 = undefined;
-                    var2 = var4.bind(var5)(var2);
+                    var2 = var8.bind(var5)(var2);
                     var6 = var2.HTTP;
                     var4 = var6.get;
                     var2 = {};
-                    var7 = _closure1_slot8;
-                    var7 = var7.CLAIMED_OUTBOUND_PROMOTION_CODES;
-                    var2['url'] = var7;
-                    var7 = {};
-                    var8 = _closure1_slot4;
-                    var8 = var8.locale;
-                    var7['locale'] = var8;
-                    var2['query'] = var7;
-                    var7 = true;
-                    var2['oldFormErrors'] = var7;
-                    var7 = false;
+                    var10 = _closure1_slot8;
+                    var10 = var10.CLAIMED_OUTBOUND_PROMOTION_CODES;
+                    var2['url'] = var10;
+                    var10 = {};
+                    var11 = _closure1_slot4;
+                    var11 = var11.locale;
+                    var10['locale'] = var11;
+                    var2['query'] = var10;
+                    var10 = true;
+                    var2['oldFormErrors'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var5)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var2['rejectWithError'] = var7;
                     var2 = var4.bind(var6)(var2);
-                    SaveGenerator(address=105);
+                    SaveGenerator(address=122);
 case 36:
                     return var2;
 case 37:
@@ -423,10 +426,10 @@ case 39:
                     var3['claimedOutboundPromotionCodes'] = var6;
                     var3 = var4.bind(var5)(var3);
 case 40: // try_end0
-                    _fun0005_ip = 41; continue _fun0005;
+                    _fun0005_ip = 14; continue _fun0005;
 case 38:
                     return var2;
-case 42: // catch_target0
+case 41: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -439,7 +442,7 @@ case 42: // catch_target0
                     var5 = 'CLAIMED_OUTBOUND_PROMOTION_CODES_FETCH_FAIL';
                     var2['type'] = var5;
                     var2 = var3.bind(var4)(var2);
-case 41:
+case 14:
                     var2 = undefined;
                     return var2;
 case 35:
@@ -542,28 +545,28 @@ case 35:
 case 0:
             var4 = arguments[0];
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
-            var4 = true;
+            if(!(var4 === var1)) { _fun0006_ip = 42; continue _fun0006 }
 case 43:
+            var4 = true;
+case 42:
             var3 = _closure1_slot6;
             var3 = var3.isFetchingActivePromotions;
-            if(var3) { _fun0006_ip = 45; continue _fun0006 }
-case 46:
-            if(!var4) { _fun0006_ip = 47; continue _fun0006 }
-case 48:
+            if(var3) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
+            if(!var4) { _fun0006_ip = 46; continue _fun0006 }
+case 47:
             var5 = _closure1_slot6;
             var6 = var5.lastFetchedActivePromotions;
             var5 = null;
             var4 = var5 != var6;
-case 47:
+case 46:
             var3 = var4;
-case 45:
-            if(var3) { _fun0006_ip = 49; continue _fun0006 }
-case 50:
+case 44:
+            if(var3) { _fun0006_ip = 48; continue _fun0006 }
+case 49:
             var2 = _closure1_slot9;
             var2 = var2.bind(var1)();
-case 49:
+case 48:
             return var1;
         }
     };

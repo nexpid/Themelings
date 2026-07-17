@@ -7,14 +7,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var8;
-    var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
     var5 = function setStoredContacts(arg1) {
         var9 = arg1;
         var _closure2_slot0 = var9;
@@ -26,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var6.bind(var1)(var4);
         var8 = var4.Storage;
         var7 = var8.set;
-        var4 = 'V2_DCD_CONTACTS_STORAGE_KEY';
+        var4 = _closure1_slot3;
         var4 = var7.bind(var8)(var4, var9);
         var4 = 1;
         var4 = var5[var4];
@@ -76,22 +68,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot3 = var5;
+    var _closure1_slot5 = var5;
+    var1 = global;
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var6.bind(var9)(var3, var1, var4);
+    var11 = 'V2_DCD_CONTACTS_STORAGE_KEY';
+    var _closure1_slot3 = var11;
     var6 = 0;
     var4 = var8[var6];
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
-    var11 = var4.Storage;
-    var10 = var11.asyncGet;
-    var9 = 'V2_DCD_CONTACTS_STORAGE_KEY';
+    var10 = var4.Storage;
+    var9 = var10.asyncGet;
     var4 = function(arg1) {
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot5;
         var1 = undefined;
         var2 = arg1;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var4 = var10.bind(var11)(var9, var4);
+    var4 = var9.bind(var10)(var11, var4);
     var4 = 3;
     var4 = var8[var4];
     var10 = var7.bind(var1)(var4);
@@ -199,33 +200,34 @@ case 4:
     var6 = 'modules/contact_sync/native/ContactSyncPersistedStore.tsx';
     var6 = var7.bind(var8)(var6);
     var3['setStoredContacts'] = var5;
-    var5 = function() {
+    var5 = function deleteStoredContacts() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var2 = 0;
-            var1 = var1[var2];
+            var6 = 0;
+            var1 = var1[var6];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
-            var3 = var1.Storage;
-            var1 = var3.get;
-            var7 = 'V2_DCD_CONTACTS_STORAGE_KEY';
-            var3 = var1.bind(var3)(var7);
+            var5 = var1.Storage;
+            var3 = var5.get;
+            var1 = _closure1_slot3;
+            var3 = var3.bind(var5)(var1);
             var1 = null;
-            var6 = var1 != var3;
+            var5 = var1 != var3;
             var1 = '';
-            if(!var6) { _fun0002_ip = 6; continue _fun0002 }
+            if(!var5) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
             var1 = var3;
 case 6:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = var5[var2];
-            var2 = var3.bind(var4)(var2);
-            var6 = var2.Storage;
-            var2 = var6.remove;
-            var2 = var2.bind(var6)(var7);
+            var6 = var5[var6];
+            var6 = var3.bind(var4)(var6);
+            var7 = var6.Storage;
+            var6 = var7.remove;
+            var2 = _closure1_slot3;
+            var2 = var6.bind(var7)(var2);
             var2 = 1;
             var2 = var5[var2];
             var4 = var3.bind(var4)(var2);

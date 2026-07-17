@@ -645,75 +645,83 @@ case 30:
             var17 = function(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var1 = arg1;
-                    var _closure3_slot0 = var1;
-                    var5 = _closure1_slot15;
-                    var3 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var2 = 30;
-                    var2 = var4[var2];
-                    var4 = undefined;
-                    var3 = var3.bind(var4)(var2);
-                    var2 = {};
-                    var6 = _closure2_slot2;
-                    var6 = var6.itemWrapper;
-                    var2['style'] = var6;
-                    var7 = _closure2_slot3;
-                    var6 = undefined;
-                    if(var7) { _fun0006_ip = 31; continue _fun0006 }
+                    var2 = arg1;
+                    var _closure3_slot0 = var2;
+                    var3 = var2.sku;
+                    var1 = null;
+                    var3 = var1 == var3;
+                    if(var3) { _fun0006_ip = 31; continue _fun0006 }
 case 32:
-                    var6 = _closure1_slot19;
-case 31:
-                    var2['exiting'] = var6;
-                    var7 = _closure2_slot3;
-                    var6 = undefined;
-                    if(var7) { _fun0006_ip = 33; continue _fun0006 }
+                    var6 = _closure1_slot15;
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var3 = 30;
+                    var3 = var5[var3];
+                    var5 = undefined;
+                    var4 = var4.bind(var5)(var3);
+                    var3 = {};
+                    var7 = _closure2_slot2;
+                    var7 = var7.itemWrapper;
+                    var3['style'] = var7;
+                    var8 = _closure2_slot3;
+                    var7 = undefined;
+                    if(var8) { _fun0006_ip = 33; continue _fun0006 }
 case 34:
-                    var6 = _closure1_slot17;
+                    var7 = _closure1_slot19;
 case 33:
-                    var2['layout'] = var6;
-                    var9 = _closure1_slot14;
-                    var17 = _closure1_slot1;
-                    var18 = _closure1_slot2;
-                    var6 = 31;
-                    var6 = var18[var6];
-                    var7 = var17.bind(var4)(var6);
-                    var6 = {};
-                    var6['item'] = var1;
-                    var8 = _closure2_slot5;
-                    var6['size'] = var8;
-                    var8 = true;
-                    var6['accessibilityHidden'] = var8;
-                    var7 = var9.bind(var4)(var7, var6);
-                    var6 = new Array(2);
-                    var6[0] = var7;
-                    var8 = _closure1_slot6;
+                    var3['exiting'] = var7;
+                    var8 = _closure2_slot3;
+                    var7 = undefined;
+                    if(var8) { _fun0006_ip = 35; continue _fun0006 }
+case 36:
+                    var7 = _closure1_slot17;
+case 35:
+                    var3['layout'] = var7;
+                    var10 = _closure1_slot14;
+                    var18 = _closure1_slot1;
+                    var19 = _closure1_slot2;
+                    var7 = 31;
+                    var7 = var19[var7];
+                    var8 = var18.bind(var5)(var7);
                     var7 = {};
-                    var10 = _closure2_slot2;
-                    var10 = var10.deleteButton;
-                    var7['style'] = var10;
-                    var15 = _closure1_slot0;
-                    var10 = 32;
-                    var10 = var18[var10];
-                    var10 = var15.bind(var4)(var10);
-                    var11 = var10.IconButton;
-                    var10 = {'variant': 'primary-overlay', 'size': 'sm'};
-                    var16 = 'sm';
-                    var14 = 33;
-                    var14 = var18[var14];
-                    var14 = var15.bind(var4)(var14);
-                    var15 = var14.TrashIcon;
-                    var14 = {};
-                    var14['size'] = var16;
-                    var16 = 12;
-                    var16 = var18[var16];
-                    var16 = var17.bind(var4)(var16);
-                    var16 = var16.colors;
-                    var16 = var16.ICON_FEEDBACK_CRITICAL;
-                    var14['color'] = var16;
-                    var14 = var9.bind(var4)(var15, var14);
-                    var10['icon'] = var14;
-                    var12 = function onPress() {
+                    var9 = var2.sku;
+                    var7['sku'] = var9;
+                    var9 = var2.isOwned;
+                    var7['isOwned'] = var9;
+                    var9 = _closure2_slot5;
+                    var7['size'] = var9;
+                    var9 = true;
+                    var7['accessibilityHidden'] = var9;
+                    var8 = var10.bind(var5)(var8, var7);
+                    var7 = new Array(2);
+                    var7[0] = var8;
+                    var9 = _closure1_slot6;
+                    var8 = {};
+                    var11 = _closure2_slot2;
+                    var11 = var11.deleteButton;
+                    var8['style'] = var11;
+                    var16 = _closure1_slot0;
+                    var11 = 32;
+                    var11 = var19[var11];
+                    var11 = var16.bind(var5)(var11);
+                    var12 = var11.IconButton;
+                    var11 = {'variant': 'primary-overlay', 'size': 'sm'};
+                    var17 = 'sm';
+                    var15 = 33;
+                    var15 = var19[var15];
+                    var15 = var16.bind(var5)(var15);
+                    var16 = var15.TrashIcon;
+                    var15 = {};
+                    var15['size'] = var17;
+                    var17 = 12;
+                    var17 = var19[var17];
+                    var17 = var18.bind(var5)(var17);
+                    var17 = var17.colors;
+                    var17 = var17.ICON_FEEDBACK_CRITICAL;
+                    var15['color'] = var17;
+                    var15 = var10.bind(var5)(var16, var15);
+                    var11['icon'] = var15;
+                    var13 = function onPress() {
                         var3 = _closure2_slot11;
                         var1 = _closure3_slot0;
                         var2 = var1.skuId;
@@ -721,52 +729,53 @@ case 33:
                         var1 = var3.bind(var1)(var2);
                         return var1;
                     };
-                    var10['onPress'] = var12;
-                    var12 = var1.isOwned;
-                    var16 = _closure1_slot0;
-                    var18 = _closure1_slot2;
-                    var13 = 26;
-                    var14 = var18[var13];
-                    var14 = var16.bind(var4)(var14);
-                    var19 = var14.intl;
-                    var17 = var19.formatToPlainString;
-                    var14 = var18[var13];
-                    var14 = var16.bind(var4)(var14);
-                    var14 = var14.t;
-                    var15 = var14.IBBF8/;
-                    var14 = {};
-                    var20 = var1.skuName;
-                    var14['productName'] = var20;
-                    var17 = var17.bind(var19)(var15, var14);
-                    if(var12) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
-                    var12 = var17;
-                    _fun0006_ip = 37; continue _fun0006;
-case 35:
-                    var14 = var18[var13];
-                    var14 = var16.bind(var4)(var14);
-                    var15 = var14.intl;
-                    var14 = var15.string;
-                    var13 = var18[var13];
-                    var13 = var16.bind(var4)(var13);
-                    var13 = var13.t;
-                    var13 = var13["6cfuDj"];
-                    var16 = var14.bind(var15)(var13);
-                    var13 = global;
-                    var13 = var13.HermesInternal;
-                    var15 = var13.concat;
-                    var14 = '';
-                    var13 = ', ';
-                    var12 = var15.bind(var14)(var17, var13, var16);
+                    var11['onPress'] = var13;
+                    var13 = var2.isOwned;
+                    var17 = _closure1_slot0;
+                    var19 = _closure1_slot2;
+                    var14 = 26;
+                    var15 = var19[var14];
+                    var15 = var17.bind(var5)(var15);
+                    var20 = var15.intl;
+                    var18 = var20.formatToPlainString;
+                    var15 = var19[var14];
+                    var15 = var17.bind(var5)(var15);
+                    var15 = var15.t;
+                    var16 = var15.IBBF8/;
+                    var15 = {};
+                    var21 = var2.skuName;
+                    var15['productName'] = var21;
+                    var18 = var18.bind(var20)(var16, var15);
+                    if(var13) { _fun0006_ip = 37; continue _fun0006 }
+case 38:
+                    var13 = var18;
+                    _fun0006_ip = 39; continue _fun0006;
 case 37:
-                    var10['accessibilityLabel'] = var12;
-                    var10 = var9.bind(var4)(var11, var10);
-                    var7['children'] = var10;
-                    var7 = var9.bind(var4)(var8, var7);
-                    var6[1] = var7;
-                    var2['children'] = var6;
-                    var1 = var1.skuId;
-                    var1 = var5.bind(var4)(var3, var2, var1);
+                    var15 = var19[var14];
+                    var15 = var17.bind(var5)(var15);
+                    var16 = var15.intl;
+                    var15 = var16.string;
+                    var14 = var19[var14];
+                    var14 = var17.bind(var5)(var14);
+                    var14 = var14.t;
+                    var14 = var14["6cfuDj"];
+                    var17 = var15.bind(var16)(var14);
+                    var14 = global;
+                    var14 = var14.HermesInternal;
+                    var16 = var14.concat;
+                    var15 = '';
+                    var14 = ', ';
+                    var13 = var16.bind(var15)(var18, var14, var17);
+case 39:
+                    var11['accessibilityLabel'] = var13;
+                    var11 = var10.bind(var5)(var12, var11);
+                    var8['children'] = var11;
+                    var8 = var10.bind(var5)(var9, var8);
+                    var7[1] = var8;
+                    var3['children'] = var7;
+                    var2 = var2.skuId;
+                    var1 = var6.bind(var5)(var4, var3, var2);
+case 31:
                     return var1;
                 }
             };
@@ -774,7 +783,7 @@ case 37:
             var12['children'] = var17;
             var11 = var14.bind(var4)(var13, var12);
 case 29:
-            _fun0001_ip = 38; continue _fun0001;
+            _fun0001_ip = 40; continue _fun0001;
 case 28:
             var14 = _closure1_slot14;
             var13 = _closure1_slot6;
@@ -786,7 +795,7 @@ case 28:
             var15 = var14.bind(var4)(var16, var15);
             var12['children'] = var15;
             var11 = var14.bind(var4)(var13, var12);
-case 38:
+case 40:
             var10[1] = var11;
             var7['children'] = var10;
             var7 = var9.bind(var4)(var8, var7);

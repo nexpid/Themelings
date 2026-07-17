@@ -1117,6 +1117,38 @@ case 84:
         return var1;
     };
     var3['trackBountyVerticalScroll'] = var4;
+    var4 = function trackBountyAutoScrollDismissed(arg1) {
+        var1 = arg1;
+        var7 = var1.verticalScrollingPosition;
+        var6 = var1.scrollSessionId;
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 6;
+        var2 = var4[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.getOrRefreshAdSession;
+        var2 = var2.bind(var3)();
+        var10 = var2.uuid;
+        var3 = _closure1_slot1;
+        var2 = 13;
+        var2 = var4[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot7;
+        var3 = var2.BOUNTY_AUTO_SCROLL_DISMISSED;
+        var2 = {};
+        var2['client_ad_session_id'] = var10;
+        var9 = _closure1_slot9;
+        var8 = false;
+        var8 = var9.bind(var1)(var10, var8);
+        var2['billing_session_id'] = var8;
+        var2['vertical_scrolling_position'] = var7;
+        var2['scroll_session_id'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var3['trackBountyAutoScrollDismissed'] = var4;
     var4 = function trackQuestHomeCarouselScroll(arg1) {
         var1 = arg1;
         var15 = var1.scrollingType;

@@ -741,7 +741,7 @@ case 45:
             var2 = var2.PROFILE_FRAME;
             var3 = var5 === var2;
 case 44:
-            var2 = function(arg1, arg2) {
+            var2 = function useAnimationStyles(arg1, arg2) {
                 var1 = arg1;
                 var14 = arg2;
                 var _closure3_slot0 = var1;

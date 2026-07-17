@@ -191,7 +191,7 @@ case 8:
     var5 = var6.fileFinishedImporting;
     var4 = 'components_native/common/TabBar.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function _default(arg1) {
+    var2 = function TabBar(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var2 = arg1;
@@ -384,13 +384,13 @@ case 0:
                     var5 = _closure2_slot3;
                     var2['tabStyleSelected'] = var5;
                     var5 = _closure2_slot5;
-                    if(var5) { _fun0005_ip = 19; continue _fun0005 }
-case 20:
-                    var5 = _closure2_slot4;
-                    _fun0005_ip = 21; continue _fun0005;
+                    if(var5) { _fun0005_ip = 11; continue _fun0005 }
 case 19:
+                    var5 = _closure2_slot4;
+                    _fun0005_ip = 20; continue _fun0005;
+case 11:
                     var5 = _closure2_slot8;
-case 21:
+case 20:
                     var2['onSelect'] = var5;
                     var2['children'] = var1;
                     var1 = undefined;
