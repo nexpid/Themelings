@@ -1658,16 +1658,6 @@
         "width": 24,
         "height": 24
     },
-    "CirclePlusIcon": {
-        "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlusIcon.png",
-        "hash": "8e978ecd07b3cf5d4d5b362e0ec05d9d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "CirclePlusIcon-primary": {
         "file": "app/design/components/Icon/native/redesign/generated/images/CirclePlusIcon-primary.png",
         "hash": "fe0742351cd038dd9567f8c1afd0c1cd",
@@ -7378,16 +7368,6 @@
         ],
         "width": 20.5,
         "height": 20
-    },
-    "img_create_guild": {
-        "file": "app/images/native/guild_sidebar/img_create_guild.png",
-        "hash": "0c5fc89e7aade04cc67760e861a24e0c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "img_create_my_own": {
         "file": "app/modules/create_guild/native/images/img_create_my_own.png",
