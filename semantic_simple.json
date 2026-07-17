@@ -1973,6 +1973,18 @@
         "midnight": "#ffffff",
         "darker": "#ffffff"
     },
+    "SWITCH_THUMB_ICON_ACTIVE": {
+        "dark": "#5865f2",
+        "light": "#5865f2",
+        "midnight": "#5865f2",
+        "darker": "#5865f2"
+    },
+    "SWITCH_THUMB_ICON_DEFAULT": {
+        "dark": "#000000",
+        "light": "#000000",
+        "midnight": "#000000",
+        "darker": "#000000"
+    },
     "TAB_BAR_BACKGROUND": {
         "dark": "#111214",
         "light": "#ffffff",

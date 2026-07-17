@@ -9869,6 +9869,66 @@
             }
         ]
     },
+    "SWITCH_THUMB_ICON_ACTIVE": {
+        "dark": [
+            "#5865f2",
+            {
+                "raw": "BLURPLE_50",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#5865f2",
+            {
+                "raw": "BLURPLE_50",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#5865f2",
+            {
+                "raw": "BLURPLE_50",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#5865f2",
+            {
+                "raw": "BLURPLE_50",
+                "opacity": 1
+            }
+        ]
+    },
+    "SWITCH_THUMB_ICON_DEFAULT": {
+        "dark": [
+            "#000000",
+            {
+                "raw": "NEUTRAL_100",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#000000",
+            {
+                "raw": "NEUTRAL_100",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#000000",
+            {
+                "raw": "NEUTRAL_100",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#000000",
+            {
+                "raw": "NEUTRAL_100",
+                "opacity": 1
+            }
+        ]
+    },
     "TAB_BAR_BACKGROUND": {
         "dark": [
             "#111214",
