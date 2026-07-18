@@ -266,22 +266,26 @@ case 12:
             var7 = function onPress() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 15;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var5 = var3.bind(var1)(var2);
-                    var4 = _closure2_slot5;
-                    var3 = _closure2_slot1;
-                    var3 = var5.bind(var1)(var4, var3);
-                    var4 = _closure2_slot0;
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0003_ip = 14; continue _fun0003 }
+                    var2 = _closure2_slot5;
+                    var4 = null;
+                    if(!(var4 != var2)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-                    var2 = _closure2_slot0;
-                    var2 = var2.bind(var1)();
+                    var5 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 15;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var6 = var5.bind(var2)(var3);
+                    var5 = _closure2_slot5;
+                    var3 = _closure2_slot1;
+                    var3 = var6.bind(var2)(var5, var3);
+                    var3 = _closure2_slot0;
+                    if(!(var4 != var3)) { _fun0003_ip = 14; continue _fun0003 }
+case 16:
+                    var1 = _closure2_slot0;
+                    var1 = var1.bind(var2)();
 case 14:
+                    var1 = undefined;
                     return var1;
                 }
             };
@@ -297,8 +301,8 @@ case 14:
             var15['backgroundColor'] = var17;
             var12[1] = var15;
             var6['style'] = var12;
-            if(var9) { _fun0001_ip = 16; continue _fun0001 }
-case 17:
+            if(var9) { _fun0001_ip = 17; continue _fun0001 }
+case 18:
             var15 = _closure1_slot5;
             var12 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -314,7 +318,7 @@ case 17:
             var16 = _closure1_slot9;
             var9['end'] = var16;
             var11 = var15.bind(var5)(var12, var9);
-case 16:
+case 17:
             var9 = new Array(2);
             var9[0] = var11;
             var12 = _closure1_slot5;

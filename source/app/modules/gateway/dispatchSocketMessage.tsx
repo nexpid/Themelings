@@ -6173,6 +6173,22 @@ case 198:
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['MESSAGE_REQUEST_NOTIFICATION_SENT'];
+    var4 = function(arg1) {
+        var1 = arg1;
+        var3 = _closure1_slot27;
+        var2 = {};
+        var4 = 'MESSAGE_REQUEST_NOTIFICATION_SENT';
+        var2['type'] = var4;
+        var4 = var1.triggering_user_id;
+        var2['triggeringUserId'] = var4;
+        var1 = var1.num_mutual_guilds;
+        var2['numMutualGuilds'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

@@ -378,6 +378,11 @@ case 14:
     var9['marginVertical'] = var13;
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_16;
+    var9['paddingVertical'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
     var13 = var13.colors;
     var13 = var13.BACKGROUND_BASE_LOW;
     var9['backgroundColor'] = var13;

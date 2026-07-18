@@ -86,80 +86,91 @@ case 0:
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                    var2 = _closure2_slot1;
-                    var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
-                    var4 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var2 = 7;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var5 = var4.bind(var2)(var3);
-                    var4 = var5.track;
-                    var1 = _closure1_slot6;
-                    var3 = var1.OPEN_MODAL;
-                    var1 = {};
-                    var7 = 'survey';
-                    var1['type'] = var7;
-                    var6 = _closure2_slot1;
-                    var6 = var6.id;
-                    var1['promotion_id'] = var6;
-                    var1 = var4.bind(var5)(var3, var1);
-                    var1 = function() {
-                        var4 = _closure1_slot3;
-                        var3 = undefined;
+                    var2 = function _setSurveySeen() {
+                        var4 = undefined;
+                        var1 = undefined;
+                        var3 = _closure1_slot3;
                         var2 = function* () {
                             var1 = function* anon_0_() {
                                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(var2) { _fun0003_ip = 4; continue _fun0003 }
+                                    if(var2) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
+                                    var4 = _closure2_slot1;
+                                    var3 = null;
+                                    if(!(var3 != var4)) { _fun0003_ip = 4; continue _fun0003 }
 case 5:
-                                    var4 = _closure1_slot0;
-                                    var3 = _closure1_slot2;
-                                    var2 = 8;
-                                    var2 = var3[var2];
+                                    var5 = _closure1_slot0;
+                                    var4 = _closure1_slot2;
+                                    var3 = 8;
+                                    var4 = var4[var3];
                                     var3 = undefined;
-                                    var5 = var4.bind(var3)(var2);
-                                    var4 = var5.surveySeen;
+                                    var4 = var5.bind(var3)(var4);
+                                    var3 = var4.surveySeen;
                                     var2 = _closure2_slot1;
                                     var2 = var2.key;
-                                    var2 = var4.bind(var5)(var2);
-                                    SaveGenerator(address=59);
+                                    var2 = var3.bind(var4)(var2);
+                                    SaveGenerator(address=69);
 case 6:
                                     return var2;
 case 7:
-                                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                    if(var4) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
+                                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                                    if(var3) { _fun0003_ip = 8; continue _fun0003 }
+case 4:
+                                    var3 = undefined;
                                     return var3;
 case 8:
                                     return var2;
-case 4:
+case 2:
                                     return var1;
                                 }
                             };
                             return var1;
                         };
-                        var2 = var4.bind(var3)(var2);
-                        var _closure4_slot0 = var2;
-                        var1 = function() {
-                            var1 = undefined;
-                            var4 = _closure4_slot0;
-                            var3 = var4.apply;
-                            var1 = arguments;
-                            var2 = var1;
-                            var1 = this;
-                            var1 = var3.bind(var4)(var1, var2);
-                            return var1;
-                        };
+                        var4 = var3.bind(var4)(var2);
+                        _closure3_slot0 = var4;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
+                        return var1;
+                    };
+                    var _closure3_slot0 = var2;
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 7;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var6 = var5.bind(var2)(var4);
+                    var5 = var6.track;
+                    var3 = _closure1_slot6;
+                    var4 = var3.OPEN_MODAL;
+                    var3 = {};
+                    var8 = 'survey';
+                    var3['type'] = var8;
+                    var7 = _closure2_slot1;
+                    var7 = var7.id;
+                    var3['promotion_id'] = var7;
+                    var3 = var5.bind(var6)(var4, var3);
+                    var1 = function setSurveySeen() {
+                        var1 = undefined;
+                        var4 = _closure3_slot0;
+                        var3 = var4.apply;
+                        var1 = arguments;
+                        var2 = var1;
+                        var1 = this;
+                        var1 = var3.bind(var4)(var1, var2);
                         return var1;
                     };
                     var1 = var1.bind(var2)();
-                    var1 = var1.bind(var2)();
-case 2:
+case 9:
                     var1 = undefined;
                     return var1;
                 }
@@ -167,8 +178,8 @@ case 2:
             var1 = var3.bind(var4)(var1, var2);
             var1 = null;
             var2 = var1 != var8;
-            if(!var2) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var2) { _fun0001_ip = 11; continue _fun0001 }
+case 12:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -264,7 +275,7 @@ case 11:
             };
             var2['renderConfirmRightIcon'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 10:
+case 11:
             return var1;
         }
     };

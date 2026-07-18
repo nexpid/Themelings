@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot19 = var2;
+            _closure1_slot18 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot18 = var1;
     var9 = function handleTokenUpdated(arg1) {
         var1 = arg1;
         var2 = var1.token;
@@ -84,8 +84,7 @@ case 4:
     var _closure1_slot10 = var2;
     var2 = 5;
     var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.NativeModules;
+    var2 = var7.bind(var1)(var2);
     var _closure1_slot11 = var2;
     var2 = 6;
     var2 = var6[var2];
@@ -109,13 +108,9 @@ case 4:
     var _closure1_slot16 = var2;
     var2 = 11;
     var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot17 = var2;
-    var2 = 12;
-    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.AppStates;
-    var _closure1_slot18 = var2;
+    var _closure1_slot17 = var2;
     var2 = 16;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -133,7 +128,7 @@ case 0:
                 var1 = _closure1_slot9;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot8;
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot18;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -168,12 +163,12 @@ case 8:
         var1 = function value() {
             var8 = this;
             var7 = var8.waitFor;
-            var14 = _closure1_slot12;
-            var13 = _closure1_slot13;
-            var12 = _closure1_slot14;
-            var11 = _closure1_slot15;
-            var10 = _closure1_slot16;
-            var9 = _closure1_slot17;
+            var14 = _closure1_slot11;
+            var13 = _closure1_slot12;
+            var12 = _closure1_slot13;
+            var11 = _closure1_slot14;
+            var10 = _closure1_slot15;
+            var9 = _closure1_slot16;
             var15 = var8;
             var1 = var15[var7](var14, var13, var12, var11, var10, var9, var8);
             var1 = undefined;
@@ -203,19 +198,21 @@ case 8:
     };
     var2['CHANNEL_SELECT'] = var10;
     var10 = function handleLogout() {
-        var3 = _closure1_slot11;
-        var5 = var3.ShareManager;
+        var7 = _closure1_slot1;
+        var8 = _closure1_slot2;
+        var3 = 13;
+        var1 = var8[var3];
+        var6 = undefined;
+        var5 = var7.bind(var6)(var1);
         var4 = var5.setSelectedChannel;
         var1 = null;
         var4 = var4.bind(var5)(var1, var1);
-        var5 = var3.ShareManager;
+        var3 = var8[var3];
+        var5 = var7.bind(var6)(var3);
         var4 = var5.setAuthenticationToken;
-        var7 = _closure1_slot1;
-        var6 = _closure1_slot2;
         var3 = 15;
-        var6 = var6[var3];
-        var3 = undefined;
-        var6 = var7.bind(var3)(var6);
+        var3 = var8[var3];
+        var6 = var7.bind(var6)(var3);
         var3 = var6.getSuperPropertiesBase64;
         var3 = var3.bind(var6)();
         var3 = var4.bind(var5)(var1, var3);
@@ -228,7 +225,7 @@ case 8:
     var2['LOGIN_SUCCESS'] = var9;
     var2['UPDATE_TOKEN'] = var9;
     var9 = function handleStartSession() {
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot11;
         var1 = var3.getToken;
         var1 = var1.bind(var3)();
         _closure1_slot5 = var1;
@@ -241,7 +238,7 @@ case 8:
 case 0:
             var1 = arg1;
             var4 = var1.state;
-            var1 = _closure1_slot18;
+            var1 = _closure1_slot17;
             var1 = var1.INACTIVE;
             if(!(var4 === var1)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
@@ -249,7 +246,7 @@ case 10:
             var1 = null;
             if(!(var1 != var3)) { _fun0003_ip = 9; continue _fun0003 }
 case 11:
-            var6 = _closure1_slot14;
+            var6 = _closure1_slot13;
             var5 = var6.getGuild;
             var3 = _closure1_slot3;
             var6 = var5.bind(var6)(var3);
@@ -262,9 +259,9 @@ case 6:
             var3 = var5.stringify;
             var7 = var3.bind(var5)(var6);
 case 12:
-            var6 = _closure1_slot13;
+            var6 = _closure1_slot12;
             var5 = var6.getChannel;
-            var8 = _closure1_slot15;
+            var8 = _closure1_slot14;
             var3 = var8.getChannelId;
             var3 = var3.bind(var8)();
             var9 = var5.bind(var6)(var3);
@@ -286,13 +283,13 @@ case 16:
             var11 = new Array(0);
 case 15:
             var10 = var11.map;
-            var9 = _closure1_slot17;
+            var9 = _closure1_slot16;
             var9 = var9.getUser;
             var11 = var10.bind(var11)(var9);
             var10 = var11.filter;
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var9 = 13;
+            var9 = 12;
             var12 = var12[var9];
             var9 = undefined;
             var9 = var13.bind(var9)(var12);
@@ -302,8 +299,12 @@ case 15:
             var3[8] = var10;
             var6 = var5.bind(var8)(var3);
 case 13:
-            var3 = _closure1_slot11;
-            var5 = var3.ShareManager;
+            var8 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 13;
+            var5 = var5[var3];
+            var3 = undefined;
+            var5 = var8.bind(var3)(var5);
             var3 = var5.setSelectedChannel;
             var3 = var3.bind(var5)(var6, var7);
             _closure1_slot3 = var1;
@@ -323,18 +324,19 @@ case 18:
             var3 = {};
             var3['client_app_state'] = var4;
             var3 = var5.bind(var6)(var3);
-            var3 = _closure1_slot11;
-            var7 = var3.ShareManager;
+            var8 = _closure1_slot1;
+            var3 = 13;
+            var3 = var10[var3];
+            var7 = var8.bind(var9)(var3);
             var6 = var7.setAuthenticationToken;
             var5 = _closure1_slot5;
-            var8 = _closure1_slot1;
             var3 = 15;
             var3 = var10[var3];
             var8 = var8.bind(var9)(var3);
             var3 = var8.getSuperPropertiesBase64;
             var3 = var3.bind(var8)();
             var3 = var6.bind(var7)(var5, var3);
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot17;
             var3 = var3.INACTIVE;
             if(!(var4 === var3)) { _fun0003_ip = 17; continue _fun0003 }
 case 19:

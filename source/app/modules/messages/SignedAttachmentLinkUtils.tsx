@@ -209,28 +209,31 @@ case 0:
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                         if(var2) { _fun0008_ip = 22; continue _fun0008 }
 case 23:
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var2 = 5;
-                        var2 = var3[var2];
+                        var7 = _closure1_slot0;
+                        var8 = _closure1_slot2;
+                        var6 = 5;
+                        var2 = var8[var6];
                         var3 = undefined;
-                        var2 = var4.bind(var3)(var2);
+                        var2 = var7.bind(var3)(var2);
                         var5 = var2.HTTP;
                         var4 = var5.post;
                         var2 = {};
-                        var6 = _closure1_slot4;
-                        var6 = var6.ATTACHMENTS_REFRESH_URLS;
-                        var2['url'] = var6;
-                        var6 = {};
-                        var7 = new Array(1);
-                        var8 = arg1;
-                        var7[0] = var8;
-                        var6['attachment_urls'] = var7;
-                        var2['body'] = var6;
-                        var6 = false;
+                        var9 = _closure1_slot4;
+                        var9 = var9.ATTACHMENTS_REFRESH_URLS;
+                        var2['url'] = var9;
+                        var9 = {};
+                        var10 = new Array(1);
+                        var11 = arg1;
+                        var10[0] = var11;
+                        var9['attachment_urls'] = var10;
+                        var2['body'] = var9;
+                        var6 = var8[var6];
+                        var7 = var7.bind(var3)(var6);
+                        var6 = var7.rejectWithMigratedError;
+                        var6 = var6.bind(var7)();
                         var2['rejectWithError'] = var6;
                         var2 = var4.bind(var5)(var2);
-                        SaveGenerator(address=101);
+                        SaveGenerator(address=118);
 case 24:
                         return var2;
 case 25:
@@ -288,14 +291,14 @@ case 23:
                         var5 = var6.toURLSafe;
                         var6 = var5.bind(var6)(var2);
                         var5 = null;
-                        if(!(var5 != var6)) { _fun0009_ip = 27; continue _fun0009 }
-case 31:
+                        if(!(var5 != var6)) { _fun0009_ip = 31; continue _fun0009 }
+case 32:
                         var3 = _closure1_slot10;
                         var3 = var3.bind(var4)(var6);
-                        if(var3) { _fun0009_ip = 32; continue _fun0009 }
+                        if(var3) { _fun0009_ip = 33; continue _fun0009 }
 case 21:
                         return var2;
-case 32:
+case 33:
                         var3 = function refreshAttachmentUrl() {
                             var1 = undefined;
                             var4 = _closure1_slot14;
@@ -308,21 +311,21 @@ case 32:
                         };
                         var3 = var3.bind(var4)(var2);
                         SaveGenerator(address=85);
-case 33:
-                        return var3;
 case 34:
-                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(var4) { _fun0009_ip = 35; continue _fun0009 }
-case 36:
-                        var4 = var2;
-                        if(!(var5 != var3)) { _fun0009_ip = 25; continue _fun0009 }
-case 37:
-                        var4 = var3;
-case 25:
-                        return var4;
-case 35:
                         return var3;
-case 27:
+case 35:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                        if(var4) { _fun0009_ip = 36; continue _fun0009 }
+case 37:
+                        var4 = var2;
+                        if(!(var5 != var3)) { _fun0009_ip = 38; continue _fun0009 }
+case 39:
+                        var4 = var3;
+case 38:
+                        return var4;
+case 36:
+                        return var3;
+case 31:
                         return var2;
 case 30:
                         return var1;
@@ -385,11 +388,11 @@ case 30:
         var9 = null;
         var11 = var9 == var13;
         var9 = undefined;
-        if(var11) { _fun0001_ip = 38; continue _fun0001 }
-case 39:
+        if(var11) { _fun0001_ip = 40; continue _fun0001 }
+case 41:
         var11 = var13.substring;
         var9 = var11.bind(var13)(var14);
-case 38:
+case 40:
         var12[1] = var9;
         var11 = var12.map;
         var9 = function getHostWithoutPort(arg1) {
@@ -399,14 +402,14 @@ case 0:
                 var1 = null;
                 var2 = var1 == var4;
                 var1 = undefined;
-                if(var2) { _fun0010_ip = 40; continue _fun0010 }
-case 41:
+                if(var2) { _fun0010_ip = 42; continue _fun0010 }
+case 43:
                 var3 = var4.split;
                 var2 = ':';
                 var3 = var3.bind(var4)(var2);
                 var2 = 0;
                 var1 = var3[var2];
-case 40:
+case 42:
                 return var1;
             }
         };
@@ -453,24 +456,24 @@ case 0:
                 var2 = var3.toURLSafe;
                 var2 = var2.bind(var3)(var1);
                 var3 = null;
-                if(!(var3 != var2)) { _fun0011_ip = 42; continue _fun0011 }
-case 43:
+                if(!(var3 != var2)) { _fun0011_ip = 44; continue _fun0011 }
+case 45:
                 var5 = ['ex', 'is', 'hm'];
                 var3 = var5.length;
                 var4 = 0;
                 var3 = var4 < var3;
-                if(!var3) { _fun0011_ip = 25; continue _fun0011 }
-case 44:
+                if(!var3) { _fun0011_ip = 38; continue _fun0011 }
+case 46:
                 var7 = var5[var4];
                 var6 = var2.searchParams;
                 var3 = var6.delete;
                 var3 = var3.bind(var6)(var7);
                 var4 = var4 + 1;
                 var3 = var5.length;
-                if(var4 < var3) { _fun0011_ip = 44; continue _fun0011 }
-case 25:
+                if(var4 < var3) { _fun0011_ip = 46; continue _fun0011 }
+case 38:
                 return var2;
-case 42:
+case 44:
                 return var1;
             }
         };
@@ -484,13 +487,13 @@ case 0:
                 var4 = var5.some;
                 var1 = _closure1_slot11;
                 var1 = var4.bind(var5)(var1);
-                if(var1) { _fun0012_ip = 45; continue _fun0012 }
-case 46:
+                if(var1) { _fun0012_ip = 47; continue _fun0012 }
+case 48:
                 var4 = var3.embeds;
                 var3 = var4.some;
                 var2 = _closure1_slot13;
                 var1 = var3.bind(var4)(var2);
-case 45:
+case 47:
                 return var1;
             }
         };

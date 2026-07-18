@@ -287,14 +287,14 @@ case 35:
     var _closure1_slot25 = var4;
     var4 = 23;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var9 = var4.useChannelPollInteractions;
-    var _closure1_slot26 = var9;
-    var4 = var4.useMessagePollInteractions;
-    var _closure1_slot27 = var4;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot26 = var4;
     var4 = 24;
     var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.useChannelPollInteractions;
+    var _closure1_slot27 = var9;
+    var4 = var4.useMessagePollInteractions;
     var _closure1_slot28 = var4;
     var4 = 25;
     var4 = var6[var4];
@@ -501,11 +501,11 @@ case 36:
             var2 = var13[var3];
             var15 = var8.bind(var4)(var2);
             var14 = var15.useStateFromStores;
-            var2 = _closure1_slot37;
+            var2 = _closure1_slot38;
             var11 = new Array(1);
             var11[0] = var2;
             var5 = function() {
-                var2 = _closure1_slot37;
+                var2 = _closure1_slot38;
                 var1 = var2.getId;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -562,11 +562,11 @@ case 36:
             var2 = var13[var3];
             var15 = var8.bind(var4)(var2);
             var14 = var15.useStateFromStores;
-            var2 = _closure1_slot36;
+            var2 = _closure1_slot37;
             var11 = new Array(1);
             var11[0] = var2;
             var5 = function() {
-                var1 = _closure1_slot36;
+                var1 = _closure1_slot37;
                 var1 = var1.theme;
                 return var1;
             };
@@ -1165,7 +1165,7 @@ case 52:
             var2 = var13[var3];
             var20 = var8.bind(var4)(var2);
             var19 = var20.useStateFromStoresArray;
-            var2 = _closure1_slot28;
+            var2 = _closure1_slot29;
             var18 = new Array(1);
             var18[0] = var2;
             var2 = function() {
@@ -1174,7 +1174,7 @@ case 52:
                 var1 = function(arg1) {
                     _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                        var3 = _closure1_slot28;
+                        var3 = _closure1_slot29;
                         var2 = var3.getRelevantUserTrialOffer;
                         var1 = arg1;
                         var2 = var2.bind(var3)(var1);
@@ -1249,7 +1249,7 @@ case 59:
             var2 = var13[var3];
             var25 = var8.bind(var4)(var2);
             var20 = var25.useStateFromStores;
-            var2 = _closure1_slot30;
+            var2 = _closure1_slot31;
             var19 = new Array(1);
             var19[0] = var2;
             var18 = new Array(1);
@@ -1257,7 +1257,7 @@ case 59:
             var2 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                    var3 = _closure1_slot30;
+                    var3 = _closure1_slot31;
                     var2 = var3.getPendingReply;
                     var1 = _closure2_slot2;
                     var2 = var2.bind(var3)(var1);
@@ -1370,7 +1370,7 @@ case 62:
             var2 = var13[var3];
             var25 = var8.bind(var4)(var2);
             var20 = var25.useStateFromStores;
-            var2 = _closure1_slot31;
+            var2 = _closure1_slot32;
             var19 = new Array(1);
             var19[0] = var2;
             var18 = new Array(1);
@@ -1394,7 +1394,7 @@ case 64:
                     var1 = null;
                     if(!var3) { _fun0014_ip = 55; continue _fun0014 }
 case 7:
-                    var4 = _closure1_slot31;
+                    var4 = _closure1_slot32;
                     var3 = var4.getMessageByReference;
                     var2 = {};
                     var5 = _closure2_slot0;
@@ -1477,7 +1477,7 @@ case 55:
             var16 = new Array(1);
             var16[0] = r100;
             var2 = function() {
-                var3 = _closure1_slot31;
+                var3 = _closure1_slot32;
                 var2 = var3.getReplyIdsForChannel;
                 var1 = _closure2_slot2;
                 var1 = var2.bind(var3)(var1);
@@ -1515,13 +1515,13 @@ case 55:
             var2 = var13[var3];
             var20 = var8.bind(var4)(var2);
             var19 = var20.useStateFromStores;
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot35;
             var18 = new Array(1);
             var18[0] = var2;
             var16 = new Array(1);
             var16[0] = r100;
             var2 = function() {
-                var3 = _closure1_slot34;
+                var3 = _closure1_slot35;
                 var2 = var3.getChannelThreadsVersion;
                 var1 = _closure2_slot2;
                 var1 = var2.bind(var3)(var1);
@@ -1755,11 +1755,11 @@ case 81:
             var2 = r119[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var5 = new Array(1);
             var5[0] = var2;
             var2 = function() {
-                var1 = _closure1_slot35;
+                var1 = _closure1_slot36;
                 var1 = var1.locale;
                 return var1;
             };
@@ -1772,7 +1772,7 @@ case 81:
             var2 = r119[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var5 = new Array(1);
             var5[0] = var2;
             var2 = function() {
@@ -1785,7 +1785,7 @@ case 0:
                     var1 = !var3;
                     if(var3) { _fun0017_ip = 83; continue _fun0017 }
 case 41:
-                    var4 = _closure1_slot33;
+                    var4 = _closure1_slot34;
                     var3 = var4.hasJoined;
                     var2 = _closure2_slot2;
                     var1 = var3.bind(var4)(var2);
@@ -1811,11 +1811,11 @@ case 83:
             var2 = r119[var3];
             var13 = var8.bind(var4)(var2);
             var11 = var13.useStateFromStores;
-            var2 = _closure1_slot29;
+            var2 = _closure1_slot30;
             var5 = new Array(1);
             var5[0] = var2;
             var2 = function() {
-                var2 = _closure1_slot29;
+                var2 = _closure1_slot30;
                 var1 = var2.isEligible;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -1853,7 +1853,7 @@ case 83:
             var11 = r119[var3];
             var15 = var8.bind(var4)(var11);
             var14 = var15.useStateFromStores;
-            var11 = _closure1_slot32;
+            var11 = _closure1_slot33;
             var13 = new Array(1);
             var13[0] = var11;
             var11 = new Array(2);
@@ -1867,7 +1867,7 @@ case 0:
                     var1 = null;
                     if(!var3) { _fun0018_ip = 84; continue _fun0018 }
 case 85:
-                    var4 = _closure1_slot32;
+                    var4 = _closure1_slot33;
                     var3 = var4.selectedSummary;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
@@ -2015,7 +2015,7 @@ case 91:
             var11 = var13.useShouldDisableInteractiveComponents;
             var5 = var7.id;
             var32 = var11.bind(var13)(var5);
-            var11 = _closure1_slot26;
+            var11 = _closure1_slot27;
             var5 = var7.id;
             var31 = var11.bind(var4)(var5);
             var11 = new Array(0);
@@ -2044,7 +2044,7 @@ case 5:
                 }
             };
             var5 = var13.bind(var90)(var5);
-            var5 = _closure1_slot27;
+            var5 = _closure1_slot28;
             var30 = var5.bind(var4)(var11);
             var5 = r119[var3];
             var15 = var8.bind(var4)(var5);
@@ -2065,11 +2065,11 @@ case 5:
             var5 = r119[var3];
             var14 = var8.bind(var4)(var5);
             var13 = var14.useStateFromStores;
-            var5 = _closure1_slot25;
+            var5 = _closure1_slot26;
             var11 = new Array(1);
             var11[0] = var5;
             var5 = function() {
-                var2 = _closure1_slot25;
+                var2 = _closure1_slot26;
                 var1 = var2.getPendingConnection;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -2393,11 +2393,11 @@ case 107:
             var5 = r119[var3];
             r122 = var8.bind(var4)(var5);
             r121 = r122.useStateFromStoresArray;
-            var5 = _closure1_slot38;
+            var5 = _closure1_slot25;
             var14 = new Array(1);
             var14[0] = var5;
             var13 = function() {
-                var3 = _closure1_slot38;
+                var3 = _closure1_slot25;
                 var1 = var3.getNewestTokens;
                 var2 = var1.bind(var3)();
                 var1 = new Array(2);

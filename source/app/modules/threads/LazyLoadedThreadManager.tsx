@@ -266,13 +266,13 @@ case 41:
             var7 = _closure1_slot2;
             var2 = 7;
             var2 = var7[var2];
-            var7 = undefined;
-            var2 = var6.bind(var7)(var2);
+            var10 = undefined;
+            var2 = var6.bind(var10)(var2);
             var2 = var2.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
             if(!(var5 !== var2)) { _fun0006_ip = 42; continue _fun0006 }
 case 28:
             var2 = _closure1_slot10;
-            var2 = var2.bind(var7)(var5);
+            var2 = var2.bind(var10)(var5);
             if(var2) { _fun0006_ip = 43; continue _fun0006 }
 case 44:
             var6 = _closure1_slot6;
@@ -281,7 +281,7 @@ case 44:
             if(!(var4 == var2)) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
             var2 = _closure1_slot15;
-            var2 = var2.bind(var7)();
+            var2 = var2.bind(var10)();
             var6 = _closure1_slot3;
             var2 = var6.isConnected;
             var2 = var2.bind(var6)();
@@ -297,26 +297,26 @@ case 47:
             var2 = var2[var5];
             if(!(var4 == var2)) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var4 = 8;
-            var4 = var8[var4];
-            var11 = var6.bind(var7)(var4);
-            var10 = var11.matchPath;
+            var4 = var11[var4];
+            var8 = var9.bind(var10)(var4);
+            var7 = var8.matchPath;
             var4 = global;
             var4 = var4.location;
-            var9 = var4.pathname;
+            var6 = var4.pathname;
             var4 = {};
             var16 = _closure1_slot9;
             var15 = var16.CHANNEL;
             var12 = 9;
-            var13 = var8[var12];
-            var13 = var6.bind(var7)(var13);
+            var13 = var11[var12];
+            var13 = var9.bind(var10)(var13);
             var14 = var13.RouteParam;
             var13 = var14.guildId;
             var14 = var13.bind(var14)();
-            var12 = var8[var12];
-            var12 = var6.bind(var7)(var12);
+            var12 = var11[var12];
+            var12 = var9.bind(var10)(var12);
             var13 = var12.RouteParam;
             var12 = var13.channelId;
             var13 = var12.bind(var13)();
@@ -325,19 +325,22 @@ case 50:
             var4['path'] = var12;
             var12 = true;
             var4['exact'] = var12;
-            var4 = var10.bind(var11)(var9, var4);
+            var4 = var7.bind(var8)(var6, var4);
             var _closure2_slot1 = var4;
-            var4 = 10;
-            var4 = var8[var4];
-            var4 = var6.bind(var7)(var4);
+            var8 = 10;
+            var4 = var11[var8];
+            var4 = var9.bind(var10)(var4);
             var7 = var4.HTTP;
             var6 = var7.get;
             var4 = {};
-            var9 = _closure1_slot8;
-            var8 = var9.CHANNEL;
-            var8 = var8.bind(var9)(var5);
-            var4['url'] = var8;
-            var8 = false;
+            var13 = _closure1_slot8;
+            var12 = var13.CHANNEL;
+            var12 = var12.bind(var13)(var5);
+            var4['url'] = var12;
+            var8 = var11[var8];
+            var9 = var9.bind(var10)(var8);
+            var8 = var9.rejectWithMigratedError;
+            var8 = var8.bind(var9)();
             var4['rejectWithError'] = var8;
             var7 = var6.bind(var7)(var4);
             var6 = var7.then;
@@ -540,8 +543,8 @@ case 3:
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
             var2 = _closure1_slot15;
-            var7 = undefined;
-            var2 = var2.bind(var7)();
+            var12 = undefined;
+            var2 = var2.bind(var12)();
             var3 = _closure1_slot3;
             var2 = var3.isConnected;
             var2 = var2.bind(var3)();
@@ -558,27 +561,27 @@ case 61:
             var _closure2_slot0 = var6;
             var3 = _closure1_slot13;
             var2 = arg1;
-            var12 = var3.bind(var7)(var2);
-            var3 = var12.bind(var7)();
+            var11 = var3.bind(var12)(var2);
+            var3 = var11.bind(var12)();
             var2 = var3.done;
             var5 = 'LOADING';
-            var11 = null;
-            var10 = 7;
-            var8 = var3;
+            var10 = null;
+            var8 = 7;
+            var7 = var3;
             var3 = undefined;
             if(var2) { _fun0010_ip = 63; continue _fun0010 }
 case 64:
-            var15 = var8.value;
+            var15 = var7.value;
             var13 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var10];
-            var2 = var13.bind(var7)(var2);
+            var2 = var2[var8];
+            var2 = var13.bind(var12)(var2);
             var2 = var2.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
             var13 = var3;
             if(!(var15 !== var2)) { _fun0010_ip = 65; continue _fun0010 }
 case 66:
             var2 = _closure1_slot10;
-            var2 = var2.bind(var7)(var15);
+            var2 = var2.bind(var12)(var15);
             var13 = var3;
             if(var2) { _fun0010_ip = 65; continue _fun0010 }
 case 67:
@@ -586,11 +589,11 @@ case 67:
             var2 = var14.getChannel;
             var2 = var2.bind(var14)(var15);
             var13 = var3;
-            if(!(var11 == var2)) { _fun0010_ip = 65; continue _fun0010 }
+            if(!(var10 == var2)) { _fun0010_ip = 65; continue _fun0010 }
 case 68:
             var2 = _closure1_slot11;
             var2 = var2[var15];
-            if(!(var11 != var2)) { _fun0010_ip = 69; continue _fun0010 }
+            if(!(var10 != var2)) { _fun0010_ip = 69; continue _fun0010 }
 case 19:
             var14 = var2.type;
             var13 = var2;
@@ -606,31 +609,34 @@ case 69:
             var14 = var14.bind(var6)(var15);
             var13 = var2;
 case 65:
-            var14 = var12.bind(var7)();
+            var14 = var11.bind(var12)();
             var2 = var14.done;
             var3 = var13;
-            var8 = var14;
+            var7 = var14;
             if(!var2) { _fun0010_ip = 64; continue _fun0010 }
 case 63:
             var2 = var6.length;
             var8 = 0;
             if(!(var8 !== var2)) { _fun0010_ip = 71; continue _fun0010 }
 case 72:
-            var3 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 10;
-            var2 = var10[var2];
-            var2 = var3.bind(var7)(var2);
+            var11 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var10 = 10;
+            var2 = var13[var10];
+            var2 = var11.bind(var12)(var2);
             var7 = var2.HTTP;
             var3 = var7.post;
             var2 = {};
-            var10 = _closure1_slot8;
-            var10 = var10.THREADS_BULK;
-            var2['url'] = var10;
-            var10 = {};
-            var10['thread_ids'] = var6;
-            var2['body'] = var10;
-            var10 = false;
+            var14 = _closure1_slot8;
+            var14 = var14.THREADS_BULK;
+            var2['url'] = var14;
+            var14 = {};
+            var14['thread_ids'] = var6;
+            var2['body'] = var14;
+            var10 = var13[var10];
+            var11 = var11.bind(var12)(var10);
+            var10 = var11.rejectWithMigratedError;
+            var10 = var10.bind(var11)();
             var2['rejectWithError'] = var10;
             var7 = var3.bind(var7)(var2);
             var3 = var7.then;

@@ -720,6 +720,10 @@ case 24:
             var19['renderEndCard'] = var22;
             var22 = false;
             var19['isScrollIndicatorEnabled'] = var22;
+            var22 = var18.width;
+            var19['width'] = var22;
+            var22 = var18.height;
+            var19['height'] = var22;
             var19 = var21.bind(var4)(var20, var19);
             var5['children'] = var19;
             var6 = var8.bind(var4)(var6, var5);

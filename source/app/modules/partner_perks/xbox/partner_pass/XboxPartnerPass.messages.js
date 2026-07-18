@@ -1,4 +1,4 @@
-// app/modules/croissant/Croissant.messages.js
+// app/modules/partner_perks/xbox/partner_pass/XboxPartnerPass.messages.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -742,7 +742,7 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/croissant/Croissant.messages.js';
+    var5 = 'modules/partner_perks/xbox/partner_pass/XboxPartnerPass.messages.js';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var3['messagesLoader'] = var2;

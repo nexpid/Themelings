@@ -211,20 +211,29 @@ case 3:
             var14 = var15.bind(var16)(var14);
             var11['text'] = var14;
             var13 = function onPress() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 15;
-                var2 = var2[var1];
-                var1 = undefined;
-                var6 = var3.bind(var1)(var2);
-                var5 = var6.endEvent;
-                var3 = _closure2_slot1;
-                var4 = var3.id;
-                var3 = var3.guild_id;
-                var3 = var5.bind(var6)(var4, var3);
-                var2 = _closure2_slot2;
-                var2 = var2.bind(var1)();
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var3 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 15;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var6 = var4.bind(var2)(var3);
+                    var5 = var6.endEvent;
+                    var3 = _closure2_slot1;
+                    var4 = var3.id;
+                    var3 = var3.guild_id;
+                    var3 = var5.bind(var6)(var4, var3);
+                    var1 = _closure2_slot2;
+                    var1 = var1.bind(var2)();
+case 4:
+                    var1 = undefined;
+                    return var1;
+                }
             };
             var11['onPress'] = var13;
             var11 = var4.bind(var5)(var12, var11);

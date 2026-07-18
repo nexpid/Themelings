@@ -64,8 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var8.PX_16;
         var2['paddingHorizontal'] = var8;
         var1['scrollIndicator'] = var2;
-        var2 = {};
-        var2['alignItems'] = var3;
+        var2 = {'position': 'absolute', 'bottom': 124, 'left': 0, 'right': 0, 'alignItems': 'center', 'justifyContent': 'flex-start'};
         var4 = var7[var4];
         var4 = var6.bind(var5)(var4);
         var4 = var4.space;
@@ -428,7 +427,7 @@ case 24:
             var2 = var16[var6];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function D() {
+            var1 = function j() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = {};
@@ -538,7 +537,7 @@ case 25:
             var9 = var16[var9];
             var9 = var15.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-xs/semibold', 'color': 'text-default'};
+            var9 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
             var12 = var12.scrollIndicatorText;
             var9['style'] = var12;
             var12 = 12;

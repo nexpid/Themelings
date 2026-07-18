@@ -415,7 +415,7 @@ case 36:
         return var1;
     };
     var3['fetchBadgeDirectory'] = var4;
-    var2 = function fetchBadge() {
+    var4 = function fetchBadge() {
         var1 = undefined;
         var4 = _closure1_slot9;
         var3 = var4.apply;
@@ -425,6 +425,23 @@ case 36:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['fetchBadge'] = var2;
+    var3['fetchBadge'] = var4;
+    var2 = function markBadgeDirectoryBadgeIndicatorSeen(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'BADGE_DIRECTORY_MARK_BADGE_INDICATOR_SEEN';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['badgeId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['markBadgeDirectoryBadgeIndicatorSeen'] = var2;
     return var1;
 })();

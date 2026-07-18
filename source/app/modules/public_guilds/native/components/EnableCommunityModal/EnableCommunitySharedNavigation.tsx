@@ -282,38 +282,41 @@ case 12:
             var15 = function onPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                    var4 = _closure2_slot1;
+                    var1 = _closure2_slot3;
+                    var4 = null;
+                    if(!(var4 != var1)) { _fun0004_ip = 14; continue _fun0004 }
+case 15:
+                    var5 = _closure2_slot1;
                     var3 = _closure1_slot11;
                     var3 = var3.STEP_1;
-                    if(!(var3 !== var4)) { _fun0004_ip = 14; continue _fun0004 }
-case 15:
+                    if(!(var3 !== var5)) { _fun0004_ip = 16; continue _fun0004 }
+case 17:
                     var3 = _closure1_slot11;
                     var3 = var3.STEP_2;
-                    if(!(var3 !== var4)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
-                    var4 = _closure2_slot0;
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0004_ip = 18; continue _fun0004 }
+                    if(!(var3 !== var5)) { _fun0004_ip = 18; continue _fun0004 }
 case 19:
+                    var3 = _closure2_slot0;
+                    if(!(var4 != var3)) { _fun0004_ip = 14; continue _fun0004 }
+case 20:
                     var5 = _closure2_slot0;
                     var4 = _closure2_slot3;
                     var3 = undefined;
                     var3 = var5.bind(var3)(var4);
-                    _fun0004_ip = 18; continue _fun0004;
-case 16:
+                    _fun0004_ip = 14; continue _fun0004;
+case 18:
                     var5 = _closure2_slot5;
                     var4 = var5.push;
                     var3 = _closure1_slot11;
                     var3 = var3.STEP_3;
                     var3 = var4.bind(var5)(var3);
-                    _fun0004_ip = 18; continue _fun0004;
-case 14:
+                    _fun0004_ip = 14; continue _fun0004;
+case 16:
                     var3 = _closure2_slot5;
                     var2 = var3.push;
                     var1 = _closure1_slot11;
                     var1 = var1.STEP_2;
                     var1 = var2.bind(var3)(var1);
-case 18:
+case 14:
                     var1 = undefined;
                     return var1;
                 }
@@ -328,7 +331,7 @@ case 18:
             var6 = var8.bind(var5)(var7, var6);
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 20; continue _fun0001;
+            _fun0001_ip = 21; continue _fun0001;
 case 10:
             var4 = _closure1_slot8;
             var3 = _closure1_slot0;
@@ -339,7 +342,7 @@ case 10:
             var3 = var2.SceneLoadingIndicator;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
-case 20:
+case 21:
             return var1;
         }
     };

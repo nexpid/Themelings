@@ -420,7 +420,7 @@ case 38:
                     var1 = null;
                     if(!var3) { _fun0005_ip = 40; continue _fun0005 }
 case 41:
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot11;
                     var2 = _closure2_slot8;
                     var5 = var2.bot;
                     var3 = var4.prototype;
@@ -1168,7 +1168,7 @@ case 112:
                     var24 = null;
                     if(!var8) { _fun0011_ip = 114; continue _fun0011 }
 case 115:
-                    var11 = _closure1_slot10;
+                    var11 = _closure1_slot11;
                     var35 = var28.bot;
                     var9 = var11.prototype;
                     var9 = Object.create(var9, {constructor: {value: var11}});
@@ -2843,11 +2843,11 @@ case 19:
             var6 = var5[var7];
             var17 = var2.bind(var4)(var6);
             var16 = var17.useStateFromStores;
-            var6 = _closure1_slot12;
+            var6 = _closure1_slot9;
             var11 = new Array(1);
             var11[0] = var6;
             var6 = function() {
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot9;
                 var1 = var2.getNewestTokens;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -2856,11 +2856,11 @@ case 19:
             var11 = var5[var7];
             var21 = var2.bind(var4)(var11);
             var17 = var21.useStateFromStores;
-            var11 = _closure1_slot11;
+            var11 = _closure1_slot12;
             var16 = new Array(1);
             var16[0] = var11;
             var11 = function() {
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot12;
                 var1 = var2.getId;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -2967,11 +2967,11 @@ case 154:
             var7 = var5[var7];
             var23 = var2.bind(var4)(var7);
             var21 = var23.useStateFromStores;
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot10;
             var18 = new Array(1);
             var18[0] = var7;
             var7 = function() {
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.locale;
                 return var1;
             };

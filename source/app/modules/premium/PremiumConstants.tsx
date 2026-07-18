@@ -1372,6 +1372,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['GUILD_CHANNEL'] = var98;
     var4 = 'GUILD_CHANNEL';
     var11[var98] = var4;
+    var11['BADGE_DIRECTORY'] = var39;
+    var4 = 'BADGE_DIRECTORY';
+    var11[var39] = var4;
     var8 = {};
     var4 = 'premium_tenure_1_month_v2';
     var8['PREMIUM_TENURE_1_MONTH'] = var4;

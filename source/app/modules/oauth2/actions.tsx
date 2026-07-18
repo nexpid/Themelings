@@ -73,20 +73,20 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
-                    var11 = var2.authorize;
-                    var22 = var2.clientId;
-                    var19 = var2.scopes;
-                    var21 = var2.responseType;
-                    var20 = var2.redirectUri;
-                    var18 = var2.codeChallenge;
-                    var17 = var2.codeChallengeMethod;
-                    var16 = var2.state;
-                    var12 = var2.permissions;
-                    var13 = var2.guildId;
-                    var14 = var2.channelId;
-                    var10 = var2.integrationType;
-                    var9 = var2.connectedAccountProvider;
-                    var15 = var2.nonce;
+                    var12 = var2.authorize;
+                    var23 = var2.clientId;
+                    var20 = var2.scopes;
+                    var22 = var2.responseType;
+                    var21 = var2.redirectUri;
+                    var19 = var2.codeChallenge;
+                    var18 = var2.codeChallengeMethod;
+                    var17 = var2.state;
+                    var13 = var2.permissions;
+                    var14 = var2.guildId;
+                    var15 = var2.channelId;
+                    var11 = var2.integrationType;
+                    var10 = var2.connectedAccountProvider;
+                    var16 = var2.nonce;
                     var8 = undefined;
                     SaveGenerator(address=100);
 case 16:
@@ -96,68 +96,73 @@ case 17:
                     if(var3) { _fun0002_ip = 18; continue _fun0002 }
 case 19:
                     var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var5[var3];
+                    var3 = _closure1_slot2;
+                    var9 = 4;
+                    var3 = var3[var9];
                     var3 = var4.bind(var8)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.post;
                     var3 = {};
-                    var6 = _closure1_slot7;
-                    var6 = var6.OAUTH2_AUTHORIZE;
-                    var3['url'] = var6;
-                    var6 = {};
-                    var6['client_id'] = var22;
-                    var6['response_type'] = var21;
-                    var6['redirect_uri'] = var20;
-                    var6['code_challenge'] = var18;
-                    var6['code_challenge_method'] = var17;
-                    var18 = var19.join;
-                    var17 = ' ';
-                    var17 = var18.bind(var19)(var17);
-                    var6['scope'] = var17;
-                    var6['state'] = var16;
-                    var6['nonce'] = var15;
-                    var3['query'] = var6;
-                    var6 = {};
-                    var6['guild_id'] = var13;
-                    var15 = null;
-                    var17 = var15 != var13;
-                    var16 = undefined;
-                    if(!var17) { _fun0002_ip = 20; continue _fun0002 }
+                    var7 = _closure1_slot7;
+                    var7 = var7.OAUTH2_AUTHORIZE;
+                    var3['url'] = var7;
+                    var7 = {};
+                    var7['client_id'] = var23;
+                    var7['response_type'] = var22;
+                    var7['redirect_uri'] = var21;
+                    var7['code_challenge'] = var19;
+                    var7['code_challenge_method'] = var18;
+                    var19 = var20.join;
+                    var18 = ' ';
+                    var18 = var19.bind(var20)(var18);
+                    var7['scope'] = var18;
+                    var7['state'] = var17;
+                    var7['nonce'] = var16;
+                    var3['query'] = var7;
+                    var7 = {};
+                    var7['guild_id'] = var14;
+                    var16 = null;
+                    var18 = var16 != var14;
+                    var17 = undefined;
+                    if(!var18) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
-                    var17 = var15 != var14;
-                    var16 = undefined;
-                    if(!var17) { _fun0002_ip = 20; continue _fun0002 }
+                    var18 = var16 != var15;
+                    var17 = undefined;
+                    if(!var18) { _fun0002_ip = 20; continue _fun0002 }
 case 22:
-                    var16 = var14;
+                    var17 = var15;
 case 20:
-                    var6['webhook_channel_id'] = var16;
-                    var16 = var15 == var13;
-                    var13 = undefined;
-                    if(!var16) { _fun0002_ip = 23; continue _fun0002 }
+                    var7['webhook_channel_id'] = var17;
+                    var17 = var16 == var14;
+                    var14 = undefined;
+                    if(!var17) { _fun0002_ip = 23; continue _fun0002 }
 case 24:
-                    var15 = var15 != var14;
-                    var13 = undefined;
-                    if(!var15) { _fun0002_ip = 23; continue _fun0002 }
+                    var16 = var16 != var15;
+                    var14 = undefined;
+                    if(!var16) { _fun0002_ip = 23; continue _fun0002 }
 case 25:
-                    var13 = var14;
+                    var14 = var15;
 case 23:
-                    var6['channel_id'] = var13;
-                    var6['permissions'] = var12;
-                    var6['authorize'] = var11;
-                    var6['integration_type'] = var10;
-                    var6['connected_account_provider'] = var9;
-                    var7 = _closure1_slot8;
-                    var7 = var7.bind(var8)();
-                    var6['location_context'] = var7;
-                    var3['body'] = var6;
-                    var6 = true;
-                    var3['oldFormErrors'] = var6;
-                    var6 = false;
+                    var7['channel_id'] = var14;
+                    var7['permissions'] = var13;
+                    var7['authorize'] = var12;
+                    var7['integration_type'] = var11;
+                    var7['connected_account_provider'] = var10;
+                    var10 = _closure1_slot8;
+                    var10 = var10.bind(var8)();
+                    var7['location_context'] = var10;
+                    var3['body'] = var7;
+                    var7 = true;
+                    var3['oldFormErrors'] = var7;
+                    var7 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var9];
+                    var7 = var7.bind(var8)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var3['rejectWithError'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=341);
+                    SaveGenerator(address=366);
 case 26:
                     return var3;
 case 27:
@@ -199,69 +204,78 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 24; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 30; continue _fun0003 }
 case 15:
-                    var17 = var2.clientId;
-                    var14 = var2.scopes;
-                    var16 = var2.responseType;
-                    var15 = var2.redirectUri;
-                    var13 = var2.codeChallenge;
-                    var12 = var2.codeChallengeMethod;
-                    var11 = var2.state;
-                    var10 = var2.integrationType;
-                    var9 = var2.connectedAccountProvider;
-                    var8 = var2.nonce;
-                    var6 = var2.signal;
-                    var5 = undefined;
+                    var21 = var2.clientId;
+                    var18 = var2.scopes;
+                    var20 = var2.responseType;
+                    var19 = var2.redirectUri;
+                    var17 = var2.codeChallenge;
+                    var16 = var2.codeChallengeMethod;
+                    var15 = var2.state;
+                    var14 = var2.integrationType;
+                    var13 = var2.connectedAccountProvider;
+                    var12 = var2.nonce;
+                    var10 = var2.signal;
+                    var8 = undefined;
                     SaveGenerator(address=84);
 case 7:
-                    return var5;
-case 30:
+                    return var8;
+case 31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 31; continue _fun0003 }
-case 32:
-                    var4 = _closure1_slot0;
-                    var18 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var18[var3];
-                    var3 = var4.bind(var5)(var3);
+                    if(var3) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
+                    var7 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var6 = 4;
+                    var3 = var9[var6];
+                    var3 = var7.bind(var8)(var3);
                     var5 = var3.HTTP;
                     var4 = var5.get;
-                    var3 = {'url': null, 'query': null, 'signal': null, 'retries': 3, 'oldFormErrors': true, 'rejectWithError': false};
-                    var7 = _closure1_slot7;
-                    var7 = var7.OAUTH2_AUTHORIZE;
-                    var3['url'] = var7;
-                    var7 = {};
-                    var7['client_id'] = var17;
-                    var7['response_type'] = var16;
-                    var7['redirect_uri'] = var15;
-                    var7['code_challenge'] = var13;
-                    var7['code_challenge_method'] = var12;
-                    var13 = var14.join;
-                    var12 = ' ';
-                    var12 = var13.bind(var14)(var12);
-                    var7['scope'] = var12;
-                    var7['state'] = var11;
-                    var7['integration_type'] = var10;
-                    var7['connected_account_provider'] = var9;
-                    var7['nonce'] = var8;
-                    var3['query'] = var7;
-                    var3['signal'] = var6;
+                    var3 = {};
+                    var11 = _closure1_slot7;
+                    var11 = var11.OAUTH2_AUTHORIZE;
+                    var3['url'] = var11;
+                    var11 = {};
+                    var11['client_id'] = var21;
+                    var11['response_type'] = var20;
+                    var11['redirect_uri'] = var19;
+                    var11['code_challenge'] = var17;
+                    var11['code_challenge_method'] = var16;
+                    var17 = var18.join;
+                    var16 = ' ';
+                    var16 = var17.bind(var18)(var16);
+                    var11['scope'] = var16;
+                    var11['state'] = var15;
+                    var11['integration_type'] = var14;
+                    var11['connected_account_provider'] = var13;
+                    var11['nonce'] = var12;
+                    var3['query'] = var11;
+                    var3['signal'] = var10;
+                    var10 = 3;
+                    var3['retries'] = var10;
+                    var10 = true;
+                    var3['oldFormErrors'] = var10;
+                    var6 = var9[var6];
+                    var7 = var7.bind(var8)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
+                    var3['rejectWithError'] = var6;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=244);
-case 33:
+                    SaveGenerator(address=266);
+case 24:
                     return var3;
 case 34:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                     if(var4) { _fun0003_ip = 35; continue _fun0003 }
-case 20:
+case 36:
                     var4 = var3.body;
                     return var4;
 case 35:
                     return var3;
-case 31:
+case 32:
                     return var2;
-case 24:
+case 30:
                     return var1;
                 }
             };
@@ -288,52 +302,55 @@ case 24:
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     StartGenerator();
-                    var9 = arg2;
+                    var12 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 36; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 37; continue _fun0004 }
 case 15:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 4;
-                    var2 = var3[var2];
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 4;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.get;
                     var2 = {};
-                    var6 = _closure1_slot7;
-                    var6 = var6.OAUTH2_AUTHORIZE_SAMSUNG;
-                    var2['url'] = var6;
-                    var6 = {};
-                    var7 = arg1;
-                    var6['client_id'] = var7;
-                    var7 = arg5;
-                    var6['state'] = var7;
-                    var7 = arg3;
-                    var6['response_type'] = var7;
-                    var7 = arg4;
-                    var6['redirect_uri'] = var7;
-                    var7 = 'consent';
-                    var6['prompt'] = var7;
-                    var8 = var9.join;
-                    var7 = ' ';
-                    var7 = var8.bind(var9)(var7);
-                    var6['scope'] = var7;
-                    var2['query'] = var6;
-                    var6 = false;
+                    var9 = _closure1_slot7;
+                    var9 = var9.OAUTH2_AUTHORIZE_SAMSUNG;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg1;
+                    var9['client_id'] = var10;
+                    var10 = arg5;
+                    var9['state'] = var10;
+                    var10 = arg3;
+                    var9['response_type'] = var10;
+                    var10 = arg4;
+                    var9['redirect_uri'] = var10;
+                    var10 = 'consent';
+                    var9['prompt'] = var10;
+                    var11 = var12.join;
+                    var10 = ' ';
+                    var10 = var11.bind(var12)(var10);
+                    var9['scope'] = var10;
+                    var2['query'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=147);
-case 37:
-                    return var2;
+                    SaveGenerator(address=164);
 case 38:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 39; continue _fun0004 }
-case 40:
-                    return var3;
-case 39:
                     return var2;
-case 36:
+case 39:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0004_ip = 40; continue _fun0004 }
+case 41:
+                    return var3;
+case 40:
+                    return var2;
+case 37:
                     return var1;
                 }
             };
@@ -359,41 +376,44 @@ case 36:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 41; continue _fun0005 }
-case 42:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 4;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    if(var2) { _fun0005_ip = 42; continue _fun0005 }
+case 43:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 4;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var5 = _closure1_slot7;
-                    var5 = var5.OAUTH2_AUTHORIZE_WEBHOOK_CHANNELS;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var6 = arg1;
-                    var5['guild_id'] = var6;
-                    var2['query'] = var5;
-                    var5 = true;
-                    var2['oldFormErrors'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot7;
+                    var9 = var9.OAUTH2_AUTHORIZE_WEBHOOK_CHANNELS;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg1;
+                    var9['guild_id'] = var10;
+                    var2['query'] = var9;
+                    var9 = true;
+                    var2['oldFormErrors'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=94);
-case 43:
+                    SaveGenerator(address=111);
+case 19:
                     return var2;
-case 9:
+case 44:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 44; continue _fun0005 }
-case 17:
+                    if(var3) { _fun0005_ip = 45; continue _fun0005 }
+case 46:
                     var3 = var2.body;
                     return var3;
-case 44:
+case 45:
                     return var2;
-case 41:
+case 42:
                     return var1;
                 }
             };
@@ -419,38 +439,41 @@ case 41:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 17; continue _fun0006 }
-case 42:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 4;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    if(var2) { _fun0006_ip = 46; continue _fun0006 }
+case 43:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 4;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var5 = _closure1_slot7;
-                    var5 = var5.OAUTH2_DEVICE_VERIFY;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var6 = arg1;
-                    var5['user_code'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot7;
+                    var9 = var9.OAUTH2_DEVICE_VERIFY;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg1;
+                    var9['user_code'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=88);
-case 45:
+                    SaveGenerator(address=105);
+case 47:
+                    return var2;
+case 48:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0006_ip = 49; continue _fun0006 }
+case 44:
+                    return var2;
+case 49:
                     return var2;
 case 46:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 8; continue _fun0006 }
-case 9:
-                    return var2;
-case 8:
-                    return var2;
-case 17:
                     return var1;
                 }
             };
@@ -476,40 +499,43 @@ case 17:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 44; continue _fun0007 }
-case 42:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 4;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    if(var2) { _fun0007_ip = 45; continue _fun0007 }
+case 43:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 4;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var5 = _closure1_slot7;
-                    var5 = var5.OAUTH2_DEVICE_FINISH;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var6 = arg1;
-                    var5['user_code'] = var6;
-                    var6 = arg2;
-                    var5['result'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot7;
+                    var9 = var9.OAUTH2_DEVICE_FINISH;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg1;
+                    var9['user_code'] = var10;
+                    var10 = arg2;
+                    var9['result'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=96);
-case 9:
-                    return var2;
-case 47:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 48; continue _fun0007 }
-case 49:
-                    return var2;
-case 48:
-                    return var2;
+                    SaveGenerator(address=113);
 case 44:
+                    return var2;
+case 50:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0007_ip = 51; continue _fun0007 }
+case 13:
+                    return var2;
+case 51:
+                    return var2;
+case 45:
                     return var1;
                 }
             };
@@ -535,44 +561,47 @@ case 44:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 50; continue _fun0008 }
-case 51:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 4;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    if(var2) { _fun0008_ip = 52; continue _fun0008 }
+case 53:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var5 = 4;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var5 = _closure1_slot7;
-                    var5 = var5.OAUTH2_DEVICE_FINISH;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var6 = arg1;
-                    var5['user_code'] = var6;
-                    var6 = 'two_way_link_error';
-                    var5['result'] = var6;
-                    var6 = arg2;
-                    var5['error_code'] = var6;
-                    var6 = arg3;
-                    var5['error_source'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot7;
+                    var9 = var9.OAUTH2_DEVICE_FINISH;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg1;
+                    var9['user_code'] = var10;
+                    var10 = 'two_way_link_error';
+                    var9['result'] = var10;
+                    var10 = arg2;
+                    var9['error_code'] = var10;
+                    var10 = arg3;
+                    var9['error_source'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=120);
-case 52:
-                    return var2;
-case 53:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 12; continue _fun0008 }
+                    SaveGenerator(address=137);
 case 54:
                     return var2;
-case 12:
+case 55:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                     return var2;
-case 50:
+case 56:
+                    return var2;
+case 52:
                     return var1;
                 }
             };
@@ -624,25 +653,28 @@ case 50:
     var5 = var6.bind(var7)(var5);
     var3['getLocationContextServer'] = var4;
     var4 = function acceptWhitelist(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 4;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var4 = 4;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var4 = _closure1_slot7;
-        var4 = var4.OAUTH2_WHITELIST_ACCEPT;
-        var1['url'] = var4;
-        var4 = {};
-        var5 = arg1;
-        var4['token'] = var5;
-        var1['query'] = var4;
-        var4 = true;
-        var1['oldFormErrors'] = var4;
-        var4 = false;
+        var8 = _closure1_slot7;
+        var8 = var8.OAUTH2_WHITELIST_ACCEPT;
+        var1['url'] = var8;
+        var8 = {};
+        var9 = arg1;
+        var8['token'] = var9;
+        var1['query'] = var8;
+        var8 = true;
+        var1['oldFormErrors'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;

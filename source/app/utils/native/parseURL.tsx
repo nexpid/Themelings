@@ -153,11 +153,11 @@ case 13: // catch_target0
     var _closure1_slot23 = var4;
     var4 = /activate/;
     var _closure1_slot24 = var4;
-    var4 = /quests\/(\d+)/;
+    var4 = /^\/quests\/(\d+)/;
     var _closure1_slot25 = var4;
-    var4 = /quest-preview\/(\d+)/;
+    var4 = /^\/quest-preview\/(\d+)/;
     var _closure1_slot26 = var4;
-    var4 = /quest-home/;
+    var4 = /^\/quest-home/;
     var _closure1_slot27 = var4;
     var4 = /subscriptions\/(\d+)/;
     var _closure1_slot28 = var4;

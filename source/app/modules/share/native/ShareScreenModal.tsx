@@ -10,16 +10,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function onClose() {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 8;
+        var1 = 7;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
         var3 = var4.popWithKey;
-        var2 = _closure1_slot8;
+        var2 = _closure1_slot7;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -44,24 +44,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.NativeModules;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SHARE_SCREEN_MODAL_KEY;
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SHARE_SCREEN_MODAL_KEY;
+    var4 = var4.jsx;
     var _closure1_slot8 = var4;
     var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot9 = var4;
-    var4 = 7;
     var4 = var6[var4];
     var8 = var7.bind(var1)(var4);
     var4 = var8.prototype;
@@ -70,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7;
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -128,13 +123,16 @@ case 5:
                                 var3 = _closure2_slot3;
                                 if(!(var2 !== var3)) { _fun0002_ip = 4; continue _fun0002 }
 case 6: // try_start_0
-                                var3 = _closure1_slot6;
-                                var7 = var3.ShareManager;
+                                var5 = _closure1_slot1;
+                                var6 = _closure1_slot2;
+                                var3 = 8;
+                                var3 = var6[var3];
+                                var7 = var5.bind(var2)(var3);
                                 var6 = var7.sharedAttachments;
                                 var5 = _closure2_slot2;
                                 var3 = _closure2_slot3;
                                 var3 = var6.bind(var7)(var5, var3);
-                                SaveGenerator(address=67);
+                                SaveGenerator(address=77);
 case 7:
                                 return var3;
 case 8:
@@ -149,7 +147,7 @@ case 9:
                                 return var3;
 case 12: // catch_target0
                                 CatchBlockStart(arg_register=5);
-                                var5 = _closure1_slot10;
+                                var5 = _closure1_slot9;
                                 var4 = var5.error;
                                 var3 = 'Error fetching attachments:';
                                 var3 = var4.bind(var5)(var3, var6);
@@ -193,11 +191,11 @@ case 2:
             var2 = var15[var2];
             var16 = var6.bind(var4)(var2);
             var15 = var16.useStateFromStores;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot6;
             var6 = new Array(1);
             var6[0] = var2;
             var2 = function() {
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var2 = var3.getChannel;
                 var1 = _closure2_slot1;
                 var1 = var2.bind(var3)(var1);
@@ -226,14 +224,14 @@ case 2:
 case 0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0003_ip = 13; continue _fun0003 }
+                                if(var2) { _fun0003_ip = 4; continue _fun0003 }
 case 3:
                                 var2 = _closure2_slot1;
                                 var4 = null;
-                                if(!(var4 != var2)) { _fun0003_ip = 14; continue _fun0003 }
+                                if(!(var4 != var2)) { _fun0003_ip = 13; continue _fun0003 }
 case 5:
                                 var2 = _closure2_slot6;
-                                if(!(var4 == var2)) { _fun0003_ip = 14; continue _fun0003 }
+                                if(!(var4 == var2)) { _fun0003_ip = 13; continue _fun0003 }
 case 6: // try_start_0
                                 var5 = _closure1_slot1;
                                 var4 = _closure1_slot2;
@@ -245,28 +243,28 @@ case 6: // try_start_0
                                 var2 = _closure2_slot1;
                                 var2 = var5.bind(var6)(var2);
                                 SaveGenerator(address=72);
-case 15:
+case 14:
                                 return var2;
-case 16:
+case 15:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(var5) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                                if(var5) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                                 var3 = _closure2_slot7;
                                 var3 = var3.bind(var4)(var2);
-case 12: // try_end0
-                                _fun0003_ip = 14; continue _fun0003;
-case 17:
+case 18: // try_end0
+                                _fun0003_ip = 13; continue _fun0003;
+case 16:
                                 return var2;
-case 19: // catch_target0
+case 11: // catch_target0
                                 CatchBlockStart(arg_register=4);
-                                var4 = _closure1_slot10;
+                                var4 = _closure1_slot9;
                                 var3 = var4.error;
                                 var2 = 'Error fetching channel:';
                                 var2 = var3.bind(var4)(var2, var5);
-case 14:
+case 13:
                                 var2 = undefined;
                                 return var2;
-case 13:
+case 4:
                                 return var1;
                             }
                         };
@@ -298,10 +296,10 @@ case 13:
                 return var1;
             };
             var6 = var12.bind(var13)(var6, var11);
-            if(!(var3 != var2)) { _fun0001_ip = 20; continue _fun0001 }
-case 21:
-            var7 = var2;
+            if(!(var3 != var2)) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
+            var7 = var2;
+case 19:
             _closure2_slot8 = var7;
             var6 = _closure1_slot5;
             var3 = var6.useMemo;
@@ -318,17 +316,17 @@ case 0:
                     var1['text'] = var3;
                     var3 = _closure2_slot4;
                     var6 = null;
-                    if(!(var6 == var3)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-                    var3 = new Array(0);
-                    _fun0004_ip = 24; continue _fun0004;
+                    if(!(var6 == var3)) { _fun0004_ip = 21; continue _fun0004 }
 case 22:
+                    var3 = new Array(0);
+                    _fun0004_ip = 23; continue _fun0004;
+case 21:
                     var3 = _closure2_slot4;
-case 24:
+case 23:
                     var1['attachments'] = var3;
                     var3 = _closure2_slot8;
-                    if(!(var6 != var3)) { _fun0004_ip = 25; continue _fun0004 }
-case 26:
+                    if(!(var6 != var3)) { _fun0004_ip = 24; continue _fun0004 }
+case 25:
                     var3 = _closure2_slot8;
                     var5 = var3.type;
                     var7 = _closure1_slot0;
@@ -339,67 +337,67 @@ case 26:
                     var3 = var7.bind(var4)(var3);
                     var3 = var3.ChannelTypes;
                     var3 = var3.DM;
-                    if(!(var5 === var3)) { _fun0004_ip = 27; continue _fun0004 }
-case 28:
+                    if(!(var5 === var3)) { _fun0004_ip = 26; continue _fun0004 }
+case 27:
                     var3 = _closure2_slot8;
                     var5 = var3;
-                    if(!var5) { _fun0004_ip = 29; continue _fun0004 }
-case 30:
+                    if(!var5) { _fun0004_ip = 28; continue _fun0004 }
+case 29:
                     var7 = 'recipients';
                     var5 = var7 in var3;
-case 29:
-                    if(!var5) { _fun0004_ip = 31; continue _fun0004 }
-case 13:
+case 28:
+                    if(!var5) { _fun0004_ip = 30; continue _fun0004 }
+case 4:
                     var7 = global;
                     var8 = var7.Array;
                     var7 = var8.isArray;
                     var3 = var3.recipients;
                     var5 = var7.bind(var8)(var3);
-case 31:
+case 30:
                     var3 = _closure2_slot8;
-                    if(var5) { _fun0004_ip = 32; continue _fun0004 }
-case 33:
+                    if(var5) { _fun0004_ip = 31; continue _fun0004 }
+case 32:
                     var5 = var3;
-                    if(!var5) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
+                    if(!var5) { _fun0004_ip = 33; continue _fun0004 }
+case 34:
                     var7 = 'recipient';
                     var5 = var7 in var3;
-case 34:
-                    if(!var5) { _fun0004_ip = 36; continue _fun0004 }
-case 37:
+case 33:
+                    if(!var5) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
                     var8 = var3.recipient;
                     var7 = 'id';
                     var5 = var7 in var8;
-case 36:
-                    if(!var5) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+case 35:
+                    if(!var5) { _fun0004_ip = 37; continue _fun0004 }
+case 38:
                     var5 = _closure2_slot8;
                     var5 = var5.recipient;
                     var6 = var6 == var5;
                     var4 = undefined;
-                    if(var6) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
-                    var4 = var5.id;
+                    if(var6) { _fun0004_ip = 39; continue _fun0004 }
 case 40:
+                    var4 = var5.id;
+case 39:
                     var1['targetUserId'] = var4;
-                    _fun0004_ip = 38; continue _fun0004;
-case 32:
+                    _fun0004_ip = 37; continue _fun0004;
+case 31:
                     var4 = var3.recipients;
                     var3 = 0;
                     var3 = var4[var3];
                     var1['targetUserId'] = var3;
-case 38:
+case 37:
                     return var1;
-case 27:
+case 26:
                     var2 = _closure2_slot1;
                     var1['targetChannelId'] = var2;
                     return var1;
-case 25:
+case 24:
                     return var1;
                 }
             };
             var6 = var3.bind(var6)(var1, var2);
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 12;
@@ -407,7 +405,7 @@ case 25:
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['sharedContent'] = var6;
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot10;
             var1['onClose'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

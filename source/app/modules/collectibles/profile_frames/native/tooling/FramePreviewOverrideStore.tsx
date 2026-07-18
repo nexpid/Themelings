@@ -606,16 +606,16 @@ case 66:
                     var2 = undefined;
                     var9 = undefined;
                     var11 = undefined;
-                    var3 = _closure1_slot8;
-                    var3 = var3 + 1;
-                    _closure1_slot8 = var3;
-                    var _closure4_slot0 = var3;
                     var5 = function isStale() {
                         var2 = _closure4_slot0;
                         var1 = _closure1_slot8;
                         var1 = var2 !== var1;
                         return var1;
                     };
+                    var3 = _closure1_slot8;
+                    var3 = var3 + 1;
+                    _closure1_slot8 = var3;
+                    var _closure4_slot0 = var3;
                     var10 = _closure2_slot0;
                     var12 = null;
                     var7 = {'status': 'loading', 'error': null};

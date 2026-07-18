@@ -19,22 +19,25 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var5[var2];
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var7 = 5;
+                    var2 = var9[var7];
                     var5 = undefined;
-                    var2 = var4.bind(var5)(var2);
+                    var2 = var8.bind(var5)(var2);
                     var6 = var2.HTTP;
                     var4 = var6.get;
                     var2 = {};
-                    var7 = _closure1_slot6;
-                    var7 = var7.SOUNDBOARD_DEFAULT_SOUNDS;
-                    var2['url'] = var7;
-                    var7 = false;
+                    var10 = _closure1_slot6;
+                    var10 = var10.SOUNDBOARD_DEFAULT_SOUNDS;
+                    var2['url'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var5)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var2['rejectWithError'] = var7;
                     var2 = var4.bind(var6)(var2);
-                    SaveGenerator(address=76);
+                    SaveGenerator(address=93);
 case 4:
                     return var2;
 case 5:
@@ -287,14 +290,14 @@ case 19:
                     var7 = _closure1_slot10;
                     var5 = !var7;
                     if(var7) { _fun0004_ip = 21; continue _fun0004 }
-case 4:
+case 22:
                     var5 = !var2;
 case 21:
-                    if(!var5) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
+                    if(!var5) { _fun0004_ip = 23; continue _fun0004 }
+case 24:
                     var2 = true;
                     _closure1_slot10 = var2;
-case 22:
+case 23:
                     var9 = var4.Promise;
                     var7 = var9.all;
                     var2 = _closure1_slot13;
@@ -306,14 +309,14 @@ case 22:
                     var2[1] = var10;
                     var2 = var7.bind(var9)(var2);
                     SaveGenerator(address=135);
-case 24:
-                    return var2;
 case 25:
+                    return var2;
+case 26:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
-                    if(!var5) { _fun0004_ip = 28; continue _fun0004 }
-case 29:
+                    if(var7) { _fun0004_ip = 27; continue _fun0004 }
+case 28:
+                    if(!var5) { _fun0004_ip = 29; continue _fun0004 }
+case 30:
                     var5 = var4.performance;
                     var4 = var5.now;
                     var7 = var4.bind(var5)();
@@ -329,9 +332,9 @@ case 29:
                     var7 = var7 - var8;
                     var3['elapsed_ms'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
-case 28:
+case 29:
                     return var2;
-case 26:
+case 27:
                     return var2;
 case 15:
                     return var1;
@@ -360,51 +363,54 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 30; continue _fun0005 }
+                    if(var3) { _fun0005_ip = 31; continue _fun0005 }
 case 16:
                     var7 = var2.guildId;
-                    var14 = var2.name;
-                    var13 = var2.sound;
-                    var12 = var2.volume;
-                    var11 = var2.emojiId;
-                    var10 = var2.emojiName;
+                    var17 = var2.name;
+                    var16 = var2.sound;
+                    var15 = var2.volume;
+                    var14 = var2.emojiId;
+                    var13 = var2.emojiName;
                     var6 = undefined;
                     SaveGenerator(address=53);
 case 17:
                     return var6;
-case 31:
+case 32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
-                    var5 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var8[var3];
-                    var3 = var5.bind(var6)(var3);
+                    if(var3) { _fun0005_ip = 33; continue _fun0005 }
+case 34:
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var9 = 5;
+                    var3 = var11[var9];
+                    var3 = var10.bind(var6)(var3);
                     var8 = var3.HTTP;
                     var5 = var8.post;
                     var3 = {};
-                    var15 = _closure1_slot6;
-                    var9 = var15.GUILD_SOUNDBOARD_SOUNDS;
-                    var9 = var9.bind(var15)(var7);
-                    var3['url'] = var9;
-                    var9 = {};
-                    var9['name'] = var14;
-                    var9['sound'] = var13;
-                    var9['volume'] = var12;
-                    var9['emoji_id'] = var11;
-                    var9['emoji_name'] = var10;
-                    var3['body'] = var9;
-                    var9 = false;
+                    var18 = _closure1_slot6;
+                    var12 = var18.GUILD_SOUNDBOARD_SOUNDS;
+                    var12 = var12.bind(var18)(var7);
+                    var3['url'] = var12;
+                    var12 = {};
+                    var12['name'] = var17;
+                    var12['sound'] = var16;
+                    var12['volume'] = var15;
+                    var12['emoji_id'] = var14;
+                    var12['emoji_name'] = var13;
+                    var3['body'] = var12;
+                    var9 = var11[var9];
+                    var10 = var10.bind(var6)(var9);
+                    var9 = var10.rejectWithMigratedError;
+                    var9 = var9.bind(var10)();
                     var3['rejectWithError'] = var9;
                     var3 = var5.bind(var8)(var3);
-                    SaveGenerator(address=162);
-case 34:
-                    return var3;
+                    SaveGenerator(address=179);
 case 35:
+                    return var3;
+case 36:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 36; continue _fun0005 }
-case 37:
+                    if(var5) { _fun0005_ip = 37; continue _fun0005 }
+case 38:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var4 = 6;
@@ -414,11 +420,11 @@ case 37:
                     var4 = var3.body;
                     var4 = var5.bind(var6)(var4, var7);
                     return var4;
-case 36:
+case 37:
                     return var3;
-case 32:
+case 33:
                     return var2;
-case 30:
+case 31:
                     return var1;
                 }
             };
@@ -447,50 +453,53 @@ case 0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 38; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 39; continue _fun0006 }
 case 16:
                     var7 = var2.guildId;
-                    var15 = var2.soundId;
-                    var13 = var2.name;
-                    var12 = var2.volume;
-                    var11 = var2.emojiId;
-                    var10 = var2.emojiName;
+                    var18 = var2.soundId;
+                    var16 = var2.name;
+                    var15 = var2.volume;
+                    var14 = var2.emojiId;
+                    var13 = var2.emojiName;
                     var6 = undefined;
                     SaveGenerator(address=53);
 case 17:
                     return var6;
-case 31:
+case 32:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 39; continue _fun0006 }
-case 33:
-                    var5 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var8[var3];
-                    var3 = var5.bind(var6)(var3);
+                    if(var3) { _fun0006_ip = 40; continue _fun0006 }
+case 34:
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var9 = 5;
+                    var3 = var11[var9];
+                    var3 = var10.bind(var6)(var3);
                     var8 = var3.HTTP;
                     var5 = var8.patch;
                     var3 = {};
-                    var14 = _closure1_slot6;
-                    var9 = var14.GUILD_SOUNDBOARD_SOUND;
-                    var9 = var9.bind(var14)(var7, var15);
-                    var3['url'] = var9;
-                    var9 = {};
-                    var9['name'] = var13;
-                    var9['volume'] = var12;
-                    var9['emoji_id'] = var11;
-                    var9['emoji_name'] = var10;
-                    var3['body'] = var9;
-                    var9 = false;
+                    var17 = _closure1_slot6;
+                    var12 = var17.GUILD_SOUNDBOARD_SOUND;
+                    var12 = var12.bind(var17)(var7, var18);
+                    var3['url'] = var12;
+                    var12 = {};
+                    var12['name'] = var16;
+                    var12['volume'] = var15;
+                    var12['emoji_id'] = var14;
+                    var12['emoji_name'] = var13;
+                    var3['body'] = var12;
+                    var9 = var11[var9];
+                    var10 = var10.bind(var6)(var9);
+                    var9 = var10.rejectWithMigratedError;
+                    var9 = var9.bind(var10)();
                     var3['rejectWithError'] = var9;
                     var3 = var5.bind(var8)(var3);
-                    SaveGenerator(address=158);
+                    SaveGenerator(address=175);
 case 10:
                     return var3;
-case 40:
+case 41:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+                    if(var5) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var4 = 6;
@@ -500,11 +509,11 @@ case 42:
                     var4 = var3.body;
                     var4 = var5.bind(var6)(var4, var7);
                     return var4;
-case 41:
+case 42:
                     return var3;
-case 39:
+case 40:
                     return var2;
-case 38:
+case 39:
                     return var1;
                 }
             };
@@ -532,35 +541,42 @@ case 38:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 43; continue _fun0007 }
-case 44:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var3[var2];
+                    if(var2) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var6 = 5;
+                    var2 = var8[var6];
                     var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
+                    var2 = var7.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.del;
-                    var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    var9 = _closure1_slot6;
-                    var8 = var9.GUILD_SOUNDBOARD_SOUND;
-                    var7 = arg1;
-                    var6 = arg2;
-                    var6 = var8.bind(var9)(var7, var6);
-                    var2['url'] = var6;
+                    var2 = {};
+                    var12 = _closure1_slot6;
+                    var11 = var12.GUILD_SOUNDBOARD_SOUND;
+                    var10 = arg1;
+                    var9 = arg2;
+                    var9 = var11.bind(var12)(var10, var9);
+                    var2['url'] = var9;
+                    var9 = true;
+                    var2['oldFormErrors'] = var9;
+                    var6 = var8[var6];
+                    var7 = var7.bind(var3)(var6);
+                    var6 = var7.rejectWithMigratedError;
+                    var6 = var6.bind(var7)();
+                    var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=90);
-case 45:
-                    return var2;
+                    SaveGenerator(address=110);
 case 46:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0007_ip = 47; continue _fun0007 }
-case 48:
-                    return var3;
-case 47:
                     return var2;
-case 43:
+case 47:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0007_ip = 48; continue _fun0007 }
+case 49:
+                    return var3;
+case 48:
+                    return var2;
+case 44:
                     return var1;
                 }
             };
@@ -586,41 +602,44 @@ case 43:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 49; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 50; continue _fun0008 }
 case 3:
-                    var9 = arg1;
-                    var8 = arg2;
+                    var12 = arg1;
+                    var11 = arg2;
                     var5 = undefined;
                     var4 = undefined;
-case 50: // try_start_0
-                    var3 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 5;
-                    var2 = var7[var2];
-                    var2 = var3.bind(var5)(var2);
+case 51: // try_start_0
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 5;
+                    var2 = var10[var8];
+                    var2 = var9.bind(var5)(var2);
                     var7 = var2.HTTP;
                     var3 = var7.get;
                     var2 = {};
-                    var11 = _closure1_slot6;
-                    var10 = var11.SOUNDBOARD_SOUND_GUILD_DATA;
-                    var8 = var10.bind(var11)(var9, var8);
-                    var2['url'] = var8;
-                    var8 = false;
+                    var14 = _closure1_slot6;
+                    var13 = var14.SOUNDBOARD_SOUND_GUILD_DATA;
+                    var11 = var13.bind(var14)(var12, var11);
+                    var2['url'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var5)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var3.bind(var7)(var2);
-                    SaveGenerator(address=90);
-case 45:
+                    SaveGenerator(address=107);
+case 52:
                     return var2;
-case 46:
+case 53:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 51; continue _fun0008 }
-case 48:
+                    if(var3) { _fun0008_ip = 54; continue _fun0008 }
+case 55:
                     var4 = var2;
                     var7 = var2.body;
                     var3 = null;
                     var7 = var3 != var7;
-                    if(!var7) { _fun0008_ip = 52; continue _fun0008 }
-case 53:
+                    if(!var7) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var6 = 16;
@@ -629,11 +648,11 @@ case 53:
                     var6 = var7.makeDiscoverableGuild;
                     var4 = var4.body;
                     var3 = var6.bind(var7)(var4);
-case 52: // try_end0
+case 56: // try_end0
                     return var3;
-case 51:
+case 54:
                     return var2;
-case 54: // catch_target0
+case 58: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -642,12 +661,12 @@ case 54: // catch_target0
                     var2 = var3.bind(var5)(var2);
                     var3 = var2.prototype;
                     var3 = Object.create(var3, {constructor: {value: var2}});
-                    var14 = var3;
-                    var13 = var4;
-                    var2 = new var14[var2](var13, var12);
+                    var17 = var3;
+                    var16 = var4;
+                    var2 = new var17[var2](var16, var15);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
-case 49:
+case 50:
                     return var1;
                 }
             };
@@ -779,23 +798,23 @@ case 0:
                 var1 = var3.soundIds;
                 var2 = var2.bind(var4)(var1);
                 var1 = _closure1_slot8;
-                if(!(!(var2 >= var1))) { _fun0009_ip = 55; continue _fun0009 }
-case 56:
+                if(!(!(var2 >= var1))) { _fun0009_ip = 46; continue _fun0009 }
+case 59:
                 var5 = var3.soundIds;
                 var4 = var5.includes;
                 var1 = _closure2_slot0;
                 var1 = var4.bind(var5)(var1);
                 var1 = !var1;
-                if(!var1) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
+                if(!var1) { _fun0009_ip = 60; continue _fun0009 }
+case 61:
                 var4 = var3.soundIds;
                 var3 = var4.push;
                 var2 = _closure2_slot0;
                 var2 = var3.bind(var4)(var2);
                 var1 = undefined;
-case 57:
-                _fun0009_ip = 59; continue _fun0009;
-case 55:
+case 60:
+                _fun0009_ip = 62; continue _fun0009;
+case 46:
                 var3 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var2 = 14;
@@ -830,7 +849,7 @@ case 55:
                 var2['body'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var1 = false;
-case 59:
+case 62:
                 return var1;
             }
         };

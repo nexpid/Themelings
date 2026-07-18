@@ -27,16 +27,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.ActivityIndicator;
     var _closure1_slot4 = var4;
     var4 = 2;
-    var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
     var7 = var6[var4];
     var7 = var11.bind(var1)(var7);
-    var _closure1_slot6 = var7;
+    var _closure1_slot5 = var7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.FetchState;
+    var _closure1_slot6 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
@@ -143,12 +143,12 @@ case 0:
             var1 = var9[var1];
             var12 = var7.bind(var5)(var1);
             var10 = var12.useStateFromStoresObject;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot5;
             var7 = new Array(1);
             var7[0] = var1;
             var1 = function() {
                 var1 = {};
-                var3 = _closure1_slot6;
+                var3 = _closure1_slot5;
                 var2 = var3.getFetchState;
                 var2 = var2.bind(var3)();
                 var1['authorizedAppsFetchState'] = var2;
@@ -165,7 +165,7 @@ case 0:
             var1 = 12;
             var1 = var9[var1];
             var9 = var8.bind(var5)(var1);
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot7;
             var1 = var8.getId;
             var8 = var1.bind(var8)();
             var1 = {};
@@ -182,7 +182,7 @@ case 0:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var3 = _closure2_slot3;
-                    var2 = _closure1_slot7;
+                    var2 = _closure1_slot6;
                     var2 = var2.NOT_FETCHED;
                     if(!(var3 === var2)) { _fun0002_ip = 2; continue _fun0002 }
 case 3:

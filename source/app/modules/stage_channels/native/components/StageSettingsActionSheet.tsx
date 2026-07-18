@@ -297,18 +297,27 @@ case 12:
             var17 = var19.bind(var5)(var18, var17);
             var9['leading'] = var17;
             var17 = function onPress() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 20;
-                var3 = var3[var1];
-                var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.openStageChannelSettings;
-                var3 = _closure2_slot2;
-                var3 = var4.bind(var5)(var3);
-                var2 = _closure1_slot15;
-                var2 = var2.bind(var1)();
-                return var1;
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var2 = _closure2_slot2;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0003_ip = 13; continue _fun0003 }
+case 3:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 20;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var5 = var5.bind(var2)(var4);
+                    var4 = var5.openStageChannelSettings;
+                    var3 = _closure2_slot2;
+                    var3 = var4.bind(var5)(var3);
+                    var1 = _closure1_slot15;
+                    var1 = var1.bind(var2)();
+case 13:
+                    var1 = undefined;
+                    return var1;
+                }
             };
             var9['onPress'] = var17;
             var12 = var15.bind(var5)(var14, var9);
@@ -397,32 +406,41 @@ case 6:
             var19 = var18.bind(var5)(var22, var19);
             var12['leading'] = var19;
             var19 = function onPress() {
-                var4 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var3 = 24;
-                var6 = var5[var3];
-                var1 = undefined;
-                var8 = var4.bind(var1)(var6);
-                var7 = var8.setSection;
-                var6 = _closure1_slot10;
-                var6 = var6.NOTIFICATIONS;
-                var6 = var7.bind(var8)(var6);
-                var3 = var5[var3];
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.open;
-                var3 = _closure2_slot2;
-                var3 = var3.id;
-                var3 = var4.bind(var5)(var3);
-                var2 = _closure1_slot15;
-                var2 = var2.bind(var1)();
-                return var1;
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                    var2 = _closure2_slot2;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0004_ip = 14; continue _fun0004 }
+case 3:
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 24;
+                    var7 = var6[var4];
+                    var2 = undefined;
+                    var9 = var5.bind(var2)(var7);
+                    var8 = var9.setSection;
+                    var7 = _closure1_slot10;
+                    var7 = var7.NOTIFICATIONS;
+                    var7 = var8.bind(var9)(var7);
+                    var4 = var6[var4];
+                    var5 = var5.bind(var2)(var4);
+                    var4 = var5.open;
+                    var3 = _closure2_slot2;
+                    var3 = var3.id;
+                    var3 = var4.bind(var5)(var3);
+                    var1 = _closure1_slot15;
+                    var1 = var1.bind(var2)();
+case 14:
+                    var1 = undefined;
+                    return var1;
+                }
             };
             var12['onPress'] = var19;
             var12 = var18.bind(var5)(var15, var12);
             var9[2] = var12;
             var10 = var10 != var11;
-            if(!var10) { _fun0001_ip = 13; continue _fun0001 }
-case 14:
+            if(!var10) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var15 = _closure1_slot12;
             var19 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -455,16 +473,16 @@ case 14:
             var18 = var15.bind(var5)(var19, var18);
             var11['leading'] = var18;
             var18 = function onPress() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 15; continue _fun0003 }
+                    if(!(var2 != var3)) { _fun0005_ip = 17; continue _fun0005 }
 case 3:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-case 15:
+case 17:
                     var2 = _closure1_slot15;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
@@ -473,7 +491,7 @@ case 15:
             };
             var11['onPress'] = var18;
             var10 = var15.bind(var5)(var12, var11);
-case 13:
+case 15:
             var9[3] = var10;
             var12 = _closure1_slot12;
             var15 = _closure1_slot0;
@@ -518,18 +536,27 @@ case 13:
             var14 = var12.bind(var5)(var15, var14);
             var10['leading'] = var14;
             var13 = function onPress() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 27;
-                var3 = var3[var1];
-                var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.showReportModalForStageChannel;
-                var3 = _closure2_slot2;
-                var3 = var4.bind(var5)(var3);
-                var2 = _closure1_slot15;
-                var2 = var2.bind(var1)();
-                return var1;
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+case 0:
+                    var2 = _closure2_slot2;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0006_ip = 13; continue _fun0006 }
+case 3:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 27;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var5 = var5.bind(var2)(var4);
+                    var4 = var5.showReportModalForStageChannel;
+                    var3 = _closure2_slot2;
+                    var3 = var4.bind(var5)(var3);
+                    var1 = _closure1_slot15;
+                    var1 = var1.bind(var2)();
+case 13:
+                    var1 = undefined;
+                    return var1;
+                }
             };
             var10['onPress'] = var13;
             var10 = var12.bind(var5)(var11, var10);

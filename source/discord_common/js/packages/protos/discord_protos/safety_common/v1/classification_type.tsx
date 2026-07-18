@@ -518,6 +518,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CSAM_SOLICITATION_OR_ADMISSION_SMITE'] = var5;
     var1 = 'CSAM_SOLICITATION_OR_ADMISSION_SMITE';
     var2[var5] = var1;
+    var5 = 3002;
+    var2['CSAM_SOLICITATION_OR_ADMISSION_GUILD_SMITE'] = var5;
+    var1 = 'CSAM_SOLICITATION_OR_ADMISSION_GUILD_SMITE';
+    var2[var5] = var1;
     var5 = 3005;
     var2['CSAM_GUILD_SMITE'] = var5;
     var1 = 'CSAM_GUILD_SMITE';

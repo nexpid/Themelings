@@ -141,7 +141,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.GIFTING_INTENT_FRIENDS_TAB_BADGE;
-    var18 = new Array(29);
+    var18 = new Array(31);
     var18[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -283,6 +283,16 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.BOUNTIES_RECURRING_SWIPE_UP_NUX;
     var18[28] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.BATTLENET_CONNECTION_DEPRECATION;
+    var18[29] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.BATTLENET_CONNECTION_DEPRECATION_LINKED_ROLES;
+    var18[30] = var14;
     var _closure1_slot1 = var18;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

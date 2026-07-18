@@ -249,29 +249,22 @@ case 10:
         var3 = var3.TIER_2;
         var4['premiumSubscriptionType'] = var3;
         var3 = function() {
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 12;
-            var1 = var10[var5];
-            var8 = undefined;
-            var1 = var9.bind(var8)(var1);
-            var4 = var1.intl;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 12;
+            var3 = var6[var1];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var4 = var3.intl;
             var3 = var4.formatToPlainString;
-            var1 = var10[var5];
-            var1 = var9.bind(var8)(var1);
+            var1 = var6[var1];
+            var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.vFfV+J;
+            var2 = var1.O2bEOt;
             var1 = {};
-            var6 = var10[var5];
-            var6 = var9.bind(var8)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var5 = var10[var5];
-            var5 = var9.bind(var8)(var5);
-            var5 = var5.t;
-            var5 = var5.FPybU7;
-            var5 = var6.bind(var7)(var5);
-            var1['timeInterval'] = var5;
+            var5 = _closure2_slot0;
+            var5 = var5.intervalCount;
+            var1['intervalCount'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
@@ -285,29 +278,22 @@ case 10:
         var3 = var3.TIER_2;
         var4['premiumSubscriptionType'] = var3;
         var3 = function() {
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var5 = 12;
-            var1 = var10[var5];
-            var8 = undefined;
-            var1 = var9.bind(var8)(var1);
-            var4 = var1.intl;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 12;
+            var3 = var6[var1];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var4 = var3.intl;
             var3 = var4.formatToPlainString;
-            var1 = var10[var5];
-            var1 = var9.bind(var8)(var1);
+            var1 = var6[var1];
+            var1 = var5.bind(var2)(var1);
             var1 = var1.t;
-            var2 = var1.vFfV+J;
+            var2 = var1.ZEvHF+;
             var1 = {};
-            var6 = var10[var5];
-            var6 = var9.bind(var8)(var6);
-            var7 = var6.intl;
-            var6 = var7.string;
-            var5 = var10[var5];
-            var5 = var9.bind(var8)(var5);
-            var5 = var5.t;
-            var5 = var5.tfqrhj;
-            var5 = var6.bind(var7)(var5);
-            var1['timeInterval'] = var5;
+            var5 = _closure2_slot0;
+            var5 = var5.intervalCount;
+            var1['intervalCount'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
@@ -1392,55 +1378,35 @@ case 91:
     };
     var3['getButtonText'] = var7;
     var3['getSubscriptionGiftSuccessText'] = var6;
-    var6 = function getSubscriptionGiftStartHeaderText(arg1, arg2) {
+    var6 = function getSubscriptionGiftStartHeaderText(arg1, arg2, arg3) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-            var6 = arg1;
-            var4 = arg2;
-            var _closure2_slot0 = var4;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var1 = 12;
-            var5 = var10[var1];
-            var7 = undefined;
-            var5 = var9.bind(var7)(var5);
-            var11 = var5.intl;
-            var8 = var11.string;
-            var5 = var10[var1];
-            var5 = var9.bind(var7)(var5);
-            var5 = var5.t;
-            var5 = var5.FPybU7;
-            var5 = var8.bind(var11)(var5);
-            var _closure2_slot1 = var5;
-            var5 = var10[var1];
-            var5 = var9.bind(var7)(var5);
-            var8 = var5.intl;
-            var5 = var8.string;
-            var1 = var10[var1];
-            var1 = var9.bind(var7)(var1);
-            var1 = var1.t;
-            var1 = var1.tfqrhj;
-            var1 = var5.bind(var8)(var1);
-            var _closure2_slot2 = var1;
+            var8 = arg1;
+            var6 = arg2;
+            var2 = arg3;
+            var _closure2_slot0 = var6;
+            var _closure2_slot1 = var2;
             var1 = null;
-            if(!(var1 == var4)) { _fun0013_ip = 107; continue _fun0013 }
-case 66:
-            var4 = _closure1_slot0;
+            if(!(var1 != var2)) { _fun0013_ip = 107; continue _fun0013 }
+case 31:
+            var2 = var8.intervalCount;
+            var _closure2_slot2 = var2;
+            if(!(var1 == var6)) { _fun0013_ip = 108; continue _fun0013 }
+case 33:
+            var7 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 13;
-            var1 = var5[var1];
-            var4 = var4.bind(var7)(var1);
-            var1 = var4.match;
-            var8 = var1.bind(var4)(var6);
-            var5 = var8.with;
-            var4 = {};
-            var1 = _closure1_slot14;
-            var1 = var1.MONTH;
-            var4['interval'] = var1;
-            var1 = _closure1_slot13;
-            var1 = var1.TIER_2;
-            var4['premiumSubscriptionType'] = var1;
-            var1 = function() {
+            var4 = 13;
+            var5 = var5[var4];
+            var4 = undefined;
+            var5 = var7.bind(var4)(var5);
+            var4 = var5.match;
+            var9 = var4.bind(var5)(var8);
+            var7 = var9.with;
+            var5 = {};
+            var4 = _closure1_slot14;
+            var4 = var4.MONTH;
+            var5['interval'] = var4;
+            var4 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 12;
@@ -1452,51 +1418,22 @@ case 66:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1["408Xt7"];
+                var2 = var1["2O4lo5"];
                 var1 = {};
-                var5 = _closure2_slot1;
-                var1['timeInterval'] = var5;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var8 = var5.bind(var8)(var4, var1);
-            var5 = var8.with;
-            var4 = {};
-            var1 = _closure1_slot14;
-            var1 = var1.YEAR;
-            var4['interval'] = var1;
-            var1 = _closure1_slot13;
-            var1 = var1.TIER_2;
-            var4['premiumSubscriptionType'] = var1;
-            var1 = function() {
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var1 = 12;
-                var3 = var6[var1];
-                var2 = undefined;
-                var3 = var5.bind(var2)(var3);
-                var4 = var3.intl;
-                var3 = var4.formatToPlainString;
-                var1 = var6[var1];
-                var1 = var5.bind(var2)(var1);
-                var1 = var1.t;
-                var2 = var1["408Xt7"];
-                var1 = {};
+                var6 = _closure2_slot1;
+                var1['skuName'] = var6;
                 var5 = _closure2_slot2;
-                var1['timeInterval'] = var5;
+                var1['intervalCount'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var8 = var5.bind(var8)(var4, var1);
-            var5 = var8.with;
+            var7 = var7.bind(var9)(var5, var4);
+            var5 = var7.with;
             var4 = {};
-            var1 = _closure1_slot14;
-            var1 = var1.MONTH;
-            var4['interval'] = var1;
-            var1 = _closure1_slot13;
-            var1 = var1.TIER_0;
-            var4['premiumSubscriptionType'] = var1;
-            var1 = function() {
+            var2 = _closure1_slot14;
+            var2 = var2.YEAR;
+            var4['interval'] = var2;
+            var2 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 12;
@@ -1508,44 +1445,18 @@ case 66:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1.e9l3JU;
+                var2 = var1["+XjmsR"];
                 var1 = {};
-                var5 = _closure2_slot1;
-                var1['timeInterval'] = var5;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var8 = var5.bind(var8)(var4, var1);
-            var5 = var8.with;
-            var4 = {};
-            var1 = _closure1_slot14;
-            var1 = var1.YEAR;
-            var4['interval'] = var1;
-            var1 = _closure1_slot13;
-            var1 = var1.TIER_0;
-            var4['premiumSubscriptionType'] = var1;
-            var1 = function() {
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var1 = 12;
-                var3 = var6[var1];
-                var2 = undefined;
-                var3 = var5.bind(var2)(var3);
-                var4 = var3.intl;
-                var3 = var4.formatToPlainString;
-                var1 = var6[var1];
-                var1 = var5.bind(var2)(var1);
-                var1 = var1.t;
-                var2 = var1.e9l3JU;
-                var1 = {};
+                var6 = _closure2_slot1;
+                var1['skuName'] = var6;
                 var5 = _closure2_slot2;
-                var1['timeInterval'] = var5;
+                var1['intervalCount'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var5 = var5.bind(var8)(var4, var1);
+            var5 = var5.bind(var7)(var4, var2);
             var4 = var5.otherwise;
-            var1 = function() {
+            var2 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 12;
@@ -1561,25 +1472,23 @@ case 66:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var1 = var4.bind(var5)(var1);
-            _fun0013_ip = 108; continue _fun0013;
-case 107:
-            var5 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var4 = 13;
-            var4 = var8[var4];
-            var5 = var5.bind(var7)(var4);
-            var4 = var5.match;
-            var7 = var4.bind(var5)(var6);
-            var6 = var7.with;
-            var5 = {};
-            var4 = _closure1_slot14;
-            var4 = var4.MONTH;
-            var5['interval'] = var4;
-            var4 = _closure1_slot13;
-            var4 = var4.TIER_2;
-            var5['premiumSubscriptionType'] = var4;
-            var4 = function() {
+            var2 = var4.bind(var5)(var2);
+            _fun0013_ip = 109; continue _fun0013;
+case 108:
+            var9 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 13;
+            var7 = var7[var5];
+            var5 = undefined;
+            var7 = var9.bind(var5)(var7);
+            var5 = var7.match;
+            var9 = var5.bind(var7)(var8);
+            var8 = var9.with;
+            var7 = {};
+            var5 = _closure1_slot14;
+            var5 = var5.MONTH;
+            var7['interval'] = var5;
+            var5 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 12;
@@ -1591,24 +1500,23 @@ case 107:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1["0UR0u4"];
+                var2 = var1["/RDIEA"];
                 var1 = {};
                 var6 = _closure2_slot0;
-                var1['sender'] = var6;
-                var5 = _closure2_slot1;
-                var1['timeInterval'] = var5;
+                var1['username'] = var6;
+                var6 = _closure2_slot1;
+                var1['skuName'] = var6;
+                var5 = _closure2_slot2;
+                var1['intervalCount'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var7 = var6.bind(var7)(var5, var4);
-            var6 = var7.with;
+            var8 = var8.bind(var9)(var7, var5);
+            var7 = var8.with;
             var5 = {};
             var4 = _closure1_slot14;
             var4 = var4.YEAR;
             var5['interval'] = var4;
-            var4 = _closure1_slot13;
-            var4 = var4.TIER_2;
-            var5['premiumSubscriptionType'] = var4;
             var4 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -1621,78 +1529,20 @@ case 107:
                 var1 = var6[var1];
                 var1 = var5.bind(var2)(var1);
                 var1 = var1.t;
-                var2 = var1["0UR0u4"];
+                var2 = var1["3CX6Ev"];
                 var1 = {};
                 var6 = _closure2_slot0;
-                var1['sender'] = var6;
+                var1['username'] = var6;
+                var6 = _closure2_slot1;
+                var1['skuName'] = var6;
                 var5 = _closure2_slot2;
-                var1['timeInterval'] = var5;
+                var1['intervalCount'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var7 = var6.bind(var7)(var5, var4);
-            var6 = var7.with;
-            var5 = {};
-            var4 = _closure1_slot14;
-            var4 = var4.MONTH;
-            var5['interval'] = var4;
-            var4 = _closure1_slot13;
-            var4 = var4.TIER_0;
-            var5['premiumSubscriptionType'] = var4;
-            var4 = function() {
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var1 = 12;
-                var3 = var6[var1];
-                var2 = undefined;
-                var3 = var5.bind(var2)(var3);
-                var4 = var3.intl;
-                var3 = var4.formatToPlainString;
-                var1 = var6[var1];
-                var1 = var5.bind(var2)(var1);
-                var1 = var1.t;
-                var2 = var1.sXpBon;
-                var1 = {};
-                var6 = _closure2_slot0;
-                var1['sender'] = var6;
-                var5 = _closure2_slot1;
-                var1['timeInterval'] = var5;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var6 = var6.bind(var7)(var5, var4);
-            var5 = var6.with;
-            var4 = {};
-            var7 = _closure1_slot14;
-            var7 = var7.YEAR;
-            var4['interval'] = var7;
-            var3 = _closure1_slot13;
-            var3 = var3.TIER_0;
-            var4['premiumSubscriptionType'] = var3;
+            var5 = var7.bind(var8)(var5, var4);
+            var4 = var5.otherwise;
             var3 = function() {
-                var5 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var1 = 12;
-                var3 = var6[var1];
-                var2 = undefined;
-                var3 = var5.bind(var2)(var3);
-                var4 = var3.intl;
-                var3 = var4.formatToPlainString;
-                var1 = var6[var1];
-                var1 = var5.bind(var2)(var1);
-                var1 = var1.t;
-                var2 = var1.sXpBon;
-                var1 = {};
-                var6 = _closure2_slot0;
-                var1['sender'] = var6;
-                var5 = _closure2_slot2;
-                var1['timeInterval'] = var5;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var4 = var5.bind(var6)(var4, var3);
-            var3 = var4.otherwise;
-            var2 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 12;
@@ -1711,8 +1561,43 @@ case 107:
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var1 = var3.bind(var4)(var2);
-case 108:
+            var2 = var4.bind(var5)(var3);
+case 109:
+            return var2;
+case 107:
+            if(!(var1 == var6)) { _fun0013_ip = 110; continue _fun0013 }
+case 111:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var1 = 12;
+            var2 = var7[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var7[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.hrnGng;
+            var1 = var2.bind(var3)(var1);
+            _fun0013_ip = 112; continue _fun0013;
+case 110:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 12;
+            var4 = var8[var2];
+            var3 = undefined;
+            var4 = var7.bind(var3)(var4);
+            var5 = var4.intl;
+            var4 = var5.formatToPlainString;
+            var2 = var8[var2];
+            var2 = var7.bind(var3)(var2);
+            var2 = var2.t;
+            var3 = var2.td2m3W;
+            var2 = {};
+            var2['sender'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+case 112:
             return var1;
         }
     };
@@ -1730,23 +1615,23 @@ case 0:
             var3 = var1.onGoToLibrary;
             var10 = var1.subscriptionPlan;
             var2 = undefined;
-            if(!(var10 === var2)) { _fun0014_ip = 109; continue _fun0014 }
-case 110:
+            if(!(var10 === var2)) { _fun0014_ip = 113; continue _fun0014 }
+case 114:
             var10 = null;
-case 109:
+case 113:
             var8 = _closure1_slot10;
             var8 = var8.ERROR;
-            if(!(var8 !== var9)) { _fun0014_ip = 111; continue _fun0014 }
+            if(!(var8 !== var9)) { _fun0014_ip = 115; continue _fun0014 }
 case 64:
             var8 = _closure1_slot10;
             var8 = var8.SUCCESS;
             if(!(var8 !== var9)) { _fun0014_ip = 24; continue _fun0014 }
-case 112:
+case 116:
             var8 = _closure1_slot10;
             var8 = var8.CONFIRM;
             var8 = null;
-            if(!(var8 == var10)) { _fun0014_ip = 113; continue _fun0014 }
-case 114:
+            if(!(var8 == var10)) { _fun0014_ip = 117; continue _fun0014 }
+case 118:
             var9 = _closure1_slot0;
             var14 = _closure1_slot2;
             var8 = 12;
@@ -1763,12 +1648,12 @@ case 114:
             var8['skuName'] = var14;
             var8 = var11.bind(var12)(var9, var8);
             return var8;
-case 113:
+case 117:
             var9 = var10.interval;
             var8 = _closure1_slot14;
             var8 = var8.MONTH;
-            if(!(var9 !== var8)) { _fun0014_ip = 115; continue _fun0014 }
-case 116:
+            if(!(var9 !== var8)) { _fun0014_ip = 119; continue _fun0014 }
+case 120:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 12;
@@ -1776,8 +1661,8 @@ case 116:
             var8 = var9.bind(var2)(var8);
             var8 = var8.t;
             var12 = var8.d8rUdy;
-            _fun0014_ip = 117; continue _fun0014;
-case 115:
+            _fun0014_ip = 121; continue _fun0014;
+case 119:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 12;
@@ -1785,7 +1670,7 @@ case 115:
             var8 = var9.bind(var2)(var8);
             var8 = var8.t;
             var12 = var8.P9eTKt;
-case 117:
+case 121:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 12;
@@ -1802,8 +1687,8 @@ case 117:
             return var8;
 case 24:
             var8 = null;
-            if(!(var8 == var10)) { _fun0014_ip = 118; continue _fun0014 }
-case 119:
+            if(!(var8 == var10)) { _fun0014_ip = 122; continue _fun0014 }
+case 123:
             var9 = _closure1_slot0;
             var14 = _closure1_slot2;
             var8 = 12;
@@ -1819,13 +1704,13 @@ case 119:
             var13 = var13.name;
             var8['skuName'] = var13;
             var8 = var11.bind(var12)(var9, var8);
-            _fun0014_ip = 120; continue _fun0014;
-case 118:
+            _fun0014_ip = 124; continue _fun0014;
+case 122:
             var9 = _closure1_slot21;
             var8 = var9.bind(var2)(var10);
-case 120:
+case 124:
             return var8;
-case 111:
+case 115:
             var1 = _closure1_slot22;
             var20 = undefined;
             var19 = var7;
@@ -1879,10 +1764,10 @@ case 54:
             var5 = var2.length;
             var4 = var1.length;
             var1 = null;
-            if(!(var5 === var4)) { _fun0015_ip = 121; continue _fun0015 }
+            if(!(var5 === var4)) { _fun0015_ip = 125; continue _fun0015 }
 case 63:
             var1 = var2[var3];
-case 121:
+case 125:
             return var1;
         }
     };
@@ -1902,8 +1787,8 @@ case 0:
             var1 = _closure1_slot16;
             var5 = var3.bind(var4)(var1);
             var1 = null;
-            if(!(var1 != var5)) { _fun0016_ip = 122; continue _fun0016 }
-case 123:
+            if(!(var1 != var5)) { _fun0016_ip = 126; continue _fun0016 }
+case 127:
             var4 = _closure1_slot4;
             var3 = undefined;
             var2 = 3;
@@ -1917,7 +1802,7 @@ case 123:
             var3 = var1 == var6;
             var2 = null;
             if(var3) { _fun0016_ip = 100; continue _fun0016 }
-case 124:
+case 128:
             var5 = var6.replace;
             var3 = global;
             var8 = var3.RegExp;
@@ -1932,7 +1817,7 @@ case 124:
             var2 = var5.bind(var6)(var4, var3);
 case 100:
             return var2;
-case 122:
+case 126:
             return var1;
         }
     };
@@ -1961,21 +1846,21 @@ case 0:
 case 68:
                 var3 = _closure2_slot1;
                 if(!var3) { _fun0017_ip = 60; continue _fun0017 }
-case 125:
+case 129:
                 var4 = _closure1_slot5;
                 var3 = var4.getGiftCode;
                 var2 = _closure2_slot0;
                 var3 = var3.bind(var4)(var2);
                 var4 = var1 == var3;
                 var2 = null;
-                if(var4) { _fun0017_ip = 126; continue _fun0017 }
-case 127:
+                if(var4) { _fun0017_ip = 130; continue _fun0017 }
+case 131:
                 var4 = '';
                 var2 = null;
-                if(!(var4 !== var3)) { _fun0017_ip = 126; continue _fun0017 }
+                if(!(var4 !== var3)) { _fun0017_ip = 130; continue _fun0017 }
 case 62:
                 var2 = var3;
-case 126:
+case 130:
                 return var2;
 case 60:
                 return var1;
@@ -2012,7 +1897,7 @@ case 0:
             var2['has_custom_message'] = var10;
             var10 = var9.giftStyle;
             var10 = var13 != var10;
-            if(!var10) { _fun0018_ip = 128; continue _fun0018 }
+            if(!var10) { _fun0018_ip = 132; continue _fun0018 }
 case 63:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -2027,7 +1912,7 @@ case 63:
             var11 = var11.ZkOo1U;
             var11 = var13.bind(var14)(var11);
             var10 = var12 !== var11;
-case 128:
+case 132:
             var2['is_custom_message_edited'] = var10;
             var10 = var9.giftStyle;
             var2['gift_style'] = var10;

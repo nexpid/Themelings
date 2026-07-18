@@ -353,6 +353,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11['PRESS_APPLICATION_WIDGET_PREVIEW'] = var5;
     var5 = 'PRESS_SHOW_MORE_WIDGETS';
     var11['PRESS_SHOW_MORE_WIDGETS'] = var5;
+    var5 = 'VIEW_AVATAR';
+    var11['VIEW_AVATAR'] = var5;
     var5 = 'COPY_AVATAR_IMAGE_LINK';
     var11['COPY_AVATAR_IMAGE_LINK'] = var5;
     var5 = 'COPY_BANNER_IMAGE_LINK';

@@ -1763,7 +1763,7 @@ case 64:
                 var4 = var8[var4];
                 var4 = var6.bind(var7)(var4);
                 var4 = var4.space;
-                var4 = var4.PX_24;
+                var4 = var4.PX_32;
                 var4 = var5 + var4;
                 var2['top'] = var4;
                 var4 = var3.left;

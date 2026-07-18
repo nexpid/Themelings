@@ -347,24 +347,33 @@ case 17:
                     };
                     var2['handleUploadGIFAvatarSelect'] = var7;
                     var6 = function handleEditAvatarDecorationSelect() {
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 21;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var4 = var3.bind(var1)(var2);
-                        var3 = var4.openAvatarDecorationActionSheet;
-                        var2 = {};
-                        var6 = _closure2_slot1;
-                        var2['user'] = var6;
-                        var6 = _closure2_slot0;
-                        var2['guildId'] = var6;
-                        var6 = _closure2_slot9;
-                        var2['currentAvatarDecoration'] = var6;
-                        var5 = _closure2_slot3;
-                        var2['analyticsLocations'] = var5;
-                        var2 = var3.bind(var4)(var2);
-                        return var1;
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+case 0:
+                            var2 = _closure2_slot1;
+                            var1 = null;
+                            if(!(var1 != var2)) { _fun0004_ip = 19; continue _fun0004 }
+case 20:
+                            var3 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var1 = 21;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var3 = var3.bind(var1)(var2);
+                            var2 = var3.openAvatarDecorationActionSheet;
+                            var1 = {};
+                            var5 = _closure2_slot1;
+                            var1['user'] = var5;
+                            var5 = _closure2_slot0;
+                            var1['guildId'] = var5;
+                            var5 = _closure2_slot9;
+                            var1['currentAvatarDecoration'] = var5;
+                            var4 = _closure2_slot3;
+                            var1['analyticsLocations'] = var4;
+                            var1 = var2.bind(var3)(var1);
+case 19:
+                            var1 = undefined;
+                            return var1;
+                        }
                     };
                     var2['handleEditAvatarDecorationSelect'] = var6;
                     var6 = _closure2_slot7;
@@ -381,8 +390,8 @@ case 15:
             var6 = var3.bind(var4)(var1, var2);
             var2 = var16 == var20;
             var1 = null;
-            if(var2) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(var2) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var4 = _closure1_slot11;
             var22 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -416,16 +425,16 @@ case 20:
             var6['user'] = var20;
             var18 = var16 === var18;
             var16 = undefined;
-            if(var18) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
-            var16 = var19;
-case 21:
-            var6['guildId'] = var16;
-            var16 = undefined;
             if(var18) { _fun0001_ip = 23; continue _fun0001 }
 case 24:
-            var16 = var17;
+            var16 = var19;
 case 23:
+            var6['guildId'] = var16;
+            var16 = undefined;
+            if(var18) { _fun0001_ip = 25; continue _fun0001 }
+case 26:
+            var16 = var17;
+case 25:
             var6['pendingAvatarSrc'] = var16;
             var6['pendingAvatarDecoration'] = var15;
             var6['statusStyle'] = var14;
@@ -435,8 +444,8 @@ case 23:
             var6 = new Array(2);
             var6[0] = var9;
             var7 = !var7;
-            if(!var7) { _fun0001_ip = 25; continue _fun0001 }
-case 26:
+            if(!var7) { _fun0001_ip = 27; continue _fun0001 }
+case 28:
             var10 = _closure1_slot10;
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -447,11 +456,11 @@ case 26:
             var11 = var11.editAvatarIcon;
             var8['style'] = var11;
             var7 = var10.bind(var5)(var9, var8);
-case 25:
+case 27:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 19:
+case 21:
             return var1;
         }
     };

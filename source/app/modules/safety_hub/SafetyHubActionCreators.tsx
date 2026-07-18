@@ -32,46 +32,52 @@ case 3:
                     var5 = var6.bind(var7)(var5);
                     var6 = _closure1_slot4;
                     var5 = var6.getSuspendedUserToken;
-                    var9 = var5.bind(var6)();
+                    var12 = var5.bind(var6)();
                     var5 = null;
-                    if(!(var5 == var9)) { _fun0001_ip = 4; continue _fun0001 }
+                    if(!(var5 == var12)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
                     var6 = _closure1_slot8;
-                    var8 = var6.SAFETY_HUB;
+                    var11 = var6.SAFETY_HUB;
                     _fun0001_ip = 6; continue _fun0001;
 case 4:
                     var6 = _closure1_slot8;
-                    var8 = var6.SAFETY_HUB_SUSPENDED;
+                    var11 = var6.SAFETY_HUB_SUSPENDED;
 case 6:
-                    if(!(var5 == var9)) { _fun0001_ip = 7; continue _fun0001 }
+                    if(!(var5 == var12)) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var5 = 6;
-                    var5 = var7[var5];
-                    var5 = var6.bind(var3)(var5);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 6;
+                    var5 = var10[var8];
+                    var5 = var9.bind(var3)(var5);
                     var7 = var5.HTTP;
                     var6 = var7.get;
                     var5 = {};
-                    var5['url'] = var8;
-                    var10 = false;
-                    var5['rejectWithError'] = var10;
+                    var5['url'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
+                    var5['rejectWithError'] = var8;
                     var6 = var6.bind(var7)(var5);
                     _fun0001_ip = 9; continue _fun0001;
 case 7:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var4 = 6;
-                    var4 = var7[var4];
-                    var4 = var5.bind(var3)(var4);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 6;
+                    var4 = var10[var8];
+                    var4 = var9.bind(var3)(var4);
                     var7 = var4.HTTP;
                     var5 = var7.post;
                     var4 = {};
-                    var4['url'] = var8;
-                    var8 = {};
-                    var8['token'] = var9;
-                    var4['body'] = var8;
-                    var8 = false;
+                    var4['url'] = var11;
+                    var11 = {};
+                    var11['token'] = var12;
+                    var4['body'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var4['rejectWithError'] = var8;
                     var6 = var5.bind(var7)(var4);
 case 9:
@@ -168,7 +174,7 @@ case 4:
                         }
                     };
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=252);
+                    SaveGenerator(address=286);
 case 18:
                     return var2;
 case 19:
@@ -222,46 +228,52 @@ case 23:
                     var5 = var6.bind(var7)(var5);
                     var6 = _closure1_slot4;
                     var5 = var6.getSuspendedUserToken;
-                    var9 = var5.bind(var6)();
+                    var12 = var5.bind(var6)();
                     var5 = null;
-                    if(!(var5 == var9)) { _fun0004_ip = 24; continue _fun0004 }
+                    if(!(var5 == var12)) { _fun0004_ip = 24; continue _fun0004 }
 case 4:
                     var6 = _closure1_slot8;
-                    var8 = var6.SAFETY_HUB;
+                    var11 = var6.SAFETY_HUB;
                     _fun0004_ip = 25; continue _fun0004;
 case 24:
                     var6 = _closure1_slot8;
-                    var8 = var6.SAFETY_HUB_SUSPENDED;
+                    var11 = var6.SAFETY_HUB_SUSPENDED;
 case 25:
-                    if(!(var5 == var9)) { _fun0004_ip = 26; continue _fun0004 }
+                    if(!(var5 == var12)) { _fun0004_ip = 26; continue _fun0004 }
 case 27:
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var5 = 6;
-                    var5 = var7[var5];
-                    var5 = var6.bind(var3)(var5);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 6;
+                    var5 = var10[var8];
+                    var5 = var9.bind(var3)(var5);
                     var7 = var5.HTTP;
                     var6 = var7.get;
                     var5 = {};
-                    var5['url'] = var8;
-                    var10 = false;
-                    var5['rejectWithError'] = var10;
+                    var5['url'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
+                    var5['rejectWithError'] = var8;
                     var6 = var6.bind(var7)(var5);
                     _fun0004_ip = 28; continue _fun0004;
 case 26:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var4 = 6;
-                    var4 = var7[var4];
-                    var4 = var5.bind(var3)(var4);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 6;
+                    var4 = var10[var8];
+                    var4 = var9.bind(var3)(var4);
                     var7 = var4.HTTP;
                     var5 = var7.post;
                     var4 = {};
-                    var4['url'] = var8;
-                    var8 = {};
-                    var8['token'] = var9;
-                    var4['body'] = var8;
-                    var8 = false;
+                    var4['url'] = var11;
+                    var11 = {};
+                    var11['token'] = var12;
+                    var4['body'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var3)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var4['rejectWithError'] = var8;
                     var6 = var5.bind(var7)(var4);
 case 28:
@@ -366,7 +378,7 @@ case 4:
                         }
                     };
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=264);
+                    SaveGenerator(address=298);
 case 32:
                     return var2;
 case 2:
@@ -469,64 +481,70 @@ case 35:
 case 0:
                     StartGenerator();
                     var7 = arg1;
-                    var11 = arg2;
-                    var10 = arg3;
+                    var15 = arg2;
+                    var14 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0009_ip = 41; continue _fun0009 }
 case 42:
                     var _closure4_slot0 = var7;
                     var5 = _closure1_slot4;
                     var4 = var5.getSuspendedUserToken;
-                    var9 = var4.bind(var5)();
+                    var13 = var4.bind(var5)();
                     var4 = null;
-                    if(!(var4 == var9)) { _fun0009_ip = 43; continue _fun0009 }
+                    if(!(var4 == var13)) { _fun0009_ip = 43; continue _fun0009 }
 case 38:
                     var6 = _closure1_slot8;
                     var5 = var6.SAFETY_HUB_REQUEST_REVIEW;
-                    var8 = var5.bind(var6)(var7);
+                    var12 = var5.bind(var6)(var7);
                     _fun0009_ip = 44; continue _fun0009;
 case 43:
                     var6 = _closure1_slot8;
                     var5 = var6.SAFETY_HUB_REQUEST_SUSPENDED_USER_REVIEW;
-                    var8 = var5.bind(var6)(var7);
+                    var12 = var5.bind(var6)(var7);
 case 44:
-                    if(!(var4 == var9)) { _fun0009_ip = 45; continue _fun0009 }
+                    if(!(var4 == var13)) { _fun0009_ip = 45; continue _fun0009 }
 case 46:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var4 = 6;
-                    var5 = var5[var4];
-                    var4 = undefined;
-                    var4 = var6.bind(var4)(var5);
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var7 = 6;
+                    var4 = var10[var7];
+                    var8 = undefined;
+                    var4 = var9.bind(var8)(var4);
                     var6 = var4.HTTP;
                     var5 = var6.put;
                     var4 = {};
-                    var4['url'] = var8;
-                    var7 = {};
-                    var7['signal'] = var11;
-                    var7['user_input'] = var10;
-                    var4['body'] = var7;
-                    var7 = false;
+                    var4['url'] = var12;
+                    var11 = {};
+                    var11['signal'] = var15;
+                    var11['user_input'] = var14;
+                    var4['body'] = var11;
+                    var7 = var10[var7];
+                    var8 = var9.bind(var8)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var4['rejectWithError'] = var7;
                     var6 = var5.bind(var6)(var4);
                     _fun0009_ip = 47; continue _fun0009;
 case 45:
-                    var7 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var4 = 6;
-                    var5 = var5[var4];
-                    var4 = undefined;
-                    var4 = var7.bind(var4)(var5);
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var8 = 6;
+                    var4 = var11[var8];
+                    var9 = undefined;
+                    var4 = var10.bind(var9)(var4);
                     var7 = var4.HTTP;
                     var5 = var7.put;
                     var4 = {};
-                    var4['url'] = var8;
-                    var8 = {};
-                    var8['signal'] = var11;
-                    var8['user_input'] = var10;
-                    var8['token'] = var9;
-                    var4['body'] = var8;
-                    var8 = false;
+                    var4['url'] = var12;
+                    var12 = {};
+                    var12['signal'] = var15;
+                    var12['user_input'] = var14;
+                    var12['token'] = var13;
+                    var4['body'] = var12;
+                    var8 = var11[var8];
+                    var9 = var10.bind(var9)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var4['rejectWithError'] = var8;
                     var6 = var5.bind(var7)(var4);
 case 47:
@@ -598,7 +616,7 @@ case 4:
                         }
                     };
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=306);
+                    SaveGenerator(address=340);
 case 48:
                     return var2;
 case 49:
@@ -636,36 +654,39 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0011_ip = 52; continue _fun0011 }
 case 3:
-                    var7 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var6 = _closure1_slot1;
+                    var9 = _closure1_slot2;
                     var3 = 5;
-                    var5 = var6[var3];
+                    var5 = var9[var3];
                     var3 = undefined;
-                    var8 = var7.bind(var3)(var5);
-                    var7 = var8.dispatch;
+                    var7 = var6.bind(var3)(var5);
+                    var6 = var7.dispatch;
                     var5 = {};
-                    var9 = 'SAFETY_HUB_REQUEST_AUTOMATED_UNDERAGE_APPEAL_START';
-                    var5['type'] = var9;
-                    var5 = var7.bind(var8)(var5);
-                    var7 = _closure1_slot4;
-                    var5 = var7.getSuspendedUserToken;
-                    var8 = var5.bind(var7)();
+                    var8 = 'SAFETY_HUB_REQUEST_AUTOMATED_UNDERAGE_APPEAL_START';
+                    var5['type'] = var8;
+                    var5 = var6.bind(var7)(var5);
+                    var6 = _closure1_slot4;
+                    var5 = var6.getSuspendedUserToken;
+                    var11 = var5.bind(var6)();
                     var5 = _closure1_slot8;
-                    var7 = var5.SAFETY_HUB_REQUEST_SUSPENDED_AGE_VERIFICATION;
-                    var5 = _closure1_slot0;
-                    var4 = 6;
-                    var4 = var6[var4];
-                    var4 = var5.bind(var3)(var4);
+                    var10 = var5.SAFETY_HUB_REQUEST_SUSPENDED_AGE_VERIFICATION;
+                    var8 = _closure1_slot0;
+                    var7 = 6;
+                    var4 = var9[var7];
+                    var4 = var8.bind(var3)(var4);
                     var6 = var4.HTTP;
                     var5 = var6.post;
                     var4 = {};
-                    var4['url'] = var7;
-                    var7 = {};
-                    var7['token'] = var8;
-                    var8 = arg1;
-                    var7['from_classification_id'] = var8;
-                    var4['body'] = var7;
-                    var7 = false;
+                    var4['url'] = var10;
+                    var10 = {};
+                    var10['token'] = var11;
+                    var11 = arg1;
+                    var10['from_classification_id'] = var11;
+                    var4['body'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var3)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var4['rejectWithError'] = var7;
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.then;
@@ -729,13 +750,13 @@ case 4:
                         }
                     };
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=185);
+                    SaveGenerator(address=202);
 case 53:
                     return var2;
 case 54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     if(var4) { _fun0011_ip = 55; continue _fun0011 }
-case 56:
+case 31:
                     return var3;
 case 55:
                     return var2;
@@ -776,41 +797,44 @@ case 52:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0013_ip = 9; continue _fun0013 }
+                    if(var3) { _fun0013_ip = 56; continue _fun0013 }
 case 3:
                     var3 = undefined;
                     var _closure4_slot0 = var3;
-                    var7 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var6 = _closure1_slot1;
+                    var9 = _closure1_slot2;
                     var5 = 5;
-                    var5 = var6[var5];
-                    var8 = var7.bind(var3)(var5);
-                    var7 = var8.dispatch;
+                    var5 = var9[var5];
+                    var7 = var6.bind(var3)(var5);
+                    var6 = var7.dispatch;
                     var5 = {};
-                    var9 = 'SAFETY_HUB_CHECK_AUTOMATED_UNDERAGE_APPEAL_START';
-                    var5['type'] = var9;
-                    var5 = var7.bind(var8)(var5);
-                    var7 = _closure1_slot4;
-                    var5 = var7.getSuspendedUserToken;
-                    var8 = var5.bind(var7)();
-                    var7 = _closure1_slot5;
-                    var5 = var7.getAgeCheckAttempts;
-                    var5 = var5.bind(var7)();
+                    var8 = 'SAFETY_HUB_CHECK_AUTOMATED_UNDERAGE_APPEAL_START';
+                    var5['type'] = var8;
+                    var5 = var6.bind(var7)(var5);
+                    var6 = _closure1_slot4;
+                    var5 = var6.getSuspendedUserToken;
+                    var11 = var5.bind(var6)();
+                    var6 = _closure1_slot5;
+                    var5 = var6.getAgeCheckAttempts;
+                    var5 = var5.bind(var6)();
                     _closure4_slot0 = var5;
                     var5 = _closure1_slot8;
-                    var7 = var5.SAFETY_HUB_CHECK_SUSPENDED_AGE_VERIFICATION;
-                    var5 = _closure1_slot0;
-                    var4 = 6;
-                    var4 = var6[var4];
-                    var4 = var5.bind(var3)(var4);
+                    var10 = var5.SAFETY_HUB_CHECK_SUSPENDED_AGE_VERIFICATION;
+                    var8 = _closure1_slot0;
+                    var7 = 6;
+                    var4 = var9[var7];
+                    var4 = var8.bind(var3)(var4);
                     var6 = var4.HTTP;
                     var5 = var6.post;
                     var4 = {};
-                    var4['url'] = var7;
-                    var7 = {};
-                    var7['token'] = var8;
-                    var4['body'] = var7;
-                    var7 = false;
+                    var4['url'] = var10;
+                    var10 = {};
+                    var10['token'] = var11;
+                    var4['body'] = var10;
+                    var7 = var9[var7];
+                    var8 = var8.bind(var3)(var7);
+                    var7 = var8.rejectWithMigratedError;
+                    var7 = var7.bind(var8)();
                     var4['rejectWithError'] = var7;
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.then;
@@ -896,7 +920,7 @@ case 4:
                         }
                     };
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=201);
+                    SaveGenerator(address=218);
 case 61:
                     return var2;
 case 62:
@@ -906,7 +930,7 @@ case 64:
                     return var3;
 case 63:
                     return var2;
-case 9:
+case 56:
                     return var1;
                 }
             };

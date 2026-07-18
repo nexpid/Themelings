@@ -270,18 +270,18 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(var3) { _fun0006_ip = 41; continue _fun0006 }
 case 42:
-                    var13 = var2.componentType;
+                    var9 = var2.componentType;
                     var14 = var2.messageId;
                     var15 = var2.messageFlags;
-                    var11 = var2.customId;
-                    var9 = var2.componentId;
+                    var7 = var2.customId;
+                    var12 = var2.componentId;
                     var6 = var2.applicationId;
                     var _closure4_slot0 = var6;
                     var16 = var2.channelId;
                     var _closure4_slot1 = var16;
                     var17 = var2.guildId;
                     var _closure4_slot2 = var17;
-                    var12 = var2.localState;
+                    var8 = var2.localState;
                     var5 = undefined;
                     var _closure4_slot3 = var5;
                     SaveGenerator(address=87);
@@ -291,45 +291,45 @@ case 36:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0006_ip = 44; continue _fun0006 }
 case 11:
-                    var7 = _closure1_slot1;
-                    var8 = _closure1_slot2;
+                    var10 = _closure1_slot1;
+                    var11 = _closure1_slot2;
                     var3 = 4;
-                    var3 = var8[var3];
-                    var8 = var7.bind(var5)(var3);
-                    var7 = var8.fromTimestamp;
+                    var3 = var11[var3];
+                    var11 = var10.bind(var5)(var3);
+                    var10 = var11.fromTimestamp;
                     var3 = global;
                     var18 = var3.Date;
                     var3 = var18.now;
                     var3 = var3.bind(var18)();
-                    var18 = var7.bind(var8)(var3);
+                    var18 = var10.bind(var11)(var3);
                     _closure4_slot3 = var18;
-                    var7 = _closure1_slot5;
-                    var3 = var7.canQueueInteraction;
-                    var3 = var3.bind(var7)(var14, var18);
+                    var10 = _closure1_slot5;
+                    var3 = var10.canQueueInteraction;
+                    var3 = var3.bind(var10)(var14, var18);
                     if(!var3) { _fun0006_ip = 45; continue _fun0006 }
 case 46:
-                    var7 = _closure1_slot1;
-                    var8 = _closure1_slot2;
+                    var10 = _closure1_slot1;
+                    var11 = _closure1_slot2;
                     var3 = 5;
-                    var3 = var8[var3];
-                    var7 = var7.bind(var5)(var3);
-                    var3 = var7.unarchiveThreadIfNecessary;
-                    var3 = var3.bind(var7)(var16);
+                    var3 = var11[var3];
+                    var10 = var10.bind(var5)(var3);
+                    var3 = var10.unarchiveThreadIfNecessary;
+                    var3 = var3.bind(var10)(var16);
                     SaveGenerator(address=210);
 case 47:
                     return var3;
 case 48:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0006_ip = 49; continue _fun0006 }
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
+                    if(var10) { _fun0006_ip = 49; continue _fun0006 }
 case 50:
                     var24 = _closure1_slot0;
                     var23 = _closure1_slot2;
                     var20 = 6;
-                    var7 = var23[var20];
-                    var21 = var24.bind(var5)(var7);
-                    var8 = var21.addQueued;
-                    var7 = {};
-                    var7['messageId'] = var14;
+                    var10 = var23[var20];
+                    var21 = var24.bind(var5)(var10);
+                    var11 = var21.addQueued;
+                    var10 = {};
+                    var10['messageId'] = var14;
                     var22 = {};
                     var19 = 7;
                     var23 = var23[var19];
@@ -338,9 +338,9 @@ case 50:
                     var23 = var23.MESSAGE_COMPONENT;
                     var22['interactionType'] = var23;
                     var22['applicationId'] = var6;
-                    var22['customId'] = var11;
-                    var22['componentId'] = var9;
-                    var7['data'] = var22;
+                    var22['customId'] = var7;
+                    var22['componentId'] = var12;
+                    var10['data'] = var22;
                     var22 = function onFailure(arg1, arg2) {
                         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -368,62 +368,65 @@ case 53:
                             return var1;
                         }
                     };
-                    var7['onFailure'] = var22;
-                    var7 = var8.bind(var21)(var18, var7);
-                    var7 = null;
-                    if(!(var7 != var12)) { _fun0006_ip = 55; continue _fun0006 }
+                    var10['onFailure'] = var22;
+                    var10 = var11.bind(var21)(var18, var10);
+                    var10 = null;
+                    if(!(var10 != var8)) { _fun0006_ip = 55; continue _fun0006 }
 case 56:
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var7 = var7[var20];
-                    var8 = var8.bind(var5)(var7);
-                    var7 = var8.queueInteractionComponentState;
-                    var29 = var8;
+                    var11 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var10 = var10[var20];
+                    var11 = var11.bind(var5)(var10);
+                    var10 = var11.queueInteractionComponentState;
+                    var29 = var11;
                     var28 = var14;
                     var27 = var18;
-                    var26 = var12;
-                    var25 = var9;
-                    var7 = var29[var7](var28, var27, var26, var25, var24);
+                    var26 = var8;
+                    var25 = var12;
+                    var10 = var29[var10](var28, var27, var26, var25, var24);
 case 55:
-                    var9 = {};
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var19 = var8[var19];
-                    var19 = var7.bind(var5)(var19);
+                    var12 = {};
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var19 = var11[var19];
+                    var19 = var10.bind(var5)(var19);
                     var19 = var19.InteractionTypes;
                     var19 = var19.MESSAGE_COMPONENT;
-                    var9['type'] = var19;
-                    var9['nonce'] = var18;
-                    var9['guild_id'] = var17;
-                    var9['channel_id'] = var16;
-                    var9['message_flags'] = var15;
-                    var9['message_id'] = var14;
-                    var9['application_id'] = var6;
+                    var12['type'] = var19;
+                    var12['nonce'] = var18;
+                    var12['guild_id'] = var17;
+                    var12['channel_id'] = var16;
+                    var12['message_flags'] = var15;
+                    var12['message_id'] = var14;
+                    var12['application_id'] = var6;
                     var14 = _closure1_slot4;
                     var6 = var14.getSessionId;
                     var6 = var6.bind(var14)();
-                    var9['session_id'] = var6;
+                    var12['session_id'] = var6;
                     var6 = {};
-                    var6['component_type'] = var13;
-                    var6['custom_id'] = var11;
-                    var11 = _closure1_slot16;
-                    var27 = var11.bind(var5)(var12);
+                    var6['component_type'] = var9;
+                    var6['custom_id'] = var7;
+                    var7 = _closure1_slot16;
+                    var27 = var7.bind(var5)(var8);
                     var28 = var6;
-                    var11 = copyDataProperties(var28, var27);
-                    var9['data'] = var6;
-                    var6 = 8;
-                    var6 = var8[var6];
-                    var6 = var7.bind(var5)(var6);
+                    var7 = copyDataProperties(var28, var27);
+                    var12['data'] = var6;
+                    var9 = 8;
+                    var6 = var11[var9];
+                    var6 = var10.bind(var5)(var6);
                     var8 = var6.HTTP;
                     var7 = var8.post;
                     var6 = {};
-                    var10 = _closure1_slot6;
-                    var10 = var10.INTERACTIONS;
-                    var6['url'] = var10;
-                    var6['body'] = var9;
-                    var9 = 3000;
-                    var6['timeout'] = var9;
-                    var9 = false;
+                    var13 = _closure1_slot6;
+                    var13 = var13.INTERACTIONS;
+                    var6['url'] = var13;
+                    var6['body'] = var12;
+                    var12 = 3000;
+                    var6['timeout'] = var12;
+                    var9 = var11[var9];
+                    var10 = var10.bind(var5)(var9);
+                    var9 = var10.rejectWithMigratedError;
+                    var9 = var9.bind(var10)();
                     var6['rejectWithError'] = var9;
                     var4 = function(arg1) {
                         var7 = _closure1_slot17;
@@ -438,7 +441,7 @@ case 55:
                         return var1;
                     };
                     var4 = var7.bind(var8)(var6, var4);
-                    SaveGenerator(address=555);
+                    SaveGenerator(address=572);
 case 57:
                     return var4;
 case 58:

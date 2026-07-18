@@ -416,12 +416,15 @@ case 30:
             var14 = function onPress(arg1) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var2 = arg1;
-                    var1 = var2.stopPropagation;
-                    var1 = var1.bind(var2)();
-                    var3 = _closure2_slot4;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 32; continue _fun0006 }
+                    var4 = arg1;
+                    var2 = _closure2_slot3;
+                    var3 = null;
+                    if(!(var3 != var2)) { _fun0006_ip = 32; continue _fun0006 }
+case 13:
+                    var2 = var4.stopPropagation;
+                    var2 = var2.bind(var4)();
+                    var2 = _closure2_slot4;
+                    if(!(var3 != var2)) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;

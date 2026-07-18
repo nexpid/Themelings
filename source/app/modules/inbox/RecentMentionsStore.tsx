@@ -1,4 +1,4 @@
-// app/modules/recents/RecentMentionsStore.tsx
+// app/modules/inbox/RecentMentionsStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
     var9 = metroImportDefault;
@@ -1423,7 +1423,7 @@ case 92:
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
-    var6 = 'modules/recents/RecentMentionsStore.tsx';
+    var6 = 'modules/inbox/RecentMentionsStore.tsx';
     var6 = var7.bind(var8)(var6);
     var3['default'] = var5;
     var3['hasMentionNotificationEnabled'] = var4;

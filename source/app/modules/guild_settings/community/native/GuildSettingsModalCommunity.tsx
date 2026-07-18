@@ -984,96 +984,101 @@ case 47:
             var17 = function() {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                    var1 = _closure2_slot5;
-                    var1 = var1.preferredLocale;
-                    var _closure3_slot0 = var1;
-                    var3 = _closure1_slot11;
-                    var4 = undefined;
-                    var5 = var3.bind(var4)();
-                    var3 = var5.find;
-                    var2 = function(arg1) {
+                    var2 = _closure2_slot5;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0012_ip = 49; continue _fun0012 }
+case 3:
+                    var2 = _closure2_slot5;
+                    var2 = var2.preferredLocale;
+                    var _closure3_slot0 = var2;
+                    var4 = _closure1_slot11;
+                    var5 = undefined;
+                    var6 = var4.bind(var5)();
+                    var4 = var6.find;
+                    var3 = function(arg1) {
                         var1 = arg1;
                         var2 = var1.value;
                         var1 = _closure3_slot0;
                         var1 = var2 === var1;
                         return var1;
                     };
-                    var2 = var3.bind(var5)(var2);
-                    var10 = null;
-                    var3 = var10 == var2;
-                    var11 = undefined;
-                    if(var3) { _fun0012_ip = 21; continue _fun0012 }
-case 49:
-                    var11 = var2.label;
-case 21:
-                    var3 = _closure1_slot16;
-                    var9 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var1 = 25;
-                    var1 = var12[var1];
-                    var1 = var9.bind(var4)(var1);
-                    var2 = var1.TableRowGroup;
-                    var1 = {};
+                    var3 = var4.bind(var6)(var3);
+                    var4 = var1 == var3;
+                    var12 = undefined;
+                    if(var4) { _fun0012_ip = 50; continue _fun0012 }
+case 51:
+                    var12 = var3.label;
+case 50:
+                    var4 = _closure1_slot16;
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var2 = 25;
+                    var2 = var11[var2];
+                    var2 = var10.bind(var5)(var2);
+                    var3 = var2.TableRowGroup;
+                    var2 = {};
                     var13 = 16;
-                    var5 = var12[var13];
-                    var5 = var9.bind(var4)(var5);
-                    var8 = var5.intl;
-                    var6 = var8.string;
-                    var5 = var12[var13];
-                    var5 = var9.bind(var4)(var5);
-                    var5 = var5.t;
-                    var5 = var5.l2g81/;
-                    var5 = var6.bind(var8)(var5);
-                    var1['helperText'] = var5;
-                    var5 = false;
-                    var1['hasIcons'] = var5;
-                    var8 = 26;
-                    var5 = var12[var8];
-                    var5 = var9.bind(var4)(var5);
-                    var6 = var5.TableRow;
-                    var5 = {};
-                    var14 = var12[var13];
-                    var14 = var9.bind(var4)(var14);
+                    var6 = var11[var13];
+                    var6 = var10.bind(var5)(var6);
+                    var9 = var6.intl;
+                    var7 = var9.string;
+                    var6 = var11[var13];
+                    var6 = var10.bind(var5)(var6);
+                    var6 = var6.t;
+                    var6 = var6.l2g81/;
+                    var6 = var7.bind(var9)(var6);
+                    var2['helperText'] = var6;
+                    var6 = false;
+                    var2['hasIcons'] = var6;
+                    var9 = 26;
+                    var6 = var11[var9];
+                    var6 = var10.bind(var5)(var6);
+                    var7 = var6.TableRow;
+                    var6 = {};
+                    var14 = var11[var13];
+                    var14 = var10.bind(var5)(var14);
                     var15 = var14.intl;
                     var14 = var15.string;
-                    var13 = var12[var13];
-                    var13 = var9.bind(var4)(var13);
+                    var13 = var11[var13];
+                    var13 = var10.bind(var5)(var13);
                     var13 = var13.t;
                     var13 = var13.VeC8vc;
                     var13 = var14.bind(var15)(var13);
-                    var5['label'] = var13;
+                    var6['label'] = var13;
                     var13 = _closure2_slot6;
                     var13 = !var13;
-                    var5['disabled'] = var13;
-                    var8 = var12[var8];
-                    var8 = var9.bind(var4)(var8);
-                    var8 = var8.TableRow;
-                    var9 = var8.TrailingText;
-                    var8 = {};
-                    var12 = var10 != var11;
-                    var10 = '';
-                    if(!var12) { _fun0012_ip = 50; continue _fun0012 }
-case 51:
-                    var10 = var11;
-case 50:
-                    var8['text'] = var10;
-                    var8 = var3.bind(var4)(var9, var8);
-                    var5['trailing'] = var8;
-                    var8 = true;
-                    var5['arrow'] = var8;
-                    var7 = _closure2_slot11;
-                    var5['onPress'] = var7;
-                    var5 = var3.bind(var4)(var6, var5);
-                    var1['children'] = var5;
-                    var1 = var3.bind(var4)(var2, var1);
+                    var6['disabled'] = var13;
+                    var9 = var11[var9];
+                    var9 = var10.bind(var5)(var9);
+                    var9 = var9.TableRow;
+                    var10 = var9.TrailingText;
+                    var9 = {};
+                    var13 = var1 != var12;
+                    var11 = '';
+                    if(!var13) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
+                    var11 = var12;
+case 52:
+                    var9['text'] = var11;
+                    var9 = var4.bind(var5)(var10, var9);
+                    var6['trailing'] = var9;
+                    var9 = true;
+                    var6['arrow'] = var9;
+                    var8 = _closure2_slot11;
+                    var6['onPress'] = var8;
+                    var6 = var4.bind(var5)(var7, var6);
+                    var2['children'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var2;
+case 49:
                     return var1;
                 }
             };
             var17 = var17.bind(var5)();
             var9[2] = var17;
             var10 = null;
-            if(!var13) { _fun0001_ip = 52; continue _fun0001 }
-case 53:
+            if(!var13) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
             var13 = _closure1_slot16;
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -1105,7 +1110,7 @@ case 53:
             var14 = var13.bind(var5)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var5)(var12, var11);
-case 52:
+case 54:
             var9[3] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var5)(var7, var6);

@@ -91,7 +91,7 @@ case 4:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot11 = var4;
-    var4 = 24;
+    var4 = 23;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -189,57 +189,57 @@ case 10:
 case 11:
                 var6 = _closure1_slot8;
                 var5 = var6.getGuild;
-                var11 = var5.bind(var6)(var3);
-                if(!(var2 != var11)) { _fun0003_ip = 9; continue _fun0003 }
+                var7 = var5.bind(var6)(var3);
+                if(!(var2 != var7)) { _fun0003_ip = 9; continue _fun0003 }
 case 12:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 10;
-                var7 = var6[var2];
-                var7 = var5.bind(var4)(var7);
-                var10 = var7.GameServerExperiment;
-                var8 = var10.trackExposure;
-                var7 = {};
-                var9 = var11.id;
-                var7['guildId'] = var9;
-                var9 = 'GuildPowerupsManager';
-                var7['location'] = var9;
-                var7 = var8.bind(var10)(var7);
-                var7 = 11;
-                var7 = var6[var7];
-                var7 = var5.bind(var4)(var7);
-                var10 = var7.FileUpload250MbPowerupExperiment;
-                var8 = var10.trackExposure;
-                var7 = {};
-                var12 = var11.id;
-                var7['guildId'] = var12;
-                var7['location'] = var9;
-                var7 = var8.bind(var10)(var7);
-                var10 = 12;
-                var7 = var6[var10];
-                var7 = var5.bind(var4)(var7);
-                var12 = var7.ServerThemeExperiment;
-                var8 = var12.trackExposure;
-                var7 = {};
-                var13 = var11.id;
-                var7['guildId'] = var13;
-                var7['location'] = var9;
-                var7 = var8.bind(var12)(var7);
-                var7 = 13;
-                var7 = var6[var7];
-                var7 = var5.bind(var4)(var7);
-                var12 = var7.ServerThemeApexShadowExperiment;
-                var8 = var12.getConfig;
-                var7 = {};
-                var13 = var11.id;
-                var7['guildId'] = var13;
-                var7['location'] = var9;
-                var7 = var8.bind(var12)(var7);
+                var8 = var6[var2];
+                var8 = var5.bind(var4)(var8);
+                var10 = var8.GameServerExperiment;
+                var9 = var10.trackExposure;
+                var8 = {};
+                var11 = var7.id;
+                var8['guildId'] = var11;
+                var11 = 'GuildPowerupsManager';
+                var8['location'] = var11;
+                var8 = var9.bind(var10)(var8);
+                var8 = 11;
+                var8 = var6[var8];
+                var8 = var5.bind(var4)(var8);
+                var10 = var8.FileUpload250MbPowerupExperiment;
+                var9 = var10.trackExposure;
+                var8 = {};
+                var12 = var7.id;
+                var8['guildId'] = var12;
+                var8['location'] = var11;
+                var8 = var9.bind(var10)(var8);
+                var8 = 12;
+                var9 = var6[var8];
+                var9 = var5.bind(var4)(var9);
+                var12 = var9.ServerThemeExperiment;
+                var10 = var12.trackExposure;
+                var9 = {};
+                var13 = var7.id;
+                var9['guildId'] = var13;
+                var9['location'] = var11;
+                var9 = var10.bind(var12)(var9);
+                var9 = 13;
+                var9 = var6[var9];
+                var9 = var5.bind(var4)(var9);
+                var12 = var9.ServerThemeApexShadowExperiment;
+                var10 = var12.getConfig;
+                var9 = {};
+                var13 = var7.id;
+                var9['guildId'] = var13;
+                var9['location'] = var11;
+                var9 = var10.bind(var12)(var9);
                 var2 = var6[var2];
                 var6 = var5.bind(var4)(var2);
                 var5 = var6.getGameServerEnabled;
-                var2 = var11.id;
-                var2 = var5.bind(var6)(var2, var9);
+                var2 = var7.id;
+                var2 = var5.bind(var6)(var2, var11);
                 if(!var2) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
                 var5 = _closure1_slot0;
@@ -250,121 +250,125 @@ case 14:
                 var6 = var2.GameServerPricingExperiment;
                 var5 = var6.trackExposure;
                 var2 = {};
-                var7 = var11.id;
-                var2['guildId'] = var7;
-                var2['location'] = var9;
+                var9 = var7.id;
+                var2['guildId'] = var9;
+                var2['location'] = var11;
                 var2 = var5.bind(var6)(var2);
 case 13:
-                var6 = _closure1_slot1;
-                var8 = _closure1_slot2;
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
                 var2 = 15;
-                var2 = var8[var2];
-                var7 = var6.bind(var4)(var2);
-                var5 = var7.getConfig;
-                var2 = {};
-                var2['location'] = var9;
-                var2 = var5.bind(var7)(var2);
-                var2 = var2.enabled;
-                var5 = 16;
-                var5 = var8[var5];
-                var7 = var6.bind(var4)(var5);
-                var6 = var7.getConfig;
-                var5 = {};
-                var5['location'] = var9;
-                var5 = var6.bind(var7)(var5);
-                var5 = var5.enabled;
-                var7 = _closure1_slot0;
-                var6 = 17;
-                var6 = var8[var6];
-                var8 = var7.bind(var4)(var6);
-                var7 = var8.getHasAllocateBoostPermission;
-                var6 = _closure1_slot9;
-                var6 = var7.bind(var8)(var6, var11);
-                if(var6) { _fun0003_ip = 15; continue _fun0003 }
+                var2 = var6[var2];
+                var6 = var5.bind(var4)(var2);
+                var5 = var6.getHasAllocateBoostPermission;
+                var2 = _closure1_slot9;
+                var2 = var5.bind(var6)(var2, var7);
+                if(var2) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
-                if(var2) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
-                var2 = var5;
-case 17:
-                if(!var2) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var5 = 18;
-                var5 = var7[var5];
-                var6 = var6.bind(var4)(var5);
-                var5 = var6.getIsCurrentUserEligibleForPowerupUpsells;
-                var2 = var5.bind(var6)();
-case 19:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var8 = 19;
-                var5 = var5[var8];
+                var10 = 16;
+                var2 = var5[var10];
+                var7 = var6.bind(var4)(var2);
+                var2 = var7.getIsCurrentUserEligibleForPowerupUpsells;
+                var2 = var2.bind(var7)();
+                var9 = 17;
+                var5 = var5[var9];
                 var5 = var6.bind(var4)(var5);
                 var5 = var5.isMobile;
-                if(!var5) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
+                if(!var5) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var6 = var6[var8];
+                var7 = var7.bind(var4)(var6);
+                var6 = var7.getServerThemeEnabled;
+                var5 = var6.bind(var7)(var3, var11);
+case 17:
+                if(!var5) { _fun0003_ip = 19; continue _fun0003 }
+case 20:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var6 = var6[var10];
                 var7 = var7.bind(var4)(var6);
-                var6 = var7.getServerThemeEnabled;
-                var5 = var6.bind(var7)(var3, var9);
-case 21:
-                if(!var5) { _fun0003_ip = 23; continue _fun0003 }
-case 24:
-                var7 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var6 = 18;
-                var6 = var10[var6];
-                var7 = var7.bind(var4)(var6);
                 var6 = var7.getIsCurrentUserEligibleForPowerupUpsells;
                 var5 = var6.bind(var7)();
-case 23:
-                if(!var5) { _fun0003_ip = 25; continue _fun0003 }
-case 26:
+case 19:
+                if(!var5) { _fun0003_ip = 21; continue _fun0003 }
+case 22:
                 var7 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var6 = 20;
-                var6 = var10[var6];
+                var8 = _closure1_slot2;
+                var6 = 18;
+                var6 = var8[var6];
                 var7 = var7.bind(var4)(var6);
                 var6 = var7.getServerThemeUserEnabled;
-                var5 = var6.bind(var7)(var9);
-case 25:
+                var5 = var6.bind(var7)(var11);
+case 21:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var6 = var6[var8];
+                var6 = var6[var9];
                 var6 = var7.bind(var4)(var6);
                 var6 = var6.isMobile;
-                if(!var6) { _fun0003_ip = 27; continue _fun0003 }
+                if(!var6) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
+                var8 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var10];
+                var8 = var8.bind(var4)(var7);
+                var7 = var8.getIsCurrentUserEligibleForPowerupUpsells;
+                var6 = var7.bind(var8)();
+case 23:
+                if(!var6) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
+                var8 = _closure1_slot1;
+                var10 = _closure1_slot2;
+                var7 = 19;
+                var7 = var10[var7];
+                var10 = var8.bind(var4)(var7);
+                var8 = var10.getConfig;
+                var7 = {};
+                var7['location'] = var11;
+                var7 = var8.bind(var10)(var7);
+                var6 = var7.showCoachmark;
+case 25:
+                var8 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var7 = var7[var9];
+                var7 = var8.bind(var4)(var7);
+                var7 = var7.isMobile;
+                if(!var7) { _fun0003_ip = 27; continue _fun0003 }
 case 28:
+                if(var5) { _fun0003_ip = 29; continue _fun0003 }
+case 30:
+                var5 = var6;
+case 29:
                 var2 = var5;
 case 27:
                 if(var2) { _fun0003_ip = 15; continue _fun0003 }
-case 29:
+case 31:
                 return var4;
 case 15:
                 var5 = _closure1_slot11;
                 var2 = var5.shouldFetchCatalogForGuild;
                 var2 = var2.bind(var5)(var3);
-                if(!var2) { _fun0003_ip = 30; continue _fun0003 }
-case 31:
+                if(!var2) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 21;
+                var2 = 20;
                 var2 = var6[var2];
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.fetchPowerupCatalogForGuild;
                 var2 = var2.bind(var5)(var3);
-case 30:
+case 32:
                 var5 = _closure1_slot11;
                 var2 = var5.shouldFetchPowerupsForGuild;
                 var2 = var2.bind(var5)(var3);
                 if(!var2) { _fun0003_ip = 9; continue _fun0003 }
-case 32:
+case 34:
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 21;
+                var1 = 20;
                 var1 = var5[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.fetchGuildBoostEntitlements;
@@ -414,7 +418,7 @@ case 0:
                 var5 = arg1;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 17;
+                var1 = 15;
                 var3 = var3[var1];
                 var1 = undefined;
                 var7 = var4.bind(var1)(var3);
@@ -425,17 +429,17 @@ case 0:
                 var3 = var3.bind(var8)(var5);
                 var4 = var6.bind(var7)(var4, var3);
                 var3 = true;
-                if(!(var3 === var4)) { _fun0004_ip = 33; continue _fun0004 }
+                if(!(var3 === var4)) { _fun0004_ip = 35; continue _fun0004 }
 case 11:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var6 = 21;
+                var6 = 20;
                 var6 = var4[var6];
                 var7 = var3.bind(var1)(var6);
                 var6 = var7.fetchGuildBoostEntitlements;
                 var6 = var6.bind(var7)(var5);
                 var6 = _closure1_slot1;
-                var2 = 22;
+                var2 = 21;
                 var2 = var4[var2];
                 var7 = var6.bind(var1)(var2);
                 var6 = var7.getConfig;
@@ -444,14 +448,14 @@ case 11:
                 var2['location'] = var8;
                 var2 = var6.bind(var7)(var2);
                 var6 = var2.enabled;
-                var2 = 23;
+                var2 = 22;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.fetchAppliedGuildBoostsForGuild;
                 var2 = {};
                 var2['includeEnded'] = var6;
                 var2 = var3.bind(var4)(var5, var2);
-case 33:
+case 35:
                 return var1;
             }
         };
@@ -466,7 +470,7 @@ case 33:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 25;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

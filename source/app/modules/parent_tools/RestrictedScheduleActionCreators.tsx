@@ -20,25 +20,28 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 2;
-                    var2 = var5[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 2;
+                    var2 = var10[var8];
                     var6 = undefined;
-                    var2 = var3.bind(var6)(var2);
+                    var2 = var9.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.post;
                     var2 = {};
-                    var9 = _closure1_slot4;
-                    var8 = var9.FAMILY_CENTER_RESTRICTED_SCHEDULE_RULE;
-                    var8 = var8.bind(var9)(var7);
-                    var2['url'] = var8;
-                    var8 = arg2;
-                    var2['body'] = var8;
-                    var8 = false;
+                    var12 = _closure1_slot4;
+                    var11 = var12.FAMILY_CENTER_RESTRICTED_SCHEDULE_RULE;
+                    var11 = var11.bind(var12)(var7);
+                    var2['url'] = var11;
+                    var11 = arg2;
+                    var2['body'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var6)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=92);
+                    SaveGenerator(address=109);
 case 4:
                     return var2;
 case 5:
@@ -90,26 +93,29 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 8; continue _fun0002 }
 case 3:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 2;
-                    var2 = var5[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 2;
+                    var2 = var10[var8];
                     var6 = undefined;
-                    var2 = var3.bind(var6)(var2);
+                    var2 = var9.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.patch;
                     var2 = {};
-                    var10 = _closure1_slot4;
-                    var9 = var10.FAMILY_CENTER_RESTRICTED_SCHEDULE_RULES;
-                    var8 = arg2;
-                    var8 = var9.bind(var10)(var7, var8);
-                    var2['url'] = var8;
-                    var8 = arg3;
-                    var2['body'] = var8;
-                    var8 = false;
+                    var13 = _closure1_slot4;
+                    var12 = var13.FAMILY_CENTER_RESTRICTED_SCHEDULE_RULES;
+                    var11 = arg2;
+                    var11 = var12.bind(var13)(var7, var11);
+                    var2['url'] = var11;
+                    var11 = arg3;
+                    var2['body'] = var11;
+                    var8 = var10[var8];
+                    var9 = var9.bind(var6)(var8);
+                    var8 = var9.rejectWithMigratedError;
+                    var8 = var8.bind(var9)();
                     var2['rejectWithError'] = var8;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=96);
+                    SaveGenerator(address=113);
 case 9:
                     return var2;
 case 10:
@@ -161,24 +167,27 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 6; continue _fun0003 }
 case 3:
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 2;
-                    var2 = var3[var2];
+                    var9 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var7 = 2;
+                    var2 = var10[var7];
                     var3 = undefined;
-                    var2 = var5.bind(var3)(var2);
+                    var2 = var9.bind(var3)(var2);
                     var6 = var2.HTTP;
                     var5 = var6.del;
                     var2 = {};
-                    var10 = _closure1_slot4;
-                    var9 = var10.FAMILY_CENTER_RESTRICTED_SCHEDULE_RULES;
-                    var7 = arg2;
-                    var7 = var9.bind(var10)(var8, var7);
-                    var2['url'] = var7;
-                    var7 = false;
+                    var13 = _closure1_slot4;
+                    var12 = var13.FAMILY_CENTER_RESTRICTED_SCHEDULE_RULES;
+                    var11 = arg2;
+                    var11 = var12.bind(var13)(var8, var11);
+                    var2['url'] = var11;
+                    var7 = var10[var7];
+                    var9 = var9.bind(var3)(var7);
+                    var7 = var9.rejectWithMigratedError;
+                    var7 = var7.bind(var9)();
                     var2['rejectWithError'] = var7;
                     var2 = var5.bind(var6)(var2);
-                    SaveGenerator(address=89);
+                    SaveGenerator(address=106);
 case 13:
                     return var2;
 case 14:

@@ -322,8 +322,8 @@ case 15:
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     StartGenerator();
@@ -332,20 +332,13 @@ case 0:
 case 33:
                     var3 = arg1;
                     var _closure4_slot0 = var3;
-                    var3 = _closure1_slot5;
-                    var3 = var3.isFetchingQuestHomeBounties;
-                    if(var3) { _fun0005_ip = 34; continue _fun0005 }
+                    var4 = _closure1_slot5;
+                    var4 = var4.isFetchingQuestHomeBounties;
+                    if(var4) { _fun0005_ip = 34; continue _fun0005 }
 case 17:
                     var5 = _closure1_slot7;
-                    var7 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var3 = 12;
-                    var3 = var4[var3];
+                    var3 = _closure1_slot3;
                     var4 = undefined;
-                    var3 = var7.bind(var4)(var3);
-                    var3 = var3.AdPlacement;
-                    var3 = var3.QUEST_HOME_MOBILE_CAROUSEL;
-                    var6 = _closure1_slot3;
                     var2 = function* () {
                         var1 = function* anon_0_() {
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -413,15 +406,16 @@ case 35:
                         };
                         return var1;
                     };
-                    var2 = var6.bind(var4)(var2);
-                    var2 = var5.bind(var4)(var3, var2);
-                    SaveGenerator(address=96);
+                    var3 = var3.bind(var4)(var2);
+                    var2 = arg2;
+                    var2 = var5.bind(var4)(var2, var3);
+                    SaveGenerator(address=67);
 case 40:
                     return var2;
 case 41:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(!var3) { _fun0005_ip = 34; continue _fun0005 }
-case 42:
+case 16:
                     return var2;
 case 34:
                     var2 = undefined;
@@ -453,8 +447,8 @@ case 0:
                     StartGenerator();
                     var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 43; continue _fun0007 }
-case 44:
+                    if(var2) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
                     var7 = var6;
                     var13 = arg2;
                     var2 = undefined;
@@ -465,8 +459,8 @@ case 44:
                     var5 = _closure1_slot5;
                     var4 = var5.isClaimingBountyReward;
                     var4 = var4.bind(var5)(var6);
-                    if(var4) { _fun0007_ip = 45; continue _fun0007 }
-case 46:
+                    if(var4) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var6 = 4;
@@ -479,7 +473,7 @@ case 46:
                     var9 = var7;
                     var4['bountyId'] = var9;
                     var4 = var5.bind(var8)(var4);
-case 34: // try_start_0
+case 46: // try_start_0
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var4 = 9;
@@ -502,7 +496,7 @@ case 50:
                     var10 = var8.bind(var2)(var5);
                     var5 = var10.getOrRefreshAdSession;
                     var11 = var5.bind(var10)();
-                    var5 = 13;
+                    var5 = 12;
                     var10 = var9[var5];
                     var14 = var8.bind(var2)(var10);
                     var10 = var14.getAdMetadataSealed;
@@ -573,7 +567,7 @@ case 60:
                     var8['bountyId'] = var11;
                     var8 = var9.bind(var10)(var8);
 case 61: // try_end0
-                    _fun0007_ip = 45; continue _fun0007;
+                    _fun0007_ip = 44; continue _fun0007;
 case 59:
                     return var5;
 case 49:
@@ -601,9 +595,9 @@ case 62: // catch_target0
                     var4['error'] = var3;
                     var4 = var5.bind(var6)(var4);
                     throw var3;
-case 45:
+case 44:
                     return var2;
-case 43:
+case 42:
                     return var1;
                 }
             };
@@ -645,7 +639,7 @@ case 43:
     var4 = var5.bind(var1)(var4);
     var4 = var4.Endpoints;
     var _closure1_slot6 = var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

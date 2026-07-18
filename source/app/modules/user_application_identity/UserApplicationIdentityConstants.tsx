@@ -1,10 +1,10 @@
 // app/modules/user_application_identity/UserApplicationIdentityConstants.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
+    var9 = require;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var7;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var8;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -13,13 +13,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
-    var6 = {};
+    var7 = {};
     var1 = '1443033465766281327';
-    var6['RIOT_GAMES'] = var1;
-    var1 = '1412940519742636124';
-    var6['BATTLENET'] = var1;
+    var7['RIOT_GAMES'] = var1;
+    var1 = '1356665549089800303';
+    var7['BATTLENET'] = var1;
     var1 = {};
-    var4 = var6.RIOT_GAMES;
+    var4 = var7.RIOT_GAMES;
     var1['applicationId'] = var4;
     var4 = function getMigrationExperimentEnabled(arg1) {
         var3 = _closure1_slot0;
@@ -51,10 +51,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['useMigrationExperimentEnabled'] = var4;
-    var5 = new Array(1);
+    var6 = new Array(1);
+    var6[0] = var1;
+    var1 = {};
+    var4 = var7.RIOT_GAMES;
+    var1['applicationId'] = var4;
+    var4 = function getMigrationExperimentEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.getIsRiotSocialSDKMigrationEnabled;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var1['getMigrationExperimentEnabled'] = var4;
+    var4 = function useMigrationExperimentEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.useIsRiotSocialSDKMigrationEnabled;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var1['useMigrationExperimentEnabled'] = var4;
+    var5 = new Array(2);
     var5[0] = var1;
     var1 = {};
-    var4 = var6.RIOT_GAMES;
+    var4 = var7.BATTLENET;
+    var1['applicationId'] = var4;
+    var4 = function getMigrationExperimentEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.battlenetSocialSDKMigrationExperiment;
+        var2 = var3.getConfig;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var1['getMigrationExperimentEnabled'] = var4;
+    var4 = function useMigrationExperimentEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var3 = var1.battlenetSocialSDKMigrationExperiment;
+        var2 = var3.useConfig;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
+        return var1;
+    };
+    var1['useMigrationExperimentEnabled'] = var4;
+    var5[1] = var1;
+    var _closure1_slot2 = var5;
+    var1 = {};
+    var4 = var7.RIOT_GAMES;
     var1['applicationId'] = var4;
     var4 = function getMigrationExperimentEnabled(arg1) {
         var3 = _closure1_slot0;
@@ -89,9 +163,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new Array(2);
     var4[0] = var1;
     var1 = {};
-    var9 = var6.BATTLENET;
-    var1['applicationId'] = var9;
-    var9 = function getMigrationExperimentEnabled(arg1) {
+    var10 = var7.BATTLENET;
+    var1['applicationId'] = var10;
+    var10 = function getMigrationExperimentEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -107,8 +181,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var1['getMigrationExperimentEnabled'] = var9;
-    var9 = function useMigrationExperimentEnabled(arg1) {
+    var1['getMigrationExperimentEnabled'] = var10;
+    var10 = function useMigrationExperimentEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -124,19 +198,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var1['useMigrationExperimentEnabled'] = var9;
+    var1['useMigrationExperimentEnabled'] = var10;
     var4[1] = var1;
-    var _closure1_slot2 = var4;
     var1 = 1;
-    var7 = var7[var1];
+    var8 = var8[var1];
     var1 = undefined;
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/user_application_identity/UserApplicationIdentityConstants.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['ApplicationIdentityConnections'] = var6;
-    var3['APPLICATION_IDENTITY_CONNECTIONS_ALLOWED_APPLICATIONS'] = var5;
-    var3['APPLICATION_IDENTITY_CONNECTIONS_SCREEN_APPLICATIONS'] = var4;
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/user_application_identity/UserApplicationIdentityConstants.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['ApplicationIdentityConnections'] = var7;
+    var3['APPLICATION_IDENTITY_CONNECTIONS_ALLOWED_APPLICATIONS'] = var6;
+    var3['APPLICATION_IDENTITY_CONNECTIONS_SCREEN_APPLICATIONS'] = var5;
+    var3['APPLICATION_IDENTITY_CONNECTIONS_INCENTIVIZED_APPLICATIONS'] = var4;
     var2 = function getMigratedApplicationIdentityConnectionsScreenApplications(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;

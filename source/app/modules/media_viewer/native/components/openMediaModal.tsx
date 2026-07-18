@@ -122,7 +122,7 @@ case 0:
 case 3:
                             var2 = 'measureInWindow';
                             var2 = var2 in var4;
-                            if(var2) { _fun0002_ip = 4; continue _fun0002 }
+                            if(var2) { _fun0002_ip = 5; continue _fun0002 }
 case 16:
                             var1 = function(arg1) {
                                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -165,7 +165,7 @@ case 19:
                                 }
                             };
                             _fun0002_ip = 20; continue _fun0002;
-case 4:
+case 5:
                             var3 = var4.measureInWindow;
                             var2 = var3.bind;
                             var1 = var2.bind(var3)(var4);

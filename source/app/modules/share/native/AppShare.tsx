@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var7;
     var4 = var4.jsxs;
     var _closure1_slot11 = var4;
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -362,7 +362,7 @@ case 16:
 case 19:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 20;
+            var5 = 21;
             var5 = var8[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.SceneLoadingIndicator;
@@ -390,8 +390,11 @@ case 22:
             var10 = var10.exitApp;
             _fun0001_ip = 23; continue _fun0001;
 case 21:
-            var11 = _closure1_slot6;
-            var11 = var11.ShareManager;
+            var13 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var11 = 20;
+            var11 = var14[var11];
+            var11 = var13.bind(var4)(var11);
             var10 = var11.close;
 case 23:
             var5['onClose'] = var10;
@@ -402,7 +405,7 @@ case 20:
             var8 = _closure1_slot10;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var10 = 21;
+            var10 = 22;
             var10 = var9[var10];
             var10 = var7.bind(var4)(var10);
             var11 = var10.ActionSheetContainer;
@@ -411,13 +414,13 @@ case 20:
             var10 = var8.bind(var4)(var11, var10);
             var5[1] = var10;
             var10 = _closure1_slot1;
-            var6 = 22;
+            var6 = 23;
             var6 = var9[var6];
             var10 = var10.bind(var4)(var6);
             var6 = {};
             var6 = var8.bind(var4)(var10, var6);
             var5[2] = var6;
-            var6 = 23;
+            var6 = 24;
             var6 = var9[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.AlertModalContainer;

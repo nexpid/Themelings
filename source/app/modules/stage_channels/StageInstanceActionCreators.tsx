@@ -17,34 +17,37 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 2;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 2;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.post;
                     var2 = {};
-                    var5 = _closure1_slot3;
-                    var5 = var5.STAGE_INSTANCES;
-                    var2['url'] = var5;
-                    var5 = {};
-                    var6 = arg1;
-                    var5['channel_id'] = var6;
-                    var6 = arg2;
-                    var5['topic'] = var6;
-                    var6 = arg3;
-                    var5['privacy_level'] = var6;
-                    var6 = arg5;
-                    var5['guild_scheduled_event_id'] = var6;
-                    var6 = arg4;
-                    var5['send_start_notification'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var9 = _closure1_slot3;
+                    var9 = var9.STAGE_INSTANCES;
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg1;
+                    var9['channel_id'] = var10;
+                    var10 = arg2;
+                    var9['topic'] = var10;
+                    var10 = arg3;
+                    var9['privacy_level'] = var10;
+                    var10 = arg5;
+                    var9['guild_scheduled_event_id'] = var10;
+                    var10 = arg4;
+                    var9['send_start_notification'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=124);
+                    SaveGenerator(address=141);
 case 4:
                     return var2;
 case 5:
@@ -81,43 +84,46 @@ case 2:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 2;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var3);
+                    if(var2) { _fun0002_ip = 5; continue _fun0002 }
+case 3:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot1;
+                    var5 = 2;
+                    var2 = var8[var5];
+                    var6 = undefined;
+                    var2 = var7.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.patch;
                     var2 = {};
-                    var7 = _closure1_slot3;
-                    var6 = var7.STAGE_INSTANCE;
-                    var5 = arg1;
-                    var5 = var6.bind(var7)(var5);
-                    var2['url'] = var5;
-                    var5 = {};
-                    var6 = arg2;
-                    var5['topic'] = var6;
-                    var6 = arg3;
-                    var5['privacy_level'] = var6;
-                    var2['body'] = var5;
-                    var5 = false;
+                    var11 = _closure1_slot3;
+                    var10 = var11.STAGE_INSTANCE;
+                    var9 = arg1;
+                    var9 = var10.bind(var11)(var9);
+                    var2['url'] = var9;
+                    var9 = {};
+                    var10 = arg2;
+                    var9['topic'] = var10;
+                    var10 = arg3;
+                    var9['privacy_level'] = var10;
+                    var2['body'] = var9;
+                    var5 = var8[var5];
+                    var6 = var7.bind(var6)(var5);
+                    var5 = var6.rejectWithMigratedError;
+                    var5 = var5.bind(var6)();
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=104);
-case 10:
+                    SaveGenerator(address=124);
+case 8:
                     return var2;
-case 11:
+case 9:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
                     var3 = var2.body;
                     return var3;
-case 12:
+case 10:
                     return var2;
-case 8:
+case 5:
                     return var1;
                 }
             };
@@ -181,21 +187,24 @@ case 8:
     };
     var3['updateStageInstance'] = var4;
     var2 = function endStageInstance(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var4 = 2;
+        var1 = var7[var4];
+        var5 = undefined;
+        var1 = var6.bind(var5)(var1);
         var3 = var1.HTTP;
         var2 = var3.del;
         var1 = {};
-        var6 = _closure1_slot3;
-        var5 = var6.STAGE_INSTANCE;
-        var4 = arg1;
-        var4 = var5.bind(var6)(var4);
-        var1['url'] = var4;
-        var4 = false;
+        var10 = _closure1_slot3;
+        var9 = var10.STAGE_INSTANCE;
+        var8 = arg1;
+        var8 = var9.bind(var10)(var8);
+        var1['url'] = var8;
+        var4 = var7[var4];
+        var5 = var6.bind(var5)(var4);
+        var4 = var5.rejectWithMigratedError;
+        var4 = var4.bind(var5)();
         var1['rejectWithError'] = var4;
         var1 = var2.bind(var3)(var1);
         return var1;

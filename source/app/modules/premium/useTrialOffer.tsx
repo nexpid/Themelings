@@ -140,40 +140,19 @@ case 6:
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
-                    var4 = _closure2_slot1;
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0003_ip = 8; continue _fun0003 }
-case 9:
-                    var2 = _closure2_slot1;
-                    var2 = var2.expires_at;
-                    if(!(var3 == var2)) { _fun0003_ip = 10; continue _fun0003 }
-case 8:
-                    var2 = undefined;
-                    return var2;
-case 10:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 6;
-                    var2 = var3[var2];
-                    var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
-                    var2 = var2.Timeout;
-                    var4 = var2.prototype;
-                    var4 = Object.create(var4, {constructor: {value: var2}});
-                    var6 = var4;
-                    var2 = new var6[var2](var5);
-                    var2 = var2 instanceof Object ? var2 : var4;
-                    var _closure3_slot0 = var2;
-                    var2 = function startTimer() {
+                    var3 = function startTimer() {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                             var1 = _closure2_slot1;
-                            var1 = var1.expires_at;
                             var3 = null;
+                            if(!(var3 != var1)) { _fun0004_ip = 8; continue _fun0004 }
+case 9:
+                            var1 = _closure2_slot1;
+                            var1 = var1.expires_at;
                             var1 = var3 != var1;
                             var4 = 0;
-                            if(!var1) { _fun0004_ip = 11; continue _fun0004 }
-case 12:
+                            if(!var1) { _fun0004_ip = 10; continue _fun0004 }
+case 11:
                             var1 = global;
                             var6 = var1.Date;
                             var5 = var6.parse;
@@ -184,45 +163,69 @@ case 12:
                             var1 = var5.now;
                             var1 = var1.bind(var5)();
                             var4 = var2 - var1;
-case 11:
+case 10:
                             var2 = _closure3_slot0;
-                            if(!(var3 != var2)) { _fun0004_ip = 13; continue _fun0004 }
-case 14:
+                            if(!(var3 != var2)) { _fun0004_ip = 8; continue _fun0004 }
+case 12:
                             var3 = _closure3_slot0;
                             var2 = var3.start;
                             var1 = function() {
                                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                                     var2 = _closure2_slot2;
-                                    if(var2) { _fun0005_ip = 15; continue _fun0005 }
-case 16:
+                                    if(var2) { _fun0005_ip = 13; continue _fun0005 }
+case 14:
                                     var4 = _closure1_slot6;
                                     var2 = _closure2_slot1;
                                     var3 = undefined;
                                     var2 = var4.bind(var3)(var2);
-                                    if(!var2) { _fun0005_ip = 15; continue _fun0005 }
-case 17:
+                                    if(!var2) { _fun0005_ip = 13; continue _fun0005 }
+case 15:
                                     var2 = _closure2_slot3;
                                     var1 = true;
                                     var1 = var2.bind(var3)(var1);
-                                    _fun0005_ip = 18; continue _fun0005;
-case 15:
+                                    _fun0005_ip = 16; continue _fun0005;
+case 13:
                                     var2 = _closure3_slot1;
                                     var1 = undefined;
                                     var1 = var2.bind(var1)();
-case 18:
+case 16:
                                     var1 = undefined;
                                     return var1;
                                 }
                             };
                             var1 = var2.bind(var3)(var4, var1);
-case 13:
+case 8:
                             var1 = undefined;
                             return var1;
                         }
                     };
-                    var _closure3_slot1 = var2;
-                    var2 = var2.bind(var3)();
+                    var _closure3_slot1 = var3;
+                    var5 = _closure2_slot1;
+                    var4 = null;
+                    if(!(var4 != var5)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+                    var2 = _closure2_slot1;
+                    var2 = var2.expires_at;
+                    if(!(var4 == var2)) { _fun0003_ip = 19; continue _fun0003 }
+case 17:
+                    var2 = undefined;
+                    return var2;
+case 19:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var2 = 6;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var4 = var5.bind(var2)(var4);
+                    var4 = var4.Timeout;
+                    var5 = var4.prototype;
+                    var5 = Object.create(var5, {constructor: {value: var4}});
+                    var7 = var5;
+                    var4 = new var7[var4](var6);
+                    var4 = var4 instanceof Object ? var4 : var5;
+                    var _closure3_slot0 = var4;
+                    var2 = var3.bind(var2)();
                     var1 = function() {
                         var2 = _closure3_slot0;
                         var1 = var2.stop;
@@ -234,13 +237,13 @@ case 13:
             };
             var1 = var6.bind(var7)(var1, var4);
             var1 = null;
-            if(var5) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
-            var1 = null;
-            if(!var3) { _fun0002_ip = 19; continue _fun0002 }
+            if(var5) { _fun0002_ip = 20; continue _fun0002 }
 case 21:
+            var1 = null;
+            if(!var3) { _fun0002_ip = 20; continue _fun0002 }
+case 22:
             var1 = var2;
-case 19:
+case 20:
             return var1;
         }
     };

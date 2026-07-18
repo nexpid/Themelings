@@ -10,8 +10,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function useVerificationForm(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var4 = arg1;
-            var2 = var4.id;
+            var5 = arg1;
+            var4 = function getFormFields() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = _closure2_slot3;
+                    if(var1) { _fun0002_ip = 2; continue _fun0002 }
+case 3:
+                    var1 = _closure2_slot1;
+                    var2 = null;
+                    if(!(var2 != var1)) { _fun0002_ip = 2; continue _fun0002 }
+case 4:
+                    var4 = _closure2_slot1;
+                    var1 = new Array(1);
+                    var1[0] = var4;
+                    var4 = _closure2_slot2;
+                    var5 = var2 == var4;
+                    var4 = undefined;
+                    if(var5) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
+                    var5 = _closure2_slot2;
+                    var4 = var5.formFields;
+case 5:
+                    if(!(var2 == var4)) { _fun0002_ip = 7; continue _fun0002 }
+case 8:
+                    var4 = new Array(0);
+case 7:
+                    var6 = 1;
+                    var8 = var1;
+                    var7 = var4;
+                    var2 = arraySpread(var8, var7, var6);
+                    _fun0002_ip = 9; continue _fun0002;
+case 2:
+                    var4 = _closure2_slot2;
+                    var2 = null;
+                    var5 = var2 == var4;
+                    var4 = undefined;
+                    if(var5) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
+                    var3 = _closure2_slot2;
+                    var4 = var3.formFields;
+case 10:
+                    if(!(var2 == var4)) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
+                    var4 = new Array(0);
+case 12:
+                    var2 = new Array(0);
+                    var6 = 0;
+                    var8 = var2;
+                    var7 = var4;
+                    var3 = arraySpread(var8, var7, var6);
+                    var1 = var2;
+case 9:
+                    return var1;
+                }
+            };
+            var _closure2_slot6 = var4;
+            var2 = var5.id;
             var _closure2_slot0 = var2;
             var3 = function useRequiredVerificationFields(arg1) {
                 var4 = arg1;
@@ -31,14 +86,14 @@ case 0:
                 var2 = var5[var2];
                 var2 = var4.bind(var3)(var2);
                 var1 = function() {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                         var1 = _closure3_slot0;
                         var2 = var1.verificationLevel;
                         var1 = _closure1_slot9;
                         var1 = var1.VERY_HIGH;
-                        if(!(var2 !== var1)) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                        if(!(var2 !== var1)) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
                         var1 = {};
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
@@ -54,17 +109,17 @@ case 3:
                         var2 = var2.UserVerificationFieldPlatforms;
                         var2 = var2.EMAIL;
                         var1['platform'] = var2;
-                        _fun0002_ip = 4; continue _fun0002;
-case 2:
+                        _fun0003_ip = 16; continue _fun0003;
+case 14:
                         var5 = _closure3_slot1;
                         var2 = null;
-                        if(!(var2 != var5)) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                        if(!(var2 != var5)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
                         var3 = _closure3_slot1;
                         var3 = var3.phone;
                         var2 = null;
-                        if(var3) { _fun0002_ip = 7; continue _fun0002 }
-case 5:
+                        if(var3) { _fun0003_ip = 19; continue _fun0003 }
+case 17:
                         var3 = {};
                         var6 = _closure1_slot0;
                         var7 = _closure1_slot2;
@@ -81,9 +136,9 @@ case 5:
                         var4 = var4.PHONE;
                         var3['platform'] = var4;
                         var2 = var3;
-case 7:
+case 19:
                         var1 = var2;
-case 4:
+case 16:
                         return var1;
                     }
                 };
@@ -91,17 +146,17 @@ case 4:
                 return var1;
             };
             var8 = undefined;
-            var3 = var3.bind(var8)(var4);
+            var3 = var3.bind(var8)(var5);
             var _closure2_slot1 = var3;
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
             var3 = 14;
-            var3 = var5[var3];
-            var7 = var4.bind(var8)(var3);
-            var5 = var7.useStateFromStores;
+            var3 = var7[var3];
+            var9 = var5.bind(var8)(var3);
+            var7 = var9.useStateFromStores;
             var3 = _closure1_slot7;
-            var4 = new Array(1);
-            var4[0] = var3;
+            var5 = new Array(1);
+            var5[0] = var3;
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
@@ -111,34 +166,34 @@ case 4:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3 = var5.bind(var7)(var4, var2, var3);
+            var3 = var7.bind(var9)(var5, var2, var3);
             var _closure2_slot2 = var3;
-            var7 = _closure1_slot5;
-            var5 = var7.useMemo;
+            var9 = _closure1_slot5;
+            var7 = var9.useMemo;
             var2 = null;
-            var4 = var2 == var3;
+            var5 = var2 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 5; continue _fun0001 }
-case 8:
+            if(var5) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
             var2 = var3.formFields;
-case 5:
-            var4 = new Array(1);
-            var4[0] = var2;
+case 20:
+            var5 = new Array(1);
+            var5[0] = var2;
             var2 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = _closure2_slot2;
                     var2 = null;
                     var5 = var2 == var1;
                     var1 = undefined;
-                    if(var5) { _fun0003_ip = 9; continue _fun0003 }
-case 10:
+                    if(var5) { _fun0004_ip = 22; continue _fun0004 }
+case 23:
                     var4 = _closure2_slot2;
                     var4 = var4.formFields;
                     var2 = var2 == var4;
                     var1 = undefined;
-                    if(var2) { _fun0003_ip = 9; continue _fun0003 }
-case 11:
+                    if(var2) { _fun0004_ip = 22; continue _fun0004 }
+case 24:
                     var3 = var4.some;
                     var2 = function(arg1) {
                         var1 = arg1;
@@ -155,76 +210,21 @@ case 11:
                         return var1;
                     };
                     var1 = var3.bind(var4)(var2);
-case 9:
-                    return var1;
-                }
-            };
-            var2 = var5.bind(var7)(var2, var4);
-            var _closure2_slot3 = var2;
-            var4 = function getFormFields() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
-case 0:
-                    var1 = _closure2_slot3;
-                    if(var1) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
-                    var1 = _closure2_slot1;
-                    var2 = null;
-                    if(!(var2 != var1)) { _fun0004_ip = 12; continue _fun0004 }
-case 14:
-                    var4 = _closure2_slot1;
-                    var1 = new Array(1);
-                    var1[0] = var4;
-                    var4 = _closure2_slot2;
-                    var5 = var2 == var4;
-                    var4 = undefined;
-                    if(var5) { _fun0004_ip = 15; continue _fun0004 }
-case 16:
-                    var5 = _closure2_slot2;
-                    var4 = var5.formFields;
-case 15:
-                    if(!(var2 == var4)) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
-                    var4 = new Array(0);
-case 17:
-                    var6 = 1;
-                    var8 = var1;
-                    var7 = var4;
-                    var2 = arraySpread(var8, var7, var6);
-                    _fun0004_ip = 19; continue _fun0004;
-case 12:
-                    var4 = _closure2_slot2;
-                    var2 = null;
-                    var5 = var2 == var4;
-                    var4 = undefined;
-                    if(var5) { _fun0004_ip = 20; continue _fun0004 }
-case 21:
-                    var3 = _closure2_slot2;
-                    var4 = var3.formFields;
-case 20:
-                    if(!(var2 == var4)) { _fun0004_ip = 22; continue _fun0004 }
-case 23:
-                    var4 = new Array(0);
 case 22:
-                    var2 = new Array(0);
-                    var6 = 0;
-                    var8 = var2;
-                    var7 = var4;
-                    var3 = arraySpread(var8, var7, var6);
-                    var1 = var2;
-case 19:
                     return var1;
                 }
             };
-            var _closure2_slot4 = var4;
+            var2 = var7.bind(var9)(var2, var5);
+            var _closure2_slot3 = var2;
             var7 = _closure1_slot5;
             var5 = var7.useRef;
             var5 = var5.bind(var7)(var4);
-            var _closure2_slot5 = var5;
+            var _closure2_slot4 = var5;
             var9 = _closure1_slot5;
             var7 = var9.useEffect;
             var5 = function() {
-                var2 = _closure2_slot5;
-                var1 = _closure2_slot4;
+                var2 = _closure2_slot4;
+                var1 = _closure2_slot6;
                 var2['current'] = var1;
                 var1 = undefined;
                 return var1;
@@ -241,7 +241,7 @@ case 19:
             var5 = var7[var4];
             var4 = 1;
             var4 = var7[var4];
-            var _closure2_slot6 = var4;
+            var _closure2_slot5 = var4;
             var8 = _closure1_slot5;
             var7 = var8.useEffect;
             var6 = new Array(1);
@@ -251,15 +251,15 @@ case 19:
 case 0:
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 11; continue _fun0005 }
-case 24:
-                    var3 = _closure2_slot6;
-                    var2 = _closure2_slot5;
+                    if(!(var2 != var3)) { _fun0005_ip = 24; continue _fun0005 }
+case 25:
+                    var3 = _closure2_slot5;
+                    var2 = _closure2_slot4;
                     var1 = var2.current;
                     var2 = var1.bind(var2)();
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
-case 11:
+case 24:
                     var1 = undefined;
                     return var1;
                 }
@@ -344,227 +344,57 @@ case 11:
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var1 = arg1;
-            var18 = var1.guild;
-            var _closure2_slot0 = var18;
+            var17 = var1.guild;
+            var _closure2_slot0 = var17;
             var2 = var1.onSuccess;
             var _closure2_slot1 = var2;
             var8 = var1.onClose;
             var _closure2_slot2 = var8;
-            var1 = _closure1_slot12;
             var5 = undefined;
-            var11 = var1.bind(var5)();
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 11;
-            var1 = var3[var1];
-            var2 = var2.bind(var5)(var1);
-            var1 = var2.useUserVerificationState;
-            var9 = var1.bind(var2)();
-            var _closure2_slot3 = var9;
-            var1 = _closure1_slot13;
-            var3 = var1.bind(var5)(var18);
-            var2 = _closure1_slot4;
-            var1 = 4;
-            var2 = var2.bind(var5)(var3, var1);
-            var7 = 0;
-            var17 = var2[var7];
-            var _closure2_slot4 = var17;
-            var6 = 1;
-            var1 = var2[var6];
-            var _closure2_slot5 = var1;
-            var14 = 2;
-            var3 = var2[var14];
-            var _closure2_slot6 = var3;
-            var1 = 3;
-            var2 = var2[var1];
-            var _closure2_slot7 = var2;
-            var12 = _closure1_slot5;
-            var4 = var12.useState;
-            var1 = false;
-            var4 = var4.bind(var12)(var1);
-            var1 = _closure1_slot4;
-            var1 = var1.bind(var5)(var4, var14);
-            var13 = var1[var7];
-            var1 = var1[var6];
-            var _closure2_slot8 = var1;
-            var12 = _closure1_slot5;
-            var4 = var12.useState;
-            var1 = null;
-            var12 = var4.bind(var12)(var1);
-            var4 = _closure1_slot4;
-            var4 = var4.bind(var5)(var12, var14);
-            var16 = var4[var7];
-            var4 = var4[var6];
-            var _closure2_slot9 = var4;
-            var7 = _closure1_slot5;
-            var6 = var7.useEffect;
-            var4 = new Array(2);
-            var4[0] = var8;
-            var4[1] = var3;
-            var3 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
-case 0:
-                    var3 = _closure2_slot6;
-                    var2 = _closure1_slot8;
-                    if(!(var3 === var2)) { _fun0007_ip = 25; continue _fun0007 }
-case 10:
-                    var3 = _closure2_slot2;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0007_ip = 25; continue _fun0007 }
-case 26:
-                    var3 = _closure2_slot2;
-                    var2 = undefined;
-                    var1 = false;
-                    var1 = var3.bind(var2)(var1);
-case 25:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var3 = var6.bind(var7)(var3, var4);
-            var6 = _closure1_slot5;
-            var4 = var6.useMemo;
-            var7 = var18.verificationLevel;
-            var3 = new Array(4);
-            var3[0] = var7;
-            var3[1] = var2;
-            var3[2] = var9;
-            var3[3] = var17;
-            var2 = function() {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
-case 0:
-                    var3 = _closure2_slot4;
-                    var1 = null;
-                    if(!(var1 != var3)) { _fun0008_ip = 27; continue _fun0008 }
-case 24:
-                    var4 = _closure2_slot4;
-                    var3 = var4.some;
-                    var1 = function(arg1) {
-                        var3 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var1 = 15;
-                        var2 = var2[var1];
-                        var1 = undefined;
-                        var3 = var3.bind(var1)(var2);
-                        var2 = var3.isValidFormResponse;
-                        var1 = arg1;
-                        var1 = var2.bind(var3)(var1);
-                        var1 = !var1;
-                        return var1;
-                    };
-                    var1 = var3.bind(var4)(var1);
-                    if(var1) { _fun0008_ip = 28; continue _fun0008 }
-case 27:
-                    var1 = _closure2_slot7;
-                    if(var1) { _fun0008_ip = 29; continue _fun0008 }
-case 30:
-                    var1 = _closure2_slot0;
-                    var4 = var1.verificationLevel;
-                    var3 = _closure1_slot9;
-                    var3 = var3.VERY_HIGH;
-                    if(!(var3 !== var4)) { _fun0008_ip = 31; continue _fun0008 }
-case 32:
-                    var3 = _closure1_slot9;
-                    var3 = var3.HIGH;
-                    if(!(var3 !== var4)) { _fun0008_ip = 33; continue _fun0008 }
-case 34:
-                    var3 = _closure1_slot9;
-                    var3 = var3.MEDIUM;
-                    if(!(var3 !== var4)) { _fun0008_ip = 33; continue _fun0008 }
-case 22:
-                    var3 = _closure1_slot9;
-                    var3 = var3.LOW;
-                    if(!(var3 !== var4)) { _fun0008_ip = 33; continue _fun0008 }
-case 35:
-                    var3 = _closure1_slot9;
-                    var3 = var3.NONE;
-                    var3 = false;
-                    return var3;
-case 33:
-                    var4 = _closure2_slot3;
-                    var5 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var8 = 13;
-                    var3 = var3[var8];
-                    var7 = undefined;
-                    var3 = var5.bind(var7)(var3);
-                    var3 = var3.UserVerificationFieldPlatforms;
-                    var3 = var3.EMAIL;
-                    var3 = var4[var3];
-                    var3 = !var3;
-                    if(!var3) { _fun0008_ip = 36; continue _fun0008 }
-case 37:
-                    var5 = _closure2_slot3;
-                    var6 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var4 = var4[var8];
-                    var4 = var6.bind(var7)(var4);
-                    var4 = var4.UserVerificationFieldPlatforms;
-                    var4 = var4.PHONE;
-                    var4 = var5[var4];
-                    var3 = !var4;
-case 36:
-                    return var3;
-case 31:
-                    var2 = _closure2_slot3;
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 13;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var1 = var4.bind(var1)(var3);
-                    var1 = var1.UserVerificationFieldPlatforms;
-                    var1 = var1.PHONE;
-                    var1 = var2[var1];
-                    var1 = !var1;
-                    return var1;
-case 29:
-                    var1 = false;
-                    return var1;
-case 28:
-                    var1 = true;
-                    return var1;
-                }
-            };
-            var14 = var4.bind(var6)(var2, var3);
-            var _closure2_slot10 = var14;
-            if(!(var1 != var17)) { _fun0006_ip = 38; continue _fun0006 }
-case 39:
-            var2 = function() {
-                var4 = _closure1_slot3;
-                var3 = undefined;
+            var _closure2_slot4 = var5;
+            var _closure2_slot6 = var5;
+            var _closure2_slot8 = var5;
+            var _closure2_slot9 = var5;
+            var _closure2_slot10 = var5;
+            var1 = function _handleSubmit() {
+                var4 = undefined;
+                var1 = undefined;
+                var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
-                        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0009_ip = 40; continue _fun0009 }
-case 13:
+                            if(var2) { _fun0007_ip = 26; continue _fun0007 }
+case 3:
                             var2 = undefined;
                             var5 = undefined;
                             var11 = undefined;
                             var9 = undefined;
                             var6 = undefined;
                             var7 = undefined;
-                            var4 = _closure2_slot10;
-                            if(var4) { _fun0009_ip = 41; continue _fun0009 }
-case 42:
-                            var4 = _closure2_slot9;
+                            var4 = _closure2_slot4;
                             var8 = null;
+                            if(!(var8 != var4)) { _fun0007_ip = 27; continue _fun0007 }
+case 28:
+                            var4 = _closure2_slot10;
+                            if(var4) { _fun0007_ip = 29; continue _fun0007 }
+case 30:
+                            var4 = _closure2_slot9;
                             var4 = var4.bind(var2)(var8);
                             var4 = _closure2_slot8;
                             var12 = true;
                             var4 = var4.bind(var2)(var12);
                             var13 = {};
                             var4 = _closure2_slot6;
-                            if(!(var8 == var4)) { _fun0009_ip = 43; continue _fun0009 }
-case 44:
+                            if(!(var8 == var4)) { _fun0007_ip = 31; continue _fun0007 }
+case 2:
                             var4 = _closure1_slot8;
-                            _fun0009_ip = 45; continue _fun0009;
-case 43:
+                            _fun0007_ip = 32; continue _fun0007;
+case 31:
                             var4 = _closure2_slot6;
-case 45:
+case 32:
                             var18 = var13;
                             var17 = var4;
                             var4 = copyDataProperties(var18, var17);
@@ -579,7 +409,7 @@ case 45:
                             var14 = 'formFields';
                             var13[13] = var15;
                             var5 = var13;
-case 46: // try_start_0
+case 33: // try_start_0
                             var14 = _closure1_slot1;
                             var15 = _closure1_slot2;
                             var13 = 16;
@@ -589,84 +419,84 @@ case 46: // try_start_0
                             var13 = _closure2_slot0;
                             var13 = var13.id;
                             var5 = var14.bind(var15)(var13, var5);
-                            SaveGenerator(address=185);
-case 47:
+                            SaveGenerator(address=196);
+case 19:
                             return var5;
-case 48:
+case 34:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=12);
-                            if(var13) { _fun0009_ip = 49; continue _fun0009 }
-case 50:
+                            if(var13) { _fun0007_ip = 35; continue _fun0007 }
+case 36:
                             var11 = var5;
                             var14 = _closure2_slot8;
                             var13 = false;
                             var13 = var14.bind(var2)(var13);
                             var13 = _closure2_slot1;
-                            if(!(var8 != var13)) { _fun0009_ip = 51; continue _fun0009 }
-case 52:
+                            if(!(var8 != var13)) { _fun0007_ip = 37; continue _fun0007 }
+case 38:
                             var13 = _closure2_slot1;
                             var11 = var13.bind(var2)(var11);
-case 51:
+case 37:
                             var11 = _closure2_slot2;
-                            if(!(var8 != var11)) { _fun0009_ip = 53; continue _fun0009 }
-case 54:
+                            if(!(var8 != var11)) { _fun0007_ip = 39; continue _fun0007 }
+case 40:
                             var11 = _closure2_slot2;
                             var11 = var11.bind(var2)(var12);
-case 53: // try_end0
-                            _fun0009_ip = 55; continue _fun0009;
-case 49:
+case 39: // try_end0
+                            _fun0007_ip = 27; continue _fun0007;
+case 35:
                             return var5;
-case 56: // catch_target0
+case 41: // catch_target0
                             CatchBlockStart(arg_register=4);
                             var10 = var5;
                             var11 = var8 == var5;
                             var5 = undefined;
-                            if(var11) { _fun0009_ip = 57; continue _fun0009 }
-case 58:
+                            if(var11) { _fun0007_ip = 42; continue _fun0007 }
+case 43:
                             var5 = var10.body;
-case 57:
+case 42:
                             var7 = var5;
                             var10 = var8 == var5;
                             var5 = undefined;
-                            if(var10) { _fun0009_ip = 59; continue _fun0009 }
-case 60:
+                            if(var10) { _fun0007_ip = 44; continue _fun0007 }
+case 45:
                             var10 = var7;
                             var10 = var10.errors;
                             var9 = var10;
                             var10 = var8 == var10;
                             var5 = undefined;
-                            if(var10) { _fun0009_ip = 59; continue _fun0009 }
-case 61:
+                            if(var10) { _fun0007_ip = 44; continue _fun0007 }
+case 46:
                             var5 = var9.version;
-case 59:
-                            if(!(var8 == var5)) { _fun0009_ip = 62; continue _fun0009 }
-case 63:
+case 44:
+                            if(!(var8 == var5)) { _fun0007_ip = 47; continue _fun0007 }
+case 48:
                             var5 = var7;
                             var9 = var8 == var5;
                             var5 = undefined;
-                            if(var9) { _fun0009_ip = 64; continue _fun0009 }
-case 65:
+                            if(var9) { _fun0007_ip = 49; continue _fun0007 }
+case 50:
                             var9 = var7;
                             var9 = var9.errors;
                             var6 = var9;
                             var9 = var8 == var9;
                             var5 = undefined;
-                            if(var9) { _fun0009_ip = 64; continue _fun0009 }
-case 66:
+                            if(var9) { _fun0007_ip = 49; continue _fun0007 }
+case 51:
                             var5 = var6.form_fields;
-case 64:
-                            if(!(var8 == var5)) { _fun0009_ip = 62; continue _fun0009 }
-case 67:
+case 49:
+                            if(!(var8 == var5)) { _fun0007_ip = 47; continue _fun0007 }
+case 52:
                             var6 = _closure2_slot9;
                             var5 = var7;
                             var8 = var8 == var5;
                             var5 = undefined;
-                            if(var8) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
+                            if(var8) { _fun0007_ip = 53; continue _fun0007 }
+case 54:
                             var5 = var7.message;
-case 68:
+case 53:
                             var5 = var6.bind(var2)(var5);
-                            _fun0009_ip = 70; continue _fun0009;
-case 62:
+                            _fun0007_ip = 55; continue _fun0007;
+case 47:
                             var5 = _closure2_slot9;
                             var8 = _closure1_slot0;
                             var9 = _closure1_slot2;
@@ -681,13 +511,13 @@ case 62:
                             var4 = var4.PD09Sl;
                             var4 = var6.bind(var7)(var4);
                             var4 = var5.bind(var2)(var4);
-case 70:
+case 55:
                             var4 = _closure2_slot8;
                             var3 = false;
                             var3 = var4.bind(var2)(var3);
-case 55:
+case 27:
                             return var2;
-case 41:
+case 29:
                             var7 = _closure1_slot1;
                             var8 = _closure1_slot2;
                             var3 = 8;
@@ -715,27 +545,201 @@ case 41:
                             var3['icon'] = var6;
                             var3 = var4.bind(var5)(var3);
                             return var2;
-case 40:
+case 26:
                             return var1;
                         }
                     };
                     return var1;
                 };
-                var2 = var4.bind(var3)(var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var1 = undefined;
-                    var4 = _closure3_slot0;
-                    var3 = var4.apply;
-                    var1 = arguments;
-                    var2 = var1;
-                    var1 = this;
-                    var1 = var3.bind(var4)(var1, var2);
-                    return var1;
-                };
+                var4 = var3.bind(var4)(var2);
+                _closure2_slot11 = var4;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
-            var12 = var2.bind(var5)();
+            var _closure2_slot11 = var1;
+            var1 = _closure1_slot12;
+            var11 = var1.bind(var5)();
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 11;
+            var1 = var3[var1];
+            var2 = var2.bind(var5)(var1);
+            var1 = var2.useUserVerificationState;
+            var9 = var1.bind(var2)();
+            var _closure2_slot3 = var9;
+            var1 = _closure1_slot13;
+            var3 = var1.bind(var5)(var17);
+            var2 = _closure1_slot4;
+            var1 = 4;
+            var2 = var2.bind(var5)(var3, var1);
+            var7 = 0;
+            var15 = var2[var7];
+            _closure2_slot4 = var15;
+            var6 = 1;
+            var1 = var2[var6];
+            var _closure2_slot5 = var1;
+            var16 = 2;
+            var3 = var2[var16];
+            _closure2_slot6 = var3;
+            var1 = 3;
+            var2 = var2[var1];
+            var _closure2_slot7 = var2;
+            var13 = _closure1_slot5;
+            var4 = var13.useState;
+            var1 = false;
+            var4 = var4.bind(var13)(var1);
+            var1 = _closure1_slot4;
+            var1 = var1.bind(var5)(var4, var16);
+            var13 = var1[var7];
+            var1 = var1[var6];
+            _closure2_slot8 = var1;
+            var14 = _closure1_slot5;
+            var4 = var14.useState;
+            var1 = null;
+            var14 = var4.bind(var14)(var1);
+            var4 = _closure1_slot4;
+            var4 = var4.bind(var5)(var14, var16);
+            var16 = var4[var7];
+            var4 = var4[var6];
+            _closure2_slot9 = var4;
+            var7 = _closure1_slot5;
+            var6 = var7.useEffect;
+            var4 = new Array(2);
+            var4[0] = var8;
+            var4[1] = var3;
+            var3 = function() {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                    var3 = _closure2_slot6;
+                    var2 = _closure1_slot8;
+                    if(!(var3 === var2)) { _fun0008_ip = 56; continue _fun0008 }
+case 23:
+                    var3 = _closure2_slot2;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0008_ip = 56; continue _fun0008 }
+case 57:
+                    var3 = _closure2_slot2;
+                    var2 = undefined;
+                    var1 = false;
+                    var1 = var3.bind(var2)(var1);
+case 56:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var3 = var6.bind(var7)(var3, var4);
+            var6 = _closure1_slot5;
+            var4 = var6.useMemo;
+            var7 = var17.verificationLevel;
+            var3 = new Array(4);
+            var3[0] = var7;
+            var3[1] = var2;
+            var3[2] = var9;
+            var3[3] = var15;
+            var2 = function() {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+                    var3 = _closure2_slot4;
+                    var1 = null;
+                    if(!(var1 != var3)) { _fun0009_ip = 58; continue _fun0009 }
+case 25:
+                    var4 = _closure2_slot4;
+                    var3 = var4.some;
+                    var1 = function(arg1) {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 15;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.isValidFormResponse;
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        var1 = !var1;
+                        return var1;
+                    };
+                    var1 = var3.bind(var4)(var1);
+                    if(var1) { _fun0009_ip = 59; continue _fun0009 }
+case 58:
+                    var1 = _closure2_slot7;
+                    if(var1) { _fun0009_ip = 60; continue _fun0009 }
+case 61:
+                    var1 = _closure2_slot0;
+                    var4 = var1.verificationLevel;
+                    var3 = _closure1_slot9;
+                    var3 = var3.VERY_HIGH;
+                    if(!(var3 !== var4)) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
+                    var3 = _closure1_slot9;
+                    var3 = var3.HIGH;
+                    if(!(var3 !== var4)) { _fun0009_ip = 64; continue _fun0009 }
+case 65:
+                    var3 = _closure1_slot9;
+                    var3 = var3.MEDIUM;
+                    if(!(var3 !== var4)) { _fun0009_ip = 64; continue _fun0009 }
+case 12:
+                    var3 = _closure1_slot9;
+                    var3 = var3.LOW;
+                    if(!(var3 !== var4)) { _fun0009_ip = 64; continue _fun0009 }
+case 66:
+                    var3 = _closure1_slot9;
+                    var3 = var3.NONE;
+                    var3 = false;
+                    return var3;
+case 64:
+                    var4 = _closure2_slot3;
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var8 = 13;
+                    var3 = var3[var8];
+                    var7 = undefined;
+                    var3 = var5.bind(var7)(var3);
+                    var3 = var3.UserVerificationFieldPlatforms;
+                    var3 = var3.EMAIL;
+                    var3 = var4[var3];
+                    var3 = !var3;
+                    if(!var3) { _fun0009_ip = 67; continue _fun0009 }
+case 68:
+                    var5 = _closure2_slot3;
+                    var6 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var8];
+                    var4 = var6.bind(var7)(var4);
+                    var4 = var4.UserVerificationFieldPlatforms;
+                    var4 = var4.PHONE;
+                    var4 = var5[var4];
+                    var3 = !var4;
+case 67:
+                    return var3;
+case 62:
+                    var2 = _closure2_slot3;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 13;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var1 = var4.bind(var1)(var3);
+                    var1 = var1.UserVerificationFieldPlatforms;
+                    var1 = var1.PHONE;
+                    var1 = var2[var1];
+                    var1 = !var1;
+                    return var1;
+case 60:
+                    var1 = false;
+                    return var1;
+case 59:
+                    var1 = true;
+                    return var1;
+                }
+            };
+            var14 = var4.bind(var6)(var2, var3);
+            _closure2_slot10 = var14;
+            if(!(var1 != var15)) { _fun0006_ip = 69; continue _fun0006 }
+case 70:
             var4 = _closure1_slot11;
             var3 = _closure1_slot6;
             var2 = {};
@@ -743,44 +747,55 @@ case 40:
             var2['style'] = var6;
             var8 = _closure1_slot10;
             var7 = _closure1_slot1;
-            var19 = _closure1_slot2;
+            var18 = _closure1_slot2;
             var6 = 17;
-            var6 = var19[var6];
+            var6 = var18[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
-            var18 = var18.rulesChannelId;
-            var6['rulesChannelId'] = var18;
-            var6['formFields'] = var17;
-            var15 = function onChange(arg1, arg2) {
-                var7 = arg1;
-                var6 = _closure2_slot4;
-                var5 = var6[var7];
-                var3 = _closure2_slot5;
-                var1 = var6.slice;
-                var4 = 0;
-                var10 = var1.bind(var6)(var4, var7);
-                var2 = new Array(1);
-                var11 = var2;
-                var9 = 0;
-                var4 = arraySpread(var11, var10, var9);
-                var1 = {};
-                var11 = var1;
-                var10 = var5;
-                var5 = copyDataProperties(var11, var10);
-                var8 = arg2;
-                var5 = 'response';
-                var1[4] = var8;
-                var2[3] = var1;
-                var1 = 1;
-                var9 = var4 + var1;
-                var5 = var6.slice;
-                var1 = var7 + var1;
-                var10 = var5.bind(var6)(var1);
-                var11 = var2;
-                var1 = arraySpread(var11, var10, var9);
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                return var1;
+            var17 = var17.rulesChannelId;
+            var6['rulesChannelId'] = var17;
+            var6['formFields'] = var15;
+            var15 = function handleFormChange(arg1, arg2) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+                    var7 = arg1;
+                    var2 = _closure2_slot4;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0010_ip = 71; continue _fun0010 }
+case 72:
+                    var1 = _closure2_slot4;
+                    var6 = var1[var7];
+                    var3 = _closure2_slot5;
+                    var2 = _closure2_slot4;
+                    var1 = var2.slice;
+                    var4 = 0;
+                    var10 = var1.bind(var2)(var4, var7);
+                    var2 = new Array(1);
+                    var11 = var2;
+                    var9 = 0;
+                    var4 = arraySpread(var11, var10, var9);
+                    var1 = {};
+                    var11 = var1;
+                    var10 = var6;
+                    var6 = copyDataProperties(var11, var10);
+                    var8 = arg2;
+                    var6 = 'response';
+                    var1[5] = var8;
+                    var2[3] = var1;
+                    var1 = 1;
+                    var9 = var4 + var1;
+                    var6 = _closure2_slot4;
+                    var5 = var6.slice;
+                    var1 = var7 + var1;
+                    var10 = var5.bind(var6)(var1);
+                    var11 = var2;
+                    var1 = arraySpread(var11, var10, var9);
+                    var1 = undefined;
+                    var1 = var3.bind(var1)(var2);
+case 71:
+                    var1 = undefined;
+                    return var1;
+                }
             };
             var6['onChange'] = var15;
             var6['verification'] = var9;
@@ -789,8 +804,8 @@ case 40:
             var6[0] = var7;
             var8 = var1 != var16;
             var7 = null;
-            if(!var8) { _fun0006_ip = 71; continue _fun0006 }
-case 72:
+            if(!var8) { _fun0006_ip = 73; continue _fun0006 }
+case 74:
             var15 = _closure1_slot10;
             var9 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -802,7 +817,7 @@ case 72:
             var8['style'] = var17;
             var8['children'] = var16;
             var7 = var15.bind(var5)(var9, var8);
-case 71:
+case 73:
             var6[1] = var7;
             var9 = _closure1_slot10;
             var8 = _closure1_slot6;
@@ -828,11 +843,21 @@ case 71:
             var15 = var16.bind(var17)(var15);
             var10['text'] = var15;
             var10['loading'] = var13;
-            if(var13) { _fun0006_ip = 73; continue _fun0006 }
-case 74:
+            if(var13) { _fun0006_ip = 75; continue _fun0006 }
+case 76:
             var13 = var14;
-case 73:
+case 75:
             var10['disabled'] = var13;
+            var12 = function handleSubmit() {
+                var1 = undefined;
+                var4 = _closure2_slot11;
+                var3 = var4.apply;
+                var1 = arguments;
+                var2 = var1;
+                var1 = this;
+                var1 = var3.bind(var4)(var1, var2);
+                return var1;
+            };
             var10['onPress'] = var12;
             var10 = var9.bind(var5)(var11, var10);
             var7['children'] = var10;
@@ -841,7 +866,7 @@ case 73:
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
-case 38:
+case 69:
             return var1;
         }
     };

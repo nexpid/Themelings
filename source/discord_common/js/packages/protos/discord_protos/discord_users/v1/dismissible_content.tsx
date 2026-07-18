@@ -2378,6 +2378,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BOUNTIES_RECURRING_SWIPE_UP_NUX'] = var2;
     var1 = 'BOUNTIES_RECURRING_SWIPE_UP_NUX';
     var4[var2] = var1;
+    var2 = 796;
+    var4['SHOP_THIS_LOOK_WEB_MARKETING'] = var2;
+    var1 = 'SHOP_THIS_LOOK_WEB_MARKETING';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

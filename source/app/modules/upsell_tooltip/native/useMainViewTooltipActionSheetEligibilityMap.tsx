@@ -167,19 +167,19 @@ case 6:
             var3 = 2;
             var7 = var7.bind(var6)(var8, var3);
             var3 = 0;
-            var21 = var7[var3];
+            var22 = var7[var3];
             var3 = 1;
-            var27 = var7[var3];
+            var28 = var7[var3];
             var3 = 13;
             var3 = var10[var3];
             var7 = var9.bind(var6)(var3);
             var3 = var7.usePremiumDiscountOffer;
-            var28 = var3.bind(var7)();
+            var29 = var3.bind(var7)();
             var3 = 14;
             var3 = var10[var3];
             var7 = var9.bind(var6)(var3);
             var3 = var7.usePremiumTrialOffer;
-            var26 = var3.bind(var7)();
+            var27 = var3.bind(var7)();
             var3 = 15;
             var3 = var10[var3];
             var3 = var9.bind(var6)(var3);
@@ -188,7 +188,7 @@ case 6:
             var3 = {};
             var3['location'] = var4;
             var3 = var7.bind(var8)(var3);
-            var25 = var3.enabled;
+            var26 = var3.enabled;
             var3 = 16;
             var3 = var10[var3];
             var8 = var9.bind(var6)(var3);
@@ -198,23 +198,23 @@ case 6:
             var3 = var9.bind(var6)(var3);
             var3 = var3.MarketingComponentType;
             var3 = var3.MOBILE_BOTTOM_SHEET;
-            var23 = var7.bind(var8)(var3);
-            var19 = null;
-            var3 = var19 == var23;
+            var24 = var7.bind(var8)(var3);
+            var20 = null;
+            var3 = var20 == var24;
             var7 = undefined;
             if(var3) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var3 = var23.properties;
+            var3 = var24.properties;
             var3 = var3.properties;
             var7 = var3.oneofKind;
 case 8:
             var3 = 'mobileBottomSheet';
-            var22 = null;
+            var23 = null;
             if(!(var3 === var7)) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var3 = var23.properties;
+            var3 = var24.properties;
             var3 = var3.properties;
-            var22 = var3.mobileBottomSheet;
+            var23 = var3.mobileBottomSheet;
 case 10:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -240,7 +240,7 @@ case 12:
                     return var1;
                 }
             };
-            var16 = var12.bind(var13)(var10, var9);
+            var17 = var12.bind(var13)(var10, var9);
             var9 = var7[var5];
             var13 = var3.bind(var6)(var9);
             var12 = var13.useStateFromStores;
@@ -279,7 +279,7 @@ case 14:
                     return var1;
                 }
             };
-            var24 = var12.bind(var13)(var10, var9);
+            var25 = var12.bind(var13)(var10, var9);
             var9 = var7[var5];
             var12 = var3.bind(var6)(var9);
             var10 = var12.useStateFromStores;
@@ -318,7 +318,7 @@ case 14:
                     return var1;
                 }
             };
-            var17 = var10.bind(var12)(var9, var8);
+            var18 = var10.bind(var12)(var9, var8);
             var8 = 18;
             var8 = var7[var8];
             var8 = var3.bind(var6)(var8);
@@ -327,7 +327,7 @@ case 14:
             var8 = {};
             var8['location'] = var4;
             var8 = var9.bind(var10)(var8);
-            var20 = var8.enabled;
+            var21 = var8.enabled;
             var8 = 19;
             var8 = var7[var8];
             var10 = var3.bind(var6)(var8);
@@ -397,31 +397,40 @@ case 17:
             var2 = var7[var2];
             var10 = var3.bind(var6)(var2);
             var2 = var10.useShouldShowRobloxConnectionCoachmark;
-            var15 = var2.bind(var10)();
+            var16 = var2.bind(var10)();
             var2 = 24;
             var2 = var7[var2];
             var10 = var3.bind(var6)(var2);
             var2 = var10.useIsEligibleForBogoPromotion;
-            var14 = var2.bind(var10)();
-            var2 = _closure1_slot10;
-            var10 = var2.LEAGUE_OF_LEGENDS;
-            var12 = new Array(2);
-            var12[0] = var10;
-            var2 = var2.RIOT_GAMES;
-            var12[1] = var2;
+            var15 = var2.bind(var10)();
+            var19 = _closure1_slot10;
+            var2 = var19.LEAGUE_OF_LEGENDS;
+            var13 = new Array(2);
+            var13[0] = var2;
+            var2 = var19.RIOT_GAMES;
+            var13[1] = var2;
             var2 = 25;
+            var10 = var7[var2];
+            var14 = var3.bind(var6)(var10);
+            var12 = var14.useShouldShowConnectionDeprecationBottomSheet;
+            var10 = {};
+            var10['deprecatedPlatformTypes'] = var13;
+            var12 = var12.bind(var14)(var10);
             var2 = var7[var2];
-            var13 = var3.bind(var6)(var2);
-            var10 = var13.useShouldShowConnectionDeprecationBottomSheet;
+            var14 = var3.bind(var6)(var2);
+            var10 = var14.useShouldShowConnectionDeprecationBottomSheet;
             var2 = {};
-            var2['deprecatedPlatformTypes'] = var12;
-            var10 = var10.bind(var13)(var2);
+            var30 = var19.BATTLENET;
+            var19 = new Array(1);
+            var19[0] = var30;
+            var2['deprecatedPlatformTypes'] = var19;
+            var10 = var10.bind(var14)(var2);
             var2 = 26;
             var2 = var7[var2];
             var3 = var3.bind(var6)(var2);
             var2 = var3.useIsDisplayNameStylesFlywheelSettersEnabled;
-            var13 = var2.bind(var3)(var4);
-            var18 = var19 != var24;
+            var14 = var2.bind(var3)(var4);
+            var19 = var20 != var25;
             if(var1) { _fun0001_ip = 19; continue _fun0001 }
 case 20:
             var1 = {};
@@ -436,20 +445,20 @@ case 19:
             var3 = var3.DismissibleContent;
             var4 = var3.GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET;
             var3 = {};
-            if(!var21) { _fun0001_ip = 22; continue _fun0001 }
+            if(!var22) { _fun0001_ip = 22; continue _fun0001 }
 case 23:
-            var21 = var19 != var27;
+            var22 = var20 != var28;
 case 22:
-            var3['isEligible'] = var21;
-            var29 = var19 == var27;
-            var21 = undefined;
-            if(var29) { _fun0001_ip = 24; continue _fun0001 }
+            var3['isEligible'] = var22;
+            var30 = var20 == var28;
+            var22 = undefined;
+            if(var30) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
-            var21 = var27.priceChangeId;
+            var22 = var28.priceChangeId;
 case 24:
-            var3['newSnowflakeId'] = var21;
-            var21 = {};
-            var3['actionSheetProperties'] = var21;
+            var3['newSnowflakeId'] = var22;
+            var22 = {};
+            var3['actionSheetProperties'] = var22;
             var2[3] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -458,30 +467,30 @@ case 24:
             var3 = var3.DismissibleContent;
             var4 = var3.DISCOUNT_OFFER_ACTION_SHEET;
             var3 = {};
-            var21 = var19 != var28;
-            if(!var21) { _fun0001_ip = 26; continue _fun0001 }
+            var22 = var20 != var29;
+            if(!var22) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var27 = var28.expiresAt;
-            var21 = var19 == var27;
+            var28 = var29.expiresAt;
+            var22 = var20 == var28;
 case 26:
-            var3['isEligible'] = var21;
-            var27 = var19 == var28;
-            var21 = undefined;
-            if(var27) { _fun0001_ip = 28; continue _fun0001 }
+            var3['isEligible'] = var22;
+            var28 = var20 == var29;
+            var22 = undefined;
+            if(var28) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-            var21 = var28.id;
+            var22 = var29.id;
 case 28:
-            var3['newSnowflakeId'] = var21;
-            if(!(var19 == var28)) { _fun0001_ip = 30; continue _fun0001 }
+            var3['newSnowflakeId'] = var22;
+            if(!(var20 == var29)) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
-            var21 = {};
+            var22 = {};
             _fun0001_ip = 32; continue _fun0001;
 case 30:
-            var27 = {};
-            var27['userDiscountOffer'] = var28;
-            var21 = var27;
+            var28 = {};
+            var28['userDiscountOffer'] = var29;
+            var22 = var28;
 case 32:
-            var3['actionSheetProperties'] = var21;
+            var3['actionSheetProperties'] = var22;
             var2[3] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -490,41 +499,41 @@ case 32:
             var3 = var3.DismissibleContent;
             var4 = var3.MOBILE_PREMIUM_TRIAL_OFFER_ACTION_SHEET;
             var3 = {};
-            var21 = var19 != var26;
-            if(!var21) { _fun0001_ip = 33; continue _fun0001 }
+            var22 = var20 != var27;
+            if(!var22) { _fun0001_ip = 33; continue _fun0001 }
 case 34:
-            var27 = var26.expires_at;
-            var21 = var19 == var27;
+            var28 = var27.expires_at;
+            var22 = var20 == var28;
 case 33:
-            if(!var21) { _fun0001_ip = 35; continue _fun0001 }
+            if(!var22) { _fun0001_ip = 35; continue _fun0001 }
 case 36:
-            var21 = !var25;
+            var22 = !var26;
 case 35:
-            if(!var21) { _fun0001_ip = 37; continue _fun0001 }
+            if(!var22) { _fun0001_ip = 37; continue _fun0001 }
 case 38:
-            var28 = _closure1_slot12;
-            var27 = var28.has;
-            var25 = var26.trial_id;
-            var21 = var27.bind(var28)(var25);
+            var29 = _closure1_slot12;
+            var28 = var29.has;
+            var26 = var27.trial_id;
+            var22 = var28.bind(var29)(var26);
 case 37:
-            var3['isEligible'] = var21;
-            var25 = var19 == var26;
-            var21 = undefined;
-            if(var25) { _fun0001_ip = 39; continue _fun0001 }
+            var3['isEligible'] = var22;
+            var26 = var20 == var27;
+            var22 = undefined;
+            if(var26) { _fun0001_ip = 39; continue _fun0001 }
 case 40:
-            var21 = var26.id;
+            var22 = var27.id;
 case 39:
-            var3['newSnowflakeId'] = var21;
-            if(!(var19 == var26)) { _fun0001_ip = 41; continue _fun0001 }
+            var3['newSnowflakeId'] = var22;
+            if(!(var20 == var27)) { _fun0001_ip = 41; continue _fun0001 }
 case 42:
-            var21 = {};
+            var22 = {};
             _fun0001_ip = 43; continue _fun0001;
 case 41:
-            var25 = {};
-            var25['userTrialOffer'] = var26;
-            var21 = var25;
+            var26 = {};
+            var26['userTrialOffer'] = var27;
+            var22 = var26;
 case 43:
-            var3['actionSheetProperties'] = var21;
+            var3['actionSheetProperties'] = var22;
             var2[3] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -533,44 +542,44 @@ case 43:
             var3 = var3.DismissibleContent;
             var4 = var3.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
             var3 = {};
-            var21 = var19 == var22;
-            var25 = undefined;
-            if(var21) { _fun0001_ip = 44; continue _fun0001 }
+            var22 = var20 == var23;
+            var26 = undefined;
+            if(var22) { _fun0001_ip = 44; continue _fun0001 }
 case 45:
-            var25 = var22.dismissibleContent;
+            var26 = var23.dismissibleContent;
 case 44:
-            var26 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var21 = var21[var7];
-            var21 = var26.bind(var6)(var21);
-            var21 = var21.DismissibleContent;
-            var21 = var21.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
-            var21 = var25 === var21;
-            var3['isEligible'] = var21;
-            var25 = var19 == var23;
-            var21 = undefined;
-            if(var25) { _fun0001_ip = 46; continue _fun0001 }
+            var27 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var22 = var22[var7];
+            var22 = var27.bind(var6)(var22);
+            var22 = var22.DismissibleContent;
+            var22 = var22.PREMIUM_MARKETING_MOMENT_ANNOUNCEMENT_UPSELL;
+            var22 = var26 === var22;
+            var3['isEligible'] = var22;
+            var26 = var20 == var24;
+            var22 = undefined;
+            if(var26) { _fun0001_ip = 46; continue _fun0001 }
 case 47:
-            var21 = var23.promotionId;
+            var22 = var24.promotionId;
 case 46:
-            var3['newSnowflakeId'] = var21;
-            var21 = {};
-            var21['bottomSheetData'] = var22;
-            var26 = var19 == var23;
-            var25 = undefined;
-            if(var26) { _fun0001_ip = 48; continue _fun0001 }
+            var3['newSnowflakeId'] = var22;
+            var22 = {};
+            var22['bottomSheetData'] = var23;
+            var27 = var20 == var24;
+            var26 = undefined;
+            if(var27) { _fun0001_ip = 48; continue _fun0001 }
 case 49:
-            var25 = var23.id;
+            var26 = var24.id;
 case 48:
-            var21['componentId'] = var25;
-            var26 = var19 == var23;
-            var25 = undefined;
-            if(var26) { _fun0001_ip = 50; continue _fun0001 }
+            var22['componentId'] = var26;
+            var27 = var20 == var24;
+            var26 = undefined;
+            if(var27) { _fun0001_ip = 50; continue _fun0001 }
 case 51:
-            var25 = var23.promotionId;
+            var26 = var24.promotionId;
 case 50:
-            var21['promotionId'] = var25;
-            var3['actionSheetProperties'] = var21;
+            var22['promotionId'] = var26;
+            var3['actionSheetProperties'] = var22;
             var2[3] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -579,96 +588,96 @@ case 50:
             var3 = var3.DismissibleContent;
             var4 = var3.PREMIUM_MARKETING_MOMENT_REMINDER_UPSELL;
             var3 = {};
-            var21 = var19 == var22;
-            var25 = undefined;
-            if(var21) { _fun0001_ip = 52; continue _fun0001 }
+            var22 = var20 == var23;
+            var26 = undefined;
+            if(var22) { _fun0001_ip = 52; continue _fun0001 }
 case 53:
-            var25 = var22.dismissibleContent;
+            var26 = var23.dismissibleContent;
 case 52:
-            var26 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var21 = var21[var7];
-            var21 = var26.bind(var6)(var21);
-            var21 = var21.DismissibleContent;
-            var21 = var21.PREMIUM_MARKETING_MOMENT_REMINDER_UPSELL;
-            var21 = var25 === var21;
-            var3['isEligible'] = var21;
-            var25 = var19 == var23;
-            var21 = undefined;
-            if(var25) { _fun0001_ip = 54; continue _fun0001 }
-case 55:
-            var21 = var23.promotionId;
-case 54:
-            var3['newSnowflakeId'] = var21;
-            var21 = {};
-            var21['bottomSheetData'] = var22;
-            var25 = var19 == var23;
+            var27 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var22 = var22[var7];
+            var22 = var27.bind(var6)(var22);
+            var22 = var22.DismissibleContent;
+            var22 = var22.PREMIUM_MARKETING_MOMENT_REMINDER_UPSELL;
+            var22 = var26 === var22;
+            var3['isEligible'] = var22;
+            var26 = var20 == var24;
             var22 = undefined;
-            if(var25) { _fun0001_ip = 56; continue _fun0001 }
+            if(var26) { _fun0001_ip = 54; continue _fun0001 }
+case 55:
+            var22 = var24.promotionId;
+case 54:
+            var3['newSnowflakeId'] = var22;
+            var22 = {};
+            var22['bottomSheetData'] = var23;
+            var26 = var20 == var24;
+            var23 = undefined;
+            if(var26) { _fun0001_ip = 56; continue _fun0001 }
 case 57:
-            var22 = var23.id;
+            var23 = var24.id;
 case 56:
-            var21['componentId'] = var22;
-            var3['actionSheetProperties'] = var21;
+            var22['componentId'] = var23;
+            var3['actionSheetProperties'] = var22;
             var2[3] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var21 = var3[var7];
-            var21 = var4.bind(var6)(var21);
-            var21 = var21.DismissibleContent;
-            var22 = var21.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            var21 = {};
-            var21['isEligible'] = var18;
-            var21['newSnowflakeId'] = var16;
-            var23 = {};
-            var23['coachmarkComponent'] = var24;
-            var21['actionSheetProperties'] = var23;
-            var2[21] = var21;
+            var22 = var3[var7];
+            var22 = var4.bind(var6)(var22);
+            var22 = var22.DismissibleContent;
+            var23 = var22.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+            var22 = {};
+            var22['isEligible'] = var19;
+            var22['newSnowflakeId'] = var17;
+            var24 = {};
+            var24['coachmarkComponent'] = var25;
+            var22['actionSheetProperties'] = var24;
+            var2[22] = var22;
             var3 = var3[var7];
             var3 = var4.bind(var6)(var3);
             var3 = var3.DismissibleContent;
             var4 = var3.GIFTING_PROMOTION_REMINDER;
             var3 = {};
-            var21 = !var18;
-            if(!var18) { _fun0001_ip = 58; continue _fun0001 }
+            var22 = !var19;
+            if(!var19) { _fun0001_ip = 58; continue _fun0001 }
 case 59:
-            var21 = var19 == var17;
+            var22 = var20 == var18;
 case 58:
-            var18 = !var21;
-            if(var21) { _fun0001_ip = 60; continue _fun0001 }
+            var19 = !var22;
+            if(var22) { _fun0001_ip = 60; continue _fun0001 }
 case 61:
-            var18 = var19 != var16;
+            var19 = var20 != var17;
 case 60:
-            if(!var18) { _fun0001_ip = 62; continue _fun0001 }
+            if(!var19) { _fun0001_ip = 62; continue _fun0001 }
 case 63:
-            var24 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var22 = 28;
-            var22 = var21[var22];
-            var23 = var24.bind(var6)(var22);
-            var22 = var23.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
-            var21 = var21[var7];
-            var21 = var24.bind(var6)(var21);
-            var21 = var21.DismissibleContent;
-            var21 = var21.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            var21 = var22.bind(var23)(var21, var16);
-            var21 = var21.isDismissed;
-            var21 = !var21;
-            var18 = !var21;
+            var25 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var23 = 28;
+            var23 = var22[var23];
+            var24 = var25.bind(var6)(var23);
+            var23 = var24.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
+            var22 = var22[var7];
+            var22 = var25.bind(var6)(var22);
+            var22 = var22.DismissibleContent;
+            var22 = var22.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+            var22 = var23.bind(var24)(var22, var17);
+            var22 = var22.isDismissed;
+            var22 = !var22;
+            var19 = !var22;
 case 62:
-            if(!var18) { _fun0001_ip = 64; continue _fun0001 }
+            if(!var19) { _fun0001_ip = 64; continue _fun0001 }
 case 65:
-            var18 = var20;
+            var19 = var21;
 case 64:
-            if(!var18) { _fun0001_ip = 66; continue _fun0001 }
+            if(!var19) { _fun0001_ip = 66; continue _fun0001 }
 case 67:
-            var18 = var19 != var17;
+            var19 = var20 != var18;
 case 66:
-            var3['isEligible'] = var18;
-            var3['newSnowflakeId'] = var16;
-            var16 = {};
-            var16['coachmarkComponent'] = var17;
-            var3['actionSheetProperties'] = var16;
+            var3['isEligible'] = var19;
+            var3['newSnowflakeId'] = var17;
+            var17 = {};
+            var17['coachmarkComponent'] = var18;
+            var3['actionSheetProperties'] = var17;
             var2[3] = var3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -692,7 +701,16 @@ case 68:
             var8 = var8.DismissibleContent;
             var9 = var8.CUSTOM_APP_ICONS_COACHMARK;
             var8 = {};
-            var16 = true;
+            var17 = true;
+            var8['isEligible'] = var17;
+            var17 = {};
+            var8['actionSheetProperties'] = var17;
+            var2[8] = var8;
+            var8 = var3[var7];
+            var8 = var4.bind(var6)(var8);
+            var8 = var8.DismissibleContent;
+            var9 = var8.ROBLOX_CONNECTION_COACHMARK;
+            var8 = {};
             var8['isEligible'] = var16;
             var16 = {};
             var8['actionSheetProperties'] = var16;
@@ -700,7 +718,7 @@ case 68:
             var8 = var3[var7];
             var8 = var4.bind(var6)(var8);
             var8 = var8.DismissibleContent;
-            var9 = var8.ROBLOX_CONNECTION_COACHMARK;
+            var9 = var8.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
             var8 = {};
             var8['isEligible'] = var15;
             var15 = {};
@@ -709,7 +727,7 @@ case 68:
             var8 = var3[var7];
             var8 = var4.bind(var6)(var8);
             var8 = var8.DismissibleContent;
-            var9 = var8.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+            var9 = var8.DISPLAY_NAME_STYLES_FLYWHEEL_MOBILE_COACHMARK;
             var8 = {};
             var8['isEligible'] = var14;
             var14 = {};
@@ -718,32 +736,37 @@ case 68:
             var8 = var3[var7];
             var8 = var4.bind(var6)(var8);
             var8 = var8.DismissibleContent;
-            var9 = var8.DISPLAY_NAME_STYLES_FLYWHEEL_MOBILE_COACHMARK;
+            var9 = var8.RIOT_CONNECTION_DEPRECATION_DISABLE;
             var8 = {};
-            var8['isEligible'] = var13;
-            var13 = {};
-            var8['actionSheetProperties'] = var13;
+            var8['isEligible'] = var12;
+            var12 = {};
+            var12['platformTypes'] = var13;
+            var13 = 29;
+            var13 = var3[var13];
+            var13 = var4.bind(var6)(var13);
+            var15 = var13.intl;
+            var14 = var15.string;
+            var16 = _closure1_slot1;
+            var13 = 30;
+            var13 = var3[var13];
+            var13 = var16.bind(var6)(var13);
+            var13 = var13["1S6oAo"];
+            var13 = var14.bind(var15)(var13);
+            var12['applicationName'] = var13;
+            var8['actionSheetProperties'] = var12;
             var2[8] = var8;
             var8 = var3[var7];
             var8 = var4.bind(var6)(var8);
             var8 = var8.DismissibleContent;
-            var9 = var8.RIOT_CONNECTION_DEPRECATION_DISABLE;
+            var9 = var8.BATTLENET_CONNECTION_DEPRECATION_DISABLE;
             var8 = {};
             var8['isEligible'] = var10;
             var10 = {};
-            var10['platformTypes'] = var12;
-            var12 = 29;
-            var12 = var3[var12];
-            var12 = var4.bind(var6)(var12);
-            var13 = var12.intl;
-            var12 = var13.string;
-            var14 = _closure1_slot1;
-            var11 = 30;
-            var11 = var3[var11];
-            var11 = var14.bind(var6)(var11);
-            var11 = var11["1S6oAo"];
-            var11 = var12.bind(var13)(var11);
-            var10['applicationName'] = var11;
+            var11 = _closure1_slot10;
+            var12 = var11.BATTLENET;
+            var11 = new Array(1);
+            var11[0] = var12;
+            var10['platformTypes'] = var11;
             var8['actionSheetProperties'] = var10;
             var2[8] = var8;
             var3 = var3[var7];

@@ -45,36 +45,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = arg1;
         var17 = var1.duration;
         var _closure2_slot0 = var17;
-        var2 = var1.isQuestCompleted;
-        var _closure2_slot1 = var2;
-        var6 = var1.playerState;
-        var _closure2_slot2 = var6;
-        var12 = var1.questId;
-        var _closure2_slot3 = var12;
-        var9 = var1.sourceQuestContent;
-        var _closure2_slot4 = var9;
+        var4 = var1.isQuestCompleted;
+        var _closure2_slot1 = var4;
+        var11 = var1.playerState;
+        var _closure2_slot2 = var11;
+        var9 = var1.questId;
+        var _closure2_slot3 = var9;
+        var6 = var1.sourceQuestContent;
+        var _closure2_slot4 = var6;
         var14 = var1.videoAssetId;
         var _closure2_slot5 = var14;
-        var11 = var1.videoSessionId;
-        var _closure2_slot6 = var11;
-        var8 = _closure1_slot3;
-        var4 = var8.useRef;
+        var8 = var1.videoSessionId;
+        var _closure2_slot6 = var8;
+        var5 = _closure1_slot3;
+        var7 = var5.useRef;
         var3 = null;
-        var4 = var4.bind(var8)(var3);
-        var _closure2_slot7 = var4;
-        var4 = var8.useRef;
-        var4 = var4.bind(var8)(var3);
-        var _closure2_slot8 = var4;
+        var7 = var7.bind(var5)(var3);
+        var _closure2_slot7 = var7;
+        var7 = var5.useRef;
+        var7 = var7.bind(var5)(var3);
+        var _closure2_slot8 = var7;
         var13 = _closure1_slot0;
         var15 = _closure1_slot2;
-        var4 = 4;
-        var7 = var15[var4];
-        var4 = undefined;
-        var10 = var13.bind(var4)(var7);
-        var7 = var10.useQuestImpression;
-        var10 = var7.bind(var10)();
-        var _closure2_slot9 = var10;
-        var18 = var8.useEffect;
+        var7 = 4;
+        var7 = var15[var7];
+        var10 = undefined;
+        var12 = var13.bind(var10)(var7);
+        var7 = var12.useQuestImpression;
+        var7 = var7.bind(var12)();
+        var _closure2_slot9 = var7;
+        var18 = var5.useEffect;
         var16 = function() {
             var2 = _closure2_slot8;
             var1 = global;
@@ -85,16 +85,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             return var1;
         };
-        var7 = new Array(0);
-        var7 = var18.bind(var8)(var16, var7);
-        var18 = var8.useEffect;
+        var12 = new Array(0);
+        var12 = var18.bind(var5)(var16, var12);
+        var18 = var5.useEffect;
         var16 = new Array(5);
-        var16[0] = var12;
-        var16[1] = var11;
-        var16[2] = var6;
-        var16[3] = var10;
-        var16[4] = var9;
-        var7 = function() {
+        var16[0] = var9;
+        var16[1] = var8;
+        var16[2] = var11;
+        var16[3] = var7;
+        var16[4] = var6;
+        var12 = function() {
             var5 = _closure1_slot4;
             var4 = var5.addEventListener;
             var3 = 'change';
@@ -166,17 +166,17 @@ case 2:
             };
             return var1;
         };
-        var7 = var18.bind(var8)(var7, var16);
-        var16 = var8.useCallback;
-        var7 = new Array(7);
-        var7[0] = var12;
-        var7[1] = var14;
-        var7[2] = var2;
-        var7[3] = var11;
-        var7[4] = var17;
-        var7[5] = var10;
-        var7[6] = var9;
-        var2 = function(arg1) {
+        var12 = var18.bind(var5)(var12, var16);
+        var16 = var5.useCallback;
+        var12 = new Array(7);
+        var12[0] = var9;
+        var12[1] = var14;
+        var12[2] = var4;
+        var12[3] = var8;
+        var12[4] = var17;
+        var12[5] = var7;
+        var12[6] = var6;
+        var4 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var6 = arg1;
@@ -243,43 +243,44 @@ case 9:
                 return var1;
             }
         };
-        var16 = var16.bind(var8)(var2, var7);
-        var18 = var8.useCallback;
-        var7 = function() {
+        var16 = var16.bind(var5)(var4, var12);
+        var18 = var5.useCallback;
+        var12 = function() {
             var1 = _closure2_slot7;
             var1 = var1.current;
             return var1;
         };
-        var2 = new Array(0);
-        var18 = var18.bind(var8)(var7, var2);
-        var2 = _closure1_slot1;
-        var7 = 7;
-        var1 = var15[var7];
-        var2 = var2.bind(var4)(var1);
+        var4 = new Array(0);
+        var18 = var18.bind(var5)(var12, var4);
+        var4 = _closure1_slot1;
+        var12 = 7;
+        var1 = var15[var12];
+        var4 = var4.bind(var10)(var1);
         var1 = {};
         var1['getCurrentVideoTime'] = var18;
         var1['onAnalytics'] = var16;
-        var16 = var15[var7];
-        var16 = var13.bind(var4)(var16);
+        var16 = var15[var12];
+        var16 = var13.bind(var10)(var16);
         var16 = var16.SEGMENT_ANALYTICS_EMIT_INTERVAL_MS;
         var1['emitIntervalMs'] = var16;
-        var7 = var15[var7];
-        var7 = var13.bind(var4)(var7);
-        var7 = var7.SEGMENT_ANALYTICS_MIN_DURATION_MS;
-        var1['minSegmentDurationMs'] = var7;
-        var2 = var2.bind(var4)(var1);
-        var1 = var2.handlePlayerStateChange;
+        var12 = var15[var12];
+        var12 = var13.bind(var10)(var12);
+        var12 = var12.SEGMENT_ANALYTICS_MIN_DURATION_MS;
+        var1['minSegmentDurationMs'] = var12;
+        var10 = var4.bind(var10)(var1);
+        var1 = var10.handlePlayerStateChange;
         var _closure2_slot10 = var1;
-        var13 = var2.handleLoadEnd;
+        var13 = var10.handleLoadEnd;
         var _closure2_slot11 = var13;
-        var4 = var2.handleFirstFrame;
+        var4 = var10.handleFirstFrame;
         var _closure2_slot12 = var4;
-        var2 = var2.handleSeek;
-        var15 = var8.useEffect;
-        var7 = new Array(2);
-        var7[0] = var6;
-        var7[1] = var1;
-        var6 = function() {
+        var10 = var10.handleSeek;
+        var _closure2_slot13 = var10;
+        var15 = var5.useEffect;
+        var12 = new Array(2);
+        var12[0] = var11;
+        var12[1] = var1;
+        var11 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var5 = _closure2_slot2;
@@ -367,23 +368,23 @@ case 19:
                 return var1;
             }
         };
-        var6 = var15.bind(var8)(var6, var7);
-        var6 = var8.useRef;
-        var6 = var6.bind(var8)(var3);
-        var _closure2_slot13 = var6;
-        var7 = var8.useCallback;
-        var6 = new Array(7);
-        var6[0] = var13;
-        var6[1] = var4;
-        var6[2] = var12;
-        var6[3] = var14;
-        var6[4] = var11;
-        var6[5] = var10;
-        var6[6] = var9;
+        var11 = var15.bind(var5)(var11, var12);
+        var11 = var5.useRef;
+        var11 = var11.bind(var5)(var3);
+        var _closure2_slot14 = var11;
+        var12 = var5.useCallback;
+        var11 = new Array(7);
+        var11[0] = var13;
+        var11[1] = var4;
+        var11[2] = var9;
+        var11[3] = var14;
+        var11[4] = var8;
+        var11[5] = var7;
+        var11[6] = var6;
         var4 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var1 = _closure2_slot13;
+                var1 = _closure2_slot14;
                 var1 = var1.current;
                 var8 = null;
                 var1 = var8 != var1;
@@ -394,7 +395,7 @@ case 22:
                 var2 = var1.Date;
                 var1 = var2.now;
                 var2 = var1.bind(var2)();
-                var1 = _closure2_slot13;
+                var1 = _closure2_slot14;
                 var1 = var1.current;
                 var7 = var2 - var1;
 case 21:
@@ -443,8 +444,8 @@ case 23:
                 return var1;
             }
         };
-        var13 = var7.bind(var8)(var4, var6);
-        var6 = var8.useCallback;
+        var13 = var12.bind(var5)(var4, var11);
+        var11 = var5.useCallback;
         var4 = new Array(1);
         var4[0] = var1;
         var1 = function() {
@@ -461,18 +462,18 @@ case 23:
             var2 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var15 = var6.bind(var8)(var1, var4);
-        var6 = var8.useCallback;
+        var15 = var11.bind(var5)(var1, var4);
+        var11 = var5.useCallback;
         var4 = new Array(5);
-        var4[0] = var12;
-        var4[1] = var11;
+        var4[0] = var9;
+        var4[1] = var8;
         var4[2] = var14;
-        var4[3] = var10;
-        var4[4] = var9;
+        var4[3] = var7;
+        var4[4] = var6;
         var1 = function() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
-                var2 = _closure2_slot13;
+                var2 = _closure2_slot14;
                 var1 = global;
                 var3 = var1.Date;
                 var1 = var3.now;
@@ -520,28 +521,28 @@ case 7:
                 return var1;
             }
         };
-        var7 = var6.bind(var8)(var1, var4);
-        var1 = var8.useRef;
-        var1 = var1.bind(var8)(var3);
-        var _closure2_slot14 = var1;
-        var3 = var8.useRef;
-        var1 = -1;
-        var1 = var3.bind(var8)(var1);
+        var12 = var11.bind(var5)(var1, var4);
+        var1 = var5.useRef;
+        var1 = var1.bind(var5)(var3);
         var _closure2_slot15 = var1;
-        var4 = var8.useCallback;
+        var3 = var5.useRef;
+        var1 = -1;
+        var1 = var3.bind(var5)(var1);
+        var _closure2_slot16 = var1;
+        var4 = var5.useCallback;
         var3 = new Array(5);
-        var3[0] = var12;
+        var3[0] = var9;
         var3[1] = var14;
-        var3[2] = var11;
-        var3[3] = var10;
-        var3[4] = var9;
+        var3[2] = var8;
+        var3[3] = var7;
+        var3[4] = var6;
         var1 = function(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var2 = _closure1_slot5;
                 var1 = var2.getEffectiveConnectionSpeed;
                 var8 = var1.bind(var2)();
-                var2 = _closure2_slot14;
+                var2 = _closure2_slot15;
                 var1 = arg1;
                 if(var1) { _fun0006_ip = 25; continue _fun0006 }
 case 26:
@@ -555,7 +556,7 @@ case 28:
                 var3 = var1.Date;
                 var1 = var3.now;
                 var3 = var1.bind(var3)();
-                var1 = _closure2_slot14;
+                var1 = _closure2_slot15;
                 var1 = var1.current;
                 var10 = var3 - var1;
 case 27:
@@ -577,7 +578,7 @@ case 27:
                 var7['video_asset_id'] = var12;
                 var7['network_connection_speed'] = var8;
                 var7['duration'] = var10;
-                var10 = _closure2_slot15;
+                var10 = _closure2_slot16;
                 var10 = var10.current;
                 var7['buffer_index'] = var10;
                 var10 = _closure2_slot6;
@@ -602,7 +603,7 @@ case 25:
                 var1 = var3.now;
                 var1 = var1.bind(var3)();
                 var2['current'] = var1;
-                var7 = _closure2_slot15;
+                var7 = _closure2_slot16;
                 var2 = var7.current;
                 var1 = 1;
                 var1 = var2 + var1;
@@ -647,14 +648,14 @@ case 31:
                 return var1;
             }
         };
-        var16 = var4.bind(var8)(var1, var3);
-        var4 = var8.useCallback;
+        var16 = var4.bind(var5)(var1, var3);
+        var4 = var5.useCallback;
         var3 = new Array(5);
-        var3[0] = var12;
-        var3[1] = var11;
+        var3[0] = var9;
+        var3[1] = var8;
         var3[2] = var14;
-        var3[3] = var10;
-        var3[4] = var9;
+        var3[3] = var7;
+        var3[4] = var6;
         var1 = function() {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -707,13 +708,13 @@ case 34:
                 return var1;
             }
         };
-        var4 = var4.bind(var8)(var1, var3);
-        var6 = var8.useCallback;
+        var4 = var4.bind(var5)(var1, var3);
+        var11 = var5.useCallback;
         var3 = new Array(4);
-        var3[0] = var12;
-        var3[1] = var11;
-        var3[2] = var10;
-        var3[3] = var9;
+        var3[0] = var9;
+        var3[1] = var8;
+        var3[2] = var7;
+        var3[3] = var6;
         var1 = function() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -760,13 +761,13 @@ case 37:
                 return var1;
             }
         };
-        var3 = var6.bind(var8)(var1, var3);
-        var18 = var8.useCallback;
-        var6 = new Array(4);
-        var6[0] = var12;
-        var6[1] = var11;
-        var6[2] = var10;
-        var6[3] = var9;
+        var3 = var11.bind(var5)(var1, var3);
+        var18 = var5.useCallback;
+        var11 = new Array(4);
+        var11[0] = var9;
+        var11[1] = var8;
+        var11[2] = var7;
+        var11[3] = var6;
         var1 = function() {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -813,18 +814,18 @@ case 37:
                 return var1;
             }
         };
-        var6 = var18.bind(var8)(var1, var6);
+        var11 = var18.bind(var5)(var1, var11);
         var1 = {};
         var1['handleBufferAnalytics'] = var16;
         var1['handleEndAnalytics'] = var15;
-        var16 = var8.useCallback;
+        var16 = var5.useCallback;
         var15 = new Array(6);
         var15[0] = var17;
-        var15[1] = var12;
+        var15[1] = var9;
         var15[2] = var14;
-        var15[3] = var11;
-        var15[4] = var10;
-        var15[5] = var9;
+        var15[3] = var8;
+        var15[4] = var7;
+        var15[5] = var6;
         var14 = function(arg1) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -946,18 +947,18 @@ case 47:
                 return var1;
             }
         };
-        var14 = var16.bind(var8)(var14, var15);
+        var14 = var16.bind(var5)(var14, var15);
         var1['handleErrorAnalytics'] = var14;
         var1['handleLoadAnalytics'] = var13;
-        var1['handleLoadStartAnalytics'] = var7;
-        var1['handlePausePlaybackAnalytics'] = var6;
-        var7 = var8.useCallback;
-        var6 = new Array(4);
-        var6[0] = var12;
-        var6[1] = var11;
-        var6[2] = var10;
-        var6[3] = var9;
-        var5 = function(arg1, arg2, arg3) {
+        var1['handleLoadStartAnalytics'] = var12;
+        var1['handlePausePlaybackAnalytics'] = var11;
+        var13 = var5.useCallback;
+        var12 = new Array(4);
+        var12[0] = var9;
+        var12[1] = var8;
+        var12[2] = var7;
+        var12[3] = var6;
+        var11 = function(arg1, arg2, arg3) {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var2 = _closure2_slot7;
@@ -1001,10 +1002,64 @@ case 38:
                 return var1;
             }
         };
-        var5 = var7.bind(var8)(var5, var6);
-        var1['handleProgressAnalytics'] = var5;
+        var11 = var13.bind(var5)(var11, var12);
+        var1['handleProgressAnalytics'] = var11;
         var1['handleReadyForDisplayAnalytics'] = var4;
         var1['handleResumePlaybackAnalytics'] = var3;
+        var4 = var5.useCallback;
+        var3 = new Array(5);
+        var3[0] = var10;
+        var3[1] = var9;
+        var3[2] = var8;
+        var3[3] = var7;
+        var3[4] = var6;
+        var2 = function(arg1, arg2) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+                var7 = arg1;
+                var2 = _closure2_slot13;
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var8 = null;
+                if(!(var8 != var7)) { _fun0012_ip = 50; continue _fun0012 }
+case 51:
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var2 = 5;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.trackQuestEvent;
+                var2 = {};
+                var9 = _closure2_slot3;
+                var2['questId'] = var9;
+                var6 = _closure1_slot6;
+                var6 = var6.QUEST_VIDEO_SEEKED;
+                var2['event'] = var6;
+                var6 = {};
+                var6['from_time_sec'] = var7;
+                var7 = arg2;
+                var6['to_time_sec'] = var7;
+                var7 = _closure2_slot6;
+                var6['video_session_id'] = var7;
+                var7 = _closure2_slot9;
+                var8 = var8 == var7;
+                var7 = undefined;
+                if(var8) { _fun0012_ip = 52; continue _fun0012 }
+case 53:
+                var9 = _closure2_slot9;
+                var8 = var9.getId;
+                var7 = var8.bind(var9)();
+case 52:
+                var6['impression_id'] = var7;
+                var2['properties'] = var6;
+                var5 = _closure2_slot4;
+                var2['sourceQuestContent'] = var5;
+                var2 = var3.bind(var4)(var2);
+case 50:
+                return var1;
+            }
+        };
+        var2 = var4.bind(var5)(var2, var3);
         var1['handleSeekAnalytics'] = var2;
         return var1;
     };

@@ -1,15 +1,15 @@
 // app/modules/threads/ThreadHooks.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var11 = require;
-    var13 = metroImportDefault;
+    var14 = require;
+    var16 = metroImportDefault;
     var3 = exports;
-    var12 = dependencyMap;
-    var _closure1_slot0 = var11;
-    var _closure1_slot1 = var13;
+    var15 = dependencyMap;
+    var _closure1_slot0 = var14;
+    var _closure1_slot1 = var16;
     var1 = metroImportAll;
     var _closure1_slot2 = var1;
-    var _closure1_slot3 = var12;
-    var8 = function useCanStartPublicThread(arg1, arg2) {
+    var _closure1_slot3 = var15;
+    var11 = function useCanStartPublicThread(arg1, arg2) {
         var5 = arg1;
         var _closure2_slot0 = var5;
         var4 = _closure1_slot16;
@@ -62,8 +62,8 @@ case 4:
         var1 = var4.bind(var3)(var2, var5, var1);
         return var1;
     };
-    var _closure1_slot14 = var8;
-    var7 = function useCanStartPrivateThread(arg1) {
+    var _closure1_slot14 = var11;
+    var10 = function useCanStartPrivateThread(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var5 = arg1;
@@ -110,7 +110,7 @@ case 5:
             return var1;
         }
     };
-    var _closure1_slot15 = var7;
+    var _closure1_slot15 = var10;
     var1 = function canStartThread(arg1, arg2, arg3) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -216,21 +216,21 @@ case 22:
         }
     };
     var _closure1_slot18 = var1;
-    var6 = function useIsActiveChannelOrUnarchivableThread(arg1) {
+    var9 = function useCanUnarchiveThread(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot3;
-            var3 = 8;
-            var3 = var6[var3];
-            var6 = undefined;
-            var4 = var4.bind(var6)(var3);
-            var3 = var4.useStateFromStores;
-            var7 = _closure1_slot8;
-            var2 = new Array(1);
-            var2[0] = var7;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot3;
+            var6 = 8;
+            var1 = var8[var6];
+            var4 = undefined;
+            var11 = var7.bind(var4)(var1);
+            var10 = var11.useStateFromStores;
+            var1 = _closure1_slot8;
+            var9 = new Array(1);
+            var9[0] = var1;
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
@@ -239,58 +239,164 @@ case 0:
                     var1 = var1 != var3;
                     if(!var1) { _fun0007_ip = 26; continue _fun0007 }
 case 27:
+                    var6 = _closure1_slot8;
+                    var5 = var6.can;
+                    var3 = _closure1_slot10;
+                    var4 = var3.SEND_MESSAGES_IN_THREADS;
+                    var3 = _closure2_slot0;
+                    var1 = var5.bind(var6)(var4, var3);
+case 26:
+                    if(!var1) { _fun0007_ip = 28; continue _fun0007 }
+case 29:
                     var5 = _closure1_slot8;
                     var4 = var5.can;
                     var3 = _closure1_slot10;
-                    var3 = var3.SEND_MESSAGES_IN_THREADS;
+                    var3 = var3.SEND_MESSAGES;
                     var2 = _closure2_slot0;
                     var1 = var4.bind(var5)(var3, var2);
-case 26:
+case 28:
                     return var1;
                 }
             };
-            var4 = var3.bind(var4)(var2, var1);
-            var7 = null;
-            var1 = var7 != var5;
-            if(!var1) { _fun0006_ip = 28; continue _fun0006 }
+            var1 = var10.bind(var11)(var9, var1);
+            var6 = var8[var6];
+            var9 = var7.bind(var4)(var6);
+            var8 = var9.useStateFromStores;
+            var6 = _closure1_slot8;
+            var7 = new Array(2);
+            var7[0] = var6;
+            var6 = _closure1_slot7;
+            var7[1] = var6;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var3 = function() {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                    var3 = _closure2_slot0;
+                    var1 = null;
+                    var3 = var1 != var3;
+                    var5 = null;
+                    if(!var3) { _fun0008_ip = 9; continue _fun0008 }
+case 19:
+                    var6 = _closure1_slot7;
+                    var4 = var6.getChannel;
+                    var3 = _closure2_slot0;
+                    var3 = var3.parent_id;
+                    var5 = var4.bind(var6)(var3);
+case 9:
+                    var1 = var1 != var5;
+                    if(!var1) { _fun0008_ip = 28; continue _fun0008 }
 case 29:
-            var2 = var5.isThread;
-            var2 = var2.bind(var5)();
-            var2 = !var2;
-            if(var2) { _fun0006_ip = 30; continue _fun0006 }
-case 31:
-            var3 = var5.isActiveThread;
-            var2 = var3.bind(var5)();
-case 30:
-            if(var2) { _fun0006_ip = 32; continue _fun0006 }
-case 33:
-            var3 = var5.isArchivedThread;
-            var3 = var3.bind(var5)();
-            if(!var3) { _fun0006_ip = 34; continue _fun0006 }
-case 13:
-            var5 = var5.threadMetadata;
-            var7 = var7 == var5;
-            var6 = undefined;
-            if(var7) { _fun0006_ip = 35; continue _fun0006 }
-case 36:
-            var6 = var5.locked;
-case 35:
-            var5 = true;
-            var3 = var5 !== var6;
-case 34:
-            if(!var3) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
-            var3 = var4;
-case 37:
-            var2 = var3;
-case 32:
-            var1 = var2;
+                    var6 = _closure1_slot8;
+                    var4 = var6.can;
+                    var3 = _closure1_slot10;
+                    var3 = var3.SEND_MESSAGES_IN_THREADS;
+                    var2 = _closure2_slot0;
+                    var1 = var4.bind(var6)(var3, var2);
 case 28:
+                    if(!var1) { _fun0008_ip = 30; continue _fun0008 }
+case 31:
+                    var4 = _closure1_slot8;
+                    var3 = var4.can;
+                    var2 = _closure1_slot10;
+                    var2 = var2.SEND_MESSAGES;
+                    var1 = var3.bind(var4)(var2, var5);
+case 30:
+                    return var1;
+                }
+            };
+            var6 = var8.bind(var9)(var7, var3, var6);
+            var3 = _closure1_slot22;
+            var3 = var3.bind(var4)(var5);
+            var2 = _closure1_slot18;
+            if(!var1) { _fun0006_ip = 32; continue _fun0006 }
+case 33:
+            var1 = var6;
+case 32:
+            var1 = var2.bind(var4)(var5, var1, var3);
             return var1;
         }
     };
-    var _closure1_slot19 = var6;
-    var5 = function useIsThreadModerator(arg1) {
+    var _closure1_slot19 = var9;
+    var8 = function canUnarchiveThread(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var5 = arg1;
+            var7 = _closure1_slot17;
+            var2 = _closure1_slot8;
+            var4 = undefined;
+            var2 = var7.bind(var4)(var5, var2);
+            var6 = null;
+            var3 = var6 != var5;
+            if(!var3) { _fun0009_ip = 12; continue _fun0009 }
+case 18:
+            var9 = _closure1_slot7;
+            var8 = var9.getChannel;
+            var3 = var5.parent_id;
+            var6 = var8.bind(var9)(var3);
+case 12:
+            var3 = _closure1_slot8;
+            var6 = var7.bind(var4)(var6, var3);
+            var3 = _closure1_slot18;
+            if(!var2) { _fun0009_ip = 34; continue _fun0009 }
+case 35:
+            var2 = var6;
+case 34:
+            var1 = _closure1_slot23;
+            var1 = var1.bind(var4)(var5);
+            var1 = var3.bind(var4)(var5, var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot20 = var8;
+    var7 = function useIsActiveChannelOrUnarchivableThread(arg1) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var5 = arg1;
+            var1 = _closure1_slot19;
+            var6 = undefined;
+            var4 = var1.bind(var6)(var5);
+            var7 = null;
+            var1 = var7 != var5;
+            if(!var1) { _fun0010_ip = 36; continue _fun0010 }
+case 37:
+            var2 = var5.isThread;
+            var2 = var2.bind(var5)();
+            var2 = !var2;
+            if(var2) { _fun0010_ip = 29; continue _fun0010 }
+case 38:
+            var3 = var5.isActiveThread;
+            var2 = var3.bind(var5)();
+case 29:
+            if(var2) { _fun0010_ip = 39; continue _fun0010 }
+case 40:
+            var3 = var5.isArchivedThread;
+            var3 = var3.bind(var5)();
+            if(!var3) { _fun0010_ip = 41; continue _fun0010 }
+case 35:
+            var5 = var5.threadMetadata;
+            var7 = var7 == var5;
+            var6 = undefined;
+            if(var7) { _fun0010_ip = 4; continue _fun0010 }
+case 42:
+            var6 = var5.locked;
+case 4:
+            var5 = true;
+            var3 = var5 !== var6;
+case 41:
+            if(!var3) { _fun0010_ip = 43; continue _fun0010 }
+case 44:
+            var3 = var4;
+case 43:
+            var2 = var3;
+case 39:
+            var1 = var2;
+case 36:
+            return var1;
+        }
+    };
+    var _closure1_slot21 = var7;
+    var6 = function useIsThreadModerator(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var5 = _closure1_slot0;
@@ -304,7 +410,7 @@ case 28:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            var4 = _closure1_slot21;
+            var4 = _closure1_slot23;
             var3 = _closure2_slot0;
             var1 = _closure1_slot8;
             var2 = new Array(1);
@@ -316,20 +422,20 @@ case 28:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot20 = var5;
-    var4 = function isThreadModerator(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+    var _closure1_slot22 = var6;
+    var5 = function isThreadModerator(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var5 = arg1;
             var6 = arguments[1];
             var4 = undefined;
-            if(!(var6 === var4)) { _fun0008_ip = 39; continue _fun0008 }
-case 40:
+            if(!(var6 === var4)) { _fun0011_ip = 45; continue _fun0011 }
+case 46:
             var2 = _closure1_slot8;
             var1 = new Array(1);
             var1[0] = var2;
             var6 = var1;
-case 39:
+case 45:
             var3 = _closure1_slot4;
             var1 = 1;
             var3 = var3.bind(var4)(var6, var1);
@@ -337,93 +443,128 @@ case 39:
             var4 = var3[var1];
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0008_ip = 41; continue _fun0008 }
-case 42:
+            if(!var1) { _fun0011_ip = 42; continue _fun0011 }
+case 47:
             var3 = var4.can;
             var2 = _closure1_slot10;
             var2 = var2.MANAGE_THREADS;
             var1 = var3.bind(var4)(var2, var5);
-case 41:
+case 42:
             return var1;
         }
     };
-    var _closure1_slot21 = var4;
+    var _closure1_slot23 = var5;
+    var4 = function useHasPermissionToJoinThreadVoice(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+case 0:
+            var4 = arg1;
+            var _closure2_slot0 = var4;
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot3;
+            var3 = 8;
+            var5 = var5[var3];
+            var3 = undefined;
+            var7 = var6.bind(var3)(var5);
+            var6 = var7.useStateFromStores;
+            var8 = _closure1_slot8;
+            var5 = new Array(1);
+            var5[0] = var8;
+            var1 = function() {
+                var4 = _closure1_slot8;
+                var3 = var4.can;
+                var1 = _closure1_slot10;
+                var2 = var1.CONNECT;
+                var1 = _closure2_slot0;
+                var1 = var3.bind(var4)(var2, var1);
+                return var1;
+            };
+            var1 = var6.bind(var7)(var5, var1);
+            var2 = _closure1_slot21;
+            var2 = var2.bind(var3)(var4);
+            if(!var1) { _fun0012_ip = 48; continue _fun0012 }
+case 49:
+            var1 = var2;
+case 48:
+            return var1;
+        }
+    };
+    var _closure1_slot24 = var4;
     var1 = global;
-    var14 = var1.Object;
-    var10 = var14.defineProperty;
-    var9 = {};
-    var15 = true;
-    var9['value'] = var15;
+    var17 = var1.Object;
+    var13 = var17.defineProperty;
+    var12 = {};
+    var18 = true;
+    var12['value'] = var18;
     var1 = '__esModule';
-    var1 = var10.bind(var14)(var3, var1, var9);
+    var1 = var13.bind(var17)(var3, var1, var12);
     var1 = 0;
-    var9 = var12[var1];
+    var12 = var15[var1];
     var1 = undefined;
-    var9 = var13.bind(var1)(var9);
-    var _closure1_slot4 = var9;
-    var9 = 1;
-    var9 = var12[var9];
-    var10 = var13.bind(var1)(var9);
-    var9 = 2;
-    var9 = var12[var9];
-    var9 = var11.bind(var1)(var9);
-    var9 = var9.THREADED_CHANNEL_TYPES;
-    var _closure1_slot5 = var9;
-    var9 = 3;
-    var9 = var12[var9];
-    var9 = var13.bind(var1)(var9);
-    var _closure1_slot6 = var9;
-    var9 = 4;
-    var9 = var12[var9];
-    var9 = var13.bind(var1)(var9);
-    var _closure1_slot7 = var9;
-    var9 = 5;
-    var9 = var12[var9];
-    var9 = var13.bind(var1)(var9);
-    var _closure1_slot8 = var9;
-    var9 = 6;
-    var9 = var12[var9];
-    var9 = var13.bind(var1)(var9);
-    var _closure1_slot9 = var9;
-    var9 = 7;
-    var9 = var12[var9];
-    var9 = var11.bind(var1)(var9);
-    var13 = var9.Permissions;
-    var _closure1_slot10 = var13;
-    var13 = var9.MessageFlags;
-    var _closure1_slot11 = var13;
-    var9 = var9.ChannelTypes;
-    var _closure1_slot12 = var9;
-    var9 = {'id': '2022-07_voice_in_threads', 'label': 'Voice in Threads', 'kind': 'guild'};
-    var13 = {};
-    var14 = false;
-    var13['enabled'] = var14;
-    var9['defaultConfig'] = var13;
-    var14 = {'id': 1, 'label': 'On'};
-    var13 = {};
-    var13['enabled'] = var15;
-    var14['config'] = var13;
-    var13 = new Array(1);
-    var13[0] = var14;
-    var9['treatments'] = var13;
-    var9 = var10.bind(var1)(var9);
-    var _closure1_slot13 = var9;
-    var10 = 16;
-    var10 = var12[var10];
-    var12 = var11.bind(var1)(var10);
-    var11 = var12.fileFinishedImporting;
-    var10 = 'modules/threads/ThreadHooks.tsx';
-    var10 = var11.bind(var12)(var10);
-    var3['VoiceInThreadsExperiment'] = var9;
-    var3['useCanStartPublicThread'] = var8;
-    var8 = function computeCanStartPublicThread(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+    var12 = var16.bind(var1)(var12);
+    var _closure1_slot4 = var12;
+    var12 = 1;
+    var12 = var15[var12];
+    var13 = var16.bind(var1)(var12);
+    var12 = 2;
+    var12 = var15[var12];
+    var12 = var14.bind(var1)(var12);
+    var12 = var12.THREADED_CHANNEL_TYPES;
+    var _closure1_slot5 = var12;
+    var12 = 3;
+    var12 = var15[var12];
+    var12 = var16.bind(var1)(var12);
+    var _closure1_slot6 = var12;
+    var12 = 4;
+    var12 = var15[var12];
+    var12 = var16.bind(var1)(var12);
+    var _closure1_slot7 = var12;
+    var12 = 5;
+    var12 = var15[var12];
+    var12 = var16.bind(var1)(var12);
+    var _closure1_slot8 = var12;
+    var12 = 6;
+    var12 = var15[var12];
+    var12 = var16.bind(var1)(var12);
+    var _closure1_slot9 = var12;
+    var12 = 7;
+    var12 = var15[var12];
+    var12 = var14.bind(var1)(var12);
+    var16 = var12.Permissions;
+    var _closure1_slot10 = var16;
+    var16 = var12.MessageFlags;
+    var _closure1_slot11 = var16;
+    var12 = var12.ChannelTypes;
+    var _closure1_slot12 = var12;
+    var12 = {'id': '2022-07_voice_in_threads', 'label': 'Voice in Threads', 'kind': 'guild'};
+    var16 = {};
+    var17 = false;
+    var16['enabled'] = var17;
+    var12['defaultConfig'] = var16;
+    var17 = {'id': 1, 'label': 'On'};
+    var16 = {};
+    var16['enabled'] = var18;
+    var17['config'] = var16;
+    var16 = new Array(1);
+    var16[0] = var17;
+    var12['treatments'] = var16;
+    var12 = var13.bind(var1)(var12);
+    var _closure1_slot13 = var12;
+    var13 = 16;
+    var13 = var15[var13];
+    var15 = var14.bind(var1)(var13);
+    var14 = var15.fileFinishedImporting;
+    var13 = 'modules/threads/ThreadHooks.tsx';
+    var13 = var14.bind(var15)(var13);
+    var3['VoiceInThreadsExperiment'] = var12;
+    var3['useCanStartPublicThread'] = var11;
+    var11 = function computeCanStartPublicThread(arg1, arg2) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var5 = arg1;
             var1 = var5.isForumLikeChannel;
             var2 = var1.bind(var5)();
-            if(var2) { _fun0009_ip = 14; continue _fun0009 }
-case 43:
+            if(var2) { _fun0013_ip = 14; continue _fun0013 }
+case 50:
             var4 = _closure1_slot2;
             var3 = _closure1_slot3;
             var2 = 9;
@@ -436,11 +577,11 @@ case 43:
             var2 = _closure1_slot10;
             var2 = var2.READ_MESSAGE_HISTORY;
             var3 = var4.bind(var6)(var3, var2);
-            _fun0009_ip = 44; continue _fun0009;
+            _fun0013_ip = 28; continue _fun0013;
 case 14:
             var2 = _closure1_slot10;
             var3 = var2.SEND_MESSAGES;
-case 44:
+case 28:
             var4 = _closure1_slot16;
             var2 = _closure1_slot8;
             var1 = var2.can;
@@ -451,9 +592,9 @@ case 44:
             return var1;
         }
     };
-    var3['computeCanStartPublicThread'] = var8;
-    var3['useCanStartPrivateThread'] = var7;
-    var7 = function computeCanStartPrivateThread(arg1, arg2) {
+    var3['computeCanStartPublicThread'] = var11;
+    var3['useCanStartPrivateThread'] = var10;
+    var10 = function computeCanStartPrivateThread(arg1, arg2) {
         var5 = arg1;
         var4 = _closure1_slot16;
         var3 = _closure1_slot8;
@@ -466,9 +607,9 @@ case 44:
         var1 = var4.bind(var2)(var3, var5, var1);
         return var1;
     };
-    var3['computeCanStartPrivateThread'] = var7;
-    var7 = function useCanStartThread(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+    var3['computeCanStartPrivateThread'] = var10;
+    var10 = function useCanStartThread(arg1) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var4 = arg1;
             var1 = _closure1_slot14;
@@ -476,16 +617,16 @@ case 0:
             var1 = var1.bind(var3)(var4);
             var2 = _closure1_slot15;
             var2 = var2.bind(var3)(var4);
-            if(var1) { _fun0010_ip = 45; continue _fun0010 }
-case 46:
+            if(var1) { _fun0014_ip = 51; continue _fun0014 }
+case 52:
             var1 = var2;
-case 45:
+case 51:
             return var1;
         }
     };
-    var3['useCanStartThread'] = var7;
-    var7 = function useCanViewThreadForMessage(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+    var3['useCanStartThread'] = var10;
+    var10 = function useCanViewThreadForMessage(arg1) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
@@ -543,22 +684,22 @@ case 0:
             var1 = var2.bind(var5)(var1);
             var2 = !var1;
             var1 = !var2;
-            if(var2) { _fun0011_ip = 47; continue _fun0011 }
-case 48:
+            if(var2) { _fun0015_ip = 53; continue _fun0015 }
+case 54:
             var2 = null;
             var2 = var2 != var4;
-            if(!var2) { _fun0011_ip = 49; continue _fun0011 }
-case 50:
+            if(!var2) { _fun0015_ip = 55; continue _fun0015 }
+case 56:
             var3 = !var3;
             var2 = !var3;
-case 49:
+case 55:
             var1 = var2;
-case 47:
+case 53:
             return var1;
         }
     };
-    var3['useCanViewThreadForMessage'] = var7;
-    var7 = function useHasActiveThreads(arg1) {
+    var3['useCanViewThreadForMessage'] = var10;
+    var10 = function useHasActiveThreads(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var4 = _closure1_slot0;
@@ -574,7 +715,7 @@ case 47:
         var5 = _closure1_slot8;
         var2[1] = var5;
         var1 = function() {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                 var7 = _closure1_slot9;
                 var6 = var7.getActiveJoinedThreadsForParent;
@@ -615,7 +756,7 @@ case 0:
                 var10 = var3.bind(var5)(var9);
                 var9 = var10.some;
                 var3 = function(arg1) {
-                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                    _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                         var2 = arg1;
                         var1 = var2.channel;
@@ -623,15 +764,15 @@ case 0:
                         var1 = _closure3_slot0;
                         var3 = var3 in var1;
                         var1 = !var3;
-                        if(var3) { _fun0013_ip = 51; continue _fun0013 }
-case 39:
+                        if(var3) { _fun0017_ip = 57; continue _fun0017 }
+case 45:
                         var5 = _closure1_slot8;
                         var4 = var5.can;
                         var3 = _closure1_slot10;
                         var3 = var3.VIEW_CHANNEL;
                         var2 = var2.channel;
                         var1 = var4.bind(var5)(var3, var2);
-case 51:
+case 57:
                         return var1;
                     }
                 };
@@ -651,19 +792,19 @@ case 51:
                 };
                 var2 = var2.bind(var5)(var1);
                 var1 = {};
-                if(var4) { _fun0012_ip = 52; continue _fun0012 }
-case 53:
+                if(var4) { _fun0016_ip = 58; continue _fun0016 }
+case 59:
                 var4 = var3;
-case 52:
-                if(var4) { _fun0012_ip = 54; continue _fun0012 }
-case 55:
+case 58:
+                if(var4) { _fun0016_ip = 60; continue _fun0016 }
+case 61:
                 var4 = var2;
-case 54:
+case 60:
                 var1['hasActiveThreads'] = var4;
-                if(var2) { _fun0012_ip = 56; continue _fun0012 }
-case 57:
+                if(var2) { _fun0016_ip = 62; continue _fun0016 }
+case 63:
                 var2 = var3;
-case 56:
+case 62:
                 var1['hasMoreActiveThreads'] = var2;
                 return var1;
             }
@@ -671,9 +812,9 @@ case 56:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useHasActiveThreads'] = var7;
-    var7 = function useCanManageThread(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+    var3['useHasActiveThreads'] = var10;
+    var10 = function useCanManageThread(arg1) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var5 = arg1;
             var _closure2_slot0 = var5;
@@ -688,7 +829,7 @@ case 0:
             var4 = new Array(1);
             var4[0] = var3;
             var3 = function() {
-                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
                     var3 = _closure1_slot7;
                     var2 = var3.getChannel;
@@ -696,8 +837,8 @@ case 0:
                     var1 = null;
                     var5 = var1 == var5;
                     var1 = undefined;
-                    if(var5) { _fun0015_ip = 16; continue _fun0015 }
-case 39:
+                    if(var5) { _fun0019_ip = 16; continue _fun0019 }
+case 45:
                     var4 = _closure2_slot0;
                     var1 = var4.parent_id;
 case 16:
@@ -716,12 +857,12 @@ case 16:
             var10 = new Array(1);
             var10[0] = var4;
             var3 = function() {
-                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
                     var3 = _closure2_slot1;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0016_ip = 26; continue _fun0016 }
+                    if(!var1) { _fun0020_ip = 26; continue _fun0020 }
 case 27:
                     var5 = _closure1_slot8;
                     var4 = var5.can;
@@ -749,138 +890,96 @@ case 26:
             var6 = var6.bind(var7)(var2, var1);
             var2 = null;
             var1 = var2 != var5;
-            if(!var1) { _fun0014_ip = 58; continue _fun0014 }
-case 59:
+            if(!var1) { _fun0018_ip = 64; continue _fun0018 }
+case 65:
             var1 = var2 != var4;
-case 58:
-            if(!var1) { _fun0014_ip = 60; continue _fun0014 }
-case 61:
+case 64:
+            if(!var1) { _fun0018_ip = 66; continue _fun0018 }
+case 67:
             var2 = var5.isThread;
             var2 = var2.bind(var5)();
             var4 = !var2;
             var2 = !var4;
-            if(var4) { _fun0014_ip = 62; continue _fun0014 }
-case 63:
+            if(var4) { _fun0018_ip = 68; continue _fun0018 }
+case 69:
             var4 = !var3;
             var3 = !var4;
-            if(!var4) { _fun0014_ip = 64; continue _fun0014 }
-case 65:
+            if(!var4) { _fun0018_ip = 70; continue _fun0018 }
+case 71:
             var4 = var5.isLockedThread;
             var4 = var4.bind(var5)();
             var4 = !var4;
-            if(!var4) { _fun0014_ip = 66; continue _fun0014 }
-case 67:
+            if(!var4) { _fun0018_ip = 72; continue _fun0018 }
+case 73:
             var5 = var5.ownerId;
             var4 = var5 === var6;
-case 66:
+case 72:
             var3 = var4;
-case 64:
+case 70:
             var2 = var3;
-case 62:
+case 68:
             var1 = var2;
-case 60:
+case 66:
             return var1;
         }
     };
-    var3['useCanManageThread'] = var7;
-    var7 = function useCanUnarchiveThread(arg1) {
-        var5 = arg1;
-        var _closure2_slot0 = var5;
-        var6 = _closure1_slot0;
-        var4 = _closure1_slot3;
-        var3 = 8;
-        var3 = var4[var3];
-        var4 = undefined;
-        var7 = var6.bind(var4)(var3);
-        var6 = var7.useStateFromStores;
-        var8 = _closure1_slot8;
-        var3 = new Array(1);
-        var3[0] = var8;
-        var2 = function() {
-            var4 = _closure1_slot17;
-            var3 = _closure2_slot0;
-            var2 = _closure1_slot8;
-            var1 = undefined;
-            var1 = var4.bind(var1)(var3, var2);
-            return var1;
-        };
-        var3 = var6.bind(var7)(var3, var2);
-        var2 = _closure1_slot20;
-        var2 = var2.bind(var4)(var5);
-        var1 = _closure1_slot18;
-        var1 = var1.bind(var4)(var5, var3, var2);
-        return var1;
-    };
-    var3['useCanUnarchiveThread'] = var7;
-    var7 = function canUnarchiveThread(arg1) {
-        var5 = arg1;
-        var4 = _closure1_slot18;
-        var6 = _closure1_slot17;
-        var2 = _closure1_slot8;
-        var3 = undefined;
-        var2 = var6.bind(var3)(var5, var2);
-        var1 = _closure1_slot21;
-        var1 = var1.bind(var3)(var5);
-        var1 = var4.bind(var3)(var5, var2, var1);
-        return var1;
-    };
-    var3['canUnarchiveThread'] = var7;
-    var3['useIsActiveChannelOrUnarchivableThread'] = var6;
-    var6 = function getIsActiveChannelOrUnarchivableThread(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+    var3['useCanManageThread'] = var10;
+    var3['useCanUnarchiveThread'] = var9;
+    var3['canUnarchiveThread'] = var8;
+    var3['useIsActiveChannelOrUnarchivableThread'] = var7;
+    var7 = function getIsActiveChannelOrUnarchivableThread(arg1) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
-            var7 = arg1;
+            var6 = arg1;
             var5 = null;
-            var1 = var5 != var7;
-            if(!var1) { _fun0017_ip = 68; continue _fun0017 }
-case 40:
-            var2 = var7.isThread;
-            var2 = var2.bind(var7)();
+            var1 = var5 != var6;
+            if(!var1) { _fun0021_ip = 39; continue _fun0021 }
+case 46:
+            var2 = var6.isThread;
+            var2 = var2.bind(var6)();
             var2 = !var2;
-            if(var2) { _fun0017_ip = 69; continue _fun0017 }
-case 70:
-            var3 = var7.isActiveThread;
-            var2 = var3.bind(var7)();
-case 69:
-            if(var2) { _fun0017_ip = 71; continue _fun0017 }
+            if(var2) { _fun0021_ip = 74; continue _fun0021 }
+case 75:
+            var3 = var6.isActiveThread;
+            var2 = var3.bind(var6)();
+case 74:
+            if(var2) { _fun0021_ip = 43; continue _fun0021 }
 case 10:
-            var3 = var7.isArchivedThread;
-            var3 = var3.bind(var7)();
-            if(!var3) { _fun0017_ip = 22; continue _fun0017 }
-case 72:
-            var4 = var7.threadMetadata;
-            var6 = var5 == var4;
+            var3 = var6.isArchivedThread;
+            var3 = var3.bind(var6)();
+            if(!var3) { _fun0021_ip = 22; continue _fun0021 }
+case 76:
+            var4 = var6.threadMetadata;
+            var7 = var5 == var4;
             var5 = undefined;
-            if(var6) { _fun0017_ip = 14; continue _fun0017 }
-case 73:
+            if(var7) { _fun0021_ip = 14; continue _fun0021 }
+case 77:
             var5 = var4.locked;
 case 14:
             var4 = true;
             var3 = var4 !== var5;
 case 22:
-            if(!var3) { _fun0017_ip = 13; continue _fun0017 }
-case 74:
-            var6 = _closure1_slot8;
-            var5 = var6.can;
-            var4 = _closure1_slot10;
-            var4 = var4.SEND_MESSAGES_IN_THREADS;
-            var3 = var5.bind(var6)(var4, var7);
-case 13:
+            if(!var3) { _fun0021_ip = 44; continue _fun0021 }
+case 78:
+            var5 = _closure1_slot20;
+            var4 = undefined;
+            var3 = var5.bind(var4)(var6);
+case 44:
             var2 = var3;
-case 71:
+case 43:
             var1 = var2;
-case 68:
+case 39:
             return var1;
         }
     };
-    var3['getIsActiveChannelOrUnarchivableThread'] = var6;
-    var6 = function computeIsReadOnlyThread(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+    var3['getIsActiveChannelOrUnarchivableThread'] = var7;
+    var7 = function computeIsReadOnlyThread(arg1) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var3 = arg1;
             var1 = var3.isMediaThread;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0018_ip = 25; continue _fun0018 }
+            if(var1) { _fun0022_ip = 25; continue _fun0022 }
 case 27:
             var4 = _closure1_slot8;
             var2 = var4.can;
@@ -889,20 +988,20 @@ case 27:
             var2 = var2.bind(var4)(var1, var3);
             var1 = var3.isArchivedLockedThread;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0018_ip = 42; continue _fun0018 }
-case 75:
+            if(!var1) { _fun0022_ip = 47; continue _fun0022 }
+case 79:
             var1 = !var2;
-case 42:
+case 47:
             return var1;
 case 25:
             var1 = true;
             return var1;
         }
     };
-    var3['computeIsReadOnlyThread'] = var6;
-    var3['useIsThreadModerator'] = var5;
-    var3['isThreadModerator'] = var4;
-    var4 = function useCanRemoveThreadMember(arg1) {
+    var3['computeIsReadOnlyThread'] = var7;
+    var3['useIsThreadModerator'] = var6;
+    var3['isThreadModerator'] = var5;
+    var5 = function useCanRemoveThreadMember(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
         var4 = _closure1_slot0;
@@ -920,15 +1019,15 @@ case 25:
         var5 = _closure1_slot6;
         var2[2] = var5;
         var1 = function() {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                 var4 = _closure1_slot7;
                 var3 = var4.getChannel;
                 var1 = _closure2_slot0;
                 var5 = var3.bind(var4)(var1);
                 var1 = null;
-                if(!(var1 != var5)) { _fun0019_ip = 11; continue _fun0019 }
-case 39:
+                if(!(var1 != var5)) { _fun0023_ip = 11; continue _fun0023 }
+case 45:
                 var3 = _closure1_slot6;
                 var1 = var3.getId;
                 var4 = var1.bind(var3)();
@@ -936,14 +1035,14 @@ case 39:
                 var1 = _closure1_slot12;
                 var1 = var1.PRIVATE_THREAD;
                 var1 = var3 === var1;
-                if(!var1) { _fun0019_ip = 76; continue _fun0019 }
-case 77:
+                if(!var1) { _fun0023_ip = 80; continue _fun0023 }
+case 81:
                 var3 = var5.ownerId;
                 var1 = var3 === var4;
-case 76:
-                if(var1) { _fun0019_ip = 5; continue _fun0019 }
+case 80:
+                if(var1) { _fun0023_ip = 5; continue _fun0023 }
 case 2:
-                var4 = _closure1_slot21;
+                var4 = _closure1_slot23;
                 var2 = _closure1_slot8;
                 var3 = new Array(1);
                 var3[0] = var2;
@@ -959,131 +1058,110 @@ case 11:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var3['useCanRemoveThreadMember'] = var4;
+    var3['useCanRemoveThreadMember'] = var5;
+    var3['useHasPermissionToJoinThreadVoice'] = var4;
     var4 = function useCanJoinThreadVoice(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
 case 0:
-            var8 = arg1;
-            var _closure2_slot0 = var8;
-            var4 = _closure1_slot1;
+            var7 = arg1;
+            var3 = _closure1_slot1;
             var2 = _closure1_slot3;
             var1 = 13;
             var1 = var2[var1];
-            var10 = undefined;
-            var1 = var4.bind(var10)(var1);
-            var1 = var1.bind(var10)();
-            var9 = _closure1_slot0;
-            var4 = 8;
-            var4 = var2[var4];
-            var6 = var9.bind(var10)(var4);
-            var5 = var6.useStateFromStores;
-            var11 = _closure1_slot8;
-            var4 = new Array(1);
-            var4[0] = var11;
-            var3 = function() {
-                var4 = _closure1_slot8;
-                var3 = var4.can;
-                var1 = _closure1_slot10;
-                var2 = var1.CONNECT;
-                var1 = _closure2_slot0;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var4 = var5.bind(var6)(var4, var3);
-            var3 = _closure1_slot19;
-            var3 = var3.bind(var10)(var8);
-            var12 = _closure1_slot13;
-            var11 = var12.useExperiment;
-            var6 = {};
-            var5 = var8.guild_id;
-            var6['guildId'] = var5;
-            var5 = 'e791ea_1';
-            var6['location'] = var5;
+            var9 = undefined;
+            var1 = var3.bind(var9)(var1);
+            var1 = var1.bind(var9)();
+            var3 = _closure1_slot24;
+            var3 = var3.bind(var9)(var7);
+            var10 = _closure1_slot13;
+            var8 = var10.useExperiment;
             var5 = {};
-            var13 = false;
-            var5['autoTrackExposure'] = var13;
-            var5 = var11.bind(var12)(var6, var5);
-            var5 = var5.enabled;
-            var6 = 14;
-            var6 = var2[var6];
-            var11 = var9.bind(var10)(var6);
-            var6 = var11.useIsGameInvitesPost;
-            var6 = var6.bind(var11)(var8);
-            var11 = 15;
-            var2 = var2[var11];
-            var9 = var9.bind(var10)(var2);
-            var2 = var9.useShouldAgeVerifyForAgeGate;
-            var2 = var2.bind(var9)();
-            if(!var2) { _fun0020_ip = 78; continue _fun0020 }
-case 79:
-            var9 = _closure1_slot0;
-            var7 = _closure1_slot3;
-            var7 = var7[var11];
-            var10 = var9.bind(var10)(var7);
-            var9 = var10.shouldShowAgeGateForChannelId;
-            var7 = var8.id;
-            var2 = var9.bind(var10)(var7);
-case 78:
-            var1 = !var1;
-            if(!var1) { _fun0020_ip = 80; continue _fun0020 }
-case 81:
-            var7 = var8.isVocalThread;
-            var1 = var7.bind(var8)();
-case 80:
-            if(!var1) { _fun0020_ip = 82; continue _fun0020 }
+            var4 = var7.guild_id;
+            var5['guildId'] = var4;
+            var4 = 'e791ea_1';
+            var5['location'] = var4;
+            var4 = {};
+            var11 = false;
+            var4['autoTrackExposure'] = var11;
+            var4 = var8.bind(var10)(var5, var4);
+            var4 = var4.enabled;
+            var8 = _closure1_slot0;
+            var5 = 14;
+            var5 = var2[var5];
+            var10 = var8.bind(var9)(var5);
+            var5 = var10.useIsGameInvitesPost;
+            var5 = var5.bind(var10)(var7);
+            var10 = 15;
+            var2 = var2[var10];
+            var8 = var8.bind(var9)(var2);
+            var2 = var8.useShouldAgeVerifyForAgeGate;
+            var2 = var2.bind(var8)();
+            if(!var2) { _fun0024_ip = 82; continue _fun0024 }
 case 83:
-            if(var5) { _fun0020_ip = 84; continue _fun0020 }
-case 85:
-            var5 = var6;
-case 84:
-            var1 = var5;
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var6 = var6[var10];
+            var9 = var8.bind(var9)(var6);
+            var8 = var9.shouldShowAgeGateForChannelId;
+            var6 = var7.id;
+            var2 = var8.bind(var9)(var6);
 case 82:
-            if(!var1) { _fun0020_ip = 86; continue _fun0020 }
-case 87:
+            var1 = !var1;
+            if(!var1) { _fun0024_ip = 71; continue _fun0024 }
+case 84:
+            var6 = var7.isVocalThread;
+            var1 = var6.bind(var7)();
+case 71:
+            if(!var1) { _fun0024_ip = 60; continue _fun0024 }
+case 59:
+            if(var4) { _fun0024_ip = 61; continue _fun0024 }
+case 58:
+            var4 = var5;
+case 61:
             var1 = var4;
+case 60:
+            if(!var1) { _fun0024_ip = 85; continue _fun0024 }
 case 86:
-            if(!var1) { _fun0020_ip = 88; continue _fun0020 }
-case 89:
             var1 = var3;
+case 85:
+            if(!var1) { _fun0024_ip = 87; continue _fun0024 }
 case 88:
-            if(!var1) { _fun0020_ip = 90; continue _fun0020 }
-case 91:
             var1 = !var2;
-case 90:
+case 87:
             return var1;
         }
     };
     var3['useCanJoinThreadVoice'] = var4;
     var4 = function useIsNonModInLockedThread(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
 case 0:
             var3 = arg1;
-            var2 = _closure1_slot20;
+            var2 = _closure1_slot22;
             var1 = undefined;
             var2 = var2.bind(var1)(var3);
             var1 = var3.isLockedThread;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0021_ip = 92; continue _fun0021 }
-case 39:
+            if(!var1) { _fun0025_ip = 89; continue _fun0025 }
+case 45:
             var1 = !var2;
-case 92:
+case 89:
             return var1;
         }
     };
     var3['useIsNonModInLockedThread'] = var4;
     var2 = function isNonModInLockedThread(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var3 = arg1;
-            var2 = _closure1_slot21;
+            var2 = _closure1_slot23;
             var1 = undefined;
             var2 = var2.bind(var1)(var3);
             var1 = var3.isLockedThread;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0022_ip = 92; continue _fun0022 }
-case 39:
+            if(!var1) { _fun0026_ip = 89; continue _fun0026 }
+case 45:
             var1 = !var2;
-case 92:
+case 89:
             return var1;
         }
     };

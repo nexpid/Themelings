@@ -657,7 +657,7 @@ case 92:
 case 0:
             var2 = arg1;
             var6 = arg2;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var3 = var3.tabFocused;
             if(var3) { _fun0013_ip = 93; continue _fun0013 }
 case 94:
@@ -2507,7 +2507,7 @@ case 223:
             var16 = _closure1_slot21;
             var15 = _closure1_slot10;
             var14 = _closure1_slot11;
-            var13 = _closure1_slot9;
+            var13 = _closure1_slot8;
             var23 = var12;
             var1 = var23[var11](var22, var21, var20, var19, var18, var17, var16, var15, var14, var13, var12);
             var1 = undefined;

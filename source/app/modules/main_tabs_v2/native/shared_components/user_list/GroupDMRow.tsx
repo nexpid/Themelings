@@ -156,6 +156,9 @@ case 12:
             var4 = 1;
             var1 = 'labelLineClamp';
             var6[0] = var4;
+            var4 = '100%';
+            var1 = 'height';
+            var6[0] = var4;
             var1 = _closure1_slot4;
             var1 = var1.TOGGLE;
             if(!(var3 !== var1)) { _fun0001_ip = 14; continue _fun0001 }

@@ -311,16 +311,20 @@ case 12:
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = arg1;
-                    if(!var1) { _fun0002_ip = 14; continue _fun0002 }
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0002_ip = 14; continue _fun0002 }
 case 15:
+                    if(!var1) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
                     var2 = _closure2_slot0;
                     var3 = var2.verificationLevel;
                     var2 = _closure1_slot8;
                     var2 = var2.LOW;
-                    if(!(!(var3 < var2))) { _fun0002_ip = 16; continue _fun0002 }
-case 14:
-                    if(var1) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+                    if(!(!(var3 < var2))) { _fun0002_ip = 18; continue _fun0002 }
+case 16:
+                    if(var1) { _fun0002_ip = 14; continue _fun0002 }
+case 19:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 18;
@@ -332,8 +336,8 @@ case 18:
                     var5 = _closure2_slot1;
                     var1['verificationLevel'] = var5;
                     var1 = var2.bind(var3)(var1);
-                    _fun0002_ip = 17; continue _fun0002;
-case 16:
+                    _fun0002_ip = 14; continue _fun0002;
+case 18:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 18;
@@ -346,7 +350,7 @@ case 16:
                     var4 = var4.LOW;
                     var1['verificationLevel'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 17:
+case 14:
                     var1 = undefined;
                     return var1;
                 }
@@ -402,16 +406,20 @@ case 17:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var1 = arg1;
-                    if(!var1) { _fun0003_ip = 14; continue _fun0003 }
+                    var3 = _closure2_slot0;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
+                    if(!var1) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
                     var2 = _closure2_slot0;
                     var3 = var2.explicitContentFilter;
                     var2 = _closure1_slot9;
                     var2 = var2.ALL_MEMBERS;
-                    if(!(!(var3 < var2))) { _fun0003_ip = 16; continue _fun0003 }
-case 14:
-                    if(var1) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                    if(!(!(var3 < var2))) { _fun0003_ip = 18; continue _fun0003 }
+case 16:
+                    if(var1) { _fun0003_ip = 14; continue _fun0003 }
+case 19:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 18;
@@ -423,8 +431,8 @@ case 18:
                     var5 = _closure2_slot2;
                     var1['explicitContentFilter'] = var5;
                     var1 = var2.bind(var3)(var1);
-                    _fun0003_ip = 17; continue _fun0003;
-case 16:
+                    _fun0003_ip = 14; continue _fun0003;
+case 18:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 18;
@@ -437,7 +445,7 @@ case 16:
                     var4 = var4.ALL_MEMBERS;
                     var1['explicitContentFilter'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 17:
+case 14:
                     var1 = undefined;
                     return var1;
                 }

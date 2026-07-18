@@ -10,38 +10,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function GradientBorder(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var6 = arg1;
-            var10 = var6.children;
-            var2 = var6.direction;
-            var9 = var6.style;
-            var13 = var6.borderWidth;
+            var4 = arg1;
+            var10 = var4.children;
+            var2 = var4.direction;
+            var11 = var4.style;
+            var13 = var4.borderWidth;
             var5 = undefined;
             if(!(var13 === var5)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var13 = 1;
 case 2:
-            var12 = var6.borderRadius;
+            var12 = var4.borderRadius;
             if(!(var12 === var5)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 5;
-            var1 = var4[var1];
+            var1 = var6[var1];
             var1 = var3.bind(var5)(var1);
             var1 = var1.radii;
             var3 = var1.sm;
             var1 = 1;
             var12 = var3 + var1;
 case 4:
-            var4 = {'children': 0, 'direction': 0, 'style': 0, 'borderWidth': 0, 'borderRadius': 0};
-            var3 = null;
+            var3 = {'children': 0, 'direction': 0, 'style': 0, 'borderWidth': 0, 'borderRadius': 0};
+            var9 = null;
+            var20 = var3;
+            var19 = null;
+            var1 = silentSetPrototypeOf(var20, var19);
+            var20 = {};
             var19 = var4;
-            var18 = null;
-            var1 = silentSetPrototypeOf(var19, var18);
-            var19 = {};
-            var18 = var6;
-            var17 = var4;
-            var7 = copyDataProperties(var19, var18, var17);
+            var18 = var3;
+            var7 = copyDataProperties(var20, var19, var18);
             var1 = function getStartEnd(arg1) {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -97,67 +97,77 @@ case 4:
                 return var1;
             };
             var1 = var1.bind(var5)(var2);
-            var11 = var1.START;
+            var14 = var1.START;
             var8 = var1.END;
-            var2 = var3 != var10;
+            var2 = var9 != var10;
             var1 = null;
             if(!var2) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var4 = _closure1_slot3;
-            var2 = var4.isValidElement;
-            var2 = var2.bind(var4)(var10);
+            var3 = _closure1_slot3;
+            var2 = var3.isValidElement;
+            var2 = var2.bind(var3)(var10);
             var1 = null;
             if(!var2) { _fun0001_ip = 6; continue _fun0001 }
 case 8:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var2 = 6;
-            var2 = var14[var2];
+            var2 = var15[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var2['start'] = var11;
+            var2['start'] = var14;
             var2['end'] = var8;
             var8 = new Array(2);
-            var8[0] = var9;
-            var9 = {};
-            var9['borderRadius'] = var12;
-            var9['padding'] = var13;
-            var8[1] = var9;
+            var8[0] = var11;
+            var11 = {};
+            var11['borderRadius'] = var12;
+            var11['padding'] = var13;
+            var8[1] = var11;
             var2['style'] = var8;
-            var19 = var2;
-            var18 = var7;
-            var7 = copyDataProperties(var19, var18);
-            var8 = var10.type;
-            var7 = _closure1_slot4;
-            if(!(var8 === var7)) { _fun0001_ip = 9; continue _fun0001 }
-case 10:
-            var7 = _closure1_slot3;
-            var8 = var7.Children;
-            var7 = var8.only;
-            var11 = var7.bind(var8)(var10);
-            var9 = _closure1_slot3;
-            var8 = var9.cloneElement;
-            var7 = {};
-            var18 = var11.props;
+            var20 = var2;
             var19 = var7;
-            var14 = copyDataProperties(var19, var18);
-            var15 = {};
-            var14 = var11.props;
-            var18 = var14.style;
-            var19 = var15;
-            var14 = copyDataProperties(var19, var18);
-            var16 = var12 - var13;
-            var14 = 'borderRadius';
-            var15[13] = var16;
-            var16 = 'hidden';
-            var14 = 'overflow';
-            var15[13] = var16;
-            var14 = 'style';
-            var7[13] = var15;
-            var7 = var8.bind(var9)(var11, var7);
-            _fun0001_ip = 11; continue _fun0001;
-case 9:
+            var7 = copyDataProperties(var20, var19);
+            var8 = var9 == var10;
+            var7 = null;
+            if(var8) { _fun0001_ip = 9; continue _fun0001 }
+case 10:
+            var11 = _closure1_slot3;
+            var8 = var11.isValidElement;
+            var8 = var8.bind(var11)(var10);
+            var7 = null;
+            if(!var8) { _fun0001_ip = 9; continue _fun0001 }
+case 11:
+            var9 = var10.type;
+            var8 = _closure1_slot4;
+            if(!(var9 === var8)) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var8 = _closure1_slot3;
+            var9 = var8.Children;
+            var8 = var9.only;
+            var14 = var8.bind(var9)(var10);
+            var11 = _closure1_slot3;
+            var9 = var11.cloneElement;
+            var8 = {};
+            var19 = var14.props;
+            var20 = var8;
+            var15 = copyDataProperties(var20, var19);
+            var16 = {};
+            var15 = var14.props;
+            var19 = var15.style;
+            var20 = var16;
+            var15 = copyDataProperties(var20, var19);
+            var17 = var12 - var13;
+            var15 = 'borderRadius';
+            var16[14] = var17;
+            var17 = 'hidden';
+            var15 = 'overflow';
+            var16[14] = var17;
+            var15 = 'style';
+            var8[14] = var16;
+            var7 = var9.bind(var11)(var14, var8);
+            _fun0001_ip = 9; continue _fun0001;
+case 12:
             var9 = _closure1_slot7;
             var8 = _closure1_slot4;
             var6 = {};
@@ -167,7 +177,7 @@ case 9:
             var6['style'] = var11;
             var6['children'] = var10;
             var7 = var9.bind(var5)(var8, var6);
-case 11:
+case 9:
             var6 = 'children';
             var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);

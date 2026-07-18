@@ -345,50 +345,51 @@ case 10:
         var7 = 'onSwitchSuccess';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            var1 = arg1;
-            var _closure3_slot0 = var1;
-            var1 = arg2;
-            var _closure3_slot1 = var1;
-            var1 = global;
-            var4 = var1.setTimeout;
-            var1 = undefined;
-            var3 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-                    var1 = _closure3_slot1;
-                    if(!var1) { _fun0007_ip = 17; continue _fun0007 }
+                var1 = arg1;
+                var _closure3_slot0 = var1;
+                var1 = arg2;
+                if(!var1) { _fun0007_ip = 17; continue _fun0007 }
 case 18:
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 16;
-                    var2 = var5[var2];
-                    var3 = undefined;
-                    var7 = var4.bind(var3)(var2);
-                    var6 = var7.transitionTo;
-                    var2 = _closure1_slot10;
-                    var2 = var2.ME;
-                    var2 = var6.bind(var7)(var2);
-                    var2 = 17;
-                    var2 = var5[var2];
-                    var2 = var4.bind(var3)(var2);
-                    var5 = var2.MobileHomeDrawerExperiment;
-                    var4 = var5.getConfig;
-                    var2 = {};
-                    var6 = 'multi-account';
-                    var2['location'] = var6;
-                    var2 = var4.bind(var5)(var2);
-                    var2 = var2.enableHome;
-                    if(!var2) { _fun0007_ip = 17; continue _fun0007 }
-case 19:
-                    var2 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 18;
-                    var1 = var4[var1];
-                    var3 = var2.bind(var3)(var1);
-                    var2 = var3.setHomeDrawerState;
-                    var1 = false;
-                    var1 = var2.bind(var3)(var1);
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 16;
+                var3 = var6[var3];
+                var4 = undefined;
+                var9 = var5.bind(var4)(var3);
+                var8 = var9.transitionTo;
+                var3 = _closure1_slot10;
+                var7 = var3.ME;
+                var3 = {};
+                var10 = true;
+                var3['navigationReplace'] = var10;
+                var3 = var8.bind(var9)(var7, var3);
+                var3 = 17;
+                var3 = var6[var3];
+                var3 = var5.bind(var4)(var3);
+                var6 = var3.MobileHomeDrawerExperiment;
+                var5 = var6.getConfig;
+                var3 = {};
+                var7 = 'multi-account';
+                var3['location'] = var7;
+                var3 = var5.bind(var6)(var3);
+                var3 = var3.enableHome;
+                if(!var3) { _fun0007_ip = 17; continue _fun0007 }
+case 6:
+                var3 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var1 = 18;
+                var1 = var5[var1];
+                var4 = var3.bind(var4)(var1);
+                var3 = var4.setHomeDrawerState;
+                var1 = false;
+                var1 = var3.bind(var4)(var1);
 case 17:
+                var1 = global;
+                var4 = var1.setTimeout;
+                var1 = undefined;
+                var3 = function() {
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var1 = 19;
@@ -421,11 +422,11 @@ case 17:
                     var2['icon'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
-                }
-            };
-            var2 = 100;
-            var2 = var4.bind(var1)(var3, var2);
-            return var1;
+                };
+                var2 = 100;
+                var2 = var4.bind(var1)(var3, var2);
+                return var1;
+            }
         };
         var5['value'] = var7;
         var1[1] = var5;
@@ -484,14 +485,14 @@ case 0:
                 var2 = var2.bind(var4)();
                 var4 = _closure1_slot13;
                 var2 = null;
-                if(!(var2 !== var4)) { _fun0008_ip = 20; continue _fun0008 }
-case 21:
+                if(!(var2 !== var4)) { _fun0008_ip = 19; continue _fun0008 }
+case 20:
                 var4 = global;
                 var5 = var4.clearTimeout;
                 var4 = _closure1_slot13;
                 var4 = var5.bind(var1)(var4);
                 _closure1_slot13 = var2;
-case 20:
+case 19:
                 return var1;
             }
         };

@@ -249,31 +249,46 @@ case 8:
                 var3 = var3.bind(var1)(var2);
                 var2 = {};
                 var4 = function onConfirm() {
-                    var5 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var1 = 17;
-                    var4 = var2[var1];
-                    var1 = undefined;
-                    var6 = var5.bind(var1)(var4);
-                    var5 = var6.openLazy;
-                    var4 = _closure1_slot0;
-                    var3 = 19;
-                    var3 = var2[var3];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = 18;
-                    var3 = var2[var3];
-                    var2 = var2.paths;
-                    var4 = var4.bind(var1)(var3, var2);
-                    var3 = {};
-                    var7 = _closure2_slot0;
-                    var3['user'] = var7;
-                    var7 = _closure2_slot1;
-                    var3['selectedGuild'] = var7;
-                    var2 = _closure2_slot4;
-                    var3['onSelectGuild'] = var2;
-                    var2 = 'GuildSelectComponentActionSheet';
-                    var2 = var5.bind(var6)(var4, var2, var3);
-                    return var1;
+                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                        var2 = _closure2_slot0;
+                        var4 = null;
+                        var2 = var4 != var2;
+                        if(!var2) { _fun0003_ip = 2; continue _fun0003 }
+case 3:
+                        var3 = _closure2_slot1;
+                        var2 = var4 != var3;
+case 2:
+                        if(!var2) { _fun0003_ip = 9; continue _fun0003 }
+case 5:
+                        var5 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var4 = 17;
+                        var4 = var2[var4];
+                        var7 = undefined;
+                        var5 = var5.bind(var7)(var4);
+                        var4 = var5.openLazy;
+                        var6 = _closure1_slot0;
+                        var3 = 19;
+                        var3 = var2[var3];
+                        var6 = var6.bind(var7)(var3);
+                        var3 = 18;
+                        var3 = var2[var3];
+                        var2 = var2.paths;
+                        var3 = var6.bind(var7)(var3, var2);
+                        var2 = {};
+                        var6 = _closure2_slot0;
+                        var2['user'] = var6;
+                        var6 = _closure2_slot1;
+                        var2['selectedGuild'] = var6;
+                        var1 = _closure2_slot4;
+                        var2['onSelectGuild'] = var1;
+                        var1 = 'GuildSelectComponentActionSheet';
+                        var1 = var4.bind(var5)(var3, var1, var2);
+case 9:
+                        var1 = undefined;
+                        return var1;
+                    }
                 };
                 var2['onConfirm'] = var4;
                 var5 = _closure2_slot3;

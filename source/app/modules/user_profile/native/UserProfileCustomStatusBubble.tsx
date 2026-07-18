@@ -596,15 +596,15 @@ case 44:
             var4 = undefined;
             var11 = var4 !== var5;
             if(!var11) { _fun0005_ip = 47; continue _fun0005 }
-case 48:
+case 6:
             var11 = var5;
 case 47:
             var7 = var1.showFullStatus;
             var5 = var4 !== var7;
-            if(!var5) { _fun0005_ip = 49; continue _fun0005 }
-case 50:
+            if(!var5) { _fun0005_ip = 48; continue _fun0005 }
+case 36:
             var5 = var7;
-case 49:
+case 48:
             var _closure2_slot0 = var5;
             var13 = var1.onPressTruncatedStatus;
             var _closure2_slot1 = var13;
@@ -621,15 +621,15 @@ case 49:
             var29 = null;
             var2 = var29 != var3;
             var1 = undefined;
-            if(!var2) { _fun0005_ip = 51; continue _fun0005 }
-case 52:
+            if(!var2) { _fun0005_ip = 28; continue _fun0005 }
+case 49:
             var2 = _closure1_slot13;
             var1 = var2[var3];
-case 51:
-            if(!(var29 == var1)) { _fun0005_ip = 53; continue _fun0005 }
 case 28:
+            if(!(var29 == var1)) { _fun0005_ip = 50; continue _fun0005 }
+case 51:
             var1 = _closure1_slot12;
-case 53:
+case 50:
             var5 = var1.textVariant;
             var _closure2_slot4 = var5;
             var24 = var1.emojiOnlyEmojiSize;
@@ -650,27 +650,27 @@ case 53:
             var1 = var14[var1];
             var9 = var9.bind(var4)(var1);
             var1 = var9.useGameMentionsAsPlainText;
-            if(!(var4 !== var10)) { _fun0005_ip = 54; continue _fun0005 }
-case 31:
+            if(!(var4 !== var10)) { _fun0005_ip = 52; continue _fun0005 }
+case 53:
             var14 = '';
-            if(!(var14 === var10)) { _fun0005_ip = 55; continue _fun0005 }
-case 54:
+            if(!(var14 === var10)) { _fun0005_ip = 54; continue _fun0005 }
+case 52:
             var17 = var29 == var12;
             var14 = undefined;
-            if(var17) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
-            var14 = var12.state;
+            if(var17) { _fun0005_ip = 55; continue _fun0005 }
 case 56:
-            var10 = var14;
+            var14 = var12.state;
 case 55:
+            var10 = var14;
+case 54:
             var10 = var1.bind(var9)(var10);
             var1 = var29 != var10;
-            if(!var1) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
+            if(!var1) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
             var9 = '';
             var1 = var9 !== var10;
-case 58:
-            if(!(var4 === var26)) { _fun0005_ip = 19; continue _fun0005 }
+case 57:
+            if(!(var4 === var26)) { _fun0005_ip = 59; continue _fun0005 }
 case 60:
             var14 = var29 == var12;
             var9 = undefined;
@@ -679,7 +679,7 @@ case 62:
             var9 = var12.emoji;
 case 61:
             var26 = var9;
-case 19:
+case 59:
             var _closure2_slot7 = var26;
             var9 = var29 != var26;
             var23 = var9;

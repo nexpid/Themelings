@@ -21,21 +21,28 @@ case 0:
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var2 = 3;
-                    var2 = var5[var2];
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var9 = 3;
+                    var2 = var11[var9];
                     var6 = undefined;
-                    var2 = var3.bind(var6)(var2);
+                    var2 = var10.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.get;
-                    var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    var10 = _closure1_slot4;
-                    var9 = var10.MESSAGE_INTERACTION_DATA;
-                    var9 = var9.bind(var10)(var8, var7);
-                    var2['url'] = var9;
+                    var2 = {};
+                    var13 = _closure1_slot4;
+                    var12 = var13.MESSAGE_INTERACTION_DATA;
+                    var12 = var12.bind(var13)(var8, var7);
+                    var2['url'] = var12;
+                    var12 = true;
+                    var2['oldFormErrors'] = var12;
+                    var9 = var11[var9];
+                    var10 = var10.bind(var6)(var9);
+                    var9 = var10.rejectWithMigratedError;
+                    var9 = var9.bind(var10)();
+                    var2['rejectWithError'] = var9;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=92);
+                    SaveGenerator(address=112);
 case 4:
                     return var2;
 case 5:

@@ -119,6 +119,27 @@ case 10:
         var3 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
+                var5 = function handleStateChange() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+                        var3 = _closure3_slot0;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0005_ip = 4; continue _fun0005 }
+case 12:
+                        var2 = _closure1_slot4;
+                        var3 = _closure3_slot0;
+                        var1 = var3.getRootState;
+                        var1 = var1.bind(var3)();
+                        var3 = undefined;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = _closure2_slot0;
+                        var1 = var1.bind(var3)(var2);
+case 4:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var _closure3_slot1 = var5;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 2;
@@ -126,28 +147,16 @@ case 0:
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
                 var3 = var4.getRootNavigationRef;
-                var5 = var3.bind(var4)();
-                var _closure3_slot0 = var5;
+                var4 = var3.bind(var4)();
+                var _closure3_slot0 = var4;
                 var3 = null;
-                if(!(var3 == var5)) { _fun0004_ip = 12; continue _fun0004 }
-case 13:
+                if(!(var3 == var4)) { _fun0004_ip = 13; continue _fun0004 }
+case 14:
                 return var2;
-case 12:
-                var4 = function handleStateChange() {
-                    var3 = _closure1_slot4;
-                    var2 = _closure3_slot0;
-                    var1 = var2.getRootState;
-                    var2 = var1.bind(var2)();
-                    var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = _closure2_slot0;
-                    var2 = var2.bind(var1)(var3);
-                    return var1;
-                };
-                var _closure3_slot1 = var4;
-                var3 = var5.addListener;
+case 13:
+                var3 = var4.addListener;
                 var2 = 'state';
-                var2 = var3.bind(var5)(var2, var4);
+                var2 = var3.bind(var4)(var2, var5);
                 var1 = function() {
                     var4 = _closure3_slot0;
                     var3 = var4.removeListener;

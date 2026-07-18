@@ -41,21 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.createStyles;
     var4 = function() {
         var1 = {};
-        var2 = {};
-        var5 = _closure1_slot1;
-        var6 = _closure1_slot2;
-        var3 = 5;
-        var7 = var6[var3];
-        var4 = undefined;
-        var7 = var5.bind(var4)(var7);
-        var7 = var7.space;
-        var7 = var7.PX_48;
-        var2['width'] = var7;
-        var3 = var6[var3];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.space;
-        var3 = var3.PX_48;
-        var2['height'] = var3;
+        var2 = {'width': 80, 'height': 80};
         var1['container'] = var2;
         return var1;
     };
@@ -78,12 +64,12 @@ case 0:
             var6 = var2.bind(var4)();
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 6;
+            var2 = 5;
             var2 = var10[var2];
             var7 = var3.bind(var4)(var2);
             var3 = var7.useToken;
             var8 = _closure1_slot1;
-            var2 = 5;
+            var2 = 6;
             var2 = var10[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.colors;

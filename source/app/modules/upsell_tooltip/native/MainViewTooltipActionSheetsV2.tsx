@@ -33,6 +33,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
+    var14 = function ConnectionDeprecationActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 8;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 18;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
     var1 = function getActionSheetType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -246,12 +259,12 @@ case 8:
     var6 = new Array(4);
     var6[0] = var4;
     var4 = {};
-    var14 = var8[var11];
-    var14 = var7.bind(var1)(var14);
-    var14 = var14.DismissibleContent;
-    var14 = var14.DISCOUNT_OFFER_ACTION_SHEET;
-    var4['id'] = var14;
-    var14 = function PremiumDiscountOfferActionSheetImporter() {
+    var15 = var8[var11];
+    var15 = var7.bind(var1)(var15);
+    var15 = var15.DismissibleContent;
+    var15 = var15.DISCOUNT_OFFER_ACTION_SHEET;
+    var4['id'] = var15;
+    var15 = function PremiumDiscountOfferActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -264,15 +277,15 @@ case 8:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4['importer'] = var14;
+    var4['importer'] = var15;
     var6[1] = var4;
     var4 = {};
-    var14 = var8[var11];
-    var14 = var7.bind(var1)(var14);
-    var14 = var14.DismissibleContent;
-    var14 = var14.MOBILE_PREMIUM_TRIAL_OFFER_ACTION_SHEET;
-    var4['id'] = var14;
-    var14 = function PremiumTrialOfferActionSheetImporter() {
+    var15 = var8[var11];
+    var15 = var7.bind(var1)(var15);
+    var15 = var15.DismissibleContent;
+    var15 = var15.MOBILE_PREMIUM_TRIAL_OFFER_ACTION_SHEET;
+    var4['id'] = var15;
+    var15 = function PremiumTrialOfferActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -285,15 +298,15 @@ case 8:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4['importer'] = var14;
+    var4['importer'] = var15;
     var6[2] = var4;
     var4 = {};
-    var14 = var8[var11];
-    var14 = var7.bind(var1)(var14);
-    var14 = var14.DismissibleContent;
-    var14 = var14.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
-    var4['id'] = var14;
-    var14 = function BogoPromotionActionSheetImporter() {
+    var15 = var8[var11];
+    var15 = var7.bind(var1)(var15);
+    var15 = var15.DismissibleContent;
+    var15 = var15.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+    var4['id'] = var15;
+    var15 = function BogoPromotionActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 8;
@@ -306,32 +319,28 @@ case 8:
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var4['importer'] = var14;
+    var4['importer'] = var15;
     var6[3] = var4;
-    var4 = new Array(10);
-    var17 = var4;
-    var16 = var6;
-    var15 = 0;
-    var6 = arraySpread(var17, var16, var15);
+    var4 = new Array(11);
+    var18 = var4;
+    var17 = var6;
+    var16 = 0;
+    var6 = arraySpread(var18, var17, var16);
     var9 = {};
-    var14 = var8[var11];
-    var14 = var7.bind(var1)(var14);
-    var14 = var14.DismissibleContent;
-    var14 = var14.RIOT_CONNECTION_DEPRECATION_DISABLE;
-    var9['id'] = var14;
-    var14 = function RiotConnectionDeprecationActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 8;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 18;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
+    var15 = var8[var11];
+    var15 = var7.bind(var1)(var15);
+    var15 = var15.DismissibleContent;
+    var15 = var15.RIOT_CONNECTION_DEPRECATION_DISABLE;
+    var9['id'] = var15;
+    var9['importer'] = var14;
+    var4[5] = var9;
+    var6 = var6 + var10;
+    var9 = {};
+    var15 = var8[var11];
+    var15 = var7.bind(var1)(var15);
+    var15 = var15.DismissibleContent;
+    var15 = var15.BATTLENET_CONNECTION_DEPRECATION_DISABLE;
+    var9['id'] = var15;
     var9['importer'] = var14;
     var4[5] = var9;
     var6 = var6 + var10;

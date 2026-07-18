@@ -1,4 +1,4 @@
-// app/actions/AuthorizedAppsActionCreators.tsx
+// app/modules/oauth2/AuthorizedAppsActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var8 = metroImportDefault;
@@ -496,7 +496,7 @@ case 49:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'actions/AuthorizedAppsActionCreators.tsx';
+    var4 = 'modules/oauth2/AuthorizedAppsActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;
