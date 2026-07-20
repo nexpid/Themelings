@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.bind(var1)(var2);
     var7 = var2.TurboModuleRegistry;
     var4 = var7.getEnforcing;
-    var2 = 'ShareManager';
+    var2 = 'NativeShareManagerModule';
     var2 = var4.bind(var7)(var2);
     var4 = 1;
     var4 = var6[var4];

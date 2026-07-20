@@ -2767,7 +2767,7 @@
 { "file": "app/modules/conversations/components/native/ConversationNavigatorUtils.tsx", "size": 2001 }
 { "file": "app/modules/conversations/components/native/ConversationPreviewMessage.tsx", "size": 11768 }
 { "file": "app/modules/conversations/components/native/ConversationPreviewSkeleton.tsx", "size": 8182 }
-{ "file": "app/modules/conversations/components/native/useConversationsHeaderButton.tsx", "size": 17335 }
+{ "file": "app/modules/conversations/components/native/useConversationsHeaderButton.tsx", "size": 17337 }
 { "file": "app/modules/conversations/ConversationConstants.tsx", "size": 1507 }
 { "file": "app/modules/conversations/ConversationExperiments.tsx", "size": 10510 }
 { "file": "app/modules/conversations/Conversations.messages.js", "size": 20434 }
@@ -8816,7 +8816,7 @@
 { "file": "app/stores/RegionStore.tsx", "size": 11118 }
 { "file": "app/stores/RelationshipStore.tsx", "size": 59346 }
 { "file": "app/stores/RTCConnectionDesyncStore.tsx", "size": 20615 }
-{ "file": "app/stores/RTCConnectionStore.tsx", "size": 70793 }
+{ "file": "app/stores/RTCConnectionStore.tsx", "size": 73860 }
 { "file": "app/stores/RTCDebugStore.tsx", "size": 48650 }
 { "file": "app/stores/RTCRegionStore.tsx", "size": 11322 }
 { "file": "app/stores/SelectedChannelStore.tsx", "size": 51987 }
@@ -8994,7 +8994,7 @@
 { "file": "app/utils/UserSettingsUtils.tsx", "size": 12847 }
 { "file": "app/utils/UserUtils.tsx", "size": 23687 }
 { "file": "app/utils/ValidationUtils.tsx", "size": 3576 }
-{ "file": "app/utils/web/DesktopNativeUtils.tsx", "size": 236384 }
+{ "file": "app/utils/web/DesktopNativeUtils.tsx", "size": 236397 }
 { "file": "app/utils/web/KeyboardLayoutMapUtils.tsx", "size": 94394 }
 { "file": "app/utils/web/KeyboardUtils.tsx", "size": 53088 }
 { "file": "app/utils/web/ProtocolUtils.tsx", "size": 9590 }
@@ -9685,7 +9685,7 @@
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx", "size": 966369 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 14092 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx", "size": 125405 }
-{ "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_banner.tsx", "size": 40279 }
+{ "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_banner.tsx", "size": 40278 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx", "size": 30789 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_customization_banner.tsx", "size": 30504 }
 { "file": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon_coachmark.tsx", "size": 21148 }
@@ -9780,7 +9780,7 @@
 { "file": "discord_common/js/packages/rtn-codegen/js/NativeRemoteAuthCryptoModule.tsx", "size": 891 }
 { "file": "discord_common/js/packages/rtn-codegen/js/NativeSafeAreaInsetsModule.tsx", "size": 887 }
 { "file": "discord_common/js/packages/rtn-codegen/js/NativeScreenWakeLockModule.tsx", "size": 887 }
-{ "file": "discord_common/js/packages/rtn-codegen/js/NativeShareManagerModule.tsx", "size": 871 }
+{ "file": "discord_common/js/packages/rtn-codegen/js/NativeShareManagerModule.tsx", "size": 883 }
 { "file": "discord_common/js/packages/rtn-codegen/js/NativeStartupFlagsModule.tsx", "size": 874 }
 { "file": "discord_common/js/packages/rtn-codegen/js/NativeSystraceModule.tsx", "size": 875 }
 { "file": "discord_common/js/packages/rtn-codegen/js/NativeTelecomModule.tsx", "size": 873 }
