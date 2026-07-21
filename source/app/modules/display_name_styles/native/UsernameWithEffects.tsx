@@ -969,6 +969,7 @@ case 64:
 case 104:
             var12 = {};
             var12['fontFamily'] = var13;
+            var12['lineHeight'] = var4;
             var10 = var12;
 case 103:
             var11[1] = var10;

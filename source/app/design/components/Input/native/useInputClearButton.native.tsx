@@ -8,72 +8,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function useInputClearButtonConfig(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var5 = arg2;
-            var1 = var2.isClearable;
-            var7 = var2.fieldLabel;
+            var3 = arg2;
+            var1 = arg1;
+            var1 = var1.isClearable;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var5.hasValue;
+            var1 = var3.hasValue;
             if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 2:
             var1 = undefined;
             return var1;
 case 4:
-            var1 = null;
-            if(!(var1 != var7)) { _fun0001_ip = 5; continue _fun0001 }
-case 6:
-            var1 = '';
-            if(!(var1 === var7)) { _fun0001_ip = 7; continue _fun0001 }
-case 5:
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var1 = 3;
-            var2 = var8[var1];
-            var4 = undefined;
-            var2 = var6.bind(var4)(var2);
-            var3 = var2.intl;
-            var2 = var3.string;
-            var1 = var8[var1];
-            var1 = var6.bind(var4)(var1);
-            var1 = var1.t;
-            var1 = var1.VkKicb;
-            var4 = var2.bind(var3)(var1);
-            _fun0001_ip = 8; continue _fun0001;
-case 7:
+            var1 = {};
+            var6 = _closure1_slot3;
             var8 = _closure1_slot0;
-            var9 = _closure1_slot1;
-            var1 = 3;
-            var3 = var9[var1];
-            var2 = undefined;
-            var3 = var8.bind(var2)(var3);
-            var6 = var3.intl;
-            var3 = var6.formatToPlainString;
-            var1 = var9[var1];
-            var1 = var8.bind(var2)(var1);
-            var1 = var1.t;
-            var2 = var1["7/UFPj"];
-            var1 = {};
-            var1['fieldName'] = var7;
-            var4 = var3.bind(var6)(var2, var1);
-case 8:
-            var1 = {};
-            var8 = _closure1_slot3;
-            var6 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var3 = 4;
-            var2 = var2[var3];
+            var4 = _closure1_slot1;
+            var2 = 3;
+            var2 = var4[var2];
             var7 = undefined;
-            var2 = var6.bind(var7)(var2);
-            var6 = var2.CircleXIcon;
+            var2 = var8.bind(var7)(var2);
+            var5 = var2.CircleXIcon;
             var2 = {};
             var9 = 'xs';
             var2['size'] = var9;
-            var2 = var8.bind(var7)(var6, var2);
+            var2 = var6.bind(var7)(var5, var2);
             var1['content'] = var2;
             var2 = {};
-            var5 = var5.clear;
-            var2['onPress'] = var5;
+            var3 = var3.clear;
+            var2['onPress'] = var3;
+            var3 = 4;
+            var5 = var4[var3];
+            var5 = var8.bind(var7)(var5);
+            var6 = var5.intl;
+            var5 = var6.string;
+            var4 = var4[var3];
+            var4 = var8.bind(var7)(var4);
+            var4 = var4.t;
+            var4 = var4.VkKicb;
+            var4 = var5.bind(var6)(var4);
             var2['accessibilityLabel'] = var4;
             var4 = 'button';
             var2['accessibilityRole'] = var4;
@@ -122,8 +94,8 @@ case 0:
             var6 = var4.bind(var5)(var3, var1);
             var1 = null;
             var3 = var1 != var6;
-            if(!var3) { _fun0002_ip = 9; continue _fun0002 }
-case 2:
+            if(!var3) { _fun0002_ip = 5; continue _fun0002 }
+case 6:
             var4 = _closure1_slot3;
             var3 = _closure1_slot2;
             var2 = {};
@@ -134,7 +106,7 @@ case 2:
             var6 = 'children';
             var2[5] = var7;
             var1 = var4.bind(var5)(var3, var2);
-case 9:
+case 5:
             return var1;
         }
     };

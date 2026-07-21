@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.bind(var5)(var7);
             var7 = var7.STANDARD_EASING;
             var2['easing'] = var7;
-            var7 = 'animate-always';
+            var7 = 'respect-motion-settings';
             var2 = var9.bind(var10)(var3, var2, var7);
             var1['opacity'] = var2;
             var3 = {};
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var6.withSpring;
         var5['withSpring'] = var6;
         var1['__closure'] = var5;
-        var5 = 9754366991991.0;
+        var5 = 14458898683767.0;
         var1['__workletHash'] = var5;
         var4 = _closure1_slot14;
         var1['__initData'] = var4;
@@ -1018,7 +1018,7 @@ case 43:
     var5 = var9.bind(var10)(var5);
     var _closure1_slot13 = var5;
     var5 = {};
-    var9 = "function ImageCarouselTsx1(){const{withTiming,animatedStylePropValue,STANDARD_EASING,withSpring}=this.__closure;return{opacity:withTiming(animatedStylePropValue.get(),{duration:300,easing:STANDARD_EASING},'animate-always'),transform:[{scale:withSpring(animatedStylePropValue.get(),{stiffness:80,damping:6,mass:0.3},'animate-always')}]};}";
+    var9 = "function ImageCarouselTsx1(){const{withTiming,animatedStylePropValue,STANDARD_EASING,withSpring}=this.__closure;return{opacity:withTiming(animatedStylePropValue.get(),{duration:300,easing:STANDARD_EASING},'respect-motion-settings'),transform:[{scale:withSpring(animatedStylePropValue.get(),{stiffness:80,damping:6,mass:0.3},'respect-motion-settings')}]};}";
     var5['code'] = var9;
     var _closure1_slot14 = var5;
     var5 = var8.memo;

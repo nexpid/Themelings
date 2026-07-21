@@ -65,13 +65,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function MediaKeyboard(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var11 = var2.channel;
+            var1 = arg1;
+            var11 = var1.channel;
             var _closure2_slot0 = var11;
-            var24 = var2.chatInputRef;
+            var24 = var1.chatInputRef;
             var _closure2_slot1 = var24;
-            var13 = var2.onClose;
-            var5 = var2.transitionState;
+            var14 = var1.onClose;
+            var5 = var1.transitionState;
             var4 = undefined;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
@@ -82,14 +82,14 @@ case 0:
             var _closure2_slot13 = var4;
             var _closure2_slot14 = var4;
             var _closure2_slot15 = var4;
-            var6 = _closure1_slot3;
-            var7 = var6.useEffect;
-            var2 = var11.id;
+            var2 = _closure1_slot3;
+            var6 = var2.useEffect;
+            var1 = var11.id;
             var3 = new Array(2);
-            var3[0] = var2;
-            var2 = var11.guild_id;
-            var3[1] = var2;
-            var2 = function() {
+            var3[0] = var1;
+            var1 = var11.guild_id;
+            var3[1] = var1;
+            var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 8;
@@ -111,69 +111,69 @@ case 0:
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var2 = var7.bind(var6)(var2, var3);
-            var2 = var6.useRef;
+            var1 = var6.bind(var2)(var1, var3);
+            var1 = var2.useRef;
             var3 = null;
-            var17 = var2.bind(var6)(var3);
-            var _closure2_slot2 = var17;
-            var7 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 9;
-            var6 = var10[var2];
-            var9 = var7.bind(var4)(var6);
-            var8 = var9.useSharedValue;
-            var6 = -1;
-            var19 = var8.bind(var9)(var6);
-            var _closure2_slot3 = var19;
-            var2 = var10[var2];
-            var8 = var7.bind(var4)(var2);
-            var6 = var8.useSharedValue;
-            var2 = 0;
-            var18 = var6.bind(var8)(var2);
-            var _closure2_slot4 = var18;
-            var2 = 10;
-            var2 = var10[var2];
-            var8 = var7.bind(var4)(var2);
-            var6 = var8.useKeyboardContextForType;
-            var2 = 11;
-            var2 = var10[var2];
-            var2 = var7.bind(var4)(var2);
-            var2 = var2.KeyboardTypes;
-            var2 = var2.MEDIA;
-            var23 = var6.bind(var8)(var2);
+            var18 = var1.bind(var2)(var3);
+            var _closure2_slot2 = var18;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 9;
+            var2 = var9[var1];
+            var8 = var6.bind(var4)(var2);
+            var7 = var8.useSharedValue;
+            var2 = -1;
+            var20 = var7.bind(var8)(var2);
+            var _closure2_slot3 = var20;
+            var1 = var9[var1];
+            var7 = var6.bind(var4)(var1);
+            var2 = var7.useSharedValue;
+            var1 = 0;
+            var19 = var2.bind(var7)(var1);
+            var _closure2_slot4 = var19;
+            var1 = 10;
+            var1 = var9[var1];
+            var7 = var6.bind(var4)(var1);
+            var2 = var7.useKeyboardContextForType;
+            var1 = 11;
+            var1 = var9[var1];
+            var1 = var6.bind(var4)(var1);
+            var1 = var1.KeyboardTypes;
+            var1 = var1.MEDIA;
+            var23 = var2.bind(var7)(var1);
             var _closure2_slot5 = var23;
-            var2 = 12;
-            var2 = var10[var2];
-            var8 = var7.bind(var4)(var2);
-            var6 = var8.useAppLauncherActionSheet;
-            var2 = {};
-            var2['chatInputRef'] = var24;
-            var2['channel'] = var11;
-            var2 = var6.bind(var8)(var2);
-            var14 = var2.appLauncherActionSheet;
-            var2 = 13;
-            var2 = var10[var2];
-            var8 = var7.bind(var4)(var2);
-            var6 = var8.useMobileVisualRefreshConfig;
-            var2 = {};
-            var9 = 'MediaKeyboard';
-            var2['location'] = var9;
-            var2 = var6.bind(var8)(var2);
-            var2 = var2.chatInputFloating;
-            var6 = 14;
-            var6 = var10[var6];
-            var8 = var7.bind(var4)(var6);
-            var7 = var8.useToken;
-            var9 = _closure1_slot1;
-            var6 = 15;
-            var6 = var10[var6];
-            var6 = var9.bind(var4)(var6);
-            var6 = var6.modules;
-            var6 = var6.mobile;
-            var6 = var6.MEDIA_KEYBOARD_SEND_VERTICAL_INSET;
-            var12 = var7.bind(var8)(var6);
-            var _closure2_slot6 = var12;
-            var21 = var2;
+            var1 = 12;
+            var1 = var9[var1];
+            var7 = var6.bind(var4)(var1);
+            var2 = var7.useAppLauncherActionSheet;
+            var1 = {};
+            var1['chatInputRef'] = var24;
+            var1['channel'] = var11;
+            var1 = var2.bind(var7)(var1);
+            var15 = var1.appLauncherActionSheet;
+            var1 = 13;
+            var1 = var9[var1];
+            var7 = var6.bind(var4)(var1);
+            var2 = var7.useMobileVisualRefreshConfig;
+            var1 = {};
+            var8 = 'MediaKeyboard';
+            var1['location'] = var8;
+            var1 = var2.bind(var7)(var1);
+            var2 = var1.chatInputFloating;
+            var1 = 14;
+            var1 = var9[var1];
+            var7 = var6.bind(var4)(var1);
+            var6 = var7.useToken;
+            var8 = _closure1_slot1;
+            var1 = 15;
+            var1 = var9[var1];
+            var1 = var8.bind(var4)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.MEDIA_KEYBOARD_SEND_VERTICAL_INSET;
+            var1 = var6.bind(var7)(var1);
+            var _closure2_slot6 = var1;
+            var17 = var2;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var7 = _closure1_slot0;
@@ -182,9 +182,9 @@ case 3:
             var6 = var8[var6];
             var7 = var7.bind(var4)(var6);
             var6 = var7.getIsAppLauncherEnabled;
-            var21 = var6.bind(var7)(var11);
+            var17 = var6.bind(var7)(var11);
 case 2:
-            _closure2_slot7 = var21;
+            _closure2_slot7 = var17;
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 17;
@@ -210,13 +210,13 @@ case 2:
             _closure2_slot11 = var6;
             var8 = var8.mediaFilesAllowed;
             var16 = _closure1_slot3;
-            var15 = var16.useMemo;
+            var12 = var16.useMemo;
             var10 = new Array(9);
-            var10[0] = var19;
+            var10[0] = var20;
             var10[1] = var11;
             var10[2] = var24;
             var10[3] = var23;
-            var10[4] = var17;
+            var10[4] = var18;
             var10[5] = var7;
             var10[6] = var9;
             var10[7] = var22;
@@ -849,7 +849,7 @@ case 38:
                 var1['onSend'] = var2;
                 return var1;
             };
-            var10 = var15.bind(var16)(var6, var10);
+            var10 = var12.bind(var16)(var6, var10);
             _closure2_slot12 = var10;
             if(!var2) { _fun0001_ip = 40; continue _fun0001 }
 case 41:
@@ -858,14 +858,14 @@ case 40:
             _closure2_slot13 = var2;
             var6 = _closure1_slot3;
             var16 = var6.useMemo;
-            var15 = new Array(5);
-            var15[0] = var10;
+            var12 = new Array(5);
+            var12[0] = var10;
             var22 = var7.uploadDisabled;
-            var15[1] = var22;
+            var12[1] = var22;
             var22 = var7.canPostPolls;
-            var15[2] = var22;
-            var15[3] = var21;
-            var15[4] = var2;
+            var12[2] = var22;
+            var12[3] = var17;
+            var12[4] = var2;
             var2 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
@@ -1031,12 +1031,12 @@ case 47:
                     return var1;
                 }
             };
-            var16 = var16.bind(var6)(var2, var15);
-            _closure2_slot14 = var16;
+            var12 = var16.bind(var6)(var2, var12);
+            _closure2_slot14 = var12;
             var2 = var6.useRef;
             var2 = var2.bind(var6)(var3);
             _closure2_slot15 = var2;
-            var15 = var6.useCallback;
+            var16 = var6.useCallback;
             var3 = new Array(1);
             var3[0] = var10;
             var2 = function(arg1) {
@@ -1057,17 +1057,17 @@ case 47:
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var15 = var15.bind(var6)(var2, var3);
+            var16 = var16.bind(var6)(var2, var3);
             var3 = var6.useCallback;
             var2 = new Array(7);
-            var2[0] = var19;
-            var2[1] = var18;
+            var2[0] = var20;
+            var2[1] = var19;
             var2[2] = var10;
-            var21 = var11.id;
-            var2[3] = var21;
+            var17 = var11.id;
+            var2[3] = var17;
             var2[4] = var7;
-            var2[5] = var16;
-            var2[6] = var12;
+            var2[5] = var12;
+            var2[6] = var1;
             var1 = function(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -1151,7 +1151,7 @@ case 50:
                     return var1;
                 }
             };
-            var16 = var3.bind(var6)(var1, var2);
+            var17 = var3.bind(var6)(var1, var2);
             var3 = _closure1_slot12;
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -1159,15 +1159,23 @@ case 50:
             var1 = var12[var1];
             var2 = var6.bind(var4)(var1);
             var1 = {};
-            var20 = _closure1_slot11;
-            var1['animationConfigs'] = var20;
-            var1['animatedIndex'] = var19;
-            var1['animatedPosition'] = var18;
-            var1['bottomSheetRef'] = var17;
-            var1['accessoriesComponent'] = var16;
-            var1['handleComponent'] = var15;
-            var1['overlayComponent'] = var14;
-            var1['onClose'] = var13;
+            var21 = _closure1_slot11;
+            var1['animationConfigs'] = var21;
+            var1['animatedIndex'] = var20;
+            var1['animatedPosition'] = var19;
+            var1['bottomSheetRef'] = var18;
+            var1['accessoriesComponent'] = var17;
+            var1['handleComponent'] = var16;
+            var1['overlayComponent'] = var15;
+            var1['onClose'] = var14;
+            var13 = function onAccessibilityFocusRestore() {
+                var1 = _closure2_slot1;
+                var2 = var1.current;
+                var1 = var2.focusPhotosButton;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var1['onAccessibilityFocusRestore'] = var13;
             var1['transitionState'] = var5;
             var5 = 38;
             var5 = var12[var5];

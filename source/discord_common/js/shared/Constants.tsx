@@ -1899,6 +1899,10 @@ case 4:
     var17['SEO_PAGE_CWV_MEASURED'] = var2;
     var2 = 'ads_manager_page_viewed';
     var17['ADS_MANAGER_PAGE_VIEWED'] = var2;
+    var2 = 'ads_manager_cta_clicked';
+    var17['ADS_MANAGER_CTA_CLICKED'] = var2;
+    var2 = 'ads_manager_no_ad_accounts_viewed';
+    var17['ADS_MANAGER_NO_AD_ACCOUNTS_VIEWED'] = var2;
     var16 = {};
     var2 = 'mktg_ack_modal_open';
     var16['MKTG_ACKNOWLEDGEMENTS_MODAL_OPEN'] = var2;

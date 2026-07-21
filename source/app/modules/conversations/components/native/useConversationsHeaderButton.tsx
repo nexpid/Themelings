@@ -129,7 +129,7 @@ case 7: // try_start_0
                             var6['limit'] = var7;
                             var3['hydrateMessages'] = var6;
                             var3 = var4.bind(var5)(var3);
-                            SaveGenerator(address=128);
+                            SaveGenerator(address=124);
 case 8:
                             return var3;
 case 9:
@@ -339,35 +339,31 @@ case 29:
             var2 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                    var1 = _closure2_slot6;
-                    if(!var1) { _fun0006_ip = 31; continue _fun0006 }
+                    var2 = _closure2_slot6;
+                    if(!var2) { _fun0006_ip = 31; continue _fun0006 }
 case 5:
-                    var2 = _closure2_slot7;
-                    var3 = var2.current;
-                    var2 = _closure2_slot0;
-                    var2 = var2.id;
-                    var1 = var3 !== var2;
+                    var3 = _closure2_slot7;
+                    var4 = var3.current;
+                    var3 = _closure2_slot0;
+                    var3 = var3.id;
+                    var2 = var4 !== var3;
 case 31:
-                    if(!var1) { _fun0006_ip = 32; continue _fun0006 }
+                    if(!var2) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
-                    var2 = _closure2_slot7;
-                    var5 = _closure2_slot0;
-                    var1 = var5.id;
-                    var2['current'] = var1;
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot1;
-                    var1 = 9;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-                    var3 = var1.ConversationsAnalytics;
-                    var2 = var3.trackEntrypointImpression;
-                    var1 = {};
-                    var5 = var5.id;
-                    var1['channelId'] = var5;
-                    var4 = _closure2_slot5;
-                    var1['conversationCount'] = var4;
-                    var1 = var2.bind(var3)(var1);
+                    var4 = _closure2_slot7;
+                    var2 = _closure2_slot0;
+                    var3 = var2.id;
+                    var4['current'] = var3;
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot1;
+                    var3 = 7;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.trackTopicalNavigationEntrypointImpression;
+                    var2 = var2.id;
+                    var1 = _closure2_slot5;
+                    var1 = var3.bind(var4)(var2, var1);
 case 32:
                     var1 = undefined;
                     return var1;
@@ -388,13 +384,13 @@ case 0:
                     var2 = _closure2_slot6;
                     var3 = null;
                     var1 = null;
-                    if(!var2) { _fun0007_ip = 34; continue _fun0007 }
-case 35:
+                    if(!var2) { _fun0007_ip = 9; continue _fun0007 }
+case 34:
                     var2 = {};
                     var2['source'] = var3;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot1;
-                    var3 = 10;
+                    var3 = 9;
                     var3 = var8[var3];
                     var6 = undefined;
                     var3 = var7.bind(var6)(var3);
@@ -407,7 +403,7 @@ case 35:
                         var1 = var1.bind(var2)();
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot1;
-                        var1 = 9;
+                        var1 = 10;
                         var2 = var4[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -447,7 +443,7 @@ case 35:
                     var3 = var4.bind(var5)(var3);
                     var2['accessibilityLabel'] = var3;
                     var1 = var2;
-case 34:
+case 9:
                     return var1;
                 }
             };

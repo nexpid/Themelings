@@ -56,8 +56,8 @@ case 0:
             var2 = arg1;
             var10 = var2.name;
             var _closure2_slot0 = var10;
-            var9 = var2.textStyle;
-            var7 = var2.textProps;
+            var7 = var2.textStyle;
+            var9 = var2.textProps;
             var11 = var2.colors;
             var _closure2_slot1 = var11;
             var2 = _closure1_slot7;
@@ -166,7 +166,7 @@ case 10:
             var6 = var5.Text;
             var5 = {};
             var14 = var5;
-            var13 = var7;
+            var13 = var9;
             var11 = copyDataProperties(var14, var13);
             var12 = 'simple';
             var11 = 'textBreakStrategy';
@@ -174,14 +174,19 @@ case 10:
             var12 = true;
             var11 = 'accessible';
             var5[10] = var12;
-            var7 = var7.accessibilityLabel;
+            var9 = var9.accessibilityLabel;
             var11 = null;
-            if(!(var11 != var7)) { _fun0001_ip = 12; continue _fun0001 }
+            if(!(var11 != var9)) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var10 = var7;
+            var10 = var9;
 case 12:
-            var7 = 'accessibilityLabel';
-            var5[6] = var10;
+            var9 = 'accessibilityLabel';
+            var5[8] = var10;
+            var9 = new Array(2);
+            var9[0] = var7;
+            var7 = {};
+            var7['lineHeight'] = var4;
+            var9[1] = var7;
             var7 = 'style';
             var5[6] = var9;
             var7 = 'children';

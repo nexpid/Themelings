@@ -54,6 +54,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FRAMES_PRODUCT_SHELF'] = var5;
     var1 = 'FRAMES_PRODUCT_SHELF';
     var2[var5] = var1;
+    var5 = 12;
+    var2['GAME_SERVER_HOSTING_BANNER'] = var5;
+    var1 = 'GAME_SERVER_HOSTING_BANNER';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

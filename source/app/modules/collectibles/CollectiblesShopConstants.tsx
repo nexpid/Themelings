@@ -60,6 +60,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['COLLECTION_INDEX'] = var1;
     var1 = 'game-shops';
     var12['GAME_SHOPS'] = var1;
+    var1 = 'game-servers';
+    var12['GAME_SERVERS'] = var1;
     var _closure1_slot2 = var12;
     var1 = var12.AVATAR_DECORATIONS;
     var11 = new Array(5);

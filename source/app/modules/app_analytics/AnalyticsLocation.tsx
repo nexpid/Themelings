@@ -742,6 +742,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_SHOP_PROFILE_FRAMES_TAB'] = var1;
     var1 = 'collectibles shop bundles tab';
     var2['COLLECTIBLES_SHOP_BUNDLES_TAB'] = var1;
+    var1 = 'collectibles shop game servers tab';
+    var2['COLLECTIBLES_SHOP_GAME_SERVERS_TAB'] = var1;
     var1 = 'collectibles shop index page';
     var2['COLLECTIBLES_SHOP_INDEX_PAGE'] = var1;
     var1 = 'collectibles shop card';

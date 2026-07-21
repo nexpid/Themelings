@@ -94,7 +94,7 @@ case 4:
     var14 = var21.bind(var1)(var14);
     var14 = var14.DismissibleContent;
     var14 = var14.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-    var19 = new Array(9);
+    var19 = new Array(10);
     var19[0] = var14;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);
@@ -136,6 +136,11 @@ case 4:
     var14 = var14.DismissibleContent;
     var14 = var14.COLLECTIBLES_SHOP_SLAYER_STOREFRONT_PROMOTIONAL_BANNER;
     var19[8] = var14;
+    var14 = var22[var2];
+    var14 = var21.bind(var1)(var14);
+    var14 = var14.DismissibleContent;
+    var14 = var14.COLLECTIBLES_SHOP_GAME_SERVER_HOSTING_BANNER;
+    var19[9] = var14;
     var _closure1_slot0 = var19;
     var14 = var22[var2];
     var14 = var21.bind(var1)(var14);

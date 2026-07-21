@@ -88,7 +88,7 @@ case 4:
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
     var _closure1_slot10 = var4;
-    var4 = 15;
+    var4 = 18;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -160,9 +160,9 @@ case 0:
                     if(var2) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
                     var5 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var10 = 10;
-                    var2 = var2[var10];
+                    var3 = _closure1_slot2;
+                    var2 = 11;
+                    var2 = var3[var2];
                     var3 = undefined;
                     var7 = var5.bind(var3)(var2);
                     var5 = var7.isParentalConsentCheckEnabled;
@@ -179,15 +179,25 @@ case 11:
                     if(!var2) { _fun0003_ip = 13; continue _fun0003 }
 case 14:
                     var7 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var9 = 8;
-                    var5 = var5[var9];
+                    var8 = _closure1_slot2;
+                    var5 = 8;
+                    var5 = var8[var5];
                     var7 = var7.bind(var3)(var5);
-                    var5 = var7.getIsRunningOnSimulator;
+                    var5 = var7.isMetaQuest;
                     var7 = var5.bind(var7)();
                     var5 = false;
                     if(var7) { _fun0003_ip = 15; continue _fun0003 }
 case 16:
+                    var10 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var9 = 9;
+                    var7 = var7[var9];
+                    var10 = var10.bind(var3)(var7);
+                    var7 = var10.getIsRunningOnSimulator;
+                    var7 = var7.bind(var10)();
+                    var5 = false;
+                    if(var7) { _fun0003_ip = 15; continue _fun0003 }
+case 17:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var7 = var7[var9];
@@ -198,65 +208,65 @@ case 16:
                     var7 = '.';
                     var11 = var8.bind(var9)(var7);
                     var7 = global;
-                    var9 = var7.parseInt;
+                    var10 = var7.parseInt;
                     var8 = 0;
-                    var8 = var11[var8];
-                    var9 = var9.bind(var3)(var8, var10);
-                    var8 = var7.parseInt;
+                    var9 = var11[var8];
+                    var8 = 10;
+                    var9 = var10.bind(var3)(var9, var8);
+                    var10 = var7.parseInt;
                     var7 = 1;
                     var11 = var11[var7];
                     var7 = null;
                     var12 = var7 != var11;
                     var7 = '0';
-                    if(!var12) { _fun0003_ip = 17; continue _fun0003 }
-case 18:
+                    if(!var12) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
                     var7 = var11;
-case 17:
-                    var10 = var8.bind(var3)(var7, var10);
+case 18:
+                    var10 = var10.bind(var3)(var7, var8);
                     var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var6 = 9;
-                    var6 = var8[var6];
+                    var6 = _closure1_slot2;
+                    var6 = var6[var8];
                     var7 = var7.bind(var3)(var6);
                     var6 = var7.isIOS;
                     var6 = var6.bind(var7)();
-                    if(var6) { _fun0003_ip = 19; continue _fun0003 }
-case 20:
+                    if(var6) { _fun0003_ip = 20; continue _fun0003 }
+case 21:
                     var6 = 35;
                     var6 = var9 >= var6;
-                    _fun0003_ip = 21; continue _fun0003;
-case 19:
+                    _fun0003_ip = 22; continue _fun0003;
+case 20:
                     var8 = 26;
                     var7 = var9 > var8;
-                    if(var7) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
+                    if(var7) { _fun0003_ip = 23; continue _fun0003 }
+case 24:
                     var8 = var9 === var8;
-                    if(!var8) { _fun0003_ip = 24; continue _fun0003 }
-case 25:
+                    if(!var8) { _fun0003_ip = 25; continue _fun0003 }
+case 26:
                     var9 = 2;
                     var8 = var10 >= var9;
-case 24:
+case 25:
                     var7 = var8;
-case 22:
+case 23:
                     var6 = var7;
-case 21:
+case 22:
                     var5 = var6;
 case 15:
                     var2 = var5;
 case 13:
-                    if(!var2) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+                    if(!var2) { _fun0003_ip = 27; continue _fun0003 }
+case 28:
                     var2 = var4.performAgeCheck;
                     var2 = var2.bind(var4)();
-                    SaveGenerator(address=316);
-case 28:
-                    return var2;
+                    SaveGenerator(address=354);
 case 29:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 30; continue _fun0003 }
-case 26:
-                    return var3;
+                    return var2;
 case 30:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0003_ip = 31; continue _fun0003 }
+case 27:
+                    return var3;
+case 31:
                     return var2;
 case 9:
                     return var1;
@@ -288,97 +298,143 @@ case 9:
 case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 31; continue _fun0004 }
-case 32:
+                    if(var2) { _fun0004_ip = 32; continue _fun0004 }
+case 33:
                     var2 = undefined;
+                    var14 = undefined;
                     var4 = undefined;
+                    var7 = undefined;
                     var3 = undefined;
-                    var13 = undefined;
-case 33: // try_start_0
+case 34: // try_start_0
                     var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var7 = 11;
-                    var7 = var5[var7];
-                    var7 = var6.bind(var2)(var7);
-                    var4 = var7.setAgeRangeThresholds;
-                    var3 = var7.getIsConsideredOlderThan;
-                    var11 = 9;
-                    var5 = var5[var11];
-                    var6 = var6.bind(var2)(var5);
-                    var5 = var6.isIOS;
-                    var5 = var5.bind(var6)();
-                    if(!var5) { _fun0004_ip = 34; continue _fun0004 }
-case 35:
-                    var5 = var4;
-                    var4 = [18];
-                    var4 = var5.bind(var2)(var4);
-case 34:
-                    var4 = var3;
-                    var3 = 18;
-                    var3 = var4.bind(var2)(var3);
-                    SaveGenerator(address=111);
-case 36:
-                    return var3;
-case 37:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 38; continue _fun0004 }
-case 8:
-                    var13 = var3;
-                    var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 12;
-                    var4 = var8[var4];
-                    var4 = var9.bind(var2)(var4);
-                    var6 = var4.HTTP;
-                    var5 = var6.post;
-                    var4 = {'url': '/users/@me/parental-consent-status', 'body': null, 'rejectWithError': true};
-                    var7 = {};
-                    var8 = var8[var11];
-                    var9 = var9.bind(var2)(var8);
-                    var8 = var9.getNativePlatform;
-                    var8 = var8.bind(var9)();
-                    var7['platform'] = var8;
-                    var7['parental_consent'] = var3;
-                    var4['body'] = var7;
-                    var4 = var5.bind(var6)(var4);
-                    SaveGenerator(address=216);
-case 39:
-                    return var4;
-case 40:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 29; continue _fun0004 }
-case 41:
-                    var5 = var4.body;
-                    var12 = var5.should_block;
-                    var6 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var5 = 13;
-                    var5 = var9[var5];
+                    var5 = 12;
+                    var5 = var8[var5];
                     var8 = var6.bind(var2)(var5);
-                    var7 = var8.track;
-                    var5 = _closure1_slot10;
-                    var6 = var5.PARENTAL_CONSENT_CHECKED;
-                    var5 = {};
-                    var5['eligible'] = var13;
-                    var5['should_block'] = var12;
+                    var6 = var8.isNativeAppStoreAgeSignalsEnabled;
+                    var5 = 'ParentalConsentManager';
+                    var8 = var6.bind(var8)(var5);
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    if(var8) { _fun0004_ip = 35; continue _fun0004 }
+case 36:
+                    var8 = 14;
+                    var8 = var6[var8];
+                    var8 = var5.bind(var2)(var8);
+                    var7 = var8.setAgeRangeThresholds;
+                    var3 = var8.getIsConsideredOlderThan;
+                    var8 = 10;
+                    var8 = var6[var8];
+                    var9 = var5.bind(var2)(var8);
+                    var8 = var9.isIOS;
+                    var8 = var8.bind(var9)();
+                    if(!var8) { _fun0004_ip = 37; continue _fun0004 }
+case 8:
+                    var8 = var7;
+                    var7 = [18];
+                    var7 = var8.bind(var2)(var7);
+case 37:
+                    var7 = var3;
+                    var3 = 18;
+                    var3 = var7.bind(var2)(var3);
+                    SaveGenerator(address=153);
+case 38:
+                    return var3;
+case 39:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+                    if(var7) { _fun0004_ip = 40; continue _fun0004 }
+case 17:
+                    var14 = var3;
+                    _fun0004_ip = 41; continue _fun0004;
+case 40: // try_end0
+                    return var3;
+case 35: // try_start_1
+                    var3 = 13;
+                    var3 = var6[var3];
+                    var3 = var5.bind(var2)(var3);
+                    var5 = var3.default;
+                    var4 = var5;
+                    var3 = var5.getAgeSignals;
+                    var3 = var3.bind(var5)();
+                    SaveGenerator(address=201);
+case 42:
+                    return var3;
+case 43:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 44; continue _fun0004 }
+case 45:
+                    var6 = var4;
+                    var5 = var6.getIsConsideredOlderThan;
+                    var4 = 18;
+                    var4 = var5.bind(var6)(var4, var3);
+                    SaveGenerator(address=232);
+case 46:
+                    return var4;
+case 47:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 48; continue _fun0004 }
+case 49:
+                    var14 = var4;
+case 41:
                     var10 = _closure1_slot0;
-                    var9 = var9[var11];
+                    var9 = _closure1_slot2;
+                    var5 = 15;
+                    var5 = var9[var5];
+                    var5 = var10.bind(var2)(var5);
+                    var7 = var5.HTTP;
+                    var6 = var7.post;
+                    var5 = {'url': '/users/@me/parental-consent-status', 'body': null, 'rejectWithError': true};
+                    var8 = {};
+                    var12 = 10;
+                    var9 = var9[var12];
                     var10 = var10.bind(var2)(var9);
                     var9 = var10.getNativePlatform;
                     var9 = var9.bind(var10)();
-                    var5['platform'] = var9;
-                    var5 = var7.bind(var8)(var6, var5);
-case 28: // try_end0
-                    _fun0004_ip = 42; continue _fun0004;
-case 29:
+                    var8['platform'] = var9;
+                    var9 = var14;
+                    var8['parental_consent'] = var9;
+                    var5['body'] = var8;
+                    var5 = var6.bind(var7)(var5);
+                    SaveGenerator(address=343);
+case 50:
+                    return var5;
+case 51:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
+                    if(var6) { _fun0004_ip = 52; continue _fun0004 }
+case 53:
+                    var6 = var5.body;
+                    var13 = var6.should_block;
+                    var7 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var6 = 16;
+                    var6 = var10[var6];
+                    var9 = var7.bind(var2)(var6);
+                    var8 = var9.track;
+                    var6 = _closure1_slot10;
+                    var7 = var6.PARENTAL_CONSENT_CHECKED;
+                    var6 = {};
+                    var6['eligible'] = var14;
+                    var6['should_block'] = var13;
+                    var11 = _closure1_slot0;
+                    var10 = var10[var12];
+                    var11 = var11.bind(var2)(var10);
+                    var10 = var11.getNativePlatform;
+                    var10 = var10.bind(var11)();
+                    var6['platform'] = var10;
+                    var6 = var8.bind(var9)(var7, var6);
+case 54: // try_end1
+                    _fun0004_ip = 55; continue _fun0004;
+case 52:
+                    return var5;
+case 48:
                     return var4;
-case 38:
+case 44:
                     return var3;
-case 26: // catch_target0
+case 56: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=5);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var3 = 14;
+                    var3 = 17;
                     var3 = var5[var3];
                     var5 = var4.bind(var2)(var3);
                     var4 = var5.captureException;
@@ -386,9 +442,9 @@ case 26: // catch_target0
                     var7 = {'source': 'parental_consent_manager', 'step': 'perform_age_check'};
                     var3['tags'] = var7;
                     var3 = var4.bind(var5)(var6, var3);
-case 42:
+case 55:
                     return var2;
-case 31:
+case 32:
                     return var1;
                 }
             };
@@ -417,7 +473,7 @@ case 31:
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 16;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

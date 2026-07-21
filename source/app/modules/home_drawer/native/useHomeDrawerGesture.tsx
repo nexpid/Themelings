@@ -89,11 +89,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['code'] = var6;
     var _closure1_slot20 = var2;
     var2 = {};
-    var6 = 'function useHomeDrawerGestureTsx10(shouldOpen){const{panelX,maxX,runOnJS,setHomeDrawerState}=this.__closure;panelX.set(shouldOpen?maxX:0);runOnJS(setHomeDrawerState)(shouldOpen);}';
+    var6 = 'function settleDrawer_useHomeDrawerGestureTsx10(shouldOpen){const{panelX,maxX,runOnJS,setHomeDrawerState}=this.__closure;panelX.set(shouldOpen?maxX:0);runOnJS(setHomeDrawerState)(shouldOpen);}';
     var2['code'] = var6;
     var _closure1_slot21 = var2;
     var2 = {};
-    var6 = 'function useHomeDrawerGestureTsx11(){const{panelX,FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN,maxX,INITIAL_OPEN_WIDTH,dragOffsetX}=this.__closure;if(panelX.get()===0)return false;if(panelX.get()>FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN*maxX)return true;if(panelX.get()>=INITIAL_OPEN_WIDTH&&dragOffsetX.get()>0)return true;return false;}';
+    var6 = 'function shouldOpenFromPosition_useHomeDrawerGestureTsx11(){const{panelX,FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN,maxX,INITIAL_OPEN_WIDTH,dragOffsetX}=this.__closure;if(panelX.get()===0)return false;if(panelX.get()>FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN*maxX)return true;if(panelX.get()>=INITIAL_OPEN_WIDTH&&dragOffsetX.get()>0)return true;return false;}';
     var2['code'] = var6;
     var _closure1_slot22 = var2;
     var2 = {};
@@ -788,7 +788,7 @@ case 57:
             var9 = var22[var6];
             var18 = var21.bind(var7)(var9);
             var17 = var18.useAnimatedStyle;
-            var9 = function Ee() {
+            var9 = function pe() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                     var3 = _closure2_slot15;
@@ -884,7 +884,7 @@ case 61:
             var9 = var22[var6];
             var18 = var21.bind(var7)(var9);
             var17 = var18.useAnimatedStyle;
-            var9 = function pe() {
+            var9 = function Ee() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                     var3 = _closure2_slot15;
@@ -1007,114 +1007,127 @@ case 65:
             var6[6] = var10;
             var6[7] = var4;
             var4 = function() {
-                var15 = function e(arg1) {
-                    _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                var2 = function() {
+                    var1 = function settleDrawer(arg1) {
+                        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
-                        var3 = arg1;
-                        var4 = _closure2_slot0;
-                        var2 = var4.set;
-                        var1 = 0;
-                        if(!var3) { _fun0012_ip = 66; continue _fun0012 }
+                            var3 = arg1;
+                            var4 = _closure2_slot0;
+                            var2 = var4.set;
+                            var1 = 0;
+                            if(!var3) { _fun0012_ip = 66; continue _fun0012 }
 case 67:
-                        var1 = _closure2_slot3;
+                            var1 = _closure2_slot3;
 case 66:
-                        var1 = var2.bind(var4)(var1);
-                        var6 = _closure1_slot0;
-                        var7 = _closure1_slot2;
-                        var1 = 6;
-                        var2 = var7[var1];
-                        var1 = undefined;
-                        var5 = var6.bind(var1)(var2);
-                        var4 = var5.runOnJS;
-                        var2 = 14;
-                        var2 = var7[var2];
-                        var2 = var6.bind(var1)(var2);
-                        var2 = var2.setHomeDrawerState;
-                        var2 = var4.bind(var5)(var2);
-                        var2 = var2.bind(var1)(var3);
-                        return var1;
-                    }
+                            var1 = var2.bind(var4)(var1);
+                            var6 = _closure1_slot0;
+                            var7 = _closure1_slot2;
+                            var1 = 6;
+                            var2 = var7[var1];
+                            var1 = undefined;
+                            var5 = var6.bind(var1)(var2);
+                            var4 = var5.runOnJS;
+                            var2 = 14;
+                            var2 = var7[var2];
+                            var2 = var6.bind(var1)(var2);
+                            var2 = var2.setHomeDrawerState;
+                            var2 = var4.bind(var5)(var2);
+                            var2 = var2.bind(var1)(var3);
+                            return var1;
+                        }
+                    };
+                    var3 = {};
+                    var4 = _closure2_slot0;
+                    var3['panelX'] = var4;
+                    var2 = _closure2_slot3;
+                    var3['maxX'] = var2;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var4 = 6;
+                    var4 = var7[var4];
+                    var5 = undefined;
+                    var4 = var6.bind(var5)(var4);
+                    var4 = var4.runOnJS;
+                    var3['runOnJS'] = var4;
+                    var4 = 14;
+                    var4 = var7[var4];
+                    var4 = var6.bind(var5)(var4);
+                    var4 = var4.setHomeDrawerState;
+                    var3['setHomeDrawerState'] = var4;
+                    var1['__closure'] = var3;
+                    var3 = 8226756372642.0;
+                    var1['__workletHash'] = var3;
+                    var2 = _closure1_slot21;
+                    var1['__initData'] = var2;
+                    return var1;
                 };
-                var2 = {};
-                var17 = _closure2_slot0;
-                var2['panelX'] = var17;
-                var16 = _closure2_slot3;
-                var2['maxX'] = var16;
-                var11 = _closure1_slot0;
-                var12 = _closure1_slot2;
-                var9 = 6;
-                var3 = var12[var9];
-                var10 = undefined;
-                var3 = var11.bind(var10)(var3);
-                var3 = var3.runOnJS;
-                var2['runOnJS'] = var3;
-                var3 = 14;
-                var3 = var12[var3];
-                var3 = var11.bind(var10)(var3);
-                var3 = var3.setHomeDrawerState;
-                var2['setHomeDrawerState'] = var3;
-                var15['__closure'] = var2;
-                var2 = 5147810357429.0;
-                var15['__workletHash'] = var2;
-                var2 = _closure1_slot21;
-                var15['__initData'] = var2;
+                var11 = undefined;
+                var15 = var2.bind(var11)();
                 var _closure3_slot0 = var15;
-                var14 = function t() {
-                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                var2 = function() {
+                    var1 = function shouldOpenFromPosition() {
+                        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-                        var2 = _closure2_slot0;
-                        var1 = var2.get;
-                        var1 = var1.bind(var2)();
-                        var5 = 0;
-                        var1 = var5 !== var1;
-                        if(!var1) { _fun0013_ip = 42; continue _fun0013 }
+                            var2 = _closure2_slot0;
+                            var1 = var2.get;
+                            var1 = var1.bind(var2)();
+                            var5 = 0;
+                            var1 = var5 !== var1;
+                            if(!var1) { _fun0013_ip = 42; continue _fun0013 }
 case 52:
-                        var3 = _closure2_slot0;
-                        var2 = var3.get;
-                        var3 = var2.bind(var3)();
-                        var6 = _closure2_slot3;
-                        var2 = 0.5;
-                        var2 = var2 * var6;
-                        var2 = var3 > var2;
-                        if(var2) { _fun0013_ip = 68; continue _fun0013 }
+                            var3 = _closure2_slot0;
+                            var2 = var3.get;
+                            var3 = var2.bind(var3)();
+                            var6 = _closure2_slot3;
+                            var2 = 0.5;
+                            var2 = var2 * var6;
+                            var2 = var3 > var2;
+                            if(var2) { _fun0013_ip = 68; continue _fun0013 }
 case 69:
-                        var6 = _closure2_slot0;
-                        var3 = var6.get;
-                        var6 = var3.bind(var6)();
-                        var3 = 144;
-                        var3 = var6 >= var3;
-                        if(!var3) { _fun0013_ip = 70; continue _fun0013 }
+                            var6 = _closure2_slot0;
+                            var3 = var6.get;
+                            var6 = var3.bind(var6)();
+                            var3 = 144;
+                            var3 = var6 >= var3;
+                            if(!var3) { _fun0013_ip = 70; continue _fun0013 }
 case 71:
-                        var6 = _closure2_slot7;
-                        var4 = var6.get;
-                        var4 = var4.bind(var6)();
-                        var3 = var4 > var5;
+                            var6 = _closure2_slot7;
+                            var4 = var6.get;
+                            var4 = var4.bind(var6)();
+                            var3 = var4 > var5;
 case 70:
-                        var2 = var3;
+                            var2 = var3;
 case 68:
-                        var1 = var2;
+                            var1 = var2;
 case 42:
-                        return var1;
-                    }
+                            return var1;
+                        }
+                    };
+                    var2 = {};
+                    var4 = _closure2_slot0;
+                    var2['panelX'] = var4;
+                    var4 = 0.5;
+                    var2['FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN'] = var4;
+                    var4 = _closure2_slot3;
+                    var2['maxX'] = var4;
+                    var4 = 144;
+                    var2['INITIAL_OPEN_WIDTH'] = var4;
+                    var3 = _closure2_slot7;
+                    var2['dragOffsetX'] = var3;
+                    var1['__closure'] = var2;
+                    var2 = 11654084007114.0;
+                    var1['__workletHash'] = var2;
+                    var2 = _closure1_slot22;
+                    var1['__initData'] = var2;
+                    return var1;
                 };
-                var2 = {};
-                var2['panelX'] = var17;
-                var3 = 0.5;
-                var2['FRACTION_OF_WIDTH_FOR_DRAWER_TO_REMAIN_OPEN'] = var3;
-                var2['maxX'] = var16;
-                var19 = 144;
-                var2['INITIAL_OPEN_WIDTH'] = var19;
-                var6 = _closure2_slot7;
-                var2['dragOffsetX'] = var6;
-                var14['__closure'] = var2;
-                var2 = 11672535767623.0;
-                var14['__workletHash'] = var2;
-                var2 = _closure1_slot22;
-                var14['__initData'] = var2;
+                var14 = var2.bind(var11)();
                 var _closure3_slot1 = var14;
+                var10 = _closure1_slot0;
+                var12 = _closure1_slot2;
                 var2 = 16;
                 var2 = var12[var2];
-                var2 = var11.bind(var10)(var2);
+                var2 = var10.bind(var11)(var2);
                 var3 = var2.Gesture;
                 var2 = var3.Pan;
                 var5 = var2.bind(var3)();
@@ -1131,7 +1144,7 @@ case 42:
                 var2 = 1;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onBegin;
-                var2 = function o(arg1) {
+                var2 = function _(arg1) {
                     var5 = arg1;
                     var3 = _closure2_slot5;
                     var2 = var3.set;
@@ -1154,20 +1167,21 @@ case 42:
                     var1 = undefined;
                     return var1;
                 };
-                var18 = {};
+                var6 = {};
                 var13 = _closure2_slot5;
-                var18['isPanelTouchActive'] = var13;
+                var6['isPanelTouchActive'] = var13;
                 var7 = _closure2_slot1;
-                var18['gestureState'] = var7;
-                var18['panelX'] = var17;
-                var2['__closure'] = var18;
-                var18 = 8825829705900.0;
-                var2['__workletHash'] = var18;
-                var18 = _closure1_slot27;
-                var2['__initData'] = var18;
+                var6['gestureState'] = var7;
+                var16 = _closure2_slot0;
+                var6['panelX'] = var16;
+                var2['__closure'] = var6;
+                var6 = 8825829705900.0;
+                var2['__workletHash'] = var6;
+                var6 = _closure1_slot27;
+                var2['__initData'] = var6;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onTouchesMove;
-                var2 = function l(arg1, arg2) {
+                var2 = function s(arg1, arg2) {
                     _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                         var1 = arg1;
@@ -1279,19 +1293,19 @@ case 72:
                         return var1;
                     }
                 };
-                var18 = {};
-                var18['gestureState'] = var7;
-                var18['panelX'] = var17;
-                var20 = 10;
-                var18['ACTIVATION_MIN_DISTANCE'] = var20;
-                var2['__closure'] = var18;
-                var18 = 7484113391171.0;
-                var2['__workletHash'] = var18;
-                var18 = _closure1_slot26;
-                var2['__initData'] = var18;
+                var6 = {};
+                var6['gestureState'] = var7;
+                var6['panelX'] = var16;
+                var9 = 10;
+                var6['ACTIVATION_MIN_DISTANCE'] = var9;
+                var2['__closure'] = var6;
+                var6 = 7484113391171.0;
+                var2['__workletHash'] = var6;
+                var6 = _closure1_slot26;
+                var2['__initData'] = var6;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onChange;
-                var2 = function _(arg1) {
+                var2 = function n(arg1) {
                     _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                         var3 = _closure2_slot1;
@@ -1348,21 +1362,23 @@ case 86:
                         return var1;
                     }
                 };
-                var18 = {};
-                var18['gestureState'] = var7;
-                var18['dragOffsetX'] = var6;
-                var18['INITIAL_OPEN_WIDTH'] = var19;
-                var18['panelX'] = var17;
-                var19 = 3;
-                var18['DRAWER_RESISTANCE'] = var19;
-                var2['__closure'] = var18;
-                var18 = 15118338555898.0;
-                var2['__workletHash'] = var18;
-                var18 = _closure1_slot25;
-                var2['__initData'] = var18;
+                var9 = {};
+                var9['gestureState'] = var7;
+                var6 = _closure2_slot7;
+                var9['dragOffsetX'] = var6;
+                var17 = 144;
+                var9['INITIAL_OPEN_WIDTH'] = var17;
+                var9['panelX'] = var16;
+                var17 = 3;
+                var9['DRAWER_RESISTANCE'] = var17;
+                var2['__closure'] = var9;
+                var9 = 15118338555898.0;
+                var2['__workletHash'] = var9;
+                var9 = _closure1_slot25;
+                var2['__initData'] = var9;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onEnd;
-                var2 = function s(arg1) {
+                var2 = function t(arg1) {
                     _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
                         var2 = arg1;
@@ -1479,36 +1495,37 @@ case 99:
                         return var1;
                     }
                 };
-                var18 = {'FLING_MIN_VELOCITY': 50, 'dragOffsetX': null, 'FLING_MIN_DISTANCE': 40, 'INITIAL_OPEN_WIDTH': 144};
-                var18['dragOffsetX'] = var6;
-                var19 = var12[var9];
-                var19 = var11.bind(var10)(var19);
-                var19 = var19.runOnJS;
-                var18['runOnJS'] = var19;
-                var19 = 9;
-                var20 = var12[var19];
-                var20 = var11.bind(var10)(var20);
-                var20 = var20.triggerHapticFeedback;
-                var18['triggerHapticFeedback'] = var20;
-                var19 = var12[var19];
-                var19 = var11.bind(var10)(var19);
-                var19 = var19.HapticFeedbackTypes;
-                var18['HapticFeedbackTypes'] = var19;
-                var18['shouldOpenFromPosition'] = var14;
-                var18['settleDrawer'] = var15;
-                var18['gestureState'] = var7;
-                var19 = _closure2_slot10;
-                var18['trackServerDrawerInteract'] = var19;
-                var19 = _closure1_slot11;
-                var18['ServerDrawerInteractAction'] = var19;
-                var2['__closure'] = var18;
-                var18 = 11139594764616.0;
-                var2['__workletHash'] = var18;
-                var18 = _closure1_slot24;
-                var2['__initData'] = var18;
+                var17 = {'FLING_MIN_VELOCITY': 50, 'dragOffsetX': null, 'FLING_MIN_DISTANCE': 40, 'INITIAL_OPEN_WIDTH': 144};
+                var17['dragOffsetX'] = var6;
+                var9 = 6;
+                var18 = var12[var9];
+                var18 = var10.bind(var11)(var18);
+                var18 = var18.runOnJS;
+                var17['runOnJS'] = var18;
+                var18 = 9;
+                var19 = var12[var18];
+                var19 = var10.bind(var11)(var19);
+                var19 = var19.triggerHapticFeedback;
+                var17['triggerHapticFeedback'] = var19;
+                var18 = var12[var18];
+                var18 = var10.bind(var11)(var18);
+                var18 = var18.HapticFeedbackTypes;
+                var17['HapticFeedbackTypes'] = var18;
+                var17['shouldOpenFromPosition'] = var14;
+                var17['settleDrawer'] = var15;
+                var17['gestureState'] = var7;
+                var18 = _closure2_slot10;
+                var17['trackServerDrawerInteract'] = var18;
+                var18 = _closure1_slot11;
+                var17['ServerDrawerInteractAction'] = var18;
+                var2['__closure'] = var17;
+                var17 = 11139594764616.0;
+                var2['__workletHash'] = var17;
+                var17 = _closure1_slot24;
+                var2['__initData'] = var17;
                 var3 = var3.bind(var5)(var2);
                 var2 = var3.onFinalize;
-                var1 = function n() {
+                var1 = function e() {
                     _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
                         var3 = _closure2_slot0;
@@ -1557,13 +1574,14 @@ case 102:
                     }
                 };
                 var5 = {};
-                var5['panelX'] = var17;
+                var5['panelX'] = var16;
+                var16 = _closure2_slot3;
                 var5['maxX'] = var16;
                 var5['settleDrawer'] = var15;
                 var5['shouldOpenFromPosition'] = var14;
                 var5['isPanelTouchActive'] = var13;
                 var9 = var12[var9];
-                var9 = var11.bind(var10)(var9);
+                var9 = var10.bind(var11)(var9);
                 var9 = var9.runOnJS;
                 var5['runOnJS'] = var9;
                 var8 = _closure2_slot6;

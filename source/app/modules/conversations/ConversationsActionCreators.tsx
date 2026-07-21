@@ -618,42 +618,41 @@ case 64:
     };
     var3['setConversationFeedbackRating'] = var5;
     var3['fetchConversationMessages'] = var4;
-    var2 = function trackTopicalNavigationEntrypointImpression(arg1, arg2, arg3) {
+    var2 = function trackTopicalNavigationEntrypointImpression(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-            var6 = arg1;
-            var5 = arg3;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 9;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
-            var7 = var3.ConversationsAnalytics;
-            var4 = var7.trackEntrypointImpression;
+            var5 = var3.ConversationsAnalytics;
+            var4 = var5.trackEntrypointImpression;
             var3 = {};
-            var8 = var6.id;
-            var3['channelId'] = var8;
-            var3['conversationCount'] = var5;
-            var3 = var4.bind(var7)(var3);
+            var6 = arg1;
+            var3['channelId'] = var6;
+            var6 = arg2;
+            var3['conversationCount'] = var6;
+            var3 = var4.bind(var5)(var3);
             var4 = _closure1_slot5;
             var3 = var4.shouldTriggerOnNextExposure;
             var3 = var3.bind(var4)();
             if(!var3) { _fun0004_ip = 66; continue _fun0004 }
 case 67:
             var4 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var3 = 10;
-            var3 = var9[var3];
-            var7 = var4.bind(var1)(var3);
-            var4 = var7.fireSurveyAction;
-            var8 = _closure1_slot0;
+            var3 = var7[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.fireSurveyAction;
+            var6 = _closure1_slot0;
             var3 = 11;
-            var3 = var9[var3];
-            var3 = var8.bind(var1)(var3);
+            var3 = var7[var3];
+            var3 = var6.bind(var1)(var3);
             var3 = var3.SurveyActionTypes;
             var3 = var3.TOPICAL_NAVIGATION_MULTIPLE_IMPRESSIONS;
-            var3 = var4.bind(var7)(var3);
+            var3 = var4.bind(var5)(var3);
 case 66:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -662,12 +661,8 @@ case 66:
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
             var2 = {};
-            var7 = 'TOPICAL_NAVIGATION_ENTRYPOINT_IMPRESSION';
-            var2['type'] = var7;
-            var2['channel'] = var6;
-            var6 = arg2;
-            var2['guildId'] = var6;
-            var2['conversationCount'] = var5;
+            var5 = 'TOPICAL_NAVIGATION_ENTRYPOINT_IMPRESSION';
+            var2['type'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
         }

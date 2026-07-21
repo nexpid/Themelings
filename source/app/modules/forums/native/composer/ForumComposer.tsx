@@ -2450,7 +2450,10 @@ case 198:
             var24 = var3.focusedInput;
             var19 = _closure1_slot5;
             var9 = var19.useState;
-            var3 = {'start': 0, 'end': null};
+            var3 = {};
+            var20 = var21.length;
+            var3['start'] = var20;
+            var3['end'] = var1;
             var3 = var9.bind(var19)(var3);
             var9 = _closure1_slot4;
             var3 = var9.bind(var5)(var3, var12);

@@ -2094,7 +2094,6 @@ case 127:
                 var20 = 'secondary';
                 var19['variant'] = var20;
                 var5['ctaProps'] = var19;
-                var5['flush'] = var16;
                 var5['topBorder'] = var16;
                 var8 = var11.bind(var4)(var9, var5);
 case 126:

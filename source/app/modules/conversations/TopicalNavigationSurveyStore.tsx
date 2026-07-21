@@ -152,7 +152,7 @@ case 11:
         var7 = function value() {
             var2 = _closure1_slot5;
             var1 = 2;
-            var1 = var1 === var2;
+            var1 = var2 >= var1;
             return var1;
         };
         var5['value'] = var7;

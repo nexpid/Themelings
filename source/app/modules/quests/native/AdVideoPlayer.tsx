@@ -419,15 +419,18 @@ case 27:
             var15 = false;
 case 26:
             var _closure2_slot13 = var15;
-            var61 = var13.httpEngine;
-            var60 = var13.automaticallyWaitsToMinimizeStalling;
+            var64 = var13.httpEngine;
+            var63 = var13.automaticallyWaitsToMinimizeStalling;
+            var62 = var13.maxBitRate;
+            var61 = var13.bufferConfig;
+            var60 = var13.preferredForwardBufferDuration;
             var58 = var13.repeat;
             if(!(var58 === var4)) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
             var58 = false;
 case 28:
             var _closure2_slot14 = var58;
-            var62 = var13.ref;
+            var65 = var13.ref;
             var _closure2_slot15 = var4;
             var _closure2_slot16 = var4;
             var _closure2_slot17 = var4;
@@ -480,9 +483,9 @@ case 30:
             _closure2_slot17 = var10;
             var14 = var17.useState;
             var10 = {};
-            var66 = var10;
-            var65 = var55;
-            var19 = copyDataProperties(var66, var65);
+            var69 = var10;
+            var68 = var55;
+            var19 = copyDataProperties(var69, var68);
             var10 = var14.bind(var17)(var10);
             var10 = var16.bind(var4)(var10, var52);
             var19 = var10[var32];
@@ -630,7 +633,7 @@ case 40:
             var10 = var56[var17];
             var20 = var48.bind(var4)(var10);
             var16 = var20.useAnimatedStyle;
-            var10 = function he() {
+            var10 = function fe() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = _closure2_slot30;
@@ -692,7 +695,7 @@ case 50:
             var10 = var56[var17];
             var33 = var48.bind(var4)(var10);
             var16 = var33.useAnimatedStyle;
-            var10 = function Se() {
+            var10 = function ge() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -1016,7 +1019,7 @@ case 61:
                 var1['pause'] = var2;
                 return var1;
             };
-            var37 = var56.bind(var44)(var62, var37, var52);
+            var37 = var56.bind(var44)(var65, var37, var52);
             var52 = var44.useCallback;
             var37 = new Array(6);
             var37[0] = var59;
@@ -1410,12 +1413,12 @@ case 83:
             if(var34) { _fun0002_ip = 88; continue _fun0002 }
 case 89:
             var50 = _closure1_slot18;
-            var66 = var19.timestampSec;
-            var65 = var19.maxTimestampSec;
-            var64 = var19.duration;
-            var67 = undefined;
-            var63 = var54;
-            var23 = var67[var50](var66, var65, var64, var63, var62);
+            var69 = var19.timestampSec;
+            var68 = var19.maxTimestampSec;
+            var67 = var19.duration;
+            var70 = undefined;
+            var66 = var54;
+            var23 = var70[var50](var69, var68, var67, var66, var65);
             var34 = !var23;
 case 88:
             _closure2_slot40 = var34;
@@ -1944,10 +1947,20 @@ case 119:
 case 121:
             var44 = _closure1_slot11;
             var22 = _closure1_slot14;
-            var8 = {'mixWithOthers': 'inherit', 'httpEngine': null, 'automaticallyWaitsToMinimizeStalling': null, 'ref': null, 'accessible': false, 'importantForAccessibility': 'no-hide-descendants', 'accessibilityRole': 'none'};
-            var8['httpEngine'] = var61;
-            var8['automaticallyWaitsToMinimizeStalling'] = var60;
+            var8 = {};
+            var65 = 'inherit';
+            var8['mixWithOthers'] = var65;
+            var8['httpEngine'] = var64;
+            var8['automaticallyWaitsToMinimizeStalling'] = var63;
+            var8['maxBitRate'] = var62;
+            var8['bufferConfig'] = var61;
+            var8['preferredForwardBufferDuration'] = var60;
             var8['ref'] = var59;
+            var8['accessible'] = var14;
+            var59 = 'no-hide-descendants';
+            var8['importantForAccessibility'] = var59;
+            var59 = 'none';
+            var8['accessibilityRole'] = var59;
             var59 = var15.video;
             var8['style'] = var59;
             var8['paused'] = var33;
