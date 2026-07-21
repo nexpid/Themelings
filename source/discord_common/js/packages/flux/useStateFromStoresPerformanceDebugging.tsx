@@ -78,7 +78,7 @@ case 22:
                 var7 = undefined;
                 if(!var9) { _fun0002_ip = 23; continue _fun0002 }
 case 21:
-                var9 = _closure1_slot13;
+                var9 = _closure1_slot12;
                 var7 = var9.bind(var8)(var3, var8);
 case 23:
                 _fun0002_ip = 24; continue _fun0002;
@@ -90,7 +90,7 @@ case 24:
                 var6 = var7;
                 _fun0002_ip = 10; continue _fun0002;
 case 12:
-                var7 = _closure1_slot13;
+                var7 = _closure1_slot12;
                 var6 = var7.bind(var8)(var3, var8);
 case 10:
                 var4 = var6;
@@ -149,7 +149,7 @@ case 6:
                 return var1;
             }
         };
-        var _closure1_slot12 = var1;
+        var _closure1_slot11 = var1;
         var1 = function _arrayLikeToArray(arg1, arg2) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
                 return var1;
             }
         };
-        var _closure1_slot13 = var1;
+        var _closure1_slot12 = var1;
         var8 = function getUseStateFromStoresExecutionWindowThresholdMs() {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -279,11 +279,11 @@ case 41:
                 return var1;
             }
         };
-        var _closure1_slot14 = var1;
+        var _closure1_slot13 = var1;
         var14 = function flushViolators() {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var2 = _closure1_slot10;
                 var1 = undefined;
                 var11 = var3.bind(var1)(var2);
@@ -301,7 +301,7 @@ case 48:
                 var3 = _closure1_slot2;
                 var3 = var3.bind(var1)(var12, var7);
                 var12 = var3[var6];
-                var12 = _closure1_slot14;
+                var12 = _closure1_slot13;
                 var3 = var3[var5];
                 var3 = var12.bind(var1)(var3);
                 var2 = true;
@@ -325,16 +325,131 @@ case 52:
                 var2 = var3.bind(var4)(var2);
                 _fun0011_ip = 53; continue _fun0011;
 case 50:
-                var2 = _closure1_slot11;
-                var2 = var2.bind(var1)();
+                var4 = _closure1_slot3;
+                var3 = var4.log;
+                var10 = '|';
+                var2 = var10.padEnd;
+                var12 = 80;
+                var11 = '-';
+                var2 = var2.bind(var10)(var12, var11);
+                var2 = var2 + var10;
+                var2 = var3.bind(var4)(var2);
+                var4 = _closure1_slot3;
+                var3 = var4.log;
+                var13 = '| Consumers of `useStateFromStores` exceeding warning thresholds:';
+                var2 = var13.padEnd;
+                var19 = ' ';
+                var2 = var2.bind(var13)(var12, var19);
+                var2 = var2 + var10;
+                var2 = var3.bind(var4)(var2);
+                var4 = _closure1_slot3;
+                var3 = var4.log;
+                var2 = var10.padEnd;
+                var2 = var2.bind(var10)(var12, var11);
+                var2 = var2 + var10;
+                var2 = var3.bind(var4)(var2);
+                var4 = _closure1_slot3;
+                var3 = var4.log;
+                var13 = 'Function/Component Name';
+                var2 = var13.padEnd;
+                var18 = 34;
+                var20 = var2.bind(var13)(var18, var19);
+                var13 = 'Total Exec Time';
+                var2 = var13.padEnd;
+                var17 = 20;
+                var28 = var2.bind(var13)(var17, var19);
+                var13 = 'Total Exec Count';
+                var2 = var13.padEnd;
+                var26 = var2.bind(var13)(var17, var19);
+                var16 = global;
+                var2 = var16.HermesInternal;
+                var2 = var2.concat;
+                var15 = '| ';
+                var31 = var15;
+                var30 = var20;
+                var29 = var15;
+                var27 = var15;
+                var25 = var10;
+                var2 = var31[var2](var30, var29, var28, var27, var26, var25, var24);
+                var2 = var3.bind(var4)(var2);
+                var4 = _closure1_slot3;
+                var3 = var4.log;
+                var2 = var10.padEnd;
+                var2 = var2.bind(var10)(var12, var11);
+                var2 = var2 + var10;
+                var2 = var3.bind(var4)(var2);
+                var3 = _closure1_slot11;
+                var2 = _closure1_slot10;
+                var14 = var3.bind(var1)(var2);
+                var3 = var14.bind(var1)();
+                var2 = var3.done;
+                var13 = 'ms';
+                var4 = '';
+                if(var2) { _fun0011_ip = 54; continue _fun0011 }
+case 55:
+                var20 = var3.value;
+                var2 = _closure1_slot2;
+                var2 = var2.bind(var1)(var20, var7);
+                var23 = var2[var6];
+                var2 = var2[var5];
+                var20 = _closure1_slot7;
+                var20 = var4 !== var20;
+                if(!var20) { _fun0011_ip = 56; continue _fun0011 }
+case 57:
+                var21 = _closure1_slot7;
+                var20 = var23 === var21;
+case 56:
+                if(var20) { _fun0011_ip = 58; continue _fun0011 }
+case 59:
+                var21 = _closure1_slot13;
+                var20 = var21.bind(var1)(var2);
+case 58:
+                if(!var20) { _fun0011_ip = 60; continue _fun0011 }
+case 61:
+                var21 = _closure1_slot3;
+                var20 = var21.log;
+                var22 = var23.padEnd;
+                var24 = var22.bind(var23)(var18, var19);
+                var23 = var2.execTime;
+                var22 = var23.toFixed;
+                var22 = var22.bind(var23)(var7);
+                var23 = var22 + var13;
+                var22 = var23.padEnd;
+                var28 = var22.bind(var23)(var17, var19);
+                var22 = var2.execCount;
+                var2 = var22.toString;
+                var22 = var2.bind(var22)();
+                var2 = var22.padEnd;
+                var26 = var2.bind(var22)(var17, var19);
+                var2 = var16.HermesInternal;
+                var2 = var2.concat;
+                var31 = var15;
+                var30 = var24;
+                var29 = var15;
+                var27 = var15;
+                var25 = var10;
+                var2 = var31[var2](var30, var29, var28, var27, var26, var25, var24);
+                var2 = var20.bind(var21)(var2);
+case 60:
+                var20 = var14.bind(var1)();
+                var2 = var20.done;
+                var3 = var20;
+                if(!var2) { _fun0011_ip = 55; continue _fun0011 }
+case 54:
+                var4 = _closure1_slot3;
+                var3 = var4.log;
+                var2 = var10.padEnd;
+                var2 = var2.bind(var10)(var12, var11);
+                var2 = var2 + var10;
+                var2 = var3.bind(var4)(var2);
 case 53:
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot11;
                 var2 = _closure1_slot10;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0011_ip = 54; continue _fun0011 }
-case 55:
+                if(var2) { _fun0011_ip = 62; continue _fun0011 }
+case 63:
                 var10 = var3.value;
                 var2 = _closure1_slot2;
                 var2 = var2.bind(var1)(var10, var7);
@@ -346,12 +461,12 @@ case 55:
                 var10 = var4.bind(var1)();
                 var2 = var10.done;
                 var3 = var10;
-                if(!var2) { _fun0011_ip = 55; continue _fun0011 }
-case 54:
+                if(!var2) { _fun0011_ip = 63; continue _fun0011 }
+case 62:
                 return var1;
             }
         };
-        var _closure1_slot15 = var14;
+        var _closure1_slot14 = var14;
         var9 = global;
         var15 = var9.Object;
         var13 = var15.defineProperty;
@@ -388,13 +503,13 @@ case 54:
         var12 = var4.bind(var1)();
         var _closure1_slot8 = var12;
         var _closure1_slot9 = var1;
-        if(!var12) { _fun0001_ip = 56; continue _fun0001 }
-case 57:
+        if(!var12) { _fun0001_ip = 64; continue _fun0001 }
+case 65:
         var13 = var9.setInterval;
         var12 = _closure1_slot4;
         var12 = var13.bind(var1)(var14, var12);
         _closure1_slot9 = var12;
-case 56:
+case 64:
         var9 = var9.Map;
         var12 = var9.prototype;
         var12 = Object.create(var12, {constructor: {value: var9}});
@@ -402,154 +517,6 @@ case 56:
         var9 = new var19[var9](var18);
         var9 = var9 instanceof Object ? var9 : var12;
         var _closure1_slot10 = var9;
-        var9 = function printViolators() {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
-case 0:
-                var19 = arguments[0];
-                var18 = arguments[1];
-                var17 = arguments[2];
-                var6 = arguments[3];
-                var1 = undefined;
-                if(!(var19 === var1)) { _fun0012_ip = 42; continue _fun0012 }
-case 58:
-                var19 = 34;
-case 42:
-                if(!(var18 === var1)) { _fun0012_ip = 34; continue _fun0012 }
-case 59:
-                var18 = 20;
-case 34:
-                if(!(var17 === var1)) { _fun0012_ip = 60; continue _fun0012 }
-case 61:
-                var17 = 20;
-case 60:
-                if(!(var6 === var1)) { _fun0012_ip = 62; continue _fun0012 }
-case 44:
-                var2 = var19 + var18;
-                var3 = var2 + var17;
-                var2 = 6;
-                var6 = var3 + var2;
-case 62:
-                var8 = _closure1_slot3;
-                var4 = var8.log;
-                var5 = '|';
-                var3 = var5.padEnd;
-                var7 = '-';
-                var3 = var3.bind(var5)(var6, var7);
-                var3 = var3 + var5;
-                var3 = var4.bind(var8)(var3);
-                var8 = _closure1_slot3;
-                var4 = var8.log;
-                var9 = '| Consumers of `useStateFromStores` exceeding warning thresholds:';
-                var3 = var9.padEnd;
-                var16 = ' ';
-                var3 = var3.bind(var9)(var6, var16);
-                var3 = var3 + var5;
-                var3 = var4.bind(var8)(var3);
-                var8 = _closure1_slot3;
-                var4 = var8.log;
-                var3 = var5.padEnd;
-                var3 = var3.bind(var5)(var6, var7);
-                var3 = var3 + var5;
-                var3 = var4.bind(var8)(var3);
-                var8 = _closure1_slot3;
-                var4 = var8.log;
-                var9 = 'Function/Component Name';
-                var3 = var9.padEnd;
-                var11 = var3.bind(var9)(var19, var16);
-                var9 = 'Total Exec Time';
-                var3 = var9.padEnd;
-                var28 = var3.bind(var9)(var18, var16);
-                var9 = 'Total Exec Count';
-                var3 = var9.padEnd;
-                var26 = var3.bind(var9)(var17, var16);
-                var15 = global;
-                var3 = var15.HermesInternal;
-                var3 = var3.concat;
-                var14 = '| ';
-                var31 = var14;
-                var30 = var11;
-                var29 = var14;
-                var27 = var14;
-                var25 = var5;
-                var3 = var31[var3](var30, var29, var28, var27, var26, var25, var24);
-                var3 = var4.bind(var8)(var3);
-                var8 = _closure1_slot3;
-                var4 = var8.log;
-                var3 = var5.padEnd;
-                var3 = var3.bind(var5)(var6, var7);
-                var3 = var3 + var5;
-                var3 = var4.bind(var8)(var3);
-                var4 = _closure1_slot12;
-                var3 = _closure1_slot10;
-                var13 = var4.bind(var1)(var3);
-                var4 = var13.bind(var1)();
-                var3 = var4.done;
-                var12 = 2;
-                var11 = 'ms';
-                var10 = 0;
-                var9 = 1;
-                var8 = '';
-                if(var3) { _fun0012_ip = 63; continue _fun0012 }
-case 64:
-                var20 = var4.value;
-                var3 = _closure1_slot2;
-                var3 = var3.bind(var1)(var20, var12);
-                var23 = var3[var10];
-                var3 = var3[var9];
-                var20 = _closure1_slot7;
-                var20 = var8 !== var20;
-                if(!var20) { _fun0012_ip = 65; continue _fun0012 }
-case 66:
-                var21 = _closure1_slot7;
-                var20 = var23 === var21;
-case 65:
-                if(var20) { _fun0012_ip = 67; continue _fun0012 }
-case 68:
-                var21 = _closure1_slot14;
-                var20 = var21.bind(var1)(var3);
-case 67:
-                if(!var20) { _fun0012_ip = 69; continue _fun0012 }
-case 70:
-                var21 = _closure1_slot3;
-                var20 = var21.log;
-                var22 = var23.padEnd;
-                var24 = var22.bind(var23)(var19, var16);
-                var23 = var3.execTime;
-                var22 = var23.toFixed;
-                var22 = var22.bind(var23)(var12);
-                var23 = var22 + var11;
-                var22 = var23.padEnd;
-                var28 = var22.bind(var23)(var18, var16);
-                var22 = var3.execCount;
-                var3 = var22.toString;
-                var22 = var3.bind(var22)();
-                var3 = var22.padEnd;
-                var26 = var3.bind(var22)(var17, var16);
-                var3 = var15.HermesInternal;
-                var3 = var3.concat;
-                var31 = var14;
-                var30 = var24;
-                var29 = var14;
-                var27 = var14;
-                var25 = var5;
-                var3 = var31[var3](var30, var29, var28, var27, var26, var25, var24);
-                var3 = var20.bind(var21)(var3);
-case 69:
-                var20 = var13.bind(var1)();
-                var3 = var20.done;
-                var4 = var20;
-                if(!var3) { _fun0012_ip = 64; continue _fun0012 }
-case 63:
-                var4 = _closure1_slot3;
-                var3 = var4.log;
-                var2 = var5.padEnd;
-                var2 = var2.bind(var5)(var6, var7);
-                var2 = var2 + var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            }
-        };
-        var _closure1_slot11 = var9;
         var9 = 3;
         var9 = var11[var9];
         var11 = var10.bind(var1)(var9);
@@ -558,7 +525,7 @@ case 63:
         var9 = var10.bind(var11)(var9);
         var3['getUseStateFromStoresExecutionWindowThresholdMs'] = var8;
         var8 = function setUseStateFromStoresExecutionWindowThresholdMs(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                 var6 = arg1;
                 _closure1_slot4 = var6;
@@ -577,14 +544,14 @@ case 0:
                 var4 = _closure1_slot9;
                 var4 = var5.bind(var1)(var4);
                 var4 = _closure1_slot8;
-                if(!var4) { _fun0013_ip = 71; continue _fun0013 }
-case 72:
+                if(!var4) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
                 var5 = var2.setInterval;
-                var4 = _closure1_slot15;
+                var4 = _closure1_slot14;
                 var2 = _closure1_slot4;
                 var2 = var5.bind(var1)(var4, var2);
                 _closure1_slot9 = var2;
-case 71:
+case 66:
                 return var1;
             }
         };
@@ -642,7 +609,7 @@ case 71:
         var3['getUseStateFromStoresSpecificHookFilter'] = var5;
         var3['getUseStateFromStoresDebuggingEnabled'] = var4;
         var4 = function setUseStateFromStoresDebuggingEnabled(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
                 var6 = arg1;
                 _closure1_slot8 = var6;
@@ -658,30 +625,30 @@ case 0:
                 var2 = var4.bind(var5)(var2, var6);
                 var4 = _closure1_slot8;
                 var2 = global;
-                if(var4) { _fun0014_ip = 73; continue _fun0014 }
-case 74:
+                if(var4) { _fun0013_ip = 68; continue _fun0013 }
+case 69:
                 var5 = var2.clearInterval;
                 var4 = _closure1_slot9;
                 var4 = var5.bind(var1)(var4);
                 _closure1_slot9 = var1;
-                _fun0014_ip = 75; continue _fun0014;
-case 73:
+                _fun0013_ip = 70; continue _fun0013;
+case 68:
                 var5 = var2.setInterval;
-                var4 = _closure1_slot15;
+                var4 = _closure1_slot14;
                 var2 = _closure1_slot4;
                 var2 = var5.bind(var1)(var4, var2);
                 _closure1_slot9 = var2;
-case 75:
+case 70:
                 return var1;
             }
         };
         var3['setUseStateFromStoresDebuggingEnabled'] = var4;
         var4 = function getUseStateFromStoresHookInfo() {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var1 = _closure1_slot8;
-                if(var1) { _fun0015_ip = 32; continue _fun0015 }
-case 76:
+                if(var1) { _fun0014_ip = 32; continue _fun0014 }
+case 71:
                 var1 = undefined;
                 return var1;
 case 32:
@@ -696,16 +663,16 @@ case 32:
                 var3 = null;
                 var1 = var3 == var5;
                 var12 = undefined;
-                if(var1) { _fun0015_ip = 77; continue _fun0015 }
-case 78:
+                if(var1) { _fun0014_ip = 72; continue _fun0014 }
+case 73:
                 var4 = var5.split;
                 var1 = '\n';
                 var12 = var4.bind(var5)(var1);
-case 77:
-                if(!(var3 == var12)) { _fun0015_ip = 79; continue _fun0015 }
-case 80:
+case 72:
+                if(!(var3 == var12)) { _fun0014_ip = 74; continue _fun0014 }
+case 75:
                 var12 = new Array(0);
-case 79:
+case 74:
                 var1 = var12.length;
                 var11 = 3;
                 var1 = var11 < var1;
@@ -716,36 +683,36 @@ case 79:
                 var6 = 1;
                 var5 = 'useStateFromStores';
                 var4 = var10;
-                if(!var1) { _fun0015_ip = 81; continue _fun0015 }
-case 82:
+                if(!var1) { _fun0014_ip = 76; continue _fun0014 }
+case 77:
                 var13 = var12[var11];
                 var1 = var13.trim;
                 var13 = var1.bind(var13)();
                 var1 = var13.split;
                 var1 = var1.bind(var13)(var7);
                 var1 = var1[var6];
-                if(!(var5 !== var1)) { _fun0015_ip = 83; continue _fun0015 }
-case 84:
-                if(!(var8 !== var1)) { _fun0015_ip = 83; continue _fun0015 }
-case 85:
+                if(!(var5 !== var1)) { _fun0014_ip = 78; continue _fun0014 }
+case 79:
+                if(!(var8 !== var1)) { _fun0014_ip = 78; continue _fun0014 }
+case 80:
                 var4 = var1;
-                if(!(var9 === var4)) { _fun0015_ip = 81; continue _fun0015 }
-case 83:
+                if(!(var9 === var4)) { _fun0014_ip = 76; continue _fun0014 }
+case 78:
                 var11 = var11 + 1;
                 var1 = var12.length;
                 var1 = var11 < var1;
                 var4 = var10;
-                if(var1) { _fun0015_ip = 82; continue _fun0015 }
-case 81:
+                if(var1) { _fun0014_ip = 77; continue _fun0014 }
+case 76:
                 var5 = _closure1_slot10;
                 var1 = var5.get;
                 var1 = var1.bind(var5)(var4);
-                if(!(var3 == var1)) { _fun0015_ip = 54; continue _fun0015 }
-case 86:
+                if(!(var3 == var1)) { _fun0014_ip = 81; continue _fun0014 }
+case 82:
                 var3 = {'name': null, 'execCount': 0, 'execTime': 0, 'warned': false};
                 var3['name'] = var4;
                 var1 = var3;
-case 54:
+case 81:
                 var3 = _closure1_slot10;
                 var2 = var3.set;
                 var2 = var2.bind(var3)(var4, var1);
@@ -754,15 +721,15 @@ case 54:
         };
         var3['getUseStateFromStoresHookInfo'] = var4;
         var2 = function trackGetStateFromStoresPerformance(arg1, arg2) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
                 var5 = arg1;
                 var2 = arg2;
                 var1 = _closure1_slot8;
-                if(!var1) { _fun0016_ip = 87; continue _fun0016 }
-case 88:
+                if(!var1) { _fun0015_ip = 83; continue _fun0015 }
+case 84:
                 var1 = null;
-                if(!(var1 != var5)) { _fun0016_ip = 87; continue _fun0016 }
+                if(!(var1 != var5)) { _fun0015_ip = 83; continue _fun0015 }
 case 34:
                 var3 = global;
                 var6 = var3.performance;
@@ -782,12 +749,12 @@ case 34:
                 var5['execCount'] = var6;
                 var8 = var5.warned;
                 var6 = false;
-                if(!(var6 === var8)) { _fun0016_ip = 89; continue _fun0016 }
-case 90:
-                var6 = _closure1_slot14;
+                if(!(var6 === var8)) { _fun0015_ip = 85; continue _fun0015 }
+case 86:
+                var6 = _closure1_slot13;
                 var6 = var6.bind(var7)(var5);
-                if(!var6) { _fun0016_ip = 89; continue _fun0016 }
-case 91:
+                if(!var6) { _fun0015_ip = 85; continue _fun0015 }
+case 87:
                 var6 = true;
                 var5['warned'] = var6;
                 var18 = var5.name;
@@ -803,9 +770,9 @@ case 91:
                 var13 = ' times.';
                 var3 = var19[var9](var18, var17, var16, var15, var14, var13, var12);
                 var3 = var4.bind(var5)(var3);
-case 89:
+case 85:
                 return var1;
-case 87:
+case 83:
                 var1 = undefined;
                 var1 = var2.bind(var1)();
                 return var1;

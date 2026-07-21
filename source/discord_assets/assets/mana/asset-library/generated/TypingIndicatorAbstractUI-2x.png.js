@@ -1,4 +1,4 @@
-// discord_assets/assets/collectibles/frames/ea/announcement_key_1.png.js
+// discord_assets/assets/mana/asset-library/generated/TypingIndicatorAbstractUI-2x.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/collectibles/frames/ea/announcement_key_1.png.js';
+    var2 = '../discord_assets/assets/mana/asset-library/generated/TypingIndicatorAbstractUI-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/ff11bf0b8a3268f05729829ced60caef13c95f175a53980f543212059e5af3f7.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/10df878519d712909e96e5a5ccd7cdb72d822a0940950b34a27c9b2289f9c4c3.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 136983;
+    var4 = 76780;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

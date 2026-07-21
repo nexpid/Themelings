@@ -109,7 +109,6 @@ case 4:
             var2 = {};
             var2['sku'] = var9;
             var2['source'] = var7;
-            var2['wishlistOwnerId'] = var6;
             var15 = var2;
             var14 = var5;
             var11 = copyDataProperties(var15, var14);

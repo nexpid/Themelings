@@ -2673,7 +2673,7 @@ case 77:
     var4 = var4.space;
     var4 = var4.PX_8;
     var _closure1_slot17 = var4;
-    var4 = ['rgba(0,0,0,0)', 'rgba(0,0,0,1)'];
+    var4 = ['rgba(0,0,0,0)', 'rgba(0,0,0,0.75)'];
     var _closure1_slot18 = var4;
     var4 = 0.05;
     var _closure1_slot19 = var4;

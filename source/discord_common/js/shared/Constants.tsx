@@ -530,6 +530,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var41['APPLICATION'] = var69;
     var1 = 'APPLICATION';
     var41[var69] = var1;
+    var41['GAME_SERVER'] = var7;
+    var1 = 'GAME_SERVER';
+    var41[var7] = var1;
     var40 = {};
     var1 = 'PAYPAL_POPUP_CLOSED';
     var40['PAYPAL_POPUP_CLOSED'] = var1;

@@ -16,17 +16,18 @@ case 0:
             var _closure2_slot1 = var12;
             var8 = var2.author;
             var9 = var2.location;
+            var2 = var2.color;
             var4 = undefined;
             var _closure2_slot3 = var4;
-            var2 = _closure1_slot11;
-            var10 = var2.bind(var4)();
+            var3 = _closure1_slot11;
+            var10 = var3.bind(var4)();
             var _closure2_slot2 = var10;
             var5 = null;
-            var2 = var5 != var8;
-            var11 = 'mobile-text-heading-primary';
-            if(!var2) { _fun0001_ip = 2; continue _fun0001 }
-case 3:
+            var3 = var5 != var2;
             var11 = 'text-muted';
+            if(!var3) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var11 = var2;
 case 2:
             _closure2_slot3 = var11;
             var7 = _closure1_slot2;
@@ -55,7 +56,7 @@ case 0:
                     var1 = var4.bind(var5)(var1);
                     var5 = undefined;
                     if(var1) { _fun0002_ip = 4; continue _fun0002 }
-case 3:
+case 5:
                     var4 = var7.type;
                     var10 = _closure1_slot0;
                     var1 = _closure1_slot1;
@@ -63,8 +64,8 @@ case 3:
                     var1 = var10.bind(var8)(var1);
                     var1 = var1.ChannelTypes;
                     var1 = var1.PUBLIC_THREAD;
-                    if(!(var4 !== var1)) { _fun0002_ip = 5; continue _fun0002 }
-case 6:
+                    if(!(var4 !== var1)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                     var4 = _closure1_slot0;
                     var10 = _closure1_slot1;
                     var1 = 13;
@@ -72,11 +73,11 @@ case 6:
                     var4 = var4.bind(var8)(var1);
                     var1 = var4.getSimpleChannelIconComponent;
                     var1 = var1.bind(var4)(var7);
-                    _fun0002_ip = 7; continue _fun0002;
-case 5:
+                    _fun0002_ip = 8; continue _fun0002;
+case 6:
                     var4 = null;
-                    if(!(var4 != var3)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+                    if(!(var4 != var3)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
                     var4 = var3.type;
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot1;
@@ -84,31 +85,31 @@ case 9:
                     var3 = var7.bind(var8)(var3);
                     var3 = var3.ChannelTypes;
                     var3 = var3.GUILD_FORUM;
-                    if(!(var4 !== var3)) { _fun0002_ip = 10; continue _fun0002 }
-case 8:
+                    if(!(var4 !== var3)) { _fun0002_ip = 11; continue _fun0002 }
+case 9:
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot1;
                     var3 = 12;
                     var3 = var7[var3];
                     var3 = var4.bind(var8)(var3);
                     var3 = var3.ThreadIcon;
-                    _fun0002_ip = 11; continue _fun0002;
-case 10:
+                    _fun0002_ip = 12; continue _fun0002;
+case 11:
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot1;
                     var4 = 11;
                     var4 = var9[var4];
                     var4 = var7.bind(var8)(var4);
                     var3 = var4.ChatIcon;
-case 11:
+case 12:
                     var1 = var3;
-case 7:
+case 8:
                     var5 = var1;
 case 4:
                     var1 = null;
                     var3 = var1 != var5;
-                    if(!var3) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+                    if(!var3) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
                     var4 = _closure1_slot2;
                     var3 = var4.createElement;
                     var2 = {};
@@ -118,7 +119,7 @@ case 13:
                     var6 = var6.icon;
                     var2['style'] = var6;
                     var1 = var3.bind(var4)(var5, var2);
-case 12:
+case 13:
                     return var1;
                 }
             };
@@ -129,8 +130,8 @@ case 12:
             var12 = var10.secondaryTextContainer;
             var1['style'] = var12;
             var8 = var5 != var8;
-            if(!var8) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(!var8) { _fun0001_ip = 15; continue _fun0001 }
+case 16:
             var13 = _closure1_slot7;
             var12 = _closure1_slot0;
             var14 = _closure1_slot1;
@@ -143,7 +144,7 @@ case 15:
             var14 = var10.separator;
             var5['style'] = var14;
             var8 = var13.bind(var4)(var12, var5);
-case 14:
+case 15:
             var5 = new Array(3);
             var5[0] = var8;
             var5[1] = var7;
@@ -232,10 +233,9 @@ case 14:
     var4['container'] = var9;
     var9 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center'};
     var4['headerContent'] = var9;
-    var9 = {};
-    var9['flexShrink'] = var10;
+    var9 = {'flexShrink': 1, 'marginRight': 2};
     var4['primaryText'] = var9;
-    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'marginLeft': 2, 'gap': 2, 'flex': 1, 'overflow': 'hidden'};
+    var9 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 2, 'flex': 1, 'overflow': 'hidden'};
     var4['secondaryTextContainer'] = var9;
     var9 = {};
     var9['marginHorizontal'] = var11;
@@ -257,13 +257,14 @@ case 14:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var1 = arg1;
-            var20 = var1.channel;
-            var19 = var1.parentChannel;
+            var21 = var1.channel;
+            var20 = var1.parentChannel;
             var2 = var1.guild;
-            var18 = var1.author;
+            var19 = var1.author;
             var6 = var1.expanded;
             var8 = var1.onDismiss;
             var _closure2_slot0 = var8;
+            var18 = var1.locationTextColor;
             var1 = _closure1_slot11;
             var4 = undefined;
             var17 = var1.bind(var4)();
@@ -283,29 +284,29 @@ case 0:
             };
             var9 = var5.bind(var7)(var3, var1);
             var7 = null;
-            var3 = var7 == var18;
+            var3 = var7 == var19;
             var1 = undefined;
-            if(var3) { _fun0003_ip = 16; continue _fun0003 }
+            if(var3) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
+            var1 = var19.colorString;
 case 17:
-            var1 = var18.colorString;
-case 16:
             var5 = 'username';
             var3 = undefined;
-            if(!(var5 === var9)) { _fun0003_ip = 18; continue _fun0003 }
+            if(!(var5 === var9)) { _fun0003_ip = 6; continue _fun0003 }
 case 19:
             var3 = var1;
-case 18:
+case 6:
             var1 = var7 != var3;
-            var22 = undefined;
+            var23 = undefined;
             if(!var1) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
             var1 = {};
             var1['color'] = var3;
-            var22 = var1;
+            var23 = var1;
 case 20:
             var1 = {};
-            var1['channel'] = var20;
-            var1['parentChannel'] = var19;
+            var1['channel'] = var21;
+            var1['parentChannel'] = var20;
             var1['guild'] = var2;
             var3 = var1.channel;
             var14 = var1.parentChannel;
@@ -325,7 +326,7 @@ case 20:
             var1 = var9.bind(var4)(var1);
             var1 = var1.ChannelTypes;
             var1 = var1.GROUP_DM;
-            var21 = var11;
+            var22 = var11;
             if(!(var1 !== var3)) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
             var9 = _closure1_slot0;
@@ -374,7 +375,7 @@ case 30:
             var1 = var9.bind(var4)(var1);
             var1 = var1.ChannelTypes;
             var1 = var1.PRIVATE_THREAD;
-            var21 = null;
+            var22 = null;
             if(!(var1 === var3)) { _fun0003_ip = 22; continue _fun0003 }
 case 28:
             var1 = var7 != var14;
@@ -412,7 +413,7 @@ case 33:
             var3 = ', ';
             var1 = var9.bind(var5)(var11, var3, var13);
 case 37:
-            var21 = var1;
+            var22 = var1;
             _fun0003_ip = 22; continue _fun0003;
 case 24:
             var3 = var7 != var2;
@@ -427,7 +428,7 @@ case 39:
             var2 = ', ';
             var1 = var5.bind(var3)(var11, var2, var9);
 case 38:
-            var21 = var1;
+            var22 = var1;
 case 22:
             var3 = _closure1_slot8;
             var2 = _closure1_slot3;
@@ -439,38 +440,39 @@ case 22:
             var5 = {};
             var13 = var17.headerContent;
             var5['style'] = var13;
-            var14 = var7 != var18;
+            var14 = var7 != var19;
             if(!var14) { _fun0003_ip = 40; continue _fun0003 }
 case 41:
             var16 = _closure1_slot7;
             var15 = _closure1_slot0;
-            var23 = _closure1_slot1;
+            var24 = _closure1_slot1;
             var13 = 8;
-            var13 = var23[var13];
+            var13 = var24[var13];
             var13 = var15.bind(var4)(var13);
             var15 = var13.Text;
             var13 = {'variant': 'text-md/semibold', 'color': 'mobile-text-heading-primary', 'lineClamp': 1};
-            var23 = var17.primaryText;
+            var24 = var17.primaryText;
             var17 = new Array(2);
-            var17[0] = var23;
-            var17[1] = var22;
+            var17[0] = var24;
+            var17[1] = var23;
             var13['style'] = var17;
-            var17 = var18.nick;
+            var17 = var19.nick;
             var13['children'] = var17;
             var14 = var16.bind(var4)(var15, var13);
 case 40:
             var13 = new Array(2);
             var13[0] = var14;
-            var14 = var7 != var21;
+            var14 = var7 != var22;
             if(!var14) { _fun0003_ip = 42; continue _fun0003 }
 case 43:
             var17 = _closure1_slot7;
             var16 = _closure1_slot12;
             var15 = {};
-            var15['location'] = var21;
-            var15['channel'] = var20;
-            var15['parentChannel'] = var19;
-            var15['author'] = var18;
+            var15['location'] = var22;
+            var15['channel'] = var21;
+            var15['parentChannel'] = var20;
+            var15['author'] = var19;
+            var15['color'] = var18;
             var14 = var17.bind(var4)(var16, var15);
 case 42:
             var13[1] = var14;

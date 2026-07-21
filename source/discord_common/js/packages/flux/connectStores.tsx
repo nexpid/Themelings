@@ -104,9 +104,6 @@ case 13:
     var1 = function memoizeGetStateFromStores(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var1 = null;
-        var _closure2_slot1 = var1;
-        var _closure2_slot2 = var1;
         var3 = function getCachedResult(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -179,6 +176,9 @@ case 24:
                 return var1;
             }
         };
+        var4 = null;
+        var _closure2_slot1 = var4;
+        var _closure2_slot2 = var4;
         var1['getCachedResult'] = var3;
         var2 = function() {
             var1 = null;

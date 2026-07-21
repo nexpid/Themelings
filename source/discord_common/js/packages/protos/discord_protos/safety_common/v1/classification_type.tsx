@@ -1566,6 +1566,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUEST_REWARD_ABUSE_ADMIN'] = var5;
     var1 = 'QUEST_REWARD_ABUSE_ADMIN';
     var2[var5] = var1;
+    var5 = 5980;
+    var2['QUEST_REWARD_ABUSE_POST_WARNING_ADMIN'] = var5;
+    var1 = 'QUEST_REWARD_ABUSE_POST_WARNING_ADMIN';
+    var2[var5] = var1;
     var5 = 7005;
     var2['HIGH_RISK_DANGEROUS_AND_REGULATED_GOODS_GUILD_RETOOL'] = var5;
     var1 = 'HIGH_RISK_DANGEROUS_AND_REGULATED_GOODS_GUILD_RETOOL';

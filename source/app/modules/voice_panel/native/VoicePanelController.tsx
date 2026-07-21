@@ -656,9 +656,7 @@ case 47:
             var14 = _closure1_slot19;
 case 49:
             var6['controlBarSize'] = var14;
-            var6 = var7.bind(var4)(var8, var6);
-            var6 = var4.getContentDimensions;
-            var14 = var6.bind(var4)();
+            var14 = var7.bind(var4)(var8, var6);
             _closure2_slot13 = var14;
             var8 = _closure1_slot4;
             var7 = var8.useLayoutEffect;

@@ -1326,12 +1326,12 @@ case 159:
                 var1 = {};
                 var4 = var2.mosCount;
                 var4 = var4 > var3;
-                if(!var4) { _fun0010_ip = 36; continue _fun0010 }
-case 160:
+                if(!var4) { _fun0010_ip = 160; continue _fun0010 }
+case 28:
                 var5 = var2.mosSum;
                 var4 = var2.mosCount;
                 var3 = var5 / var4;
-case 36:
+case 160:
                 var1['mos_mean'] = var3;
                 var4 = var2.mosBuckets;
                 var3 = 1;
@@ -1612,22 +1612,22 @@ case 180:
 case 182:
                 var1 = var7.audioJitterBuffer;
 case 181:
-                _fun0013_ip = 183; continue _fun0013;
+                _fun0013_ip = 160; continue _fun0013;
 case 167:
                 var1 = var7.audioJitterBufferHistogram;
-case 183:
+case 160:
                 var9 = var1;
 case 178:
                 var1 = var5 != var7;
                 var8 = null;
-                if(!var1) { _fun0013_ip = 184; continue _fun0013 }
+                if(!var1) { _fun0013_ip = 183; continue _fun0013 }
 case 11:
                 var3 = var7.audioJitterTargetHistogram;
                 var1 = var3.getSamples;
                 var3 = var1.bind(var3)();
                 var1 = 0;
-                if(!(!(var3 > var1))) { _fun0013_ip = 185; continue _fun0013 }
-case 186:
+                if(!(!(var3 > var1))) { _fun0013_ip = 184; continue _fun0013 }
+case 185:
                 var1 = var7.audioJitterTarget;
                 var3 = var5 != var1;
                 var1 = null;
@@ -1636,21 +1636,21 @@ case 67:
                 var1 = var7.audioJitterTarget;
 case 43:
                 _fun0013_ip = 166; continue _fun0013;
-case 185:
+case 184:
                 var1 = var7.audioJitterTargetHistogram;
 case 166:
                 var8 = var1;
-case 184:
+case 183:
                 var1 = var5 != var7;
                 var6 = null;
-                if(!var1) { _fun0013_ip = 187; continue _fun0013 }
-case 188:
+                if(!var1) { _fun0013_ip = 186; continue _fun0013 }
+case 187:
                 var3 = var7.audioJitterDelayHistogram;
                 var1 = var3.getSamples;
                 var3 = var1.bind(var3)();
                 var1 = 0;
-                if(!(!(var3 > var1))) { _fun0013_ip = 189; continue _fun0013 }
-case 190:
+                if(!(!(var3 > var1))) { _fun0013_ip = 188; continue _fun0013 }
+case 189:
                 var1 = var7.audioJitterDelay;
                 var3 = var5 != var1;
                 var1 = null;
@@ -1658,12 +1658,12 @@ case 190:
 case 47:
                 var1 = var7.audioJitterDelay;
 case 8:
-                _fun0013_ip = 191; continue _fun0013;
-case 189:
+                _fun0013_ip = 190; continue _fun0013;
+case 188:
                 var1 = var7.audioJitterDelayHistogram;
-case 191:
+case 190:
                 var6 = var1;
-case 187:
+case 186:
                 var1 = {};
                 var3 = _closure1_slot11;
                 var2 = {};
@@ -1672,29 +1672,29 @@ case 187:
                 var2['audio_jitter_delay'] = var6;
                 var6 = var5 == var7;
                 var8 = undefined;
-                if(var6) { _fun0013_ip = 192; continue _fun0013 }
-case 193:
-                var8 = var7.relativeReceptionDelay;
+                if(var6) { _fun0013_ip = 191; continue _fun0013 }
 case 192:
+                var8 = var7.relativeReceptionDelay;
+case 191:
                 var9 = var5 != var8;
                 var6 = null;
-                if(!var9) { _fun0013_ip = 194; continue _fun0013 }
-case 195:
-                var6 = var8;
+                if(!var9) { _fun0013_ip = 193; continue _fun0013 }
 case 194:
+                var6 = var8;
+case 193:
                 var2['relative_reception_delay'] = var6;
                 var8 = var5 == var7;
                 var6 = undefined;
-                if(var8) { _fun0013_ip = 196; continue _fun0013 }
-case 197:
-                var6 = var7.relativePlayoutDelay;
+                if(var8) { _fun0013_ip = 195; continue _fun0013 }
 case 196:
+                var6 = var7.relativePlayoutDelay;
+case 195:
                 var7 = var5 != var6;
                 var5 = null;
-                if(!var7) { _fun0013_ip = 198; continue _fun0013 }
-case 199:
-                var5 = var6;
+                if(!var7) { _fun0013_ip = 197; continue _fun0013 }
 case 198:
+                var5 = var6;
+case 197:
                 var2['relative_playout_delay'] = var5;
                 var11 = var3.bind(var4)(var2);
                 var12 = var1;
@@ -1725,24 +1725,24 @@ case 0:
                     var3 = var2.frameOpStats;
                     var3 = var3.silent;
                     var4 = null;
-                    if(!(var4 != var3)) { _fun0015_ip = 200; continue _fun0015 }
-case 201:
+                    if(!(var4 != var3)) { _fun0015_ip = 199; continue _fun0015 }
+case 200:
                     var5 = var1.silent;
                     var3 = var2.frameOpStats;
                     var3 = var3.silent;
                     var3 = var5 + var3;
                     var1['silent'] = var3;
-case 200:
+case 199:
                     var3 = var2.frameOpStats;
                     var3 = var3.normal;
-                    if(!(var4 != var3)) { _fun0015_ip = 202; continue _fun0015 }
+                    if(!(var4 != var3)) { _fun0015_ip = 201; continue _fun0015 }
 case 6:
                     var5 = var1.normal;
                     var3 = var2.frameOpStats;
                     var3 = var3.normal;
                     var3 = var5 + var3;
                     var1['normal'] = var3;
-case 202:
+case 201:
                     var3 = var2.frameOpStats;
                     var3 = var3.merged;
                     if(!(var4 != var3)) { _fun0015_ip = 65; continue _fun0015 }
@@ -1755,44 +1755,44 @@ case 167:
 case 65:
                     var3 = var2.frameOpStats;
                     var3 = var3.expanded;
-                    if(!(var4 != var3)) { _fun0015_ip = 184; continue _fun0015 }
+                    if(!(var4 != var3)) { _fun0015_ip = 183; continue _fun0015 }
 case 86:
                     var5 = var1.expanded;
                     var3 = var2.frameOpStats;
                     var3 = var3.expanded;
                     var3 = var5 + var3;
                     var1['expanded'] = var3;
-case 184:
+case 183:
                     var3 = var2.frameOpStats;
                     var3 = var3.accelerated;
-                    if(!(var4 != var3)) { _fun0015_ip = 203; continue _fun0015 }
-case 204:
+                    if(!(var4 != var3)) { _fun0015_ip = 202; continue _fun0015 }
+case 203:
                     var5 = var1.accelerated;
                     var3 = var2.frameOpStats;
                     var3 = var3.accelerated;
                     var3 = var5 + var3;
                     var1['accelerated'] = var3;
-case 203:
+case 202:
                     var3 = var2.frameOpStats;
                     var3 = var3.preemptiveExpanded;
-                    if(!(var4 != var3)) { _fun0015_ip = 205; continue _fun0015 }
-case 191:
+                    if(!(var4 != var3)) { _fun0015_ip = 204; continue _fun0015 }
+case 190:
                     var5 = var1.preemptiveExpanded;
                     var3 = var2.frameOpStats;
                     var3 = var3.preemptiveExpanded;
                     var3 = var5 + var3;
                     var1['preemptiveExpanded'] = var3;
-case 205:
+case 204:
                     var3 = var2.frameOpStats;
                     var3 = var3.cng;
-                    if(!(var4 != var3)) { _fun0015_ip = 206; continue _fun0015 }
-case 207:
+                    if(!(var4 != var3)) { _fun0015_ip = 205; continue _fun0015 }
+case 206:
                     var3 = var1.cng;
                     var2 = var2.frameOpStats;
                     var2 = var2.cng;
                     var2 = var3 + var2;
                     var1['cng'] = var2;
-case 206:
+case 205:
                     return var1;
                 }
             };
@@ -1876,10 +1876,10 @@ case 0:
                     var6 = null;
                     var8 = var6 != var7;
                     var2 = 0;
-                    if(!var8) { _fun0016_ip = 208; continue _fun0016 }
-case 209:
-                    var2 = var7;
+                    if(!var8) { _fun0016_ip = 207; continue _fun0016 }
 case 208:
+                    var2 = var7;
+case 207:
                     var2 = var3 + var2;
                     var1['passthroughCount'] = var2;
                     var3 = var1.decryptSuccessCount;
@@ -1887,7 +1887,7 @@ case 208:
                     var8 = var6 != var7;
                     var2 = 0;
                     if(!var8) { _fun0016_ip = 34; continue _fun0016 }
-case 210:
+case 209:
                     var2 = var7;
 case 34:
                     var2 = var3 + var2;
@@ -1896,10 +1896,10 @@ case 34:
                     var7 = var5.decryptFailureCount;
                     var8 = var6 != var7;
                     var2 = 0;
-                    if(!var8) { _fun0016_ip = 160; continue _fun0016 }
+                    if(!var8) { _fun0016_ip = 210; continue _fun0016 }
 case 33:
                     var2 = var7;
-case 160:
+case 210:
                     var2 = var3 + var2;
                     var1['decryptFailureCount'] = var2;
                     var3 = var1.decryptDuration;
@@ -1953,10 +1953,10 @@ case 91:
                     var5 = var5.decryptFailureBeforeSuccessCount;
                     var6 = var6 != var5;
                     var4 = 0;
-                    if(!var6) { _fun0016_ip = 207; continue _fun0016 }
-case 193:
+                    if(!var6) { _fun0016_ip = 206; continue _fun0016 }
+case 192:
                     var4 = var5;
-case 207:
+case 206:
                     var2 = var2 - var4;
                     var2 = var3 + var2;
                     var1['decryptFailureAfterSuccessCount'] = var2;
@@ -2168,7 +2168,7 @@ case 0:
                 var4 = undefined;
                 var3 = undefined;
                 if(!var2) { _fun0018_ip = 218; continue _fun0018 }
-case 202:
+case 201:
                 var28 = var26[var19];
                 var2 = _closure1_slot3;
                 var2 = var2.bind(var24)(var28, var21);
@@ -2421,7 +2421,7 @@ case 219:
                 var5 = var30;
                 var4 = var29;
                 var3 = var28;
-                if(var19 < var2) { _fun0018_ip = 202; continue _fun0018 }
+                if(var19 < var2) { _fun0018_ip = 201; continue _fun0018 }
 case 218:
                 return var1;
             }

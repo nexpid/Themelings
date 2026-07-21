@@ -778,16 +778,45 @@ case 52:
         }
     };
     var4['MEDIA_SESSION_JOINED'] = var11;
-    var10 = function handlePendingNoteCreate(arg1) {
+    var11 = function handlePendingNoteStart(arg1) {
         var1 = arg1;
         var3 = var1.roomId;
-        var2 = var1.note;
-        var1 = _closure1_slot25;
-        var1[var3] = var2;
+        var2 = _closure1_slot25;
+        var1 = {};
+        var4 = null;
+        var1['position'] = var4;
+        var2[var3] = var1;
         var1 = undefined;
         return var1;
     };
-    var4['GUILD_ROOM_PENDING_NOTE_CREATE'] = var10;
+    var4['GUILD_ROOM_PENDING_NOTE_START'] = var11;
+    var10 = function handlePendingNotePlace(arg1) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+            var1 = arg1;
+            var3 = var1.roomId;
+            var5 = var1.position;
+            var2 = _closure1_slot25;
+            var4 = var2[var3];
+            var2 = null;
+            if(!(var2 != var4)) { _fun0018_ip = 54; continue _fun0018 }
+case 55:
+            var2 = _closure1_slot25;
+            var1 = {};
+            var7 = var1;
+            var6 = var4;
+            var4 = copyDataProperties(var7, var6);
+            var4 = 'position';
+            var1[3] = var5;
+            var2[var3] = var1;
+            var1 = undefined;
+            return var1;
+case 54:
+            var1 = false;
+            return var1;
+        }
+    };
+    var4['GUILD_ROOM_PENDING_NOTE_PLACE'] = var10;
     var4['GUILD_ROOM_PENDING_NOTE_DELETE'] = var5;
     var4['GUILD_ROOM_NOTE_CREATE_COMPLETE'] = var5;
     var5 = var9.prototype;

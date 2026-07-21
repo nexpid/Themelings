@@ -2322,8 +2322,10 @@ case 42:
             var1['hdStreamingUntil'] = var3;
             var3 = var2.hdStreamingBuyerId;
             var1['hdStreamingBuyerId'] = var3;
-            var2 = var2.voiceHangout;
-            var1['voiceHangout'] = var2;
+            var3 = var2.voiceHangout;
+            var1['voiceHangout'] = var3;
+            var2 = var2.lastNonMessageActivityTimestamp;
+            var1['lastNonMessageActivityTimestamp'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -2575,8 +2577,10 @@ case 100:
                 var4['hdStreamingUntil'] = var5;
                 var5 = var2.hd_streaming_buyer_id;
                 var4['hdStreamingBuyerId'] = var5;
-                var2 = var2.voice_hangout;
-                var4['voiceHangout'] = var2;
+                var5 = var2.voice_hangout;
+                var4['voiceHangout'] = var5;
+                var2 = var2.last_non_message_activity_timestamp;
+                var4['lastNonMessageActivityTimestamp'] = var2;
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot3;
                 var1 = 15;
@@ -3865,8 +3869,10 @@ case 118:
                 var1['threadMetadata'] = var3;
                 var3 = var2.userLimit_;
                 var1['userLimit_'] = var3;
-                var2 = var2.videoQualityMode;
-                var1['videoQualityMode'] = var2;
+                var3 = var2.videoQualityMode;
+                var1['videoQualityMode'] = var3;
+                var2 = var2.lastNonMessageActivityTimestamp;
+                var1['lastNonMessageActivityTimestamp'] = var2;
                 return var1;
             }
         };
@@ -4012,8 +4018,10 @@ case 167:
                 var4['type'] = var2;
                 var2 = var1.user_limit;
                 var4['userLimit_'] = var2;
-                var1 = var1.video_quality_mode;
-                var4['videoQualityMode'] = var1;
+                var2 = var1.video_quality_mode;
+                var4['videoQualityMode'] = var2;
+                var1 = var1.last_non_message_activity_timestamp;
+                var4['lastNonMessageActivityTimestamp'] = var1;
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot3;
                 var1 = 15;

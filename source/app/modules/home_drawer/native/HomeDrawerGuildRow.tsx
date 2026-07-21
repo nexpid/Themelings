@@ -109,11 +109,13 @@ case 6:
             var _closure2_slot6 = var5;
             var13 = _closure1_slot3;
             var12 = var13.useMemo;
-            var11 = new Array(3);
+            var11 = new Array(4);
             var11[0] = var9;
             var11[1] = var5;
-            var10 = var10.guildName;
-            var11[2] = var10;
+            var15 = var10.guildName;
+            var11[2] = var15;
+            var10 = var10.guildNameText;
+            var11[3] = var10;
             var10 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -148,8 +150,8 @@ case 9:
                     var4 = _closure1_slot17;
                     var3 = _closure1_slot4;
                     var2 = {};
-                    var1 = _closure2_slot3;
-                    var1 = var1.guildName;
+                    var11 = _closure2_slot3;
+                    var1 = var11.guildName;
                     var2['style'] = var1;
                     var9 = _closure1_slot16;
                     var7 = _closure1_slot0;
@@ -160,9 +162,7 @@ case 9:
                     var5 = var7.bind(var1)(var5);
                     var7 = var5.Text;
                     var5 = {'variant': 'text-md/medium', 'style': null, 'lineClamp': 1};
-                    var11 = {};
-                    var12 = 1;
-                    var11['flexShrink'] = var12;
+                    var11 = var11.guildNameText;
                     var5['style'] = var11;
                     var11 = _closure2_slot6;
                     var12 = var11.isMuted;
@@ -637,8 +637,8 @@ case 64:
                     var3 = _closure2_slot9;
                     var2 = null;
                     var3 = var2 == var3;
-                    if(var3) { _fun0009_ip = 67; continue _fun0009 }
-case 68:
+                    if(var3) { _fun0009_ip = 14; continue _fun0009 }
+case 67:
                     var7 = _closure1_slot16;
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -656,7 +656,7 @@ case 68:
                     var8 = _closure2_slot10;
                     var3['count'] = var8;
                     var2 = var7.bind(var6)(var4, var3);
-case 67:
+case 14:
                     return var2;
 case 62:
                     var6 = _closure1_slot16;
@@ -681,8 +681,8 @@ case 60:
                     var3 = _closure2_slot12;
                     var2 = null;
                     var3 = var2 == var3;
-                    if(var3) { _fun0009_ip = 69; continue _fun0009 }
-case 70:
+                    if(var3) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
                     var7 = _closure1_slot16;
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -700,7 +700,7 @@ case 70:
                     var8 = _closure2_slot13;
                     var3['count'] = var8;
                     var2 = var7.bind(var6)(var4, var3);
-case 69:
+case 68:
                     return var2;
 case 58:
                     var6 = _closure1_slot16;
@@ -749,16 +749,16 @@ case 56:
             var1['subtitle'] = var8;
             var8 = var5.isMuted;
             var5 = null;
-            if(var8) { _fun0001_ip = 71; continue _fun0001 }
-case 72:
+            if(var8) { _fun0001_ip = 70; continue _fun0001 }
+case 71:
             var5 = null;
-            if(var7) { _fun0001_ip = 71; continue _fun0001 }
-case 73:
+            if(var7) { _fun0001_ip = 70; continue _fun0001 }
+case 72:
             var8 = var12.length;
             var7 = 0;
             var5 = null;
-            if(!(var7 !== var8)) { _fun0001_ip = 71; continue _fun0001 }
-case 74:
+            if(!(var7 !== var8)) { _fun0001_ip = 70; continue _fun0001 }
+case 73:
             var8 = _closure1_slot16;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -772,7 +772,7 @@ case 74:
             var9 = var9.id;
             var6['guildId'] = var9;
             var5 = var8.bind(var4)(var7, var6);
-case 71:
+case 70:
             var1['right'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -793,8 +793,8 @@ case 71:
     var1 = undefined;
     var2 = var2.bind(var1)(var8);
     var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var7[var2];
+    var11 = 1;
+    var2 = var7[var11];
     var2 = var6.bind(var1)(var2);
     var2 = var2.View;
     var _closure1_slot4 = var2;
@@ -870,6 +870,9 @@ case 71:
     var5 = {};
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 4};
     var5['guildName'] = var10;
+    var10 = {};
+    var10['flexShrink'] = var11;
+    var5['guildNameText'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot19 = var5;
     var5 = 32;
@@ -923,13 +926,13 @@ case 0:
             var4 = null;
             var10 = var4 == var8;
             var1 = null;
-            if(var10) { _fun0010_ip = 75; continue _fun0010 }
+            if(var10) { _fun0010_ip = 74; continue _fun0010 }
+case 75:
+            var1 = null;
+            if(!var9) { _fun0010_ip = 74; continue _fun0010 }
 case 76:
             var1 = null;
-            if(!var9) { _fun0010_ip = 75; continue _fun0010 }
-case 77:
-            var1 = null;
-            if(var3) { _fun0010_ip = 75; continue _fun0010 }
+            if(var3) { _fun0010_ip = 74; continue _fun0010 }
 case 34:
             var4 = _closure1_slot16;
             var3 = _closure1_slot20;
@@ -938,7 +941,7 @@ case 34:
             var2['disableSubtitle'] = var7;
             var2['onActiveHookChange'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 75:
+case 74:
             return var1;
         }
     };

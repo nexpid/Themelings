@@ -1,31 +1,31 @@
 // app/modules/games/hooks/useGame.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
-    var5 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
     var4 = var7[var1];
     var1 = undefined;
-    var11 = var5.bind(var1)(var4);
+    var11 = var12.bind(var1)(var4);
     var4 = 1;
-    var8 = var7[var4];
+    var5 = var7[var4];
     var4 = metroImportAll;
-    var4 = var4.bind(var1)(var8);
+    var4 = var4.bind(var1)(var5);
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var7[var4];
-    var9 = var5.bind(var1)(var4);
+    var9 = var12.bind(var1)(var4);
     var _closure1_slot4 = var9;
     var4 = 3;
     var4 = var7[var4];
@@ -38,6 +38,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var10 = var10.GAME;
     var4['getQueryId'] = var10;
+    var10 = 5;
+    var10 = var7[var10];
+    var10 = var12.bind(var1)(var10);
+    var10 = var10.Seconds;
+    var12 = var10.SECOND;
+    var10 = 15;
+    var10 = var10 * var12;
+    var4['failureStaleAfter'] = var10;
     var10 = function get(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
@@ -91,7 +99,7 @@ case 10:
 case 12:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var2 = 5;
+                var2 = 6;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -175,7 +183,7 @@ case 16:
     var4['getError'] = var10;
     var4 = var5.bind(var8)(var9, var4);
     var _closure1_slot5 = var4;
-    var5 = 6;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

@@ -28,26 +28,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function pollConnectionStats(arg1) {
         var8 = arg1;
         var _closure2_slot0 = var8;
-        var1 = false;
-        var _closure2_slot1 = var1;
-        var7 = var8.on;
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot1;
-        var1 = 1;
-        var3 = var6[var1];
-        var1 = undefined;
-        var3 = var5.bind(var1)(var3);
-        var3 = var3.MediaEngineEvent;
-        var4 = var3.Destroy;
-        var3 = function() {
-            var1 = true;
-            _closure2_slot1 = var1;
+        var4 = function pollStats() {
+            var1 = undefined;
+            var4 = _closure2_slot3;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var3 = var7.bind(var8)(var4, var3);
-        var3 = function() {
-            var4 = _closure1_slot2;
-            var3 = undefined;
+        var _closure2_slot2 = var4;
+        var1 = function _pollStats() {
+            var4 = undefined;
+            var1 = undefined;
+            var3 = _closure1_slot2;
             var2 = function* () {
                 var1 = function* anon_0_() {
                     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -136,22 +131,33 @@ case 2:
                 };
                 return var1;
             };
-            var2 = var4.bind(var3)(var2);
-            var _closure3_slot0 = var2;
-            var1 = function() {
-                var1 = undefined;
-                var4 = _closure3_slot0;
-                var3 = var4.apply;
-                var1 = arguments;
-                var2 = var1;
-                var1 = this;
-                var1 = var3.bind(var4)(var1, var2);
-                return var1;
-            };
+            var4 = var3.bind(var4)(var2);
+            _closure2_slot3 = var4;
+            var3 = var4.apply;
+            var1 = arguments;
+            var2 = var1;
+            var1 = this;
+            var1 = var3.bind(var4)(var1, var2);
             return var1;
         };
-        var4 = var3.bind(var1)();
-        var _closure2_slot2 = var4;
+        var _closure2_slot3 = var1;
+        var1 = false;
+        var _closure2_slot1 = var1;
+        var7 = var8.on;
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot1;
+        var1 = 1;
+        var3 = var6[var1];
+        var1 = undefined;
+        var3 = var5.bind(var1)(var3);
+        var3 = var3.MediaEngineEvent;
+        var3 = var3.Destroy;
+        var2 = function() {
+            var1 = true;
+            _closure2_slot1 = var1;
+            return var1;
+        };
+        var2 = var7.bind(var8)(var3, var2);
         var2 = global;
         var3 = var2.setTimeout;
         var2 = 2;

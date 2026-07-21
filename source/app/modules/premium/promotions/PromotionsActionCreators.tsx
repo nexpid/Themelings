@@ -554,7 +554,7 @@ case 42:
             if(var3) { _fun0006_ip = 44; continue _fun0006 }
 case 45:
             if(!var4) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+case 15:
             var5 = _closure1_slot6;
             var6 = var5.lastFetchedActivePromotions;
             var5 = null;
@@ -562,11 +562,11 @@ case 47:
 case 46:
             var3 = var4;
 case 44:
-            if(var3) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+            if(var3) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
             var2 = _closure1_slot9;
             var2 = var2.bind(var1)();
-case 48:
+case 47:
             return var1;
         }
     };

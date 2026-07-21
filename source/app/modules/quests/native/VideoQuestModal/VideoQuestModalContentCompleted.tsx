@@ -457,7 +457,7 @@ case 10:
             var20 = 21;
             var7 = var16[var20];
             var7 = var12.bind(var4)(var7);
-            var8 = var7.Text;
+            var8 = var7.Heading;
             var7 = {'variant': 'heading-sm/semibold', 'color': 'text-subtle'};
             var9 = var29.headerContentCopy;
             var7['style'] = var9;
@@ -559,7 +559,7 @@ case 12:
             var34 = _closure1_slot0;
             var33 = var33[var20];
             var33 = var34.bind(var4)(var33);
-            var34 = var33.Text;
+            var34 = var33.Heading;
             var33 = {'color': 'text-strong', 'style': null, 'variant': 'heading-lg/semibold'};
             var38 = var29.contentRewardsCopy;
             var33['style'] = var38;
@@ -660,8 +660,8 @@ case 19:
             var23 = _closure1_slot8;
             var19 = var34[var20];
             var19 = var33.bind(var4)(var19);
-            var27 = var19.Text;
-            var19 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary', 'accessibilityRole': 'header'};
+            var27 = var19.Heading;
+            var19 = {'variant': 'heading-md/semibold', 'color': 'mobile-text-heading-primary'};
             var36 = var28.config;
             var36 = var36.messages;
             var36 = var36.gameTitle;

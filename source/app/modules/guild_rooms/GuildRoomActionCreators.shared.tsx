@@ -1,12 +1,12 @@
 // app/modules/guild_rooms/GuildRoomActionCreators.shared.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
-    var9 = metroImportDefault;
+    var8 = require;
+    var10 = metroImportDefault;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var9;
-    var _closure1_slot2 = var8;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var10;
+    var _closure1_slot2 = var9;
     var1 = function _guildRoomConnect() {
         var5 = undefined;
         var1 = undefined;
@@ -597,7 +597,7 @@ case 29:
         return var1;
     };
     var _closure1_slot10 = var1;
-    var5 = function guildRoomObjectCreate() {
+    var6 = function guildRoomObjectCreate() {
         var1 = undefined;
         var4 = _closure1_slot12;
         var3 = var4.apply;
@@ -607,7 +607,7 @@ case 29:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var5;
+    var _closure1_slot11 = var6;
     var1 = function _guildRoomObjectCreate() {
         var5 = undefined;
         var1 = undefined;
@@ -725,7 +725,7 @@ case 75:
         return var1;
     };
     var _closure1_slot13 = var1;
-    var4 = function guildRoomObjectDelete() {
+    var5 = function guildRoomObjectDelete() {
         var1 = undefined;
         var4 = _closure1_slot15;
         var3 = var4.apply;
@@ -735,7 +735,7 @@ case 75:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot14 = var5;
     var1 = function _guildRoomObjectDelete() {
         var5 = undefined;
         var1 = undefined;
@@ -795,6 +795,23 @@ case 75:
         return var1;
     };
     var _closure1_slot15 = var1;
+    var4 = function deletePendingGuildRoomNote(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'GUILD_ROOM_PENDING_NOTE_DELETE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['roomId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot16 = var4;
     var1 = function _createGuildRoomNote() {
         var5 = undefined;
         var1 = undefined;
@@ -804,87 +821,88 @@ case 75:
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     StartGenerator();
+                    var5 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0007_ip = 80; continue _fun0007 }
-case 3:
+case 30:
                     var9 = arg1;
-                    var5 = arg2;
+                    var6 = var5;
                     var11 = arg3;
                     var10 = arg4;
+                    var4 = _closure1_slot16;
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var5);
 case 81: // try_start_0
                     var8 = _closure1_slot11;
                     var7 = var9;
-                    var4 = var5;
-                    var2 = {};
+                    var5 = var6;
+                    var4 = {};
                     var13 = _closure1_slot0;
-                    var12 = _closure1_slot2;
-                    var6 = 10;
-                    var12 = var12[var6];
-                    var6 = undefined;
-                    var12 = var13.bind(var6)(var12);
+                    var14 = _closure1_slot2;
+                    var12 = 10;
+                    var12 = var14[var12];
+                    var12 = var13.bind(var2)(var12);
                     var12 = var12.GuildRoomObjectTypes;
                     var12 = var12.NOTE;
-                    var2['object_type'] = var12;
-                    var2['content'] = var11;
-                    var2['position'] = var10;
-                    var2 = var8.bind(var6)(var7, var4, var2);
-                    SaveGenerator(address=95);
-case 72:
-                    return var2;
-case 76:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0007_ip = 27; continue _fun0007 }
+                    var4['object_type'] = var12;
+                    var4['content'] = var11;
+                    var4['position'] = var10;
+                    var4 = var8.bind(var2)(var7, var5, var4);
+                    SaveGenerator(address=107);
+case 69:
+                    return var4;
 case 82:
-                    var7 = var5;
-                    var4 = var9;
-                    if(!(var7 !== var4)) { _fun0007_ip = 83; continue _fun0007 }
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(var5) { _fun0007_ip = 83; continue _fun0007 }
 case 84:
+                    var7 = var6;
+                    var5 = var9;
+                    if(!(var7 !== var5)) { _fun0007_ip = 85; continue _fun0007 }
+case 86:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 7;
-                    var4 = var8[var4];
-                    var8 = var7.bind(var6)(var4);
+                    var5 = 7;
+                    var5 = var8[var5];
+                    var8 = var7.bind(var2)(var5);
                     var7 = var8.trackGuildRoomObjectInteracted;
-                    var4 = {};
+                    var5 = {};
                     var10 = 'note_created';
-                    var4['interactionType'] = var10;
-                    var4['guildId'] = var9;
-                    var9 = var5;
-                    var4['channelId'] = var9;
-                    var4 = var7.bind(var8)(var4);
+                    var5['interactionType'] = var10;
+                    var5['guildId'] = var9;
+                    var9 = var6;
+                    var5['channelId'] = var9;
+                    var5 = var7.bind(var8)(var5);
+case 85:
+                    var7 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var5 = 6;
+                    var5 = var8[var5];
+                    var8 = var7.bind(var2)(var5);
+                    var7 = var8.dispatch;
+                    var5 = {};
+                    var9 = 'GUILD_ROOM_NOTE_CREATE_COMPLETE';
+                    var5['type'] = var9;
+                    var9 = var6;
+                    var5['roomId'] = var9;
+                    var5 = var7.bind(var8)(var5);
+case 87: // try_end0
+                    _fun0007_ip = 88; continue _fun0007;
 case 83:
+                    return var4;
+case 89: // catch_target0
+                    CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
-                    var7 = _closure1_slot2;
+                    var5 = _closure1_slot2;
                     var3 = 6;
-                    var3 = var7[var3];
-                    var6 = var4.bind(var6)(var3);
-                    var4 = var6.dispatch;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
                     var3 = {};
                     var7 = 'GUILD_ROOM_NOTE_CREATE_COMPLETE';
                     var3['type'] = var7;
-                    var7 = var5;
-                    var3['roomId'] = var7;
-                    var3 = var4.bind(var6)(var3);
-case 28: // try_end0
-                    _fun0007_ip = 85; continue _fun0007;
-case 27:
-                    return var2;
-case 86: // catch_target0
-                    CatchBlockStart(arg_register=1);
-                    var4 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var2 = 6;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var4 = var4.bind(var2)(var3);
-                    var3 = var4.dispatch;
-                    var2 = {};
-                    var6 = 'GUILD_ROOM_NOTE_CREATE_COMPLETE';
-                    var2['type'] = var6;
-                    var2['roomId'] = var5;
-                    var2 = var3.bind(var4)(var2);
-case 85:
-                    var2 = undefined;
+                    var3['roomId'] = var6;
+                    var3 = var4.bind(var5)(var3);
+case 88:
                     return var2;
 case 80:
                     return var1;
@@ -893,7 +911,7 @@ case 80:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -901,7 +919,7 @@ case 80:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = function _deleteGuildRoomNote() {
         var5 = undefined;
         var1 = undefined;
@@ -934,14 +952,14 @@ case 20:
                     var10 = var5;
                     var2 = var14[var6](var13, var12, var11, var10, var9);
                     SaveGenerator(address=86);
-case 87:
+case 90:
                     return var2;
 case 31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                     if(var5) { _fun0008_ip = 11; continue _fun0008 }
-case 88:
-                    if(!(var7 !== var8)) { _fun0008_ip = 89; continue _fun0008 }
-case 90:
+case 91:
+                    if(!(var7 !== var8)) { _fun0008_ip = 92; continue _fun0008 }
+case 93:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var4 = 7;
@@ -954,7 +972,7 @@ case 90:
                     var4['guildId'] = var8;
                     var4['channelId'] = var7;
                     var4 = var5.bind(var6)(var4);
-case 89:
+case 92:
                     return var3;
 case 11:
                     return var2;
@@ -965,7 +983,7 @@ case 22:
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot17 = var4;
+        _closure1_slot18 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -973,7 +991,7 @@ case 22:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function _fetchGuildRoom() {
         var5 = undefined;
         var1 = undefined;
@@ -985,7 +1003,7 @@ case 0:
                     StartGenerator();
                     var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0009_ip = 91; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 94; continue _fun0009 }
 case 30:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -1007,10 +1025,10 @@ case 30:
                     SaveGenerator(address=88);
 case 31:
                     return var2;
-case 92:
+case 95:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0009_ip = 93; continue _fun0009 }
-case 94:
+                    if(var5) { _fun0009_ip = 96; continue _fun0009 }
+case 97:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var5 = 5;
@@ -1031,16 +1049,16 @@ case 94:
                     var4['room'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
-case 93:
+case 96:
                     return var2;
-case 91:
+case 94:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot18 = var4;
+        _closure1_slot19 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1048,42 +1066,42 @@ case 91:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
-    var6 = {};
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var7 = {};
     var1 = true;
-    var6['value'] = var1;
+    var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var6);
+    var1 = var11.bind(var12)(var3, var1, var7);
     var1 = 0;
-    var6 = var8[var1];
+    var7 = var9[var1];
     var1 = undefined;
-    var6 = var9.bind(var1)(var6);
-    var _closure1_slot3 = var6;
-    var6 = 1;
-    var6 = var8[var6];
-    var6 = var9.bind(var1)(var6);
-    var _closure1_slot4 = var6;
-    var6 = 2;
-    var6 = var8[var6];
-    var6 = var9.bind(var1)(var6);
-    var _closure1_slot5 = var6;
-    var6 = 3;
-    var6 = var8[var6];
-    var6 = var7.bind(var1)(var6);
-    var6 = var6.Endpoints;
-    var _closure1_slot6 = var6;
-    var6 = {'x': 0, 'y': 0};
-    var _closure1_slot7 = var6;
-    var6 = 11;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/guild_rooms/GuildRoomActionCreators.shared.tsx';
-    var6 = var7.bind(var8)(var6);
-    var6 = function guildRoomConnect() {
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot4 = var7;
+    var7 = 2;
+    var7 = var9[var7];
+    var7 = var10.bind(var1)(var7);
+    var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var9[var7];
+    var7 = var8.bind(var1)(var7);
+    var7 = var7.Endpoints;
+    var _closure1_slot6 = var7;
+    var7 = {'x': 0, 'y': 0};
+    var _closure1_slot7 = var7;
+    var7 = 11;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/guild_rooms/GuildRoomActionCreators.shared.tsx';
+    var7 = var8.bind(var9)(var7);
+    var7 = function guildRoomConnect() {
         var1 = undefined;
         var4 = _closure1_slot8;
         var3 = var4.apply;
@@ -1093,8 +1111,8 @@ case 91:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['guildRoomConnect'] = var6;
-    var6 = function guildRoomDisconnect() {
+    var3['guildRoomConnect'] = var7;
+    var7 = function guildRoomDisconnect() {
         var1 = undefined;
         var4 = _closure1_slot9;
         var3 = var4.apply;
@@ -1104,8 +1122,8 @@ case 91:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['guildRoomDisconnect'] = var6;
-    var6 = function guildRoomUpdate() {
+    var3['guildRoomDisconnect'] = var7;
+    var7 = function guildRoomUpdate() {
         var1 = undefined;
         var4 = _closure1_slot10;
         var3 = var4.apply;
@@ -1115,8 +1133,8 @@ case 91:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['guildRoomUpdate'] = var6;
-    var6 = function selectGuildRoomLocalPosition(arg1) {
+    var3['guildRoomUpdate'] = var7;
+    var7 = function selectGuildRoomLocalPosition(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 6;
@@ -1132,8 +1150,8 @@ case 91:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['selectGuildRoomLocalPosition'] = var6;
-    var6 = function guildRoomToggleLayout(arg1, arg2) {
+    var3['selectGuildRoomLocalPosition'] = var7;
+    var7 = function guildRoomToggleLayout(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 6;
@@ -1151,9 +1169,9 @@ case 91:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['guildRoomToggleLayout'] = var6;
-    var3['guildRoomObjectCreate'] = var5;
-    var5 = function guildRoomObjectUpdate() {
+    var3['guildRoomToggleLayout'] = var7;
+    var3['guildRoomObjectCreate'] = var6;
+    var6 = function guildRoomObjectUpdate() {
         var1 = undefined;
         var4 = _closure1_slot13;
         var3 = var4.apply;
@@ -1163,9 +1181,9 @@ case 91:
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['guildRoomObjectUpdate'] = var5;
-    var3['guildRoomObjectDelete'] = var4;
-    var4 = function createPendingGuildRoomNote(arg1, arg2) {
+    var3['guildRoomObjectUpdate'] = var6;
+    var3['guildRoomObjectDelete'] = var5;
+    var5 = function startPendingGuildRoomNote(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 6;
@@ -1174,36 +1192,37 @@ case 91:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'GUILD_ROOM_PENDING_NOTE_CREATE';
+        var5 = 'GUILD_ROOM_PENDING_NOTE_START';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['roomId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['startPendingGuildRoomNote'] = var5;
+    var5 = function placePendingGuildRoomNote(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'GUILD_ROOM_PENDING_NOTE_PLACE';
         var2['type'] = var5;
         var5 = arg1;
         var2['roomId'] = var5;
         var5 = arg2;
-        var2['note'] = var5;
+        var2['position'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['createPendingGuildRoomNote'] = var4;
-    var4 = function deletePendingGuildRoomNote(arg1) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'GUILD_ROOM_PENDING_NOTE_DELETE';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['roomId'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
+    var3['placePendingGuildRoomNote'] = var5;
     var3['deletePendingGuildRoomNote'] = var4;
     var4 = function createGuildRoomNote() {
         var1 = undefined;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1214,7 +1233,7 @@ case 91:
     var3['createGuildRoomNote'] = var4;
     var4 = function deleteGuildRoomNote() {
         var1 = undefined;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot18;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1225,7 +1244,7 @@ case 91:
     var3['deleteGuildRoomNote'] = var4;
     var2 = function fetchGuildRoom() {
         var1 = undefined;
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot19;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

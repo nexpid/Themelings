@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.FractionalPremiumStates;
     var _closure1_slot5 = var4;
-    var4 = 5;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -81,34 +81,43 @@ case 2:
             var5 = new Array(1);
             var5[0] = var8;
             var1 = function() {
-                var1 = global;
-                var3 = var1.Object;
-                var2 = var3.values;
-                var1 = _closure1_slot4;
-                var1 = var1.boostSlots;
-                var3 = var2.bind(var3)(var1);
-                var2 = var3.some;
-                var1 = function(arg1) {
-                    var2 = arg1;
-                    var1 = var2.isAvailable;
-                    var1 = var1.bind(var2)();
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var1 = _closure1_slot4;
+                    var1 = var1.hasFetched;
+                    var3 = !var1;
+                    var1 = !var3;
+                    if(var3) { _fun0003_ip = 4; continue _fun0003 }
+case 5:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 5;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var4 = var5.bind(var3)(var4);
+                    var3 = var4.getAvailableGuildBoostSlots;
+                    var2 = _closure1_slot4;
+                    var2 = var2.boostSlots;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = var2.length;
+                    var2 = 0;
+                    var1 = var3 > var2;
+case 4:
                     return var1;
-                };
-                var1 = var2.bind(var3)(var1);
-                return var1;
+                }
             };
             var1 = var6.bind(var7)(var5, var1);
-            if(var1) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
+            if(var1) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
             var2 = _closure1_slot5;
             var2 = var2.NONE;
             var2 = var4 === var2;
-            if(!var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
+            if(!var2) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var2 = !var3;
-case 6:
+case 8:
             var1 = var2;
-case 4:
+case 6:
             return var1;
         }
     };

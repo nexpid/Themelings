@@ -1,4 +1,4 @@
-// app/modules/main_tabs_v2/native/tabs/you/YouNavigator.tsx
+// app/modules/main_tabs_v2/native/tabs/you/YouScreenContainer.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var12 = metroImportDefault;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var9)(var4);
     var _closure1_slot6 = var4;
     var4 = var7.memo;
-    var2 = function YouNavigator(arg1) {
+    var2 = function YouScreenContainer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
@@ -207,7 +207,7 @@ case 7:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/main_tabs_v2/native/tabs/you/YouNavigator.tsx';
+    var4 = 'modules/main_tabs_v2/native/tabs/you/YouScreenContainer.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

@@ -106,7 +106,7 @@ case 10:
             var7 = var1[var5];
             var8 = var14.bind(var4)(var7);
             var7 = var8.useAnimatedStyle;
-            var3 = function T() {
+            var3 = function I() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -233,7 +233,7 @@ case 10:
     var7 = 'function ModalStepIndicatorNativeTsx1(){const{interpolate,sharedValue,WIDTH_INACTIVE,WIDTH_ACTIVE,interpolateColor,inactiveColor,activeColor,inactiveOpacity}=this.__closure;return{width:interpolate(sharedValue.get(),[0,1],[WIDTH_INACTIVE,WIDTH_ACTIVE]),backgroundColor:interpolateColor(sharedValue.get(),[0,1],[inactiveColor,activeColor]),opacity:interpolate(sharedValue.get(),[0,1],[inactiveOpacity,1])};}';
     var4['code'] = var7;
     var _closure1_slot8 = var4;
-    var4 = 8;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -244,38 +244,81 @@ case 10:
 case 0:
             var1 = arg1;
             var10 = var1.currentStep;
-            var9 = var1.totalSteps;
-            var8 = var1.activeColor;
-            var7 = var1.inactiveColor;
-            var3 = var1.inactiveOpacity;
+            var11 = var1.totalSteps;
+            var9 = var1.activeColor;
+            var8 = var1.inactiveColor;
+            var6 = var1.inactiveOpacity;
             var2 = _closure1_slot7;
             var4 = undefined;
-            var6 = var2.bind(var4)();
-            var5 = new Array(0);
+            var5 = var2.bind(var4)();
             var2 = 0;
-            var11 = var2 < var9;
-            if(!var11) { _fun0003_ip = 12; continue _fun0003 }
+            if(!(!(var11 <= var2))) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-            var12 = var5.push;
-            var14 = _closure1_slot5;
-            var13 = _closure1_slot9;
-            var11 = {};
-            var15 = var2 === var10;
-            var11['isActive'] = var15;
-            var11['activeColor'] = var8;
-            var11['inactiveColor'] = var7;
-            var11['inactiveOpacity'] = var3;
-            var11 = var14.bind(var4)(var13, var11, var2);
-            var11 = var12.bind(var5)(var11);
-            var2 = var2 + 1;
-            if(var2 < var9) { _fun0003_ip = 13; continue _fun0003 }
+            var7 = new Array(0);
+            var12 = var2 < var11;
+            var3 = 0;
+            if(!var12) { _fun0003_ip = 14; continue _fun0003 }
+case 15:
+            var13 = var7.push;
+            var15 = _closure1_slot5;
+            var14 = _closure1_slot9;
+            var12 = {};
+            var16 = var3 === var10;
+            var12['isActive'] = var16;
+            var12['activeColor'] = var9;
+            var12['inactiveColor'] = var8;
+            var12['inactiveOpacity'] = var6;
+            var12 = var15.bind(var4)(var14, var12, var3);
+            var12 = var13.bind(var7)(var12);
+            var3 = var3 + 1;
+            if(var3 < var11) { _fun0003_ip = 15; continue _fun0003 }
+case 14:
+            if(!(!(var10 < var2))) { _fun0003_ip = 16; continue _fun0003 }
+case 17:
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 8;
+            var2 = var9[var2];
+            var2 = var3.bind(var4)(var2);
+            var6 = var2.intl;
+            var3 = var6.string;
+            var8 = _closure1_slot1;
+            var2 = 9;
+            var2 = var9[var2];
+            var2 = var8.bind(var4)(var2);
+            var2 = var2.KUwsC0;
+            var8 = var3.bind(var6)(var2);
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot4;
+            var2 = {'accessible': true, 'accessibilityRole': 'progressbar', 'accessibilityLabel': null, 'accessibilityValue': null, 'importantForAccessibility': 'yes'};
+            var2['accessibilityLabel'] = var8;
+            var8 = {};
+            var9 = 1;
+            var8['min'] = var9;
+            var8['max'] = var11;
+            var9 = var10 + var9;
+            var8['now'] = var9;
+            var2['accessibilityValue'] = var8;
+            var8 = var5.container;
+            var2['style'] = var8;
+            var2['children'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
+case 16:
+            var6 = _closure1_slot5;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var8 = var5.container;
+            var2['style'] = var8;
+            var2['children'] = var7;
+            var2 = var6.bind(var4)(var3, var2);
+            return var2;
 case 12:
             var3 = _closure1_slot5;
             var2 = _closure1_slot4;
             var1 = {};
-            var6 = var6.container;
-            var1['style'] = var6;
-            var1['children'] = var5;
+            var5 = var5.container;
+            var1['style'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

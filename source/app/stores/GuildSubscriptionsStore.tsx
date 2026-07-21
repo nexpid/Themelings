@@ -1139,6 +1139,17 @@ case 87:
         return var1;
     };
     var2['CHANNEL_PRELOAD'] = var10;
+    var10 = function handleOverlayTextChatSelectChannel(arg1) {
+        var1 = arg1;
+        var4 = var1.guildId;
+        var3 = var1.channelId;
+        var2 = _closure1_slot31;
+        var1 = undefined;
+        var1 = var2.bind(var1)(var4, var3);
+        var1 = false;
+        return var1;
+    };
+    var2['OVERLAY_TEXT_CHAT_SELECT_CHANNEL'] = var10;
     var10 = function handleInboxOpen(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:

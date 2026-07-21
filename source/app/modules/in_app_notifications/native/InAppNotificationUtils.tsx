@@ -268,7 +268,7 @@ case 19:
     var _closure1_slot8 = var8;
     var5 = var5.MessageFlags;
     var _closure1_slot9 = var5;
-    var5 = 7;
+    var5 = 8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -350,6 +350,26 @@ case 53:
         return var1;
     };
     var3['generateInAppNotificationId'] = var5;
+    var5 = function getMessagePreviewTextVariant() {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+case 0:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 5;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var1 = var2.isIOS;
+            var2 = var1.bind(var2)();
+            var1 = 'text-md/medium';
+            if(!var2) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
+            var1 = 'text-md/normal';
+case 61:
+            return var1;
+        }
+    };
+    var3['getMessagePreviewTextVariant'] = var5;
     var5 = function useHasPreviewableMedia(arg1) {
         var5 = arg1;
         var _closure2_slot0 = var5;
@@ -358,23 +378,23 @@ case 53:
         var2 = new Array(1);
         var2[0] = var5;
         var1 = function() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var4 = _closure1_slot10;
                 var1 = _closure2_slot0;
                 var5 = undefined;
                 var1 = var4.bind(var5)(var1);
-                if(var1) { _fun0005_ip = 61; continue _fun0005 }
-case 62:
+                if(var1) { _fun0006_ip = 63; continue _fun0006 }
+case 64:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 5;
+                var2 = 6;
                 var2 = var6[var2];
                 var4 = var4.bind(var5)(var2);
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var5)(var2);
-                if(!var2) { _fun0005_ip = 63; continue _fun0005 }
-case 64:
+                if(!var2) { _fun0006_ip = 65; continue _fun0006 }
+case 66:
                 var3 = _closure2_slot0;
                 var5 = var3.messageSnapshots;
                 var4 = var5.some;
@@ -387,9 +407,9 @@ case 64:
                     return var1;
                 };
                 var2 = var4.bind(var5)(var3);
-case 63:
+case 65:
                 var1 = var2;
-case 61:
+case 63:
                 return var1;
             }
         };
@@ -408,7 +428,7 @@ case 61:
         var6 = var3.messageId;
         var4 = _closure1_slot1;
         var5 = _closure1_slot2;
-        var3 = 6;
+        var3 = 7;
         var3 = var5[var3];
         var5 = var4.bind(var1)(var3);
         var4 = var5.trackWithMetadata;
@@ -438,7 +458,7 @@ case 61:
         var6 = var1.messageId;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);

@@ -93,18 +93,17 @@ case 4:
     var _closure1_slot11 = var4;
     var4 = 9;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.PremiumTypes;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot12 = var4;
     var4 = 10;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.EntitlementTypes;
+    var4 = var4.PremiumTypes;
     var _closure1_slot13 = var4;
     var4 = 11;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.SubscriptionTypes;
+    var4 = var4.EntitlementTypes;
     var _closure1_slot14 = var4;
     var4 = 15;
     var4 = var6[var4];
@@ -154,10 +153,6 @@ case 8:
                 var5 = var6.bind;
                 var5 = var5.bind(var6)(var1);
                 var3['EXPERIMENTS_FETCH_SUCCESS'] = var5;
-                var6 = var1.onSubscriptionUpdated;
-                var5 = var6.bind;
-                var5 = var5.bind(var6)(var1);
-                var3['BILLING_SUBSCRIPTION_UPDATE_SUCCESS'] = var5;
                 var6 = var1.onMobilePurchaseSuccess;
                 var5 = var6.bind;
                 var5 = var5.bind(var6)(var1);
@@ -195,8 +190,24 @@ case 8:
                 var8 = var1.onLocaleChanged;
                 var3 = var8.bind;
                 var3 = var3.bind(var8)(var1);
+                var7 = var6.bind(var7)(var5, var3);
+                var6 = var7.set;
+                var5 = _closure1_slot11;
+                var8 = var1.onSubscriptionStateChanged;
+                var3 = var8.bind;
+                var3 = var3.bind(var8)(var1);
+                var7 = var6.bind(var7)(var5, var3);
+                var6 = var7.set;
+                var5 = _closure1_slot12;
+                var8 = var1.onPromotionsFetchSettled;
+                var3 = var8.bind;
+                var3 = var3.bind(var8)(var1);
                 var3 = var6.bind(var7)(var5, var3);
                 var1['stores'] = var3;
+                var3 = null;
+                var1['lastSubscriptionStateSignature'] = var3;
+                var3 = false;
+                var1['hasPendingSubscriptionRefetch'] = var3;
                 var3 = _closure1_slot3;
                 var2 = function* () {
                     var1 = function* anon_0_() {
@@ -216,7 +227,7 @@ case 10:
                             var2 = undefined;
                             var6 = var5.bind(var2)(var4);
                             var5 = var6.isPremiumExactly;
-                            var4 = _closure1_slot12;
+                            var4 = _closure1_slot13;
                             var4 = var4.TIER_2;
                             var4 = var5.bind(var6)(var7, var4);
                             if(var4) { _fun0003_ip = 11; continue _fun0003 }
@@ -256,18 +267,33 @@ case 9:
         var1 = var2.bind(var3)(var4, var1);
         var2 = _closure1_slot5;
         var5 = {};
-        var1 = 'onLocaleChanged';
+        var1 = '_terminate';
         var5['key'] = var1;
         var1 = function value() {
+            var2 = this;
+            var1 = false;
+            var2['hasPendingSubscriptionRefetch'] = var1;
+            var1 = null;
+            var2['lastSubscriptionStateSignature'] = var1;
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var1;
+        var1 = new Array(8);
+        var1[0] = var5;
+        var5 = {};
+        var8 = 'onLocaleChanged';
+        var5['key'] = var8;
+        var8 = function value() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot12;
                 var3 = var2.lastFetchedActivePromotions;
                 var2 = null;
                 var2 = var2 != var3;
                 if(!var2) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
-                var3 = _closure1_slot11;
+                var3 = _closure1_slot12;
                 var4 = var3.lastFetchedActivePromotionsLocale;
                 var3 = _closure1_slot9;
                 var3 = var3.locale;
@@ -289,9 +315,8 @@ case 18:
                 return var1;
             }
         };
-        var5['value'] = var1;
-        var1 = new Array(6);
-        var1[0] = var5;
+        var5['value'] = var8;
+        var1[1] = var5;
         var5 = {};
         var8 = 'onPostConnectionOpen';
         var5['key'] = var8;
@@ -344,36 +369,134 @@ case 7:
             return var1;
         };
         var5['value'] = var7;
-        var1[1] = var5;
+        var1[2] = var5;
         var5 = {};
-        var7 = 'onSubscriptionUpdated';
+        var7 = 'onSubscriptionStateChanged';
         var5['key'] = var7;
-        var7 = function value(arg1) {
+        var7 = function value() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-                var1 = arg1;
-                var1 = var1.subscription;
-                var3 = var1.type;
-                var2 = _closure1_slot14;
-                var2 = var2.PREMIUM;
-                if(!(var3 === var2)) { _fun0006_ip = 25; continue _fun0006 }
+                var3 = this;
+                var2 = function getSubscriptionStateSignature() {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+case 0:
+                        var3 = _closure1_slot11;
+                        var2 = var3.getSubscriptions;
+                        var1 = false;
+                        var4 = var2.bind(var3)(var1);
+                        var1 = null;
+                        var2 = var1 == var4;
+                        var1 = '';
+                        if(var2) { _fun0007_ip = 25; continue _fun0007 }
 case 26:
-                var3 = _closure1_slot0;
+                        var2 = global;
+                        var3 = var2.Object;
+                        var2 = var3.values;
+                        var4 = var2.bind(var3)(var4);
+                        var3 = var4.map;
+                        var2 = function(arg1) {
+                            var1 = arg1;
+                            var4 = var1.items;
+                            var3 = var4.map;
+                            var2 = function(arg1) {
+                                var1 = arg1;
+                                var1 = var1.planId;
+                                return var1;
+                            };
+                            var3 = var3.bind(var4)(var2);
+                            var2 = var3.sort;
+                            var4 = var2.bind(var3)();
+                            var3 = var4.join;
+                            var2 = '|';
+                            var8 = var3.bind(var4)(var2);
+                            var14 = var1.id;
+                            var12 = var1.type;
+                            var10 = var1.status;
+                            var1 = global;
+                            var1 = var1.HermesInternal;
+                            var3 = var1.concat;
+                            var15 = '';
+                            var1 = ':';
+                            var13 = var1;
+                            var11 = var1;
+                            var9 = var1;
+                            var1 = var15[var3](var14, var13, var12, var11, var10, var9, var8, var7);
+                            return var1;
+                        };
+                        var3 = var3.bind(var4)(var2);
+                        var2 = var3.sort;
+                        var4 = var2.bind(var3)();
+                        var3 = var4.join;
+                        var2 = ',';
+                        var1 = var3.bind(var4)(var2);
+case 25:
+                        return var1;
+                    }
+                };
+                var1 = undefined;
+                var2 = var2.bind(var1)();
+                var4 = var3.lastSubscriptionStateSignature;
+                if(!(var2 !== var4)) { _fun0006_ip = 27; continue _fun0006 }
+case 28:
+                var3['lastSubscriptionStateSignature'] = var2;
+                var4 = _closure1_slot12;
+                var5 = var4.lastFetchedActivePromotions;
+                var4 = null;
+                if(!(var4 != var5)) { _fun0006_ip = 27; continue _fun0006 }
+case 29:
+                var4 = _closure1_slot12;
+                var4 = var4.isFetchingActivePromotions;
+                if(var4) { _fun0006_ip = 30; continue _fun0006 }
+case 31:
+                var4 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var2 = 14;
+                var2 = var5[var2];
+                var5 = var4.bind(var1)(var2);
+                var4 = var5.maybeFetchActivePromotions;
+                var2 = false;
+                var2 = var4.bind(var5)(var2);
+                _fun0006_ip = 27; continue _fun0006;
+case 30:
+                var2 = true;
+                var3['hasPendingSubscriptionRefetch'] = var2;
+case 27:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[3] = var5;
+        var5 = {};
+        var7 = 'onPromotionsFetchSettled';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+case 0:
+                var2 = this;
+                var1 = var2.hasPendingSubscriptionRefetch;
+                if(!var1) { _fun0008_ip = 32; continue _fun0008 }
+case 33:
+                var3 = _closure1_slot12;
+                var3 = var3.isFetchingActivePromotions;
+                if(var3) { _fun0008_ip = 32; continue _fun0008 }
+case 28:
+                var3 = false;
+                var2['hasPendingSubscriptionRefetch'] = var3;
+                var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 14;
                 var2 = var2[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.maybeFetchActivePromotions;
-                var1 = false;
-                var1 = var2.bind(var3)(var1);
-case 25:
+                var2 = var4.bind(var1)(var2);
+                var1 = var2.maybeFetchActivePromotions;
+                var1 = var1.bind(var2)(var3);
+case 32:
                 var1 = undefined;
                 return var1;
             }
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'onMobilePurchaseSuccess';
         var5['key'] = var7;
@@ -390,7 +513,7 @@ case 25:
             return var1;
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'onOfferUpdated';
         var5['key'] = var7;
@@ -407,12 +530,12 @@ case 25:
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'onVCRedeemed';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
                 var1 = arg1;
                 var3 = var1.entitlements;
@@ -420,14 +543,14 @@ case 0:
                 var1 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.type;
-                    var1 = _closure1_slot13;
+                    var1 = _closure1_slot14;
                     var1 = var1.FRACTIONAL_REDEMPTION;
                     var1 = var2 === var1;
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
-                if(!var1) { _fun0007_ip = 12; continue _fun0007 }
-case 27:
+                if(!var1) { _fun0009_ip = 12; continue _fun0009 }
+case 34:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 14;
@@ -443,7 +566,7 @@ case 12:
             }
         };
         var5['value'] = var6;
-        var1[5] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

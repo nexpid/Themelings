@@ -565,7 +565,7 @@ case 47:
         var11 = var11.GLOBAL_ENV;
         var11 = var11.RELEASE_CHANNEL;
         var15 = var13.parseInt;
-        var14 = '6028';
+        var14 = '6039';
         var11 = 10;
         var11 = var15.bind(var1)(var14, var11);
         var14 = var13.isNaN;

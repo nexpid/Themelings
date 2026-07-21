@@ -296,6 +296,7 @@ case 16:
             var7['messages'] = var11;
             var7['jumpTargetId'] = var10;
             var7['initialScrollToTop'] = var9;
+            var7['allowReactions'] = var9;
             var7 = var5.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);

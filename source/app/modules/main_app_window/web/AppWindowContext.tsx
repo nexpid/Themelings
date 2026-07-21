@@ -380,7 +380,7 @@ case 18:
         return var1;
     };
     var3['useAppContext'] = var4;
-    var2 = function useWindowDispatch() {
+    var4 = function useWindowDispatch() {
         var3 = _closure1_slot3;
         var2 = var3.useContext;
         var1 = _closure1_slot5;
@@ -388,6 +388,15 @@ case 18:
         var1 = var1.windowDispatch;
         return var1;
     };
-    var3['useWindowDispatch'] = var2;
+    var3['useWindowDispatch'] = var4;
+    var2 = function useRenderWindow() {
+        var3 = _closure1_slot3;
+        var2 = var3.useContext;
+        var1 = _closure1_slot5;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.renderWindow;
+        return var1;
+    };
+    var3['useRenderWindow'] = var2;
     return var1;
 })();

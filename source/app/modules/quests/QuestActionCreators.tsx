@@ -4400,9 +4400,8 @@ case 99:
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var5 = 'QUESTS_FETCH_QUEST_TO_DELIVER_SUCCESS';
+        var5 = 'QUESTS_CLEAR_EXPIRED_QUEST_TO_DELIVER';
         var2['type'] = var5;
-        var2['quest'] = var1;
         var5 = arg1;
         var2['placement'] = var5;
         var5 = global;
@@ -4414,8 +4413,6 @@ case 99:
         var5 = 1000;
         var5 = var6 / var5;
         var2['responseTtlSeconds'] = var5;
-        var5 = true;
-        var2['fromExpirationClear'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };

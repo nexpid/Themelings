@@ -38,13 +38,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -82,7 +82,11 @@ case 4:
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 8;
+    var4 = 7;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 9;
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.Store;
@@ -99,7 +103,7 @@ case 0:
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
@@ -452,7 +456,7 @@ case 8:
     var9 = var4.bind(var1)(var8);
     var4 = 'RunningGameStore';
     var9['displayName'] = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var7[var4];
     var12 = var5.bind(var1)(var4);
     var4 = var9.prototype;
@@ -461,7 +465,7 @@ case 8:
     var13 = var5;
     var4 = new var13[var9](var12, var11, var10);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 10;
+    var5 = 11;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -480,16 +484,18 @@ case 0:
             var4 = undefined;
             if(!(var1 === var4)) { _fun0003_ip = 9; continue _fun0003 }
 case 10:
-            var3 = _closure1_slot7;
-            var2 = new Array(2);
+            var3 = _closure1_slot8;
+            var2 = new Array(3);
             var2[0] = var3;
-            var1 = _closure1_slot8;
-            var2[1] = var1;
+            var3 = _closure1_slot9;
+            var2[1] = var3;
+            var1 = _closure1_slot7;
+            var2[2] = var1;
 case 9:
             var1 = {'source': null, 'enabledOOP': false, 'enabledLegacy': false, 'overlayMethod': null, 'reason': 'Dummy implementation'};
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 7;
+            var2 = 8;
             var6 = var5[var2];
             var6 = var3.bind(var4)(var6);
             var6 = var6.OverlayGameStatusSource;

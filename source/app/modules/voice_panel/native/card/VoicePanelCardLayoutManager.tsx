@@ -583,58 +583,58 @@ case 39:
         var6 = function value(arg1, arg2) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-                var3 = arg1;
-                var4 = arg2;
+                var1 = arg1;
+                var3 = arg2;
                 var2 = this;
-                var1 = var4.windowWidth;
-                var8 = var4.windowHeight;
-                var13 = var4.safeAreaLeft;
-                var12 = var4.safeAreaRight;
-                var6 = var4.safeAreaTop;
-                var10 = var4.safeAreaBottom;
-                var5 = var4.controlBarSize;
-                var4 = {};
-                var4['windowHeight'] = var8;
-                var4['windowWidth'] = var1;
+                var4 = var3.windowWidth;
+                var8 = var3.windowHeight;
+                var13 = var3.safeAreaLeft;
+                var12 = var3.safeAreaRight;
+                var6 = var3.safeAreaTop;
+                var10 = var3.safeAreaBottom;
+                var5 = var3.controlBarSize;
+                var3 = {};
+                var3['windowHeight'] = var8;
+                var3['windowWidth'] = var4;
                 var7 = _closure1_slot13;
                 var7 = var8 / var7;
-                var4['chunkSize'] = var7;
+                var3['chunkSize'] = var7;
                 var7 = global;
                 var11 = var7.Math;
                 var8 = var11.max;
                 var9 = _closure1_slot14;
                 var8 = var8.bind(var11)(var13, var9);
-                var4['safeAreaLeft'] = var8;
+                var3['safeAreaLeft'] = var8;
                 var11 = var7.Math;
                 var8 = var11.max;
                 var8 = var8.bind(var11)(var12, var9);
-                var4['safeAreaRight'] = var8;
+                var3['safeAreaRight'] = var8;
                 var8 = var7.Math;
                 var7 = var8.max;
                 var7 = var7.bind(var8)(var10, var9);
-                var4['safeAreaBottom'] = var7;
-                var4['safeAreaTop'] = var6;
+                var3['safeAreaBottom'] = var7;
+                var3['safeAreaTop'] = var6;
                 var6 = _closure1_slot15;
-                var4['gutter'] = var6;
-                var4['controlBarSize'] = var5;
-                var6 = _closure1_slot1;
-                var5 = _closure1_slot2;
-                var1 = 11;
-                var5 = var5[var1];
-                var1 = undefined;
-                var6 = var6.bind(var1)(var5);
-                var5 = var2.props;
-                var5 = var6.bind(var1)(var4, var5);
-                if(var5) { _fun0009_ip = 70; continue _fun0009 }
+                var3['gutter'] = var6;
+                var3['controlBarSize'] = var5;
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var4 = 11;
+                var4 = var6[var4];
+                var6 = undefined;
+                var5 = var5.bind(var6)(var4);
+                var4 = var2.props;
+                var4 = var5.bind(var6)(var3, var4);
+                if(var4) { _fun0009_ip = 70; continue _fun0009 }
 case 71:
-                var2['props'] = var4;
-                var5 = var2.setDirty;
-                var4 = true;
-                var4 = var5.bind(var2)(var4);
+                var2['props'] = var3;
+                var4 = var2.setDirty;
+                var3 = true;
+                var3 = var4.bind(var2)(var3);
 case 70:
-                var5 = var2.setDirty;
-                var6 = var2.items;
-                var4 = function areArraysShallowEqual(arg1, arg2) {
+                var4 = var2.setDirty;
+                var5 = var2.items;
+                var3 = function areArraysShallowEqual(arg1, arg2) {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                         var4 = arg1;
@@ -660,10 +660,12 @@ case 72:
                         return var1;
                     }
                 };
-                var4 = var4.bind(var1)(var3, var6);
-                var4 = !var4;
-                var4 = var5.bind(var2)(var4);
-                var2['items'] = var3;
+                var3 = var3.bind(var6)(var1, var5);
+                var3 = !var3;
+                var3 = var4.bind(var2)(var3);
+                var2['items'] = var1;
+                var1 = var2.getContentDimensions;
+                var1 = var1.bind(var2)();
                 return var1;
             }
         };

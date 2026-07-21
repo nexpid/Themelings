@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var11[var5];
         var5 = var10.bind(var3)(var5);
         var6 = var5.Text;
-        var5 = {'variant': 'text-md/medium', 'color': 'text-default'};
+        var5 = {'variant': 'text-md/medium', 'color': 'text-default', 'lineClamp': 1};
         var7 = 4;
         var8 = var11[var7];
         var8 = var10.bind(var3)(var8);

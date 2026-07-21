@@ -29,54 +29,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function createChangeChannelNameSystemMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var4 = arg1;
-            var13 = var4.message;
-            var8 = var4.theme;
-            var6 = var4.roleStyle;
-            var5 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var1 = 1;
-            var1 = var7[var1];
-            var3 = undefined;
-            var1 = var5.bind(var3)(var1);
-            var15 = var1.bind(var3)(var8);
-            var8 = _closure1_slot0;
+            var2 = arg1;
+            var15 = var2.message;
+            var7 = var2.theme;
+            var4 = var2.roleStyle;
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var6 = 1;
+            var1 = var5[var6];
+            var10 = undefined;
+            var1 = var3.bind(var10)(var1);
+            var17 = var1.bind(var10)(var7);
+            var7 = _closure1_slot0;
             var1 = 2;
-            var1 = var7[var1];
-            var8 = var8.bind(var3)(var1);
-            var1 = var8.getMessageAuthorWithProcessedColor;
-            var16 = var1.bind(var8)(var13);
+            var1 = var5[var1];
+            var7 = var7.bind(var10)(var1);
+            var1 = var7.getMessageAuthorWithProcessedColor;
+            var16 = var1.bind(var7)(var15);
             var1 = 3;
-            var1 = var7[var1];
-            var5 = var5.bind(var3)(var1);
+            var1 = var5[var1];
+            var3 = var3.bind(var10)(var1);
             var1 = {};
-            var1['message'] = var13;
+            var1['message'] = var15;
             var1['author'] = var16;
-            var1['roleStyle'] = var6;
-            var12 = var5.bind(var3)(var1);
-            var6 = _closure1_slot3;
-            var5 = var6.getChannel;
-            var1 = var13.channel_id;
-            var6 = var5.bind(var6)(var1);
-            var14 = null;
-            var5 = var14 == var6;
+            var1['roleStyle'] = var4;
+            var14 = var3.bind(var10)(var1);
+            var4 = _closure1_slot3;
+            var3 = var4.getChannel;
+            var1 = var15.channel_id;
+            var5 = var3.bind(var4)(var1);
+            var4 = null;
+            var3 = var4 == var5;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var5 = var6.isGroupDM;
-            var5 = var14 == var5;
+            var3 = var5.isGroupDM;
+            var3 = var4 == var3;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+            if(var3) { _fun0001_ip = 2; continue _fun0001 }
 case 4:
-            var5 = var6.isGroupDM;
-            var1 = var5.bind(var6)();
+            var3 = var5.isGroupDM;
+            var1 = var3.bind(var5)();
 case 2:
-            var6 = var14 != var1;
-            if(!var6) { _fun0001_ip = 5; continue _fun0001 }
+            var3 = var4 != var1;
+            if(!var3) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var6 = var1;
+            var3 = var1;
 case 5:
-            var5 = var13.content;
+            var5 = var15.content;
             var1 = '';
             if(!(var1 !== var5)) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
@@ -84,112 +84,123 @@ case 8:
             var7 = _closure1_slot2;
             var1 = 4;
             var1 = var7[var1];
-            var1 = var5.bind(var3)(var1);
+            var1 = var5.bind(var10)(var1);
             var1 = var1.t;
-            var11 = var1.rk0be9;
+            var13 = var1.rk0be9;
             _fun0001_ip = 9; continue _fun0001;
 case 7:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 4;
             var1 = var7[var1];
-            var1 = var5.bind(var3)(var1);
+            var1 = var5.bind(var10)(var1);
             var1 = var1.t;
-            var11 = var1.hToFyf;
+            var13 = var1.hToFyf;
 case 9:
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 5;
+            var1 = var7[var1];
+            var1 = var5.bind(var10)(var1);
+            var5 = var1.bind(var10)(var2);
             var1 = {};
-            var8 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var7 = 4;
-            var5 = var5[var7];
-            var5 = var8.bind(var3)(var5);
-            var10 = var5.intl;
-            var9 = var10.formatToParts;
-            if(var6) { _fun0001_ip = 10; continue _fun0001 }
+            var9 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var8 = 4;
+            var7 = var7[var8];
+            var7 = var9.bind(var10)(var7);
+            var12 = var7.intl;
+            var9 = var12.formatToParts;
+            if(var3) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var8 = var4.isForumPost;
-            var17 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var5 = var5[var7];
-            var5 = var17.bind(var3)(var5);
-            var5 = var5.t;
-            if(var8) { _fun0001_ip = 12; continue _fun0001 }
+            var7 = var2.isForumPost;
+            var18 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var8];
+            var2 = var18.bind(var10)(var2);
+            var2 = var2.t;
+            if(var7) { _fun0001_ip = 12; continue _fun0001 }
 case 13:
-            var8 = var5.XCPMEG;
+            var7 = var2.XCPMEG;
             _fun0001_ip = 14; continue _fun0001;
 case 12:
-            var8 = var5.qa0e/n;
+            var7 = var2.qa0e/n;
 case 14:
-            var5 = {};
-            var17 = var16.nick;
-            var5['username'] = var17;
-            var5['usernameOnClick'] = var12;
-            var17 = var13.content;
-            var5['channelName'] = var17;
-            var5 = var9.bind(var10)(var8, var5);
+            var2 = {};
+            var18 = var16.nick;
+            var2['username'] = var18;
+            var2['usernameOnClick'] = var14;
+            var18 = var15.content;
+            var2['channelName'] = var18;
+            var2 = var9.bind(var12)(var7, var2);
             _fun0001_ip = 15; continue _fun0001;
 case 10:
-            var8 = {};
+            var7 = {};
             var16 = var16.nick;
-            var8['username'] = var16;
-            var8['usernameOnClick'] = var12;
-            var12 = var13.content;
-            var8['channelName'] = var12;
-            var12 = {};
+            var7['username'] = var16;
+            var7['usernameOnClick'] = var14;
+            var14 = var15.content;
+            var7['channelName'] = var14;
+            var14 = {};
             var16 = 'bindOpenGdmCustomizeActionSheet';
-            var12['action'] = var16;
-            var16 = var14 == var15;
-            var14 = undefined;
-            if(var16) { _fun0001_ip = 16; continue _fun0001 }
+            var14['action'] = var16;
+            var18 = var4 == var17;
+            var16 = undefined;
+            if(var18) { _fun0001_ip = 16; continue _fun0001 }
 case 17:
-            var14 = var15.linkColor;
+            var16 = var17.linkColor;
 case 16:
-            var12['linkColor'] = var14;
-            var13 = var13.channel_id;
-            var12['messageChannelId'] = var13;
-            var8['onEditGroup'] = var12;
-            var5 = var9.bind(var10)(var11, var8);
+            var14['linkColor'] = var16;
+            var15 = var15.channel_id;
+            var14['messageChannelId'] = var15;
+            var7['onEditGroup'] = var14;
+            var2 = var9.bind(var12)(var13, var7);
 case 15:
-            var1['content'] = var5;
-            var5 = undefined;
-            if(!var6) { _fun0001_ip = 18; continue _fun0001 }
+            var1['content'] = var2;
+            var21 = var1;
+            var20 = var5;
+            var2 = copyDataProperties(var21, var20);
+            var2 = undefined;
+            if(!var3) { _fun0001_ip = 18; continue _fun0001 }
 case 19:
-            var6 = {};
-            var8 = {};
+            var3 = {};
+            var7 = var5.accessibilityActions;
+            if(!(var4 == var7)) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var7 = new Array(0);
+case 20:
+            var4 = new Array(1);
+            var19 = 0;
+            var21 = var4;
+            var20 = var7;
+            var5 = arraySpread(var21, var20, var19);
+            var7 = {};
             var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var11 = var10[var7];
-            var11 = var9.bind(var3)(var11);
-            var12 = var11.intl;
-            var11 = var12.string;
-            var7 = var10[var7];
-            var7 = var9.bind(var3)(var7);
-            var7 = var7.t;
-            var7 = var7["5Q9+/L"];
-            var7 = var11.bind(var12)(var7);
-            var8['label'] = var7;
-            var7 = 5;
-            var7 = var10[var7];
-            var7 = var9.bind(var3)(var7);
-            var7 = var7.MessageAccessibilityAction;
-            var7 = var7.EDIT_GDM;
-            var8['name'] = var7;
-            var7 = new Array(1);
-            var7[0] = var8;
-            var6['accessibilityActions'] = var7;
-            var5 = var6;
+            var11 = _closure1_slot2;
+            var12 = var11[var8];
+            var12 = var9.bind(var10)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var8 = var11[var8];
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.t;
+            var8 = var8["5Q9+/L"];
+            var8 = var12.bind(var13)(var8);
+            var7['label'] = var8;
+            var8 = 6;
+            var8 = var11[var8];
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.MessageAccessibilityAction;
+            var8 = var8.EDIT_GDM;
+            var7['name'] = var8;
+            var4[4] = var7;
+            var5 = var5 + var6;
+            var3['accessibilityActions'] = var4;
+            var2 = var3;
 case 18:
-            var19 = var1;
-            var18 = var5;
-            var5 = copyDataProperties(var19, var18);
-            var5 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 6;
-            var2 = var6[var2];
-            var2 = var5.bind(var3)(var2);
-            var18 = var2.bind(var3)(var4);
-            var19 = var1;
-            var2 = copyDataProperties(var19, var18);
+            var21 = var1;
+            var20 = var2;
+            var2 = copyDataProperties(var21, var20);
             return var1;
         }
     };
