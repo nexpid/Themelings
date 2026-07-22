@@ -787,7 +787,7 @@ case 18:
     var _closure1_slot27 = var12;
     var _closure1_slot28 = var9;
     var _closure1_slot29 = var9;
-    var9 = 19;
+    var9 = 20;
     var9 = var6[var9];
     var9 = var8.bind(var1)(var9);
     var12 = var9.Store;
@@ -845,7 +845,7 @@ case 21:
             var3 = var6.bind(var2)(var5, var4, var3);
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 18;
+            var1 = 19;
             var3 = var3[var1];
             var1 = undefined;
             var5 = var4.bind(var1)(var3);
@@ -1972,15 +1972,32 @@ case 0:
             var3 = var3.DEFAULT;
             if(!(var4 === var3)) { _fun0036_ip = 101; continue _fun0036 }
 case 22:
-            var3 = _closure1_slot15;
-            var2 = null;
-            if(!(var2 != var3)) { _fun0036_ip = 42; continue _fun0036 }
-case 28:
-            var2 = var3.setSpatialAudioEnabled;
             var1 = var1.settings;
-            var1 = var1.enabled;
-            var1 = var2.bind(var3)(var1);
-case 42:
+            var4 = var1.enabled;
+            var1 = null;
+            var3 = var1 != var4;
+            if(!var3) { _fun0036_ip = 39; continue _fun0036 }
+case 37:
+            var3 = var4;
+case 39:
+            if(!var3) { _fun0036_ip = 102; continue _fun0036 }
+case 18:
+            var6 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var4 = 18;
+            var5 = var5[var4];
+            var4 = undefined;
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.isSpatialAudioAvailable;
+            var4 = 'RTCConnectionStore';
+            var3 = var5.bind(var6)(var4);
+case 102:
+            var2 = _closure1_slot15;
+            if(!(var1 != var2)) { _fun0036_ip = 103; continue _fun0036 }
+case 49:
+            var1 = var2.setSpatialAudioEnabled;
+            var1 = var1.bind(var2)(var3);
+case 103:
             var1 = undefined;
             return var1;
 case 101:
@@ -2007,29 +2024,29 @@ case 32:
             var3 = var3.guildId;
             var2 = var7 === var3;
 case 97:
-            if(!var2) { _fun0037_ip = 102; continue _fun0037 }
+            if(!var2) { _fun0037_ip = 104; continue _fun0037 }
 case 96:
             var3 = var4.channelId;
             var3 = var6 == var3;
-            if(var3) { _fun0037_ip = 103; continue _fun0037 }
-case 104:
+            if(var3) { _fun0037_ip = 105; continue _fun0037 }
+case 106:
             var7 = var4.channelId;
             var8 = _closure1_slot15;
             var6 = var8.getNextChannelId;
             var6 = var6.bind(var8)();
             var3 = var7 === var6;
-case 103:
-            if(!var3) { _fun0037_ip = 105; continue _fun0037 }
-case 106:
+case 105:
+            if(!var3) { _fun0037_ip = 107; continue _fun0037 }
+case 108:
             var7 = _closure1_slot15;
             var6 = var7.connect;
             var5 = var4.endpoint;
             var4 = var4.token;
             var4 = var6.bind(var7)(var5, var4);
             var3 = undefined;
-case 105:
+case 107:
             var2 = var3;
-case 102:
+case 104:
             var1 = var2;
 case 54:
             return var1;
@@ -2078,17 +2095,17 @@ case 0:
             var3 = var1.channelId;
             var4 = _closure1_slot15;
             var2 = null;
-            if(!(var2 != var4)) { _fun0039_ip = 107; continue _fun0039 }
+            if(!(var2 != var4)) { _fun0039_ip = 109; continue _fun0039 }
 case 7:
             var2 = _closure1_slot15;
             var2 = var2.channelId;
-            if(!(var2 === var3)) { _fun0039_ip = 107; continue _fun0039 }
+            if(!(var2 === var3)) { _fun0039_ip = 109; continue _fun0039 }
 case 23:
             var2 = _closure1_slot33;
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
-case 107:
+case 109:
             var1 = false;
             return var1;
         }
@@ -2102,19 +2119,19 @@ case 0:
             var2 = _closure1_slot12;
             var2 = var2.ACTIVE;
             var2 = var3 === var2;
-            if(!var2) { _fun0040_ip = 108; continue _fun0040 }
+            if(!var2) { _fun0040_ip = 110; continue _fun0040 }
 case 33:
             var4 = _closure1_slot15;
             var3 = null;
             var2 = var3 != var4;
-case 108:
-            if(!var2) { _fun0040_ip = 109; continue _fun0040 }
+case 110:
+            if(!var2) { _fun0040_ip = 111; continue _fun0040 }
 case 31:
             var3 = _closure1_slot15;
             var2 = var3.resetBackoff;
             var1 = 'App state is active';
             var1 = var2.bind(var3)(var1);
-case 109:
+case 111:
             var1 = false;
             return var1;
         }
@@ -2146,10 +2163,10 @@ case 37:
     var2 = new var17[var9](var16, var15, var14);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot30 = var2;
-    var7 = 21;
+    var7 = 22;
     var7 = var6[var7];
     var9 = var5.bind(var1)(var7);
-    var7 = 20;
+    var7 = 21;
     var8 = var6[var7];
     var7 = var6.paths;
     var8 = var9.bind(var1)(var8, var7);
@@ -2171,7 +2188,7 @@ case 37:
         return var1;
     };
     var4 = var7.bind(var8)(var4);
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

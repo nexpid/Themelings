@@ -155,6 +155,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['NOTIFICATIONS_EMAILS'] = var1;
     var1 = 'keybinds';
     var5['KEYBINDS'] = var1;
+    var1 = 'system';
+    var5['SYSTEM'] = var1;
     var1 = 'language';
     var5['LANGUAGE'] = var1;
     var1 = 'windows';

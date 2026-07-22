@@ -85,6 +85,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPaymentSuccess'] = var6;
             var5 = _closure2_slot11;
             var1['onPaymentDismiss'] = var5;
+            var5 = true;
+            var1['isFullScreenPresentation'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };

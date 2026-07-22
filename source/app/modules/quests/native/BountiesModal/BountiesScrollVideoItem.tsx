@@ -11,10 +11,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var40 = var2.bounty;
-            var _closure2_slot0 = var40;
-            var39 = var2.sourceQuestContent;
-            var _closure2_slot1 = var39;
+            var41 = var2.bounty;
+            var _closure2_slot0 = var41;
+            var40 = var2.sourceQuestContent;
+            var _closure2_slot1 = var40;
             var12 = var2.width;
             var _closure2_slot2 = var12;
             var11 = var2.height;
@@ -23,14 +23,14 @@ case 0:
             var19 = var2.isActive;
             var _closure2_slot4 = var19;
             var18 = var2.isRecapPageRevealed;
-            var35 = var2.isRecapPageOnTop;
+            var36 = var2.isRecapPageOnTop;
             var17 = var2.isScrollingInBoundsSharedValue;
             var _closure2_slot5 = var17;
-            var36 = var2.isScrollIndicatorOverlayEnabled;
+            var37 = var2.isScrollIndicatorOverlayEnabled;
             var4 = undefined;
-            if(!(var36 === var4)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var37 === var4)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var36 = false;
+            var37 = false;
 case 2:
             var1 = var2.shouldLoadHls;
             if(!(var1 === var4)) { _fun0001_ip = 4; continue _fun0001 }
@@ -90,16 +90,16 @@ case 6:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var38 = var13.bind(var14)(var3, var2);
-            _closure2_slot6 = var38;
+            var39 = var13.bind(var14)(var3, var2);
+            _closure2_slot6 = var39;
             var3 = _closure1_slot5;
             var2 = var3.useState;
             var3 = var2.bind(var3)(var1);
             var2 = _closure1_slot4;
             var28 = 2;
             var2 = var2.bind(var4)(var3, var28);
-            var30 = 0;
-            var13 = var2[var30];
+            var31 = 0;
+            var13 = var2[var31];
             var27 = 1;
             var2 = var2[var27];
             var14 = _closure1_slot5;
@@ -107,7 +107,7 @@ case 6:
             var14 = var3.bind(var14)(var1);
             var3 = _closure1_slot4;
             var3 = var3.bind(var4)(var14, var28);
-            var14 = var3[var30];
+            var14 = var3[var31];
             var3 = var3[var27];
             if(!(var14 !== var1)) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
@@ -142,28 +142,28 @@ case 8:
 case 12:
             if(var26) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
-            var43 = var3.END_CARD_WITH_CTA;
+            var44 = var3.END_CARD_WITH_CTA;
             _fun0001_ip = 15; continue _fun0001;
 case 13:
-            var43 = var3.END_CARD;
+            var44 = var3.END_CARD;
 case 15:
             _fun0001_ip = 16; continue _fun0001;
 case 11:
-            var43 = var3.LOOP;
+            var44 = var3.LOOP;
 case 16:
             if(var1) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
             if(var26) { _fun0001_ip = 17; continue _fun0001 }
 case 19:
-            var3 = var40.rewardTimerSeconds;
+            var3 = var41.rewardTimerSeconds;
             var1 = 1000;
-            var42 = var1 * var3;
+            var43 = var1 * var3;
             _fun0001_ip = 20; continue _fun0001;
 case 17:
             var1 = 1000;
-            var42 = var1 * var2;
+            var43 = var1 * var2;
 case 20:
-            _closure2_slot8 = var42;
+            _closure2_slot8 = var43;
             var2 = _closure1_slot5;
             var1 = var2.useRef;
             var24 = null;
@@ -256,7 +256,7 @@ case 25:
             var2 = var1.bind(var2)(var19);
             var1 = _closure1_slot4;
             var1 = var1.bind(var4)(var2, var28);
-            var20 = var1[var30];
+            var20 = var1[var31];
             var1 = var1[var27];
             var14 = _closure1_slot5;
             var3 = var14.useState;
@@ -277,15 +277,15 @@ case 28:
             var3 = var3.bind(var14)(var2);
             var2 = _closure1_slot4;
             var2 = var2.bind(var4)(var3, var28);
-            var33 = var2[var30];
+            var34 = var2[var31];
             var3 = var2[var27];
             _closure2_slot9 = var3;
             var14 = _closure1_slot5;
             var2 = var14.useState;
-            var14 = var2.bind(var14)(var30);
+            var14 = var2.bind(var14)(var31);
             var2 = _closure1_slot4;
             var2 = var2.bind(var4)(var14, var28);
-            var14 = var2[var30];
+            var14 = var2[var31];
             var2 = var2[var27];
             if(!(var20 !== var19)) { _fun0001_ip = 30; continue _fun0001 }
 case 31:
@@ -296,7 +296,7 @@ case 32:
             var1 = var20.getCurrentBalance;
             var1 = var1.bind(var20)();
             var3 = var3.bind(var4)(var1);
-            if(!(var1 !== var33)) { _fun0001_ip = 30; continue _fun0001 }
+            if(!(var1 !== var34)) { _fun0001_ip = 30; continue _fun0001 }
 case 33:
             var1 = function(arg1) {
                 var2 = arg1;
@@ -387,13 +387,13 @@ case 34:
                 return var1;
             };
             var2 = var2.bind(var4)(var1);
-            var27 = var40.id;
+            var27 = var41.id;
             var1 = new Array(4);
             var1[0] = var27;
             var1[1] = var19;
             var1[2] = var25;
-            var1[3] = var39;
-            var41 = var3.bind(var20)(var2, var1);
+            var1[3] = var40;
+            var42 = var3.bind(var20)(var2, var1);
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 14;
@@ -401,13 +401,13 @@ case 34:
             var25 = var2.bind(var4)(var1);
             var20 = var25.useBountyVideoProgressPersistence;
             var1 = {};
-            var27 = var40.id;
+            var27 = var41.id;
             var1['bountyId'] = var27;
-            var1['endMode'] = var43;
+            var1['endMode'] = var44;
             var1 = var20.bind(var25)(var1);
             var20 = var1.initialProgress;
-            var45 = var1.handleProgress;
-            _closure2_slot10 = var45;
+            var46 = var1.handleProgress;
+            _closure2_slot10 = var46;
             var1 = var1.flushProgress;
             _closure2_slot11 = var1;
             var28 = _closure1_slot5;
@@ -429,10 +429,10 @@ case 34:
             var3 = var2.bind(var4)(var1);
             var2 = var3.useBountiesModalVideoAnalytics;
             var1 = {};
-            var25 = var40.id;
+            var25 = var41.id;
             var1['bountyId'] = var25;
-            var1['sourceQuestContent'] = var39;
-            var1['rewardDurationMs'] = var42;
+            var1['sourceQuestContent'] = var40;
+            var1['rewardDurationMs'] = var43;
             var25 = var20.timestampSec;
             var1['initialPlaybackTimeSec'] = var25;
             var25 = var20.maxTimestampSec;
@@ -450,16 +450,17 @@ case 47:
             var1['verticalScrollingPosition'] = var7;
             var1['isActive'] = var19;
             var1 = var2.bind(var3)(var1);
-            var46 = var1.handleVideoProgressAnalytics;
-            _closure2_slot12 = var46;
-            var34 = var1.handleVideoEndAnalytics;
-            var32 = var1.handleVideoLoopedAnalytics;
-            var31 = var1.handleVideoPausedAnalytics;
-            var29 = var1.handleVideoResumedAnalytics;
-            var28 = var1.handleVideoErrorAnalytics;
-            var27 = var1.handleLoadStartAnalytics;
-            var25 = var1.handleReadyForDisplayAnalytics;
-            var26 = var1.handleBufferAnalytics;
+            var47 = var1.handleVideoProgressAnalytics;
+            _closure2_slot12 = var47;
+            var35 = var1.handleVideoEndAnalytics;
+            var33 = var1.handleVideoLoopedAnalytics;
+            var32 = var1.handleVideoPausedAnalytics;
+            var30 = var1.handleVideoResumedAnalytics;
+            var29 = var1.handleVideoErrorAnalytics;
+            var28 = var1.handleLoadStartAnalytics;
+            var25 = var1.handleVideoTracksAnalytics;
+            var26 = var1.handleReadyForDisplayAnalytics;
+            var27 = var1.handleBufferAnalytics;
             var1 = var24 == var22;
             var7 = undefined;
             if(var1) { _fun0001_ip = 49; continue _fun0001 }
@@ -481,21 +482,21 @@ case 54:
             var2 = var22.onResumed;
 case 53:
             _closure2_slot15 = var2;
-            var37 = var24 == var22;
+            var38 = var24 == var22;
             var1 = undefined;
-            if(var37) { _fun0001_ip = 55; continue _fun0001 }
+            if(var38) { _fun0001_ip = 55; continue _fun0001 }
 case 56:
             var1 = var22.onEndCardVisible;
 case 55:
             _closure2_slot16 = var1;
-            var44 = _closure1_slot5;
-            var37 = var44.useCallback;
+            var45 = _closure1_slot5;
+            var38 = var45.useCallback;
             var22 = new Array(5);
-            var22[0] = var46;
-            var22[1] = var45;
-            var22[2] = var38;
+            var22[0] = var47;
+            var22[1] = var46;
+            var22[2] = var39;
             var22[3] = var7;
-            var22[4] = var42;
+            var22[4] = var43;
             var7 = function(arg1, arg2, arg3) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -531,55 +532,55 @@ case 57:
                     return var1;
                 }
             };
-            var37 = var37.bind(var44)(var7, var22);
+            var38 = var38.bind(var45)(var7, var22);
             var22 = _closure1_slot0;
             var7 = _closure1_slot2;
             var7 = var7[var23];
             var23 = var22.bind(var4)(var7);
             var22 = var23.useBountiesModalTiming;
             var7 = {};
-            var7['endMode'] = var43;
-            var7['rewardDurationMs'] = var42;
-            var7['isCompleted'] = var38;
-            var7['onRewardEarned'] = var41;
-            var7['onVideoProgress'] = var37;
-            var7['onVideoEnd'] = var34;
-            var7['onVideoLooped'] = var32;
-            var7['onVideoPaused'] = var31;
-            var7['onVideoResumed'] = var29;
+            var7['endMode'] = var44;
+            var7['rewardDurationMs'] = var43;
+            var7['isCompleted'] = var39;
+            var7['onRewardEarned'] = var42;
+            var7['onVideoProgress'] = var38;
+            var7['onVideoEnd'] = var35;
+            var7['onVideoLooped'] = var33;
+            var7['onVideoPaused'] = var32;
+            var7['onVideoResumed'] = var30;
             var7['playerRef'] = var16;
-            var29 = var20.timestampSec;
-            var7['initialProgressSec'] = var29;
-            var29 = var20.maxTimestampSec;
-            var7['initialMaxVideoProgressSec'] = var29;
-            var29 = var20.duration;
-            var29 = var29 > var30;
+            var30 = var20.timestampSec;
+            var7['initialProgressSec'] = var30;
+            var30 = var20.maxTimestampSec;
+            var7['initialMaxVideoProgressSec'] = var30;
+            var30 = var20.duration;
+            var30 = var30 > var31;
             var24 = null;
-            if(!var29) { _fun0001_ip = 60; continue _fun0001 }
+            if(!var30) { _fun0001_ip = 60; continue _fun0001 }
 case 61:
             var24 = var20.duration;
 case 60:
             var7['initialVideoDurationSec'] = var24;
             var7 = var22.bind(var23)(var7);
-            var37 = var7.isCtaVisible;
-            var34 = var7.isEndCardVisible;
-            _closure2_slot17 = var34;
-            var32 = var7.handleVideoEnd;
-            var31 = var7.handleVideoProgress;
-            var42 = var7.handleVideoPaused;
-            _closure2_slot18 = var42;
-            var41 = var7.handleVideoResumed;
-            _closure2_slot19 = var41;
+            var38 = var7.isCtaVisible;
+            var35 = var7.isEndCardVisible;
+            _closure2_slot17 = var35;
+            var33 = var7.handleVideoEnd;
+            var32 = var7.handleVideoProgress;
+            var43 = var7.handleVideoPaused;
+            _closure2_slot18 = var43;
+            var42 = var7.handleVideoResumed;
+            _closure2_slot19 = var42;
             var22 = var7.handleReplay;
             _closure2_slot20 = var22;
             var24 = var7.rewardRemainingSeconds;
             var23 = var7.rewardTotalSeconds;
             var22 = var7.normalizedProgress;
-            var30 = _closure1_slot5;
-            var29 = var30.useCallback;
+            var31 = _closure1_slot5;
+            var30 = var31.useCallback;
             var7 = new Array(3);
-            var7[0] = var42;
-            var7[1] = var34;
+            var7[0] = var43;
+            var7[1] = var35;
             var7[2] = var3;
             var3 = function(arg1) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -603,11 +604,11 @@ case 64:
                     return var1;
                 }
             };
-            var30 = var29.bind(var30)(var3, var7);
-            var29 = _closure1_slot5;
-            var7 = var29.useCallback;
+            var31 = var30.bind(var31)(var3, var7);
+            var30 = _closure1_slot5;
+            var7 = var30.useCallback;
             var3 = new Array(2);
-            var3[0] = var41;
+            var3[0] = var42;
             var3[1] = var2;
             var2 = function(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -626,12 +627,12 @@ case 66:
                     return var1;
                 }
             };
-            var29 = var7.bind(var29)(var2, var3);
+            var30 = var7.bind(var30)(var2, var3);
             var7 = _closure1_slot5;
             var3 = var7.useEffect;
             var2 = new Array(3);
             var2[0] = var19;
-            var2[1] = var34;
+            var2[1] = var35;
             var2[2] = var1;
             var1 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -662,33 +663,34 @@ case 65:
             var1['style'] = var6;
             var7 = _closure1_slot10;
             var6 = _closure1_slot0;
-            var41 = _closure1_slot2;
+            var42 = _closure1_slot2;
             var5 = 16;
-            var5 = var41[var5];
+            var5 = var42[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.BountyVideo;
             var5 = {};
-            var5['bounty'] = var40;
-            var5['sourceQuestContent'] = var39;
-            var5['isCompleted'] = var38;
-            var5['isCtaVisible'] = var37;
-            var5['isEndCardVisible'] = var34;
-            var5['isScrollIndicatorEnabled'] = var36;
-            var34 = !var34;
-            if(!var34) { _fun0001_ip = 70; continue _fun0001 }
+            var5['bounty'] = var41;
+            var5['sourceQuestContent'] = var40;
+            var5['isCompleted'] = var39;
+            var5['isCtaVisible'] = var38;
+            var5['isEndCardVisible'] = var35;
+            var5['isScrollIndicatorEnabled'] = var37;
+            var35 = !var35;
+            if(!var35) { _fun0001_ip = 70; continue _fun0001 }
 case 71:
-            var34 = !var35;
+            var35 = !var36;
 case 70:
-            var5['isProgressBarVisible'] = var34;
-            var5['orbsBalance'] = var33;
-            var5['handleVideoEnd'] = var32;
-            var5['handleVideoProgress'] = var31;
-            var5['handleVideoPaused'] = var30;
-            var5['handleVideoResumed'] = var29;
-            var5['handleVideoError'] = var28;
-            var5['onLoadStart'] = var27;
-            var5['onBuffer'] = var26;
-            var5['onFirstFrame'] = var25;
+            var5['isProgressBarVisible'] = var35;
+            var5['orbsBalance'] = var34;
+            var5['handleVideoEnd'] = var33;
+            var5['handleVideoProgress'] = var32;
+            var5['handleVideoPaused'] = var31;
+            var5['handleVideoResumed'] = var30;
+            var5['handleVideoError'] = var29;
+            var5['onLoadStart'] = var28;
+            var5['onBuffer'] = var27;
+            var5['onFirstFrame'] = var26;
+            var5['onVideoTracks'] = var25;
             var5['rewardRemainingSeconds'] = var24;
             var5['rewardTotalSeconds'] = var23;
             var5['normalizedProgress'] = var22;

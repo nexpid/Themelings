@@ -34,17 +34,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var7 = var4.BUNDLE_PREVIEW_CONFIG;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot6 = var8;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
-    var4 = 4;
+    var4 = {};
+    var8 = var7.large;
+    var8 = var8.bundleWidth;
+    var4['width'] = var8;
+    var7 = var7.large;
+    var7 = var7.bundleHeight;
+    var4['height'] = var7;
+    var _closure1_slot8 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flex': 1, 'justifyContent': 'space-between'};
-    var10 = 5;
+    var10 = 6;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
@@ -82,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginTop'] = var10;
     var4['gameItemCard'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 30;
+    var _closure1_slot9 = var4;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -97,13 +109,13 @@ case 0:
             var _closure2_slot0 = var8;
             var1 = var1.user;
             var _closure2_slot1 = var1;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var4 = undefined;
             var9 = var1.bind(var4)();
             var _closure2_slot2 = var9;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var1 = var6[var1];
             var10 = var5.bind(var4)(var1);
             var3 = var10.useStateFromStores;
@@ -119,23 +131,23 @@ case 0:
                 return var1;
             };
             var27 = var3.bind(var10)(var2, var1);
-            var1 = 7;
+            var1 = 8;
             var1 = var6[var1];
             var3 = var5.bind(var4)(var1);
             var2 = var3.useGetOrFetchSubscriptionPlan;
             var1 = var8.subscriptionPlanId;
             var24 = var2.bind(var3)(var1);
-            var1 = 8;
+            var1 = 9;
             var1 = var6[var1];
             var3 = var5.bind(var4)(var1);
             var2 = var3.useGetOrFetchApplication;
             var1 = var8.applicationId;
             var26 = var2.bind(var3)(var1);
-            var1 = 9;
+            var1 = 10;
             var1 = var6[var1];
             var3 = var5.bind(var4)(var1);
             var2 = var3.useFetchCollectiblesProduct;
-            var1 = 10;
+            var1 = 11;
             var1 = var6[var1];
             var5 = var5.bind(var4)(var1);
             var1 = var5.isCollectiblesGiftCode;
@@ -165,13 +177,13 @@ case 7:
 case 6:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var28 = 11;
+            var28 = 12;
             var1 = var3[var28];
             var1 = var2.bind(var4)(var1);
             var1 = var1.CollectiblesItemType;
             var1 = var1.BUNDLE;
             var15 = var6 === var1;
-            var1 = 12;
+            var1 = 13;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useShopProductItems;
@@ -189,7 +201,7 @@ case 8:
             var25 = var1.firstNameplate;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 13;
+            var1 = 14;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var3.useHandleUseNow;
@@ -218,7 +230,7 @@ case 10:
             var3 = _closure1_slot7;
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 14;
+            var1 = 15;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
@@ -246,7 +258,7 @@ case 18:
 case 15:
             var23 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var20 = 19;
+            var20 = 20;
             var20 = var10[var20];
             var21 = var23.bind(var4)(var20);
             var20 = var21.match;
@@ -264,7 +276,7 @@ case 0:
                     var4 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var7 = 20;
+                    var7 = 21;
                     var1 = var1[var7];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -319,7 +331,7 @@ case 20:
                 var4 = _closure1_slot6;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -343,7 +355,7 @@ case 20:
                 var4 = _closure1_slot6;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -372,7 +384,7 @@ case 20:
                 var2['style'] = var5;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 23;
+                var1 = 24;
                 var5 = var5[var1];
                 var1 = undefined;
                 var5 = var6.bind(var1)(var5);
@@ -393,7 +405,7 @@ case 20:
                 var4 = _closure1_slot6;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 24;
+                var1 = 25;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -414,7 +426,7 @@ case 19:
             var7['style'] = var22;
             var23 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var22 = 18;
+            var22 = 19;
             var22 = var28[var22];
             var23 = var23.bind(var4)(var22);
             var22 = {};
@@ -423,6 +435,8 @@ case 19:
             var22['nameplate'] = var25;
             var25 = 'large';
             var22['size'] = var25;
+            var25 = _closure1_slot8;
+            var22['targetSize'] = var25;
             var22 = var21.bind(var4)(var23, var22);
             var7['children'] = var22;
             var10 = var21.bind(var4)(var20, var7);
@@ -431,7 +445,7 @@ case 22:
 case 14:
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var7 = 15;
+            var7 = 16;
             var7 = var21[var7];
             var20 = var20.bind(var4)(var7);
             var7 = var20.isGameItemSKU;
@@ -441,7 +455,7 @@ case 14:
 case 25:
             var20 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var21 = 17;
+            var21 = 18;
             var7 = var25[var21];
             var20 = var20.bind(var4)(var7);
             var7 = {};
@@ -463,7 +477,7 @@ case 24:
             var20['style'] = var23;
             var25 = _closure1_slot1;
             var28 = _closure1_slot2;
-            var23 = 16;
+            var23 = 17;
             var23 = var28[var23];
             var25 = var25.bind(var4)(var23);
             var23 = {};
@@ -480,7 +494,7 @@ case 23:
 case 28:
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var10 = 15;
+            var10 = 16;
             var10 = var21[var10];
             var20 = var20.bind(var4)(var10);
             var10 = var20.isGameItemSKU;
@@ -499,14 +513,14 @@ case 35:
             var22 = _closure1_slot6;
             var29 = _closure1_slot0;
             var30 = _closure1_slot2;
-            var20 = 25;
+            var20 = 26;
             var20 = var30[var20];
             var20 = var29.bind(var4)(var20);
             var21 = var20.Text;
             var20 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
             var23 = var9.header;
             var20['style'] = var23;
-            var23 = 26;
+            var23 = 27;
             var25 = var30[var23];
             var25 = var29.bind(var4)(var25);
             var28 = var25.intl;
@@ -524,14 +538,14 @@ case 33:
             var22 = _closure1_slot6;
             var25 = _closure1_slot0;
             var30 = _closure1_slot2;
-            var20 = 25;
+            var20 = 26;
             var20 = var30[var20];
             var20 = var25.bind(var4)(var20);
             var21 = var20.Text;
             var20 = {'variant': 'heading-xl/bold', 'style': null, 'accessibilityRole': 'header'};
             var23 = var9.header;
             var20['style'] = var23;
-            var23 = 26;
+            var23 = 27;
             var28 = var30[var23];
             var28 = var25.bind(var4)(var28);
             var29 = var28.intl;
@@ -552,14 +566,14 @@ case 29:
             var22 = _closure1_slot6;
             var29 = _closure1_slot0;
             var30 = _closure1_slot2;
-            var20 = 25;
+            var20 = 26;
             var20 = var30[var20];
             var20 = var29.bind(var4)(var20);
             var21 = var20.Text;
             var20 = {'variant': 'heading-xl/bold', 'style': null, 'accessibilityRole': 'header'};
             var23 = var9.header;
             var20['style'] = var23;
-            var23 = 26;
+            var23 = 27;
             var25 = var30[var23];
             var25 = var29.bind(var4)(var25);
             var28 = var25.intl;
@@ -577,14 +591,14 @@ case 27:
             var22 = _closure1_slot6;
             var29 = _closure1_slot0;
             var30 = _closure1_slot2;
-            var20 = 25;
+            var20 = 26;
             var20 = var30[var20];
             var20 = var29.bind(var4)(var20);
             var21 = var20.Text;
             var20 = {'variant': 'heading-xl/bold', 'style': null, 'accessibilityRole': 'header'};
             var23 = var9.header;
             var20['style'] = var23;
-            var23 = 26;
+            var23 = 27;
             var25 = var30[var23];
             var25 = var29.bind(var4)(var25);
             var28 = var25.intl;
@@ -600,7 +614,7 @@ case 38:
             var7[1] = var10;
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var10 = 15;
+            var10 = 16;
             var10 = var21[var10];
             var20 = var20.bind(var4)(var10);
             var10 = var20.isGameItemSKU;
@@ -617,7 +631,7 @@ case 42:
             var20 = _closure1_slot6;
             var10 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var8 = 25;
+            var8 = 26;
             var8 = var21[var8];
             var8 = var10.bind(var4)(var8);
             var10 = var8.Text;
@@ -638,7 +652,7 @@ case 47:
 case 45:
             var25 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var21 = 26;
+            var21 = 27;
             var22 = var28[var21];
             var22 = var25.bind(var4)(var22);
             var23 = var22.intl;
@@ -652,7 +666,7 @@ case 45:
 case 49:
             var23 = _closure1_slot0;
             var29 = _closure1_slot2;
-            var22 = 26;
+            var22 = 27;
             var25 = var29[var22];
             var25 = var23.bind(var4)(var25);
             var28 = var25.intl;
@@ -673,7 +687,7 @@ case 44:
             var21 = _closure1_slot6;
             var23 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var10 = 25;
+            var10 = 26;
             var10 = var25[var10];
             var10 = var23.bind(var4)(var10);
             var20 = var10.Text;
@@ -682,7 +696,7 @@ case 44:
             var10['variant'] = var22;
             var22 = var9.message;
             var10['style'] = var22;
-            var22 = 27;
+            var22 = 28;
             var22 = var25[var22];
             var23 = var23.bind(var4)(var22);
             var22 = var23.getSubscriptionGiftSuccessText;
@@ -695,7 +709,7 @@ case 41:
             var21 = _closure1_slot6;
             var23 = _closure1_slot0;
             var28 = _closure1_slot2;
-            var10 = 25;
+            var10 = 26;
             var10 = var28[var10];
             var10 = var23.bind(var4)(var10);
             var20 = var10.Text;
@@ -704,7 +718,7 @@ case 41:
             var10['variant'] = var22;
             var22 = var9.message;
             var10['style'] = var22;
-            var22 = 26;
+            var22 = 27;
             var24 = var28[var22];
             var24 = var23.bind(var4)(var24);
             var25 = var24.intl;
@@ -745,7 +759,7 @@ case 52:
             var6['style'] = var9;
             var10 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var9 = 28;
+            var9 = 29;
             var9 = var20[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.Button;
@@ -754,7 +768,7 @@ case 58:
             var9 = {};
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var20 = 26;
+            var20 = 27;
             var21 = var24[var20];
             var21 = var23.bind(var4)(var21);
             var22 = var21.intl;
@@ -798,7 +812,7 @@ case 57:
             var11 = {};
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var13 = 26;
+            var13 = 27;
             var15 = var14[var13];
             var15 = var17.bind(var4)(var15);
             var16 = var15.intl;
@@ -812,7 +826,7 @@ case 57:
             var13 = 'md';
             var11['size'] = var13;
             var13 = _closure1_slot1;
-            var12 = 29;
+            var12 = 30;
             var12 = var14[var12];
             var12 = var13.bind(var4)(var12);
             var12 = var12.pop;

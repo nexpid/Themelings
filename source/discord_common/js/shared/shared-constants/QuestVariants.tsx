@@ -170,6 +170,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['XBOX_GAME_PASS_QUEST'] = var4;
     var1 = 'XBOX_GAME_PASS_QUEST';
     var2[var4] = var1;
+    var4 = 43;
+    var2['CLOUD_GAMING_PROVIDER_NVIDIA'] = var4;
+    var1 = 'CLOUD_GAMING_PROVIDER_NVIDIA';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

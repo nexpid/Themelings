@@ -48,6 +48,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var3['ClipsV3RuntimeExperiment'] = var5;
     var3['isClipsV3Enabled'] = var4;
+    var4 = function useIsClipsV3Enabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.useConfig;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.enableClipsV3;
+        return var1;
+    };
+    var3['useIsClipsV3Enabled'] = var4;
     var4 = function setActiveClipsRuntime(arg1) {
         var1 = arg1;
         _closure1_slot1 = var1;

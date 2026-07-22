@@ -195,13 +195,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2[85] = var4;
     var4 = {'name': 'display-lg', 'fontStack': 'headline', 'uppercase': false, 'size': 44, 'lineHeight': 42, 'weight': 800};
     var2[86] = var4;
-    var4 = {'name': 'experimental/display-xs', 'fontStack': 'headline', 'uppercase': false, 'size': 16, 'lineHeight': 16, 'weight': 800};
+    var4 = {'name': 'experimental/display-xs', 'fontStack': 'headline', 'uppercase': false, 'size': 16, 'lineHeight': 18, 'weight': 800};
     var2[87] = var4;
-    var4 = {'name': 'experimental/display-sm', 'fontStack': 'headline', 'uppercase': false, 'size': 24, 'lineHeight': 22, 'weight': 800};
+    var4 = {'name': 'experimental/display-sm', 'fontStack': 'headline', 'uppercase': false, 'size': 24, 'lineHeight': 26, 'weight': 800};
     var2[88] = var4;
-    var4 = {'name': 'experimental/display-md', 'fontStack': 'headline', 'uppercase': false, 'size': 32, 'lineHeight': 28, 'weight': 800};
+    var4 = {'name': 'experimental/display-md', 'fontStack': 'headline', 'uppercase': false, 'size': 32, 'lineHeight': 34, 'weight': 800};
     var2[89] = var4;
-    var4 = {'name': 'experimental/display-lg', 'fontStack': 'headline', 'uppercase': false, 'size': 44, 'lineHeight': 38, 'weight': 800};
+    var4 = {'name': 'experimental/display-lg', 'fontStack': 'headline', 'uppercase': false, 'size': 44, 'lineHeight': 44, 'weight': 800};
     var2[90] = var4;
     var4 = {'name': 'experimental/label-xs/medium', 'fontStack': 'primary', 'uppercase': true, 'weight': 500, 'size': 12, 'lineHeight': 16};
     var2[91] = var4;

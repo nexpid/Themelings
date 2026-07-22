@@ -9,6 +9,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function keyExtractor(arg1) {
         var1 = arg1;
+        var1 = var1.saveData;
         var1 = var1.messageId;
         return var1;
     };
@@ -142,7 +143,7 @@ case 0:
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var1['savedMessageKey'] = var5;
+                var1['savedMessage'] = var5;
                 var5 = _closure2_slot0;
                 var1['throttledNow'] = var5;
                 var1 = var4.bind(var3)(var2, var1);

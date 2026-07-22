@@ -25,7 +25,7 @@ case 3:
 case 2:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var2 = 8;
+            var2 = 9;
             var2 = var9[var2];
             var10 = undefined;
             var4 = var4.bind(var10)(var2);
@@ -35,7 +35,7 @@ case 2:
             var11 = _closure1_slot2;
             if(var2) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var2 = 10;
+            var2 = 11;
             var3 = var11[var2];
             var12 = var9.bind(var10)(var3);
             var4 = var12.match;
@@ -61,7 +61,7 @@ case 6:
             var4 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -89,7 +89,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -105,7 +105,7 @@ case 6:
             var14 = var12.bind(var13)(var4, var3);
             var12 = var14.with;
             var4 = {};
-            var13 = 11;
+            var13 = 12;
             var3 = var11[var13];
             var3 = var9.bind(var10)(var3);
             var3 = var3.CollectiblesItemType;
@@ -124,7 +124,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -161,7 +161,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -198,7 +198,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -235,7 +235,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var3 = var6[var1];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -267,7 +267,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -296,7 +296,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -325,7 +325,7 @@ case 6:
             var3 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -354,7 +354,7 @@ case 6:
             var2 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -372,7 +372,7 @@ case 6:
             var1 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 9;
+                var1 = 10;
                 var2 = var6[var1];
                 var4 = undefined;
                 var2 = var5.bind(var4)(var2);
@@ -388,7 +388,7 @@ case 6:
             var1 = var2.bind(var3)(var1);
             _fun0001_ip = 7; continue _fun0001;
 case 5:
-            var2 = 9;
+            var2 = 10;
             var3 = var11[var2];
             var3 = var9.bind(var10)(var3);
             var4 = var3.intl;
@@ -403,7 +403,7 @@ case 7:
 case 4:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
@@ -418,7 +418,7 @@ case 8:
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -464,17 +464,29 @@ case 8:
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot12 = var7;
+    var7 = var4.BUNDLE_PREVIEW_CONFIG;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot12 = var8;
     var4 = var4.jsxs;
     var _closure1_slot13 = var4;
-    var4 = 12;
+    var4 = {};
+    var8 = var7.large;
+    var8 = var8.bundleWidth;
+    var4['width'] = var8;
+    var7 = var7.large;
+    var7 = var7.bundleHeight;
+    var4['height'] = var7;
+    var _closure1_slot14 = var4;
+    var4 = 13;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flex': 1, 'justifyContent': 'space-between'};
-    var12 = 13;
+    var12 = 14;
     var12 = var6[var12];
     var12 = var13.bind(var1)(var12);
     var12 = var12.colors;
@@ -522,8 +534,8 @@ case 8:
     var9['marginRight'] = var10;
     var4['linkAccountIcon'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot14 = var4;
-    var4 = 47;
+    var _closure1_slot15 = var4;
+    var4 = 48;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -553,18 +565,18 @@ case 0:
             var _closure2_slot13 = var4;
             var _closure2_slot14 = var4;
             var _closure2_slot15 = var4;
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot15;
             var18 = var2.bind(var4)();
             var _closure2_slot5 = var18;
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var3 = 14;
+            var3 = 15;
             var3 = var2[var3];
             var7 = var5.bind(var4)(var3);
             var3 = var7.useNavigation;
             var3 = var3.bind(var7)();
             var _closure2_slot6 = var3;
-            var3 = 15;
+            var3 = 16;
             var7 = var2[var3];
             var11 = var5.bind(var4)(var7);
             var9 = var11.useStateFromStores;
@@ -589,7 +601,7 @@ case 0:
             var2 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 16;
+                var2 = 17;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
@@ -612,30 +624,30 @@ case 12:
 case 11:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 17;
+            var2 = 18;
             var2 = var8[var2];
             var5 = var5.bind(var4)(var2);
             var2 = var19.code;
             var12 = var5.bind(var4)(var2, var6);
             _closure2_slot7 = var12;
             var7 = _closure1_slot0;
-            var2 = 18;
+            var2 = 19;
             var2 = var8[var2];
             var6 = var7.bind(var4)(var2);
             var5 = var6.useGetOrFetchSubscriptionPlan;
             var2 = var19.subscriptionPlanId;
             var33 = var5.bind(var6)(var2);
-            var2 = 19;
+            var2 = 20;
             var2 = var8[var2];
             var6 = var7.bind(var4)(var2);
             var5 = var6.useGetOrFetchApplication;
             var2 = var19.applicationId;
             var24 = var5.bind(var6)(var2);
-            var2 = 20;
+            var2 = 21;
             var2 = var8[var2];
             var6 = var7.bind(var4)(var2);
             var5 = var6.useFetchCollectiblesProduct;
-            var2 = 21;
+            var2 = 22;
             var2 = var8[var2];
             var7 = var7.bind(var4)(var2);
             var2 = var7.isCollectiblesGiftCode;
@@ -664,13 +676,13 @@ case 18:
 case 17:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var35 = 11;
+            var35 = 12;
             var2 = var6[var35];
             var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.BUNDLE;
             var23 = var7 === var2;
-            var2 = 22;
+            var2 = 23;
             var2 = var6[var2];
             var6 = var5.bind(var4)(var2);
             var5 = var6.useShopProductItems;
@@ -713,7 +725,7 @@ case 21:
             var17 = var7.bind(var9)(var6, var3);
             _closure2_slot9 = var17;
             var21 = _closure1_slot1;
-            var3 = 23;
+            var3 = 24;
             var3 = var5[var3];
             var3 = var21.bind(var4)(var3);
             var6 = var3.bind(var4)(var24);
@@ -725,16 +737,16 @@ case 21:
             _closure2_slot12 = var14;
             var6 = var6.startAuthorization;
             _closure2_slot13 = var6;
-            var6 = 24;
+            var6 = 25;
             var6 = var5[var6];
             var9 = var2.bind(var4)(var6);
             var7 = var9.useSocialLayerStorefrontMobileAccountLinkingDisabled;
             var6 = var19.applicationId;
             var9 = var7.bind(var9)(var6);
-            var6 = 25;
+            var6 = 26;
             var6 = var5[var6];
             var7 = var21.bind(var4)(var6);
-            var6 = 26;
+            var6 = 27;
             var6 = var5[var6];
             var6 = var21.bind(var4)(var6);
             var6 = var6.GIFT_CODE_MODAL;
@@ -777,7 +789,7 @@ case 0:
 case 24:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 9;
                     var2 = var4[var2];
                     var4 = undefined;
                     var5 = var3.bind(var4)(var2);
@@ -794,7 +806,7 @@ case 25:
                     var5 = var2.canStartAuthorization;
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var2 = 27;
+                    var2 = 28;
                     var2 = var10[var2];
                     var4 = var3.bind(var4)(var2);
                     var3 = var4.track;
@@ -824,7 +836,7 @@ case 23:
 case 0:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 9;
                     var3 = var3[var1];
                     var1 = undefined;
                     var5 = var4.bind(var1)(var3);
@@ -835,7 +847,7 @@ case 0:
 case 27:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 28;
+                    var2 = 29;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.fetchSocialLayerStorefrontConfig;
@@ -854,7 +866,7 @@ case 26:
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -896,7 +908,7 @@ case 28:
 case 31:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 29;
+                    var1 = 30;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -914,7 +926,7 @@ case 30:
             };
             var1 = var6.bind(var7)(var1, var3);
             var3 = _closure1_slot13;
-            var1 = 30;
+            var1 = 31;
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.SafeAreaPaddingView;
@@ -939,14 +951,14 @@ case 32:
             var22 = _closure1_slot12;
             var21 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var28 = 31;
+            var28 = 32;
             var7 = var7[var28];
             var7 = var21.bind(var4)(var7);
             var21 = var7.Text;
             var7 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
             var25 = var18.text;
             var7['style'] = var25;
-            var26 = _closure1_slot15;
+            var26 = _closure1_slot16;
             var25 = {};
             var36 = var19.isSubscription;
             var25['isSubscription'] = var36;
@@ -979,7 +991,7 @@ case 37:
             var33 = {};
             var39 = _closure1_slot0;
             var44 = _closure1_slot2;
-            var38 = 32;
+            var38 = 33;
             var38 = var44[var38];
             var38 = var39.bind(var4)(var38);
             var33['source'] = var38;
@@ -990,7 +1002,7 @@ case 37:
             var40 = var18.emojiContainer;
             var38['style'] = var40;
             var41 = _closure1_slot1;
-            var40 = 33;
+            var40 = 34;
             var40 = var44[var40];
             var41 = var41.bind(var4)(var40);
             var40 = {};
@@ -1011,7 +1023,7 @@ case 39:
 case 40:
             var22 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var21 = 8;
+            var21 = 9;
             var21 = var25[var21];
             var22 = var22.bind(var4)(var21);
             var21 = var22.isGameItemSKU;
@@ -1047,7 +1059,7 @@ case 53:
             var20['style'] = var23;
             var33 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var25 = 10;
+            var25 = 11;
             var25 = var23[var25];
             var26 = var33.bind(var4)(var25);
             var25 = var26.match;
@@ -1063,7 +1075,7 @@ case 53:
                 var4 = _closure1_slot12;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var6 = 37;
+                var6 = 38;
                 var1 = var8[var6];
                 var3 = undefined;
                 var1 = var7.bind(var3)(var1);
@@ -1106,7 +1118,7 @@ case 53:
                 var4 = _closure1_slot12;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 38;
+                var1 = 39;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -1130,7 +1142,7 @@ case 53:
                 var4 = _closure1_slot12;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 39;
+                var1 = 40;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -1173,7 +1185,7 @@ case 54:
                     var7 = _closure1_slot12;
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var5 = 40;
+                    var5 = 41;
                     var5 = var9[var5];
                     var5 = var6.bind(var1)(var5);
                     var6 = var5.NameplatePreview;
@@ -1194,7 +1206,7 @@ case 54:
                 var4 = _closure1_slot12;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 41;
+                var1 = 42;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -1215,7 +1227,7 @@ case 50:
             var29 = _closure1_slot12;
             var26 = _closure1_slot1;
             var33 = _closure1_slot2;
-            var25 = 36;
+            var25 = 37;
             var25 = var33[var25];
             var26 = var26.bind(var4)(var25);
             var25 = {};
@@ -1224,6 +1236,8 @@ case 50:
             var25['nameplate'] = var30;
             var30 = 'large';
             var25['size'] = var30;
+            var30 = _closure1_slot14;
+            var25['targetSize'] = var30;
             var25 = var29.bind(var4)(var26, var25);
             var23['children'] = var25;
             var20 = var23;
@@ -1234,7 +1248,7 @@ case 45:
             var23 = _closure1_slot12;
             var22 = _closure1_slot1;
             var29 = _closure1_slot2;
-            var25 = 35;
+            var25 = 36;
             var21 = var29[var25];
             var22 = var22.bind(var4)(var21);
             var21 = {};
@@ -1254,7 +1268,7 @@ case 41:
             var23 = _closure1_slot12;
             var22 = _closure1_slot1;
             var25 = _closure1_slot2;
-            var21 = 34;
+            var21 = 35;
             var21 = var25[var21];
             var22 = var22.bind(var4)(var21);
             var21 = {};
@@ -1283,7 +1297,7 @@ case 60:
             var23 = {'variant': 'eyebrow', 'color': 'text-default'};
             var30 = var18.text;
             var23['style'] = var30;
-            var30 = 9;
+            var30 = 10;
             var31 = var24[var30];
             var31 = var25.bind(var4)(var31);
             var33 = var31.intl;
@@ -1337,7 +1351,7 @@ case 64:
 case 66:
             var16 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var12 = 8;
+            var12 = 9;
             var12 = var19[var12];
             var16 = var16.bind(var4)(var12);
             var12 = var16.isGameItemSKU;
@@ -1349,7 +1363,7 @@ case 69:
             var12 = _closure1_slot12;
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var11 = 42;
+            var11 = 43;
             var11 = var17[var11];
             var11 = var16.bind(var4)(var11);
             var11 = var11.Button;
@@ -1360,7 +1374,7 @@ case 72:
             var9 = {};
             var16 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var14 = 9;
+            var14 = 10;
             var17 = var21[var14];
             var17 = var16.bind(var4)(var17);
             var19 = var17.intl;
@@ -1374,7 +1388,7 @@ case 72:
             var14 = 'md';
             var9['size'] = var14;
             var17 = _closure1_slot12;
-            var14 = 45;
+            var14 = 46;
             var14 = var21[var14];
             var14 = var16.bind(var4)(var14);
             var16 = var14.ExperimentalGameControllerLinkIcon;
@@ -1382,7 +1396,7 @@ case 72:
             var19 = 'xs';
             var14['size'] = var19;
             var20 = _closure1_slot1;
-            var19 = 13;
+            var19 = 14;
             var19 = var21[var19];
             var19 = var20.bind(var4)(var19);
             var19 = var19.colors;
@@ -1395,7 +1409,7 @@ case 72:
             var14 = function onPress() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 27;
+                var1 = 28;
                 var3 = var3[var1];
                 var1 = undefined;
                 var6 = var4.bind(var1)(var3);
@@ -1426,7 +1440,7 @@ case 70:
             var14 = {};
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var16 = 9;
+            var16 = 10;
             var17 = var20[var16];
             var17 = var19.bind(var4)(var17);
             var18 = var17.intl;
@@ -1442,7 +1456,7 @@ case 70:
             var16 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 44;
+                var1 = 45;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1459,7 +1473,7 @@ case 67:
             var14 = _closure1_slot12;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 42;
+            var11 = 43;
             var11 = var16[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Button;
@@ -1467,7 +1481,7 @@ case 67:
             var11['disabled'] = var15;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var16 = 9;
+            var16 = 10;
             var17 = var20[var16];
             var17 = var19.bind(var4)(var17);
             var18 = var17.intl;
@@ -1490,7 +1504,7 @@ case 77:
             var15 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 46;
+                var1 = 47;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -1502,7 +1516,7 @@ case 77:
                 var6 = function onRedeemed() {
                     var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 7;
+                    var1 = 8;
                     var4 = var7[var1];
                     var1 = undefined;
                     var8 = var3.bind(var1)(var4);
@@ -1522,7 +1536,7 @@ case 77:
                     var4 = var5.bind(var8)(var4);
                     var5 = _closure2_slot6;
                     var4 = var5.push;
-                    var2 = 43;
+                    var2 = 44;
                     var2 = var7[var2];
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.GiftCodeModalScreens;
@@ -1536,7 +1550,7 @@ case 77:
                 var5 = function onError(arg1) {
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var7 = 7;
+                    var7 = 8;
                     var2 = var9[var7];
                     var1 = undefined;
                     var4 = var8.bind(var1)(var2);
@@ -1556,7 +1570,7 @@ case 77:
                     var2 = var3.bind(var4)(var2);
                     var5 = _closure2_slot6;
                     var4 = var5.push;
-                    var2 = 43;
+                    var2 = 44;
                     var2 = var9[var2];
                     var2 = var8.bind(var1)(var2);
                     var2 = var2.GiftCodeModalScreens;
@@ -1584,12 +1598,12 @@ case 65:
             var14 = _closure1_slot12;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var11 = 42;
+            var11 = 43;
             var11 = var19[var11];
             var11 = var18.bind(var4)(var11);
             var12 = var11.Button;
             var11 = {};
-            var15 = 9;
+            var15 = 10;
             var16 = var19[var15];
             var16 = var18.bind(var4)(var16);
             var17 = var16.intl;
@@ -1605,7 +1619,7 @@ case 65:
             var15 = function onPress() {
                 var3 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var2 = var7[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -1625,7 +1639,7 @@ case 65:
                 var2 = var4.bind(var5)(var2);
                 var5 = _closure2_slot6;
                 var4 = var5.push;
-                var2 = 43;
+                var2 = 44;
                 var2 = var7[var2];
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.GiftCodeModalScreens;
@@ -1644,12 +1658,12 @@ case 63:
             var12 = _closure1_slot12;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var10 = 42;
+            var10 = 43;
             var10 = var18[var10];
             var10 = var17.bind(var4)(var10);
             var11 = var10.Button;
             var10 = {};
-            var14 = 9;
+            var14 = 10;
             var15 = var18[var14];
             var15 = var17.bind(var4)(var15);
             var16 = var15.intl;
@@ -1667,7 +1681,7 @@ case 63:
                 var3 = var4.push;
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 43;
+                var1 = 44;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var6.bind(var1)(var2);

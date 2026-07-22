@@ -260,7 +260,7 @@ case 7:
             var4 = new Array(1);
             var4[0] = var7;
             var5['settings'] = var4;
-            var4 = new Array(8);
+            var4 = new Array(9);
             var4[0] = var5;
             var5 = {};
             var7 = 10;
@@ -318,6 +318,12 @@ case 7:
             var5['settings'] = var8;
             var4[4] = var5;
             var5 = {};
+            var9 = var6.GAME_MENTIONS_AUTOCOMPLETE;
+            var8 = new Array(1);
+            var8[0] = var9;
+            var5['settings'] = var8;
+            var4[5] = var5;
+            var5 = {};
             var8 = var12[var7];
             var8 = var11.bind(var10)(var8);
             var13 = var8.intl;
@@ -332,7 +338,7 @@ case 7:
             var8 = new Array(1);
             var8[0] = var9;
             var5['settings'] = var8;
-            var4[5] = var5;
+            var4[6] = var5;
             var5 = {};
             var8 = var12[var7];
             var8 = var11.bind(var10)(var8);
@@ -348,13 +354,13 @@ case 7:
             var7 = new Array(1);
             var7[0] = var8;
             var5['settings'] = var7;
-            var4[6] = var5;
+            var4[7] = var5;
             var5 = {};
             var7 = var6.TIMESTAMP_HOUR_CYCLE;
             var6 = new Array(1);
             var6[0] = var7;
             var5['settings'] = var6;
-            var4[7] = var5;
+            var4[8] = var5;
             var1['sections'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;

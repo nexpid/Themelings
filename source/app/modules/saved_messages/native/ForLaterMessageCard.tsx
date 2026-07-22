@@ -13,13 +13,13 @@ case 0:
             var1 = arg1;
             var10 = var1.savedMessage;
             var _closure2_slot0 = var10;
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
             var4 = undefined;
             var9 = var1.bind(var4)();
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot11;
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var11[var1];
             var1 = var7.bind(var4)(var1);
             var2 = var1.Card;
@@ -30,8 +30,8 @@ case 0:
             var6 = var9.deletedCard;
             var5[1] = var6;
             var1['style'] = var5;
-            var8 = _closure1_slot11;
-            var5 = 10;
+            var8 = _closure1_slot10;
+            var5 = 9;
             var5 = var11[var5];
             var5 = var7.bind(var4)(var5);
             var6 = var5.CircleErrorIcon;
@@ -39,7 +39,7 @@ case 0:
             var14 = 'xs';
             var5['size'] = var14;
             var15 = _closure1_slot1;
-            var14 = 8;
+            var14 = 7;
             var14 = var11[var14];
             var14 = var15.bind(var4)(var14);
             var14 = var14.colors;
@@ -48,8 +48,8 @@ case 0:
             var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(3);
             var5[0] = var6;
-            var8 = _closure1_slot11;
-            var6 = 11;
+            var8 = _closure1_slot10;
+            var6 = 10;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Text;
@@ -63,7 +63,7 @@ case 0:
 case 3:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var10 = 12;
+            var10 = 11;
             var11 = var16[var10];
             var11 = var15.bind(var4)(var11);
             var14 = var11.intl;
@@ -77,7 +77,7 @@ case 3:
 case 2:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var11 = 12;
+            var11 = 11;
             var14 = var17[var11];
             var14 = var16.bind(var4)(var14);
             var15 = var14.intl;
@@ -91,20 +91,20 @@ case 4:
             var6['children'] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot10;
             var7 = _closure1_slot5;
             var6 = {};
             var9 = var9.deletedActionButton;
             var6['style'] = var9;
-            var11 = _closure1_slot11;
+            var11 = _closure1_slot10;
             var18 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var9 = 13;
+            var9 = 12;
             var9 = var15[var9];
             var9 = var18.bind(var4)(var9);
             var10 = var9.IconButton;
             var9 = {'variant': 'secondary', 'accessibilityLabel': null, 'size': 'sm'};
-            var14 = 12;
+            var14 = 11;
             var16 = var15[var14];
             var16 = var18.bind(var4)(var16);
             var17 = var16.intl;
@@ -116,14 +116,14 @@ case 4:
             var14 = var16.bind(var17)(var14);
             var9['accessibilityLabel'] = var14;
             var14 = _closure1_slot1;
-            var13 = 14;
+            var13 = 13;
             var13 = var15[var13];
             var13 = var14.bind(var4)(var13);
             var9['icon'] = var13;
             var12 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 15;
+                var1 = 14;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -143,20 +143,104 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot14 = var2;
-    var1 = function ForLaterMessageCard(arg1) {
+    var _closure1_slot13 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var5 = var7[var1];
+    var1 = undefined;
+    var5 = var14.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var12 = 1;
+    var8 = var7[var12];
+    var5 = metroImportAll;
+    var8 = var5.bind(var1)(var8);
+    var _closure1_slot4 = var8;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.View;
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var14.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.AnalyticEvents;
+    var _closure1_slot7 = var9;
+    var9 = var5.ChannelTypes;
+    var _closure1_slot8 = var9;
+    var5 = var5.Permissions;
+    var _closure1_slot9 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.jsx;
+    var _closure1_slot10 = var9;
+    var5 = var5.jsxs;
+    var _closure1_slot11 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var10 = var6.bind(var1)(var5);
+    var9 = var10.createStyles;
+    var5 = {};
+    var11 = {'gap': 16, 'marginBottom': 16};
+    var5['card'] = var11;
+    var11 = {'marginHorizontal': 4294967280, 'height': 1, 'alignSelf': 'stretch'};
+    var13 = 7;
+    var15 = var7[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.colors;
+    var15 = var15.BACKGROUND_MOD_MUTED;
+    var11['backgroundColor'] = var15;
+    var5['cardDivider'] = var11;
+    var11 = {'marginHorizontal': 4294967280, 'marginTop': 4294967287, 'marginBottom': 4294967280, 'borderBottomLeftRadius': null, 'borderBottomRightRadius': null, 'overflow': 'hidden'};
+    var15 = var7[var13];
+    var15 = var14.bind(var1)(var15);
+    var15 = var15.modules;
+    var15 = var15.mobile;
+    var15 = var15.CARD_DEFAULT_RADIUS;
+    var11['borderBottomLeftRadius'] = var15;
+    var13 = var7[var13];
+    var13 = var14.bind(var1)(var13);
+    var13 = var13.modules;
+    var13 = var13.mobile;
+    var13 = var13.CARD_DEFAULT_RADIUS;
+    var11['borderBottomRightRadius'] = var13;
+    var5['messagePreview'] = var11;
+    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
+    var5['deletedCard'] = var11;
+    var11 = {};
+    var11['flex'] = var12;
+    var5['deletedText'] = var11;
+    var11 = {};
+    var12 = 'auto';
+    var11['marginLeft'] = var12;
+    var5['deletedActionButton'] = var11;
+    var5 = var9.bind(var10)(var5);
+    var _closure1_slot12 = var5;
+    var5 = var8.memo;
+    var4 = function ForLaterMessageCard(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var1 = arg1;
             var5 = var1.savedMessage;
             var _closure2_slot0 = var5;
             var16 = var1.throttledNow;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot12;
             var4 = undefined;
             var11 = var3.bind(var4)();
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 16;
+            var3 = 15;
             var3 = var8[var3];
             var7 = var6.bind(var4)(var3);
             var3 = var7.useSavedMessageChannel;
@@ -197,7 +281,7 @@ case 0:
 case 8:
                                         var4 = _closure1_slot0;
                                         var3 = _closure1_slot2;
-                                        var2 = 16;
+                                        var2 = 15;
                                         var2 = var3[var2];
                                         var3 = undefined;
                                         var6 = var4.bind(var3)(var2);
@@ -214,16 +298,16 @@ case 10:
 case 12:
                                         var5 = _closure1_slot1;
                                         var6 = _closure1_slot2;
-                                        var4 = 17;
+                                        var4 = 16;
                                         var4 = var6[var4];
                                         var7 = var5.bind(var3)(var4);
                                         var4 = var7.pop;
                                         var4 = var4.bind(var7)();
-                                        var4 = 18;
+                                        var4 = 17;
                                         var4 = var6[var4];
                                         var7 = var5.bind(var3)(var4);
                                         var6 = var7.track;
-                                        var4 = _closure1_slot8;
+                                        var4 = _closure1_slot7;
                                         var5 = var4.FOR_LATER_SAVED_MESSAGE_JUMP;
                                         var4 = {};
                                         var8 = _closure2_slot0;
@@ -250,7 +334,7 @@ case 13:
 case 16:
                                         var12 = _closure1_slot0;
                                         var13 = _closure1_slot2;
-                                        var8 = 19;
+                                        var8 = 18;
                                         var8 = var13[var8];
                                         var8 = var12.bind(var3)(var8);
                                         var8 = var8.SavedMessageSortTypes;
@@ -259,7 +343,7 @@ case 16:
 case 15:
                                         var13 = _closure1_slot0;
                                         var14 = _closure1_slot2;
-                                        var12 = 19;
+                                        var12 = 18;
                                         var12 = var14[var12];
                                         var12 = var13.bind(var3)(var12);
                                         var12 = var12.SavedMessageSortTypes;
@@ -275,7 +359,7 @@ case 17:
 case 19:
                                         var11 = _closure1_slot1;
                                         var12 = _closure1_slot2;
-                                        var10 = 20;
+                                        var10 = 19;
                                         var10 = var12[var10];
                                         var10 = var11.bind(var3)(var10);
                                         var11 = var10.bind(var3)();
@@ -308,7 +392,7 @@ case 7:
                         var _closure4_slot0 = var3;
                         var5 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var3 = 21;
+                        var3 = 20;
                         var4 = var4[var3];
                         var3 = undefined;
                         var5 = var5.bind(var3)(var4);
@@ -339,7 +423,7 @@ case 5:
             var3[0] = var5;
             var3[1] = var15;
             var7 = var9.bind(var10)(var7, var3);
-            var3 = 22;
+            var3 = 21;
             var3 = var8[var3];
             var8 = var6.bind(var4)(var3);
             var6 = var8.useStateFromStores;
@@ -358,7 +442,7 @@ case 26:
                     var1 = _closure2_slot1;
                     var2 = var1.type;
 case 25:
-                    var1 = _closure1_slot9;
+                    var1 = _closure1_slot8;
                     var1 = var1.UNKNOWN;
                     var1 = var2 === var1;
                     if(var1) { _fun0005_ip = 27; continue _fun0005 }
@@ -377,7 +461,7 @@ case 29:
 case 23:
                     var6 = _closure1_slot6;
                     var5 = var6.can;
-                    var4 = _closure1_slot10;
+                    var4 = _closure1_slot9;
                     var4 = var4.VIEW_CHANNEL;
                     var3 = _closure2_slot1;
                     var2 = var5.bind(var6)(var4, var3);
@@ -396,10 +480,10 @@ case 33:
 case 34:
             if(!var2) { _fun0002_ip = 32; continue _fun0002 }
 case 14:
-            var6 = _closure1_slot11;
+            var6 = _closure1_slot10;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 23;
+            var2 = 22;
             var2 = var8[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -409,9 +493,9 @@ case 14:
             var2 = var5.saveData;
             var2 = var2.dueAt;
             var14 = var12 != var2;
-            var6 = _closure1_slot12;
+            var6 = _closure1_slot11;
             var3 = _closure1_slot0;
-            var2 = 9;
+            var2 = 8;
             var2 = var8[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.Card;
@@ -422,10 +506,10 @@ case 14:
             var8 = null;
             if(!var14) { _fun0002_ip = 35; continue _fun0002 }
 case 36:
-            var10 = _closure1_slot11;
+            var10 = _closure1_slot10;
             var9 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var7 = 24;
+            var7 = 23;
             var7 = var17[var7];
             var7 = var9.bind(var4)(var7);
             var9 = var7.ForLaterCardReminderHeader;
@@ -437,10 +521,10 @@ case 36:
 case 35:
             var7 = new Array(4);
             var7[0] = var8;
-            var10 = _closure1_slot11;
+            var10 = _closure1_slot10;
             var9 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var8 = 25;
+            var8 = 24;
             var8 = var16[var8];
             var8 = var9.bind(var4)(var8);
             var9 = var8.ForLaterCardHeader;
@@ -454,22 +538,22 @@ case 37:
             var8['actions'] = var12;
             var8 = var10.bind(var4)(var9, var8);
             var7[1] = var8;
-            var10 = _closure1_slot11;
+            var10 = _closure1_slot10;
             var9 = _closure1_slot5;
             var8 = {};
             var12 = var11.cardDivider;
             var8['style'] = var12;
             var8 = var10.bind(var4)(var9, var8);
             var7[2] = var8;
-            var10 = _closure1_slot11;
+            var10 = _closure1_slot10;
             var9 = _closure1_slot5;
             var8 = {};
             var11 = var11.messagePreview;
             var8['style'] = var11;
-            var13 = _closure1_slot11;
+            var13 = _closure1_slot10;
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var11 = 26;
+            var11 = 25;
             var11 = var14[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.ForLaterMessageRow;
@@ -484,146 +568,16 @@ case 37:
             var2 = var6.bind(var4)(var3, var2);
             return var2;
 case 32:
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot14;
+            var3 = _closure1_slot10;
+            var2 = _closure1_slot13;
             var1 = {};
             var1['savedMessage'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot15 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var5 = {};
-    var1 = true;
-    var5['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
-    var1 = 0;
-    var5 = var7[var1];
-    var1 = undefined;
-    var5 = var14.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var12 = 1;
-    var8 = var7[var12];
-    var5 = metroImportAll;
-    var8 = var5.bind(var1)(var8);
-    var _closure1_slot4 = var8;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.View;
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var14.bind(var1)(var5);
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var14.bind(var1)(var5);
-    var _closure1_slot7 = var5;
-    var5 = 5;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var9 = var5.AnalyticEvents;
-    var _closure1_slot8 = var9;
-    var9 = var5.ChannelTypes;
-    var _closure1_slot9 = var9;
-    var5 = var5.Permissions;
-    var _closure1_slot10 = var5;
-    var5 = 6;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var9 = var5.jsx;
-    var _closure1_slot11 = var9;
-    var5 = var5.jsxs;
-    var _closure1_slot12 = var5;
-    var5 = 7;
-    var5 = var7[var5];
-    var10 = var6.bind(var1)(var5);
-    var9 = var10.createStyles;
-    var5 = {};
-    var11 = {'gap': 16, 'marginBottom': 16};
-    var5['card'] = var11;
-    var11 = {'marginHorizontal': 4294967280, 'height': 1, 'alignSelf': 'stretch'};
-    var13 = 8;
-    var15 = var7[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.BACKGROUND_MOD_MUTED;
-    var11['backgroundColor'] = var15;
-    var5['cardDivider'] = var11;
-    var11 = {'marginHorizontal': 4294967280, 'marginTop': 4294967287, 'marginBottom': 4294967280, 'borderBottomLeftRadius': null, 'borderBottomRightRadius': null, 'overflow': 'hidden'};
-    var15 = var7[var13];
-    var15 = var14.bind(var1)(var15);
-    var15 = var15.modules;
-    var15 = var15.mobile;
-    var15 = var15.CARD_DEFAULT_RADIUS;
-    var11['borderBottomLeftRadius'] = var15;
-    var13 = var7[var13];
-    var13 = var14.bind(var1)(var13);
-    var13 = var13.modules;
-    var13 = var13.mobile;
-    var13 = var13.CARD_DEFAULT_RADIUS;
-    var11['borderBottomRightRadius'] = var13;
-    var5['messagePreview'] = var11;
-    var11 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
-    var5['deletedCard'] = var11;
-    var11 = {};
-    var11['flex'] = var12;
-    var5['deletedText'] = var11;
-    var11 = {};
-    var12 = 'auto';
-    var11['marginLeft'] = var12;
-    var5['deletedActionButton'] = var11;
-    var5 = var9.bind(var10)(var5);
-    var _closure1_slot13 = var5;
-    var5 = var8.memo;
-    var4 = function ForLaterMessageCardGuard(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
-case 0:
-            var2 = arg1;
-            var3 = var2.savedMessageKey;
-            var _closure2_slot0 = var3;
-            var6 = var2.throttledNow;
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 22;
-            var3 = var5[var3];
-            var5 = undefined;
-            var7 = var4.bind(var5)(var3);
-            var4 = var7.useStateFromStores;
-            var8 = _closure1_slot7;
-            var3 = new Array(1);
-            var3[0] = var8;
-            var1 = function() {
-                var4 = _closure1_slot7;
-                var3 = var4.getSavedMessage;
-                var1 = _closure2_slot0;
-                var2 = var1.channelId;
-                var1 = var1.messageId;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
-            };
-            var7 = var4.bind(var7)(var3, var1);
-            var1 = null;
-            var3 = var1 == var7;
-            if(var3) { _fun0006_ip = 31; continue _fun0006 }
-case 39:
-            var4 = _closure1_slot11;
-            var3 = _closure1_slot15;
-            var2 = {};
-            var2['savedMessage'] = var7;
-            var2['throttledNow'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
-case 31:
-            return var1;
-        }
-    };
     var4 = var5.bind(var8)(var4);
-    var5 = 27;
+    var5 = 26;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

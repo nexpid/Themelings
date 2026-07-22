@@ -1188,19 +1188,9 @@ case 79:
         var7 = 'getSpatialAudioEnabled';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
-case 0:
-                var2 = this;
-                var3 = var2.context;
-                var1 = _closure1_slot13;
-                var1 = var1.DEFAULT;
-                var1 = var3 === var1;
-                if(!var1) { _fun0018_ip = 85; continue _fun0018 }
-case 11:
-                var1 = var2.spatialAudioEnabled;
-case 85:
-                return var1;
-            }
+            var1 = this;
+            var1 = var1.spatialAudioEnabled;
+            return var1;
         };
         var5['value'] = var7;
         var1[26] = var5;
@@ -1208,11 +1198,21 @@ case 85:
         var7 = 'setSpatialAudioEnabled';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var2 = arg1;
-            var1 = this;
-            var1['spatialAudioEnabled'] = var2;
-            var1 = undefined;
-            return var1;
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+case 0:
+                var2 = arg1;
+                var1 = this;
+                if(!var2) { _fun0018_ip = 85; continue _fun0018 }
+case 45:
+                var4 = var1.context;
+                var3 = _closure1_slot13;
+                var3 = var3.DEFAULT;
+                var2 = var4 === var3;
+case 85:
+                var1['spatialAudioEnabled'] = var2;
+                var1 = undefined;
+                return var1;
+            }
         };
         var5['value'] = var7;
         var1[27] = var5;

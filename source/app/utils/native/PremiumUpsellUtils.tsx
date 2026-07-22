@@ -172,63 +172,54 @@ case 0:
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.getBestActiveInput;
                     var3 = var2.bind(var3)();
-                    var8 = null;
-                    if(!(var8 != var3)) { _fun0003_ip = 22; continue _fun0003 }
+                    var6 = null;
+                    if(!(var6 != var3)) { _fun0003_ip = 22; continue _fun0003 }
 case 23:
                     var2 = var3.closeCustomKeyboard;
                     var2 = var2.bind(var3)();
 case 22:
-                    var4 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var3 = 20;
-                    var3 = var2[var3];
-                    var11 = var4.bind(var1)(var3);
-                    var7 = var11.track;
-                    var3 = _closure1_slot5;
-                    var5 = var3.PREMIUM_PROMOTION_OPENED;
-                    var3 = {};
-                    var10 = _closure2_slot2;
-                    var3['location'] = var10;
-                    var3 = var7.bind(var11)(var5, var3);
-                    var3 = 21;
-                    var3 = var2[var3];
-                    var5 = var4.bind(var1)(var3);
-                    var3 = var5.hideActionSheet;
-                    var3 = var3.bind(var5)();
-                    var3 = 22;
-                    var3 = var2[var3];
-                    var5 = var4.bind(var1)(var3);
-                    var4 = var5.pushLazy;
-                    var7 = _closure1_slot0;
-                    var3 = 15;
-                    var3 = var2[var3];
-                    var7 = var7.bind(var1)(var3);
-                    var3 = 23;
-                    var3 = var2[var3];
-                    var2 = var2.paths;
-                    var3 = var7.bind(var1)(var3, var2);
+                    var3 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var2 = 20;
+                    var2 = var5[var2];
+                    var11 = var3.bind(var1)(var2);
+                    var10 = var11.track;
+                    var2 = _closure1_slot5;
+                    var9 = var2.PREMIUM_PROMOTION_OPENED;
                     var2 = {};
-                    var7 = {};
-                    var14 = var7;
-                    var13 = var10;
-                    var10 = copyDataProperties(var14, var13);
-                    var9 = _closure1_slot6;
-                    var10 = var9.BUTTON_CTA;
-                    var9 = 'object';
-                    var7[8] = var10;
-                    var2['analyticsLocation'] = var7;
-                    var7 = _closure2_slot1;
-                    if(!(var8 == var7)) { _fun0003_ip = 24; continue _fun0003 }
+                    var8 = _closure2_slot2;
+                    var2['location'] = var8;
+                    var2 = var10.bind(var11)(var9, var2);
+                    var2 = 21;
+                    var2 = var5[var2];
+                    var9 = var3.bind(var1)(var2);
+                    var2 = var9.hideActionSheet;
+                    var2 = var2.bind(var9)();
+                    var2 = 22;
+                    var2 = var5[var2];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = {};
+                    var5 = {};
+                    var14 = var5;
+                    var13 = var8;
+                    var8 = copyDataProperties(var14, var13);
+                    var7 = _closure1_slot6;
+                    var8 = var7.BUTTON_CTA;
+                    var7 = 'object';
+                    var5[6] = var8;
+                    var2['analyticsLocation'] = var5;
+                    var5 = _closure2_slot1;
+                    if(!(var6 == var5)) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-                    var7 = new Array(0);
+                    var5 = new Array(0);
                     _fun0003_ip = 26; continue _fun0003;
 case 24:
-                    var7 = _closure2_slot1;
+                    var5 = _closure2_slot1;
 case 26:
-                    var2['analyticsLocations'] = var7;
-                    var6 = _closure2_slot6;
-                    var2['premiumFeatureCardOrder'] = var6;
-                    var2 = var4.bind(var5)(var3, var2);
+                    var2['analyticsLocations'] = var5;
+                    var4 = _closure2_slot6;
+                    var2['premiumFeatureCardOrder'] = var4;
+                    var2 = var3.bind(var1)(var2);
                     return var1;
                 }
             };
@@ -430,47 +421,47 @@ case 47:
             var6 = _closure1_slot7;
             var6 = var6.BADGE;
             if(!(var6 !== var7)) { _fun0005_ip = 48; continue _fun0005 }
-case 49:
+case 25:
             var6 = _closure1_slot7;
             var6 = var6.ANIMATED_EMOJI;
-            if(!(var6 !== var7)) { _fun0005_ip = 50; continue _fun0005 }
-case 51:
+            if(!(var6 !== var7)) { _fun0005_ip = 49; continue _fun0005 }
+case 50:
             var6 = _closure1_slot7;
             var6 = var6.EMOJI_AUTOCOMPLETE;
-            if(!(var6 !== var7)) { _fun0005_ip = 52; continue _fun0005 }
-case 53:
+            if(!(var6 !== var7)) { _fun0005_ip = 51; continue _fun0005 }
+case 52:
             var6 = _closure1_slot7;
             var6 = var6.CUSTOM_PROFILES;
-            if(!(var6 !== var7)) { _fun0005_ip = 54; continue _fun0005 }
-case 55:
+            if(!(var6 !== var7)) { _fun0005_ip = 53; continue _fun0005 }
+case 54:
             var6 = _closure1_slot7;
             var6 = var6.APP_ICONS;
-            if(!(var6 !== var7)) { _fun0005_ip = 56; continue _fun0005 }
-case 57:
+            if(!(var6 !== var7)) { _fun0005_ip = 55; continue _fun0005 }
+case 56:
             var6 = _closure1_slot7;
             var6 = var6.GLOBAL_STICKER;
-            if(!(var6 !== var7)) { _fun0005_ip = 58; continue _fun0005 }
-case 59:
+            if(!(var6 !== var7)) { _fun0005_ip = 57; continue _fun0005 }
+case 58:
             var6 = _closure1_slot7;
             var6 = var6.PREMIUM_GUILD_PROFILE;
-            if(!(var6 !== var7)) { _fun0005_ip = 60; continue _fun0005 }
-case 61:
+            if(!(var6 !== var7)) { _fun0005_ip = 59; continue _fun0005 }
+case 60:
             var6 = _closure1_slot7;
             var6 = var6.LONGER_MESSAGE;
-            if(!(var6 !== var7)) { _fun0005_ip = 62; continue _fun0005 }
-case 63:
+            if(!(var6 !== var7)) { _fun0005_ip = 61; continue _fun0005 }
+case 62:
             var6 = _closure1_slot7;
             var6 = var6.GUILD_CAP;
-            if(!(var6 !== var7)) { _fun0005_ip = 64; continue _fun0005 }
-case 65:
+            if(!(var6 !== var7)) { _fun0005_ip = 63; continue _fun0005 }
+case 64:
             var6 = _closure1_slot7;
             var6 = var6.STREAM_HIGH_QUALITY;
             var3 = false;
             if(!(var6 === var7)) { _fun0005_ip = 41; continue _fun0005 }
-case 66:
+case 65:
             var3 = true;
             _fun0005_ip = 41; continue _fun0005;
-case 64:
+case 63:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 16;
@@ -480,7 +471,7 @@ case 64:
             var6 = var6.bind(var7)(var9);
             var3 = !var6;
             _fun0005_ip = 41; continue _fun0005;
-case 62:
+case 61:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 16;
@@ -490,7 +481,7 @@ case 62:
             var6 = var6.bind(var7)(var9);
             var3 = !var6;
             _fun0005_ip = 41; continue _fun0005;
-case 60:
+case 59:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 16;
@@ -500,7 +491,7 @@ case 60:
             var6 = var6.bind(var7)(var9);
             var3 = !var6;
             _fun0005_ip = 41; continue _fun0005;
-case 58:
+case 57:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 16;
@@ -510,7 +501,7 @@ case 58:
             var6 = var6.bind(var7)(var9);
             var3 = !var6;
             _fun0005_ip = 41; continue _fun0005;
-case 56:
+case 55:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 16;
@@ -520,7 +511,7 @@ case 56:
             var6 = var6.bind(var7)(var9);
             var3 = !var6;
             _fun0005_ip = 41; continue _fun0005;
-case 54:
+case 53:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 16;
@@ -530,7 +521,7 @@ case 54:
             var6 = var6.bind(var7)(var9);
             var3 = !var6;
             _fun0005_ip = 41; continue _fun0005;
-case 52:
+case 51:
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
             var10 = 16;
@@ -539,8 +530,8 @@ case 52:
             var6 = var7.canUseAnimatedEmojis;
             var6 = var6.bind(var7)(var9);
             var6 = !var6;
-            if(var6) { _fun0005_ip = 67; continue _fun0005 }
-case 68:
+            if(var6) { _fun0005_ip = 66; continue _fun0005 }
+case 67:
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
             var7 = var7[var10];
@@ -548,10 +539,10 @@ case 68:
             var7 = var8.canUseEmojisEverywhere;
             var7 = var7.bind(var8)(var9);
             var6 = !var7;
-case 67:
+case 66:
             var3 = var6;
             _fun0005_ip = 41; continue _fun0005;
-case 50:
+case 49:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var6 = 16;
@@ -603,16 +594,16 @@ case 43:
             var6 = var7.bind(var8)(var9, var6);
             var3 = !var6;
 case 41:
-            if(!var3) { _fun0005_ip = 69; continue _fun0005 }
-case 70:
+            if(!var3) { _fun0005_ip = 68; continue _fun0005 }
+case 69:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 12;
             var3 = var7[var3];
             var3 = var6.bind(var1)(var3);
             var3 = var3.bind(var1)(var4);
-            if(var3) { _fun0005_ip = 71; continue _fun0005 }
-case 72:
+            if(var3) { _fun0005_ip = 70; continue _fun0005 }
+case 71:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 13;
@@ -672,15 +663,15 @@ case 72:
             };
             var2['importer'] = var5;
             var2 = var3.bind(var4)(var2);
-case 69:
+case 68:
             return var1;
-case 71:
+case 70:
             return var1;
         }
     };
     var5['handleShowUpsellAlert'] = var6;
     var5['usePremiumUpsellConfig'] = var2;
-    var6 = 24;
+    var6 = 23;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

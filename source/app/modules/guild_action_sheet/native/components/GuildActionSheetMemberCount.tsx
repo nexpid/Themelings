@@ -194,27 +194,27 @@ case 11:
                 var7 = var6.Text;
                 var6 = {};
                 var14 = 'text-xs/medium';
-                if(!var10) { _fun0002_ip = 5; continue _fun0002 }
-case 15:
+                if(!var10) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
                 var14 = 'text-sm/normal';
-case 5:
+case 15:
                 var6['variant'] = var14;
                 var14 = var12 != var13;
                 var12 = 'text-default';
-                if(!var14) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+                if(!var14) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
                 var12 = var13;
-case 16:
+case 17:
                 var6['color'] = var12;
                 var12 = 1;
                 var6['lineClamp'] = var12;
-                if(var10) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
-                var10 = var11.text;
-                _fun0002_ip = 20; continue _fun0002;
-case 18:
-                var10 = var11.refreshText;
+                if(var10) { _fun0002_ip = 19; continue _fun0002 }
 case 20:
+                var10 = var11.text;
+                _fun0002_ip = 21; continue _fun0002;
+case 19:
+                var10 = var11.refreshText;
+case 21:
                 var6['style'] = var10;
                 var6['children'] = var9;
                 var6 = var8.bind(var4)(var7, var6);

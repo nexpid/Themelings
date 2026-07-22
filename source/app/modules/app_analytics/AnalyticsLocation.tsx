@@ -242,6 +242,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_POWERUPS_COACHMARK_EXPIRING_PERK'] = var1;
     var1 = 'guild powerups - coachmark - guild theme member';
     var2['GUILD_POWERUPS_COACHMARK_GUILD_THEME_MEMBER'] = var1;
+    var1 = 'guild powerups - coachmark';
+    var2['GUILD_POWERUPS_COACHMARK'] = var1;
     var1 = 'guild powerups - marketing';
     var2['GUILD_POWERUPS_MARKETING'] = var1;
     var1 = 'guild powerups - marketing video modal';

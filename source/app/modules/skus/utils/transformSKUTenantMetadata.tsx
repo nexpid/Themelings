@@ -355,8 +355,10 @@ case 25:
             var1['variant'] = var3;
             var3 = var2.option_selector_display_value;
             var1['optionSelectorDisplayValue'] = var3;
-            var2 = var2.source_type;
-            var1['sourceType'] = var2;
+            var3 = var2.source_type;
+            var1['sourceType'] = var3;
+            var2 = var2.is_first_party;
+            var1['isFirstParty'] = var2;
             return var1;
         }
     };

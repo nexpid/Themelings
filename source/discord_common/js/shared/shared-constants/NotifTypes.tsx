@@ -234,6 +234,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MESSAGE_REQUEST'] = var4;
     var1 = 'MESSAGE_REQUEST';
     var2[var4] = var1;
+    var4 = 58;
+    var2['FRIENDS_PLAYING_TRENDING_GAME'] = var4;
+    var1 = 'FRIENDS_PLAYING_TRENDING_GAME';
+    var2[var4] = var1;
     var4 = 999999;
     var2['TEST'] = var4;
     var1 = 'TEST';
