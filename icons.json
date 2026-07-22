@@ -593,7 +593,7 @@
     },
     "avatar_placeholder": {
         "file": "app/images/avatar_placeholder.png",
-        "hash": "f3301101be61d91e0c3888cee5854bbe",
+        "hash": "e32a360d37f718d45e03d9f2fe827035",
         "scales": [
             1
         ],
@@ -7858,16 +7858,6 @@
         "width": 185,
         "height": 32
     },
-    "img_marketing_boosting_hands": {
-        "file": "app/images/native/premium/illustrations/img_marketing_boosting_hands.png",
-        "hash": "8477337f8ec309d9db0fedfc91570d28",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 233,
-        "height": 131.5
-    },
     "img_marketing_frog": {
         "file": "app/images/native/premium/illustrations/img_marketing_frog.png",
         "hash": "e786e2db9ac41808374260a48d3a5876",
@@ -10604,6 +10594,16 @@
     "QuestsIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/QuestsIcon.png",
         "hash": "1fa18e452308090b708bccf68d32d023",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "QuoteIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/QuoteIcon.png",
+        "hash": "78e18d727d8c0a3ff78e647d73ffb0be",
         "scales": [
             2,
             3
