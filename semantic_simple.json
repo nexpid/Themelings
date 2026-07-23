@@ -35,6 +35,18 @@
         "midnight": "#2c2d35",
         "darker": "#383a43"
     },
+    "BACKGROUND_APP_LAUNCHER_CARD_DEFAULT": {
+        "dark": "#111214",
+        "light": "#ffffff",
+        "midnight": "#131318",
+        "darker": "#26272f"
+    },
+    "BACKGROUND_APP_LAUNCHER_ROW_DEFAULT": {
+        "dark": "#313338",
+        "light": "#ffffff",
+        "midnight": "#131318",
+        "darker": "#26272f"
+    },
     "BACKGROUND_BASE_LOW": {
         "dark": "#313338",
         "light": "#ffffff",
