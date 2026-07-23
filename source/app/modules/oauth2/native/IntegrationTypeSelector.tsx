@@ -88,13 +88,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = 8;
     var10['padding'] = var13;
     var2['descriptionMainContainer'] = var10;
-    var10 = {'backgroundColor': null, 'bottom': 8, 'right': 8};
-    var13 = var7[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.CARD_BACKGROUND_DEFAULT;
-    var10['backgroundColor'] = var13;
-    var2['expandDescriptionCTA'] = var10;
     var10 = {'height': 82, 'width': 82};
     var13 = var7[var11];
     var13 = var12.bind(var1)(var13);
@@ -340,8 +333,6 @@ case 9:
             var8['viewContainerStyle'] = var15;
             var15 = var10.descriptionMainContainer;
             var8['mainContainerStyle'] = var15;
-            var15 = var10.expandDescriptionCTA;
-            var8['expandDescriptionCTAStyle'] = var15;
             var7 = var14.bind(var4)(var12, var8);
 case 8:
             var6[2] = var7;

@@ -612,8 +612,6 @@ case 29:
     var12 = -4;
     var9['marginTop'] = var12;
     var4['activityUrlOverrideInputContainer'] = var9;
-    var9 = {'right': 0, 'bottom': 0};
-    var4['expandDescriptionCTAStyle'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var13.bind(var1)(var12);
@@ -1121,8 +1119,6 @@ case 73:
             var22 = var22.bind(var4)(var18);
             var18 = {};
             var18['application'] = var28;
-            var24 = var38.expandDescriptionCTAStyle;
-            var18['expandDescriptionCTAStyle'] = var24;
             var22 = var23.bind(var4)(var22, var18);
             var18 = new Array(5);
             var18[0] = var22;

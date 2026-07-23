@@ -176,9 +176,7 @@ case 9:
             var21 = var27[var21];
             var21 = var24.bind(var4)(var21);
             var24 = var21.Text;
-            var21 = {};
-            var27 = 'text-md/semibold';
-            var21['variant'] = var27;
+            var21 = {'variant': 'text-md/semibold', 'color': null, 'includeFontPadding': true};
             var27 = 'mobile-text-heading-primary';
             var28 = 'danger';
             if(!(var28 === var29)) { _fun0001_ip = 10; continue _fun0001 }

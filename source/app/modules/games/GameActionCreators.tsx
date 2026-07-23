@@ -190,44 +190,35 @@ case 12:
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     StartGenerator();
-                    var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 18; continue _fun0003 }
-case 4:
-                    var7 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var3 = 4;
-                    var4 = var8[var3];
-                    var3 = undefined;
-                    var6 = var7.bind(var3)(var4);
-                    var5 = var6.dispatch;
-                    var4 = {};
-                    var10 = 'GAME_FETCH';
-                    var4['type'] = var10;
-                    var4['gameIds'] = var9;
-                    var4 = var5.bind(var6)(var4);
-                    var4 = global;
-                    var5 = var4.Promise;
+case 19:
+                    var2 = global;
+                    var5 = var2.Promise;
                     var4 = var5.all;
-                    var6 = 6;
-                    var6 = var8[var6];
-                    var8 = var7.bind(var3)(var6);
-                    var7 = var8.chunk;
+                    var7 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var3 = 6;
+                    var6 = var6[var3];
+                    var3 = undefined;
+                    var9 = var7.bind(var3)(var6);
+                    var8 = var9.chunk;
+                    var7 = arg1;
                     var6 = 20;
-                    var7 = var7.bind(var8)(var9, var6);
+                    var7 = var8.bind(var9)(var7, var6);
                     var6 = var7.map;
                     var2 = _closure1_slot7;
                     var2 = var6.bind(var7)(var2);
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=129);
-case 19:
-                    return var2;
+                    SaveGenerator(address=87);
 case 20:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 21; continue _fun0003 }
-case 22:
-                    return var3;
+                    return var2;
 case 21:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+                    return var3;
+case 22:
                     return var2;
 case 18:
                     return var1;
@@ -250,9 +241,8 @@ case 18:
         return var1;
     };
     var12 = var4.bind(var1)();
-    var4 = var9.prototype;
-    var7 = Object.create(var4, {constructor: {value: var9}});
-    var11 = function(arg1) {
+    var4 = {};
+    var7 = function predicate(arg1) {
         var3 = _closure1_slot4;
         var2 = var3.hasNoData;
         var1 = arg1;
@@ -260,7 +250,45 @@ case 18:
         var1 = !var1;
         return var1;
     };
+    var4['predicate'] = var7;
+    var7 = function onQueued(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.dispatch;
+        var1 = {};
+        var4 = 'GAME_FETCH';
+        var1['type'] = var4;
+        var4 = arg1;
+        var1['gameIds'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var4['onQueued'] = var7;
+    var7 = function onCancelled(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.dispatch;
+        var1 = {};
+        var4 = 'GAME_FETCH_CANCELLED';
+        var1['type'] = var4;
+        var4 = arg1;
+        var1['gameIds'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var4['onCancelled'] = var7;
+    var7 = var9.prototype;
+    var7 = Object.create(var7, {constructor: {value: var9}});
     var13 = var7;
+    var11 = var4;
     var4 = new var13[var9](var12, var11, var10);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot6 = var4;

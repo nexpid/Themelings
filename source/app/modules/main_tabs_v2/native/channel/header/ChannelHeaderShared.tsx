@@ -388,64 +388,71 @@ case 25:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.icon;
+            var10 = var1.icon;
             var5 = var1.IconComponent;
-            var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
             var1 = 9;
-            var1 = var4[var1];
+            var1 = var9[var1];
             var4 = undefined;
-            var3 = var3.bind(var4)(var1);
+            var3 = var8.bind(var4)(var1);
             var1 = 'ChannelHeaderShared';
             var7 = var3.bind(var4)(var1);
+            var3 = _closure1_slot0;
+            var1 = 17;
+            var1 = var9[var1];
+            var6 = var3.bind(var4)(var1);
+            var3 = var6.useToken;
+            var1 = 8;
+            var1 = var9[var1];
+            var1 = var8.bind(var4)(var1);
+            var1 = var1.modules;
+            var1 = var1.mobile;
+            var1 = var1.CHANNEL_HEADER_ICON_SIZE;
+            var6 = var3.bind(var6)(var1);
             var1 = _closure1_slot12;
-            var8 = var1.bind(var4)(var7);
+            var9 = var1.bind(var4)(var7);
             var1 = null;
             if(!(var1 == var5)) { _fun0005_ip = 27; continue _fun0005 }
 case 28:
-            var6 = _closure1_slot9;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var10 = 14;
-            var1 = var12[var10];
-            var1 = var11.bind(var4)(var1);
+            var8 = _closure1_slot9;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var11 = 14;
+            var1 = var13[var11];
+            var1 = var12.bind(var4)(var1);
             var3 = var1.Icon;
             var1 = {};
-            var10 = var12[var10];
-            var10 = var11.bind(var4)(var10);
-            var10 = var10.Icon;
-            var10 = var10.Sizes;
-            var10 = var10.SMALL_20;
-            var1['size'] = var10;
-            var1['source'] = var9;
-            var8 = var8.guildChannelIcon;
-            var8 = var8.tintColor;
-            var1['color'] = var8;
-            var1 = var6.bind(var4)(var3, var1);
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var11 = var11.Icon;
+            var11 = var11.Sizes;
+            var11 = var11.SMALL_20;
+            var1['size'] = var11;
+            var1['source'] = var10;
+            var9 = var9.guildChannelIcon;
+            var9 = var9.tintColor;
+            var1['color'] = var9;
+            var1 = var8.bind(var4)(var3, var1);
             _fun0005_ip = 29; continue _fun0005;
 case 27:
             var3 = _closure1_slot9;
             var2 = {};
-            var6 = 'md';
-            if(!var7) { _fun0005_ip = 30; continue _fun0005 }
-case 31:
-            var6 = 'xs';
-case 30:
             var2['size'] = var6;
             var6 = 'text-strong';
-            if(!var7) { _fun0005_ip = 32; continue _fun0005 }
-case 33:
+            if(!var7) { _fun0005_ip = 30; continue _fun0005 }
+case 31:
             var6 = 'icon-strong';
-case 32:
+case 30:
             var2['color'] = var6;
             var6 = undefined;
-            if(!var7) { _fun0005_ip = 34; continue _fun0005 }
-case 35:
+            if(!var7) { _fun0005_ip = 32; continue _fun0005 }
+case 6:
             var7 = {};
             var8 = 4;
             var7['marginEnd'] = var8;
             var6 = var7;
-case 34:
+case 32:
             var2['style'] = var6;
             var1 = var3.bind(var4)(var5, var2);
 case 29:
@@ -458,8 +465,9 @@ case 29:
 case 0:
             var1 = arg1;
             var6 = var1.presenceCount;
-            var13 = var1.memberCount;
+            var14 = var1.memberCount;
             var8 = var1.withSeparator;
+            var13 = var1.leadingAccessoryWidth;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -468,46 +476,52 @@ case 0:
             var2 = var2.bind(var4)(var1);
             var1 = 'ChannelHeaderShared';
             var11 = var2.bind(var4)(var1);
-            var14 = 'online';
+            var15 = 'online';
             var1 = 0;
-            var12 = var14;
-            if(!(var1 === var6)) { _fun0006_ip = 36; continue _fun0006 }
-case 37:
+            var12 = var15;
+            if(!(var1 === var6)) { _fun0006_ip = 33; continue _fun0006 }
+case 34:
             var1 = null;
-            var12 = var14;
-            if(!(var1 !== var13)) { _fun0006_ip = 36; continue _fun0006 }
-case 38:
+            var12 = var15;
+            if(!(var1 !== var14)) { _fun0006_ip = 33; continue _fun0006 }
+case 35:
             var12 = 'total';
-case 36:
+case 33:
             var3 = _closure1_slot10;
             var2 = _closure1_slot11;
             var1 = {};
             var10 = _closure1_slot9;
             var9 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var5 = 18;
-            var5 = var15[var5];
+            var16 = _closure1_slot2;
+            var5 = 19;
+            var5 = var16[var5];
             var9 = var9.bind(var4)(var5);
             var5 = {};
             var5['type'] = var12;
-            if(!(var14 === var12)) { _fun0006_ip = 39; continue _fun0006 }
-case 40:
-            var13 = var6;
-case 39:
+            if(!(var15 === var12)) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
+            var14 = var6;
+case 36:
             var6 = null;
-            var14 = var6 != var13;
+            var15 = var6 != var14;
             var12 = undefined;
-            if(!var14) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
-            var12 = var13;
-case 41:
+            if(!var15) { _fun0006_ip = 38; continue _fun0006 }
+case 39:
+            var12 = var14;
+case 38:
             var5['count'] = var12;
             var12 = 'text-muted';
-            if(!var11) { _fun0006_ip = 43; continue _fun0006 }
-case 26:
+            if(!var11) { _fun0006_ip = 40; continue _fun0006 }
+case 41:
             var12 = 'text-subtle';
-case 43:
+case 40:
             var5['color'] = var12;
+            var12 = undefined;
+            if(!var11) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
+            var12 = var13;
+case 42:
+            var5['dotContainerWidth'] = var12;
             var9 = var10.bind(var4)(var9, var5);
             var5 = new Array(2);
             var5[0] = var9;
@@ -523,10 +537,10 @@ case 45:
             var8 = var7.Text;
             var7 = {'variant': null, 'color': 'text-subtle', 'children': '•'};
             var10 = 'text-xs/medium';
-            if(!var11) { _fun0006_ip = 6; continue _fun0006 }
-case 46:
+            if(!var11) { _fun0006_ip = 46; continue _fun0006 }
+case 32:
             var10 = 'text-sm/normal';
-case 6:
+case 46:
             var7['variant'] = var10;
             var6 = var9.bind(var4)(var8, var7);
 case 44:
@@ -559,7 +573,7 @@ case 0:
             var1 = var15.bind(var4)(var1);
             var2 = var1.Text;
             var1 = {'lineClamp': 1, 'accessibilityLabel': null, 'maxFontSizeMultiplier': 2};
-            var7 = 19;
+            var7 = 20;
             var8 = var14[var7];
             var8 = var15.bind(var4)(var8);
             var13 = var8.intl;
@@ -569,7 +583,7 @@ case 0:
             var7 = var7.t;
             var11 = var7.BjYvHO;
             var7 = {};
-            var8 = 20;
+            var8 = 21;
             var14 = var14[var8];
             var17 = var15.bind(var4)(var14);
             var16 = var17.computeChannelName;
@@ -738,7 +752,7 @@ case 55:
     };
     var5 = var8.bind(var9)(var5);
     var _closure1_slot12 = var5;
-    var5 = 21;
+    var5 = 22;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -834,7 +848,7 @@ case 0:
             var4 = _closure1_slot17;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var2 = var6[var1];
             var3 = undefined;
             var9 = var5.bind(var3)(var2);
@@ -884,6 +898,8 @@ case 10:
             var2['presenceCount'] = var8;
             var2['memberCount'] = var7;
             var2['withSeparator'] = var6;
+            var6 = arguments[3];
+            var2['leadingAccessoryWidth'] = var6;
             var1 = var4.bind(var5)(var3, var2);
 case 64:
             return var1;

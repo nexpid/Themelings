@@ -374,8 +374,6 @@ case 6:
     var14['backgroundColor'] = var16;
     var19 = 16;
     var8['mainContainerStyle'] = var14;
-    var14 = {'right': 16, 'bottom': 16};
-    var8['expandDescriptionCTAStyle'] = var14;
     var14 = {};
     var16 = var7[var17];
     var16 = var18.bind(var1)(var16);
@@ -1058,8 +1056,6 @@ case 51:
             var27['viewContainerStyle'] = var45;
             var45 = var31.mainContainerStyle;
             var27['mainContainerStyle'] = var45;
-            var45 = var31.expandDescriptionCTAStyle;
-            var27['expandDescriptionCTAStyle'] = var45;
             var27 = var40.bind(var4)(var29, var27);
             _fun0004_ip = 52; continue _fun0004;
 case 50:

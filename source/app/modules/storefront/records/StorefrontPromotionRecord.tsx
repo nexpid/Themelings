@@ -64,9 +64,15 @@ case 9:
             var6 = var5.discount;
             var6 = var6.type;
             var4['type'] = var6;
+            var6 = var5.discount;
+            var6 = var6.amount;
+            var4['amount'] = var6;
+            var6 = var5.discount;
+            var6 = var6.fiat_enabled;
+            var4['fiatEnabled'] = var6;
             var5 = var5.discount;
-            var5 = var5.amount;
-            var4['amount'] = var5;
+            var5 = var5.orbs_enabled;
+            var4['orbsEnabled'] = var5;
             var3 = var4;
 case 8:
             var2['discount'] = var3;

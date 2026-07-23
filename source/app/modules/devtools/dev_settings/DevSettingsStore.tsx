@@ -161,6 +161,12 @@ case 4:
     var11['category'] = var12;
     var2['idle_status_indicator'] = var11;
     var11 = {};
+    var12 = 'Mana Text Migration Highlighter. Green: migrated Text/Heading. Dashed red: migrated but a caller style overrides the variant, so it will not move with the experiment. Solid red: unmigrated LegacyText. Yellow: TextStyleSheet read directly (experiment-reachable, not migrated); requires an app restart to take effect.';
+    var11['label'] = var12;
+    var12 = var5.OVERLAYS;
+    var11['category'] = var12;
+    var2['highlight_mana_text'] = var11;
+    var11 = {};
     var12 = 'Uploads: Fail 50% of uploads with 500 status after a 1 second delay';
     var11['label'] = var12;
     var12 = var5.MESSAGING;

@@ -549,7 +549,7 @@ case 65:
                     var3['trial'] = var14;
                     var3['max_num_active_trial_users'] = var13;
                     var3 = var6.bind(var8)(var11, var10, var3);
-                    SaveGenerator(address=404);
+                    SaveGenerator(address=406);
 case 66:
                     return var3;
 case 67:
@@ -700,7 +700,7 @@ case 72:
                     var20 = var9;
                     var8 = arraySpread(var21, var20, var19);
                     var4 = var6.bind(var7)(var4);
-                    SaveGenerator(address=634);
+                    SaveGenerator(address=636);
 case 73:
                     return var4;
 case 74:

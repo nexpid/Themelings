@@ -42,31 +42,30 @@ case 0:
         var12 = 'center';
         var10 = {'flexDirection': 'row', 'alignItems': 'center'};
         var4['wrapper'] = var10;
-        var10 = {'width': 8, 'height': 8, 'borderRadius': null, 'marginRight': 4};
+        var10 = {'width': 8, 'height': 8};
         var11 = 4;
         var14 = var6[var11];
         var14 = var13.bind(var1)(var14);
         var14 = var14.radii;
         var14 = var14.sm;
         var10['borderRadius'] = var14;
+        var4['dot'] = var10;
+        var10 = {'alignItems': 'center', 'justifyContent': 'center', 'marginRight': 4};
+        var4['dotContainer'] = var10;
+        var10 = {};
         var14 = var6[var11];
         var14 = var13.bind(var1)(var14);
         var14 = var14.colors;
         var14 = var14.TEXT_STATUS_ONLINE;
         var10['backgroundColor'] = var14;
-        var4['online'] = var10;
-        var10 = {'width': 8, 'height': 8, 'borderRadius': null, 'marginRight': 4};
-        var14 = var6[var11];
-        var14 = var13.bind(var1)(var14);
-        var14 = var14.radii;
-        var14 = var14.sm;
-        var10['borderRadius'] = var14;
+        var4['onlineDot'] = var10;
+        var10 = {};
         var11 = var6[var11];
         var11 = var13.bind(var1)(var11);
         var11 = var11.colors;
         var11 = var11.TEXT_STATUS_OFFLINE;
         var10['backgroundColor'] = var11;
-        var4['total'] = var10;
+        var4['offlineDot'] = var10;
         var10 = {};
         var10['textAlignVertical'] = var12;
         var11 = 5;
@@ -101,9 +100,10 @@ case 4:
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                 var1 = arg1;
-                var7 = var1.type;
-                var8 = var1.count;
+                var18 = var1.type;
+                var7 = var1.count;
                 var13 = var1.color;
+                var16 = var1.dotContainerWidth;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 6;
@@ -113,60 +113,60 @@ case 0:
                 var1 = 'GuildActionSheetMemberCount';
                 var10 = var2.bind(var4)(var1);
                 var12 = null;
-                if(!(var12 != var8)) { _fun0002_ip = 6; continue _fun0002 }
+                if(!(var12 != var7)) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var11 = 7;
-                var1 = var1[var11];
+                var9 = 7;
+                var1 = var1[var9];
                 var1 = var2.bind(var4)(var1);
                 var5 = var1.intl;
                 var3 = var5.format;
                 var1 = 'online';
-                if(!(var1 !== var7)) { _fun0002_ip = 8; continue _fun0002 }
+                if(!(var1 !== var18)) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var1 = var1[var11];
+                var1 = var1[var9];
                 var1 = var2.bind(var4)(var1);
                 var1 = var1.t;
                 var2 = var1.etqpUG;
                 _fun0002_ip = 10; continue _fun0002;
 case 8:
-                var9 = _closure1_slot0;
+                var8 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var1 = var1[var11];
-                var1 = var9.bind(var4)(var1);
+                var1 = var1[var9];
+                var1 = var8.bind(var4)(var1);
                 var1 = var1.t;
                 var2 = var1.PIikks;
 case 10:
                 var1 = {};
-                var1['count'] = var8;
+                var1['count'] = var7;
                 var9 = var3.bind(var5)(var2, var1);
                 _fun0002_ip = 11; continue _fun0002;
 case 6:
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var11 = 7;
-                var1 = var1[var11];
+                var8 = 7;
+                var1 = var1[var8];
                 var1 = var2.bind(var4)(var1);
                 var3 = var1.intl;
                 var2 = var3.string;
                 var1 = 'online';
-                if(!(var1 !== var7)) { _fun0002_ip = 12; continue _fun0002 }
+                if(!(var1 !== var18)) { _fun0002_ip = 12; continue _fun0002 }
 case 13:
                 var5 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var1 = var1[var11];
+                var1 = var1[var8];
                 var1 = var5.bind(var4)(var1);
                 var1 = var1.t;
                 var1 = var1["5SWsJX"];
                 _fun0002_ip = 14; continue _fun0002;
 case 12:
-                var8 = _closure1_slot0;
+                var7 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var5 = var5[var11];
-                var5 = var8.bind(var4)(var5);
+                var5 = var5[var8];
+                var5 = var7.bind(var4)(var5);
                 var5 = var5.t;
                 var1 = var5["3DzP7x"];
 case 14:
@@ -179,13 +179,42 @@ case 11:
                 var1 = {};
                 var5 = var11.wrapper;
                 var1['style'] = var5;
-                var8 = _closure1_slot4;
+                var7 = _closure1_slot4;
                 var5 = {};
-                var7 = var11[var7];
-                var5['style'] = var7;
-                var7 = var8.bind(var4)(var2, var5);
+                var14 = var11.dotContainer;
+                var8 = new Array(2);
+                var8[0] = var14;
+                var14 = var12 != var16;
+                if(!var14) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
+                var15 = {};
+                var15['width'] = var16;
+                var14 = var15;
+case 15:
+                var8[1] = var14;
+                var5['style'] = var8;
+                var15 = _closure1_slot4;
+                var14 = _closure1_slot3;
+                var8 = {};
+                var17 = var11.dot;
+                var16 = new Array(2);
+                var16[0] = var17;
+                var17 = 'online';
+                if(!(var17 !== var18)) { _fun0002_ip = 17; continue _fun0002 }
+case 18:
+                var17 = var11.offlineDot;
+                _fun0002_ip = 19; continue _fun0002;
+case 17:
+                var17 = var11.onlineDot;
+case 19:
+                var16[1] = var17;
+                var8['style'] = var16;
+                var8 = var15.bind(var4)(var14, var8);
+                var5['children'] = var8;
+                var7 = var7.bind(var4)(var2, var5);
                 var5 = new Array(2);
                 var5[0] = var7;
+                var8 = _closure1_slot4;
                 var7 = _closure1_slot0;
                 var14 = _closure1_slot2;
                 var6 = 8;
@@ -194,27 +223,27 @@ case 11:
                 var7 = var6.Text;
                 var6 = {};
                 var14 = 'text-xs/medium';
-                if(!var10) { _fun0002_ip = 15; continue _fun0002 }
-case 16:
+                if(!var10) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
                 var14 = 'text-sm/normal';
-case 15:
+case 20:
                 var6['variant'] = var14;
                 var14 = var12 != var13;
                 var12 = 'text-default';
-                if(!var14) { _fun0002_ip = 17; continue _fun0002 }
-case 18:
+                if(!var14) { _fun0002_ip = 22; continue _fun0002 }
+case 23:
                 var12 = var13;
-case 17:
+case 22:
                 var6['color'] = var12;
                 var12 = 1;
                 var6['lineClamp'] = var12;
-                if(var10) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+                if(var10) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
                 var10 = var11.text;
-                _fun0002_ip = 21; continue _fun0002;
-case 19:
+                _fun0002_ip = 26; continue _fun0002;
+case 24:
                 var10 = var11.refreshText;
-case 21:
+case 26:
                 var6['style'] = var10;
                 var6['children'] = var9;
                 var6 = var8.bind(var4)(var7, var6);

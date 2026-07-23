@@ -169,9 +169,14 @@ case 2:
     var10 = var11.filter;
     var4 = var4.Boolean;
     var4 = var10.bind(var11)(var4);
-    var5 = var5.bind(var6)(var4);
-    var _closure1_slot11 = var5;
+    var6 = var5.bind(var6)(var4);
+    var _closure1_slot11 = var6;
     var4 = 8;
+    var4 = var8[var4];
+    var5 = var7.bind(var1)(var4);
+    var4 = var5.withManaTextMigrationHighlight;
+    var5 = var4.bind(var5)(var6);
+    var4 = 9;
     var4 = var8[var4];
     var10 = var7.bind(var1)(var4);
     var6 = var10.createStyles;
@@ -215,95 +220,124 @@ case 10:
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
             var9 = arg1;
-            var13 = var9.variant;
+            var16 = var9.variant;
             var14 = var9.color;
             var10 = var9.style;
             var8 = var9.lineClamp;
-            var7 = var9.ellipsizeMode;
-            var12 = var9.tabularNumbers;
+            var12 = var9.includeFontPadding;
             var4 = undefined;
             if(!(var12 === var4)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
             var12 = false;
 case 12:
-            var1 = var9.animated;
-            if(!(var1 === var4)) { _fun0003_ip = 14; continue _fun0003 }
+            var7 = var9.ellipsizeMode;
+            var13 = var9.tabularNumbers;
+            if(!(var13 === var4)) { _fun0003_ip = 14; continue _fun0003 }
 case 15:
-            var1 = false;
+            var13 = false;
 case 14:
-            var2 = var9.experimental_useNativeText;
+            var2 = var9.animated;
             if(!(var2 === var4)) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
             var2 = false;
 case 16:
-            var5 = {'variant': 0, 'color': 0, 'style': 0, 'lineClamp': 0, 'ellipsizeMode': 0, 'tabularNumbers': 0, 'animated': 0, 'experimental_useNativeText': 0};
+            var3 = var9.experimental_useNativeText;
+            if(!(var3 === var4)) { _fun0003_ip = 18; continue _fun0003 }
+case 19:
+            var3 = false;
+case 18:
+            var5 = {'variant': 0, 'color': 0, 'style': 0, 'lineClamp': 0, 'includeFontPadding': 0, 'ellipsizeMode': 0, 'tabularNumbers': 0, 'animated': 0, 'experimental_useNativeText': 0};
             var6 = null;
-            var18 = var5;
-            var17 = null;
-            var3 = silentSetPrototypeOf(var18, var17);
-            var18 = {};
-            var17 = var9;
-            var16 = var5;
-            var5 = copyDataProperties(var18, var17, var16);
+            var19 = var5;
+            var18 = null;
+            var1 = silentSetPrototypeOf(var19, var18);
+            var19 = {};
+            var18 = var9;
+            var17 = var5;
+            var5 = copyDataProperties(var19, var18, var17);
             var11 = _closure1_slot12;
             var15 = var6 != var14;
-            var3 = 'text-default';
-            if(!var15) { _fun0003_ip = 18; continue _fun0003 }
-case 19:
-            var3 = var14;
-case 18:
-            var11 = var11.bind(var4)(var3, var12);
-            if(var2) { _fun0003_ip = 20; continue _fun0003 }
+            var9 = 'text-default';
+            if(!var15) { _fun0003_ip = 20; continue _fun0003 }
 case 21:
-            if(var1) { _fun0003_ip = 22; continue _fun0003 }
-case 23:
-            var3 = _closure1_slot3;
-            _fun0003_ip = 24; continue _fun0003;
-case 22:
-            var3 = _closure1_slot5;
-case 24:
-            _fun0003_ip = 25; continue _fun0003;
+            var9 = var14;
 case 20:
-            var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 9;
-            var1 = var12[var1];
-            var1 = var2.bind(var4)(var1);
-            var3 = var1.NativeText;
+            var13 = var11.bind(var4)(var9, var13);
+            if(var3) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
+            if(var2) { _fun0003_ip = 24; continue _fun0003 }
 case 25:
-            var2 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 10;
-            var1 = var12[var1];
-            var12 = var2.bind(var4)(var1);
-            var2 = var12.useTypographyVariantRemap;
-            var1 = false;
-            var12 = var2.bind(var12)(var13, var1);
+            var3 = _closure1_slot3;
+            _fun0003_ip = 26; continue _fun0003;
+case 24:
+            var3 = _closure1_slot5;
+case 26:
+            _fun0003_ip = 27; continue _fun0003;
+case 22:
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 10;
+            var2 = var11[var2];
+            var2 = var9.bind(var4)(var2);
+            var3 = var2.NativeText;
+case 27:
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 11;
+            var2 = var11[var2];
+            var15 = var9.bind(var4)(var2);
+            var14 = var15.useTypographyVariantRemap;
+            var2 = false;
+            var14 = var14.bind(var15)(var16, var2);
+            var2 = 8;
+            var2 = var11[var2];
+            var15 = var9.bind(var4)(var2);
+            var11 = var15.useManaTextMigrationHighlight;
+            var9 = _closure1_slot11;
+            var2 = var9[var14];
+            var11 = var11.bind(var15)(var2, var10);
             var2 = _closure1_slot4;
             var1 = {};
-            var9 = _closure1_slot11;
-            var12 = var9[var12];
-            var9 = new Array(3);
-            var9[0] = var12;
-            var11 = var11.text;
-            var9[1] = var11;
-            var9[2] = var10;
+            var14 = var9[var14];
+            var9 = new Array(4);
+            var9[0] = var14;
+            var13 = var13.text;
+            var9[1] = var13;
+            if(var12) { _fun0003_ip = 28; continue _fun0003 }
+case 29:
+            var13 = new Array(0);
+            _fun0003_ip = 30; continue _fun0003;
+case 28:
+            var14 = {};
+            var14['includeFontPadding'] = var12;
+            var12 = new Array(1);
+            var12[0] = var14;
+            var13 = var12;
+case 30:
+            var17 = 2;
+            var19 = var9;
+            var18 = var13;
+            var12 = arraySpread(var19, var18, var17);
+            var9[11] = var10;
+            var10 = 1;
+            var10 = var12 + var10;
+            var9[9] = var11;
             var1['style'] = var9;
             var1['numberOfLines'] = var8;
             var8 = var6 != var7;
             var6 = 'tail';
-            if(!var8) { _fun0003_ip = 26; continue _fun0003 }
-case 27:
+            if(!var8) { _fun0003_ip = 31; continue _fun0003 }
+case 32:
             var6 = var7;
-case 26:
+case 31:
             var1['ellipsizeMode'] = var6;
             var6 = true;
             var1['allowFontScaling'] = var6;
             var6 = arg2;
             var1['ref'] = var6;
-            var18 = var1;
-            var17 = var5;
-            var5 = copyDataProperties(var18, var17);
+            var19 = var1;
+            var18 = var5;
+            var5 = copyDataProperties(var19, var18);
             var1 = var2.bind(var4)(var3, var1);
             return var1;
         }
@@ -315,7 +349,7 @@ case 26:
         var5 = arg1;
         var3 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var2 = 10;
+        var2 = 11;
         var2 = var4[var2];
         var4 = undefined;
         var7 = var3.bind(var4)(var2);
@@ -340,7 +374,7 @@ case 26:
         return var1;
     };
     var2 = var6.bind(var9)(var2);
-    var6 = 11;
+    var6 = 12;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

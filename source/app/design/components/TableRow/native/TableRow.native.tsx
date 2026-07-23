@@ -163,84 +163,84 @@ case 12:
     var2 = function TableRowInner(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var1 = arg1;
-            var22 = var1.label;
-            var23 = var1.labelLineClamp;
-            var24 = var1.subLabel;
-            var25 = var1.subLabelLineClamp;
-            var16 = var1.icon;
-            var12 = var1.trailing;
-            var6 = var1.arrow;
-            var13 = var1.disabled;
-            var28 = var1.variant;
+            var2 = arg1;
+            var22 = var2.label;
+            var23 = var2.labelLineClamp;
+            var24 = var2.subLabel;
+            var26 = var2.subLabelLineClamp;
+            var16 = var2.icon;
+            var12 = var2.trailing;
+            var6 = var2.arrow;
+            var1 = var2.disabled;
+            var29 = var2.variant;
             var4 = undefined;
-            if(!(var28 === var4)) { _fun0002_ip = 15; continue _fun0002 }
+            if(!(var29 === var4)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var28 = 'default';
+            var29 = 'default';
 case 15:
-            var8 = var1.draggable;
+            var8 = var2.draggable;
             if(!(var8 === var4)) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
             var8 = false;
 case 17:
-            var15 = var1.dragHandlePressableProps;
-            var17 = var1.borderRadius;
-            var14 = var1.height;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 5;
-            var1 = var3[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = 'TableRowInner';
-            var11 = var2.bind(var4)(var1);
-            var2 = _closure1_slot3;
-            var1 = var2.isValidElement;
-            var1 = var1.bind(var2)(var12);
-            var10 = undefined;
-            if(!var1) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
-            var2 = var12.type;
-            var3 = _closure1_slot0;
+            var15 = var2.dragHandlePressableProps;
+            var17 = var2.borderRadius;
+            var14 = var2.height;
+            var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 12;
-            var1 = var5[var1];
-            var1 = var3.bind(var4)(var1);
-            var1 = var1.TableRowTrailingText;
+            var2 = 5;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = 'TableRowInner';
+            var11 = var3.bind(var4)(var2);
+            var3 = _closure1_slot3;
+            var2 = var3.isValidElement;
+            var2 = var2.bind(var3)(var12);
             var10 = undefined;
-            if(!(var2 === var1)) { _fun0002_ip = 19; continue _fun0002 }
+            if(!var2) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
+            var3 = var12.type;
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 12;
+            var2 = var9[var2];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.TableRowTrailingText;
+            var10 = undefined;
+            if(!(var3 === var2)) { _fun0002_ip = 19; continue _fun0002 }
 case 21:
             var10 = var12;
 case 19:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var1 = 13;
-            var1 = var5[var1];
-            var2 = var3.bind(var4)(var1);
-            var1 = var2.useFontScale;
-            var2 = var1.bind(var2)();
-            var1 = 14;
-            var1 = var5[var1];
-            var3 = var3.bind(var4)(var1);
-            var1 = var3.isAndroid;
-            var1 = var1.bind(var3)();
-            if(var1) { _fun0002_ip = 22; continue _fun0002 }
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 13;
+            var2 = var9[var2];
+            var3 = var5.bind(var4)(var2);
+            var2 = var3.useFontScale;
+            var3 = var2.bind(var3)();
+            var2 = 14;
+            var2 = var9[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.isAndroid;
+            var2 = var2.bind(var5)();
+            if(var2) { _fun0002_ip = 22; continue _fun0002 }
 case 6:
-            var1 = 1.5;
-            var5 = var2 > var1;
+            var2 = 1.5;
+            var5 = var3 > var2;
             _fun0002_ip = 23; continue _fun0002;
 case 22:
-            var1 = 1.2;
-            var5 = var2 > var1;
+            var2 = 1.2;
+            var5 = var3 > var2;
 case 23:
             var3 = _closure1_slot10;
             var9 = null;
-            var32 = var9 != var10;
-            var1 = true;
-            var33 = var1 === var13;
-            var34 = undefined;
-            var31 = var5;
-            var30 = var11;
-            var13 = var34[var3](var33, var32, var31, var30, var29);
+            var33 = var9 != var10;
+            var25 = true;
+            var34 = var25 === var1;
+            var35 = undefined;
+            var32 = var5;
+            var31 = var11;
+            var13 = var35[var3](var34, var33, var32, var31, var30);
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 7;
@@ -254,7 +254,7 @@ case 23:
             var18 = var18.modules;
             var18 = var18.mobile;
             var18 = var18.TABLE_ROW_LABEL_TEXT_STYLE;
-            var26 = var19.bind(var20)(var18);
+            var27 = var19.bind(var20)(var18);
             var2 = var11[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useToken;
@@ -263,7 +263,7 @@ case 23:
             var1 = var1.modules;
             var1 = var1.mobile;
             var1 = var1.TABLE_ROW_LABEL_COLOR;
-            var27 = var2.bind(var3)(var1);
+            var28 = var2.bind(var3)(var1);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
@@ -280,9 +280,9 @@ case 25:
             var14 = _closure1_slot6;
             var11 = _closure1_slot4;
             var5 = {};
-            var33 = var5;
-            var32 = var15;
-            var15 = copyDataProperties(var33, var32);
+            var34 = var5;
+            var33 = var15;
+            var15 = copyDataProperties(var34, var33);
             var18 = _closure1_slot6;
             var17 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -332,21 +332,22 @@ case 26:
 case 29:
             var21 = _closure1_slot6;
             var20 = _closure1_slot0;
-            var29 = _closure1_slot2;
+            var30 = _closure1_slot2;
             var18 = 16;
-            var18 = var29[var18];
+            var18 = var30[var18];
             var18 = var20.bind(var4)(var18);
             var20 = var18.Text;
             var18 = {};
-            var18['variant'] = var26;
-            var26 = 'text-feedback-critical';
-            var29 = 'danger';
-            if(!(var29 !== var28)) { _fun0002_ip = 30; continue _fun0002 }
+            var18['variant'] = var27;
+            var27 = 'text-feedback-critical';
+            var30 = 'danger';
+            if(!(var30 !== var29)) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
-            var26 = var27;
+            var27 = var28;
 case 30:
-            var18['color'] = var26;
+            var18['color'] = var27;
             var18['lineClamp'] = var23;
+            var18['includeFontPadding'] = var25;
             var18['children'] = var22;
             var19 = var21.bind(var4)(var20, var18);
 case 28:
@@ -363,22 +364,23 @@ case 33:
 case 35:
             var23 = _closure1_slot6;
             var22 = _closure1_slot0;
-            var26 = _closure1_slot2;
+            var27 = _closure1_slot2;
             var21 = 16;
-            var21 = var26[var21];
+            var21 = var27[var21];
             var21 = var22.bind(var4)(var21);
             var22 = var21.Text;
             var21 = {};
-            var26 = 'text-xs/medium';
-            var21['variant'] = var26;
-            var26 = 'text-subtle';
-            var27 = 'danger';
-            if(!(var27 === var28)) { _fun0002_ip = 36; continue _fun0002 }
+            var27 = 'text-xs/medium';
+            var21['variant'] = var27;
+            var27 = 'text-subtle';
+            var28 = 'danger';
+            if(!(var28 === var29)) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
-            var26 = 'text-feedback-critical';
+            var27 = 'text-feedback-critical';
 case 36:
-            var21['color'] = var26;
-            var21['lineClamp'] = var25;
+            var21['color'] = var27;
+            var21['lineClamp'] = var26;
+            var21['includeFontPadding'] = var25;
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
 case 34:

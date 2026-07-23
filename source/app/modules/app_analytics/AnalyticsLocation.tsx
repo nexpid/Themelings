@@ -182,6 +182,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_UNCANCEL_MODAL'] = var1;
     var1 = 'past due one time payment method banner';
     var2['PAST_DUE_ONE_TIME_PAYMENT_METHOD_BANNER'] = var1;
+    var1 = 'past due one time payment notice';
+    var2['PAST_DUE_ONE_TIME_PAYMENT_NOTICE'] = var1;
+    var1 = 'past due invalid payment notice';
+    var2['PAST_DUE_INVALID_PAYMENT_NOTICE'] = var1;
+    var1 = 'past due missing payment notice';
+    var2['PAST_DUE_MISSING_PAYMENT_NOTICE'] = var1;
     var1 = 'stream quality indicator';
     var2['STREAM_QUALITY_INDICATOR'] = var1;
     var1 = 'premium tier 0 trial ending notice';

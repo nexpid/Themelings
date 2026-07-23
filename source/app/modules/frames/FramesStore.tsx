@@ -326,41 +326,43 @@ case 18:
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var1 = arg1;
-            var6 = var1.applicationId;
-            var4 = var1.proxyTicket;
-            var5 = _closure1_slot0;
+            var7 = var1.applicationId;
+            var5 = var1.proxyTicket;
+            var4 = var1.channelId;
+            var6 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
-            var2 = var5.bind(var1)(var2);
-            var5 = var2.bind(var1)(var6);
+            var2 = var6.bind(var1)(var2);
+            var6 = var2.bind(var1)(var7);
             var2 = null;
-            if(!(var2 == var5)) { _fun0007_ip = 19; continue _fun0007 }
+            if(!(var2 == var6)) { _fun0007_ip = 19; continue _fun0007 }
 case 20:
-            var7 = _closure1_slot10;
-            var2 = var7.delete;
-            var2 = var2.bind(var7)(var6);
+            var8 = _closure1_slot10;
+            var2 = var8.delete;
+            var2 = var2.bind(var8)(var7);
             _fun0007_ip = 21; continue _fun0007;
 case 19:
-            var7 = _closure1_slot10;
-            var2 = var7.delete;
-            var2 = var2.bind(var7)(var6);
+            var8 = _closure1_slot10;
+            var2 = var8.delete;
+            var2 = var2.bind(var8)(var7);
             var2 = {};
-            var2['applicationId'] = var6;
-            var2['url'] = var5;
-            var5 = global;
-            var6 = var5.Date;
-            var5 = var6.now;
-            var5 = var5.bind(var6)();
-            var2['connectedSince'] = var5;
-            var5 = _closure1_slot7;
-            var5 = var5.FOCUSED;
-            var2['layoutMode'] = var5;
-            var5 = _closure1_slot8;
-            var5 = var5.PANEL;
-            var2['activityPanelMode'] = var5;
-            var2['proxyTicket'] = var4;
+            var2['applicationId'] = var7;
+            var2['url'] = var6;
+            var6 = global;
+            var7 = var6.Date;
+            var6 = var7.now;
+            var6 = var6.bind(var7)();
+            var2['connectedSince'] = var6;
+            var6 = _closure1_slot7;
+            var6 = var6.FOCUSED;
+            var2['layoutMode'] = var6;
+            var6 = _closure1_slot8;
+            var6 = var6.PANEL;
+            var2['activityPanelMode'] = var6;
+            var2['proxyTicket'] = var5;
+            var2['channelId'] = var4;
             _closure1_slot9 = var2;
 case 21:
             return var1;

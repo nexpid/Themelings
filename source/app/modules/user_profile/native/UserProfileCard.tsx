@@ -121,38 +121,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var3 = arg1;
-            var19 = var3.title;
+            var20 = var3.title;
+            var18 = var3.titleLeadingIcon;
             var16 = var3.titleIcon;
             var13 = var3.titleStyle;
             var11 = var3.trailingAction;
             var5 = var3.children;
             var7 = var3.style;
-            var2 = {'title': 0, 'titleIcon': 0, 'titleStyle': 0, 'trailingAction': 0, 'children': 0, 'style': 0};
+            var2 = {'title': 0, 'titleLeadingIcon': 0, 'titleIcon': 0, 'titleStyle': 0, 'trailingAction': 0, 'children': 0, 'style': 0};
             var10 = null;
-            var25 = var2;
-            var24 = null;
-            var1 = silentSetPrototypeOf(var25, var24);
-            var25 = {};
-            var24 = var3;
-            var23 = var2;
-            var24 = copyDataProperties(var25, var24, var23);
+            var26 = var2;
+            var25 = null;
+            var1 = silentSetPrototypeOf(var26, var25);
+            var26 = {};
+            var25 = var3;
+            var24 = var2;
+            var25 = copyDataProperties(var26, var25, var24);
             var1 = _closure1_slot9;
             var4 = undefined;
-            var20 = var1.bind(var4)();
+            var21 = var1.bind(var4)();
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 9;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = 'UserProfileCard';
-            var21 = var2.bind(var4)(var1);
+            var22 = var2.bind(var4)(var1);
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
             var1['style'] = var7;
-            var25 = var1;
-            var6 = copyDataProperties(var25, var24);
-            var7 = var10 != var19;
+            var26 = var1;
+            var6 = copyDataProperties(var26, var25);
+            var7 = var10 != var20;
             if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var7 = var10 != var11;
@@ -162,50 +163,51 @@ case 5:
             var9 = _closure1_slot7;
             var8 = _closure1_slot4;
             var6 = {};
-            var14 = var20.title;
+            var14 = var21.title;
             var12 = new Array(2);
             var12[0] = var14;
             var12[1] = var13;
             var6['style'] = var12;
-            var12 = var10 != var19;
+            var12 = var10 != var20;
             if(!var12) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var14 = _closure1_slot7;
             var13 = _closure1_slot4;
             var10 = {};
-            var17 = var20.titleContent;
-            var10['style'] = var17;
-            var18 = _closure1_slot6;
-            var17 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var15 = 7;
-            var15 = var22[var15];
-            var15 = var17.bind(var4)(var15);
-            var17 = var15.Text;
-            var15 = {};
-            var20 = var20.text;
-            var15['style'] = var20;
-            var20 = 'header';
-            var15['accessibilityRole'] = var20;
-            var20 = 'text-sm/semibold';
-            if(!var21) { _fun0001_ip = 8; continue _fun0001 }
+            var15 = var21.titleContent;
+            var10['style'] = var15;
+            var15 = new Array(3);
+            var15[0] = var18;
+            var19 = _closure1_slot6;
+            var18 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var17 = 7;
+            var17 = var23[var17];
+            var17 = var18.bind(var4)(var17);
+            var18 = var17.Text;
+            var17 = {};
+            var21 = var21.text;
+            var17['style'] = var21;
+            var21 = 'header';
+            var17['accessibilityRole'] = var21;
+            var21 = 'text-sm/semibold';
+            if(!var22) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var20 = 'text-sm/medium';
+            var21 = 'text-sm/medium';
 case 8:
-            var15['variant'] = var20;
-            var20 = 'text-default';
-            if(!var21) { _fun0001_ip = 10; continue _fun0001 }
+            var17['variant'] = var21;
+            var21 = 'text-default';
+            if(!var22) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var20 = 'text-strong';
+            var21 = 'text-strong';
 case 10:
-            var15['color'] = var20;
-            var20 = 1;
-            var15['lineClamp'] = var20;
-            var15['children'] = var19;
-            var17 = var18.bind(var4)(var17, var15);
-            var15 = new Array(2);
-            var15[0] = var17;
-            var15[1] = var16;
+            var17['color'] = var21;
+            var21 = 1;
+            var17['lineClamp'] = var21;
+            var17['children'] = var20;
+            var17 = var19.bind(var4)(var18, var17);
+            var15[1] = var17;
+            var15[2] = var16;
             var10['children'] = var15;
             var12 = var14.bind(var4)(var13, var10);
 case 6:

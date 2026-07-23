@@ -320,7 +320,7 @@ case 4:
     var7['profilePreviewGradient'] = var12;
     var7 = var10.bind(var11)(var7);
     var _closure1_slot9 = var7;
-    var7 = 15;
+    var7 = 16;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -383,10 +383,17 @@ case 15:
             var2 = null;
             return var2;
 case 14:
-            var3 = var5.skuId;
-            var2 = _closure1_slot5;
-            var2 = var2.FRACTIONAL_PREMIUM;
-            if(!(var3 !== var2)) { _fun0003_ip = 16; continue _fun0003 }
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 13;
+            var2 = var6[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.FractionalPremiumSKUsSets;
+            var6 = var2.ALL;
+            var3 = var6.has;
+            var2 = var5.skuId;
+            var2 = var3.bind(var6)(var2);
+            if(var2) { _fun0003_ip = 16; continue _fun0003 }
 case 17:
             var6 = var5.skuId;
             var2 = _closure1_slot5;
@@ -397,7 +404,7 @@ case 19:
             var10 = _closure1_slot7;
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 14;
+            var3 = 15;
             var3 = var11[var3];
             var3 = var6.bind(var4)(var3);
             var6 = var3.OrbBadgePreview;
@@ -409,7 +416,7 @@ case 16:
             var10 = _closure1_slot7;
             var6 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 13;
+            var3 = 14;
             var3 = var11[var3];
             var3 = var6.bind(var4)(var3);
             var6 = var3.FractionalNitroPreview;

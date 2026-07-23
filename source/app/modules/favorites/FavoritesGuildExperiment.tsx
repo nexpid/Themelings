@@ -24,6 +24,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9[1] = var10;
     var10 = {'enabled': true, 'hasHigherPrivileges': false};
     var9[2] = var10;
+    var10 = {'enabled': true, 'hasHigherPrivileges': true, 'isFreemium': true};
+    var9[3] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);
     var _closure1_slot0 = var4;
@@ -34,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/favorites/FavoritesGuildExperiment.tsx';
     var5 = var6.bind(var7)(var5);
     var3['FavoritesGuildExperiment'] = var4;
-    var2 = function useFavoritesGuildConfig(arg1) {
+    var4 = function useFavoritesGuildConfig(arg1) {
         var1 = arg1;
         var4 = var1.location;
         var3 = _closure1_slot0;
@@ -44,6 +46,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['useFavoritesGuildConfig'] = var2;
+    var3['useFavoritesGuildConfig'] = var4;
+    var2 = function getFavoritesGuildConfig(arg1) {
+        var1 = arg1;
+        var4 = var1.location;
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['getFavoritesGuildConfig'] = var2;
     return var1;
 })();

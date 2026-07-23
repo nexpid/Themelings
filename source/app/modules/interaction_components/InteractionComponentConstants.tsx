@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.fileFinishedImporting;
     var2 = 'modules/interaction_components/InteractionComponentConstants.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = {'allowList': true, 'allowHeading': true, 'allowLinks': true, 'previewLinkTarget': true};
+    var2 = {'allowList': true, 'allowHeading': true, 'allowLinks': true, 'allowGameMentions': true, 'previewLinkTarget': true};
     var3['TEXT_DISPLAY_COMPONENT_MARKDOWN_RENDER_OPTIONS'] = var2;
     return var1;
 })();

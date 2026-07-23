@@ -212,10 +212,17 @@ case 14:
             var2 = var2.ORB_PROFILE_BADGE;
             if(!(var3 !== var2)) { _fun0002_ip = 15; continue _fun0002 }
 case 16:
-            var3 = var8.skuId;
-            var2 = _closure1_slot6;
-            var2 = var2.FRACTIONAL_PREMIUM;
-            if(!(var3 !== var2)) { _fun0002_ip = 17; continue _fun0002 }
+            var3 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var2 = 16;
+            var2 = var12[var2];
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.FractionalPremiumSKUsSets;
+            var12 = var2.ALL;
+            var3 = var12.has;
+            var2 = var8.skuId;
+            var2 = var3.bind(var12)(var2);
+            if(var2) { _fun0002_ip = 17; continue _fun0002 }
 case 18:
             var12 = _closure1_slot3;
             var3 = var8.items;
@@ -267,7 +274,7 @@ case 27:
             var12 = _closure1_slot7;
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var2 = 20;
+            var2 = 21;
             var2 = var15[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -283,7 +290,7 @@ case 25:
             var17 = _closure1_slot7;
             var19 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var15 = 19;
+            var15 = 20;
             var15 = var20[var15];
             var16 = var19.bind(var4)(var15);
             var15 = {};
@@ -320,7 +327,7 @@ case 23:
             var17 = _closure1_slot7;
             var16 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var15 = 18;
+            var15 = 19;
             var15 = var18[var15];
             var16 = var16.bind(var4)(var15);
             var15 = {};
@@ -335,7 +342,7 @@ case 21:
             var12 = _closure1_slot7;
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var2 = 17;
+            var2 = 18;
             var2 = var15[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -346,20 +353,25 @@ case 21:
             return var2;
 case 17:
             var12 = _closure1_slot7;
-            var16 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var2 = 14;
-            var2 = var17[var2];
-            var3 = var16.bind(var4)(var2);
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var14 = 17;
+            var2 = var16[var14];
+            var2 = var15.bind(var4)(var2);
+            var3 = var2.FractionalNitroCoinIllustration;
             var2 = {};
-            var14 = {};
-            var15 = 16;
-            var15 = var17[var15];
-            var15 = var16.bind(var4)(var15);
-            var14['uri'] = var15;
-            var2['source'] = var14;
-            var14 = var13.externalProductImage;
-            var2['style'] = var14;
+            var17 = var8.skuId;
+            var2['skuId'] = var17;
+            var17 = var16[var14];
+            var17 = var15.bind(var4)(var17);
+            var17 = var17.FRACTIONAL_NITRO_COIN_SIZE;
+            var17 = var17.CARD;
+            var2['width'] = var17;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.FRACTIONAL_NITRO_COIN_SIZE;
+            var14 = var14.CARD;
+            var2['height'] = var14;
             var2 = var12.bind(var4)(var3, var2);
             return var2;
 case 15:
@@ -418,14 +430,14 @@ case 29:
             var6 = var2.bind(var4)();
             var8 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var2 = 21;
+            var2 = 22;
             var3 = var14[var2];
             var7 = var8.bind(var4)(var3);
             var3 = var7.hexToRgbaString;
             var2 = var14[var2];
             var10 = var8.bind(var4)(var2);
             var9 = var10.hexWithOpacity;
-            var2 = 22;
+            var2 = 23;
             var2 = var14[var2];
             var12 = var8.bind(var4)(var2);
             var8 = var12.useToken;
@@ -574,7 +586,7 @@ case 0:
             var11 = var1.cardWidth;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 23;
+            var1 = 24;
             var1 = var10[var1];
             var4 = undefined;
             var3 = var2.bind(var4)(var1);
@@ -628,7 +640,7 @@ case 37:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

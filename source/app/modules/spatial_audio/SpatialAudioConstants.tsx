@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/spatial_audio/SpatialAudioConstants.tsx';
     var4 = var5.bind(var6)(var4);
     var3['DEFAULT_ROOM_SIZE'] = var2;
-    var2 = {'enabled': false, 'spatialBlend': 1, 'reflectionsEnabled': false, 'roomSize': 25, 'mode': 'arc', 'spread': 2, 'arcAngle': 20, 'gridColumns': 3, 'gridSpacing': 1, 'buckets': 10, 'listenerHeight': 0.15, 'distance': 5};
+    var2 = {'enabled': true, 'spatialBlend': 1, 'reflectionsEnabled': false, 'roomSize': 25, 'mode': 'arc', 'spread': 2, 'arcAngle': 20, 'gridColumns': 3, 'gridSpacing': 1, 'buckets': 10, 'listenerHeight': 0.15, 'distance': 5};
     var3['DEFAULT_AUDIO_MIXER_SETTINGS'] = var2;
     return var1;
 })();

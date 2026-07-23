@@ -317,6 +317,22 @@ case 11:
         return var1;
     };
     var2['GAME_FETCH'] = var8;
+    var8 = function handleFetchCancelled(arg1) {
+        var1 = arg1;
+        var3 = var1.gameIds;
+        var2 = var3.forEach;
+        var1 = function(arg1) {
+            var3 = _closure1_slot9;
+            var2 = var3.delete;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
+    };
+    var2['GAME_FETCH_CANCELLED'] = var8;
     var8 = function handleFetchSuccess(arg1) {
         var2 = arg1;
         var6 = var2.gameIds;

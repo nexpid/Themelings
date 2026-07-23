@@ -180,15 +180,15 @@ case 0:
             var5 = arg1;
             var1 = _closure1_slot3;
             var1 = var1.VERY_LOW;
-            if(!(var1 !== var5)) { _fun0002_ip = 7; continue _fun0002 }
-case 9:
+            if(!(var1 !== var5)) { _fun0002_ip = 9; continue _fun0002 }
+case 10:
             var1 = _closure1_slot3;
             var1 = var1.LOW;
-            if(!(var1 !== var5)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(!(var1 !== var5)) { _fun0002_ip = 11; continue _fun0002 }
+case 12:
             var1 = _closure1_slot3;
             var1 = var1.MEDIUM;
-            if(!(var1 !== var5)) { _fun0002_ip = 12; continue _fun0002 }
+            if(!(var1 !== var5)) { _fun0002_ip = 5; continue _fun0002 }
 case 13:
             var1 = _closure1_slot3;
             var1 = var1.HIGH;
@@ -218,15 +218,15 @@ case 14:
             var3 = _closure1_slot0;
             var1 = var3.HIGH;
             _fun0002_ip = 18; continue _fun0002;
-case 12:
+case 5:
             var3 = _closure1_slot0;
             var1 = var3.MEDIUM;
             _fun0002_ip = 18; continue _fun0002;
-case 10:
+case 11:
             var3 = _closure1_slot0;
             var1 = var3.LOW;
             _fun0002_ip = 18; continue _fun0002;
-case 7:
+case 9:
             var2 = _closure1_slot0;
             var1 = var2.VERY_LOW;
 case 18:

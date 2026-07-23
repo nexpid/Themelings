@@ -206,7 +206,7 @@ case 11:
             var3 = undefined;
             var6 = var6.bind(var3)(var5);
             var5 = var6.parseToAST;
-            var3 = {'channelId': null, 'allowLinks': true, 'allowEmojiLinks': true};
+            var3 = {'channelId': null, 'allowGameMentions': true, 'allowLinks': true, 'allowEmojiLinks': true};
             var3['channelId'] = var1;
             var1 = true;
             var10 = !var10;

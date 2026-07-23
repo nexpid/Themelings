@@ -203,7 +203,7 @@ case 12:
     var8['channelNameAndAccessories'] = var11;
     var11 = {'flexDirection': 'row', 'alignItems': 'center'};
     var8['channelIcons'] = var11;
-    var11 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'overflow': 'hidden'};
+    var11 = {'flexDirection': 'row', 'justifyContent': 'flex-end'};
     var12 = 7;
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
@@ -211,7 +211,7 @@ case 12:
     var14 = var14.PX_4;
     var11['marginLeft'] = var14;
     var8['channelAccessoriesContainer'] = var11;
-    var11 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center', 'borderRadius': null, 'overflow': 'hidden', 'paddingHorizontal': null, 'paddingVertical': 1};
+    var11 = {'flexDirection': 'row', 'justifyContent': 'flex-end', 'alignItems': 'center', 'borderRadius': null, 'paddingHorizontal': null, 'paddingVertical': 1};
     var14 = var6[var12];
     var14 = var13.bind(var1)(var14);
     var14 = var14.radii;

@@ -49,14 +49,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
             var3 = {};
-            var1 = 'secondary';
-            if(!(var1 !== var2)) { _fun0001_ip = 2; continue _fun0001 }
+            var2 = 'primary-overlay';
+            var1 = arg1;
+            if(!(var2 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = 'primary-overlay';
-            if(!(var1 === var2)) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 7;
@@ -65,17 +62,7 @@ case 5:
             var1 = var4.bind(var1)(var2);
             var1 = var1.shadows;
             var3 = var1.SHADOW_BUTTON_OVERLAY;
-            _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var4 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 7;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var4.bind(var1)(var2);
-            var1 = var1.shadows;
-            var3 = var1.SHADOW_LOW;
-case 4:
             var1 = {};
             var2 = {};
             var6 = var2;
@@ -112,20 +99,20 @@ case 0:
             var27 = var1.style;
             var33 = var1.variant;
             var4 = undefined;
-            if(!(var33 === var4)) { _fun0002_ip = 6; continue _fun0002 }
-case 7:
+            if(!(var33 === var4)) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
             var33 = 'primary';
-case 6:
+case 4:
             var3 = var1.disabled;
-            if(!(var3 === var4)) { _fun0002_ip = 8; continue _fun0002 }
-case 9:
+            if(!(var3 === var4)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
             var3 = false;
-case 8:
+case 6:
             var6 = var1.loading;
-            if(!(var6 === var4)) { _fun0002_ip = 10; continue _fun0002 }
-case 11:
+            if(!(var6 === var4)) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
             var6 = false;
-case 10:
+case 8:
             var _closure2_slot0 = var6;
             var11 = var1.pressed;
             var2 = var1.onPress;
@@ -153,23 +140,23 @@ case 10:
             var8 = _closure1_slot8;
             var25 = var8.bind(var4)(var33);
             var8 = var3;
-            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
+            if(!var3) { _fun0002_ip = 10; continue _fun0002 }
+case 11:
             var17 = null;
             var8 = var17 == var10;
-case 12:
+case 10:
             _closure2_slot2 = var8;
-            if(!var3) { _fun0002_ip = 14; continue _fun0002 }
-case 15:
+            if(!var3) { _fun0002_ip = 12; continue _fun0002 }
+case 13:
             var2 = var10;
-case 14:
+case 12:
             var21 = null;
             var17 = var21 != var2;
             var10 = undefined;
-            if(!var17) { _fun0002_ip = 16; continue _fun0002 }
-case 17:
+            if(!var17) { _fun0002_ip = 14; continue _fun0002 }
+case 15:
             var10 = var2;
-case 16:
+case 14:
             var17 = _closure1_slot0;
             var34 = _closure1_slot2;
             var2 = 8;
@@ -187,13 +174,13 @@ case 16:
             var32 = _closure1_slot4;
             var2 = _closure1_slot3;
             var2 = var32.bind(var4)(var34, var2);
-            if(!(var21 != var11)) { _fun0002_ip = 18; continue _fun0002 }
-case 19:
+            if(!(var21 != var11)) { _fun0002_ip = 16; continue _fun0002 }
+case 17:
             var11 = {};
             var11['animatedScaleStyles'] = var17;
             var11['buttonAnimationProps'] = var2;
-            _fun0002_ip = 20; continue _fun0002;
-case 18:
+            _fun0002_ip = 18; continue _fun0002;
+case 16:
             var2 = {};
             var2['animatedScaleStyles'] = var4;
             var17 = {};
@@ -202,7 +189,7 @@ case 18:
             var17['onPressOut'] = var22;
             var2['buttonAnimationProps'] = var17;
             var11 = var2;
-case 20:
+case 18:
             var2 = var11.animatedScaleStyles;
             var22 = var11.buttonAnimationProps;
             _closure2_slot3 = var22;
@@ -237,22 +224,22 @@ case 20:
             var11 = 'light';
             var6 = 'primary-overlay';
             var31 = var11;
-            if(!(var6 !== var33)) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+            if(!(var6 !== var33)) { _fun0002_ip = 19; continue _fun0002 }
+case 20:
             var29 = 'secondary-overlay';
             var6 = undefined;
-            if(!(var29 === var33)) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+            if(!(var29 === var33)) { _fun0002_ip = 21; continue _fun0002 }
+case 22:
             var6 = undefined;
-            if(!(var11 === var28)) { _fun0002_ip = 23; continue _fun0002 }
-case 25:
-            var6 = 'dark';
+            if(!(var11 === var28)) { _fun0002_ip = 21; continue _fun0002 }
 case 23:
-            var31 = var6;
+            var6 = 'dark';
 case 21:
+            var31 = var6;
+case 19:
             var6 = var30;
-            if(!(var21 != var31)) { _fun0002_ip = 26; continue _fun0002 }
-case 27:
+            if(!(var21 != var31)) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
             var29 = _closure1_slot7;
             var28 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -263,25 +250,25 @@ case 27:
             var11['theme'] = var31;
             var11['children'] = var30;
             var6 = var29.bind(var4)(var28, var11);
-case 26:
+case 24:
             var28 = var25.button;
             var11 = new Array(5);
             var11[0] = var28;
             var11[1] = var27;
-            if(!var3) { _fun0002_ip = 28; continue _fun0002 }
-case 29:
+            if(!var3) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
             var3 = var25.disabled;
-case 28:
+case 26:
             var11[2] = var3;
             var11[3] = var2;
             var2 = _closure1_slot6;
             var11[4] = var2;
             var29 = 'none';
-            if(!(var29 === var5)) { _fun0002_ip = 30; continue _fun0002 }
-case 31:
+            if(!(var29 === var5)) { _fun0002_ip = 28; continue _fun0002 }
+case 29:
             var28 = '';
-            if(var14) { _fun0002_ip = 32; continue _fun0002 }
-case 33:
+            if(var14) { _fun0002_ip = 30; continue _fun0002 }
+case 31:
             var25 = new Array(2);
             var25[0] = var20;
             var25[1] = var19;
@@ -296,7 +283,7 @@ case 33:
             var3 = var25.join;
             var2 = ', ';
             var28 = var3.bind(var25)(var2);
-case 32:
+case 30:
             var25 = _closure1_slot7;
             var3 = _closure1_slot10;
             var2 = {};
@@ -306,8 +293,8 @@ case 32:
             var27 = 'ref';
             var2[26] = var24;
             var27 = var23;
-            if(!(var21 == var27)) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+            if(!(var21 == var27)) { _fun0002_ip = 32; continue _fun0002 }
+case 33:
             var31 = _closure1_slot0;
             var32 = _closure1_slot2;
             var30 = 11;
@@ -315,12 +302,12 @@ case 35:
             var31 = var31.bind(var4)(var30);
             var30 = var31.isAndroid;
             var27 = var30.bind(var31)();
-case 34:
+case 32:
             var30 = !var27;
-            if(!var30) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
+            if(!var30) { _fun0002_ip = 34; continue _fun0002 }
+case 35:
             var30 = undefined;
-case 36:
+case 34:
             var27 = 'accessible';
             var2[26] = var30;
             var27 = 'accessibilityRole';
@@ -344,13 +331,13 @@ case 0:
                     var2 = _closure2_slot3;
                     var3 = var2.onPressIn;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 38; continue _fun0003 }
-case 39:
+                    if(!(var2 != var3)) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
                     var3 = _closure2_slot3;
                     var2 = var3.onPressIn;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
-case 38:
+case 36:
                     var1 = undefined;
                     return var1;
                 }
@@ -363,13 +350,13 @@ case 0:
                     var2 = _closure2_slot3;
                     var3 = var2.onPressOut;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 38; continue _fun0004 }
-case 39:
+                    if(!(var2 != var3)) { _fun0004_ip = 36; continue _fun0004 }
+case 37:
                     var3 = _closure2_slot3;
                     var2 = var3.onPressOut;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
-case 38:
+case 36:
                     var1 = undefined;
                     return var1;
                 }
@@ -382,7 +369,7 @@ case 38:
             var2[25] = var6;
             var2 = var25.bind(var4)(var3, var2);
             return var2;
-case 30:
+case 28:
             var3 = _closure1_slot7;
             var2 = _closure1_slot9;
             var1 = {};
@@ -395,10 +382,10 @@ case 30:
             var1[21] = var23;
             var22 = var21 != var5;
             var21 = 'button';
-            if(!var22) { _fun0002_ip = 40; continue _fun0002 }
-case 41:
+            if(!var22) { _fun0002_ip = 38; continue _fun0002 }
+case 39:
             var21 = var5;
-case 40:
+case 38:
             var5 = 'accessibilityRole';
             var1[4] = var21;
             var5 = 'accessibilityLabel';

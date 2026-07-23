@@ -1,26 +1,26 @@
 // app/modules/guild_settings/community/native/GuildSettingsModalCommunityIntro.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var12 = metroImportDefault;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
+    var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
     var1 = function FeatureCard(arg1) {
         var1 = arg1;
         var8 = var1.icon;
         var17 = var1.header;
         var13 = var1.body;
-        var1 = _closure1_slot16;
+        var1 = _closure1_slot17;
         var4 = undefined;
         var9 = var1.bind(var4)();
-        var3 = _closure1_slot14;
+        var3 = _closure1_slot15;
         var2 = _closure1_slot4;
         var1 = {};
         var5 = var9.featureCard;
         var1['style'] = var5;
-        var7 = _closure1_slot13;
+        var7 = _closure1_slot14;
         var6 = _closure1_slot4;
         var5 = {};
         var10 = var9.featureIcon;
@@ -30,15 +30,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var7.bind(var4)(var6, var5);
         var5 = new Array(2);
         var5[0] = var6;
-        var8 = _closure1_slot14;
+        var8 = _closure1_slot15;
         var7 = _closure1_slot4;
         var6 = {};
         var9 = var9.featureDescription;
         var6['style'] = var9;
-        var16 = _closure1_slot13;
+        var16 = _closure1_slot14;
         var11 = _closure1_slot0;
         var14 = _closure1_slot2;
-        var10 = 10;
+        var10 = 11;
         var9 = var14[var10];
         var9 = var11.bind(var4)(var9);
         var15 = var9.Heading;
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var16.bind(var4)(var15, var9);
         var9 = new Array(2);
         var9[0] = var15;
-        var12 = _closure1_slot13;
+        var12 = _closure1_slot14;
         var10 = var14[var10];
         var10 = var11.bind(var4)(var10);
         var11 = var10.Text;
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -88,81 +88,85 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var11.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.HelpdeskArticles;
-    var _closure1_slot9 = var7;
-    var7 = var4.GuildFeatures;
-    var _closure1_slot10 = var7;
-    var7 = var4.GuildSettingsSections;
-    var _closure1_slot11 = var7;
-    var4 = var4.Permissions;
-    var _closure1_slot12 = var4;
+    var4 = var11.bind(var1)(var4);
+    var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.jsx;
-    var _closure1_slot13 = var7;
-    var7 = var4.jsxs;
-    var _closure1_slot14 = var7;
-    var4 = var4.Fragment;
-    var _closure1_slot15 = var4;
+    var7 = var4.HelpdeskArticles;
+    var _closure1_slot10 = var7;
+    var7 = var4.GuildFeatures;
+    var _closure1_slot11 = var7;
+    var7 = var4.GuildSettingsSections;
+    var _closure1_slot12 = var7;
+    var4 = var4.Permissions;
+    var _closure1_slot13 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var7 = {};
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot14 = var7;
+    var7 = var4.jsxs;
+    var _closure1_slot15 = var7;
+    var4 = var4.Fragment;
+    var _closure1_slot16 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
     var4 = {};
-    var11 = '100%';
-    var4['height'] = var11;
-    var7['container'] = var4;
-    var4 = {};
+    var9 = {};
+    var12 = '100%';
+    var9['height'] = var12;
+    var4['container'] = var9;
+    var9 = {};
     var10 = 16;
-    var4['padding'] = var10;
-    var7['contentPadding'] = var4;
-    var4 = {'textAlign': 'center', 'marginBottom': 8};
-    var7['header'] = var4;
-    var4 = 24;
-    var10 = {'textAlign': 'center', 'marginBottom': 24};
-    var7['body'] = var10;
-    var10 = {'textAlign': 'center', 'marginTop': 24};
-    var7['details'] = var10;
-    var10 = {};
-    var10['width'] = var11;
-    var7['headerImage'] = var10;
-    var10 = {'marginTop': 32, 'marginBottom': 32};
-    var7['features'] = var10;
-    var10 = {'backgroundColor': null, 'flex': 1, 'flexDirection': 'row', 'padding': 16, 'borderRadius': null, 'marginTop': 8, 'alignItems': 'flex-start'};
-    var11 = 7;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.CARD_BACKGROUND_DEFAULT;
-    var10['backgroundColor'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.sm;
-    var10['borderRadius'] = var13;
-    var7['featureCard'] = var10;
-    var10 = {'backgroundColor': null, 'borderRadius': 40, 'marginRight': 16, 'padding': 8};
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BACKGROUND_MOD_STRONG;
-    var10['backgroundColor'] = var11;
-    var7['featureIcon'] = var10;
-    var10 = {'overflow': 'hidden', 'flex': 1};
-    var7['featureDescription'] = var10;
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot16 = var7;
+    var9['padding'] = var10;
+    var4['contentPadding'] = var9;
+    var10 = 8;
+    var9 = {'textAlign': 'center', 'marginBottom': 8};
+    var4['header'] = var9;
+    var9 = {'textAlign': 'center', 'marginBottom': 24};
+    var4['body'] = var9;
+    var9 = {'textAlign': 'center', 'marginTop': 24};
+    var4['details'] = var9;
+    var9 = {};
+    var9['width'] = var12;
+    var4['headerImage'] = var9;
+    var9 = {'marginTop': 32, 'marginBottom': 32};
+    var4['features'] = var9;
+    var9 = {'backgroundColor': null, 'flex': 1, 'flexDirection': 'row', 'padding': 16, 'borderRadius': null, 'marginTop': 8, 'alignItems': 'flex-start'};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.CARD_BACKGROUND_DEFAULT;
+    var9['backgroundColor'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.sm;
+    var9['borderRadius'] = var12;
+    var4['featureCard'] = var9;
+    var9 = {'backgroundColor': null, 'borderRadius': 40, 'marginRight': 16, 'padding': 8};
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.colors;
+    var10 = var10.BACKGROUND_MOD_STRONG;
+    var9['backgroundColor'] = var10;
+    var4['featureIcon'] = var9;
+    var9 = {'overflow': 'hidden', 'flex': 1};
+    var4['featureDescription'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot17 = var4;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -175,18 +179,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.onClose;
         var _closure2_slot1 = var1;
         var11 = var2.contentContainerStyle;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var4 = undefined;
         var15 = var2.bind(var4)();
         var7 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var2 = 13;
+        var2 = 14;
         var2 = var9[var2];
         var3 = var7.bind(var4)(var2);
         var2 = var3.useNavigation;
         var8 = var2.bind(var3)();
         var _closure2_slot2 = var8;
-        var2 = 14;
+        var2 = 15;
         var3 = var9[var2];
         var12 = var7.bind(var4)(var3);
         var10 = var12.useStateFromStores;
@@ -200,15 +204,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var10 = var10.bind(var12)(var5, var3);
-        var _closure2_slot3 = var10;
-        var2 = var9[var2];
-        var12 = var7.bind(var4)(var2);
-        var5 = var12.useStateFromStores;
-        var2 = _closure1_slot8;
-        var3 = new Array(1);
-        var3[0] = var2;
-        var2 = function() {
+        var12 = var10.bind(var12)(var5, var3);
+        var _closure2_slot3 = var12;
+        var3 = var9[var2];
+        var13 = var7.bind(var4)(var3);
+        var10 = var13.useStateFromStores;
+        var3 = _closure1_slot8;
+        var5 = new Array(1);
+        var5[0] = var3;
+        var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                 var3 = _closure2_slot3;
@@ -218,7 +222,7 @@ case 0:
 case 3:
                 var5 = _closure1_slot8;
                 var4 = var5.can;
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot13;
                 var3 = var3.ADMINISTRATOR;
                 var2 = _closure2_slot3;
                 var1 = var4.bind(var5)(var3, var2);
@@ -226,34 +230,54 @@ case 2:
                 return var1;
             }
         };
-        var18 = var5.bind(var12)(var3, var2);
+        var18 = var10.bind(var13)(var5, var3);
         var _closure2_slot4 = var18;
+        var2 = var9[var2];
+        var10 = var7.bind(var4)(var2);
+        var5 = var10.useStateFromStores;
+        var2 = _closure1_slot9;
+        var3 = new Array(1);
+        var3[0] = var2;
+        var2 = function() {
+            var2 = _closure1_slot9;
+            var1 = var2.isSubmitting;
+            var1 = var1.bind(var2)();
+            return var1;
+        };
+        var10 = var5.bind(var10)(var3, var2);
+        var _closure2_slot5 = var10;
         var5 = _closure1_slot3;
         var3 = var5.useEffect;
-        var2 = new Array(3);
-        var2[0] = var10;
-        var2[1] = var8;
-        var2[2] = var1;
+        var2 = new Array(4);
+        var2[0] = var12;
+        var2[1] = var10;
+        var2[2] = var8;
+        var2[3] = var1;
         var1 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-                var2 = _closure2_slot3;
-                var1 = null;
-                var1 = var1 != var2;
-                if(!var1) { _fun0002_ip = 2; continue _fun0002 }
-case 3:
+                var1 = _closure2_slot5;
+                var1 = !var1;
+                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
+case 5:
+                var3 = _closure2_slot3;
+                var2 = null;
+                var1 = var2 != var3;
+case 4:
+                if(!var1) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
                 var2 = _closure2_slot3;
                 var4 = var2.features;
                 var3 = var4.has;
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot11;
                 var2 = var2.COMMUNITY;
                 var1 = var3.bind(var4)(var2);
-case 2:
-                if(!var1) { _fun0002_ip = 4; continue _fun0002 }
-case 5:
+case 6:
+                if(!var1) { _fun0002_ip = 8; continue _fun0002 }
+case 9:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 15;
+                var2 = 16;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -261,12 +285,12 @@ case 5:
                 var2 = function() {
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 16;
+                    var2 = 17;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var4.bind(var2)(var3);
                     var2 = var3.setSection;
-                    var1 = _closure1_slot11;
+                    var1 = _closure1_slot12;
                     var1 = var1.COMMUNITY;
                     var1 = var2.bind(var3)(var1);
                     return var1;
@@ -274,25 +298,25 @@ case 5:
                 var2 = var3.bind(var4)(var2);
                 var4 = _closure2_slot2;
                 var3 = var4.replace;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var2 = var1.COMMUNITY;
                 var1 = {};
                 var5 = _closure2_slot1;
                 var1['onClose'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
-case 4:
+case 8:
                 var1 = undefined;
                 return var1;
             }
         };
         var1 = var3.bind(var5)(var1, var2);
-        var1 = 17;
+        var1 = 18;
         var1 = var9[var1];
         var2 = var7.bind(var4)(var1);
         var1 = var2.useIntroHeaderSource;
         var13 = var1.bind(var2)();
-        var3 = _closure1_slot14;
-        var2 = _closure1_slot15;
+        var3 = _closure1_slot15;
+        var2 = _closure1_slot16;
         var1 = {};
         var8 = _closure1_slot6;
         var5 = {};
@@ -303,7 +327,7 @@ case 4:
         var10[0] = var12;
         var10[1] = var11;
         var5['contentContainerStyle'] = var10;
-        var12 = _closure1_slot13;
+        var12 = _closure1_slot14;
         var11 = _closure1_slot5;
         var10 = {};
         var16 = 'contain';
@@ -314,15 +338,15 @@ case 4:
         var11 = var12.bind(var4)(var11, var10);
         var10 = new Array(6);
         var10[0] = var11;
-        var16 = _closure1_slot13;
-        var11 = 10;
+        var16 = _closure1_slot14;
+        var11 = 11;
         var12 = var9[var11];
         var12 = var7.bind(var4)(var12);
         var13 = var12.Heading;
         var12 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'mobile-text-heading-primary'};
         var17 = var15.header;
         var12['style'] = var17;
-        var17 = 9;
+        var17 = 10;
         var19 = var9[var17];
         var19 = var7.bind(var4)(var19);
         var21 = var19.intl;
@@ -335,8 +359,8 @@ case 4:
         var12['children'] = var19;
         var12 = var16.bind(var4)(var13, var12);
         var10[1] = var12;
-        var16 = _closure1_slot13;
-        var12 = 18;
+        var16 = _closure1_slot14;
+        var12 = 19;
         var12 = var9[var12];
         var12 = var7.bind(var4)(var12);
         var13 = var12.TextWithIOSLinkWorkaround;
@@ -353,11 +377,11 @@ case 4:
         var20 = var19["52EgsM"];
         var19 = {};
         var24 = _closure1_slot1;
-        var23 = 19;
+        var23 = 20;
         var23 = var9[var23];
         var25 = var24.bind(var4)(var23);
         var24 = var25.getArticleURL;
-        var23 = _closure1_slot9;
+        var23 = _closure1_slot10;
         var23 = var23.FRIEND_COMMUNITY_DISCOVERABLE_GUILD_TYPES;
         var23 = var24.bind(var25)(var23);
         var19['helpdeskArticle'] = var23;
@@ -365,8 +389,8 @@ case 4:
         var12['children'] = var19;
         var12 = var16.bind(var4)(var13, var12);
         var10[2] = var12;
-        var16 = _closure1_slot13;
-        var12 = 20;
+        var16 = _closure1_slot14;
+        var12 = 21;
         var12 = var9[var12];
         var12 = var7.bind(var4)(var12);
         var13 = var12.Button;
@@ -385,27 +409,27 @@ case 4:
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                 var2 = _closure2_slot4;
-                if(var2) { _fun0003_ip = 6; continue _fun0003 }
-case 7:
+                if(var2) { _fun0003_ip = 10; continue _fun0003 }
+case 5:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 22;
+                var2 = 23;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
                 var2 = var3.communityAdminOnly;
                 var2 = var2.bind(var3)();
-                _fun0003_ip = 8; continue _fun0003;
-case 6:
+                _fun0003_ip = 11; continue _fun0003;
+case 10:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
                 var1 = var2.open;
                 var1 = var1.bind(var2)();
-case 8:
+case 11:
                 var1 = undefined;
                 return var1;
             }
@@ -415,7 +439,7 @@ case 8:
         var12['disabled'] = var18;
         var12 = var16.bind(var4)(var13, var12);
         var10[3] = var12;
-        var13 = _closure1_slot13;
+        var13 = _closure1_slot14;
         var11 = var9[var11];
         var11 = var7.bind(var4)(var11);
         var12 = var11.Text;
@@ -434,24 +458,24 @@ case 8:
         var11['children'] = var16;
         var11 = var13.bind(var4)(var12, var11);
         var10[4] = var11;
-        var13 = _closure1_slot13;
+        var13 = _closure1_slot14;
         var12 = _closure1_slot4;
         var11 = {};
         var15 = var15.features;
         var11['style'] = var15;
         var15 = {};
         var16 = function icon() {
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot14;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var1 = var7[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.AnalyticsIcon;
             var1 = {};
             var6 = _closure1_slot1;
-            var5 = 7;
+            var5 = 8;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.unsafe_rawColors;
@@ -481,10 +505,10 @@ case 8:
         var18 = var16.A6G7ak;
         var16 = {};
         var21 = function featureHook(arg1, arg2) {
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot14;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var3[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
@@ -503,17 +527,17 @@ case 8:
         var16[0] = var15;
         var15 = {};
         var18 = function icon() {
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot14;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var7[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.LightbulbIcon;
             var1 = {};
             var6 = _closure1_slot1;
-            var5 = 7;
+            var5 = 8;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.unsafe_rawColors;
@@ -548,10 +572,10 @@ case 8:
         };
         var18['infoHook'] = var22;
         var22 = function featureHook(arg1, arg2) {
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot14;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var3[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
@@ -569,17 +593,17 @@ case 8:
         var16[1] = var15;
         var15 = {};
         var18 = function icon() {
-            var4 = _closure1_slot13;
+            var4 = _closure1_slot14;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 12;
+            var1 = 13;
             var1 = var7[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
             var2 = var1.CircleInformationIcon;
             var1 = {};
             var6 = _closure1_slot1;
-            var5 = 7;
+            var5 = 8;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.unsafe_rawColors;
@@ -612,8 +636,8 @@ case 8:
         var16[2] = var15;
         var15 = var16.map;
         var14 = function(arg1, arg2) {
-            var5 = _closure1_slot13;
-            var4 = _closure1_slot17;
+            var5 = _closure1_slot14;
+            var4 = _closure1_slot18;
             var3 = {};
             var7 = arg1;
             var8 = var3;
@@ -631,8 +655,8 @@ case 8:
         var8 = var3.bind(var4)(var8, var5);
         var5 = new Array(2);
         var5[0] = var8;
-        var8 = _closure1_slot13;
-        var6 = 23;
+        var8 = _closure1_slot14;
+        var6 = 24;
         var6 = var9[var6];
         var6 = var7.bind(var4)(var6);
         var7 = var6.NavScrim;

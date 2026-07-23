@@ -3300,7 +3300,7 @@ case 90:
     var _closure1_slot14 = var5;
     var10 = var5.filter;
     var4 = function(arg1) {
-        var3 = ['gif', 'tenor', 'tts', 'me', 'tableflip', 'unflip', 'shrug', 'spoiler', 'nick'];
+        var3 = ['gif', 'tts', 'me', 'tableflip', 'unflip', 'shrug', 'spoiler', 'nick'];
         var2 = var3.includes;
         var1 = arg1;
         var1 = var1.untranslatedName;

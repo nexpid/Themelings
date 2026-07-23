@@ -86,7 +86,7 @@ case 0:
             var1 = var3[var14];
             var6 = var11.bind(var4)(var1);
             var5 = var6.useAnimatedStyle;
-            var1 = function u() {
+            var1 = function _() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var1 = {};
@@ -208,38 +208,28 @@ case 0:
                     var1 = _closure2_slot1;
                     if(!var1) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var5 = 12;
-                    var6 = var1[var5];
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var1 = 12;
+                    var2 = var6[var1];
                     var4 = undefined;
-                    var7 = var3.bind(var4)(var6);
-                    var6 = var7.triggerHapticFeedback;
-                    var5 = var1[var5];
-                    var5 = var3.bind(var4)(var5);
-                    var5 = var5.HapticFeedbackTypes;
-                    var5 = var5.SOFT;
-                    var5 = var6.bind(var7)(var5);
-                    var5 = _closure1_slot1;
-                    var2 = 13;
-                    var2 = var1[var2];
-                    var6 = var5.bind(var4)(var2);
-                    var5 = var6.pushLazy;
-                    var2 = 15;
-                    var2 = var1[var2];
-                    var3 = var3.bind(var4)(var2);
-                    var2 = 14;
-                    var2 = var1[var2];
-                    var1 = var1.paths;
-                    var11 = var3.bind(var4)(var2, var1);
-                    var3 = {};
-                    var1 = 'modal';
-                    var3['presentation'] = var1;
-                    var10 = {};
-                    var9 = 'for-later-modal';
-                    var12 = var6;
-                    var8 = var3;
-                    var1 = var12[var5](var11, var10, var9, var8, var7);
+                    var3 = var5.bind(var4)(var2);
+                    var2 = var3.triggerHapticFeedback;
+                    var1 = var6[var1];
+                    var1 = var5.bind(var4)(var1);
+                    var1 = var1.HapticFeedbackTypes;
+                    var1 = var1.SOFT;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = 13;
+                    var1 = var6[var1];
+                    var3 = var5.bind(var4)(var1);
+                    var2 = var3.showForLaterModal;
+                    var1 = 14;
+                    var1 = var6[var1];
+                    var1 = var5.bind(var4)(var1);
+                    var1 = var1.SavedMessageSortTypes;
+                    var1 = var1.BOOKMARK;
+                    var1 = var2.bind(var3)(var1);
 case 12:
                     var1 = undefined;
                     return var1;
@@ -263,7 +253,7 @@ case 15:
                     var2['name'] = var4;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var4 = 16;
+                    var4 = 15;
                     var5 = var9[var4];
                     var7 = undefined;
                     var5 = var8.bind(var7)(var5);
@@ -305,17 +295,17 @@ case 16:
             var3 = _closure1_slot8;
             var13 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var1 = 17;
+            var1 = 16;
             var1 = var21[var1];
             var1 = var13.bind(var4)(var1);
             var2 = var1.YouBarButtonContainer;
             var1 = {};
-            var5 = 18;
+            var5 = 17;
             var5 = var21[var5];
             var5 = var13.bind(var4)(var5);
             var6 = var5.IconButton;
             var5 = {};
-            var12 = 16;
+            var12 = 15;
             var15 = var21[var12];
             var15 = var13.bind(var4)(var15);
             var16 = var15.intl;
@@ -346,7 +336,7 @@ case 18:
             var16 = _closure1_slot8;
             var15 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var13 = 19;
+            var13 = 18;
             var13 = var21[var13];
             var13 = var15.bind(var4)(var13);
             var15 = var13.BellIcon;
@@ -373,7 +363,7 @@ case 20:
             var14 = {};
             var14['style'] = var17;
             var18 = _closure1_slot0;
-            var17 = 20;
+            var17 = 19;
             var17 = var20[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.Badge;
@@ -391,7 +381,7 @@ case 20:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 20;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -421,7 +411,7 @@ case 22:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -1719,7 +1719,7 @@ case 13:
             return var1;
         };
         var3['useGetSocialLayerStorefrontApplicationId'] = var4;
-        var4 = function getSocialLayerStorefrontGuildId(arg1) {
+        var2 = function getSocialLayerStorefrontGuildId(arg1) {
             _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
 case 0:
                 var5 = arg1;
@@ -1748,27 +1748,7 @@ case 30:
                 return var1;
             }
         };
-        var3['getSocialLayerStorefrontGuildId'] = var4;
-        var2 = function transformSocialLayerStorefrontAffinityServer(arg1) {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 10;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.mapValues;
-            var2 = arg1;
-            var1 = function(arg1) {
-                var1 = {};
-                var2 = arg1;
-                var2 = var2.is_eligible;
-                var1['isEligible'] = var2;
-                return var1;
-            };
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var3['transformSocialLayerStorefrontAffinityServer'] = var2;
+        var3['getSocialLayerStorefrontGuildId'] = var2;
         return var1;
     }
 })();

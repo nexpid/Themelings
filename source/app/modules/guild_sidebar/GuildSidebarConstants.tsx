@@ -20,6 +20,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_FAVORITES'] = var1;
     var1 = 'guild-channel-list-opt-in-notice';
     var4['GUILD_CHANNEL_LIST_OPT_IN_NOTICE'] = var1;
+    var1 = 'guild-space';
+    var4['GUILD_SPACE'] = var1;
     var1 = 'role-subscriptions';
     var4['GUILD_ROLE_SUBSCRIPTIONS'] = var1;
     var1 = 'game-shop';

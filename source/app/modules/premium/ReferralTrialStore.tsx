@@ -810,7 +810,7 @@ case 51:
 case 0:
             var2 = arg1;
             var4 = null;
-            if(!(var2 != var4)) { _fun0011_ip = 65; continue _fun0011 }
+            if(!(var2 != var4)) { _fun0011_ip = 23; continue _fun0011 }
 case 57:
             var1 = false;
             _closure1_slot22 = var1;
@@ -822,7 +822,7 @@ case 57:
             var1 = var4 + var1;
             _closure1_slot17 = var1;
             var4 = 3;
-            if(!(!(var1 <= var4))) { _fun0011_ip = 66; continue _fun0011 }
+            if(!(!(var1 <= var4))) { _fun0011_ip = 65; continue _fun0011 }
 case 8:
             var1 = global;
             var6 = var1.Math;
@@ -833,8 +833,8 @@ case 8:
             var4 = var5.bind(var6)(var1, var4);
             var1 = 8000;
             var7 = var1 * var4;
-            _fun0011_ip = 67; continue _fun0011;
-case 66:
+            _fun0011_ip = 66; continue _fun0011;
+case 65:
             var1 = global;
             var6 = var1.Math;
             var5 = var6.pow;
@@ -843,7 +843,7 @@ case 66:
             var4 = var5.bind(var6)(var1, var4);
             var1 = 1000;
             var7 = var1 * var4;
-case 67:
+case 66:
             var1 = global;
             var5 = var1.Date;
             var4 = var5.now;
@@ -856,7 +856,7 @@ case 67:
             _closure1_slot18 = var1;
             var1 = undefined;
             return var1;
-case 65:
+case 23:
             var8 = "Cannot destructure 'undefined' or 'null'.";
             var9 = var2;
             var1 = throwTypeError(var9, var8);
@@ -904,8 +904,8 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0012_ip = 68; continue _fun0012 }
-case 69:
+            if(var2) { _fun0012_ip = 67; continue _fun0012 }
+case 68:
             var2 = var3.value;
             var8 = _closure1_slot16;
             var7 = var8.set;
@@ -918,8 +918,8 @@ case 69:
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0012_ip = 69; continue _fun0012 }
-case 68:
+            if(!var2) { _fun0012_ip = 68; continue _fun0012 }
+case 67:
             return var1;
         }
     };
@@ -931,7 +931,7 @@ case 0:
             var4 = var1.userTrialOffer;
             var1 = null;
             if(!(var1 != var4)) { _fun0013_ip = 54; continue _fun0013 }
-case 70:
+case 69:
             var5 = _closure1_slot14;
             var3 = var5.delete;
             var2 = var4.id;

@@ -562,14 +562,59 @@ case 55:
         }
     };
     var4['USER_AUTHORIZED_APPS_REQUEST'] = var10;
-    var10 = function handleUserAuthorizedAppsRequestFailed(arg1) {
+    var10 = function handleUserAuthorizedAppsRequestCancelled(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+case 0:
+            var4 = _closure1_slot19;
+            var1 = arg1;
+            var2 = var1.applicationIds;
+            var1 = undefined;
+            var8 = var4.bind(var1)(var2);
+            var5 = var8.bind(var1)();
+            var4 = var5.done;
+            var6 = var5;
+            var5 = false;
+            var2 = false;
+            if(var4) { _fun0010_ip = 56; continue _fun0010 }
+case 57:
+            var10 = var6.value;
+            var9 = _closure1_slot16;
+            var4 = var9.get;
+            var9 = var4.bind(var9)(var10);
+            var4 = _closure1_slot11;
+            var4 = var4.FETCHING;
+            if(!(var9 === var4)) { _fun0010_ip = 58; continue _fun0010 }
+case 59:
+            var9 = _closure1_slot16;
+            var4 = var9.delete;
+            var4 = var4.bind(var9)(var10);
+            var5 = true;
+case 58:
+            var10 = var8.bind(var1)();
+            var4 = var10.done;
+            var6 = var10;
+            var2 = var5;
+            if(!var4) { _fun0010_ip = 57; continue _fun0010 }
+case 56:
+            if(!var2) { _fun0010_ip = 60; continue _fun0010 }
+case 61:
+            var4 = _closure1_slot17;
+            var2 = 1;
+            var2 = var4 + var2;
+            _closure1_slot17 = var2;
+case 60:
+            return var1;
+        }
+    };
+    var4['USER_AUTHORIZED_APPS_REQUEST_CANCELLED'] = var10;
+    var10 = function handleUserAuthorizedAppsRequestFailed(arg1) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.request;
             var3 = var2.type;
             var2 = 'full';
-            if(!(var2 !== var3)) { _fun0010_ip = 11; continue _fun0010 }
+            if(!(var2 !== var3)) { _fun0011_ip = 11; continue _fun0011 }
 case 54:
             var4 = _closure1_slot22;
             var2 = _closure1_slot11;
@@ -578,7 +623,7 @@ case 54:
             var2 = var1.applicationIds;
             var1 = undefined;
             var1 = var4.bind(var1)(var3, var2);
-            _fun0010_ip = 55; continue _fun0010;
+            _fun0011_ip = 55; continue _fun0011;
 case 11:
             var3 = _closure1_slot22;
             var1 = _closure1_slot11;
@@ -592,7 +637,7 @@ case 55:
     };
     var4['USER_AUTHORIZED_APPS_REQUEST_FAILED'] = var10;
     var10 = function handleAuthorizedAppsUpdate(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
             var3 = arg1;
             var7 = var3.isFullFetch;
@@ -601,8 +646,8 @@ case 0:
             var5 = var1.FETCHED;
             var4 = global;
             var1 = undefined;
-            if(var7) { _fun0011_ip = 56; continue _fun0011 }
-case 57:
+            if(var7) { _fun0012_ip = 62; continue _fun0012 }
+case 63:
             var9 = var4.Object;
             var8 = var9.keys;
             var7 = var3.tokens;
@@ -619,32 +664,32 @@ case 57:
             var10 = 1;
             var9 = null;
             var8 = 0;
-            if(!var7) { _fun0011_ip = 58; continue _fun0011 }
-case 59:
+            if(!var7) { _fun0012_ip = 64; continue _fun0012 }
+case 65:
             var14 = var13[var8];
             var7 = _closure1_slot7;
             var7 = var7.bind(var1)(var14, var11);
             var15 = var7[var12];
             var16 = var7[var10];
-            if(!(var9 != var16)) { _fun0011_ip = 60; continue _fun0011 }
-case 61:
+            if(!(var9 != var16)) { _fun0012_ip = 66; continue _fun0012 }
+case 67:
             var14 = _closure1_slot12;
             var7 = var14.set;
             var7 = var7.bind(var14)(var15, var16);
-            _fun0011_ip = 62; continue _fun0011;
-case 60:
+            _fun0012_ip = 68; continue _fun0012;
+case 66:
             var14 = _closure1_slot12;
             var7 = var14.delete;
             var7 = var7.bind(var14)(var15);
-case 62:
+case 68:
             var8 = var8 + 1;
             var7 = var13.length;
-            if(var8 < var7) { _fun0011_ip = 59; continue _fun0011 }
-case 58:
+            if(var8 < var7) { _fun0012_ip = 65; continue _fun0012 }
+case 64:
             var7 = _closure1_slot21;
             var7 = var7.bind(var1)();
-            _fun0011_ip = 63; continue _fun0011;
-case 56:
+            _fun0012_ip = 69; continue _fun0012;
+case 62:
             var5 = var6.bind(var1)(var5);
             var5 = var4.Map;
             var6 = var4.Object;
@@ -667,7 +712,7 @@ case 56:
             _closure1_slot12 = var3;
             var2 = _closure1_slot21;
             var2 = var2.bind(var1)();
-case 63:
+case 69:
             return var1;
         }
     };
@@ -692,7 +737,7 @@ case 63:
     };
     var4['OAUTH2_TOKEN_CREATE'] = var10;
     var10 = function handleOAuth2TokenDelete(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
             var1 = arg1;
             var4 = var1.id;
@@ -701,11 +746,11 @@ case 0:
             var2 = var3.get;
             var2 = var2.bind(var3)(var5);
             var3 = null;
-            if(!(var3 != var2)) { _fun0012_ip = 64; continue _fun0012 }
-case 57:
+            if(!(var3 != var2)) { _fun0013_ip = 70; continue _fun0013 }
+case 63:
             var3 = var2.id;
-            if(!(var3 === var4)) { _fun0012_ip = 64; continue _fun0012 }
-case 65:
+            if(!(var3 === var4)) { _fun0013_ip = 70; continue _fun0013 }
+case 71:
             var4 = _closure1_slot12;
             var3 = var4.delete;
             var2 = var2.application;
@@ -715,7 +760,7 @@ case 65:
             var1 = undefined;
             var2 = var2.bind(var1)();
             return var1;
-case 64:
+case 70:
             var1 = false;
             return var1;
         }

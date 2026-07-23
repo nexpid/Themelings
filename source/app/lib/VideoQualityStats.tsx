@@ -1364,11 +1364,11 @@ case 127:
                 if(!(var6 != var19)) { _fun0009_ip = 131; continue _fun0009 }
 case 132:
                 if(!(var6 != var13)) { _fun0009_ip = 131; continue _fun0009 }
-case 70:
+case 133:
                 var16 = 'encoderBuckets';
                 var16 = var16 in var1;
                 if(!var16) { _fun0009_ip = 131; continue _fun0009 }
-case 133:
+case 134:
                 var18 = var1.encoderBuckets;
                 var16 = var18[var19];
                 var16 = var16 + var14;
@@ -1379,28 +1379,28 @@ case 133:
                 var18[var13] = var16;
                 var16 = var3.codecType;
                 var16 = var6 != var16;
-                if(!var16) { _fun0009_ip = 134; continue _fun0009 }
-case 40:
+                if(!var16) { _fun0009_ip = 42; continue _fun0009 }
+case 135:
                 var19 = var3.codecType;
                 var18 = _closure1_slot13;
                 var18 = var18.UNKNOWN;
                 var16 = var19 !== var18;
-case 134:
-                if(!var16) { _fun0009_ip = 135; continue _fun0009 }
-case 136:
+case 42:
+                if(!var16) { _fun0009_ip = 136; continue _fun0009 }
+case 41:
                 var16 = var3.codecType;
                 var1['encoderCodec'] = var16;
-case 135:
+case 136:
                 var16 = var5.vmafScore;
                 var16 = var6 != var16;
                 if(!var16) { _fun0009_ip = 137; continue _fun0009 }
-case 43:
+case 138:
                 var19 = var5.vmafScore;
                 var18 = 0;
                 var16 = var19 >= var18;
 case 137:
-                if(!var16) { _fun0009_ip = 138; continue _fun0009 }
-case 139:
+                if(!var16) { _fun0009_ip = 139; continue _fun0009 }
+case 79:
                 var16 = var1.vmafScoreNum;
                 var16 = var16 + var17;
                 var1['vmafScoreNum'] = var16;
@@ -1412,7 +1412,7 @@ case 139:
                 var18 = var19.addSample;
                 var16 = var5.vmafScore;
                 var16 = var18.bind(var19)(var16);
-case 138:
+case 139:
                 var16 = var5.psnrDb;
                 var16 = var6 != var16;
                 if(!var16) { _fun0009_ip = 140; continue _fun0009 }
@@ -1421,8 +1421,8 @@ case 141:
                 var18 = 0;
                 var16 = var19 >= var18;
 case 140:
-                if(!var16) { _fun0009_ip = 58; continue _fun0009 }
-case 142:
+                if(!var16) { _fun0009_ip = 142; continue _fun0009 }
+case 143:
                 var16 = var1.psnrDbNum;
                 var16 = var16 + var17;
                 var1['psnrDbNum'] = var16;
@@ -1434,17 +1434,17 @@ case 142:
                 var18 = var19.addSample;
                 var16 = var5.psnrDb;
                 var16 = var18.bind(var19)(var16);
-case 58:
+case 142:
                 var16 = var5.outboundSinkWant;
                 var16 = var6 != var16;
-                if(!var16) { _fun0009_ip = 143; continue _fun0009 }
-case 144:
+                if(!var16) { _fun0009_ip = 144; continue _fun0009 }
+case 145:
                 var19 = var5.outboundSinkWant;
                 var18 = 0;
                 var16 = var18 !== var19;
-case 143:
-                if(!var16) { _fun0009_ip = 145; continue _fun0009 }
-case 146:
+case 144:
+                if(!var16) { _fun0009_ip = 146; continue _fun0009 }
+case 147:
                 var16 = var1.outboundSinkWantNum;
                 var16 = var16 + var17;
                 var1['outboundSinkWantNum'] = var16;
@@ -1452,7 +1452,7 @@ case 146:
                 var16 = var5.outboundSinkWant;
                 var16 = var17 + var16;
                 var1['outboundSinkWantSum'] = var16;
-case 145:
+case 146:
                 var17 = var8.Math;
                 var16 = var17.max;
                 var8 = var1.consecutiveStaticColorFramesMax;
@@ -1460,14 +1460,14 @@ case 145:
                 var5 = var16.bind(var17)(var8, var5);
                 var1['consecutiveStaticColorFramesMax'] = var5;
 case 131:
-                if(!(var6 != var15)) { _fun0009_ip = 147; continue _fun0009 }
-case 148:
-                if(!(var6 != var13)) { _fun0009_ip = 147; continue _fun0009 }
+                if(!(var6 != var15)) { _fun0009_ip = 148; continue _fun0009 }
 case 149:
+                if(!(var6 != var13)) { _fun0009_ip = 148; continue _fun0009 }
+case 150:
                 var5 = 'decoderBuckets';
                 var5 = var5 in var1;
-                if(!var5) { _fun0009_ip = 147; continue _fun0009 }
-case 150:
+                if(!var5) { _fun0009_ip = 148; continue _fun0009 }
+case 151:
                 var8 = var1.decoderBuckets;
                 var5 = var8[var15];
                 var5 = var5 + var14;
@@ -1478,18 +1478,18 @@ case 150:
                 var8[var13] = var5;
                 var5 = var3.codecType;
                 var5 = var6 != var5;
-                if(!var5) { _fun0009_ip = 151; continue _fun0009 }
-case 152:
+                if(!var5) { _fun0009_ip = 152; continue _fun0009 }
+case 153:
                 var8 = var3.codecType;
                 var6 = _closure1_slot13;
                 var6 = var6.UNKNOWN;
                 var5 = var8 !== var6;
-case 151:
-                if(!var5) { _fun0009_ip = 147; continue _fun0009 }
-case 153:
+case 152:
+                if(!var5) { _fun0009_ip = 148; continue _fun0009 }
+case 109:
                 var3 = var3.codecType;
                 var1['decoderCodec'] = var3;
-case 147:
+case 148:
                 var3 = var1.statsWindow;
                 var5 = var3.length;
                 var3 = 6;

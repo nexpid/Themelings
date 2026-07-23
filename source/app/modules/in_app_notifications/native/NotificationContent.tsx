@@ -499,7 +499,7 @@ case 13:
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.space;
-    var13 = var13.PX_12;
+    var13 = var13.PX_8;
     var9['marginRight'] = var13;
     var4['iconContainer'] = var9;
     var9 = {};

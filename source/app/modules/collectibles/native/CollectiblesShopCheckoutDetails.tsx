@@ -360,68 +360,68 @@ case 11:
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
             var1 = arg1;
-            var9 = var1.product;
-            var8 = var1.width;
+            var8 = var1.product;
+            var9 = var1.width;
             var10 = var1.height;
             var7 = var1.userAvatarSource;
             var2 = _closure1_slot9;
             var4 = undefined;
-            var5 = var2.bind(var4)();
+            var6 = var2.bind(var4)();
             var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var5 = _closure1_slot2;
             var2 = 18;
-            var2 = var6[var2];
+            var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.FractionalPremiumSKUsSets;
-            var6 = var2.ALL;
-            var3 = var6.has;
-            var2 = var9.skuId;
-            var2 = var3.bind(var6)(var2);
+            var5 = var2.ALL;
+            var3 = var5.has;
+            var2 = var8.skuId;
+            var2 = var3.bind(var5)(var2);
             if(var2) { _fun0005_ip = 13; continue _fun0005 }
 case 14:
-            var3 = var9.skuId;
+            var3 = var8.skuId;
             var2 = _closure1_slot5;
             var2 = var2.ORB_PROFILE_BADGE;
             if(!(var3 !== var2)) { _fun0005_ip = 15; continue _fun0005 }
 case 10:
-            var3 = var9.type;
-            var6 = _closure1_slot0;
+            var3 = var8.type;
+            var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var11 = 17;
             var2 = var2[var11];
-            var2 = var6.bind(var4)(var2);
+            var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.AVATAR_DECORATION;
             if(!(var2 !== var3)) { _fun0005_ip = 16; continue _fun0005 }
 case 17:
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var11];
-            var2 = var6.bind(var4)(var2);
+            var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.PROFILE_EFFECT;
             if(!(var2 !== var3)) { _fun0005_ip = 18; continue _fun0005 }
 case 19:
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var11];
-            var2 = var6.bind(var4)(var2);
+            var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.NAMEPLATE;
             if(!(var2 !== var3)) { _fun0005_ip = 20; continue _fun0005 }
 case 21:
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var11];
-            var2 = var6.bind(var4)(var2);
+            var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.PROFILE_FRAME;
             if(!(var2 !== var3)) { _fun0005_ip = 22; continue _fun0005 }
 case 23:
-            var6 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var11];
-            var2 = var6.bind(var4)(var2);
+            var2 = var5.bind(var4)(var2);
             var2 = var2.CollectiblesItemType;
             var2 = var2.BUNDLE;
             if(!(var2 !== var3)) { _fun0005_ip = 24; continue _fun0005 }
@@ -429,98 +429,103 @@ case 25:
             var2 = null;
             return var2;
 case 24:
-            var6 = _closure1_slot7;
+            var5 = _closure1_slot7;
             var3 = _closure1_slot15;
             var2 = {};
-            var2['product'] = var9;
-            var2['width'] = var8;
+            var2['product'] = var8;
+            var2['width'] = var9;
             var2['height'] = var10;
-            var2 = var6.bind(var4)(var3, var2);
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 22:
-            var6 = _closure1_slot7;
+            var5 = _closure1_slot7;
             var3 = _closure1_slot14;
             var2 = {};
-            var12 = var9.items;
+            var12 = var8.items;
             var11 = 0;
             var11 = var12[var11];
             var2['item'] = var11;
-            var2['width'] = var8;
+            var2['width'] = var9;
             var2['height'] = var10;
-            var2 = var6.bind(var4)(var3, var2);
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 20:
-            var6 = _closure1_slot7;
+            var5 = _closure1_slot7;
             var3 = _closure1_slot16;
             var2 = {};
-            var11 = var9.items;
+            var11 = var8.items;
             var10 = 0;
             var10 = var11[var10];
             var2['item'] = var10;
-            var2 = var6.bind(var4)(var3, var2);
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 18:
-            var6 = _closure1_slot7;
+            var5 = _closure1_slot7;
             var3 = _closure1_slot13;
             var2 = {};
-            var11 = var9.items;
+            var11 = var8.items;
             var10 = 0;
             var10 = var11[var10];
             var2['item'] = var10;
-            var2 = var6.bind(var4)(var3, var2);
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 16:
-            var6 = _closure1_slot7;
+            var5 = _closure1_slot7;
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
             var2 = 21;
             var2 = var10[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
-            var10 = var9.items;
-            var9 = 0;
-            var9 = var10[var9];
-            var2['item'] = var9;
-            var2['size'] = var8;
+            var11 = var8.items;
+            var10 = 0;
+            var10 = var11[var10];
+            var2['item'] = var10;
+            var2['size'] = var9;
             var2['avatarSource'] = var7;
             var7 = false;
             var2['animate'] = var7;
-            var2 = var6.bind(var4)(var3, var2);
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 15:
-            var6 = _closure1_slot7;
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var5 = _closure1_slot7;
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
             var2 = 8;
-            var2 = var10[var2];
-            var3 = var9.bind(var4)(var2);
+            var2 = var11[var2];
+            var3 = var10.bind(var4)(var2);
             var2 = {};
             var7 = {};
-            var8 = 20;
-            var8 = var10[var8];
-            var8 = var9.bind(var4)(var8);
-            var7['uri'] = var8;
+            var9 = 20;
+            var9 = var11[var9];
+            var9 = var10.bind(var4)(var9);
+            var7['uri'] = var9;
             var2['source'] = var7;
-            var7 = var5.externalProductImage;
-            var2['style'] = var7;
-            var2 = var6.bind(var4)(var3, var2);
+            var6 = var6.externalProductImage;
+            var2['style'] = var6;
+            var2 = var5.bind(var4)(var3, var2);
             return var2;
 case 13:
             var3 = _closure1_slot7;
-            var8 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var1 = 8;
-            var1 = var9[var1];
-            var2 = var8.bind(var4)(var1);
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 19;
+            var1 = var7[var5];
+            var1 = var6.bind(var4)(var1);
+            var2 = var1.FractionalNitroCoinIllustration;
             var1 = {};
-            var6 = {};
-            var7 = 19;
-            var7 = var9[var7];
-            var7 = var8.bind(var4)(var7);
-            var6['uri'] = var7;
-            var1['source'] = var6;
-            var5 = var5.externalProductImage;
-            var1['style'] = var5;
+            var8 = var8.skuId;
+            var1['skuId'] = var8;
+            var8 = var7[var5];
+            var8 = var6.bind(var4)(var8);
+            var8 = var8.FRACTIONAL_NITRO_COIN_SIZE;
+            var8 = var8.CHECKOUT;
+            var1['width'] = var8;
+            var5 = var7[var5];
+            var5 = var6.bind(var4)(var5);
+            var5 = var5.FRACTIONAL_NITRO_COIN_SIZE;
+            var5 = var5.CHECKOUT;
+            var1['height'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

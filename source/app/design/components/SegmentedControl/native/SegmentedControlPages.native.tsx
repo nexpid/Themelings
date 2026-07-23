@@ -1496,12 +1496,12 @@ case 7:
                     var2 = var3[var2];
                     var1 = var4 === var2;
 case 40:
-                    if(var1) { _fun0021_ip = 67; continue _fun0021 }
+                    if(var1) { _fun0021_ip = 62; continue _fun0021 }
 case 35:
                     var2 = _closure2_slot4;
                     var1 = var2.set;
                     var1 = var1.bind(var2)(var3);
-case 67:
+case 62:
                     var1 = undefined;
                     return var1;
                 }
@@ -1514,8 +1514,8 @@ case 67:
             var18 = _closure1_slot18;
             var3['__initData'] = var18;
             var3 = var16.bind(var17)(var4, var3);
-            if(!(var1 !== var12)) { _fun0008_ip = 68; continue _fun0008 }
-case 69:
+            if(!(var1 !== var12)) { _fun0008_ip = 67; continue _fun0008 }
+case 68:
             var4 = _closure1_slot5;
             var3 = _closure1_slot6;
             var1 = {'ref': null, 'style': null, 'contentOffset': null, 'keyboardShouldPersistTaps': 'handled', 'showsHorizontalScrollIndicator': false, 'pagingEnabled': true};
@@ -1546,10 +1546,10 @@ case 69:
             var8 = var10.isIOS;
             var10 = var8.bind(var10)();
             var8 = undefined;
-            if(!var10) { _fun0008_ip = 70; continue _fun0008 }
-case 71:
-            var8 = 32;
+            if(!var10) { _fun0008_ip = 69; continue _fun0008 }
 case 70:
+            var8 = 32;
+case 69:
             var1['scrollEventThrottle'] = var8;
             var8 = var9.map;
             var6 = function(arg1, arg2) {
@@ -1581,8 +1581,8 @@ case 70:
             var6 = var4.bind(var5)(var3, var1);
             var3 = null;
             var1 = var6;
-            if(!(var3 != var7)) { _fun0008_ip = 72; continue _fun0008 }
-case 73:
+            if(!(var3 != var7)) { _fun0008_ip = 71; continue _fun0008 }
+case 72:
             var4 = _closure1_slot5;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1594,9 +1594,9 @@ case 73:
             var2['gesture'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
-case 72:
+case 71:
             return var1;
-case 68:
+case 67:
             var1 = null;
             return var1;
         }
