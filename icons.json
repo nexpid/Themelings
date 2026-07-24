@@ -2457,6 +2457,16 @@
         "width": 221,
         "height": 195
     },
+    "DoorEnterIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/DoorEnterIcon.png",
+        "hash": "d287ab85d54506fcfae6aa3f9742222f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "DoorExitIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/DoorExitIcon.png",
         "hash": "2deb3f64961131491b7db6bb10903f69",
@@ -7329,6 +7339,16 @@
         "width": 411,
         "height": 134
     },
+    "img_client_themes": {
+        "file": "app/modules/premium_marketing/native/images/img_client_themes.png",
+        "hash": "e23a08d55bf782056090f3aa9709d84f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 254,
+        "height": 180
+    },
     "img_clouds_header_tier_0": {
         "file": "app/images/native/premium/illustrations/img_clouds_header_tier_0.png",
         "hash": "a6c610e7cf3af335e6671966e6802c47",
@@ -7397,6 +7417,16 @@
         ],
         "width": 49,
         "height": 48.5
+    },
+    "img_custom_sounds": {
+        "file": "app/modules/premium_marketing/native/images/img_custom_sounds.png",
+        "hash": "bd4d35211a1db60224ac1f8c89da052c",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 218,
+        "height": 180
     },
     "img_discord_nitro_logo_centered_dark": {
         "file": "app/images/native/premium/logos/img_discord_nitro_logo_centered_dark.png",
@@ -7858,6 +7888,16 @@
         "width": 185,
         "height": 32
     },
+    "img_longer_messages": {
+        "file": "app/modules/premium_marketing/native/images/img_longer_messages.png",
+        "hash": "36372d934592de3c10481ad82af6bc9f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 366.5,
+        "height": 180
+    },
     "img_marketing_frog": {
         "file": "app/images/native/premium/illustrations/img_marketing_frog.png",
         "hash": "e786e2db9ac41808374260a48d3a5876",
@@ -7914,6 +7954,16 @@
         ],
         "width": 128,
         "height": 128
+    },
+    "img_more_servers": {
+        "file": "app/modules/premium_marketing/native/images/img_more_servers.png",
+        "hash": "597d5d215d03c23e5b059bed2500d226",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 403.5,
+        "height": 180
     },
     "img_nitro_animated_avatar": {
         "file": "app/images/native/premium/upsell/img_nitro_animated_avatar.png",
@@ -8497,6 +8547,16 @@
         "width": 288,
         "height": 128
     },
+    "img_stickers": {
+        "file": "app/modules/premium_marketing/native/images/img_stickers.png",
+        "hash": "d7e552e30321c5576e018b6c00e2147c",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 364,
+        "height": 180
+    },
     "img_stream_ended_dark": {
         "file": "app/images/native/application_streaming/img_stream_ended_dark.png",
         "hash": "a3a7de10a959d0177fccd05afcb73752",
@@ -8546,6 +8606,16 @@
         ],
         "width": 272,
         "height": 93
+    },
+    "img_streaming": {
+        "file": "app/modules/premium_marketing/native/images/img_streaming.png",
+        "hash": "d76b7a9b1989d0bc422e3a5f4c1443a2",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 271,
+        "height": 180
     },
     "img_study": {
         "file": "app/modules/create_guild/native/images/img_study.png",
@@ -8617,6 +8687,16 @@
         "width": 213.5,
         "height": 19
     },
+    "img_super_reactions": {
+        "file": "app/modules/premium_marketing/native/images/img_super_reactions.png",
+        "hash": "1e5063c49fcc72c328279886065f1480",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 300,
+        "height": 180
+    },
     "img_tier_0_clouds": {
         "file": "app/images/native/premium/illustrations/img_tier_0_clouds.png",
         "hash": "285e979e530f2dfb10749ec34ebaf83a",
@@ -8676,6 +8756,16 @@
         ],
         "width": 88,
         "height": 106
+    },
+    "img_tier_0_perk_custom_video_backgrounds": {
+        "file": "app/images/native/premium/illustrations/img_tier_0_perk_custom_video_backgrounds.png",
+        "hash": "2762ca199009f1ddb659b515502ab30e",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 222.5,
+        "height": 118
     },
     "img_tier_0_resubscribe_mobile": {
         "file": "app/images/native/premium/illustrations/img_tier_0_resubscribe_mobile.png",
@@ -11350,6 +11440,16 @@
         "width": 18,
         "height": 15
     },
+    "SparklesIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/SparklesIcon.png",
+        "hash": "49797bf2e9feeabeb3ed3af5b9cf8473",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "speaker": {
         "file": "app/modules/video_calls/native/images/speaker.png",
         "hash": "72af9903f630d67fa106808d11ca96fb",
@@ -12714,6 +12814,16 @@
     "VrHeadsetIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/VrHeadsetIcon.png",
         "hash": "912599b20b4f4689d8c9b765ff8e94f3",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "WalletIcon": {
+        "file": "app/design/components/Icon/native/redesign/generated/images/WalletIcon.png",
+        "hash": "0a9a387fb9d47e12759ef9517ca0c2ad",
         "scales": [
             2,
             3
