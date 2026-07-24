@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var9 = var2.MobileSetting;
+    var8 = var2.MobileSetting;
     var2 = 1;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['useTitle'] = var10;
-    var10 = function useDescription() {
+    var9 = function useDescription() {
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 2;
@@ -60,35 +60,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['useDescription'] = var10;
-    var9 = var9.DATA_AND_PRIVACY;
-    var2['parent'] = var9;
-    var9 = 4;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.NotifyFriendsOnProfileUpdate;
-    var9 = var9.useSetting;
-    var2['useValue'] = var9;
-    var9 = 5;
-    var9 = var6[var9];
-    var9 = var5.bind(var1)(var9);
-    var9 = var9.onNotifyFriendsOnProfileUpdateSettingsChanged;
-    var2['onValueChange'] = var9;
-    var8 = function usePredicate() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.useNotifyFriendsOnProfileUpdateExperiment;
-        var1 = 'NotifyFriendsOnProfileUpdateSetting';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var2['usePredicate'] = var8;
+    var2['useDescription'] = var9;
+    var8 = var8.DATA_AND_PRIVACY;
+    var2['parent'] = var8;
+    var8 = 4;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.NotifyFriendsOnProfileUpdate;
+    var8 = var8.useSetting;
+    var2['useValue'] = var8;
+    var8 = 5;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.onNotifyFriendsOnProfileUpdateSettingsChanged;
+    var2['onValueChange'] = var8;
     var2 = var4.bind(var7)(var2);
-    var4 = 7;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

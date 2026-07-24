@@ -28,9 +28,8 @@ case 0:
             var1 = 0;
             var1 = var4[var1];
             var5 = undefined;
-            var1 = var3.bind(var5)(var1);
-            var4 = var1.GameMentionsExperiment;
-            var3 = var4.getConfig;
+            var4 = var3.bind(var5)(var1);
+            var3 = var4.getGameMentionsExperiment;
             var1 = {};
             var6 = arg1;
             var1['location'] = var6;

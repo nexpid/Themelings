@@ -2,47 +2,54 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var2 = true;
-    var4['value'] = var2;
-    var2 = '__esModule';
-    var2 = var5.bind(var6)(var3, var2, var4);
-    var4 = /^<@\$(\d+)>/;
-    var6 = var1.RegExp;
-    var7 = var4.source;
-    var5 = var7.replace;
-    var2 = /^\^/;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var4 = true;
+    var5['value'] = var4;
+    var4 = '__esModule';
+    var4 = var6.bind(var7)(var3, var4, var5);
+    var4 = new Array(0);
+    var _closure1_slot0 = var4;
+    var5 = /^<@\$(\d+)>/;
+    var7 = var1.RegExp;
+    var8 = var5.source;
+    var6 = var8.replace;
+    var4 = /^\^/;
     var1 = '';
-    var10 = var5.bind(var7)(var2, var1);
-    var1 = var6.prototype;
-    var2 = Object.create(var1, {constructor: {value: var6}});
-    var9 = 'g';
-    var11 = var2;
-    var1 = new var11[var6](var10, var9, var8);
-    var2 = var1 instanceof Object ? var1 : var2;
-    var5 = dependencyMap;
+    var11 = var6.bind(var8)(var4, var1);
+    var1 = var7.prototype;
+    var4 = Object.create(var1, {constructor: {value: var7}});
+    var10 = 'g';
+    var12 = var4;
+    var1 = new var12[var7](var11, var10, var9);
+    var4 = var1 instanceof Object ? var1 : var4;
+    var _closure1_slot1 = var4;
+    var6 = dependencyMap;
     var1 = 0;
-    var6 = var5[var1];
-    var5 = require;
+    var7 = var6[var1];
+    var6 = require;
     var1 = undefined;
-    var7 = var5.bind(var1)(var6);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/channel_autocomplete/ChannelAutocompleteConstants.tsx';
-    var5 = var6.bind(var7)(var5);
-    var5 = '@';
-    var3['MENTION_SENTINEL'] = var5;
-    var5 = '#';
-    var3['CHANNEL_SENTINEL'] = var5;
-    var5 = ':';
-    var3['EMOJI_SENTINEL'] = var5;
-    var6 = '+:';
-    var3['REACTION_START_SENTINEL'] = var6;
-    var3['REACTION_END_SENTINEL'] = var5;
-    var5 = '/';
-    var3['COMMAND_SENTINEL'] = var5;
-    var5 = function formatGameMentionRaw(arg1) {
+    var8 = var6.bind(var1)(var7);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/channel_autocomplete/ChannelAutocompleteConstants.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = '@';
+    var3['MENTION_SENTINEL'] = var6;
+    var6 = '$';
+    var3['GAME_MENTION_SENTINEL'] = var6;
+    var6 = '#';
+    var3['CHANNEL_SENTINEL'] = var6;
+    var6 = ':';
+    var3['EMOJI_SENTINEL'] = var6;
+    var7 = '+:';
+    var3['REACTION_START_SENTINEL'] = var7;
+    var3['REACTION_END_SENTINEL'] = var6;
+    var6 = '/';
+    var3['COMMAND_SENTINEL'] = var6;
+    var6 = '@game:';
+    var3['GAME_MENTION_INPUT_PREFIX'] = var6;
+    var6 = function formatGameMentionRaw(arg1) {
         var1 = global;
         var1 = var1.HermesInternal;
         var4 = var1.concat;
@@ -52,8 +59,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
-    var3['formatGameMentionRaw'] = var5;
-    var3['GAME_MENTION_RAW_RE'] = var4;
-    var3['GAME_MENTION_RAW_RE_GLOBAL'] = var2;
+    var3['formatGameMentionRaw'] = var6;
+    var3['GAME_MENTION_RAW_RE'] = var5;
+    var3['GAME_MENTION_RAW_RE_GLOBAL'] = var4;
+    var2 = function extractGameMentionIds(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var4 = arg1;
+            var2 = var4.includes;
+            var1 = '<@$';
+            var1 = var2.bind(var4)(var1);
+            if(var1) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var1 = _closure1_slot0;
+            return var1;
+case 2:
+            var3 = var4.matchAll;
+            var1 = _closure1_slot1;
+            var7 = var3.bind(var4)(var1);
+            var5 = new Array(0);
+            var4 = 0;
+            var8 = var5;
+            var6 = 0;
+            var1 = arraySpread(var8, var7, var6);
+            var3 = var5.map;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = 1;
+                var1 = var2[var1];
+                return var1;
+            };
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.length;
+            if(!(!(var3 > var4))) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var1 = _closure1_slot0;
+case 4:
+            return var1;
+        }
+    };
+    var3['extractGameMentionIds'] = var2;
     return var1;
 })();

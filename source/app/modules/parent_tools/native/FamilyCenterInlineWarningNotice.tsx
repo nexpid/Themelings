@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 6;
         var6 = var11[var6];
         var6 = var7.bind(var4)(var6);
-        var7 = var6.TextWithIOSLinkWorkaround;
+        var7 = var6.Text;
         var6 = {'variant': 'text-sm/medium', 'color': 'text-strong'};
         var10 = var10.text;
         var6['style'] = var10;

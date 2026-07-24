@@ -1127,7 +1127,7 @@ case 104:
         }
     };
     var2['SEARCH_AUTOCOMPLETE_QUERY_UPDATE'] = var10;
-    var10 = function handleSearchEditorStateClear(arg1) {
+    var10 = function handleSearchQueryTextClear(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var1 = arg1;
@@ -1155,7 +1155,7 @@ case 39:
             return var1;
         }
     };
-    var2['SEARCH_EDITOR_STATE_CLEAR'] = var10;
+    var2['SEARCH_QUERY_TEXT_CLEAR'] = var10;
     var2['CHANNEL_CREATE'] = var7;
     var2['CHANNEL_DELETE'] = var7;
     var7 = function handleStreamerModeUpdate() {

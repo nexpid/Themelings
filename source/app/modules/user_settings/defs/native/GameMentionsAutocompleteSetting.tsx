@@ -49,9 +49,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
-        var2 = var3.useIsGameMentionsEnabled;
-        var1 = 'GameMentionsInAutocomplete';
+        var2 = var3.useGameMentionsExperiment;
+        var1 = {};
+        var4 = 'GameMentionsInAutocomplete';
+        var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
+        var1 = var1.enabled;
         return var1;
     };
     var2['usePredicate'] = var8;

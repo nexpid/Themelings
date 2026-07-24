@@ -682,6 +682,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_DELETE_SPAM_SILENT_SMITE'] = var5;
     var1 = 'USER_DELETE_SPAM_SILENT_SMITE';
     var2[var5] = var1;
+    var5 = 3220;
+    var2['BOT_DELETE_IMPERSONATION_SMITE'] = var5;
+    var1 = 'BOT_DELETE_IMPERSONATION_SMITE';
+    var2[var5] = var1;
     var5 = 4000;
     var2['PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK'] = var5;
     var1 = 'PRESENCE_IN_VIOLATIVE_GUILD_HIGH_RISK';

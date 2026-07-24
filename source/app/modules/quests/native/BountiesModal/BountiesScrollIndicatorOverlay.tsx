@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
     var4 = {};
-    var7 = "function BountiesScrollIndicatorOverlayTsx1(){const{withTiming,visible,isActive,timingSlow,timingStandard,runOnJS,animationCallbackJSThread}=this.__closure;return{opacity:withTiming(visible?1:0,isActive?timingSlow:timingStandard,'respect-motion-settings',function(){'worklet';runOnJS(animationCallbackJSThread)();})};}";
+    var7 = "function BountiesScrollIndicatorOverlayTsx1(){const{withTiming,visible,enabled,timingSlow,timingStandard,runOnJS,animationCallbackJSThread}=this.__closure;return{opacity:withTiming(visible?1:0,enabled?timingSlow:timingStandard,'respect-motion-settings',function(){'worklet';runOnJS(animationCallbackJSThread)();})};}";
     var4['code'] = var7;
     var _closure1_slot11 = var4;
     var4 = {};
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['code'] = var7;
     var _closure1_slot12 = var4;
     var4 = {};
-    var7 = 'function BountiesScrollIndicatorOverlayTsx3(){const{withTiming,visible,isEndCardVisible,isActive,timingStandard,timingSlow}=this.__closure;return{opacity:withTiming(visible&&!isEndCardVisible?1:0,isEndCardVisible||!isActive?timingStandard:timingSlow)};}';
+    var7 = 'function BountiesScrollIndicatorOverlayTsx3(){const{withTiming,visible,isEndCardVisible,enabled,timingStandard,timingSlow}=this.__closure;return{opacity:withTiming(visible&&!isEndCardVisible?1:0,isEndCardVisible||!enabled?timingStandard:timingSlow)};}';
     var4['code'] = var7;
     var _closure1_slot13 = var4;
     var4 = {};
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var14 = var2.isActive;
+            var14 = var2.enabled;
             var _closure2_slot0 = var14;
             var17 = var2.isEndCardVisible;
             var _closure2_slot1 = var17;
@@ -256,7 +256,7 @@ case 11:
             var2 = var16[var6];
             var5 = var15.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function B() {
+            var2 = function E() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                     var1 = {};
@@ -331,7 +331,7 @@ case 18:
             var8 = var8.withTiming;
             var11['withTiming'] = var8;
             var11['visible'] = var13;
-            var11['isActive'] = var14;
+            var11['enabled'] = var14;
             var8 = 4;
             var19 = var16[var8];
             var19 = var15.bind(var4)(var19);
@@ -347,7 +347,7 @@ case 18:
             var11['runOnJS'] = var19;
             var11['animationCallbackJSThread'] = var18;
             var2['__closure'] = var11;
-            var11 = 22957586567.0;
+            var11 = 2813930896935.0;
             var2['__workletHash'] = var11;
             var11 = _closure1_slot11;
             var2['__initData'] = var11;
@@ -355,7 +355,7 @@ case 18:
             var2 = var16[var6];
             var5 = var15.bind(var4)(var2);
             var3 = var5.useAnimatedStyle;
-            var2 = function E() {
+            var2 = function j() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                     var1 = {};
@@ -409,7 +409,7 @@ case 24:
             var11['withTiming'] = var19;
             var11['visible'] = var13;
             var11['isEndCardVisible'] = var17;
-            var11['isActive'] = var14;
+            var11['enabled'] = var14;
             var14 = var16[var8];
             var14 = var15.bind(var4)(var14);
             var14 = var14.timingStandard;
@@ -419,7 +419,7 @@ case 24:
             var14 = var14.timingSlow;
             var11['timingSlow'] = var14;
             var2['__closure'] = var11;
-            var11 = 4256710479074.0;
+            var11 = 12172713560290.0;
             var2['__workletHash'] = var11;
             var11 = _closure1_slot13;
             var2['__initData'] = var11;
@@ -427,7 +427,7 @@ case 24:
             var2 = var16[var6];
             var3 = var15.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
-            var1 = function j() {
+            var1 = function A() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = {};

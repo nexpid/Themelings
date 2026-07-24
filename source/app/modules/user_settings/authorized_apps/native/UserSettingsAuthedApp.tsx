@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 15;
         var6 = var10[var6];
         var6 = var7.bind(var4)(var6);
-        var7 = var6.TextWithIOSLinkWorkaround;
+        var7 = var6.Text;
         var6 = {'color': 'text-default', 'variant': 'text-sm/medium'};
         var6['children'] = var9;
         var6 = var8.bind(var4)(var7, var6);
@@ -284,7 +284,7 @@ case 2:
     var5['warningIcon'] = var10;
     var5 = var8.bind(var9)(var5);
     var _closure1_slot19 = var5;
-    var5 = 46;
+    var5 = 45;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -626,7 +626,7 @@ case 12:
             var14 = new Array(3);
             var14[0] = var16;
             var19 = _closure1_slot17;
-            var17 = 41;
+            var17 = 15;
             var16 = var20[var17];
             var16 = var22.bind(var4)(var16);
             var18 = var16.Text;
@@ -663,7 +663,7 @@ case 15:
             var17 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
             var20 = var15.appAboutDescription;
             var17['style'] = var20;
-            var20 = 42;
+            var20 = 41;
             var20 = var27[var20];
             var22 = var22.bind(var4)(var20);
             var20 = var22.parseBioReactWithCachedAST;
@@ -688,13 +688,13 @@ case 17:
             var18 = _closure1_slot17;
             var20 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var16 = 43;
+            var16 = 42;
             var16 = var24[var16];
             var16 = var20.bind(var4)(var16);
             var17 = var16.TableRowGroup;
             var16 = {'title': 'Notifications', 'hasIcons': false};
             var22 = _closure1_slot17;
-            var19 = 44;
+            var19 = 43;
             var19 = var24[var19];
             var19 = var20.bind(var4)(var19);
             var20 = var19.TableSwitchRow;
@@ -827,7 +827,7 @@ case 16:
             var22 = _closure1_slot18;
             var30 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var14 = 43;
+            var14 = 42;
             var16 = var20[var14];
             var16 = var30.bind(var4)(var16);
             var19 = var16.TableRowGroup;
@@ -845,7 +845,7 @@ case 16:
             var18 = false;
             var16['hasIcons'] = var18;
             var27 = _closure1_slot17;
-            var17 = 45;
+            var17 = 44;
             var23 = var20[var17];
             var23 = var30.bind(var4)(var23);
             var24 = var23.TableRow;
@@ -1090,7 +1090,7 @@ case 38:
                     var3 = _closure1_slot17;
                     var8 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var1 = 43;
+                    var1 = 42;
                     var1 = var11[var1];
                     var1 = var8.bind(var4)(var1);
                     var2 = var1.TableRowGroup;
@@ -1109,7 +1109,7 @@ case 38:
                     var6 = false;
                     var1['hasIcons'] = var6;
                     var7 = _closure1_slot17;
-                    var6 = 45;
+                    var6 = 44;
                     var6 = var11[var6];
                     var6 = var8.bind(var4)(var6);
                     var6 = var6.TableRow;

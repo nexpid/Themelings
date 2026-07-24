@@ -338,7 +338,7 @@ case 4:
         var14 = 16;
         var14 = var21[var14];
         var14 = var18.bind(var4)(var14);
-        var15 = var14.TextWithIOSLinkWorkaround;
+        var15 = var14.Text;
         var14 = {};
         var19 = 'text-sm/normal';
         var14['variant'] = var19;

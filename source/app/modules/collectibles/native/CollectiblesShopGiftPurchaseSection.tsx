@@ -375,7 +375,7 @@ case 17:
             var6 = 27;
             var6 = var15[var6];
             var6 = var14.bind(var4)(var6);
-            var7 = var6.TextWithIOSLinkWorkaround;
+            var7 = var6.Text;
             var6 = {};
             var16 = 'text-xs/normal';
             var6['variant'] = var16;

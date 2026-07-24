@@ -11,26 +11,35 @@ case 0:
         var _closure1_slot2 = var7;
         var1 = function NativeMessagePreviewContent(arg1) {
             var1 = arg1;
-            var9 = var1.message;
-            var8 = var1.lineClamp;
-            var7 = var1.maxHeight;
-            var4 = _closure1_slot8;
-            var3 = _closure1_slot4;
-            var2 = {};
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var11 = var1.message;
+            var10 = var1.lineClamp;
+            var9 = var1.maxHeight;
+            var2 = _closure1_slot1;
+            var12 = _closure1_slot2;
             var1 = 8;
-            var5 = var5[var1];
-            var1 = undefined;
-            var5 = var6.bind(var1)(var5);
+            var1 = var12[var1];
+            var4 = undefined;
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var7 = var1.gradientColors;
+            var8 = var1.gradientStyles;
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var6 = _closure1_slot0;
+            var5 = 9;
+            var5 = var12[var5];
+            var5 = var6.bind(var4)(var5);
             var6 = var5.NativeChannelRowPreview;
             var5 = {};
-            var5['message'] = var9;
-            var5['lineClamp'] = var8;
-            var5['maxHeight'] = var7;
-            var5 = var4.bind(var1)(var6, var5);
-            var2['children'] = var5;
-            var1 = var4.bind(var1)(var3, var2);
+            var5['message'] = var11;
+            var5['lineClamp'] = var10;
+            var5['maxHeight'] = var9;
+            var5['gradientStyles'] = var8;
+            var5['gradientColors'] = var7;
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
         var _closure1_slot12 = var1;
@@ -42,13 +51,13 @@ case 0:
             var7 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var9[var1];
             var3 = var2.bind(var4)(var1);
             var1 = var3.getMessagePreviewTextVariant;
             var8 = var1.bind(var3)();
             var3 = _closure1_slot8;
-            var1 = 10;
+            var1 = 11;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
@@ -109,7 +118,7 @@ case 4:
                 var7 = _closure1_slot8;
                 var6 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var5 = 11;
+                var5 = 12;
                 var5 = var9[var5];
                 var6 = var6.bind(var4)(var5);
                 var5 = {};
@@ -203,7 +212,7 @@ case 18:
                 var15 = _closure1_slot8;
                 var14 = _closure1_slot0;
                 var16 = _closure1_slot2;
-                var12 = 10;
+                var12 = 11;
                 var12 = var16[var12];
                 var12 = var14.bind(var4)(var12);
                 var14 = var12.Text;
@@ -219,7 +228,7 @@ case 20:
                 var16 = _closure1_slot8;
                 var15 = _closure1_slot0;
                 var21 = _closure1_slot2;
-                var14 = 10;
+                var14 = 11;
                 var14 = var21[var14];
                 var14 = var15.bind(var4)(var14);
                 var15 = var14.Text;
@@ -234,7 +243,7 @@ case 22:
                 var16 = _closure1_slot8;
                 var15 = _closure1_slot0;
                 var21 = _closure1_slot2;
-                var14 = 10;
+                var14 = 11;
                 var14 = var21[var14];
                 var14 = var15.bind(var4)(var14);
                 var15 = var14.Text;
@@ -262,7 +271,7 @@ case 27:
                 var16 = _closure1_slot8;
                 var15 = _closure1_slot0;
                 var18 = _closure1_slot2;
-                var14 = 10;
+                var14 = 11;
                 var14 = var18[var14];
                 var14 = var15.bind(var4)(var14);
                 var15 = var14.Text;
@@ -433,7 +442,7 @@ case 30:
         var5['embedMedia'] = var10;
         var5 = var8.bind(var9)(var5);
         var _closure1_slot11 = var5;
-        var5 = 20;
+        var5 = 21;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;
@@ -455,12 +464,12 @@ case 33:
 case 32:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var17 = 12;
+                var17 = 13;
                 var1 = var6[var17];
                 var8 = var4.bind(var5)(var1);
                 var1 = var8.usePreviewableMedia;
                 var9 = var1.bind(var8)(var7);
-                var1 = 13;
+                var1 = 14;
                 var1 = var6[var1];
                 var8 = var4.bind(var5)(var1);
                 var6 = var8.useNullableMessageAuthor;
@@ -473,7 +482,7 @@ case 34:
                 var13 = var6.bind(var8)(var4);
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var4 = 14;
+                var4 = 15;
                 var4 = var10[var4];
                 var14 = var8.bind(var5)(var4);
                 var6 = var14.usePreviewableMediaText;
@@ -483,7 +492,7 @@ case 34:
                 var4 = var6.bind(var14)(var4);
                 var6 = var4.text;
                 var22 = var4.secondaryText;
-                var4 = 15;
+                var4 = 16;
                 var4 = var10[var4];
                 var10 = var8.bind(var5)(var4);
                 var8 = var10.useGetInitialMessagePreview;
@@ -524,7 +533,7 @@ case 36:
 case 39:
                 var14 = _closure1_slot1;
                 var15 = _closure1_slot2;
-                var8 = 17;
+                var8 = 18;
                 var8 = var15[var8];
                 var8 = var14.bind(var5)(var8);
                 var8 = var8.bind(var5)(var7);
@@ -558,7 +567,7 @@ case 46:
 case 48:
                 var16 = _closure1_slot0;
                 var18 = _closure1_slot2;
-                var8 = 18;
+                var8 = 19;
                 var14 = var18[var8];
                 var14 = var16.bind(var5)(var14);
                 var15 = var14.intl;
@@ -572,7 +581,7 @@ case 48:
 case 24:
                 var14 = _closure1_slot0;
                 var18 = _closure1_slot2;
-                var8 = 18;
+                var8 = 19;
                 var15 = var18[var8];
                 var15 = var14.bind(var5)(var15);
                 var16 = var15.intl;
@@ -599,7 +608,7 @@ case 49:
                 var20 = _closure1_slot8;
                 var19 = _closure1_slot0;
                 var23 = _closure1_slot2;
-                var18 = 10;
+                var18 = 11;
                 var18 = var23[var18];
                 var18 = var19.bind(var5)(var18);
                 var19 = var18.Text;
@@ -629,7 +638,7 @@ case 51:
                 var21 = _closure1_slot8;
                 var20 = _closure1_slot0;
                 var23 = _closure1_slot2;
-                var19 = 10;
+                var19 = 11;
                 var19 = var23[var19];
                 var19 = var20.bind(var5)(var19);
                 var20 = var19.Text;
@@ -652,7 +661,7 @@ case 53:
                 var18 = var14.bind(var15)(var8);
                 var14 = _closure1_slot0;
                 var15 = _closure1_slot2;
-                var8 = 9;
+                var8 = 10;
                 var8 = var15[var8];
                 var14 = var14.bind(var5)(var8);
                 var8 = var14.getMessagePreviewTextVariant;
@@ -671,7 +680,7 @@ case 54:
                 var15 = _closure1_slot8;
                 var19 = _closure1_slot0;
                 var20 = _closure1_slot2;
-                var8 = 8;
+                var8 = 9;
                 var8 = var20[var8];
                 var8 = var19.bind(var5)(var8);
                 var14 = var8.ChannelRowPreview;
@@ -680,7 +689,7 @@ case 54:
                 var8['message'] = var7;
                 var18 = 'text-default';
                 var8['color'] = var18;
-                var18 = 19;
+                var18 = 20;
                 var18 = var20[var18];
                 var18 = var19.bind(var5)(var18);
                 var18 = var18.ChannelListLayoutTypes;
@@ -739,7 +748,7 @@ case 61:
 case 64:
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot2;
-                var7 = 18;
+                var7 = 19;
                 var8 = var12[var7];
                 var8 = var11.bind(var5)(var8);
                 var9 = var8.intl;
@@ -753,7 +762,7 @@ case 64:
 case 63:
                 var8 = _closure1_slot0;
                 var14 = _closure1_slot2;
-                var7 = 18;
+                var7 = 19;
                 var9 = var14[var7];
                 var9 = var8.bind(var5)(var9);
                 var12 = var9.intl;
@@ -778,7 +787,7 @@ case 38:
                 var4 = var11.type;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var3 = 16;
+                var3 = 17;
                 var3 = var8[var3];
                 var3 = var7.bind(var5)(var3);
                 var3 = var3.MessageEmbedTypes;

@@ -1165,9 +1165,6 @@ case 118:
                     var17 = var17.entitlements;
                     var11['entitlements'] = var17;
                     var17 = var12.body;
-                    var17 = var17.applied_user_discounts;
-                    var11['appliedUserDiscounts'] = var17;
-                    var17 = var12.body;
                     var17 = var17.gift_code;
                     var11['giftCode'] = var17;
                     var11 = var15.bind(var16)(var11);

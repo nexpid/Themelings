@@ -22,6 +22,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SLASHES_DISCOVERY'] = var1;
     var1 = 'CHOICES';
     var2['CHOICES'] = var1;
+    var1 = 'GAME_MENTIONS';
+    var2['GAME_MENTIONS'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['subLabel'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot17 = var4;
-    var4 = 28;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -224,7 +224,7 @@ case 11:
             var9 = 12;
             var9 = var22[var9];
             var9 = var19.bind(var4)(var9);
-            var13 = var9.TextWithIOSLinkWorkaround;
+            var13 = var9.Text;
             var9 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             var17 = 13;
             var20 = var22[var17];
@@ -411,12 +411,12 @@ case 14:
 case 17:
             var15 = _closure1_slot0;
             var19 = _closure1_slot3;
-            var6 = 26;
+            var6 = 25;
             var6 = var19[var6];
             var6 = var15.bind(var4)(var6);
             var8 = var6.EmptyState;
             var6 = {};
-            var16 = 27;
+            var16 = 26;
             var16 = var19[var16];
             var16 = var15.bind(var4)(var16);
             var16 = var16.NoResultsAlt;
@@ -510,7 +510,7 @@ case 25:
                     var4 = _closure1_slot14;
                     var2 = _closure1_slot0;
                     var13 = _closure1_slot3;
-                    var1 = 22;
+                    var1 = 12;
                     var1 = var13[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -519,14 +519,14 @@ case 25:
                     var15 = _closure2_slot4;
                     var15 = var15.subLabel;
                     var1['style'] = var15;
-                    var15 = 23;
+                    var15 = 22;
                     var15 = var13[var15];
                     var16 = var2.bind(var3)(var15);
                     var15 = var16.renderDescription;
                     var15 = var15.bind(var16)(var17);
                     var1['children'] = var15;
                     var5 = var4.bind(var3)(var5, var1);
-                    var1 = 24;
+                    var1 = 23;
                     var1 = var13[var1];
                     var1 = var2.bind(var3)(var1);
                     var2 = var1.TableSwitchRow;
@@ -598,7 +598,7 @@ case 28:
                 var2['accessibilityLabel'] = var7;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot3;
-                var1 = 25;
+                var1 = 24;
                 var5 = var5[var1];
                 var1 = undefined;
                 var5 = var6.bind(var1)(var5);

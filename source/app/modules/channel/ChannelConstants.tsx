@@ -10,6 +10,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = '__esModule';
     var2 = var5.bind(var6)(var3, var2, var4);
     var9 = {};
+    var2 = 'conjuring';
+    var9['VIBEGRATIONS'] = var2;
     var2 = 'role-subscriptions';
     var9['ROLE_SUBSCRIPTIONS'] = var2;
     var2 = 'server-monetization-onboarding';

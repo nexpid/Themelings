@@ -59,14 +59,6 @@ case 2:
         var3 = var2.features;
         var1['features'] = var3;
         var3 = {};
-        var4 = var2.application;
-        var4 = var4.id;
-        var3['id'] = var4;
-        var4 = var2.application;
-        var4 = var4.name;
-        var3['name'] = var4;
-        var1['application'] = var3;
-        var3 = {};
         var4 = var2.assets;
         var4 = var4.hero;
         var3['hero'] = var4;

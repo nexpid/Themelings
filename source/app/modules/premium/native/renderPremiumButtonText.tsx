@@ -17,7 +17,7 @@ case 0:
             var5 = var1.basePlanId;
             var21 = var1.product;
             var9 = var1.text;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var4 = undefined;
             var11 = var1.bind(var4)();
             var3 = _closure1_slot1;
@@ -28,7 +28,7 @@ case 0:
             var1 = var3.getInterval;
             var1 = var1.bind(var3)(var5);
             var3 = var1.intervalType;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot6;
             var1 = var1.YEAR;
             var6 = null;
             var13 = null;
@@ -47,19 +47,17 @@ case 4:
 case 2:
             if(!(var6 == var9)) { _fun0001_ip = 5; continue _fun0001 }
 case 6:
-            var5 = var6 == var21;
-            var1 = undefined;
-            if(var5) { _fun0001_ip = 7; continue _fun0001 }
+            var1 = var6 == var21;
+            var12 = undefined;
+            if(var1) { _fun0001_ip = 7; continue _fun0001 }
 case 8:
-            var1 = var21.priceString;
+            var12 = var21.priceString;
 case 7:
-            var5 = var6 != var1;
-            var12 = '$...';
-            if(!var5) { _fun0001_ip = 9; continue _fun0001 }
+            if(!(var6 == var12)) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
-            var12 = var1;
+            var12 = _closure1_slot5;
 case 9:
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot6;
             var1 = var1.MONTH;
             if(!(var3 !== var1)) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
@@ -137,12 +135,12 @@ case 25:
 case 19:
             var9 = var1;
 case 5:
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot3;
             var1 = {};
             var5 = var11.premiumText;
             var1['style'] = var5;
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var17 = _closure1_slot0;
             var20 = _closure1_slot2;
             var16 = 9;
@@ -181,12 +179,12 @@ case 26:
             var6 = null;
             if(!var7) { _fun0001_ip = 28; continue _fun0001 }
 case 29:
-            var9 = _closure1_slot6;
+            var9 = _closure1_slot7;
             var8 = _closure1_slot3;
             var7 = {};
             var11 = var11.discount;
             var7['style'] = var11;
-            var12 = _closure1_slot6;
+            var12 = _closure1_slot7;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var16];
@@ -206,7 +204,7 @@ case 28:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -230,15 +228,17 @@ case 28:
     var4 = var5.bind(var1)(var4);
     var7 = var4.PREMIUM_YEARLY_DISCOUNT_PERCENT;
     var _closure1_slot4 = var7;
+    var7 = var4.PRICE_PLACEHOLDER;
+    var _closure1_slot5 = var7;
     var4 = var4.SubscriptionIntervalTypes;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -263,7 +263,7 @@ case 28:
     var9['flexDirection'] = var10;
     var4['premiumText'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -271,8 +271,8 @@ case 28:
     var4 = 'modules/premium/native/renderPremiumButtonText.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function renderPremiumText(arg1) {
-        var4 = _closure1_slot6;
-        var3 = _closure1_slot9;
+        var4 = _closure1_slot7;
+        var3 = _closure1_slot10;
         var2 = {};
         var5 = arg1;
         var6 = var2;

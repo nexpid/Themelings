@@ -215,6 +215,10 @@ case 16:
             var11['source'] = var13;
             var13 = var7.guildTierIcon;
             var11['style'] = var13;
+            var13 = true;
+            var11['accessibilityElementsHidden'] = var13;
+            var13 = 'no';
+            var11['importantForAccessibility'] = var13;
             var12 = var3.bind(var4)(var12, var11);
             var11 = new Array(2);
             var11[0] = var12;
@@ -252,6 +256,10 @@ case 12:
             var5['source'] = var8;
             var7 = var7.guildTierNoneIcon;
             var5['style'] = var7;
+            var7 = true;
+            var5['accessibilityElementsHidden'] = var7;
+            var7 = 'no';
+            var5['importantForAccessibility'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

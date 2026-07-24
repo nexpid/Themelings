@@ -1,4 +1,4 @@
-// app/modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateExperiment.tsx
+// app/modules/game_mentions/GameMentionsExperiment.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Object;
     var5 = var8.defineProperty;
     var4 = {};
-    var11 = true;
-    var4['value'] = var11;
+    var1 = true;
+    var4['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
@@ -16,18 +16,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
-    var4 = {'kind': 'user', 'name': '2026-06-notify-friends-on-profile-update'};
-    var9 = {};
-    var12 = false;
-    var9['enabled'] = var12;
+    var4 = {'name': '2026-07-game-mentions-v2-mobile', 'kind': 'user'};
+    var9 = {'enabled': false, 'showNewTag': false, 'combineMentionAutocomplete': false};
     var4['defaultConfig'] = var9;
     var9 = {};
-    var10 = {};
-    var10['enabled'] = var12;
+    var10 = {'enabled': false, 'showNewTag': false, 'combineMentionAutocomplete': false};
     var9[0] = var10;
-    var10 = {};
-    var10['enabled'] = var11;
+    var10 = {'enabled': true, 'showNewTag': true, 'combineMentionAutocomplete': false};
     var9[1] = var10;
+    var10 = {'enabled': true, 'showNewTag': false, 'combineMentionAutocomplete': false};
+    var9[2] = var10;
+    var10 = {'enabled': true, 'showNewTag': false, 'combineMentionAutocomplete': true};
+    var9[3] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);
     var _closure1_slot0 = var4;
@@ -35,30 +35,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateExperiment.tsx';
+    var5 = 'modules/game_mentions/GameMentionsExperiment.native.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['default'] = var4;
-    var4 = function useNotifyFriendsOnProfileUpdateExperiment(arg1) {
+    var3['GameMentionsExperiment'] = var4;
+    var4 = function useGameMentionsExperiment(arg1) {
+        var1 = arg1;
+        var4 = var1.location;
         var3 = _closure1_slot0;
         var2 = var3.useConfig;
         var1 = {};
-        var4 = arg1;
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.enabled;
         return var1;
     };
-    var3['useNotifyFriendsOnProfileUpdateExperiment'] = var4;
-    var2 = function getNotifyFriendsOnProfileUpdateExperiment(arg1) {
+    var3['useGameMentionsExperiment'] = var4;
+    var2 = function getGameMentionsExperiment(arg1) {
+        var1 = arg1;
+        var4 = var1.location;
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};
-        var4 = arg1;
         var1['location'] = var4;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.enabled;
         return var1;
     };
-    var3['getNotifyFriendsOnProfileUpdateExperiment'] = var2;
+    var3['getGameMentionsExperiment'] = var2;
     return var1;
 })();

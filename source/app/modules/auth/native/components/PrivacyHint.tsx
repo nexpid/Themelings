@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var10[var1];
         var3 = undefined;
         var1 = var6.bind(var3)(var1);
-        var2 = var1.TextWithIOSLinkWorkaround;
+        var2 = var1.Text;
         var1 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
         var1['style'] = var5;
         var5 = 8;
@@ -127,7 +127,7 @@ case 9:
             var6 = 7;
             var6 = var9[var6];
             var6 = var10.bind(var4)(var6);
-            var7 = var6.TextWithIOSLinkWorkaround;
+            var7 = var6.Text;
             var6 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
             var11 = var11.checkboxLabel;
             var6['style'] = var11;

@@ -61,8 +61,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var6.numEmojiResults;
         var7 = 'num_emoji_results';
         var2[6] = var8;
-        var7 = var6.numStickerResults;
-        var6 = 'num_sticker_results';
+        var8 = var6.numStickerResults;
+        var7 = 'num_sticker_results';
+        var2[6] = var8;
+        var7 = var6.gameMentionsAvailable;
+        var6 = 'game_mentions_available';
         var2[5] = var7;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
@@ -104,6 +107,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2[6] = var8;
         var8 = var6.stickerId;
         var7 = 'sticker_id';
+        var2[6] = var8;
+        var8 = var6.gameId;
+        var7 = 'application_id';
         var2[6] = var8;
         var8 = var6.numEmojiResults;
         var7 = 'num_emoji_results';

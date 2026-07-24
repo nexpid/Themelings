@@ -19,7 +19,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
-    var4 = 4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PRICE_PLACEHOLDER;
+    var _closure1_slot3 = var4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -30,46 +35,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
 case 0:
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var2 = 1;
-            var4 = var6[var2];
-            var2 = undefined;
-            var9 = var5.bind(var2)(var4);
+            var1 = 2;
+            var4 = var6[var1];
+            var1 = undefined;
+            var9 = var5.bind(var1)(var4);
             var8 = var9.getPlanIdForPremiumType;
             var7 = arg1;
             var4 = arg2;
             var8 = var8.bind(var9)(var7, var4);
-            var4 = 2;
+            var4 = 3;
             var4 = var6[var4];
-            var7 = var5.bind(var2)(var4);
+            var7 = var5.bind(var1)(var4);
             var4 = var7.getProductIdForGift;
             var4 = var4.bind(var7)(var8);
             var _closure2_slot0 = var4;
-            var4 = 3;
+            var4 = 4;
             var4 = var6[var4];
-            var5 = var5.bind(var2)(var4);
-            var4 = var5.useStateFromStores;
-            var6 = _closure1_slot2;
-            var3 = new Array(1);
-            var3[0] = var6;
-            var1 = function() {
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.useStateFromStores;
+            var7 = _closure1_slot2;
+            var4 = new Array(1);
+            var4[0] = var7;
+            var3 = function() {
                 var3 = _closure1_slot2;
                 var2 = var3.getProduct;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3 = var4.bind(var5)(var3, var1);
-            var1 = null;
-            var4 = var1 == var3;
-            if(var4) { _fun0001_ip = 2; continue _fun0001 }
+            var4 = var5.bind(var6)(var4, var3);
+            var3 = null;
+            var5 = var3 == var4;
+            if(var5) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var3.priceString;
+            var1 = var4.priceString;
 case 2:
-            var3 = var1 != var2;
-            var1 = '$...';
-            if(!var3) { _fun0001_ip = 4; continue _fun0001 }
+            if(!(var3 == var1)) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var2;
+            var1 = _closure1_slot3;
 case 4:
             return var1;
         }

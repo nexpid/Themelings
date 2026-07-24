@@ -1,4 +1,4 @@
-// app/modules/ads/QuestHomeHeroCta.tsx
+// app/modules/quests/QuestHomeHeroCta.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = 'modules/ads/QuestHomeHeroCta.tsx';
+    var2 = 'modules/quests/QuestHomeHeroCta.tsx';
     var2 = var4.bind(var5)(var2);
     var2 = function questHomeHeroCtaFromServer(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {

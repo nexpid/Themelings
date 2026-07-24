@@ -313,10 +313,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var14.bind(var1)(var13, var2);
             var3['actionItems'] = var2;
             var14 = _closure1_slot10;
-            var2 = 20;
+            var2 = 18;
             var2 = var7[var2];
             var2 = var6.bind(var1)(var2);
-            var13 = var2.TextWithIOSLinkWorkaround;
+            var13 = var2.Text;
             var2 = {'variant': 'text-sm/normal', 'color': 'text-link'};
             var16 = var7[var15];
             var16 = var6.bind(var1)(var16);
@@ -453,7 +453,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['moreTipsHeader'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot13 = var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

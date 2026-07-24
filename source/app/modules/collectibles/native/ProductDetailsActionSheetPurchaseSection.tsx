@@ -586,15 +586,15 @@ case 0:
             var3 = _closure1_slot16;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 34;
+            var1 = 32;
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
-            var2 = var1.TextWithIOSLinkWorkaround;
+            var2 = var1.Text;
             var1 = {'style': null, 'variant': 'text-xxs/normal', 'color': 'interactive-text-active'};
             var6 = var6.disclaimer;
             var1['style'] = var6;
             var6 = var5.type;
-            var5 = 35;
+            var5 = 34;
             var5 = var8[var5];
             var5 = var7.bind(var4)(var5);
             var5 = var5.CollectiblesItemType;
@@ -767,7 +767,7 @@ case 35:
     var4['orbsButtonText'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot21 = var4;
-    var4 = 60;
+    var4 = 59;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -796,17 +796,17 @@ case 0:
             var _closure2_slot3 = var14;
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 36;
+            var1 = 35;
             var1 = var10[var1];
             var1 = var3.bind(var4)(var1);
             var11 = var1.bind(var4)();
             var8 = _closure1_slot0;
-            var1 = 37;
+            var1 = 36;
             var1 = var10[var1];
             var2 = var8.bind(var4)(var1);
             var1 = var2.isThemeDark;
             var15 = var1.bind(var2)(var11);
-            var1 = 38;
+            var1 = 37;
             var1 = var10[var1];
             var11 = var8.bind(var4)(var1);
             var2 = var11.useToken;
@@ -816,7 +816,7 @@ case 0:
             var1 = var1.colors;
             var1 = var1.MOBILE_ACTIONSHEET_BACKGROUND;
             var27 = var2.bind(var11)(var1);
-            var1 = 39;
+            var1 = 38;
             var1 = var10[var1];
             var2 = var8.bind(var4)(var1);
             var1 = var2.useCurrentUser;
@@ -830,7 +830,7 @@ case 0:
             var _closure2_slot4 = var1;
             var2 = var2.isPartiallyOwnedBundle;
             var _closure2_slot5 = var2;
-            var2 = 40;
+            var2 = 39;
             var2 = var10[var2];
             var19 = var8.bind(var4)(var2);
             var18 = var19.useStateFromStoresArray;
@@ -856,7 +856,7 @@ case 0:
             var2 = 0;
             var2 = var11[var2];
             var _closure2_slot6 = var2;
-            var2 = 41;
+            var2 = 40;
             var2 = var10[var2];
             var16 = var8.bind(var4)(var2);
             var11 = var16.useIsPremiumSubscriber;
@@ -864,13 +864,13 @@ case 0:
             var2 = var2.TIER_2;
             var2 = var11.bind(var16)(var2);
             var _closure2_slot7 = var2;
-            var2 = 42;
+            var2 = 41;
             var2 = var10[var2];
             var11 = var3.bind(var4)(var2);
             var2 = var11.canUseShopDiscounts;
             var13 = var2.bind(var11)(var13);
             var _closure2_slot8 = var13;
-            var2 = 43;
+            var2 = 42;
             var11 = var10[var2];
             var16 = var8.bind(var4)(var11);
             var11 = var16.isPremiumCollectiblesProduct;
@@ -881,13 +881,13 @@ case 0:
             var2 = var11.isFreeCollectiblesProduct;
             var2 = var2.bind(var11)(var5);
             var _closure2_slot10 = var2;
-            var2 = 44;
+            var2 = 43;
             var2 = var10[var2];
             var11 = var8.bind(var4)(var2);
             var2 = var11.isOrbsExclusiveProduct;
             var2 = var2.bind(var11)(var5);
             var _closure2_slot11 = var2;
-            var2 = 45;
+            var2 = 44;
             var2 = var10[var2];
             var11 = var8.bind(var4)(var2);
             var2 = var11.useFetchVirtualCurrencyBalance;
@@ -901,7 +901,7 @@ case 0:
             var2 = var2.bind(var11)(var5, var13);
             var2 = var2.canAfford;
             var _closure2_slot13 = var2;
-            var2 = 46;
+            var2 = 45;
             var2 = var10[var2];
             var11 = var8.bind(var4)(var2);
             var8 = var11.useHandleUseNow;
@@ -924,7 +924,7 @@ case 0:
                 return var1;
             };
             var8 = var8.bind(var4)(var2);
-            var2 = 47;
+            var2 = 46;
             var2 = var10[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -946,7 +946,7 @@ case 37:
             _closure2_slot19 = var2;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 48;
+            var2 = 47;
             var2 = var7[var2];
             var8 = var3.bind(var4)(var2);
             var3 = var8.useHandleClaim;
@@ -956,7 +956,7 @@ case 37:
             var2 = var2.handleClaim;
             _closure2_slot20 = var2;
             var3 = _closure1_slot1;
-            var2 = 49;
+            var2 = 48;
             var2 = var7[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -972,7 +972,7 @@ case 40:
 case 39:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 50;
+            var1 = 49;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useIsEligibleForBogoOffer;
@@ -988,14 +988,14 @@ case 43:
             _closure2_slot22 = var1;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 51;
+            var1 = 50;
             var1 = var3[var1];
             var2 = var2.bind(var4)(var1);
             var1 = var2.useCanGiftProduct;
             var1 = var1.bind(var2)(var5);
             _closure2_slot23 = var1;
             var2 = _closure1_slot1;
-            var1 = 52;
+            var1 = 51;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
@@ -1029,7 +1029,7 @@ case 46:
 case 49:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 53;
+            var5 = 52;
             var5 = var9[var5];
             var8 = var8.bind(var4)(var5);
             var5 = var8.isAndroid;
@@ -1044,7 +1044,7 @@ case 51:
             var12 = _closure1_slot16;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var10 = 54;
+            var10 = 53;
             var10 = var13[var10];
             var11 = var11.bind(var4)(var10);
             var10 = {};
@@ -1077,7 +1077,7 @@ case 52:
             var13 = _closure1_slot17;
             var12 = _closure1_slot1;
             var18 = _closure1_slot2;
-            var15 = 55;
+            var15 = 54;
             var11 = var18[var15];
             var12 = var12.bind(var4)(var11);
             var11 = {'style': null, 'preserveAspectRatio': 'none', 'viewBox': '0 0 100 100', 'pointerEvents': 'none'};
@@ -1152,7 +1152,7 @@ case 59:
                     var4 = _closure1_slot16;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 59;
+                    var1 = 58;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -1176,7 +1176,7 @@ case 62:
                     var2 = var1.type;
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var5 = 35;
+                    var5 = 34;
                     var1 = var1[var5];
                     var4 = undefined;
                     var1 = var3.bind(var4)(var1);
@@ -1348,7 +1348,7 @@ case 81:
                     var16 = _closure1_slot16;
                     var15 = _closure1_slot0;
                     var17 = _closure1_slot2;
-                    var14 = 56;
+                    var14 = 55;
                     var14 = var17[var14];
                     var14 = var15.bind(var4)(var14);
                     var15 = var14.Button;
@@ -1456,7 +1456,7 @@ case 60:
                     var4 = _closure1_slot16;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 56;
+                    var1 = 55;
                     var1 = var9[var1];
                     var3 = undefined;
                     var1 = var8.bind(var3)(var1);
@@ -1504,7 +1504,7 @@ case 7:
 case 56:
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 53;
+                    var1 = 52;
                     var1 = var3[var1];
                     var4 = undefined;
                     var2 = var2.bind(var4)(var1);
@@ -1537,7 +1537,7 @@ case 94:
                     var29 = var5;
                     var7 = arraySpread(var29, var28, var27);
                     var20 = _closure1_slot1;
-                    var6 = 57;
+                    var6 = 56;
                     var6 = var18[var6];
                     var6 = var20.bind(var4)(var6);
                     var6 = var6.PROFILE_FRAMES_EA_MARKETING;
@@ -1552,10 +1552,10 @@ case 94:
                     var8 = var8.framesEAContainer;
                     var5['style'] = var8;
                     var13 = _closure1_slot16;
-                    var9 = 34;
+                    var9 = 32;
                     var8 = var18[var9];
                     var8 = var21.bind(var4)(var8);
-                    var10 = var8.TextWithIOSLinkWorkaround;
+                    var10 = var8.Text;
                     var8 = {'variant': 'text-xs/semibold', 'color': 'text-strong'};
                     var14 = var18[var22];
                     var14 = var21.bind(var4)(var14);
@@ -1566,7 +1566,7 @@ case 94:
                     var14 = var14.t;
                     var15 = var14["3cglst"];
                     var14 = {};
-                    var24 = 58;
+                    var24 = 57;
                     var24 = var18[var24];
                     var26 = var20.bind(var4)(var24);
                     var25 = var26.getArticleURL;
@@ -1580,7 +1580,7 @@ case 94:
                     var8 = new Array(3);
                     var8[0] = var10;
                     var14 = _closure1_slot16;
-                    var10 = 59;
+                    var10 = 58;
                     var10 = var18[var10];
                     var10 = var21.bind(var4)(var10);
                     var13 = var10.UnlockWithNitroButton;
@@ -1602,7 +1602,7 @@ case 94:
                     var13 = _closure1_slot16;
                     var9 = var18[var9];
                     var9 = var21.bind(var4)(var9);
-                    var10 = var9.TextWithIOSLinkWorkaround;
+                    var10 = var9.Text;
                     var9 = {};
                     var14 = 'text-xxs/normal';
                     var9['variant'] = var14;
@@ -1614,7 +1614,7 @@ case 94:
                     var19 = _closure1_slot11;
                     var19 = var19.PAID_TERMS;
                     var14['paidURL'] = var19;
-                    var19 = 42;
+                    var19 = 41;
                     var19 = var18[var19];
                     var23 = var20.bind(var4)(var19);
                     var20 = var23.getIntervalStringAsNoun;
@@ -1645,7 +1645,7 @@ case 54:
                     var2 = var1.type;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 35;
+                    var1 = 34;
                     var1 = var4[var1];
                     var5 = undefined;
                     var1 = var3.bind(var5)(var1);
@@ -1663,7 +1663,7 @@ case 96:
                     var9 = _closure1_slot16;
                     var7 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var6 = 56;
+                    var6 = 55;
                     var6 = var10[var6];
                     var6 = var7.bind(var5)(var6);
                     var7 = var6.Button;

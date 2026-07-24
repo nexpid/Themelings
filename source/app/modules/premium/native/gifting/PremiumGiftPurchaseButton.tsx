@@ -409,7 +409,7 @@ case 8:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 41;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1080,10 +1080,10 @@ case 80:
             var15 = _closure1_slot12;
             var17 = _closure1_slot0;
             var22 = _closure1_slot2;
-            var8 = 37;
+            var8 = 15;
             var8 = var22[var8];
             var8 = var17.bind(var4)(var8);
-            var14 = var8.TextWithIOSLinkWorkaround;
+            var14 = var8.Text;
             var8 = {};
             var18 = 'text-sm/normal';
             var8['variant'] = var18;
@@ -1097,7 +1097,7 @@ case 80:
             var17 = var16.hYoGUM;
             var16 = {};
             var21 = _closure1_slot1;
-            var20 = 38;
+            var20 = 37;
             var20 = var22[var20];
             var22 = var21.bind(var4)(var20);
             var21 = var22.getArticleURL;
@@ -1113,7 +1113,7 @@ case 79:
             var8 = _closure1_slot12;
             var7 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var6 = 39;
+            var6 = 38;
             var6 = var14[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Button;
@@ -1135,7 +1135,7 @@ case 84:
 case 0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 40;
+                    var1 = 39;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);

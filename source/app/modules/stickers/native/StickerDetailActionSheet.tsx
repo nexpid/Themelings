@@ -360,7 +360,7 @@ case 20:
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var1 = arg1;
-                var20 = var1.renderableSticker;
+                var21 = var1.renderableSticker;
                 var1 = var1.channel;
                 var _closure2_slot0 = var1;
                 var4 = undefined;
@@ -436,7 +436,7 @@ case 21:
                 var1 = var17[var1];
                 var2 = var16.bind(var4)(var1);
                 var1 = var2.getStickerAssetUrl;
-                var8 = var1.bind(var2)(var20);
+                var8 = var1.bind(var2)(var21);
                 _closure2_slot2 = var8;
                 var5 = _closure1_slot5;
                 var3 = var5.useCallback;
@@ -489,7 +489,7 @@ case 23:
                 var5 = var17[var5];
                 var7 = var7.bind(var4)(var5);
                 var5 = {};
-                var5['sticker'] = var20;
+                var5['sticker'] = var21;
                 var11 = 48;
                 var5['size'] = var11;
                 var7 = var9.bind(var4)(var7, var5);
@@ -500,22 +500,21 @@ case 23:
                 var7 = {};
                 var14 = var12.guildEmojiDescription;
                 var7['style'] = var14;
-                var18 = _closure1_slot21;
+                var20 = _closure1_slot21;
                 var14 = 18;
-                var14 = var17[var14];
-                var14 = var16.bind(var4)(var14);
-                var15 = var14.Text;
-                var14 = {'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
-                var20 = var20.name;
-                var14['children'] = var20;
-                var14 = var18.bind(var4)(var15, var14);
+                var15 = var17[var14];
+                var15 = var16.bind(var4)(var15);
+                var18 = var15.Text;
+                var15 = {'variant': 'heading-md/extrabold', 'color': 'mobile-text-heading-primary'};
+                var21 = var21.name;
+                var15['children'] = var21;
+                var18 = var20.bind(var4)(var18, var15);
                 var15 = new Array(2);
-                var15[0] = var14;
+                var15[0] = var18;
                 var18 = _closure1_slot21;
-                var14 = 46;
                 var14 = var17[var14];
                 var14 = var16.bind(var4)(var14);
-                var17 = var14.TextWithIOSLinkWorkaround;
+                var17 = var14.Text;
                 var16 = {};
                 var14 = var12.description;
                 var16['style'] = var14;
@@ -1995,7 +1994,7 @@ case 110:
                 var3 = _closure1_slot21;
                 var2 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var1 = 47;
+                var1 = 46;
                 var1 = var7[var1];
                 var1 = var2.bind(var4)(var1);
                 var2 = var1.BottomSheet;
@@ -2014,7 +2013,7 @@ case 110:
             }
         };
         var2 = var4.bind(var7)(var2);
-        var4 = 48;
+        var4 = 47;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

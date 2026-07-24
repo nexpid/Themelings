@@ -346,7 +346,6 @@ case 0:
             var _closure2_slot0 = var2;
             var8 = var1.messageSizeCacheRef;
             var7 = var1.maxHeight;
-            var6 = var1.backgroundColor;
             var3 = var1.gifAutoPlay;
             var4 = undefined;
             if(!(var3 === var4)) { _fun0003_ip = 40; continue _fun0003 }
@@ -354,8 +353,9 @@ case 41:
             var3 = false;
 case 40:
             var _closure2_slot1 = var3;
-            var5 = var1.gradientStyles;
             var15 = var1.textColor;
+            var6 = var1.gradientStyles;
+            var5 = var1.gradientColors;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
@@ -525,8 +525,8 @@ case 48:
             var1['rowGenerator'] = var9;
             var1['messageSizeCacheRef'] = var8;
             var1['maxHeight'] = var7;
-            var1['backgroundColor'] = var6;
-            var1['gradientStyles'] = var5;
+            var1['gradientStyles'] = var6;
+            var1['gradientColors'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

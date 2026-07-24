@@ -249,7 +249,7 @@ case 7:
     };
     var8 = var11.bind(var12)(var8);
     var _closure1_slot13 = var8;
-    var8 = 36;
+    var8 = 35;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -359,7 +359,7 @@ case 16:
             var23 = var11.imageOverlayTextContainer;
             var21['style'] = var23;
             var24 = _closure1_slot0;
-            var23 = 33;
+            var23 = 28;
             var23 = var25[var23];
             var23 = var24.bind(var4)(var23);
             var24 = var23.Text;
@@ -392,7 +392,7 @@ case 19:
             var3 = _closure1_slot9;
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 33;
+            var1 = 28;
             var1 = var9[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
@@ -426,7 +426,7 @@ case 26:
             var16 = _closure1_slot9;
             var9 = _closure1_slot1;
             var19 = _closure1_slot2;
-            var5 = 34;
+            var5 = 33;
             var5 = var19[var5];
             var9 = var9.bind(var4)(var5);
             var5 = {};
@@ -441,7 +441,7 @@ case 25:
             var9 = _closure1_slot9;
             var8 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var7 = 33;
+            var7 = 28;
             var7 = var16[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Text;
@@ -471,7 +471,7 @@ case 28:
             var7['style'] = var11;
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var10 = 35;
+            var10 = 34;
             var10 = var14[var10];
             var10 = var11.bind(var4)(var10);
             var11 = var10.Button;
@@ -1092,7 +1092,7 @@ case 27:
         var3 = 28;
         var3 = var14[var3];
         var3 = var8.bind(var6)(var3);
-        var4 = var3.TextWithIOSLinkWorkaround;
+        var4 = var3.Text;
         var3 = {};
         var9 = 'text-sm/normal';
         var3['variant'] = var9;

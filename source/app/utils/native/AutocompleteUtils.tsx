@@ -64,6 +64,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['MENTION_HERE'] = var7;
+    var7 = function MENTION_GAME() {
+        var1 = {'test': 'game', 'text': '@game', 'inlineAutocompleteType': 'gameMentionInput'};
+        var6 = _closure1_slot0;
+        var7 = _closure1_slot1;
+        var2 = 1;
+        var3 = var7[var2];
+        var5 = undefined;
+        var3 = var6.bind(var5)(var3);
+        var4 = var3.intl;
+        var3 = var4.string;
+        var2 = var7[var2];
+        var2 = var6.bind(var5)(var2);
+        var2 = var2.t;
+        var2 = var2["1kR88y"];
+        var2 = var3.bind(var4)(var2);
+        var1['description'] = var2;
+        return var1;
+    };
+    var2['MENTION_GAME'] = var7;
     var4 = function LAUNCHABLE_APPLICATIONS() {
         var1 = new Array(0);
         return var1;

@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['error'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -399,10 +399,9 @@ case 13:
             var11['children'] = var20;
             var11 = var3.bind(var4)(var12, var11);
             var8[1] = var11;
-            var11 = 19;
-            var11 = var18[var11];
+            var11 = var18[var15];
             var11 = var17.bind(var4)(var11);
-            var12 = var11.TextWithIOSLinkWorkaround;
+            var12 = var11.Text;
             var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var20 = var13.description;
             var11['style'] = var20;
@@ -439,7 +438,7 @@ case 13:
             var11['children'] = var16;
             var11 = var3.bind(var4)(var12, var11);
             var8[3] = var11;
-            var16 = 20;
+            var16 = 19;
             var11 = var18[var16];
             var11 = var17.bind(var4)(var11);
             var12 = var11.CodeBlocks;

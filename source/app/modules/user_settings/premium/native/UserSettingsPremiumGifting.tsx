@@ -460,7 +460,7 @@ case 10:
             var7 = _closure1_slot14;
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var4 = 40;
+            var4 = 39;
             var4 = var8[var4];
             var6 = var6.bind(var5)(var4);
             var4 = {};
@@ -507,7 +507,7 @@ case 15:
             var30 = var22.intl;
             var29 = var30.string;
             var22 = _closure1_slot1;
-            var28 = 41;
+            var28 = 40;
             var28 = var24[var28];
             var28 = var22.bind(var5)(var28);
             var28 = var28.sFokBp;
@@ -519,7 +519,7 @@ case 15:
             var20 = new Array(2);
             var20[0] = var21;
             var23 = _closure1_slot14;
-            var21 = 42;
+            var21 = 41;
             var21 = var24[var21];
             var22 = var22.bind(var5)(var21);
             var21 = {};
@@ -543,7 +543,7 @@ case 17:
             var20 = _closure1_slot14;
             var18 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var17 = 43;
+            var17 = 42;
             var17 = var21[var17];
             var17 = var18.bind(var5)(var17);
             var18 = var17.ActivityIndicator;
@@ -909,10 +909,10 @@ case 38:
             var22 = var10.tierCard;
             var18['style'] = var22;
             var28 = _closure1_slot14;
-            var26 = 36;
+            var26 = 12;
             var22 = var25[var26];
             var22 = var32.bind(var5)(var22);
-            var24 = var22.TextWithIOSLinkWorkaround;
+            var24 = var22.Text;
             var22 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var29 = var10.cardText;
             var22['style'] = var29;
@@ -962,7 +962,7 @@ case 38:
             var29 = var10.buttonWrapper;
             var24['style'] = var29;
             var38 = _closure1_slot14;
-            var30 = 37;
+            var30 = 36;
             var29 = var25[var30];
             var35 = var23.bind(var5)(var29);
             var29 = {};
@@ -999,7 +999,7 @@ case 38:
             var18 = var20.bind(var5)(var19, var18);
             var17[1] = var18;
             var24 = _closure1_slot14;
-            var22 = 38;
+            var22 = 37;
             var18 = var25[var22];
             var19 = var23.bind(var5)(var18);
             var18 = {};
@@ -1019,7 +1019,7 @@ case 38:
             var29 = _closure1_slot14;
             var26 = var25[var26];
             var26 = var32.bind(var5)(var26);
-            var27 = var26.TextWithIOSLinkWorkaround;
+            var27 = var26.Text;
             var26 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var38 = var10.cardText;
             var26['style'] = var38;
@@ -1149,7 +1149,7 @@ case 9:
             var11 = _closure1_slot14;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var9 = 39;
+            var9 = 38;
             var9 = var12[var9];
             var10 = var10.bind(var5)(var9);
             var9 = {};
@@ -1163,7 +1163,7 @@ case 40:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 44;
+    var4 = 43;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

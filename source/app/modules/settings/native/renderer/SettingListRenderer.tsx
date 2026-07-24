@@ -72,7 +72,7 @@ case 4:
             var6 = 9;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
-            var7 = var6.TextWithIOSLinkWorkaround;
+            var7 = var6.Text;
             var6 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);

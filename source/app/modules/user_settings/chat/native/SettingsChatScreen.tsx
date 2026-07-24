@@ -55,7 +55,7 @@ case 0:
             var17 = 12;
             var5 = var9[var17];
             var5 = var10.bind(var4)(var5);
-            var7 = var5.TextWithIOSLinkWorkaround;
+            var7 = var5.Text;
             var5 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
             var25 = 13;
             var11 = var9[var25];
@@ -126,7 +126,7 @@ case 3:
             var19 = _closure1_slot9;
             var17 = var20[var17];
             var17 = var21.bind(var4)(var17);
-            var18 = var17.TextWithIOSLinkWorkaround;
+            var18 = var17.Text;
             var17 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
             var22 = var20[var25];
             var22 = var21.bind(var4)(var22);

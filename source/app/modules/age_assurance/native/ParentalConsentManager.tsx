@@ -345,37 +345,39 @@ case 39:
                     if(var7) { _fun0004_ip = 40; continue _fun0004 }
 case 17:
                     var14 = var3;
-                    _fun0004_ip = 41; continue _fun0004;
+                    _fun0004_ip = 18; continue _fun0004;
 case 40: // try_end0
                     return var3;
 case 35: // try_start_1
                     var3 = 13;
                     var3 = var6[var3];
                     var3 = var5.bind(var2)(var3);
-                    var5 = var3.default;
-                    var4 = var5;
-                    var3 = var5.getAgeSignals;
-                    var3 = var3.bind(var5)();
-                    SaveGenerator(address=201);
-case 42:
-                    return var3;
-case 43:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
-                    var6 = var4;
-                    var5 = var6.getIsConsideredOlderThan;
-                    var4 = 18;
-                    var4 = var5.bind(var6)(var4, var3);
-                    SaveGenerator(address=232);
-case 46:
-                    return var4;
-case 47:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 48; continue _fun0004 }
-case 49:
-                    var14 = var4;
+                    var7 = var3.default;
+                    var4 = var7;
+                    var5 = var7.getAgeSignals;
+                    var3 = {};
+                    var6 = 18;
+                    var3['firstAgeGate'] = var6;
+                    var3 = var5.bind(var7)(var3);
+                    SaveGenerator(address=214);
 case 41:
+                    return var3;
+case 42:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
+                    var5 = var4;
+                    var4 = var5.getIsConsideredOlderThan;
+                    var4 = var4.bind(var5)(var6, var3);
+                    SaveGenerator(address=242);
+case 45:
+                    return var4;
+case 46:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 47; continue _fun0004 }
+case 19:
+                    var14 = var4;
+case 18:
                     var10 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var5 = 15;
@@ -395,13 +397,13 @@ case 41:
                     var8['parental_consent'] = var9;
                     var5['body'] = var8;
                     var5 = var6.bind(var7)(var5);
-                    SaveGenerator(address=343);
-case 50:
+                    SaveGenerator(address=353);
+case 48:
                     return var5;
-case 51:
+case 49:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(var6) { _fun0004_ip = 52; continue _fun0004 }
-case 53:
+                    if(var6) { _fun0004_ip = 50; continue _fun0004 }
+case 51:
                     var6 = var5.body;
                     var13 = var6.should_block;
                     var7 = _closure1_slot1;
@@ -422,15 +424,15 @@ case 53:
                     var10 = var10.bind(var11)();
                     var6['platform'] = var10;
                     var6 = var8.bind(var9)(var7, var6);
-case 54: // try_end1
-                    _fun0004_ip = 55; continue _fun0004;
-case 52:
+case 52: // try_end1
+                    _fun0004_ip = 53; continue _fun0004;
+case 50:
                     return var5;
-case 48:
+case 47:
                     return var4;
-case 44:
+case 43:
                     return var3;
-case 56: // catch_target0 // catch_target1
+case 54: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=5);
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -442,7 +444,7 @@ case 56: // catch_target0 // catch_target1
                     var7 = {'source': 'parental_consent_manager', 'step': 'perform_age_check'};
                     var3['tags'] = var7;
                     var3 = var4.bind(var5)(var6, var3);
-case 55:
+case 53:
                     return var2;
 case 32:
                     return var1;

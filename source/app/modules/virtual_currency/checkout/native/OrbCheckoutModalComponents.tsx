@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['errorCard'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 19;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -334,10 +334,10 @@ case 4:
         };
         var5 = var8.bind(var9)(var3, var5);
         var3 = _closure1_slot6;
-        var1 = 13;
+        var1 = 7;
         var1 = var7[var1];
         var1 = var2.bind(var4)(var1);
-        var2 = var1.TextWithIOSLinkWorkaround;
+        var2 = var1.Text;
         var1 = {'style': null, 'variant': 'text-xxs/normal', 'color': 'interactive-text-active'};
         var6 = var6.disclaimer;
         var1['style'] = var6;
@@ -353,7 +353,7 @@ case 0:
             var9 = var1.onPress;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var1 = var6[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
@@ -366,7 +366,7 @@ case 0:
             var1 = var1.bind(var2)();
             var5 = var1.isRedeeming;
             var1 = var1.orbProductContext;
-            var2 = 15;
+            var2 = 14;
             var2 = var6[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.useVirtualCurrencyBalance;
@@ -381,12 +381,12 @@ case 5:
             var3 = _closure1_slot6;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 16;
+            var1 = 15;
             var1 = var11[var1];
             var1 = var12.bind(var4)(var1);
             var2 = var1.Button;
             var1 = {};
-            var16 = 17;
+            var16 = 16;
             var11 = var11[var16];
             var12 = var12.bind(var4)(var11);
             var11 = var12.isThemeDark;
@@ -413,7 +413,7 @@ case 7:
             var11 = var12.bind(var17)(var11);
             var1['text'] = var11;
             var12 = _closure1_slot6;
-            var10 = 18;
+            var10 = 17;
             var10 = var13[var10];
             var10 = var14.bind(var4)(var10);
             var11 = var10.OrbsIcon;

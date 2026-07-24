@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['valueProps'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -68,14 +68,14 @@ case 0:
             var22 = var1.imgStyle;
             var24 = var1.headerConnect;
             var23 = var1.headerReconnect;
-            var20 = var1.body;
-            var18 = var1.valueProps;
-            var _closure2_slot1 = var18;
+            var21 = var1.body;
+            var20 = var1.valueProps;
+            var _closure2_slot1 = var20;
             var19 = var1.learnMoreLink;
             var13 = var1.onNext;
             var1 = _closure1_slot8;
             var4 = undefined;
-            var17 = var1.bind(var4)();
+            var18 = var1.bind(var4)();
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 5;
@@ -126,30 +126,30 @@ case 2:
             var12 = _closure1_slot2;
             var10 = {};
             var10['source'] = var9;
-            var9 = var17.image;
+            var9 = var18.image;
             var15 = new Array(2);
             var15[0] = var9;
             var9 = null;
-            var21 = var9 != var22;
-            if(!var21) { _fun0001_ip = 4; continue _fun0001 }
+            var16 = var9 != var22;
+            if(!var16) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var21 = var22;
+            var16 = var22;
 case 4:
-            var15[1] = var21;
+            var15[1] = var16;
             var10['style'] = var15;
-            var12 = var14.bind(var4)(var12, var10);
-            var10 = new Array(4);
-            var10[0] = var12;
-            var15 = _closure1_slot6;
-            var14 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var21 = 7;
-            var12 = var12[var21];
-            var12 = var14.bind(var4)(var12);
-            var14 = var12.Text;
-            var12 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
+            var10 = var14.bind(var4)(var12, var10);
+            var12 = new Array(4);
+            var12[0] = var10;
+            var16 = _closure1_slot6;
+            var15 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var10 = 7;
+            var14 = var14[var10];
+            var14 = var15.bind(var4)(var14);
+            var15 = var14.Text;
+            var14 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
             var22 = var11.title;
-            var12['style'] = var22;
+            var14['style'] = var22;
             var22 = var24;
             if(!var25) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
@@ -158,27 +158,27 @@ case 7:
 case 8:
             var22 = var23;
 case 6:
-            var12['children'] = var22;
-            var12 = var15.bind(var4)(var14, var12);
-            var10[1] = var12;
-            var15 = _closure1_slot6;
-            var14 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var12 = var12[var21];
-            var12 = var14.bind(var4)(var12);
-            var14 = var12.Text;
-            var12 = {'variant': 'text-md/medium', 'color': 'text-default'};
-            var21 = var11.body;
-            var12['style'] = var21;
-            var12['children'] = var20;
-            var12 = var15.bind(var4)(var14, var12);
-            var10[2] = var12;
-            var14 = _closure1_slot3;
-            var12 = {};
-            var17 = var17.valueProps;
-            var12['style'] = var17;
-            var17 = var18.map;
-            var16 = function(arg1, arg2) {
+            var14['children'] = var22;
+            var14 = var16.bind(var4)(var15, var14);
+            var12[1] = var14;
+            var16 = _closure1_slot6;
+            var15 = _closure1_slot0;
+            var14 = _closure1_slot1;
+            var14 = var14[var10];
+            var14 = var15.bind(var4)(var14);
+            var15 = var14.Text;
+            var14 = {'variant': 'text-md/medium', 'color': 'text-default'};
+            var22 = var11.body;
+            var14['style'] = var22;
+            var14['children'] = var21;
+            var14 = var16.bind(var4)(var15, var14);
+            var12[2] = var14;
+            var15 = _closure1_slot3;
+            var14 = {};
+            var18 = var18.valueProps;
+            var14['style'] = var18;
+            var18 = var20.map;
+            var17 = function(arg1, arg2) {
                 var1 = arg1;
                 var12 = arg2;
                 var5 = var1.label;
@@ -222,29 +222,28 @@ case 6:
                 var1 = var4.bind(var3)(var2, var1, var5);
                 return var1;
             };
-            var16 = var17.bind(var18)(var16);
-            var12['children'] = var16;
-            var12 = var15.bind(var4)(var14, var12);
-            var10[3] = var12;
-            var8['children'] = var10;
-            var10 = var3.bind(var4)(var2, var8);
+            var17 = var18.bind(var20)(var17);
+            var14['children'] = var17;
+            var14 = var16.bind(var4)(var15, var14);
+            var12[3] = var14;
+            var8['children'] = var12;
+            var12 = var3.bind(var4)(var2, var8);
             var8 = new Array(2);
-            var8[0] = var10;
-            var10 = var9 != var19;
+            var8[0] = var12;
+            var12 = var9 != var19;
             var9 = null;
-            if(!var10) { _fun0001_ip = 9; continue _fun0001 }
+            if(!var12) { _fun0001_ip = 9; continue _fun0001 }
 case 10:
             var14 = _closure1_slot6;
             var16 = _closure1_slot0;
             var20 = _closure1_slot1;
-            var10 = 9;
             var10 = var20[var10];
             var10 = var16.bind(var4)(var10);
-            var12 = var10.TextWithIOSLinkWorkaround;
+            var12 = var10.Text;
             var10 = {'variant': 'text-md/normal', 'color': 'text-default'};
             var15 = var11.body;
             var10['style'] = var15;
-            var15 = 10;
+            var15 = 9;
             var17 = var20[var15];
             var17 = var16.bind(var4)(var17);
             var18 = var17.intl;
@@ -267,7 +266,7 @@ case 9:
             var8 = _closure1_slot6;
             var17 = _closure1_slot0;
             var18 = _closure1_slot1;
-            var6 = 11;
+            var6 = 10;
             var6 = var18[var6];
             var6 = var17.bind(var4)(var6);
             var7 = var6.SafeAreaPaddingView;
@@ -276,19 +275,19 @@ case 9:
             var6['bottom'] = var9;
             var9 = var11.footerContainer;
             var6['style'] = var9;
-            var9 = 12;
+            var9 = 11;
             var9 = var18[var9];
             var9 = var17.bind(var4)(var9);
             var10 = var9.Stack;
             var9 = {'spacing': 8, 'direction': 'vertical'};
             var11 = var11.footerButton;
             var9['style'] = var11;
-            var11 = 13;
+            var11 = 12;
             var11 = var18[var11];
             var11 = var17.bind(var4)(var11);
             var12 = var11.Button;
             var11 = {'variant': 'primary', 'size': 'lg'};
-            var14 = 10;
+            var14 = 9;
             var15 = var18[var14];
             var15 = var17.bind(var4)(var15);
             var16 = var15.intl;

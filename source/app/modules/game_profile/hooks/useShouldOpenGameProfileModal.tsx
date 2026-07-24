@@ -21,17 +21,17 @@ case 3:
             var10 = _closure1_slot3;
             var4 = 4;
             var4 = var10[var4];
-            var7 = undefined;
-            var8 = var5.bind(var7)(var4);
-            var6 = var8.hasFlag;
+            var6 = undefined;
+            var8 = var5.bind(var6)(var4);
+            var7 = var8.hasFlag;
             var5 = var3.gameFlags;
             var9 = _closure1_slot0;
             var4 = 5;
             var4 = var10[var4];
-            var4 = var9.bind(var7)(var4);
+            var4 = var9.bind(var6)(var4);
             var4 = var4.GameFlags;
             var4 = var4.GAME_PROFILE_DISABLED;
-            var4 = var6.bind(var8)(var5, var4);
+            var4 = var7.bind(var8)(var5, var4);
             if(!var4) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
             var5 = var1.push;
@@ -39,15 +39,13 @@ case 5:
             var4 = var4.Disabled;
             var4 = var5.bind(var1)(var4);
 case 4:
-            var5 = var3.themes;
-            var4 = var5.includes;
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot3;
-            var3 = 6;
-            var3 = var8[var3];
-            var3 = var6.bind(var7)(var3);
-            var3 = var3.ThirdPartyGameApplicationThemes;
-            var3 = var3.EROTIC;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var4 = 6;
+            var4 = var7[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.isAgeRestrictedContentClassification;
+            var3 = var3.contentClassification;
             var3 = var4.bind(var5)(var3);
             if(!var3) { _fun0001_ip = 6; continue _fun0001 }
 case 7:

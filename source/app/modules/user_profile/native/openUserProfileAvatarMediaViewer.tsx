@@ -36,19 +36,18 @@ case 0:
             var1 = arg1;
             var7 = var1.user;
             var4 = var1.guildId;
-            var9 = var1.animate;
+            var8 = var1.animate;
             var5 = var1.originViewOrOriginLayout;
-            var6 = var1.description;
             var3 = var7.getAvatarURL;
-            var8 = _closure1_slot3;
+            var6 = _closure1_slot3;
             var2 = _closure1_slot2;
             var2 = var2.useReducedMotion;
             var2 = !var2;
             if(!var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var2 = var9;
+            var2 = var8;
 case 2:
-            var9 = var3.bind(var7)(var4, var8, var2);
+            var8 = var3.bind(var7)(var4, var6, var2);
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 2;
@@ -58,12 +57,11 @@ case 2:
             var3 = var4.openMediaModal;
             var2 = {'initialSources': null, 'originViewOrOriginLayout': null, 'analyticsSource': 'user_profile_avatar', 'openAs': 'action-sheet', 'shareable': false, 'disableDownload': true, 'disableMediaOverlayButton': true, 'disableMediaOverlayFooter': true};
             var7 = {};
-            var7['uri'] = var9;
-            var9 = 0;
-            var7['mediaIndex'] = var9;
-            var7['height'] = var8;
-            var7['width'] = var8;
-            var7['description'] = var6;
+            var7['uri'] = var8;
+            var8 = 0;
+            var7['mediaIndex'] = var8;
+            var7['height'] = var6;
+            var7['width'] = var6;
             var6 = 'embed';
             var7['accessoryType'] = var6;
             var6 = new Array(1);

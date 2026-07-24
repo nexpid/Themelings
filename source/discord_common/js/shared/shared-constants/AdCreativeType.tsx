@@ -26,6 +26,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BOUNTY'] = var5;
     var1 = 'BOUNTY';
     var2[var5] = var1;
+    var5 = 4;
+    var2['NO_FILL'] = var5;
+    var1 = 'NO_FILL';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

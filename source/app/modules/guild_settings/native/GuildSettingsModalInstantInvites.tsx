@@ -71,7 +71,7 @@ case 4:
             var7 = 14;
             var7 = var12[var7];
             var7 = var8.bind(var4)(var7);
-            var8 = var7.TextWithIOSLinkWorkaround;
+            var8 = var7.Text;
             var7 = {};
             var12 = 'text-xs/medium';
             var7['variant'] = var12;

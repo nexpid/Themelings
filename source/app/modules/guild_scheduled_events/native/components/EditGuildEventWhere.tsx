@@ -80,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['text'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = 26;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -566,10 +566,10 @@ case 31:
             var9 = _closure1_slot13;
             var11 = _closure1_slot0;
             var10 = _closure1_slot3;
-            var7 = 24;
+            var7 = 15;
             var7 = var10[var7];
             var7 = var11.bind(var4)(var7);
-            var8 = var7.TextWithIOSLinkWorkaround;
+            var8 = var7.Text;
             var7 = {'style': null, 'variant': 'text-sm/normal', 'color': 'text-default'};
             var12 = var12.text;
             var7['style'] = var12;
@@ -585,7 +585,7 @@ case 31:
             var14 = function onClick() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot3;
-                var1 = 25;
+                var1 = 24;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);

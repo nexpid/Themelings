@@ -360,7 +360,7 @@ case 21:
             var8 = 10;
             var8 = var15[var8];
             var8 = var9.bind(var4)(var8);
-            var9 = var8.TextWithIOSLinkWorkaround;
+            var9 = var8.Text;
             var8 = {};
             var14 = var14.content;
             var8['style'] = var14;

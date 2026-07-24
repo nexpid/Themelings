@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['footer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -244,10 +244,9 @@ case 8:
             var11 = var9.bind(var5)(var11, var7);
             var7 = new Array(2);
             var7[0] = var11;
-            var11 = 14;
-            var11 = var17[var11];
+            var11 = var17[var10];
             var11 = var16.bind(var5)(var11);
-            var20 = var11.TextWithIOSLinkWorkaround;
+            var20 = var11.Text;
             var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-muted'};
             var21 = var8.description;
             var11['style'] = var21;
@@ -290,7 +289,7 @@ case 8:
             var11 = var9.bind(var5)(var11, var10);
             var10 = new Array(2);
             var10[0] = var11;
-            var11 = 15;
+            var11 = 14;
             var11 = var17[var11];
             var11 = var16.bind(var5)(var11);
             var14 = var11.ConnectGuardianCard;
@@ -327,7 +326,7 @@ case 8:
             var11['paddingBottom'] = var14;
             var10[1] = var11;
             var7['style'] = var10;
-            var10 = 16;
+            var10 = 15;
             var10 = var17[var10];
             var10 = var16.bind(var5)(var10);
             var11 = var10.Button;

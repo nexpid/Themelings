@@ -1,11 +1,11 @@
 // app/modules/hub/native/components/HubEmailConnectionContent.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var11 = metroImportDefault;
+    var12 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
+    var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
@@ -18,14 +18,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var12 = 2;
-    var7 = var6[var12];
+    var13 = 2;
+    var7 = var6[var13];
     var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot5 = var4;
@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var11.bind(var1)(var4);
+    var4 = var12.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -61,52 +61,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var4;
     var4 = 8;
     var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createStyles;
+    var7 = {};
     var4 = {};
-    var9 = {};
     var10 = 16;
-    var9['paddingHorizontal'] = var10;
-    var4['container'] = var9;
-    var9 = {'marginTop': 16, 'marginBottom': 16, 'alignSelf': 'center'};
-    var4['header'] = var9;
-    var9 = {};
-    var9['flexGrow'] = var12;
-    var4['scrollViewContainer'] = var9;
-    var9 = {'textAlign': 'center', 'marginBottom': 8};
-    var4['title'] = var9;
-    var9 = {'textAlign': 'center', 'marginBottom': 24};
-    var4['description'] = var9;
-    var9 = {};
-    var10 = 32;
-    var9['marginBottom'] = var10;
-    var4['input'] = var9;
-    var9 = {};
-    var10 = 9;
-    var13 = var6[var10];
-    var13 = var11.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.lg;
-    var9['borderRadius'] = var13;
-    var4['textInput'] = var9;
-    var9 = {};
-    var9['flexGrow'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.space;
-    var12 = var12.PX_24;
-    var9['minHeight'] = var12;
-    var4['growSpacing'] = var9;
-    var9 = {};
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.space;
-    var10 = var10.PX_16;
-    var9['paddingHorizontal'] = var10;
-    var4['buttonContainer'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot14 = var4;
-    var4 = 25;
+    var4['paddingHorizontal'] = var10;
+    var7['container'] = var4;
+    var4 = {'marginTop': 16, 'marginBottom': 16, 'alignSelf': 'center'};
+    var7['header'] = var4;
+    var4 = {};
+    var4['flexGrow'] = var13;
+    var7['scrollViewContainer'] = var4;
+    var4 = {'textAlign': 'center', 'marginBottom': 8};
+    var7['title'] = var4;
+    var4 = 24;
+    var10 = {'textAlign': 'center', 'marginBottom': 24};
+    var7['description'] = var10;
+    var10 = {};
+    var11 = 32;
+    var10['marginBottom'] = var11;
+    var7['input'] = var10;
+    var10 = {};
+    var11 = 9;
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.lg;
+    var10['borderRadius'] = var14;
+    var7['textInput'] = var10;
+    var10 = {};
+    var10['flexGrow'] = var13;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.space;
+    var13 = var13.PX_24;
+    var10['minHeight'] = var13;
+    var7['growSpacing'] = var10;
+    var10 = {};
+    var11 = var6[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.space;
+    var11 = var11.PX_16;
+    var10['paddingHorizontal'] = var11;
+    var7['buttonContainer'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot14 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -430,13 +430,13 @@ case 2:
 case 40:
             var1 = var6.guild;
 case 39:
-            var25 = var2;
+            var26 = var2;
             if(!(var17 != var1)) { _fun0001_ip = 41; continue _fun0001 }
 case 42:
             var1 = var6.guild;
             var3 = var1.id;
             var1 = _closure1_slot10;
-            var25 = var2;
+            var26 = var2;
             if(!(var3 !== var1)) { _fun0001_ip = 41; continue _fun0001 }
 case 43:
             var3 = var17 == var6;
@@ -445,7 +445,7 @@ case 43:
 case 45:
             var1 = var6.approximate_member_count;
 case 44:
-            var25 = var2;
+            var26 = var2;
             if(!(var17 != var1)) { _fun0001_ip = 41; continue _fun0001 }
 case 46:
             var1 = var6.guild;
@@ -464,7 +464,7 @@ case 46:
             var1['guildName'] = var7;
             var6 = var6.approximate_member_count;
             var1['count'] = var6;
-            var25 = var3.bind(var5)(var2, var1);
+            var26 = var3.bind(var5)(var2, var1);
 case 41:
             var3 = _closure1_slot12;
             var21 = _closure1_slot0;
@@ -505,27 +505,26 @@ case 41:
             var11 = var21.bind(var4)(var11);
             var24 = var11.StudyGroupsSpotIllustration;
             var11 = {};
-            var26 = 0.75;
-            var11['scale'] = var26;
+            var25 = 0.75;
+            var11['scale'] = var25;
             var11 = var3.bind(var4)(var24, var11);
             var10['children'] = var11;
             var11 = var3.bind(var4)(var9, var10);
             var10 = new Array(4);
             var10[0] = var11;
             var11 = 17;
+            var24 = var22[var11];
+            var24 = var21.bind(var4)(var24);
+            var25 = var24.Text;
+            var24 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
+            var27 = var13.title;
+            var24['style'] = var27;
+            var24['children'] = var26;
+            var24 = var3.bind(var4)(var25, var24);
+            var10[1] = var24;
             var11 = var22[var11];
             var11 = var21.bind(var4)(var11);
             var24 = var11.Text;
-            var11 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary', 'style': null, 'accessibilityRole': 'header'};
-            var26 = var13.title;
-            var11['style'] = var26;
-            var11['children'] = var25;
-            var11 = var3.bind(var4)(var24, var11);
-            var10[1] = var11;
-            var11 = 18;
-            var11 = var22[var11];
-            var11 = var21.bind(var4)(var11);
-            var24 = var11.TextWithIOSLinkWorkaround;
             var11 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-default'};
             var25 = var13.description;
             var11['style'] = var25;
@@ -541,16 +540,16 @@ case 41:
             var29 = function onClick() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 19;
+                var1 = 18;
                 var4 = var2[var1];
                 var1 = undefined;
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.openLazy;
                 var6 = _closure1_slot0;
-                var3 = 21;
+                var3 = 20;
                 var3 = var2[var3];
                 var6 = var6.bind(var1)(var3);
-                var3 = 20;
+                var3 = 19;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var3 = var6.bind(var1)(var3, var2);
@@ -563,7 +562,7 @@ case 41:
             var11['children'] = var25;
             var11 = var3.bind(var4)(var24, var11);
             var10[2] = var11;
-            var11 = 22;
+            var11 = 21;
             var11 = var22[var11];
             var16 = var16.bind(var4)(var11);
             var11 = {'label': null, 'placeholder': null, 'value': null, 'textContentType': 'emailAddress', 'autoCapitalize': 'none', 'keyboardType': 'email-address'};
@@ -609,7 +608,7 @@ case 41:
             var11['onChangeText'] = var18;
             var18 = var13.input;
             var11['style'] = var18;
-            var18 = 23;
+            var18 = 22;
             var18 = var22[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.ClearButtonVisibility;
@@ -689,7 +688,7 @@ case 49:
             var9['style'] = var13;
             var19 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var12 = 24;
+            var12 = 23;
             var12 = var16[var12];
             var12 = var19.bind(var4)(var12);
             var13 = var12.Button;

@@ -37,7 +37,7 @@ case 3:
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
             var1 = var1.TKuW8z;
-            var13 = var3.bind(var5)(var1);
+            var17 = var3.bind(var5)(var1);
             _fun0001_ip = 4; continue _fun0001;
 case 2:
             var6 = _closure1_slot0;
@@ -51,7 +51,7 @@ case 2:
             var1 = var6.bind(var4)(var1);
             var1 = var1.t;
             var1 = var1.O2hRaZ;
-            var13 = var3.bind(var5)(var1);
+            var17 = var3.bind(var5)(var1);
 case 4:
             var1 = _closure1_slot7;
             var1 = var1.COMPLETED;
@@ -97,21 +97,20 @@ case 7:
             var6 = {};
             var9 = var9.emptyStateText;
             var6['style'] = var9;
-            var12 = _closure1_slot9;
-            var9 = 13;
-            var9 = var15[var9];
+            var13 = _closure1_slot9;
+            var10 = 13;
+            var9 = var15[var10];
             var9 = var14.bind(var4)(var9);
-            var11 = var9.Text;
+            var12 = var9.Text;
             var9 = {'variant': 'text-sm/semibold', 'color': 'text-default'};
-            var9['children'] = var13;
-            var11 = var12.bind(var4)(var11, var9);
+            var9['children'] = var17;
+            var12 = var13.bind(var4)(var12, var9);
             var9 = new Array(2);
-            var9[0] = var11;
+            var9[0] = var12;
             var12 = _closure1_slot9;
-            var10 = 14;
             var10 = var15[var10];
             var10 = var14.bind(var4)(var10);
-            var11 = var10.TextWithIOSLinkWorkaround;
+            var11 = var10.Text;
             var10 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
             var13 = 11;
             var13 = var15[var13];
@@ -122,7 +121,7 @@ case 7:
             var17 = function onClickLearnMore() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 15;
+                var1 = 14;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -217,7 +216,7 @@ case 11:
             var3 = var12.length;
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 19;
+            var2 = 18;
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.MIN_PRODUCTS_FOR_ORB_SHOP_CAROUSEL;
@@ -486,7 +485,7 @@ case 32:
                     var5['current'] = var6;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var4 = 20;
+                    var4 = 19;
                     var5 = var8[var4];
                     var6 = var7.bind(var1)(var5);
                     var5 = var6.triggerHapticFeedback;
@@ -566,14 +565,14 @@ case 0:
 case 36:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 21;
+                    var4 = 20;
                     var4 = var6[var4];
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.trackBountyCarouselScroll;
                     var4 = {};
                     var10 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var11 = 22;
+                    var11 = 21;
                     var9 = var9[var11];
                     var9 = var10.bind(var1)(var9);
                     var9 = var9.BountyScrollingType;
@@ -607,7 +606,7 @@ case 41:
                     var4['carouselPosition'] = var3;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var7 = 23;
+                    var7 = 22;
                     var7 = var9[var7];
                     var7 = var8.bind(var1)(var7);
                     var7 = var7.QuestContent;
@@ -723,7 +722,7 @@ case 0:
                         var5 = var1.key;
                         var6 = _closure1_slot0;
                         var4 = _closure1_slot2;
-                        var1 = 24;
+                        var1 = 23;
                         var4 = var4[var1];
                         var1 = undefined;
                         var4 = var6.bind(var1)(var4);
@@ -808,7 +807,7 @@ case 57:
 case 59:
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var3 = 25;
+                        var3 = 24;
                         var3 = var5[var3];
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.runAfterInteractions;
@@ -827,7 +826,7 @@ case 45:
                 var _closure3_slot0 = var5;
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var2 = 18;
+                var2 = 17;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -837,7 +836,7 @@ case 45:
                 var1 = function() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 18;
+                    var1 = 17;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
@@ -859,7 +858,7 @@ case 0:
                     var7 = arg2;
                     var3 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 26;
+                    var2 = 25;
                     var4 = var9[var2];
                     var1 = undefined;
                     var8 = var3.bind(var1)(var4);
@@ -874,26 +873,26 @@ case 0:
                     var10 = _closure1_slot2;
                     if(var2) { _fun0012_ip = 60; continue _fun0012 }
 case 61:
-                    var2 = 21;
+                    var2 = 20;
                     var2 = var10[var2];
                     var4 = var9.bind(var1)(var2);
                     var3 = var4.trackAdContentClicked;
                     var2 = {};
                     var8 = var6.id;
                     var2['adContentId'] = var8;
-                    var8 = 29;
+                    var8 = 28;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.AdCreativeType;
                     var8 = var8.BOUNTY;
                     var2['adCreativeType'] = var8;
-                    var8 = 23;
+                    var8 = 22;
                     var11 = var10[var8];
                     var11 = var9.bind(var1)(var11);
                     var11 = var11.QuestContent;
                     var11 = var11.QUEST_HOME_MOBILE_CAROUSEL;
                     var2['questContent'] = var11;
-                    var11 = 22;
+                    var11 = 21;
                     var11 = var10[var11];
                     var11 = var9.bind(var1)(var11);
                     var11 = var11.QuestContentCTA;
@@ -908,18 +907,18 @@ case 61:
                     var2 = var3.bind(var4)(var2);
                     _fun0012_ip = 62; continue _fun0012;
 case 60:
-                    var2 = 27;
+                    var2 = 26;
                     var2 = var10[var2];
                     var4 = var9.bind(var1)(var2);
                     var3 = var4.captureAdUserAction;
                     var2 = {};
-                    var8 = 28;
+                    var8 = 27;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.AdUserActionType;
                     var8 = var8.CLICK_INTERNAL;
                     var2['type'] = var8;
-                    var8 = 29;
+                    var8 = 28;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.AdCreativeType;
@@ -927,13 +926,13 @@ case 60:
                     var2['adCreativeType'] = var8;
                     var8 = var6.id;
                     var2['adCreativeId'] = var8;
-                    var8 = 22;
+                    var8 = 21;
                     var8 = var10[var8];
                     var8 = var9.bind(var1)(var8);
                     var8 = var8.QuestContentCTA;
                     var8 = var8.START_BOUNTY;
                     var2['questContentCTA'] = var8;
-                    var8 = 23;
+                    var8 = 22;
                     var11 = var10[var8];
                     var11 = var9.bind(var1)(var11);
                     var11 = var11.QuestContent;
@@ -961,7 +960,7 @@ case 62:
                     var2 = var3.bind(var1)(var2);
                     var3 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var2 = 24;
+                    var2 = 23;
                     var2 = var7[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.showModal;
@@ -969,7 +968,7 @@ case 62:
                     var6 = var6.id;
                     var2['bountyId'] = var6;
                     var6 = _closure1_slot0;
-                    var5 = 23;
+                    var5 = 22;
                     var5 = var7[var5];
                     var5 = var6.bind(var1)(var5);
                     var5 = var5.QuestContent;
@@ -984,7 +983,7 @@ case 62:
             _closure2_slot17 = var3;
             var15 = _closure1_slot1;
             var29 = _closure1_slot2;
-            var5 = 30;
+            var5 = 29;
             var5 = var29[var5];
             var5 = var15.bind(var4)(var5);
             var5 = var5.bind(var4)();
@@ -1009,7 +1008,7 @@ case 0:
                     var5 = _closure1_slot9;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var2 = 31;
+                    var2 = 30;
                     var2 = var10[var2];
                     var4 = undefined;
                     var2 = var9.bind(var4)(var2);
@@ -1017,13 +1016,13 @@ case 0:
                     var2 = {};
                     var8 = var1.id;
                     var2['adContentId'] = var8;
-                    var8 = 29;
+                    var8 = 28;
                     var8 = var10[var8];
                     var8 = var9.bind(var4)(var8);
                     var8 = var8.AdCreativeType;
                     var8 = var8.BOUNTY;
                     var2['adCreativeType'] = var8;
-                    var8 = 23;
+                    var8 = 22;
                     var11 = var10[var8];
                     var11 = var9.bind(var4)(var11);
                     var11 = var11.QuestContent;
@@ -1167,7 +1166,7 @@ case 48:
             var5['onLayout'] = var14;
             var16 = _closure1_slot9;
             var15 = _closure1_slot0;
-            var14 = 32;
+            var14 = 31;
             var14 = var29[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.FlashList;
@@ -1206,7 +1205,7 @@ case 67:
             var9 = _closure1_slot9;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var7 = 33;
+            var7 = 32;
             var7 = var13[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -1362,7 +1361,7 @@ case 69:
 case 68:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 34;
+            var1 = 33;
             var1 = var9[var1];
             var3 = var4.bind(var5)(var1);
             var1 = var3.useQuestHomeBounties;
@@ -1384,7 +1383,7 @@ case 71:
 case 70:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 15;
                     var3 = var3[var1];
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3);
@@ -1396,7 +1395,7 @@ case 70:
 case 72:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 16;
                     var4 = var4[var1];
                     var1 = undefined;
                     var5 = var5.bind(var1)(var4);
@@ -1426,7 +1425,7 @@ case 0:
                             var5 = _closure3_slot0;
                             var6 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var1 = 16;
+                            var1 = 15;
                             var4 = var4[var1];
                             var1 = undefined;
                             var4 = var6.bind(var1)(var4);
@@ -1445,7 +1444,7 @@ case 75:
                             var4['current'] = var3;
                             var3 = _closure1_slot1;
                             var4 = _closure1_slot2;
-                            var2 = 15;
+                            var2 = 14;
                             var2 = var4[var2];
                             var2 = var3.bind(var1)(var2);
                             var2 = var2.bind(var1)();
@@ -1469,7 +1468,7 @@ case 0:
                                     var4 = var1.key;
                                     var5 = _closure1_slot0;
                                     var3 = _closure1_slot2;
-                                    var1 = 15;
+                                    var1 = 14;
                                     var3 = var3[var1];
                                     var1 = undefined;
                                     var3 = var5.bind(var1)(var3);
@@ -1488,7 +1487,7 @@ case 76:
                             var6 = _closure3_slot0;
                             var7 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var3 = 16;
+                            var3 = 15;
                             var3 = var4[var3];
                             var4 = undefined;
                             var3 = var7.bind(var4)(var3);
@@ -1500,7 +1499,7 @@ case 17:
 case 75:
                             var3 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var2 = 18;
+                            var2 = 17;
                             var2 = var6[var2];
                             var4 = var3.bind(var4)(var2);
                             var3 = var4.subscribe;
@@ -1509,7 +1508,7 @@ case 75:
                             var1 = function() {
                                 var3 = _closure1_slot1;
                                 var2 = _closure1_slot2;
-                                var1 = 18;
+                                var1 = 17;
                                 var2 = var2[var1];
                                 var1 = undefined;
                                 var5 = var3.bind(var1)(var2);
@@ -1529,7 +1528,7 @@ case 75:
             var3 = var3.bind(var5)(var10);
             var3 = var12.length;
             var10 = var1 === var3;
-            var3 = 35;
+            var3 = 34;
             var3 = var9[var3];
             var9 = var4.bind(var5)(var3);
             var4 = var9.useStateFromStores;
@@ -1557,7 +1556,7 @@ case 10:
             var2 = var19.length;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 19;
+            var1 = 18;
             var1 = var4[var1];
             var1 = var3.bind(var5)(var1);
             var1 = var1.MIN_PRODUCTS_FOR_ORB_SHOP_CAROUSEL;
@@ -1592,7 +1591,7 @@ case 84:
             var15 = _closure1_slot9;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var9 = 36;
+            var9 = 35;
             var9 = var16[var9];
             var13 = var13.bind(var5)(var9);
             var9 = {};
@@ -1606,7 +1605,7 @@ case 88:
             var16 = _closure1_slot9;
             var15 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var14 = 33;
+            var14 = 32;
             var14 = var20[var14];
             var15 = var15.bind(var5)(var14);
             var14 = {};
@@ -1645,7 +1644,7 @@ case 94:
 case 90:
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var7 = 36;
+            var7 = 35;
             var7 = var13[var7];
             var8 = var8.bind(var5)(var7);
             var7 = {};
@@ -1664,7 +1663,7 @@ case 89:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 37;
+    var4 = 36;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

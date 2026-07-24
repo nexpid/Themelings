@@ -444,7 +444,7 @@ case 2:
         var8 = 18;
         var8 = var18[var8];
         var8 = var17.bind(var4)(var8);
-        var10 = var8.TextWithIOSLinkWorkaround;
+        var10 = var8.Text;
         var8 = {};
         var12 = {};
         var14 = var18[var14];

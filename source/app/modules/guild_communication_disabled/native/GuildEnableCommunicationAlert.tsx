@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['countdown'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -92,21 +92,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var4 = arg1;
-            var26 = var4.guildId;
-            var _closure2_slot0 = var26;
-            var25 = var4.userId;
-            var _closure2_slot1 = var25;
+            var27 = var4.guildId;
+            var _closure2_slot0 = var27;
+            var26 = var4.userId;
+            var _closure2_slot1 = var26;
             var6 = var4.onCancel;
             var2 = {'guildId': 0, 'userId': 0, 'onCancel': 0};
-            var22 = null;
-            var29 = var2;
-            var28 = null;
-            var1 = silentSetPrototypeOf(var29, var28);
+            var23 = null;
+            var30 = var2;
+            var29 = null;
+            var1 = silentSetPrototypeOf(var30, var29);
             var3 = 0;
-            var29 = {};
-            var28 = var4;
-            var27 = var2;
-            var5 = copyDataProperties(var29, var28, var27);
+            var30 = {};
+            var29 = var4;
+            var28 = var2;
+            var5 = copyDataProperties(var30, var29, var28);
             var1 = function _handleConfirmRemoveTimeout() {
                 var4 = undefined;
                 var1 = undefined;
@@ -190,7 +190,7 @@ case 2:
             var1 = 9;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
-            var9 = var1.bind(var4)(var25, var26);
+            var9 = var1.bind(var4)(var26, var27);
             var8 = _closure1_slot4;
             var1 = 1;
             var1 = var8.bind(var4)(var9, var1);
@@ -225,9 +225,9 @@ case 2:
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var29 = var1;
-            var28 = var5;
-            var8 = copyDataProperties(var29, var28);
+            var30 = var1;
+            var29 = var5;
+            var8 = copyDataProperties(var30, var29);
             var10 = _closure1_slot0;
             var17 = 14;
             var8 = var7[var17];
@@ -255,7 +255,7 @@ case 2:
             var8 = var8.bind(var9)(var7);
             var7 = 'cancelText';
             var1[6] = var8;
-            var8 = var22 == var5;
+            var8 = var23 == var5;
             var7 = undefined;
             if(var8) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
@@ -296,41 +296,41 @@ case 8:
             var8 = var18.body;
             var5['style'] = var8;
             var11 = _closure1_slot10;
-            var8 = 17;
-            var8 = var12[var8];
+            var9 = 17;
+            var8 = var12[var9];
             var8 = var13.bind(var4)(var8);
-            var9 = var8.Text;
+            var10 = var8.Text;
             var8 = {};
-            var10 = var18.description;
-            var8['style'] = var10;
+            var14 = var18.description;
+            var8['style'] = var14;
             var14 = 'text-sm/medium';
             var8['variant'] = var14;
-            var10 = var12[var17];
-            var10 = var13.bind(var4)(var10);
-            var20 = var10.intl;
-            var19 = var20.format;
-            var10 = var12[var17];
-            var10 = var13.bind(var4)(var10);
-            var10 = var10.t;
-            var15 = var10.t+abNU;
-            var10 = {};
-            var24 = _closure1_slot6;
-            var23 = var24.getUser;
-            var25 = var23.bind(var24)(var25);
-            var24 = _closure1_slot1;
-            var23 = 18;
-            var23 = var12[var23];
-            var24 = var24.bind(var4)(var23);
-            var23 = var24.getName;
-            var23 = var23.bind(var24)(var26, var22, var25);
-            var24 = var22 != var23;
-            var22 = '';
-            if(!var24) { _fun0001_ip = 10; continue _fun0001 }
+            var15 = var12[var17];
+            var15 = var13.bind(var4)(var15);
+            var21 = var15.intl;
+            var20 = var21.format;
+            var15 = var12[var17];
+            var15 = var13.bind(var4)(var15);
+            var15 = var15.t;
+            var19 = var15.t+abNU;
+            var15 = {};
+            var25 = _closure1_slot6;
+            var24 = var25.getUser;
+            var26 = var24.bind(var25)(var26);
+            var25 = _closure1_slot1;
+            var24 = 18;
+            var24 = var12[var24];
+            var25 = var25.bind(var4)(var24);
+            var24 = var25.getName;
+            var24 = var24.bind(var25)(var27, var23, var26);
+            var25 = var23 != var24;
+            var23 = '';
+            if(!var25) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var22 = var23;
+            var23 = var24;
 case 10:
-            var10['username'] = var22;
-            var21 = function countdown(arg1) {
+            var15['username'] = var23;
+            var22 = function countdown(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure2_slot3;
@@ -366,16 +366,15 @@ case 12:
                     return var1;
                 }
             };
-            var10['countdown'] = var21;
-            var10 = var19.bind(var20)(var15, var10);
-            var8['children'] = var10;
-            var9 = var11.bind(var4)(var9, var8);
+            var15['countdown'] = var22;
+            var15 = var20.bind(var21)(var19, var15);
+            var8['children'] = var15;
+            var10 = var11.bind(var4)(var10, var8);
             var8 = new Array(2);
-            var8[0] = var9;
-            var9 = 20;
+            var8[0] = var10;
             var9 = var12[var9];
             var9 = var13.bind(var4)(var9);
-            var10 = var9.TextWithIOSLinkWorkaround;
+            var10 = var9.Text;
             var9 = {};
             var19 = var18.cta;
             var15 = new Array(2);

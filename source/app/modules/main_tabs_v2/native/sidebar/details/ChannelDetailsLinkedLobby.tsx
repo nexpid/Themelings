@@ -107,7 +107,7 @@ case 5:
             var6 = 7;
             var6 = var11[var6];
             var6 = var8.bind(var5)(var6);
-            var8 = var6.TextWithIOSLinkWorkaround;
+            var8 = var6.Text;
             var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var12 = _closure1_slot5;
             var11 = {};

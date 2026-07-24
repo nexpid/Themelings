@@ -253,7 +253,7 @@ case 6:
     var4['footer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 28;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -372,14 +372,14 @@ case 22:
             var2[0] = var10;
             var2 = var7.bind(var4)(var6, var3, var2);
             var2 = _closure1_slot1;
-            var15 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var3 = 19;
-            var3 = var15[var3];
+            var3 = var7[var3];
             var3 = var2.bind(var4)(var3);
             var3 = var3.bind(var4)();
             var14 = var3.bottom;
-            var7 = _closure1_slot3;
-            var6 = var7.useCallback;
+            var10 = _closure1_slot3;
+            var6 = var10.useCallback;
             var3 = new Array(1);
             var3[0] = var1;
             var1 = function() {
@@ -414,9 +414,9 @@ case 22:
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var16 = var6.bind(var7)(var1, var3);
+            var16 = var6.bind(var10)(var1, var3);
             var1 = 23;
-            var1 = var15[var1];
+            var1 = var7[var1];
             var3 = var2.bind(var4)(var1);
             var1 = _closure1_slot8;
             var30 = var1.TIERED_TENURE_BADGES_ACTION_SHEET;
@@ -428,7 +428,7 @@ case 22:
             var1 = var33[var3](var32, var31, var30, var29, var28);
             var20 = var1.loading;
             var1 = var1.onPress;
-            var6 = var7.useMemo;
+            var6 = var10.useMemo;
             var3 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -457,39 +457,39 @@ case 24:
                 }
             };
             var2 = new Array(0);
-            var11 = var6.bind(var7)(var3, var2);
+            var11 = var6.bind(var10)(var3, var2);
             var6 = _closure1_slot11;
             var3 = _closure1_slot4;
             var2 = {};
-            var7 = var8.headerContainer;
-            var2['style'] = var7;
+            var10 = var8.headerContainer;
+            var2['style'] = var10;
             var13 = _closure1_slot10;
             var10 = _closure1_slot0;
-            var7 = 12;
-            var7 = var15[var7];
+            var17 = 12;
+            var7 = var7[var17];
             var7 = var10.bind(var4)(var7);
             var10 = var7.Text;
             var7 = {'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
             var15 = var8.title;
             var7['style'] = var15;
-            var17 = _closure1_slot0;
+            var23 = _closure1_slot0;
             var15 = _closure1_slot2;
             var21 = 13;
-            var23 = var15[var21];
-            var23 = var17.bind(var4)(var23);
-            var24 = var23.intl;
-            var23 = var24.string;
+            var24 = var15[var21];
+            var24 = var23.bind(var4)(var24);
+            var25 = var24.intl;
+            var24 = var25.string;
             var15 = var15[var21];
-            var15 = var17.bind(var4)(var15);
-            var17 = var15.t;
+            var15 = var23.bind(var4)(var15);
+            var23 = var15.t;
             if(var22) { _fun0002_ip = 26; continue _fun0002 }
 case 27:
-            var15 = var17.RtGeFS;
-            var15 = var23.bind(var24)(var15);
+            var15 = var23.RtGeFS;
+            var15 = var24.bind(var25)(var15);
             _fun0002_ip = 28; continue _fun0002;
 case 26:
-            var17 = var17.Og62j7;
-            var15 = var23.bind(var24)(var17);
+            var23 = var23.Og62j7;
+            var15 = var24.bind(var25)(var23);
 case 28:
             var7['children'] = var15;
             var10 = var13.bind(var4)(var10, var7);
@@ -497,11 +497,10 @@ case 28:
             var7[0] = var10;
             var15 = _closure1_slot10;
             var13 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var10 = 24;
-            var10 = var17[var10];
+            var10 = _closure1_slot2;
+            var10 = var10[var17];
             var10 = var13.bind(var4)(var10);
-            var13 = var10.TextWithIOSLinkWorkaround;
+            var13 = var10.Text;
             var10 = {'variant': 'text-md/medium', 'color': 'text-default'};
             var17 = var8.subtitle;
             var10['style'] = var17;
@@ -547,7 +546,7 @@ case 31:
             var15 = _closure1_slot10;
             var13 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var7 = 25;
+            var7 = 24;
             var7 = var17[var7];
             var13 = var13.bind(var4)(var7);
             var7 = {};
@@ -600,7 +599,7 @@ case 37:
             var3 = _closure1_slot10;
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 26;
+            var1 = 25;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.BottomSheet;
@@ -614,7 +613,7 @@ case 38:
             var7 = _closure1_slot11;
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var5 = 27;
+            var5 = 26;
             var5 = var12[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.BottomSheetScrollView;

@@ -103,7 +103,7 @@ case 5:
                                 var1 = var6[var1];
                                 var7 = undefined;
                                 var1 = var5.bind(var7)(var1);
-                                var6 = var1.TextWithIOSLinkWorkaround;
+                                var6 = var1.Text;
                                 var5 = {};
                                 var1 = 'text-sm/normal';
                                 var5['variant'] = var1;
@@ -215,7 +215,7 @@ case 12:
             var3 = 7;
             var3 = var10[var3];
             var3 = var9.bind(var5)(var3);
-            var4 = var3.TextWithIOSLinkWorkaround;
+            var4 = var3.Text;
 case 11:
             var3 = _closure1_slot5;
             var2 = {};
@@ -279,7 +279,7 @@ case 11:
         var6 = 7;
         var6 = var12[var6];
         var6 = var7.bind(var5)(var6);
-        var7 = var6.TextWithIOSLinkWorkaround;
+        var7 = var6.Text;
         var6 = {};
         var12 = 'text-sm/normal';
         var6['variant'] = var12;

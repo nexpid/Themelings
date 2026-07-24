@@ -134,7 +134,7 @@ case 9:
             var9 = 7;
             var9 = var25[var9];
             var9 = var15.bind(var4)(var9);
-            var11 = var9.TextWithIOSLinkWorkaround;
+            var11 = var9.Text;
             var9 = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
             var14 = var13.helpDeskLabel;
             var9['style'] = var14;

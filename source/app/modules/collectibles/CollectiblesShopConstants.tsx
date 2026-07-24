@@ -54,6 +54,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['PROFILE_FRAMES'] = var1;
     var1 = 'bundles';
     var12['BUNDLES'] = var1;
+    var1 = 'collabs';
+    var12['COLLABS'] = var1;
     var1 = 'layout';
     var12['LAYOUT'] = var1;
     var1 = 'collection-index';

@@ -1727,12 +1727,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['TRIAL_OFFERS_REQUIRES_REMINDER_ROLLOUT'] = var48;
     var48 = new Array(0);
     var3['DISCOUNT_OFFERS_REQUIRES_REMINDER_ROLLOUT'] = var48;
-    var48 = '1397626558063050855';
-    var3['COLLECTIBLES_SUMMER_SALE_2025_30_DISCOUNT_ID'] = var48;
-    var48 = '1397609029626232955';
-    var3['COLLECTIBLES_SUMMER_SALE_2025_50_DISCOUNT_ID'] = var48;
-    var48 = '1460778896906522665';
-    var3['COLLECTIBLES_VALENTINES_2026_DISCOUNT_ID'] = var48;
     var3['DEFAULT_SOUND_SLOTS'] = var47;
     var47 = 96;
     var3['MORE_SOUNDBOARD_SOUNDS'] = var47;
@@ -1784,6 +1778,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['DISCOUNT_PERCENTAGE_FALLBACK'] = var9;
     var9 = 20;
     var3['ANNUAL_DISCOUNT_PERCENTAGE_FALLBACK'] = var9;
+    var9 = '$...';
+    var3['PRICE_PLACEHOLDER'] = var9;
     var3['TieredTenureBadge'] = var8;
     var3['TIERED_TENURE_BADGE_ORDER'] = var7;
     var3['TENURE_BADGES'] = var6;

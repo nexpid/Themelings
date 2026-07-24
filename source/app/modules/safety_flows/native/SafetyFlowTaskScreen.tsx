@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['header'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot5 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var18 = var1.ImageComponent;
+            var14 = var1.ImageComponent;
             var22 = var1.title;
             var23 = var1.subtitle;
             var25 = var1.subtitleColor;
@@ -89,40 +89,39 @@ case 6:
             var8 = 5;
             var8 = var11[var8];
             var8 = var10.bind(var4)(var8);
-            var14 = var8.Stack;
+            var10 = var8.Stack;
             var8 = {'align': 'center', 'justify': 'center', 'spacing': 8};
-            var10 = 8;
+            var19 = 8;
             var11 = null;
-            var19 = var11 != var18;
-            if(!var19) { _fun0001_ip = 8; continue _fun0001 }
+            var18 = var11 != var14;
+            if(!var18) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var19 = var18;
+            var18 = var14;
 case 8:
-            var18 = new Array(3);
-            var18[0] = var19;
+            var14 = new Array(3);
+            var14[0] = var18;
             var21 = _closure1_slot3;
             var20 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var19 = 6;
-            var19 = var26[var19];
-            var19 = var20.bind(var4)(var19);
-            var20 = var19.Text;
-            var19 = {'accessibilityRole': 'header', 'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
-            var26 = var24.header;
-            var19['style'] = var26;
-            var19['children'] = var22;
-            var19 = var21.bind(var4)(var20, var19);
-            var18[1] = var19;
-            var19 = var11 != var23;
-            if(!var19) { _fun0001_ip = 10; continue _fun0001 }
+            var18 = _closure1_slot2;
+            var26 = 6;
+            var18 = var18[var26];
+            var18 = var20.bind(var4)(var18);
+            var20 = var18.Text;
+            var18 = {'accessibilityRole': 'header', 'variant': 'heading-xl/bold', 'color': 'mobile-text-heading-primary'};
+            var27 = var24.header;
+            var18['style'] = var27;
+            var18['children'] = var22;
+            var18 = var21.bind(var4)(var20, var18);
+            var14[1] = var18;
+            var18 = var11 != var23;
+            if(!var18) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
             var22 = _closure1_slot3;
             var21 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var20 = 7;
-            var20 = var26[var20];
+            var20 = _closure1_slot2;
+            var20 = var20[var26];
             var20 = var21.bind(var4)(var20);
-            var21 = var20.TextWithIOSLinkWorkaround;
+            var21 = var20.Text;
             var20 = {};
             var26 = 'text-md/medium';
             var20['variant'] = var26;
@@ -130,13 +129,13 @@ case 11:
             var24 = var24.header;
             var20['style'] = var24;
             var20['children'] = var23;
-            var19 = var22.bind(var4)(var21, var20);
+            var18 = var22.bind(var4)(var21, var20);
 case 10:
-            var18[2] = var19;
-            var8['children'] = var18;
-            var14 = var3.bind(var4)(var14, var8);
+            var14[2] = var18;
+            var8['children'] = var14;
+            var10 = var3.bind(var4)(var10, var8);
             var8 = new Array(2);
-            var8[0] = var14;
+            var8[0] = var10;
             var8[1] = var9;
             var5['children'] = var8;
             var7 = var3.bind(var4)(var7, var5);
@@ -146,8 +145,9 @@ case 10:
 case 13:
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var7 = var7[var10];
+            var10 = _closure1_slot2;
+            var7 = 7;
+            var7 = var10[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.ModalFooter;
             var7 = {};
@@ -155,9 +155,8 @@ case 13:
 case 15:
             var18 = _closure1_slot3;
             var14 = _closure1_slot1;
-            var19 = _closure1_slot2;
-            var10 = 9;
-            var10 = var19[var10];
+            var10 = _closure1_slot2;
+            var10 = var10[var19];
             var14 = var14.bind(var4)(var10);
             var10 = {};
             var13 = var18.bind(var4)(var14, var10);
@@ -170,7 +169,7 @@ case 17:
             var14 = _closure1_slot3;
             var13 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var12 = 10;
+            var12 = 9;
             var12 = var18[var12];
             var12 = var13.bind(var4)(var12);
             var13 = var12.ModalActionButton;

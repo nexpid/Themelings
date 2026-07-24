@@ -296,7 +296,7 @@ case 10:
                 var6 = false;
                 var2['autoTrackExposure'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
-                var1 = var2.experimental;
+                var1 = var2.interactionsEnabled;
 case 9:
                 return var1;
             }
@@ -318,9 +318,9 @@ case 0:
 case 12:
                 var4 = _closure1_slot14;
                 var3 = var4.getChannelId;
-                var8 = var3.bind(var4)();
+                var6 = var3.bind(var4)();
                 var4 = null;
-                if(!(var4 != var8)) { _fun0004_ip = 11; continue _fun0004 }
+                if(!(var4 != var6)) { _fun0004_ip = 11; continue _fun0004 }
 case 13:
                 var3 = var5.isLivingRoomAvailable;
                 var3 = var3.bind(var5)();
@@ -328,34 +328,35 @@ case 13:
 case 5:
                 var5 = _closure1_slot12;
                 var3 = var5.getChannel;
-                var7 = var3.bind(var5)(var8);
-                var6 = var4 == var7;
+                var8 = var3.bind(var5)(var6);
+                var7 = var4 == var8;
                 var5 = undefined;
                 var3 = undefined;
-                if(var6) { _fun0004_ip = 14; continue _fun0004 }
+                if(var7) { _fun0004_ip = 14; continue _fun0004 }
 case 15:
-                var6 = var7.isGuildStageVoice;
-                var3 = var6.bind(var7)();
+                var7 = var8.isGuildStageVoice;
+                var3 = var7.bind(var8)();
 case 14:
                 if(!(var4 != var3)) { _fun0004_ip = 16; continue _fun0004 }
 case 17:
                 if(var3) { _fun0004_ip = 11; continue _fun0004 }
 case 16:
                 var4 = _closure1_slot0;
-                var6 = _closure1_slot2;
+                var7 = _closure1_slot2;
                 var3 = 15;
-                var3 = var6[var3];
+                var3 = var7[var3];
                 var5 = var4.bind(var5)(var3);
                 var4 = var5.computeLivingRoomWorldPoints;
                 var3 = {};
-                var7 = _closure1_slot15;
-                var6 = var7.getRoomUsers;
-                var6 = var6.bind(var7)(var8);
-                var3['users'] = var6;
-                var7 = _closure1_slot11;
-                var6 = var7.getId;
-                var6 = var6.bind(var7)();
-                var3['currentUserId'] = var6;
+                var8 = _closure1_slot15;
+                var7 = var8.getRoomUsers;
+                var7 = var7.bind(var8)(var6);
+                var3['users'] = var7;
+                var8 = _closure1_slot11;
+                var7 = var8.getId;
+                var7 = var7.bind(var8)();
+                var3['currentUserId'] = var7;
+                var3['channelId'] = var6;
                 var3 = var4.bind(var5)(var3);
                 var _closure3_slot0 = var3;
                 var3 = _closure1_slot13;

@@ -165,10 +165,9 @@ case 0:
             var18 = new Array(2);
             var18[0] = var28;
             var30 = _closure1_slot6;
-            var28 = 17;
-            var28 = var27[var28];
+            var28 = var27[var15];
             var28 = var25.bind(var4)(var28);
-            var29 = var28.TextWithIOSLinkWorkaround;
+            var29 = var28.Text;
             var28 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-muted'};
             var31 = var23.body;
             var28['style'] = var31;
@@ -234,7 +233,7 @@ case 2:
             var25 = _closure1_slot6;
             var24 = _closure1_slot0;
             var26 = _closure1_slot2;
-            var23 = 19;
+            var23 = 18;
             var23 = var26[var23];
             var23 = var24.bind(var4)(var23);
             var24 = var23.ActivityIndicator;
@@ -247,7 +246,7 @@ case 4:
             var19 = _closure1_slot6;
             var18 = _closure1_slot0;
             var23 = _closure1_slot2;
-            var17 = 18;
+            var17 = 17;
             var17 = var23[var17];
             var17 = var18.bind(var4)(var17);
             var18 = var17.ConnectGuardianCard;
@@ -331,7 +330,7 @@ case 5:
     var4['loading'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 22;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -348,7 +347,7 @@ case 5:
                 var2['headerShown'] = var4;
                 var6 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var5 = 20;
+                var5 = 19;
                 var5 = var9[var5];
                 var8 = undefined;
                 var6 = var6.bind(var8)(var5);
@@ -386,7 +385,7 @@ case 5:
         var4 = _closure1_slot6;
         var8 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var1 = 21;
+        var1 = 20;
         var1 = var9[var1];
         var3 = undefined;
         var1 = var8.bind(var3)(var1);

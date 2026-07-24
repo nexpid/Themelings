@@ -17,15 +17,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
     var4 = {'name': '2026-07-mobile-boosting-optimizations', 'kind': 'user'};
-    var9 = {'enabled': false, 'removeYearlyUpsell': false};
+    var9 = {'enabled': false, 'removeYearlyUpsell': false, 'recommendedBoostCount': null};
     var4['defaultConfig'] = var9;
     var9 = {};
-    var10 = {'enabled': false, 'removeYearlyUpsell': false};
+    var10 = {'enabled': false, 'removeYearlyUpsell': false, 'recommendedBoostCount': null};
     var9[0] = var10;
-    var10 = {'enabled': true, 'removeYearlyUpsell': false};
+    var10 = {'enabled': true, 'removeYearlyUpsell': false, 'recommendedBoostCount': 2};
     var9[1] = var10;
-    var10 = {'enabled': true, 'removeYearlyUpsell': true};
+    var10 = {'enabled': true, 'removeYearlyUpsell': true, 'recommendedBoostCount': 2};
     var9[2] = var10;
+    var10 = {'enabled': true, 'removeYearlyUpsell': false, 'recommendedBoostCount': 3};
+    var9[3] = var10;
+    var10 = {'enabled': true, 'removeYearlyUpsell': true, 'recommendedBoostCount': 3};
+    var9[4] = var10;
     var4['variations'] = var9;
     var4 = var5.bind(var8)(var4);
     var _closure1_slot0 = var4;
@@ -47,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getShouldRemoveYearlyUpsell'] = var4;
-    var2 = function getMobileBoostingEnabled(arg1) {
+    var4 = function getMobileBoostingEnabled(arg1) {
         var3 = _closure1_slot0;
         var2 = var3.getConfig;
         var1 = {};
@@ -57,6 +61,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enabled;
         return var1;
     };
-    var3['getMobileBoostingEnabled'] = var2;
+    var3['getMobileBoostingEnabled'] = var4;
+    var2 = function getRecommendedBoostCount(arg1) {
+        var3 = _closure1_slot0;
+        var2 = var3.getConfig;
+        var1 = {};
+        var4 = arg1;
+        var1['location'] = var4;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.recommendedBoostCount;
+        return var1;
+    };
+    var3['getRecommendedBoostCount'] = var2;
     return var1;
 })();

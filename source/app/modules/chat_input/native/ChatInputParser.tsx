@@ -59,6 +59,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SILENT_HIGHLIGHT'] = var10;
     var6 = 'SILENT_HIGHLIGHT';
     var2[var10] = var6;
+    var10 = 7;
+    var2['GAME_HIGHLIGHT'] = var10;
+    var6 = 'GAME_HIGHLIGHT';
+    var2[var10] = var6;
+    var10 = 8;
+    var2['GAME_MENTION_INPUT'] = var10;
+    var6 = 'GAME_MENTION_INPUT';
+    var2[var10] = var6;
     var6 = function() {
         var4 = _closure1_slot3;
         var3 = function ChatInputParser() {

@@ -119,7 +119,7 @@ case 2:
             var10 = 11;
             var10 = var13[var10];
             var10 = var15.bind(var4)(var10);
-            var11 = var10.TextWithIOSLinkWorkaround;
+            var11 = var10.Text;
             var10 = {};
             var14 = var14.tableRow;
             var10['style'] = var14;

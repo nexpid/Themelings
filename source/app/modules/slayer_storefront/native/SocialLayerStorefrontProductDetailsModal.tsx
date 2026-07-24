@@ -1865,11 +1865,11 @@ case 138:
                 var5 = _closure1_slot15;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 48;
+                var1 = 16;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
-                var3 = var1.TextWithIOSLinkWorkaround;
+                var3 = var1.Text;
                 var2 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
                 var1 = arg1;
                 var2['children'] = var1;
@@ -1915,7 +1915,7 @@ case 140:
 case 142:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 49;
+            var2 = 48;
             var2 = var8[var2];
             var2 = var3.bind(var5)(var2);
             var4 = var2.OTPACOMOrderExperiment;
@@ -1927,7 +1927,7 @@ case 142:
             var7 = var2.enabled;
             var4 = _closure1_slot15;
             var3 = _closure1_slot1;
-            var2 = 50;
+            var2 = 49;
             var2 = var8[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -2287,7 +2287,7 @@ case 143:
     var4['exclusiveBadgeContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot20 = var4;
-    var4 = 52;
+    var4 = 51;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -2297,7 +2297,7 @@ case 143:
         var4 = _closure1_slot15;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 51;
+        var1 = 50;
         var1 = var3[var1];
         var3 = undefined;
         var1 = var2.bind(var3)(var1);

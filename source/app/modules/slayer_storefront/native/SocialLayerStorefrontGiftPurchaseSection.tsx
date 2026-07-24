@@ -552,7 +552,7 @@ case 32:
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);
-                var3 = var1.TextWithIOSLinkWorkaround;
+                var3 = var1.Text;
                 var2 = {'variant': 'text-xs/normal', 'color': 'text-muted'};
                 var1 = arg1;
                 var2['children'] = var1;

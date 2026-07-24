@@ -30,6 +30,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_SHOP'] = var1;
     var1 = '@home';
     var4['GUILD_HOME'] = var1;
+    var1 = 'conjuring';
+    var4['GUILD_VIBEGRATIONS'] = var1;
     var1 = 'channels-and-roles';
     var4['CHANNELS_AND_ROLES'] = var1;
     var1 = 'browse-channels';

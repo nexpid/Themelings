@@ -1,0 +1,497 @@
+// app/modules/premium_marketing/native/BuyNitroMarketing.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var7 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var4;
+    var12 = 1;
+    var4 = var6[var12];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.PremiumTypes;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot6 = var7;
+    var7 = var4.jsxs;
+    var _closure1_slot7 = var7;
+    var4 = var4.Fragment;
+    var _closure1_slot8 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {};
+    var9['flex'] = var12;
+    var10 = 5;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BACKGROUND_BASE_LOWER;
+    var9['backgroundColor'] = var13;
+    var4['container'] = var9;
+    var9 = {};
+    var9['flex'] = var12;
+    var4['list'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_16;
+    var9['paddingHorizontal'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_24;
+    var9['paddingBottom'] = var12;
+    var4['listContent'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_24;
+    var9['gap'] = var12;
+    var4['listHeader'] = var9;
+    var9 = {};
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.space;
+    var12 = var12.PX_24;
+    var9['marginTop'] = var12;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.space;
+    var10 = var10.PX_16;
+    var9['marginBottom'] = var10;
+    var4['sectionHeader'] = var9;
+    var9 = {};
+    var10 = 'none';
+    var9['pointerEvents'] = var10;
+    var4['disabled'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 25;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/premium_marketing/native/BuyNitroMarketing.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function BuyNitroMarketing(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+case 0:
+            var1 = arg1;
+            var21 = var1.onClose;
+            var13 = var1.applicationId;
+            var _closure2_slot0 = var13;
+            var6 = var1.initialLoadCompleted;
+            var8 = var1.initialTier;
+            var12 = var1.onPaymentSuccess;
+            var _closure2_slot1 = var12;
+            var11 = var1.onPaymentDismiss;
+            var _closure2_slot2 = var11;
+            var4 = undefined;
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
+            var _closure2_slot7 = var4;
+            var _closure2_slot8 = var4;
+            var _closure2_slot9 = var4;
+            var1 = _closure1_slot9;
+            var25 = var1.bind(var4)();
+            var _closure2_slot3 = var25;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 6;
+            var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = var5.useYouBarSettingsCustomHeaderPaddingTop;
+            var22 = var1.bind(var5)();
+            var1 = 7;
+            var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = var5.useNativeStackNavigation;
+            var10 = var1.bind(var5)();
+            var _closure2_slot4 = var10;
+            var1 = 8;
+            var1 = var3[var1];
+            var5 = var2.bind(var4)(var1);
+            var1 = var5.useBuyNitroMarketingLifecycleHooks;
+            var1 = var1.bind(var5)(var10, var6);
+            var1 = 9;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useBuyNitroPlanSelection;
+            var10 = null;
+            var5 = var10 != var8;
+            var1 = undefined;
+            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+case 3:
+            var5 = {};
+            var5['tier'] = var8;
+            var5['productId'] = var4;
+            var1 = var5;
+case 2:
+            var14 = var2.bind(var3)(var1);
+            _closure2_slot5 = var14;
+            var5 = _closure1_slot3;
+            var1 = var5.useRef;
+            var1 = var1.bind(var5)(var14);
+            _closure2_slot6 = var1;
+            var3 = var5.useEffect;
+            var2 = new Array(1);
+            var2[0] = var14;
+            var1 = function() {
+                var2 = _closure2_slot6;
+                var1 = _closure2_slot5;
+                var2['current'] = var1;
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var3.bind(var5)(var1, var2);
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var1 = 10;
+            var1 = var16[var1];
+            var2 = var15.bind(var4)(var1);
+            var1 = var2.useIsBuyNitroPurchaseBlocked;
+            var26 = var1.bind(var2)();
+            var2 = _closure1_slot1;
+            var1 = 11;
+            var1 = var16[var1];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.bind(var4)(var14);
+            var18 = var2.onScroll;
+            var1 = var2.onSelectNitroTier;
+            _closure2_slot7 = var1;
+            var19 = var2.listData;
+            var20 = var2.listRef;
+            var2 = 12;
+            var2 = var16[var2];
+            var3 = var15.bind(var4)(var2);
+            var2 = var3.useLocationStackFromLocationContext;
+            var2 = var2.bind(var3)();
+            _closure2_slot8 = var2;
+            var3 = 13;
+            var3 = var16[var3];
+            var8 = var15.bind(var4)(var3);
+            var5 = var8.usePromotionMarketingComponent;
+            var3 = 14;
+            var3 = var16[var3];
+            var3 = var15.bind(var4)(var3);
+            var3 = var3.MarketingComponentType;
+            var3 = var3.MARKETING_PAGE_BANNER;
+            var24 = var5.bind(var8)(var3);
+            if(!(var10 == var21)) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var21 = function() {
+                var2 = _closure2_slot4;
+                var1 = var2.pop;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+case 4:
+            var5 = _closure1_slot3;
+            var8 = var5.useCallback;
+            var3 = new Array(4);
+            var3[0] = var2;
+            var3[1] = var13;
+            var3[2] = var12;
+            var3[3] = var11;
+            var2 = function(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 15;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.openBuyNitroPerkDetails;
+                var3 = {};
+                var6 = _closure2_slot6;
+                var6 = var6.current;
+                var6 = var6.selection;
+                var6 = var6.tier;
+                var3['selectedTier'] = var6;
+                var6 = _closure2_slot6;
+                var6 = var6.current;
+                var6 = var6.selection;
+                var6 = var6.productId;
+                var3['selectedProductId'] = var6;
+                var6 = _closure2_slot8;
+                var3['analyticsLocations'] = var6;
+                var6 = _closure2_slot0;
+                var3['applicationId'] = var6;
+                var6 = _closure2_slot1;
+                var3['onPaymentSuccess'] = var6;
+                var2 = _closure2_slot2;
+                var3['onPaymentDismiss'] = var2;
+                var2 = arg1;
+                var2 = var4.bind(var5)(var2, var3);
+                return var1;
+            };
+            var8 = var8.bind(var5)(var2, var3);
+            _closure2_slot9 = var8;
+            var3 = var5.useCallback;
+            var2 = var14.selection;
+            var15 = var2.tier;
+            var2 = new Array(4);
+            var2[0] = var15;
+            var15 = var25.sectionHeader;
+            var2[1] = var15;
+            var2[2] = var8;
+            var2[3] = var1;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+case 0:
+                    var1 = arg1;
+                    var6 = var1.item;
+                    var2 = var6.kind;
+                    var1 = 'section-header';
+                    if(!(var1 !== var2)) { _fun0002_ip = 6; continue _fun0002 }
+case 7:
+                    var4 = _closure1_slot6;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 17;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var5 = var6.perk;
+                    var1['perk'] = var5;
+                    var7 = _closure2_slot5;
+                    var7 = var7.selection;
+                    var7 = var7.tier;
+                    var1['selectedTier'] = var7;
+                    var5 = _closure2_slot9;
+                    var1['onOpenDetails'] = var5;
+                    var5 = var6.start;
+                    var1['start'] = var5;
+                    var5 = var6.end;
+                    var1['end'] = var5;
+                    var1 = var4.bind(var3)(var2, var1);
+                    _fun0002_ip = 8; continue _fun0002;
+case 6:
+                    var5 = _closure1_slot6;
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 16;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = {};
+                    var7 = _closure2_slot3;
+                    var7 = var7.sectionHeader;
+                    var2['style'] = var7;
+                    var7 = var6.title;
+                    var2['title'] = var7;
+                    var7 = var6.highlightNitro;
+                    var6 = true;
+                    var6 = var6 === var7;
+                    var2['titleRequiresNitroHack'] = var6;
+                    var6 = function onPress() {
+                        var3 = _closure2_slot7;
+                        var1 = _closure1_slot5;
+                        var2 = var1.TIER_2;
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        return var1;
+                    };
+                    var2['onPress'] = var6;
+                    var1 = var5.bind(var4)(var3, var2);
+case 8:
+                    return var1;
+                }
+            };
+            var15 = var3.bind(var5)(var1, var2);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot4;
+            var1 = {};
+            var5 = var25.container;
+            var1['style'] = var5;
+            var8 = _closure1_slot6;
+            var5 = {};
+            var16 = var25.list;
+            var5['style'] = var16;
+            var17 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var16 = 18;
+            var16 = var23[var16];
+            var16 = var17.bind(var4)(var16);
+            var17 = var16.FlashList;
+            var16 = {};
+            var16['ref'] = var20;
+            var20 = var25.listContent;
+            var16['contentContainerStyle'] = var20;
+            var16['data'] = var19;
+            var16['renderItem'] = var15;
+            var15 = function keyExtractor(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    var2 = arg1;
+                    var3 = var2.kind;
+                    var1 = 'section-header';
+                    if(!(var1 !== var3)) { _fun0003_ip = 9; continue _fun0003 }
+case 10:
+                    var1 = var2.perk;
+                    var1 = var1.id;
+                    _fun0003_ip = 11; continue _fun0003;
+case 9:
+                    var1 = var2.id;
+case 11:
+                    return var1;
+                }
+            };
+            var16['keyExtractor'] = var15;
+            var9 = function getItemType(arg1) {
+                var1 = arg1;
+                var1 = var1.kind;
+                return var1;
+            };
+            var16['getItemType'] = var9;
+            var20 = _closure1_slot8;
+            var19 = {};
+            var15 = _closure1_slot1;
+            var9 = 19;
+            var9 = var23[var9];
+            var15 = var15.bind(var4)(var9);
+            var9 = {};
+            var9['topInset'] = var22;
+            var9['onBackPress'] = var21;
+            var21 = var14.selection;
+            var21 = var21.tier;
+            var9['selectedTier'] = var21;
+            var9 = var8.bind(var4)(var15, var9);
+            var21 = new Array(2);
+            var21[0] = var9;
+            var22 = {};
+            var9 = var25.listHeader;
+            var22['style'] = var9;
+            var9 = var6;
+            if(!var6) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
+            var10 = var10 == var24;
+            var15 = undefined;
+            if(var10) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
+            var10 = var24.properties;
+            var10 = var10.properties;
+            var15 = var10.oneofKind;
+case 14:
+            var10 = 'marketingPageBanner';
+            var9 = var10 === var15;
+case 12:
+            if(!var9) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
+            var23 = _closure1_slot6;
+            var15 = _closure1_slot1;
+            var27 = _closure1_slot2;
+            var10 = 20;
+            var10 = var27[var10];
+            var15 = var15.bind(var4)(var10);
+            var10 = {};
+            var27 = var24.properties;
+            var27 = var27.properties;
+            var27 = var27.marketingPageBanner;
+            var10['bannerFields'] = var27;
+            var24 = var24.id;
+            var10['componentId'] = var24;
+            var24 = 'Marketing Page Banner Tile';
+            var10['analyticsPage'] = var24;
+            var24 = undefined;
+            if(!var26) { _fun0001_ip = 18; continue _fun0001 }
+case 19:
+            var24 = var25.disabled;
+case 18:
+            var10['style'] = var24;
+            var10['onPaymentSuccess'] = var12;
+            var10['onPaymentDismiss'] = var11;
+            var9 = var23.bind(var4)(var15, var10);
+case 16:
+            var23 = new Array(3);
+            var23[0] = var9;
+            var10 = _closure1_slot6;
+            var9 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var24 = 21;
+            var24 = var15[var24];
+            var25 = var9.bind(var4)(var24);
+            var24 = {};
+            var24['planSelection'] = var14;
+            var24 = var10.bind(var4)(var25, var24);
+            var23[1] = var24;
+            var24 = 22;
+            var24 = var15[var24];
+            var25 = var9.bind(var4)(var24);
+            var24 = {};
+            var24 = var10.bind(var4)(var25, var24);
+            var23[2] = var24;
+            var22['children'] = var23;
+            var22 = var3.bind(var4)(var2, var22);
+            var21[1] = var22;
+            var19['children'] = var21;
+            var19 = var3.bind(var4)(var20, var19);
+            var16['ListHeaderComponent'] = var19;
+            var16['onScroll'] = var18;
+            var18 = 16;
+            var16['scrollEventThrottle'] = var18;
+            var18 = false;
+            var16['showsVerticalScrollIndicator'] = var18;
+            var16 = var8.bind(var4)(var17, var16);
+            var5['children'] = var16;
+            var8 = var8.bind(var4)(var2, var5);
+            var5 = new Array(3);
+            var5[0] = var8;
+            var8 = 23;
+            var8 = var15[var8];
+            var9 = var9.bind(var4)(var8);
+            var8 = {};
+            var8['planSelection'] = var14;
+            var8['applicationId'] = var13;
+            var8['onPaymentSuccess'] = var12;
+            var8['onPaymentDismiss'] = var11;
+            var8 = var10.bind(var4)(var9, var8);
+            var5[1] = var8;
+            if(!var6) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var9 = _closure1_slot6;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 24;
+            var7 = var10[var7];
+            var7 = var8.bind(var4)(var7);
+            var8 = var7.BuyNitroTriggerPointEffect;
+            var7 = {};
+            var6 = var9.bind(var4)(var8, var7);
+case 20:
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['default'] = var2;
+    return var1;
+})();

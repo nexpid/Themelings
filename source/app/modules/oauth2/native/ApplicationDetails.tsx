@@ -38,7 +38,7 @@ case 2:
             var6 = 19;
             var6 = var11[var6];
             var6 = var7.bind(var4)(var6);
-            var7 = var6.TextWithIOSLinkWorkaround;
+            var7 = var6.Text;
             var6 = {'variant': 'text-sm/normal', 'color': 'text-default'};
             var10 = var10.entryText;
             var6['style'] = var10;

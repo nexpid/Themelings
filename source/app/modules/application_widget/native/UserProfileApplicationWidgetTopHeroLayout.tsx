@@ -78,9 +78,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['heroText'] = var11;
     var11 = {'flex': 1, 'alignItems': 'flex-end'};
     var6['heroImageColumn'] = var11;
-    var11 = {};
-    var11['marginTop'] = var4;
-    var6['firstWidgetSpacing'] = var11;
     var11 = {'width': 86, 'height': 86};
     var15 = var8[var13];
     var15 = var14.bind(var1)(var15);
@@ -118,71 +115,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function UserProfileApplicationWidgetTopHeroLayout(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var2 = arg1;
-            var6 = var2.header;
-            var1 = var2.topConfig;
-            var3 = var2.resolveFieldValue;
-            var12 = var2.numberFormat;
-            var7 = var2.isFirstWidget;
-            var2 = _closure1_slot11;
+            var1 = arg1;
+            var6 = var1.header;
+            var2 = var1.topConfig;
+            var3 = var1.resolveFieldValue;
+            var9 = var1.numberFormat;
+            var1 = _closure1_slot11;
             var4 = undefined;
-            var21 = var2.bind(var4)();
+            var21 = var1.bind(var4)();
             var5 = _closure1_slot4;
-            var2 = var5.useState;
+            var1 = var5.useState;
             var10 = null;
-            var8 = var2.bind(var5)(var10);
+            var7 = var1.bind(var5)(var10);
             var5 = _closure1_slot3;
-            var2 = 2;
-            var5 = var5.bind(var4)(var8, var2);
-            var2 = 0;
-            var18 = var5[var2];
-            var2 = 1;
-            var2 = var5[var2];
-            var _closure2_slot0 = var2;
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var8 = 8;
-            var9 = var2[var8];
-            var16 = var5.bind(var4)(var9);
-            var15 = var16.resolveTextComponentValues;
-            var9 = var1.components;
-            var29 = var9.title;
-            var26 = true;
-            var30 = var16;
-            var28 = var3;
-            var27 = var12;
-            var23 = var30[var15](var29, var28, var27, var26, var25);
-            var9 = var2[var8];
-            var15 = var5.bind(var4)(var9);
+            var1 = 2;
+            var5 = var5.bind(var4)(var7, var1);
+            var1 = 0;
+            var18 = var5[var1];
+            var1 = 1;
+            var1 = var5[var1];
+            var _closure2_slot0 = var1;
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 8;
+            var8 = var5[var1];
+            var15 = var7.bind(var4)(var8);
             var13 = var15.resolveTextComponentValues;
-            var9 = var1.components;
-            var9 = var9.subtitle_1;
-            var25 = var13.bind(var15)(var9, var3, var12);
-            var9 = var2[var8];
-            var15 = var5.bind(var4)(var9);
-            var13 = var15.resolveTextComponentValues;
-            var9 = var1.components;
-            var9 = var9.subtitle_2;
-            var24 = var13.bind(var15)(var9, var3, var12);
-            var2 = var2[var8];
-            var9 = var5.bind(var4)(var2);
-            var5 = var9.resolveTextComponentValues;
-            var2 = var1.components;
-            var2 = var2.subtitle_3;
-            var19 = var5.bind(var9)(var2, var3, var12);
-            var1 = var1.components;
-            var1 = var1.hero_image;
-            var5 = var10 == var1;
+            var8 = var2.components;
+            var27 = var8.title;
+            var24 = true;
+            var28 = var15;
+            var26 = var3;
+            var25 = var9;
+            var20 = var28[var13](var27, var26, var25, var24, var23);
+            var8 = var5[var1];
+            var13 = var7.bind(var4)(var8);
+            var12 = var13.resolveTextComponentValues;
+            var8 = var2.components;
+            var8 = var8.subtitle_1;
+            var23 = var12.bind(var13)(var8, var3, var9);
+            var8 = var5[var1];
+            var13 = var7.bind(var4)(var8);
+            var12 = var13.resolveTextComponentValues;
+            var8 = var2.components;
+            var8 = var8.subtitle_2;
+            var22 = var12.bind(var13)(var8, var3, var9);
+            var5 = var5[var1];
+            var8 = var7.bind(var4)(var5);
+            var7 = var8.resolveTextComponentValues;
+            var5 = var2.components;
+            var5 = var5.subtitle_3;
+            var15 = var7.bind(var8)(var5, var3, var9);
+            var2 = var2.components;
+            var5 = var2.hero_image;
+            var7 = var10 == var5;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 2; continue _fun0001 }
+            if(var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var1 = var1.fields;
-            var2 = var1.image;
+            var5 = var5.fields;
+            var2 = var5.image;
 case 2:
-            var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var8];
-            var1 = var5.bind(var4)(var1);
+            var13 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var1 = var16[var1];
+            var1 = var13.bind(var4)(var1);
             var1 = var1.ResolvedValueType;
             var5 = var1.MEDIA;
             var1 = new Array(1);
@@ -191,93 +187,82 @@ case 2:
             var3 = _closure1_slot9;
             var2 = _closure1_slot6;
             var1 = {};
-            var8 = var21.root;
-            var5 = new Array(2);
-            var5[0] = var8;
-            if(!var7) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var7 = var21.firstWidgetSpacing;
-case 4:
-            var5[1] = var7;
+            var5 = var21.root;
             var1['style'] = var5;
             var5 = new Array(3);
             var5[0] = var6;
-            var8 = _closure1_slot9;
-            var7 = _closure1_slot6;
             var6 = {};
-            var9 = var21.contentRow;
-            var6['style'] = var9;
-            var9 = {};
-            var12 = var21.heroText;
-            var9['style'] = var12;
-            var13 = _closure1_slot8;
-            var16 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var15 = 9;
-            var12 = var20[var15];
-            var12 = var16.bind(var4)(var12);
-            var22 = var12.FieldText;
-            var12 = {'field': null, 'variant': 'text-lg/medium', 'color': 'text-default'};
-            var12['field'] = var23;
-            var22 = var13.bind(var4)(var22, var12);
-            var12 = new Array(4);
-            var12[0] = var22;
-            var22 = var20[var15];
-            var22 = var16.bind(var4)(var22);
-            var23 = var22.FieldText;
-            var22 = {'field': null, 'variant': 'text-sm/normal', 'color': 'text-muted'};
-            var22['field'] = var25;
-            var22 = var13.bind(var4)(var23, var22);
-            var12[1] = var22;
-            var22 = var20[var15];
-            var22 = var16.bind(var4)(var22);
-            var23 = var22.FieldText;
-            var22 = {'field': null, 'variant': 'text-sm/normal', 'color': 'text-muted'};
-            var22['field'] = var24;
-            var22 = var13.bind(var4)(var23, var22);
-            var12[2] = var22;
-            var15 = var20[var15];
-            var15 = var16.bind(var4)(var15);
-            var16 = var15.FieldText;
-            var15 = {'field': null, 'variant': 'text-sm/normal', 'color': 'text-muted'};
-            var15['field'] = var19;
-            var15 = var13.bind(var4)(var16, var15);
-            var12[3] = var15;
-            var9['children'] = var12;
-            var12 = var8.bind(var4)(var7, var9);
-            var9 = new Array(2);
-            var9[0] = var12;
-            var12 = {};
-            var15 = var21.heroImageColumn;
-            var12['style'] = var15;
-            var15 = var10 == var17;
-            if(var15) { _fun0001_ip = 6; continue _fun0001 }
+            var7 = var21.contentRow;
+            var6['style'] = var7;
+            var7 = {};
+            var8 = var21.heroText;
+            var7['style'] = var8;
+            var9 = _closure1_slot8;
+            var12 = 9;
+            var8 = var16[var12];
+            var8 = var13.bind(var4)(var8);
+            var19 = var8.FieldText;
+            var8 = {'field': null, 'variant': 'text-lg/medium', 'color': 'text-default'};
+            var8['field'] = var20;
+            var19 = var9.bind(var4)(var19, var8);
+            var8 = new Array(4);
+            var8[0] = var19;
+            var19 = var16[var12];
+            var19 = var13.bind(var4)(var19);
+            var20 = var19.FieldText;
+            var19 = {'field': null, 'variant': 'text-sm/normal', 'color': 'text-muted'};
+            var19['field'] = var23;
+            var19 = var9.bind(var4)(var20, var19);
+            var8[1] = var19;
+            var19 = var16[var12];
+            var19 = var13.bind(var4)(var19);
+            var20 = var19.FieldText;
+            var19 = {'field': null, 'variant': 'text-sm/normal', 'color': 'text-muted'};
+            var19['field'] = var22;
+            var19 = var9.bind(var4)(var20, var19);
+            var8[2] = var19;
+            var12 = var16[var12];
+            var12 = var13.bind(var4)(var12);
+            var13 = var12.FieldText;
+            var12 = {'field': null, 'variant': 'text-sm/normal', 'color': 'text-muted'};
+            var12['field'] = var15;
+            var12 = var9.bind(var4)(var13, var12);
+            var8[3] = var12;
+            var7['children'] = var8;
+            var8 = var3.bind(var4)(var2, var7);
+            var7 = new Array(2);
+            var7[0] = var8;
+            var8 = {};
+            var12 = var21.heroImageColumn;
+            var8['style'] = var12;
+            var12 = var10 == var17;
+            if(var12) { _fun0001_ip = 4; continue _fun0001 }
+case 5:
+            var12 = var10 == var18;
+case 4:
+            if(!var12) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-            var15 = var10 == var18;
+            var16 = _closure1_slot8;
+            var15 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var13 = 10;
+            var13 = var19[var13];
+            var13 = var15.bind(var4)(var13);
+            var15 = var13.ImageSkeleton;
+            var13 = {};
+            var19 = var21.heroImageSkeleton;
+            var13['style'] = var19;
+            var12 = var16.bind(var4)(var15, var13);
 case 6:
-            if(!var15) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
-            var20 = _closure1_slot8;
-            var19 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var16 = 10;
-            var16 = var22[var16];
-            var16 = var19.bind(var4)(var16);
-            var19 = var16.ImageSkeleton;
-            var16 = {};
-            var22 = var21.heroImageSkeleton;
-            var16['style'] = var22;
-            var15 = var20.bind(var4)(var19, var16);
-case 8:
-            var12['children'] = var15;
-            var12 = var13.bind(var4)(var7, var12);
-            var9[1] = var12;
-            var6['children'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
+            var8['children'] = var12;
+            var8 = var9.bind(var4)(var2, var8);
+            var7[1] = var8;
+            var6['children'] = var7;
+            var6 = var3.bind(var4)(var2, var6);
             var5[1] = var6;
             var6 = var10 != var17;
-            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(!var6) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
             var9 = _closure1_slot8;
             var8 = _closure1_slot6;
             var7 = {};
@@ -301,8 +286,8 @@ case 11:
             };
             var7['onLayout'] = var11;
             var10 = var10 != var18;
-            if(!var10) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var10) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
             var12 = var18.width;
             var11 = var17.media;
             var11 = var11.width;
@@ -365,10 +350,10 @@ case 13:
             var14 = var13.bind(var4)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
-case 12:
+case 10:
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
-case 10:
+case 8:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
