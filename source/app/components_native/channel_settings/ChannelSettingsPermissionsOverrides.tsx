@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['section'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot21 = var4;
-    var4 = 38;
+    var4 = 39;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -903,52 +903,67 @@ case 0:
                             var1 = arg1;
                             var12 = var1.title;
                             var15 = var1.description;
-                            var10 = var1.flag;
-                            var _closure4_slot0 = var10;
+                            var11 = var1.flag;
+                            var _closure4_slot0 = var11;
                             var1 = _closure2_slot7;
                             var5 = undefined;
-                            var1 = var1.bind(var5)(var10);
+                            var1 = var1.bind(var5)(var11);
                             var2 = null;
-                            var13 = var2 != var1;
-                            if(!var13) { _fun0007_ip = 73; continue _fun0007 }
+                            var9 = var2 != var1;
+                            if(!var9) { _fun0007_ip = 73; continue _fun0007 }
 case 74:
-                            var13 = var1;
+                            var9 = var1;
 case 73:
                             var4 = _closure1_slot19;
-                            var3 = _closure1_slot0;
-                            var11 = _closure1_slot3;
+                            var13 = _closure1_slot0;
+                            var14 = _closure1_slot3;
                             var2 = 31;
-                            var2 = var11[var2];
-                            var2 = var3.bind(var5)(var2);
-                            var6 = var2.Text;
+                            var2 = var14[var2];
+                            var2 = var13.bind(var5)(var2);
+                            var3 = var2.Text;
                             var2 = {'variant': 'text-xs/medium', 'color': 'text-subtle'};
-                            var8 = 36;
-                            var8 = var11[var8];
-                            var14 = var3.bind(var5)(var8);
-                            var8 = var14.renderDescription;
-                            var8 = var8.bind(var14)(var15);
-                            var2['children'] = var8;
-                            var6 = var4.bind(var5)(var6, var2);
+                            var6 = 36;
+                            var6 = var14[var6];
+                            var7 = var13.bind(var5)(var6);
+                            var6 = var7.renderDescription;
+                            var6 = var6.bind(var7)(var15);
+                            var2['children'] = var6;
+                            var6 = var4.bind(var5)(var3, var2);
                             var2 = 34;
-                            var2 = var11[var2];
-                            var2 = var3.bind(var5)(var2);
+                            var2 = var14[var2];
+                            var2 = var13.bind(var5)(var2);
                             var3 = var2.TableRow;
                             var2 = {};
-                            var8 = false;
-                            var8 = var8 !== var13;
-                            var2['disabled'] = var8;
+                            var7 = 37;
+                            var7 = var14[var7];
+                            var13 = var13.bind(var5)(var7);
+                            var7 = var13.isAndroid;
+                            var7 = var7.bind(var13)();
+                            var13 = !var7;
+                            var7 = !var13;
+                            if(!var13) { _fun0007_ip = 75; continue _fun0007 }
+case 76:
+                            var7 = undefined;
+case 75:
+                            var2['accessible'] = var7;
+                            var7 = false;
+                            var9 = var7 !== var9;
+                            var2['disabled'] = var9;
                             var2['label'] = var12;
                             var2['subLabel'] = var6;
+                            var7 = _closure1_slot19;
                             var6 = _closure1_slot1;
-                            var1 = 37;
-                            var1 = var11[var1];
+                            var13 = _closure1_slot3;
+                            var1 = 38;
+                            var1 = var13[var1];
                             var6 = var6.bind(var5)(var1);
                             var1 = {};
-                            var9 = _closure2_slot8;
-                            var9 = var9.bind(var5)(var10);
-                            var1['value'] = var9;
-                            var1['disabled'] = var8;
-                            var7 = function onValueChange(arg1) {
+                            var1['permissionTitle'] = var12;
+                            var10 = _closure2_slot8;
+                            var10 = var10.bind(var5)(var11);
+                            var1['value'] = var10;
+                            var1['disabled'] = var9;
+                            var8 = function onValueChange(arg1) {
                                 var4 = _closure2_slot6;
                                 var3 = _closure4_slot0;
                                 var1 = undefined;
@@ -956,8 +971,8 @@ case 73:
                                 var2 = var4.bind(var1)(var3, var2);
                                 return var1;
                             };
-                            var1['onValueChange'] = var7;
-                            var1 = var4.bind(var5)(var6, var1);
+                            var1['onValueChange'] = var8;
+                            var1 = var7.bind(var5)(var6, var1);
                             var2['trailing'] = var1;
                             var1 = global;
                             var1 = var1.HermesInternal;

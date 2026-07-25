@@ -202,7 +202,7 @@ case 0:
                 var3 = '•';
                 var2 = 10;
                 if(!var13) { _fun0003_ip = 11; continue _fun0003 }
-case 12:
+case 9:
                 var14 = var5.push;
                 var16 = _closure1_slot9;
                 var15 = _closure1_slot0;
@@ -215,20 +215,20 @@ case 12:
                 var18['fontSize'] = var11;
                 var17 = new Array(2);
                 var17[0] = var18;
-                if(!(var8 !== var12)) { _fun0003_ip = 13; continue _fun0003 }
-case 14:
-                var18 = var6.inactiveIndicator;
-                _fun0003_ip = 15; continue _fun0003;
+                if(!(var8 !== var12)) { _fun0003_ip = 12; continue _fun0003 }
 case 13:
+                var18 = var6.inactiveIndicator;
+                _fun0003_ip = 14; continue _fun0003;
+case 12:
                 var18 = var6.activeIndicator;
-case 15:
+case 14:
                 var17[1] = var18;
                 var13['style'] = var17;
                 var13['children'] = var3;
                 var13 = var16.bind(var4)(var15, var13, var8);
                 var13 = var14.bind(var5)(var13);
                 var8 = var8 + 1;
-                if(var8 < var10) { _fun0003_ip = 12; continue _fun0003 }
+                if(var8 < var10) { _fun0003_ip = 9; continue _fun0003 }
 case 11:
                 var3 = _closure1_slot9;
                 var2 = _closure1_slot7;
@@ -306,13 +306,13 @@ case 0:
                     var2 = var2.props;
                     var4 = var2.onPageChange;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0004_ip = 16; continue _fun0004 }
-case 17:
+                    if(!(var2 != var4)) { _fun0004_ip = 15; continue _fun0004 }
+case 16:
                     var1 = _closure3_slot0;
                     var2 = var1.props;
                     var1 = var2.onPageChange;
                     var1 = var1.bind(var2)(var3);
-case 16:
+case 15:
                     var1 = undefined;
                     return var1;
                 }
@@ -346,14 +346,14 @@ case 0:
                 var2 = var1.pageIndictor;
                 var1 = true;
                 var1 = var1 === var2;
-                if(!var1) { _fun0005_ip = 18; continue _fun0005 }
-case 19:
+                if(!var1) { _fun0005_ip = 17; continue _fun0005 }
+case 18:
                 var2 = 1;
                 var1 = var13 > var2;
-case 18:
+case 17:
                 var6 = undefined;
-                if(!var1) { _fun0005_ip = 20; continue _fun0005 }
-case 21:
+                if(!var1) { _fun0005_ip = 19; continue _fun0005 }
+case 20:
                 var3 = _closure1_slot9;
                 var2 = _closure1_slot12;
                 var1 = {};
@@ -363,14 +363,14 @@ case 21:
                 var1['activeIndex'] = var8;
                 var1['pageIndicatorStyle'] = var7;
                 var6 = var3.bind(var4)(var2, var1);
-case 20:
+case 19:
                 var1 = var10.props;
                 var9 = var1.scrollViewProps;
                 var1 = null;
-                if(!(var1 == var9)) { _fun0005_ip = 22; continue _fun0005 }
-case 23:
-                var9 = {};
+                if(!(var1 == var9)) { _fun0005_ip = 21; continue _fun0005 }
 case 22:
+                var9 = {};
+case 21:
                 var3 = _closure1_slot10;
                 var2 = _closure1_slot7;
                 var1 = {};

@@ -223,7 +223,7 @@ case 8:
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getFormState';
@@ -290,6 +290,27 @@ case 11:
         var5['value'] = var7;
         var1[4] = var5;
         var5 = {};
+        var7 = 'hasTryItOutChanges';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.values;
+            var1 = _closure1_slot14;
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.some;
+            var1 = function(arg1) {
+                var2 = undefined;
+                var1 = arg1;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
         var7 = 'hasUnsavedChanges';
         var5['key'] = var7;
         var7 = function value() {
@@ -319,7 +340,7 @@ case 11:
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'showNotice';
         var5['key'] = var7;
@@ -367,7 +388,7 @@ case 13:
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'canSubmit';
         var5['key'] = var7;
@@ -409,7 +430,7 @@ case 19:
             }
         };
         var5['value'] = var6;
-        var1[7] = var5;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -697,26 +718,34 @@ case 5:
     };
     var4['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_DISPLAY_NAME_STYLES'] = var13;
     var13 = function handleSetTryItOutPreset(arg1) {
-        var1 = arg1;
-        var7 = var1.banner;
-        var6 = var1.themeColors;
-        var5 = var1.avatarDecoration;
-        var4 = var1.displayNameStyles;
-        var2 = {};
-        var8 = _closure1_slot14;
-        var9 = var2;
-        var3 = copyDataProperties(var9, var8);
-        var3 = 'tryItOutBanner';
-        var2[2] = var7;
-        var3 = 'tryItOutThemeColors';
-        var2[2] = var6;
-        var3 = 'tryItOutAvatarDecoration';
-        var2[2] = var5;
-        var3 = 'tryItOutDisplayNameStyles';
-        var2[2] = var4;
-        _closure1_slot14 = var2;
-        var1 = undefined;
-        return var1;
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+            var1 = arg1;
+            var7 = var1.banner;
+            var4 = var1.themeColors;
+            var6 = var1.avatarDecoration;
+            var5 = var1.displayNameStyles;
+            var3 = {};
+            var8 = _closure1_slot14;
+            var9 = var3;
+            var1 = copyDataProperties(var9, var8);
+            var1 = 'tryItOutBanner';
+            var3[0] = var7;
+            var1 = 'tryItOutThemeColors';
+            var3[0] = var4;
+            var1 = undefined;
+            if(!(var1 === var6)) { _fun0013_ip = 28; continue _fun0013 }
+case 6:
+            var4 = _closure1_slot14;
+            var6 = var4.tryItOutAvatarDecoration;
+case 28:
+            var4 = 'tryItOutAvatarDecoration';
+            var3[3] = var6;
+            var4 = 'tryItOutDisplayNameStyles';
+            var3[3] = var5;
+            _closure1_slot14 = var3;
+            return var1;
+        }
     };
     var4['USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_PRESET'] = var13;
     var13 = function handleResetErrors() {
@@ -727,76 +756,6 @@ case 5:
     };
     var4['USER_PROFILE_SETTINGS_CLEAR_ERRORS'] = var13;
     var13 = function handleResetPendingAccountChanges() {
-        var1 = global;
-        var4 = var1.Object;
-        var3 = var4.fromEntries;
-        var6 = var1.Object;
-        var5 = var6.entries;
-        var1 = _closure1_slot13;
-        var6 = var5.bind(var6)(var1);
-        var5 = var6.map;
-        var1 = function(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
-case 0:
-                var6 = arg1;
-                var1 = var6[Symbol.iterator];
-                var6 = var1().next;
-                var3 = var6().value;
-                var2 = var1;
-                var4 = undefined;
-                var5 = var2 === var4;
-                var2 = undefined;
-                if(var5) { _fun0013_ip = 36; continue _fun0013 }
-case 37:
-                var2 = var3;
-case 36:
-                var3 = undefined;
-                if(var5) { _fun0013_ip = 26; continue _fun0013 }
-case 11:
-                var7 = var6().value;
-                var6 = var1;
-                var6 = var6 === var4;
-                var3 = undefined;
-                var5 = var6;
-                if(var6) { _fun0013_ip = 26; continue _fun0013 }
-case 7:
-                var3 = var7;
-                var5 = var6;
-case 26:
-                if(var5) { _fun0013_ip = 30; continue _fun0013 }
-case 38:
-                var1.return();
-case 30:
-                var1 = new Array(2);
-                var1[0] = var2;
-                var2 = {};
-                var10 = var2;
-                var9 = var3;
-                var3 = copyDataProperties(var10, var9);
-                var3 = 'pendingGlobalName';
-                var2[2] = var4;
-                var3 = 'pendingNickname';
-                var2[2] = var4;
-                var3 = 'pendingDisplayNameStyles';
-                var2[2] = var4;
-                var3 = 'pendingAvatar';
-                var2[2] = var4;
-                var3 = 'pendingAvatarDecoration';
-                var2[2] = var4;
-                var3 = 'pendingNameplate';
-                var2[2] = var4;
-                var1[1] = var2;
-                return var1;
-            }
-        };
-        var1 = var5.bind(var6)(var1);
-        var1 = var3.bind(var4)(var1);
-        _closure1_slot13 = var1;
-        var1 = undefined;
-        return var1;
-    };
-    var4['USER_PROFILE_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES'] = var13;
-    var13 = function handleResetPendingProfileChanges() {
         var1 = global;
         var4 = var1.Object;
         var3 = var4.fromEntries;
@@ -843,6 +802,76 @@ case 30:
                 var10 = var2;
                 var9 = var3;
                 var3 = copyDataProperties(var10, var9);
+                var3 = 'pendingGlobalName';
+                var2[2] = var4;
+                var3 = 'pendingNickname';
+                var2[2] = var4;
+                var3 = 'pendingDisplayNameStyles';
+                var2[2] = var4;
+                var3 = 'pendingAvatar';
+                var2[2] = var4;
+                var3 = 'pendingAvatarDecoration';
+                var2[2] = var4;
+                var3 = 'pendingNameplate';
+                var2[2] = var4;
+                var1[1] = var2;
+                return var1;
+            }
+        };
+        var1 = var5.bind(var6)(var1);
+        var1 = var3.bind(var4)(var1);
+        _closure1_slot13 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var4['USER_PROFILE_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES'] = var13;
+    var13 = function handleResetPendingProfileChanges() {
+        var1 = global;
+        var4 = var1.Object;
+        var3 = var4.fromEntries;
+        var6 = var1.Object;
+        var5 = var6.entries;
+        var1 = _closure1_slot13;
+        var6 = var5.bind(var6)(var1);
+        var5 = var6.map;
+        var1 = function(arg1) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+                var6 = arg1;
+                var1 = var6[Symbol.iterator];
+                var6 = var1().next;
+                var3 = var6().value;
+                var2 = var1;
+                var4 = undefined;
+                var5 = var2 === var4;
+                var2 = undefined;
+                if(var5) { _fun0015_ip = 36; continue _fun0015 }
+case 37:
+                var2 = var3;
+case 36:
+                var3 = undefined;
+                if(var5) { _fun0015_ip = 26; continue _fun0015 }
+case 11:
+                var7 = var6().value;
+                var6 = var1;
+                var6 = var6 === var4;
+                var3 = undefined;
+                var5 = var6;
+                if(var6) { _fun0015_ip = 26; continue _fun0015 }
+case 7:
+                var3 = var7;
+                var5 = var6;
+case 26:
+                if(var5) { _fun0015_ip = 30; continue _fun0015 }
+case 38:
+                var1.return();
+case 30:
+                var1 = new Array(2);
+                var1[0] = var2;
+                var2 = {};
+                var10 = var2;
+                var9 = var3;
+                var3 = copyDataProperties(var10, var9);
                 var3 = 'pendingPronouns';
                 var2[2] = var4;
                 var3 = 'pendingProfileEffect';
@@ -873,24 +902,24 @@ case 30:
     var4['USER_PROFILE_SETTINGS_RESET_PENDING_CHANGES'] = var12;
     var4['USER_PROFILE_SETTINGS_RESET_TRY_IT_OUT_CHANGES'] = var11;
     var11 = function handleResetPendingLegacyUsernameDisabled() {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var3 = _closure1_slot13;
             var1 = _closure1_slot7;
             var4 = var3[var1];
             var1 = null;
-            if(!(var1 == var4)) { _fun0015_ip = 39; continue _fun0015 }
+            if(!(var1 == var4)) { _fun0016_ip = 39; continue _fun0016 }
 case 23:
             var4 = {};
 case 39:
             var5 = var1 == var4;
             var1 = undefined;
             var3 = undefined;
-            if(var5) { _fun0015_ip = 40; continue _fun0015 }
+            if(var5) { _fun0016_ip = 40; continue _fun0016 }
 case 41:
             var3 = var4.pendingLegacyUsernameDisabled;
 case 40:
-            if(!(var1 !== var3)) { _fun0015_ip = 42; continue _fun0015 }
+            if(!(var1 !== var3)) { _fun0016_ip = 42; continue _fun0016 }
 case 43:
             var4 = _closure1_slot13;
             var3 = _closure1_slot7;
@@ -909,24 +938,24 @@ case 42:
     };
     var4['USER_PROFILE_SETTINGS_RESET_PENDING_LEGACY_USERNAME_DISABLED'] = var11;
     var11 = function handleResetPendingPrimaryGuildChanges() {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var3 = _closure1_slot13;
             var1 = _closure1_slot7;
             var4 = var3[var1];
             var1 = null;
-            if(!(var1 == var4)) { _fun0016_ip = 39; continue _fun0016 }
+            if(!(var1 == var4)) { _fun0017_ip = 39; continue _fun0017 }
 case 23:
             var4 = {};
 case 39:
             var5 = var1 == var4;
             var1 = undefined;
             var3 = undefined;
-            if(var5) { _fun0016_ip = 40; continue _fun0016 }
+            if(var5) { _fun0017_ip = 40; continue _fun0017 }
 case 41:
             var3 = var4.pendingPrimaryGuildId;
 case 40:
-            if(!(var1 !== var3)) { _fun0016_ip = 42; continue _fun0016 }
+            if(!(var1 !== var3)) { _fun0017_ip = 42; continue _fun0017 }
 case 43:
             var4 = _closure1_slot13;
             var3 = _closure1_slot7;
@@ -945,7 +974,7 @@ case 42:
     };
     var4['USER_PROFILE_SETTINGS_RESET_PENDING_PRIMARY_GUILD_CHANGES'] = var11;
     var10 = function handleProfileUpdateFailure(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.guildId;
@@ -955,11 +984,11 @@ case 0:
             _closure1_slot16 = var1;
             var1 = _closure1_slot17;
             var5 = null;
-            if(!(var5 == var3)) { _fun0017_ip = 44; continue _fun0017 }
+            if(!(var5 == var3)) { _fun0018_ip = 44; continue _fun0018 }
 case 45:
             var3 = _closure1_slot7;
 case 44:
-            if(!(var5 == var2)) { _fun0017_ip = 27; continue _fun0017 }
+            if(!(var5 == var2)) { _fun0018_ip = 27; continue _fun0018 }
 case 46:
             var2 = _closure1_slot11;
 case 27:

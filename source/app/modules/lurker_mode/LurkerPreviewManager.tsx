@@ -204,11 +204,11 @@ case 36: // try_start_0
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
-case 35: // try_end0
-            _fun0004_ip = 37; continue _fun0004;
-case 38: // catch_target0
+case 37: // try_end0
+            _fun0004_ip = 38; continue _fun0004;
+case 39: // catch_target0
             CatchBlockStart(arg_register=1);
-case 37:
+case 38:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -292,10 +292,10 @@ case 0:
                 var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0005_ip = 9; continue _fun0005 }
-case 39:
+case 40:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0005_ip = 40; continue _fun0005;
+                _fun0005_ip = 41; continue _fun0005;
 case 9:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -304,7 +304,7 @@ case 9:
                 var6 = var6.bind(var3)(var5);
                 var6 = var6.constructor;
                 var1 = var7.bind(var8)(var9, var10, var6);
-case 40:
+case 41:
                 var1 = var4.bind(var3)(var5, var1);
                 var _closure3_slot0 = var1;
                 var4 = global;
@@ -367,22 +367,22 @@ case 0:
                         var5 = 0;
                         var4 = var5 < var4;
                         var7 = 0;
-                        if(!var4) { _fun0006_ip = 41; continue _fun0006 }
-case 42:
+                        if(!var4) { _fun0006_ip = 42; continue _fun0006 }
+case 43:
                         var10 = var8[var7];
                         var4 = var6.has;
                         var4 = var4.bind(var6)(var10);
-                        if(var4) { _fun0006_ip = 43; continue _fun0006 }
-case 44:
+                        if(var4) { _fun0006_ip = 44; continue _fun0006 }
+case 45:
                         var4 = _closure3_slot0;
                         var9 = var4.viewedLurkingGuildIds;
                         var4 = var9.delete;
                         var4 = var4.bind(var9)(var10);
-case 43:
+case 44:
                         var7 = var7 + 1;
                         var4 = var8.length;
-                        if(var7 < var4) { _fun0006_ip = 42; continue _fun0006 }
-case 41:
+                        if(var7 < var4) { _fun0006_ip = 43; continue _fun0006 }
+case 42:
                         var7 = var3.Array;
                         var4 = var7.from;
                         var3 = _closure3_slot0;
@@ -391,22 +391,22 @@ case 41:
                         var3 = var4.length;
                         var3 = var5 < var3;
                         var5 = 0;
-                        if(!var3) { _fun0006_ip = 45; continue _fun0006 }
+                        if(!var3) { _fun0006_ip = 46; continue _fun0006 }
 case 16:
                         var8 = var4[var5];
                         var3 = var6.has;
                         var3 = var3.bind(var6)(var8);
-                        if(var3) { _fun0006_ip = 46; continue _fun0006 }
-case 47:
+                        if(var3) { _fun0006_ip = 47; continue _fun0006 }
+case 48:
                         var3 = _closure3_slot0;
                         var7 = var3.navigatedAwayFromLurkingGuildIds;
                         var3 = var7.delete;
                         var3 = var3.bind(var7)(var8);
-case 46:
+case 47:
                         var5 = var5 + 1;
                         var3 = var4.length;
                         if(var5 < var3) { _fun0006_ip = 16; continue _fun0006 }
-case 45:
+case 46:
                         var4 = _closure1_slot10;
                         var3 = var4.getGuildId;
                         var4 = var3.bind(var4)();
@@ -417,35 +417,35 @@ case 45:
                         var7 = var5.bind(var1)(var3);
                         var5 = var7.bind(var1)();
                         var3 = var5.done;
-                        if(var3) { _fun0006_ip = 48; continue _fun0006 }
-case 49:
+                        if(var3) { _fun0006_ip = 49; continue _fun0006 }
+case 50:
                         var9 = var5.value;
-                        if(!(var9 !== var4)) { _fun0006_ip = 50; continue _fun0006 }
-case 51:
+                        if(!(var9 !== var4)) { _fun0006_ip = 51; continue _fun0006 }
+case 52:
                         var3 = _closure3_slot0;
                         var8 = var3.navigatedAwayFromLurkingGuildIds;
                         var3 = var8.add;
                         var3 = var3.bind(var8)(var9);
-case 50:
+case 51:
                         var8 = var7.bind(var1)();
                         var3 = var8.done;
                         var5 = var8;
-                        if(!var3) { _fun0006_ip = 49; continue _fun0006 }
-case 48:
+                        if(!var3) { _fun0006_ip = 50; continue _fun0006 }
+case 49:
                         var3 = null;
                         var3 = var3 != var4;
-                        if(!var3) { _fun0006_ip = 52; continue _fun0006 }
-case 53:
+                        if(!var3) { _fun0006_ip = 53; continue _fun0006 }
+case 54:
                         var5 = var6.has;
                         var3 = var5.bind(var6)(var4);
-case 52:
-                        if(!var3) { _fun0006_ip = 54; continue _fun0006 }
-case 55:
+case 53:
+                        if(!var3) { _fun0006_ip = 55; continue _fun0006 }
+case 56:
                         var2 = _closure3_slot0;
                         var3 = var2.viewedLurkingGuildIds;
                         var2 = var3.add;
                         var2 = var2.bind(var3)(var4);
-case 54:
+case 55:
                         return var1;
                     }
                 };
@@ -458,8 +458,8 @@ case 0:
                         var4 = var2.bind(var3)();
                         var3 = var4.length;
                         var2 = 3;
-                        if(!(!(var3 <= var2))) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
+                        if(!(!(var3 <= var2))) { _fun0007_ip = 57; continue _fun0007 }
+case 58:
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
                         var1 = 9;
@@ -470,8 +470,8 @@ case 57:
                         var1 = 'LurkerPreviewManager.evictOverflowingLurkers';
                         var1 = var3.bind(var5)(var1);
                         var1 = var1.stickyLurk;
-                        if(!var1) { _fun0007_ip = 56; continue _fun0007 }
-case 58:
+                        if(!var1) { _fun0007_ip = 57; continue _fun0007 }
+case 59:
                         var1 = var4.length;
                         var3 = var1 - var2;
                         var2 = var4.slice;
@@ -480,7 +480,7 @@ case 58:
                         var2 = _closure3_slot0;
                         var1 = var2.expireLurkerPreviews;
                         var1 = var1.bind(var2)(var3);
-case 56:
+case 57:
                         var1 = undefined;
                         return var1;
                     }
@@ -494,7 +494,7 @@ case 0:
                         var5 = var3.bind(var4)();
                         var4 = var5.length;
                         var3 = 0;
-                        if(!(var3 !== var4)) { _fun0008_ip = 59; continue _fun0008 }
+                        if(!(var3 !== var4)) { _fun0008_ip = 60; continue _fun0008 }
 case 33:
                         var6 = _closure1_slot11;
                         var4 = var6.getLurkingPreviewExpirations;
@@ -513,26 +513,26 @@ case 0:
                                 var3 = var1[var4];
                                 var1 = null;
                                 var1 = var1 == var3;
-                                if(!var1) { _fun0009_ip = 60; continue _fun0009 }
+                                if(!var1) { _fun0009_ip = 61; continue _fun0009 }
 case 31:
                                 var2 = _closure4_slot1;
                                 var1 = var4 !== var2;
-case 60:
-                                if(!var1) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
+case 61:
+                                if(!var1) { _fun0009_ip = 62; continue _fun0009 }
+case 63:
                                 var2 = _closure3_slot0;
                                 var3 = var2.viewedLurkingGuildIds;
                                 var2 = var3.has;
                                 var1 = var2.bind(var3)(var4);
-case 61:
+case 62:
                                 return var1;
                             }
                         };
                         var4 = var4.bind(var5)(var2);
                         var2 = var4.length;
                         var2 = var3 !== var2;
-                        if(!var2) { _fun0008_ip = 63; continue _fun0008 }
-case 11:
+                        if(!var2) { _fun0008_ip = 64; continue _fun0008 }
+case 65:
                         var6 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var3 = 9;
@@ -543,9 +543,9 @@ case 11:
                         var3 = 'LurkerPreviewManager.ensureMissingExpiries';
                         var3 = var5.bind(var6)(var3);
                         var2 = var3.stickyLurk;
-case 63:
-                        if(!var2) { _fun0008_ip = 59; continue _fun0008 }
 case 64:
+                        if(!var2) { _fun0008_ip = 60; continue _fun0008 }
+case 66:
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 10;
@@ -565,7 +565,7 @@ case 64:
                         var4 = var5 + var4;
                         var1['expiresAt'] = var4;
                         var1 = var2.bind(var3)(var1);
-case 59:
+case 60:
                         var1 = undefined;
                         return var1;
                     }
@@ -595,8 +595,8 @@ case 0:
                         var2 = 0;
                         var1 = var2 < var1;
                         var4 = 0;
-                        if(!var1) { _fun0010_ip = 65; continue _fun0010 }
-case 66:
+                        if(!var1) { _fun0010_ip = 66; continue _fun0010 }
+case 65:
                         var10 = var5[var4];
                         if(!(var10 !== var8)) { _fun0010_ip = 67; continue _fun0010 }
 case 68:
@@ -613,8 +613,8 @@ case 71:
 case 67:
                         var4 = var4 + 1;
                         var1 = var5.length;
-                        if(var4 < var1) { _fun0010_ip = 66; continue _fun0010 }
-case 65:
+                        if(var4 < var1) { _fun0010_ip = 65; continue _fun0010 }
+case 66:
                         var1 = var3.length;
                         if(!(var1 > var2)) { _fun0010_ip = 72; continue _fun0010 }
 case 73:
@@ -683,7 +683,7 @@ case 0:
                                 var4 = var1.timers;
                                 var1 = var4.has;
                                 var1 = var1.bind(var4)(var5);
-                                if(var1) { _fun0012_ip = 77; continue _fun0012 }
+                                if(var1) { _fun0012_ip = 67; continue _fun0012 }
 case 78:
                                 var1 = _closure4_slot0;
                                 var6 = var1[var5];
@@ -719,7 +719,7 @@ case 30:
 case 79:
                                 var1 = 0;
                                 return var1;
-case 77:
+case 67:
                                 var1 = 0;
                                 return var1;
                             }
@@ -772,16 +772,16 @@ case 83:
                                 };
                                 var2 = var5.bind(var6)(var2);
                                 var2 = var3.bind(var4)(var2);
-                                SaveGenerator(address=50);
+                                SaveGenerator(address=52);
 case 84:
                                 return var2;
 case 85:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                if(var3) { _fun0013_ip = 7; continue _fun0013 }
-case 28:
+                                if(var3) { _fun0013_ip = 86; continue _fun0013 }
+case 87:
                                 var3 = undefined;
                                 return var3;
-case 7:
+case 86:
                                 return var2;
 case 82:
                                 return var1;
@@ -880,16 +880,16 @@ case 0:
                 var4 = var6.bind(var1)();
                 var3 = var4.done;
                 var5 = global;
-                if(var3) { _fun0014_ip = 86; continue _fun0014 }
-case 87:
+                if(var3) { _fun0014_ip = 88; continue _fun0014 }
+case 89:
                 var7 = var4.value;
                 var3 = var5.clearTimeout;
                 var3 = var3.bind(var1)(var7);
                 var7 = var6.bind(var1)();
                 var3 = var7.done;
                 var4 = var7;
-                if(!var3) { _fun0014_ip = 87; continue _fun0014 }
-case 86:
+                if(!var3) { _fun0014_ip = 89; continue _fun0014 }
+case 88:
                 var4 = var2.timers;
                 var3 = var4.clear;
                 var3 = var3.bind(var4)();

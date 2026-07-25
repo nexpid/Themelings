@@ -215,11 +215,11 @@ case 38:
             var5 = var5.bind(var8)(var4);
             var4 = ['streamingMembers'];
             var4 = var5.bind(var8)(var2, var1, var4);
-            if(var4) { _fun0004_ip = 35; continue _fun0004 }
-case 39:
+            if(var4) { _fun0004_ip = 39; continue _fun0004 }
+case 40:
             var4 = false;
             return var4;
-case 35:
+case 39:
             var4 = _closure1_slot2;
             var3 = var2.streamingMembers;
             var7 = var4.bind(var8)(var3);
@@ -228,35 +228,35 @@ case 35:
             var6 = 1;
             var5 = var4;
             var4 = 0;
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 41:
+            if(var3) { _fun0004_ip = 41; continue _fun0004 }
+case 42:
             var11 = var5.value;
             var3 = var1.streamingMembers;
             var3 = var3[var4];
-            if(!(var10 != var3)) { _fun0004_ip = 42; continue _fun0004 }
-case 43:
+            if(!(var10 != var3)) { _fun0004_ip = 43; continue _fun0004 }
+case 44:
             var13 = var11[var9];
             var12 = var3[var9];
-            if(!(var13 === var12)) { _fun0004_ip = 44; continue _fun0004 }
-case 45:
+            if(!(var13 === var12)) { _fun0004_ip = 45; continue _fun0004 }
+case 46:
             var11 = var11[var6];
             var3 = var3[var6];
-            if(!(var11 === var3)) { _fun0004_ip = 44; continue _fun0004 }
-case 46:
+            if(!(var11 === var3)) { _fun0004_ip = 45; continue _fun0004 }
+case 47:
             var4 = var4 + 1;
             var11 = var7.bind(var8)();
             var3 = var11.done;
             var5 = var11;
-            if(var3) { _fun0004_ip = 40; continue _fun0004 }
-case 47:
-            _fun0004_ip = 41; continue _fun0004;
-case 44:
+            if(var3) { _fun0004_ip = 41; continue _fun0004 }
+case 48:
+            _fun0004_ip = 42; continue _fun0004;
+case 45:
             var3 = false;
             return var3;
-case 42:
+case 43:
             var3 = false;
             return var3;
-case 40:
+case 41:
             var3 = true;
             return var3;
 case 36:

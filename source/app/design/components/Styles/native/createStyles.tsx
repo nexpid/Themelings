@@ -440,7 +440,7 @@ case 63:
     var10 = var5.Set;
     var8 = var10.prototype;
     var15 = Object.create(var8, {constructor: {value: var10}});
-    var14 = ['backgroundColor', 'borderBottomColor', 'borderColor', 'borderEndColor', 'borderLeftColor', 'borderRightColor', 'borderStartColor', 'borderTopColor', 'color', 'shadowColor', 'shadowOffset', 'shadowOpacity', 'shadowRadius', 'elevation', 'textDecorationColor', 'textShadowColor', 'tintColor'];
+    var14 = ['backgroundColor', 'borderBottomColor', 'borderColor', 'borderEndColor', 'borderLeftColor', 'borderRightColor', 'borderStartColor', 'borderTopColor', 'color', 'outlineColor', 'shadowColor', 'shadowOffset', 'shadowOpacity', 'shadowRadius', 'elevation', 'textDecorationColor', 'textShadowColor', 'tintColor'];
     var8 = new var15[var10](var14, var13);
     var9 = var5.Symbol;
     var8 = var9.for;

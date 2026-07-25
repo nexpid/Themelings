@@ -53,7 +53,7 @@ case 15:
 case 14:
             var9 = _closure1_slot2;
             var9 = var9.bind(var6)(var11);
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot5;
             var12 = var8.SUMMARIZEABLE;
             var11 = var12.has;
             var8 = var4.type;
@@ -82,14 +82,14 @@ case 23:
             if(var3) { _fun0001_ip = 24; continue _fun0001 }
 case 25:
             var8 = var4.hasFlag;
-            var5 = _closure1_slot9;
+            var5 = _closure1_slot8;
             var5 = var5.SUMMARIES_DISABLED;
             var5 = var8.bind(var4)(var5);
             var3 = !var5;
 case 24:
             if(!var3) { _fun0001_ip = 26; continue _fun0001 }
 case 27:
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot10;
             var9 = _closure1_slot3;
             var8 = var9.getGuild;
             var4 = var4.guild_id;
@@ -103,14 +103,14 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot10 = var5;
+    var _closure1_slot9 = var5;
     var4 = function canGuildUseConversationSummaries(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
             var6 = arg1;
             var4 = arguments[1];
-            var1 = undefined;
-            if(!(var4 === var1)) { _fun0002_ip = 28; continue _fun0002 }
+            var9 = undefined;
+            if(!(var4 === var9)) { _fun0002_ip = 28; continue _fun0002 }
 case 29:
             var4 = true;
 case 28:
@@ -118,25 +118,30 @@ case 28:
             var1 = var2 != var6;
             if(!var1) { _fun0002_ip = 30; continue _fun0002 }
 case 31:
-            var7 = var6.id;
-            var3 = var2 != var7;
-            if(!var3) { _fun0002_ip = 32; continue _fun0002 }
+            var8 = var6.id;
+            var2 = var2 != var8;
+            if(!var2) { _fun0002_ip = 32; continue _fun0002 }
 case 33:
-            var2 = _closure1_slot4;
-            var2 = var7 === var2;
-            if(var2) { _fun0002_ip = 34; continue _fun0002 }
+            var3 = _closure1_slot4;
+            var3 = var8 === var3;
+            if(var3) { _fun0002_ip = 34; continue _fun0002 }
 case 35:
-            var5 = _closure1_slot5;
-            var2 = var7 === var5;
+            var7 = _closure1_slot0;
+            var10 = _closure1_slot1;
+            var5 = 4;
+            var5 = var10[var5];
+            var7 = var7.bind(var9)(var5);
+            var5 = var7.isFavoritesGuildId;
+            var3 = var5.bind(var7)(var8);
 case 34:
-            var3 = var2;
+            var2 = var3;
 case 32:
-            var2 = !var3;
-            if(var3) { _fun0002_ip = 36; continue _fun0002 }
+            var2 = !var2;
+            if(!var2) { _fun0002_ip = 36; continue _fun0002 }
 case 37:
             var8 = var6.features;
             var7 = var8.has;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var3 = var3.SUMMARIES_ENABLED_GA;
             var3 = var7.bind(var8)(var3);
             var7 = !var3;
@@ -148,7 +153,7 @@ case 39:
 case 41:
             var7 = var6.features;
             var6 = var7.has;
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot6;
             var5 = var5.SUMMARIES_ENABLED_BY_USER;
             var4 = var6.bind(var7)(var5);
 case 40:
@@ -161,7 +166,7 @@ case 30:
             return var1;
         }
     };
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -186,27 +191,25 @@ case 30:
     var6 = var7.bind(var1)(var6);
     var9 = var6.ME;
     var _closure1_slot4 = var9;
-    var9 = var6.FAVORITES;
-    var _closure1_slot5 = var9;
     var9 = var6.ChannelTypesSets;
-    var _closure1_slot6 = var9;
+    var _closure1_slot5 = var9;
     var9 = var6.GuildFeatures;
-    var _closure1_slot7 = var9;
+    var _closure1_slot6 = var9;
     var6 = var6.EMPTY_STRING_SNOWFLAKE_ID;
-    var _closure1_slot8 = var6;
+    var _closure1_slot7 = var6;
     var6 = 3;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.ChannelFlags;
-    var _closure1_slot9 = var6;
-    var6 = 5;
+    var _closure1_slot8 = var6;
+    var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'experiments/ChannelSummariesExperiment.tsx';
     var6 = var7.bind(var8)(var6);
     var6 = function channelEligibleForSummaries(arg1) {
-        var5 = _closure1_slot10;
+        var5 = _closure1_slot9;
         var4 = undefined;
         var3 = arg1;
         var2 = true;
@@ -226,7 +229,7 @@ case 0:
 case 43:
             var4 = false;
 case 42:
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot9;
             var1 = arg1;
             var1 = var2.bind(var3)(var1, var4);
             return var1;
@@ -238,7 +241,7 @@ case 42:
         var _closure2_slot0 = var6;
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var3 = 4;
+        var3 = 5;
         var4 = var4[var3];
         var3 = undefined;
         var5 = var5.bind(var3)(var4);
@@ -251,7 +254,7 @@ case 42:
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
-                var4 = _closure1_slot11;
+                var4 = _closure1_slot10;
                 var5 = _closure1_slot3;
                 var2 = var5.getGuild;
                 var1 = _closure2_slot0;
@@ -266,7 +269,7 @@ case 45:
 case 44:
                 if(!(var7 == var1)) { _fun0004_ip = 46; continue _fun0004 }
 case 47:
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot7;
 case 46:
                 var2 = var2.bind(var5)(var1);
                 var1 = false;

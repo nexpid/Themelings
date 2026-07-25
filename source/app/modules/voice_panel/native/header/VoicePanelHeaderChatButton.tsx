@@ -51,17 +51,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
-    var12 = var12.unsafe_rawColors;
-    var12 = var12.RED_400;
+    var12 = var12.colors;
+    var12 = var12.BACKGROUND_FEEDBACK_NOTIFICATION;
     var9['backgroundColor'] = var12;
-    var4['redBG'] = var9;
+    var4['mentionBadge'] = var9;
     var9 = {};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
-    var10 = var10.WHITE;
+    var10 = var10.CONTROL_BRAND_FOREGROUND;
     var9['backgroundColor'] = var10;
-    var4['whiteBG'] = var9;
+    var4['unreadBadge'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
     var4 = 11;
@@ -105,10 +105,10 @@ case 0:
             var1 = 'mention';
             if(!(var1 !== var8)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var13 = var12.whiteBG;
+            var13 = var12.unreadBadge;
             _fun0001_ip = 4; continue _fun0001;
 case 2:
-            var13 = var12.redBG;
+            var13 = var12.mentionBadge;
 case 4:
             var3 = _closure1_slot6;
             var19 = _closure1_slot1;

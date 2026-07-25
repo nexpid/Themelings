@@ -11,35 +11,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var4 = var1.isExperimentEnabled;
+            var5 = var1.isExperimentEnabled;
             var3 = var1.hasHigherPrivileges;
-            var6 = var1.isFreemium;
+            var4 = var1.isFreemium;
             var7 = var1.isPremiumTier2;
-            var5 = var4;
-            if(!var5) { _fun0001_ip = 2; continue _fun0001 }
+            var6 = var5;
+            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var1 = var7;
             if(var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var1 = var6;
+            var1 = var4;
 case 4:
-            var5 = var1;
+            var6 = var1;
 case 2:
             var2 = 0;
-            if(!var5) { _fun0001_ip = 6; continue _fun0001 }
+            if(!var6) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             if(var7) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
             var1 = 0;
-            if(!var6) { _fun0001_ip = 10; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 10; continue _fun0001 }
 case 11:
-            var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var6 = 6;
-            var7 = var7[var6];
-            var6 = undefined;
-            var6 = var8.bind(var6)(var7);
-            var1 = var6.FREE_FAVORITE_LIMIT;
+            var9 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var7 = 6;
+            var8 = var8[var7];
+            var7 = undefined;
+            var7 = var9.bind(var7)(var8);
+            var1 = var7.FREE_FAVORITE_LIMIT;
 case 10:
             _fun0001_ip = 12; continue _fun0001;
 case 8:
@@ -48,8 +48,9 @@ case 12:
             var2 = var1;
 case 6:
             var1 = {};
-            var1['hasAccess'] = var5;
-            var1['isExperimentEnabled'] = var4;
+            var1['hasAccess'] = var6;
+            var1['isExperimentEnabled'] = var5;
+            var1['isFreemium'] = var4;
             var1['hasHigherPrivileges'] = var3;
             var1['favoriteLimit'] = var2;
             return var1;

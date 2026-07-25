@@ -200,6 +200,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['ActivityCardContextMenu'] = var4;
     var4 = 'user_profile';
     var5['UserProfile'] = var4;
+    var4 = 'user_profile_application_widget';
+    var5['UserProfileApplicationWidget'] = var4;
     var4 = 'user_profile_card_context_menu';
     var5['UserProfileCardContextMenu'] = var4;
     var4 = 'similar_games';

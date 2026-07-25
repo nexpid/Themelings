@@ -799,114 +799,94 @@ case 49:
     var7 = function(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
-            var2 = arg2;
+            var4 = arg2;
             var8 = {};
             var1 = 'sm';
-            if(!(var1 !== var2)) { _fun0008_ip = 52; continue _fun0008 }
+            if(!(var1 !== var4)) { _fun0008_ip = 52; continue _fun0008 }
 case 53:
             var1 = 'md';
-            if(!(var1 !== var2)) { _fun0008_ip = 54; continue _fun0008 }
+            if(!(var1 !== var4)) { _fun0008_ip = 54; continue _fun0008 }
 case 55:
             var1 = 'lg';
-            if(!(var1 === var2)) { _fun0008_ip = 56; continue _fun0008 }
+            if(!(var1 === var4)) { _fun0008_ip = 56; continue _fun0008 }
 case 57:
             var1 = {};
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 4;
-            var9 = var7[var4];
+            var3 = 4;
+            var9 = var7[var3];
             var5 = undefined;
             var9 = var6.bind(var5)(var9);
             var9 = var9.LARGE_BUTTON_HEIGHT;
             var1['minHeight'] = var9;
-            var9 = var7[var4];
+            var9 = var7[var3];
             var9 = var6.bind(var5)(var9);
             var9 = var9.LARGE_BUTTON_HEIGHT;
             var1['minWidth'] = var9;
-            var4 = var7[var4];
-            var4 = var6.bind(var5)(var4);
-            var4 = var4.LARGE_BUTTON_HORIZONTAL_PADDING;
-            var1['paddingHorizontal'] = var4;
-            var3 = _closure1_slot13;
-            var1['paddingVertical'] = var3;
+            var3 = var7[var3];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.LARGE_BUTTON_HORIZONTAL_PADDING;
+            var1['paddingHorizontal'] = var3;
+            var2 = _closure1_slot13;
+            var1['paddingVertical'] = var2;
             var8 = var1;
             _fun0008_ip = 56; continue _fun0008;
 case 54:
             var1 = {};
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 4;
-            var9 = var7[var4];
+            var3 = 4;
+            var9 = var7[var3];
             var5 = undefined;
             var9 = var6.bind(var5)(var9);
             var9 = var9.MEDIUM_BUTTON_HEIGHT;
             var1['minHeight'] = var9;
-            var9 = var7[var4];
+            var9 = var7[var3];
             var9 = var6.bind(var5)(var9);
             var9 = var9.MEDIUM_BUTTON_HEIGHT;
             var1['minWidth'] = var9;
-            var4 = var7[var4];
-            var4 = var6.bind(var5)(var4);
-            var4 = var4.MEDIUM_BUTTON_HORIZONTAL_PADDING;
-            var1['paddingHorizontal'] = var4;
-            var3 = _closure1_slot12;
-            var1['paddingVertical'] = var3;
+            var3 = var7[var3];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.MEDIUM_BUTTON_HORIZONTAL_PADDING;
+            var1['paddingHorizontal'] = var3;
+            var2 = _closure1_slot12;
+            var1['paddingVertical'] = var2;
             var8 = var1;
             _fun0008_ip = 56; continue _fun0008;
 case 52:
             var1 = {};
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 4;
-            var9 = var7[var4];
+            var3 = 4;
+            var9 = var7[var3];
             var5 = undefined;
             var9 = var6.bind(var5)(var9);
             var9 = var9.SMALL_BUTTON_HEIGHT;
             var1['minHeight'] = var9;
-            var9 = var7[var4];
+            var9 = var7[var3];
             var9 = var6.bind(var5)(var9);
             var9 = var9.SMALL_BUTTON_HEIGHT;
             var1['minWidth'] = var9;
-            var4 = var7[var4];
-            var4 = var6.bind(var5)(var4);
-            var4 = var4.SMALL_BUTTON_HORIZONTAL_PADDING;
-            var1['paddingHorizontal'] = var4;
-            var3 = _closure1_slot11;
-            var1['paddingVertical'] = var3;
+            var3 = var7[var3];
+            var3 = var6.bind(var5)(var3);
+            var3 = var3.SMALL_BUTTON_HORIZONTAL_PADDING;
+            var1['paddingHorizontal'] = var3;
+            var2 = _closure1_slot11;
+            var1['paddingVertical'] = var2;
             var8 = var1;
 case 56:
-            var1 = 'lg';
-            if(!(var1 !== var2)) { _fun0008_ip = 58; continue _fun0008 }
-case 59:
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 6;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var1 = var1.modules;
-            var1 = var1.button;
-            var4 = var1.BORDER_RADIUS;
-            _fun0008_ip = 60; continue _fun0008;
-case 58:
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 6;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var1 = var1.modules;
-            var1 = var1.button;
-            var4 = var1.BORDER_RADIUS_LG;
-case 60:
+            var10 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var9 = 4;
+            var1 = var6[var9];
+            var5 = undefined;
+            var2 = var10.bind(var5)(var1);
+            var1 = var2.getButtonBorderRadius;
+            var4 = var1.bind(var2)(var4);
             var1 = {};
             var2 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'overflow': 'hidden'};
             var7 = 'hidden';
-            var10 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var5 = 4;
-            var9 = var6[var5];
-            var5 = undefined;
+            var9 = var6[var9];
             var9 = var10.bind(var5)(var9);
             var9 = var9.BUTTON_BORDER_WIDTH;
             var2['borderWidth'] = var9;
@@ -957,8 +937,8 @@ case 0:
             var2 = arg1;
             var3 = var2.loading;
             var1 = null;
-            if(!(var1 != var3)) { _fun0009_ip = 61; continue _fun0009 }
-case 62:
+            if(!(var1 != var3)) { _fun0009_ip = 58; continue _fun0009 }
+case 59:
             var5 = _closure1_slot7;
             var4 = _closure1_slot19;
             var3 = {};
@@ -967,8 +947,8 @@ case 62:
             var1 = copyDataProperties(var7, var6);
             var1 = undefined;
             var1 = var5.bind(var1)(var4, var3);
-            _fun0009_ip = 63; continue _fun0009;
-case 61:
+            _fun0009_ip = 60; continue _fun0009;
+case 58:
             var5 = _closure1_slot7;
             var4 = _closure1_slot18;
             var3 = {};
@@ -977,7 +957,7 @@ case 61:
             var2 = copyDataProperties(var7, var6);
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
-case 63:
+case 60:
             return var1;
         }
     };

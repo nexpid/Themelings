@@ -58,12 +58,13 @@ case 2:
             var8 = undefined;
             if(var3) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var10 = _closure1_slot0;
+            var10 = _closure1_slot1;
             var11 = _closure1_slot2;
             var9 = 5;
             var9 = var11[var9];
             var9 = var10.bind(var6)(var9);
-            var8 = var9.CARD_PRIMARY_BG;
+            var9 = var9.colors;
+            var8 = var9.TABLEROW_BACKGROUND_DEFAULT;
 case 4:
             var2['backgroundColor'] = var8;
             var2['height'] = var5;
@@ -77,7 +78,7 @@ case 4:
 case 7:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 7;
+            var3 = 6;
             var3 = var7[var3];
             var3 = var5.bind(var6)(var3);
             var3 = var3.DIVIDER_BACKGROUND;
@@ -85,7 +86,7 @@ case 7:
 case 6:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var4 = 6;
+            var4 = 5;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
@@ -98,7 +99,7 @@ case 8:
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -116,17 +117,17 @@ case 10:
 case 9:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var2 = 8;
+            var2 = 7;
             var2 = var9[var2];
             var3 = var8.bind(var4)(var2);
             var2 = 'TableRowDivider';
             var5 = var3.bind(var4)(var2);
             var3 = _closure1_slot0;
-            var2 = 9;
+            var2 = 8;
             var2 = var9[var2];
             var7 = var3.bind(var4)(var2);
             var3 = var7.useToken;
-            var2 = 6;
+            var2 = 5;
             var2 = var9[var2];
             var2 = var8.bind(var4)(var2);
             var2 = var2.modules;

@@ -314,10 +314,10 @@ case 44:
                                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
                                     if(var4) { _fun0005_ip = 45; continue _fun0005 }
 case 46: // try_end0
-                                    _fun0005_ip = 38; continue _fun0005;
+                                    _fun0005_ip = 47; continue _fun0005;
 case 45:
                                     return var3;
-case 47: // catch_target0
+case 48: // catch_target0
                                     CatchBlockStart(arg_register=2);
                                     var4 = _closure1_slot1;
                                     var5 = _closure1_slot2;
@@ -331,7 +331,7 @@ case 47: // catch_target0
                                     var3['lurkingGuildId'] = var7;
                                     var3['lurkingSource'] = var6;
                                     var3 = var4.bind(var5)(var3);
-case 38:
+case 47:
                                     return var2;
 case 40:
                                     return var1;
@@ -356,15 +356,15 @@ case 40:
                     var2 = var2.bind(var3)();
                     var2 = var6.bind(var7)(var2);
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=203);
-case 48:
-                    return var2;
+                    SaveGenerator(address=209);
 case 49:
+                    return var2;
+case 47:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 40; continue _fun0004 }
+                    if(var4) { _fun0004_ip = 50; continue _fun0004 }
 case 38:
                     return var3;
-case 40:
+case 50:
                     return var2;
 case 36:
                     return var1;
@@ -404,7 +404,7 @@ case 0:
                     StartGenerator();
                     var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 50; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 51; continue _fun0006 }
 case 41:
                     var7 = var8;
                     var2 = undefined;
@@ -414,8 +414,8 @@ case 41:
                     var5 = var4.bind(var5)();
                     var4 = var5.includes;
                     var4 = var4.bind(var5)(var8);
-                    if(!var4) { _fun0006_ip = 51; continue _fun0006 }
-case 52:
+                    if(!var4) { _fun0006_ip = 52; continue _fun0006 }
+case 53:
                     var5 = _closure1_slot5;
                     var4 = var5.getLurkingSourceForGuild;
                     var10 = var7;
@@ -431,7 +431,7 @@ case 52:
                     var4['type'] = var11;
                     var4['lurkingGuildId'] = var10;
                     var4 = var8.bind(var9)(var4);
-case 53: // try_start_0
+case 54: // try_start_0
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var4 = 5;
@@ -453,16 +453,16 @@ case 53: // try_start_0
                     var4['rejectWithError'] = var10;
                     var4 = var8.bind(var9)(var4);
                     SaveGenerator(address=204);
-case 54:
-                    return var4;
 case 55:
+                    return var4;
+case 56:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
                     if(var8) { _fun0006_ip = 40; continue _fun0006 }
-case 56: // try_end0
-                    _fun0006_ip = 51; continue _fun0006;
+case 57: // try_end0
+                    _fun0006_ip = 52; continue _fun0006;
 case 40:
                     return var4;
-case 36: // catch_target0
+case 38: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -475,9 +475,9 @@ case 36: // catch_target0
                     var3['lurkingGuildId'] = var7;
                     var3['lurkingSource'] = var6;
                     var3 = var4.bind(var5)(var3);
-case 51:
+case 52:
                     return var2;
-case 50:
+case 51:
                     return var1;
                 }
             };
@@ -504,28 +504,28 @@ case 0:
                     StartGenerator();
                     var5 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 57; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 58; continue _fun0007 }
 case 37:
                     var3 = undefined;
                     if(!(var5 === var3)) { _fun0007_ip = 31; continue _fun0007 }
-case 58:
+case 59:
                     var5 = null;
 case 31:
                     var _closure4_slot0 = var3;
                     SaveGenerator(address=31);
-case 59:
-                    return var3;
 case 60:
+                    return var3;
+case 61:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0007_ip = 61; continue _fun0007 }
-case 62:
+                    if(var4) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
                     var8 = _closure1_slot5;
                     var7 = var8.lurkingGuildIds;
                     var10 = var7.bind(var8)();
                     var7 = var10.length;
                     var9 = 0;
-                    if(!(var9 !== var7)) { _fun0007_ip = 63; continue _fun0007 }
-case 39:
+                    if(!(var9 !== var7)) { _fun0007_ip = 64; continue _fun0007 }
+case 65:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var12 = 6;
@@ -535,15 +535,15 @@ case 39:
                     var11 = 'LurkerActionCreators.stopLurking';
                     var7 = var7.bind(var8)(var11);
                     var7 = var7.stickyLurk;
-                    if(var7) { _fun0007_ip = 63; continue _fun0007 }
-case 64:
-                    var7 = null;
-                    if(!(var7 != var5)) { _fun0007_ip = 65; continue _fun0007 }
+                    if(var7) { _fun0007_ip = 64; continue _fun0007 }
 case 66:
+                    var7 = null;
+                    if(!(var7 != var5)) { _fun0007_ip = 67; continue _fun0007 }
+case 68:
                     var7 = var10.includes;
                     var7 = var7.bind(var10)(var5);
-                    if(var7) { _fun0007_ip = 63; continue _fun0007 }
-case 65:
+                    if(var7) { _fun0007_ip = 64; continue _fun0007 }
+case 67:
                     var14 = new Array(2);
                     var14[0] = var5;
                     var7 = _closure1_slot4;
@@ -564,8 +564,8 @@ case 65:
                     var5 = var7.getMobileLurkerServerPreview;
                     var5 = var5.bind(var7)(var11);
                     var5 = var5.enabled;
-                    if(!var5) { _fun0007_ip = 67; continue _fun0007 }
-case 68:
+                    if(!var5) { _fun0007_ip = 69; continue _fun0007 }
+case 70:
                     var7 = var10.filter;
                     var5 = function(arg1) {
                         var3 = _closure4_slot0;
@@ -577,19 +577,19 @@ case 68:
                     };
                     var5 = var7.bind(var10)(var5);
                     var7 = var5.length;
-                    if(!(!(var7 > var9))) { _fun0007_ip = 69; continue _fun0007 }
-case 67:
+                    if(!(!(var7 > var9))) { _fun0007_ip = 71; continue _fun0007 }
+case 69:
                     var7 = _closure1_slot9;
                     var7 = var7.bind(var3)(var8);
-                    SaveGenerator(address=273);
-case 70:
-                    return var7;
-case 71:
-                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(!var8) { _fun0007_ip = 63; continue _fun0007 }
+                    SaveGenerator(address=275);
 case 72:
                     return var7;
-case 69:
+case 73:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
+                    if(!var8) { _fun0007_ip = 64; continue _fun0007 }
+case 74:
+                    return var7;
+case 71:
                     var12 = function* _loop(arg1) {
                         var1 = function* anon_0__loop(arg1) {
                             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -597,8 +597,8 @@ case 0:
                                 StartGenerator();
                                 var6 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0008_ip = 73; continue _fun0008 }
-case 74:
+                                if(var2) { _fun0008_ip = 35; continue _fun0008 }
+case 75:
                                 var _closure6_slot0 = var6;
                                 var4 = _closure1_slot0;
                                 var3 = _closure1_slot2;
@@ -618,7 +618,7 @@ case 74:
                                 var3['onLeave'] = var7;
                                 var3 = var4.bind(var5)(var6, var3);
                                 return var2;
-case 73:
+case 35:
                                 return var1;
                             }
                         };
@@ -633,8 +633,8 @@ case 73:
                     var8 = 'iterator.throw() did not return an object';
                     var7 = 'throw';
                     var6 = 'iterator.next() did not return an object';
-                    if(var4) { _fun0007_ip = 75; continue _fun0007 }
-case 76:
+                    if(var4) { _fun0007_ip = 76; continue _fun0007 }
+case 77:
                     var4 = var5.value;
                     var13 = var12.bind(var3)(var4);
                     var4 = var10.Symbol;
@@ -646,7 +646,7 @@ case 76:
                     var4 = ensureObject(var22, var21);
                     var19 = var14.next;
                     var18 = undefined;
-case 77:
+case 78:
                     var13 = var18;
                     var13 = var19.bind(var14)(var13);
                     var22 = var13;
@@ -654,89 +654,89 @@ case 77:
                     var15 = ensureObject(var22, var21);
                     var4 = var13;
                     var15 = var13.done;
-                    if(var15) { _fun0007_ip = 78; continue _fun0007 }
-case 79: // try_start_0
+                    if(var15) { _fun0007_ip = 79; continue _fun0007 }
+case 80: // try_start_0
                     var15 = generatorSetDelegated();
-                    SaveGenerator(address=472);
-case 80:
+                    SaveGenerator(address=476);
+case 81:
                     return var13;
-case 81: // try_end0 // catch_target0 // catch_target1
+case 82: // try_end0 // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=14);
                     var22 = var14;
                     var21 = var7;
                     var13 = getMethod(var22, var21);
-                    if(!(var13 !== var3)) { _fun0007_ip = 82; continue _fun0007 }
-case 83:
+                    if(!(var13 !== var3)) { _fun0007_ip = 83; continue _fun0007 }
+case 84:
                     var13 = var13.bind(var14)(var15);
                     var22 = var13;
                     var21 = var8;
                     var15 = ensureObject(var22, var21);
                     var15 = var13.done;
-                    if(var15) { _fun0007_ip = 84; continue _fun0007 }
-case 85:
-                    var15 = generatorSetDelegated();
-                    SaveGenerator(address=472);
+                    if(var15) { _fun0007_ip = 85; continue _fun0007 }
 case 86:
+                    var15 = generatorSetDelegated();
+                    SaveGenerator(address=476);
+case 87:
                     return var13;
-case 87: // try_start_1
+case 88: // try_start_1
                     ResumeGenerator(result_out_reg=14, return_bool_out_reg=16);
                     var18 = var15;
                     var16 = var17;
-                    if(!var16) { _fun0007_ip = 77; continue _fun0007 }
-case 88:
+                    if(!var16) { _fun0007_ip = 78; continue _fun0007 }
+case 89:
                     var18 = var15;
-case 89: // try_end1
+case 90: // try_end1
                     var21 = 'return';
                     var22 = var14;
                     var20 = getMethod(var22, var21);
-                    if(!(var20 !== var3)) { _fun0007_ip = 90; continue _fun0007 }
-case 91:
+                    if(!(var20 !== var3)) { _fun0007_ip = 91; continue _fun0007 }
+case 92:
                     var16 = var18;
                     var16 = var20.bind(var14)(var16);
                     var21 = 'iterator.return() did not return an object';
                     var22 = var16;
                     var20 = ensureObject(var22, var21);
                     var20 = var16.done;
-                    if(var20) { _fun0007_ip = 92; continue _fun0007 }
-case 93:
-                    var20 = generatorSetDelegated();
-                    SaveGenerator(address=472);
+                    if(var20) { _fun0007_ip = 93; continue _fun0007 }
 case 94:
+                    var20 = generatorSetDelegated();
+                    SaveGenerator(address=476);
+case 95:
                     return var16;
-case 92:
+case 93:
                     var16 = var16.value;
                     return var16;
-case 90:
+case 91:
                     return var15;
-case 84:
+case 85:
                     var4 = var13;
-                    _fun0007_ip = 78; continue _fun0007;
-case 82:
+                    _fun0007_ip = 79; continue _fun0007;
+case 83:
                     var21 = 'return';
                     var22 = var14;
                     var13 = getMethod(var22, var21);
-                    if(!(var13 !== var3)) { _fun0007_ip = 95; continue _fun0007 }
-case 96:
+                    if(!(var13 !== var3)) { _fun0007_ip = 96; continue _fun0007 }
+case 97:
                     var22 = var13.bind(var14)();
                     var21 = 'iterator.return() did not return an object';
                     var13 = ensureObject(var22, var21);
-case 95:
+case 96:
                     var22 = 'yield* delegate must have a .throw() method';
                     var13 = throwTypeError(var22);
                     throw var3;
-case 78:
+case 79:
                     var4 = var4.value;
                     var13 = var11.bind(var3)();
                     var4 = var13.done;
                     var5 = var13;
-                    if(!var4) { _fun0007_ip = 76; continue _fun0007 }
-case 75:
+                    if(!var4) { _fun0007_ip = 77; continue _fun0007 }
+case 76:
                     return var3;
-case 63:
+case 64:
                     return var3;
-case 61:
+case 62:
                     return var2;
-case 57:
+case 58:
                     return var1;
                 }
             };

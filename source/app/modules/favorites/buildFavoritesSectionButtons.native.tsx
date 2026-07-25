@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function _addChannelToFavorites() {
         var5 = undefined;
         var1 = undefined;
-        var4 = _closure1_slot3;
+        var4 = _closure1_slot4;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -20,61 +20,80 @@ case 0:
                     if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                     var6 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var3 = 2;
-                    var5 = var2[var3];
+                    var8 = _closure1_slot2;
+                    var5 = 2;
+                    var2 = var8[var5];
                     var3 = undefined;
-                    var8 = var6.bind(var3)(var5);
-                    var7 = var8.open;
-                    var5 = {};
-                    var6 = 'FAVORITE_ADDED';
-                    var5['key'] = var6;
-                    var6 = _closure1_slot0;
+                    var7 = var6.bind(var3)(var2);
+                    var6 = var7.open;
+                    var2 = {};
+                    var9 = 'FAVORITE_ADDED';
+                    var2['key'] = var9;
+                    var10 = _closure1_slot0;
                     var9 = 3;
-                    var10 = var2[var9];
-                    var10 = var6.bind(var3)(var10);
-                    var11 = var10.intl;
-                    var10 = var11.string;
-                    var9 = var2[var9];
-                    var9 = var6.bind(var3)(var9);
+                    var11 = var8[var9];
+                    var11 = var10.bind(var3)(var11);
+                    var12 = var11.intl;
+                    var11 = var12.string;
+                    var9 = var8[var9];
+                    var9 = var10.bind(var3)(var9);
                     var9 = var9.t;
                     var9 = var9["4tSWQg"];
-                    var9 = var10.bind(var11)(var9);
-                    var5['content'] = var9;
+                    var9 = var11.bind(var12)(var9);
+                    var2['content'] = var9;
                     var9 = 4;
-                    var9 = var2[var9];
-                    var9 = var6.bind(var3)(var9);
+                    var9 = var8[var9];
+                    var9 = var10.bind(var3)(var9);
                     var9 = var9.StarIcon;
-                    var5['IconComponent'] = var9;
-                    var5 = var7.bind(var8)(var5);
-                    var5 = 6;
-                    var5 = var2[var5];
-                    var6 = var6.bind(var3)(var5);
-                    var5 = 5;
-                    var5 = var2[var5];
-                    var2 = var2.paths;
-                    var2 = var6.bind(var3)(var5, var2);
-                    SaveGenerator(address=171);
+                    var2['IconComponent'] = var9;
+                    var2 = var6.bind(var7)(var2);
+                    var2 = global;
+                    var7 = var2.Promise;
+                    var6 = var7.all;
+                    var9 = 6;
+                    var2 = var8[var9];
+                    var12 = var10.bind(var3)(var2);
+                    var2 = 5;
+                    var11 = var8[var2];
+                    var2 = var8.paths;
+                    var11 = var12.bind(var3)(var11, var2);
+                    var2 = new Array(2);
+                    var2[0] = var11;
+                    var9 = var8[var9];
+                    var10 = var10.bind(var3)(var9);
+                    var9 = 7;
+                    var9 = var8[var9];
+                    var8 = var8.paths;
+                    var8 = var10.bind(var3)(var9, var8);
+                    var2[1] = var8;
+                    var2 = var6.bind(var7)(var2);
+                    SaveGenerator(address=229);
 case 4:
                     return var2;
 case 5:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 6; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                    if(var6) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
-                    var4 = _closure1_slot4;
-                    var4 = var4.favoriteGuildEnabled;
+                    var4 = _closure1_slot3;
+                    var5 = var4.bind(var3)(var2, var5);
+                    var4 = 0;
+                    var8 = var5[var4];
+                    var4 = 1;
+                    var4 = var5[var4];
+                    var4 = var4.getIsFavoritesGuildEnabled;
+                    var4 = var4.bind(var3)();
                     if(var4) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-                    var6 = var2.setFavoritesGuildVisibility;
+                    var6 = var8.setFavoritesGuildVisibility;
                     var5 = true;
                     var4 = 'channel_context_menu';
-                    var4 = var6.bind(var2)(var5, var4);
+                    var4 = var6.bind(var8)(var5, var4);
 case 8:
-                    var7 = var2.addFavoriteChannel;
+                    var7 = var8.addFavoriteChannel;
                     var6 = arg1;
                     var5 = null;
                     var4 = 'channel_context_menu';
-                    var4 = var7.bind(var2)(var6, var5, var4);
+                    var4 = var7.bind(var8)(var6, var5, var4);
                     return var3;
 case 6:
                     return var2;
@@ -97,7 +116,7 @@ case 2:
     var1 = function _removeChannelFromFavorites() {
         var5 = undefined;
         var1 = undefined;
-        var4 = _closure1_slot3;
+        var4 = _closure1_slot4;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -162,7 +181,7 @@ case 10:
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -199,13 +218,13 @@ case 21:
             var10 = var9.intl;
             var9 = var10.string;
             var11 = _closure1_slot1;
-            var5 = 7;
+            var5 = 8;
             var5 = var8[var5];
             var5 = var11.bind(var6)(var5);
             var5 = var5.G9fGlP;
             var5 = var9.bind(var10)(var5);
             var3['label'] = var5;
-            var5 = 8;
+            var5 = 9;
             var5 = var8[var5];
             var5 = var7.bind(var6)(var5);
             var5 = var5.StarOutlineIcon;
@@ -241,7 +260,7 @@ case 18:
             var10 = var9.intl;
             var9 = var10.string;
             var11 = _closure1_slot1;
-            var5 = 7;
+            var5 = 8;
             var5 = var8[var5];
             var5 = var11.bind(var6)(var5);
             var5 = var5.TN4nAX;

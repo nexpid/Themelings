@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -76,40 +76,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function GIFPickerResultsList(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var4 = arg1;
-            var8 = var4.columns;
-            var5 = var4.columnWidth;
+            var1 = arg1;
+            var10 = var1.columns;
+            var5 = var1.columnWidth;
             var _closure2_slot0 = var5;
-            var13 = var4.resultItems;
-            var17 = var4.onPressGIF;
-            var _closure2_slot1 = var17;
-            var2 = var4.inActionSheet;
-            var7 = var4.ListFooterComponent;
-            var6 = var4.loading;
-            var3 = var4.selectedGifSrc;
+            var14 = var1.resultItems;
+            var16 = var1.onPressGIF;
+            var _closure2_slot1 = var16;
+            var6 = var1.inActionSheet;
+            var9 = var1.ListFooterComponent;
+            var7 = var1.loading;
+            var3 = var1.selectedGifSrc;
             var _closure2_slot2 = var3;
-            var9 = var4.keyboardDismissMode;
+            var11 = var1.keyboardDismissMode;
             var4 = undefined;
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
-            var11 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var10 = 3;
-            var10 = var14[var10];
-            var11 = var11.bind(var4)(var10);
-            var10 = {};
-            var14 = false;
-            var10['hasCategories'] = var14;
-            var10 = var11.bind(var4)(var10);
-            var15 = var10.safeAreaBottomKeyboardAware;
-            if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var8 = 3;
+            var8 = var13[var8];
+            var12 = var12.bind(var4)(var8);
+            var8 = {};
+            var13 = false;
+            var8['hasCategories'] = var13;
+            var8 = var12.bind(var4)(var8);
+            var18 = var8.safeAreaBottomKeyboardAware;
+            if(!var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var13 = _closure1_slot6;
+            var14 = _closure1_slot6;
 case 2:
-            var14 = _closure1_slot4;
-            var10 = var14.useCallback;
-            var6 = new Array(1);
-            var6[0] = var5;
+            var7 = _closure1_slot4;
+            var12 = var7.useCallback;
+            var8 = new Array(1);
+            var8[0] = var5;
             var5 = function(arg1, arg2) {
                 var1 = {};
                 var3 = _closure2_slot0;
@@ -120,10 +120,10 @@ case 2:
                 var1['height'] = var2;
                 return var1;
             };
-            var16 = var10.bind(var14)(var5, var6);
-            _closure2_slot3 = var16;
-            var10 = var14.useCallback;
-            var6 = function(arg1, arg2) {
+            var15 = var12.bind(var7)(var5, var8);
+            _closure2_slot3 = var15;
+            var12 = var7.useCallback;
+            var8 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
                     var4 = arg1;
@@ -144,7 +144,7 @@ case 6:
                 }
             };
             var5 = new Array(0);
-            var10 = var10.bind(var14)(var6, var5);
+            var12 = var12.bind(var7)(var8, var5);
             var5 = function useViewedItemIndexes() {
                 var5 = _closure1_slot4;
                 var4 = var5.useState;
@@ -223,12 +223,12 @@ case 9:
                 return var1;
             };
             var5 = var5.bind(var4)();
-            var18 = var5.viewedItemIndexes;
-            _closure2_slot4 = var18;
-            var6 = var5.onViewableItemsChanged;
-            var11 = var14.useMemo;
+            var17 = var5.viewedItemIndexes;
+            _closure2_slot4 = var17;
+            var8 = var5.onViewableItemsChanged;
+            var13 = var7.useMemo;
             var5 = new Array(2);
-            var5[0] = var18;
+            var5[0] = var17;
             var5[1] = var3;
             var3 = function() {
                 var1 = {};
@@ -238,12 +238,12 @@ case 9:
                 var1['selectedGifSrc'] = var2;
                 return var1;
             };
-            var11 = var11.bind(var14)(var3, var5);
-            var5 = var14.useCallback;
+            var13 = var13.bind(var7)(var3, var5);
+            var5 = var7.useCallback;
             var3 = new Array(2);
-            var3[0] = var17;
-            var3[1] = var16;
-            var1 = function(arg1) {
+            var3[0] = var16;
+            var3[1] = var15;
+            var2 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
                     var1 = arg1;
@@ -322,42 +322,52 @@ case 11:
                     return var1;
                 }
             };
-            var5 = var5.bind(var14)(var1, var3);
+            var5 = var5.bind(var7)(var2, var3);
             var3 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var1 = 5;
-            var1 = var14[var1];
-            var1 = var3.bind(var4)(var1);
-            if(var2) { _fun0001_ip = 17; continue _fun0001 }
+            var7 = _closure1_slot2;
+            var2 = 5;
+            var2 = var7[var2];
+            var2 = var3.bind(var4)(var2);
+            if(var6) { _fun0001_ip = 17; continue _fun0001 }
 case 18:
-            var3 = var1.MasonryFlashList;
+            var3 = var2.MasonryFlashList;
             _fun0001_ip = 19; continue _fun0001;
 case 17:
-            var3 = var1.BottomSheetMasonryFlashList;
+            var3 = var2.BottomSheetMasonryFlashList;
 case 19:
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var2 = 6;
+            var2 = var16[var2];
+            var7 = var15.bind(var4)(var2);
+            var2 = var7.useIsPortalKeyboardInModal;
+            var7 = var2.bind(var7)();
             var2 = _closure1_slot5;
             var1 = {};
-            var14 = {};
-            var14['paddingBottom'] = var15;
-            var1['contentContainerStyle'] = var14;
-            var1['data'] = var13;
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var12 = 6;
-            var12 = var14[var12];
-            var12 = var13.bind(var4)(var12);
-            var12 = var12.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
-            var1['drawDistance'] = var12;
-            var1['extraData'] = var11;
-            var1['keyExtractor'] = var10;
-            var1['keyboardDismissMode'] = var9;
-            var9 = 'always';
-            var1['keyboardShouldPersistTaps'] = var9;
-            var1['numColumns'] = var8;
-            var1['ListFooterComponent'] = var7;
-            var7 = true;
-            var1['optimizeItemArrangement'] = var7;
-            var1['onViewableItemsChanged'] = var6;
+            var17 = {};
+            var17['paddingBottom'] = var18;
+            var1['contentContainerStyle'] = var17;
+            var1['data'] = var14;
+            var14 = 7;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
+            var1['drawDistance'] = var14;
+            var1['extraData'] = var13;
+            var1['keyExtractor'] = var12;
+            var1['keyboardDismissMode'] = var11;
+            var11 = 'always';
+            var1['keyboardShouldPersistTaps'] = var11;
+            var1['numColumns'] = var10;
+            var1['ListFooterComponent'] = var9;
+            var9 = true;
+            var1['optimizeItemArrangement'] = var9;
+            var1['onViewableItemsChanged'] = var8;
+            if(!var6) { _fun0001_ip = 20; continue _fun0001 }
+case 21:
+            var6 = var7;
+case 20:
+            var1['preventNativeModalDismiss'] = var6;
             var1['renderItem'] = var5;
             var1 = var2.bind(var4)(var3, var1);
             return var1;

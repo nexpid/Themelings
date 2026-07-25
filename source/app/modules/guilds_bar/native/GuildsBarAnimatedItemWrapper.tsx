@@ -434,7 +434,7 @@ case 20:
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.colors;
-            var4 = var4.INTERACTIVE_TEXT_ACTIVE;
+            var4 = var4.TEXT_STRONG;
             var2['backgroundColor'] = var4;
             var1['unreadIndicator'] = var2;
             var2 = {'position': 'absolute', 'left': null, 'top': 0, 'right': 8, 'height': null, 'transformOrigin': '0% 50%', 'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};

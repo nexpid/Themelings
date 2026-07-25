@@ -56,6 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12['BUNDLES'] = var1;
     var1 = 'collabs';
     var12['COLLABS'] = var1;
+    var1 = 'offer-eligible';
+    var12['OFFER_ELIGIBLE'] = var1;
     var1 = 'layout';
     var12['LAYOUT'] = var1;
     var1 = 'collection-index';

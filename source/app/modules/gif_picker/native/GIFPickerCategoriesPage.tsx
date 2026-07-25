@@ -89,11 +89,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var1 = arg1;
-            var16 = var1.columns;
-            var _closure2_slot0 = var16;
+            var17 = var1.columns;
+            var _closure2_slot0 = var17;
             var7 = var1.favoritesCategory;
             var _closure2_slot1 = var7;
-            var12 = var1.inActionSheet;
+            var13 = var1.inActionSheet;
             var5 = var1.onSelectCategory;
             var _closure2_slot2 = var5;
             var4 = undefined;
@@ -102,7 +102,7 @@ case 0:
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
             var2 = 2;
-            if(!(!(var16 > var2))) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(!(var17 > var2))) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -122,8 +122,8 @@ case 2:
 case 4:
             _closure2_slot3 = var10;
             var2 = _closure1_slot7;
-            var15 = var2.bind(var4)(var10);
-            _closure2_slot4 = var15;
+            var16 = var2.bind(var4)(var10);
+            _closure2_slot4 = var16;
             var2 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 7;
@@ -137,11 +137,11 @@ case 4:
             var8 = _closure1_slot0;
             var6 = 8;
             var6 = var9[var6];
-            var17 = var8.bind(var4)(var6);
-            var14 = var17.useStateFromStoresObject;
+            var15 = var8.bind(var4)(var6);
+            var14 = var15.useStateFromStoresObject;
             var6 = _closure1_slot5;
-            var13 = new Array(1);
-            var13[0] = var6;
+            var12 = new Array(1);
+            var12[0] = var6;
             var6 = function() {
                 var1 = {};
                 var3 = _closure1_slot5;
@@ -150,15 +150,15 @@ case 4:
                 var1['trendingCategories'] = var2;
                 return var1;
             };
-            var6 = var14.bind(var17)(var13, var6);
+            var6 = var14.bind(var15)(var12, var6);
             var6 = var6.trendingCategories;
             _closure2_slot5 = var6;
-            var14 = _closure1_slot3;
-            var17 = var14.useMemo;
-            var13 = new Array(3);
-            var13[0] = var16;
-            var13[1] = var7;
-            var13[2] = var6;
+            var15 = _closure1_slot3;
+            var14 = var15.useMemo;
+            var12 = new Array(3);
+            var12[0] = var17;
+            var12[1] = var7;
+            var12[2] = var6;
             var7 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -220,13 +220,13 @@ case 7:
                     return var1;
                 }
             };
-            var7 = var17.bind(var14)(var7, var13);
-            var17 = var7.data;
-            _closure2_slot6 = var17;
+            var7 = var14.bind(var15)(var7, var12);
+            var14 = var7.data;
+            _closure2_slot6 = var14;
             var7 = var7.sections;
-            var18 = var14.useEffect;
-            var13 = new Array(1);
-            var13[0] = var6;
+            var18 = var15.useEffect;
+            var12 = new Array(1);
+            var12[0] = var6;
             var6 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -248,13 +248,13 @@ case 9:
                     return var1;
                 }
             };
-            var6 = var18.bind(var14)(var6, var13);
-            var13 = var14.useCallback;
+            var6 = var18.bind(var15)(var6, var12);
+            var12 = var15.useCallback;
             var6 = new Array(4);
-            var6[0] = var16;
-            var6[1] = var17;
+            var6[0] = var17;
+            var6[1] = var14;
             var6[2] = var5;
-            var6[3] = var15;
+            var6[3] = var16;
             var5 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -317,18 +317,23 @@ case 11:
                     return var1;
                 }
             };
-            var5 = var13.bind(var14)(var5, var6);
-            var13 = var14.useMemo;
+            var5 = var12.bind(var15)(var5, var6);
+            var6 = 11;
+            var6 = var9[var6];
+            var12 = var8.bind(var4)(var6);
+            var6 = var12.useIsPortalKeyboardInModal;
+            var12 = var6.bind(var12)();
+            var14 = var15.useMemo;
             var6 = new Array(3);
             var6[0] = var10;
-            var6[1] = var16;
-            var6[2] = var15;
+            var6[1] = var17;
+            var6[2] = var16;
             var3 = function() {
                 var1 = {};
                 var2 = {};
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var3 = 11;
+                var3 = 12;
                 var3 = var7[var3];
                 var5 = undefined;
                 var3 = var6.bind(var5)(var3);
@@ -363,25 +368,26 @@ case 11:
                 var1['sectionItem'] = var2;
                 return var1;
             };
-            var6 = var13.bind(var14)(var3, var6);
+            var6 = var14.bind(var15)(var3, var6);
             var3 = _closure1_slot6;
-            var1 = 12;
+            var1 = 13;
             var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var13 = 13;
-            var13 = var9[var13];
-            var14 = var8.bind(var4)(var13);
-            var13 = var14.getCustomKeyboardHeight;
-            var13 = var13.bind(var14)();
-            var1['estimatedListSize'] = var13;
-            var1['inActionSheet'] = var12;
+            var14 = 14;
+            var14 = var9[var14];
+            var15 = var8.bind(var4)(var14);
+            var14 = var15.getCustomKeyboardHeight;
+            var14 = var14.bind(var15)();
+            var1['estimatedListSize'] = var14;
+            var1['inActionSheet'] = var13;
+            var1['preventNativeModalDismiss'] = var12;
             var1['insetEnd'] = var11;
             var1['itemSize'] = var10;
             var1['sections'] = var7;
             var1['placeholderConfig'] = var6;
             var1['renderItem'] = var5;
-            var5 = 14;
+            var5 = 15;
             var6 = var9[var5];
             var6 = var8.bind(var4)(var6);
             var7 = var6.intl;
@@ -397,7 +403,7 @@ case 11:
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

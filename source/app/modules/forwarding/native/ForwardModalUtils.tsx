@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot4 = var4;
-    var4 = 11;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -38,79 +38,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
             var2 = arg1;
-            var11 = var2.message;
-            var8 = var2.source;
-            var10 = var2.initialSelectedDestinations;
+            var9 = var2.message;
+            var6 = var2.source;
+            var8 = var2.initialSelectedDestinations;
             var1 = undefined;
-            if(!(var10 === var1)) { _fun0001_ip = 2; continue _fun0001 }
+            if(!(var8 === var1)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-            var10 = new Array(0);
+            var8 = new Array(0);
 case 2:
-            var9 = var2.forwardOptions;
-            var3 = var2.customSendHandler;
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 2;
-            var2 = var6[var2];
-            var7 = var4.bind(var1)(var2);
-            var2 = var7.dismissKeyboard;
-            var2 = var2.bind(var7)();
-            var2 = 3;
-            var2 = var6[var2];
-            var13 = var4.bind(var1)(var2);
+            var7 = var2.forwardOptions;
+            var2 = var2.customSendHandler;
+            var10 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var5 = 2;
+            var5 = var3[var5];
+            var13 = var10.bind(var1)(var5);
             var12 = var13.trackForwardStart;
-            var7 = var11.channel_id;
-            var2 = var11.id;
-            var2 = var12.bind(var13)(var7, var2, var8);
-            var2 = 4;
-            var2 = var6[var2];
-            var4 = var4.bind(var1)(var2);
-            var2 = var4.getIsWindowLarge;
-            var2 = var2.bind(var4)();
-            if(!var2) { _fun0001_ip = 4; continue _fun0001 }
-case 5:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var11 = var9.channel_id;
+            var5 = var9.id;
+            var5 = var12.bind(var13)(var11, var5, var6);
+            var5 = _closure1_slot1;
+            var4 = 3;
+            var4 = var3[var4];
+            var5 = var5.bind(var1)(var4);
             var4 = 5;
-            var4 = var7[var4];
-            var6 = var6.bind(var1)(var4);
-            var4 = var6.isIOS;
-            var2 = var4.bind(var6)();
-case 4:
-            var7 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var6 = 6;
-            var6 = var4[var6];
-            var7 = var7.bind(var1)(var6);
-            var6 = var7.pushLazy;
-            var12 = _closure1_slot0;
-            var5 = 8;
-            var5 = var4[var5];
-            var12 = var12.bind(var1)(var5);
-            var5 = 7;
-            var5 = var4[var5];
-            var4 = var4.paths;
-            var5 = var12.bind(var1)(var5, var4);
-            var4 = {};
-            var4['message'] = var11;
-            var4['initialSelectedDestinations'] = var10;
-            var4['forwardOptions'] = var9;
-            var4['source'] = var8;
-            var4['customSendHandler'] = var3;
-            var3 = undefined;
-            if(var2) { _fun0001_ip = 6; continue _fun0001 }
-case 7:
-            var2 = {};
-            var8 = 'modal';
-            var2['presentation'] = var8;
-            var3 = var2;
-case 6:
-            var15 = 'forward-modal';
-            var18 = var7;
-            var17 = var5;
-            var16 = var4;
-            var14 = var3;
-            var2 = var18[var6](var17, var16, var15, var14, var13);
+            var4 = var3[var4];
+            var10 = var10.bind(var1)(var4);
+            var4 = 4;
+            var4 = var3[var4];
+            var3 = var3.paths;
+            var4 = var10.bind(var1)(var4, var3);
+            var3 = {};
+            var3['message'] = var9;
+            var3['initialSelectedDestinations'] = var8;
+            var3['forwardOptions'] = var7;
+            var3['source'] = var6;
+            var3['customSendHandler'] = var2;
+            var2 = 'forward-modal';
+            var2 = var5.bind(var1)(var4, var3, var2);
             return var1;
         }
     };
@@ -138,11 +103,11 @@ case 6:
         var1 = function() {
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var2 = 8;
+            var2 = 5;
             var2 = var1[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
-            var2 = 9;
+            var2 = 7;
             var2 = var1[var2];
             var1 = var1.paths;
             var1 = var3.bind(var4)(var2, var1);
@@ -151,7 +116,7 @@ case 6:
         var6 = var3.bind(var4)(var1);
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var1 = 10;
+        var1 = 8;
         var3 = var3[var1];
         var1 = undefined;
         var5 = var4.bind(var1)(var3);

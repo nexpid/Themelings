@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var29 = var5.Date;
     var27 = var29.prototype;
     var28 = Object.create(var27, {constructor: {value: var29}});
-    var35 = '2026-07-31T10:00:00-07:00';
+    var35 = '2026-08-01T10:00:00-07:00';
     var36 = var28;
     var27 = new var36[var29](var35, var34);
     var27 = var27 instanceof Object ? var27 : var28;

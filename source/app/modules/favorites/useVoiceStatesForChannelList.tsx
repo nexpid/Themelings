@@ -27,11 +27,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.FAVORITES;
-    var _closure1_slot5 = var4;
     var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -43,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var6;
         var5 = _closure1_slot0;
         var4 = _closure1_slot1;
-        var3 = 4;
+        var3 = 3;
         var4 = var4[var3];
         var3 = undefined;
         var5 = var5.bind(var3)(var4);
@@ -60,39 +55,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var4 = _closure2_slot0;
-                var3 = _closure1_slot5;
-                if(!(var4 === var3)) { _fun0001_ip = 2; continue _fun0001 }
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.isFavoritesGuildId;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var4)(var2);
+                if(var2) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                var4 = _closure1_slot4;
-                var3 = var4.getFavoriteChannels;
-                var4 = var3.bind(var4)();
-                var3 = {};
-                var8 = var4;
-                var4 = null;
-                for(var5 in var8)
-case 4:
-                {
-case 5:
-                    var11 = var5;
-                    var12 = _closure1_slot2;
-                    var10 = var12.getChannel;
-                    var13 = var10.bind(var12)(var11);
-                    if(var4 == var13) { _fun0001_ip = 4; continue _fun0001 }
-case 6:
-                    var12 = _closure1_slot3;
-                    var10 = var12.getVoiceStatesForChannel;
-                    var10 = var10.bind(var12)(var13);
-                    var3[var11] = var10;
-                    _fun0001_ip = 4; continue _fun0001;
-                }
-case 7:
-                return var3;
-case 2:
                 var3 = _closure1_slot3;
                 var2 = var3.getVoiceStates;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
+                return var1;
+case 2:
+                var2 = _closure1_slot4;
+                var1 = var2.getFavoriteChannels;
+                var2 = var1.bind(var2)();
+                var1 = {};
+                var6 = var2;
+                var2 = null;
+                for(var3 in var6)
+case 4:
+                {
+case 5:
+                    var10 = var3;
+                    var11 = _closure1_slot2;
+                    var9 = var11.getChannel;
+                    var12 = var9.bind(var11)(var10);
+                    if(var2 == var12) { _fun0001_ip = 4; continue _fun0001 }
+case 6:
+                    var11 = _closure1_slot3;
+                    var9 = var11.getVoiceStatesForChannel;
+                    var9 = var9.bind(var11)(var12);
+                    var1[var10] = var9;
+                    _fun0001_ip = 4; continue _fun0001;
+                }
+case 7:
                 return var1;
             }
         };

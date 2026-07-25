@@ -215,7 +215,7 @@ case 8:
             var7 = var18[var7];
             var7 = var16.bind(var5)(var7);
             var7 = var7.GameProfileSources;
-            var7 = var7.UserProfile;
+            var7 = var7.UserProfileApplicationWidget;
             var1['source'] = var7;
             var1['sourceUserId'] = var3;
             var7 = true;

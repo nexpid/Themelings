@@ -13,7 +13,7 @@ case 0:
             var5 = arg3;
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;
-            var10 = 5;
+            var10 = 4;
             var1 = var1[var10];
             var9 = undefined;
             var1 = var2.bind(var9)(var1);
@@ -63,9 +63,15 @@ case 10:
             var2 = var5 === var2;
             if(var2) { _fun0001_ip = 11; continue _fun0001 }
 case 12:
-            var4 = var7.id;
-            var3 = _closure1_slot6;
-            if(!(var4 !== var3)) { _fun0001_ip = 13; continue _fun0001 }
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 5;
+            var3 = var8[var3];
+            var8 = var4.bind(var9)(var3);
+            var4 = var8.isFavoritesGuildId;
+            var3 = var7.id;
+            var3 = var4.bind(var8)(var3);
+            if(var3) { _fun0001_ip = 13; continue _fun0001 }
 case 14:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -118,7 +124,7 @@ case 9:
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot6 = var1;
     var1 = function isSectionFooterVoiceSummaryEligible(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -126,7 +132,7 @@ case 0:
             var3 = arg2;
             var5 = _closure1_slot0;
             var1 = _closure1_slot1;
-            var7 = 5;
+            var7 = 4;
             var1 = var1[var7];
             var6 = undefined;
             var1 = var5.bind(var6)(var1);
@@ -164,7 +170,7 @@ case 29:
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot7 = var1;
     var4 = function getSectionFooterActiveVoiceChannels(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -235,7 +241,7 @@ case 38:
             return var1;
         }
     };
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -263,11 +269,6 @@ case 38:
     var5 = var6.bind(var1)(var5);
     var5 = var5.Permissions;
     var _closure1_slot5 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.FAVORITES_RAW_GUILD_ID;
-    var _closure1_slot6 = var5;
     var5 = 6;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -278,12 +279,12 @@ case 38:
         var5 = arg1;
         var4 = arg3;
         var1 = {};
-        var7 = _closure1_slot7;
+        var7 = _closure1_slot6;
         var3 = undefined;
         var6 = arg2;
         var6 = var7.bind(var3)(var5, var6, var4);
         var1['hasDivider'] = var6;
-        var2 = _closure1_slot8;
+        var2 = _closure1_slot7;
         var2 = var2.bind(var3)(var5, var4);
         var1['canHaveVoiceSummary'] = var2;
         return var1;
@@ -296,7 +297,7 @@ case 38:
         var1 = var2.voiceStates;
         var5 = var2.selectedChannelId;
         var4 = var2.selectedVoiceChannelId;
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var2 = {};
         var2['category'] = var6;
         var2['selectedChannelId'] = var5;

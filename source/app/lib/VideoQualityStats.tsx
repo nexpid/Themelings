@@ -39,13 +39,13 @@ case 4:
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot19 = var2;
+            _closure1_slot20 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var8 = function parseEncoder(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
@@ -87,7 +87,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot20 = var8;
+    var _closure1_slot21 = var8;
     var7 = function parseDecoder(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -129,7 +129,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot21 = var7;
+    var _closure1_slot22 = var7;
     var6 = function parseCodecType(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -192,7 +192,7 @@ case 28:
             return var1;
         }
     };
-    var _closure1_slot22 = var6;
+    var _closure1_slot23 = var6;
     var4 = global;
     var11 = var4.Object;
     var9 = var11.defineProperty;
@@ -573,12 +573,12 @@ case 41:
                 var1['nackCount'] = var5;
                 var5 = var3.pliCount;
                 var1['pliCount'] = var5;
-                var8 = _closure1_slot21;
+                var8 = _closure1_slot22;
                 var6 = var3.decoderImplementationName;
                 var7 = undefined;
                 var6 = var8.bind(var7)(var6);
                 var1['decoder'] = var6;
-                var6 = _closure1_slot22;
+                var6 = _closure1_slot23;
                 var5 = var3.codec;
                 var5 = var5.name;
                 var5 = var6.bind(var7)(var5);
@@ -765,13 +765,13 @@ case 72:
                 var2['majorResolution'] = var6;
                 var6 = arg2;
                 var2['timestamp'] = var6;
-                var9 = _closure1_slot20;
+                var9 = _closure1_slot21;
                 var7 = var5.encoderImplementationName;
                 var8 = undefined;
                 var7 = var9.bind(var8)(var7);
                 var2['encoder'] = var7;
                 var2['decoder'] = var4;
-                var7 = _closure1_slot22;
+                var7 = _closure1_slot23;
                 var6 = var5.codec;
                 var6 = var6.name;
                 var6 = var7.bind(var8)(var6);
@@ -993,6 +993,7 @@ case 63:
         return var1;
     };
     var5 = var4.bind(var1)();
+    var _closure1_slot19 = var5;
     var4 = function() {
         var4 = _closure1_slot8;
         var3 = function InboundStats(arg1) {
@@ -1294,241 +1295,241 @@ case 128:
         var6 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
-                var5 = arg1;
-                var1 = this;
-                var _closure3_slot0 = var1;
-                var3 = var1.isVideoStopped;
-                if(var3) { _fun0009_ip = 130; continue _fun0009 }
+                var4 = arg1;
+                var3 = this;
+                var _closure3_slot0 = var3;
+                var2 = var3.isVideoStopped;
+                if(var2) { _fun0009_ip = 130; continue _fun0009 }
 case 131:
-                var4 = var1.statsWindow;
-                var3 = var4.push;
-                var3 = var3.bind(var4)(var5);
-                var3 = var1.statsWindow;
-                var3 = var3.length;
+                var5 = var3.statsWindow;
+                var2 = var5.push;
+                var2 = var2.bind(var5)(var4);
+                var2 = var3.statsWindow;
+                var2 = var2.length;
                 var7 = 2;
-                if(!(!(var3 < var7))) { _fun0009_ip = 130; continue _fun0009 }
-case 132:
-                var4 = var1.statsWindow;
-                var3 = var1.statsWindow;
-                var3 = var3.length;
-                var17 = 1;
-                var3 = var3 - var17;
-                var3 = var4[var3];
-                var6 = var1.statsWindow;
-                var4 = var1.statsWindow;
-                var4 = var4.length;
-                var4 = var4 - var7;
-                var11 = var6[var4];
-                var4 = var1.collectAggregationStats;
-                var4 = var4.bind(var1)(var3, var11);
-                var4 = var1.cryptorFailureBeforeSuccessCount;
-                var6 = null;
-                if(!(var6 == var4)) { _fun0009_ip = 133; continue _fun0009 }
-case 34:
-                var7 = var5.cryptorSuccessCount;
-                var4 = 0;
-                if(!(var7 > var4)) { _fun0009_ip = 133; continue _fun0009 }
-case 69:
-                var7 = var1.aggregatedProperties;
-                var7 = var7.cryptorFailureCount;
-                var8 = var6 != var7;
-                var4 = 0;
-                if(!var8) { _fun0009_ip = 134; continue _fun0009 }
-case 135:
-                var4 = var7;
-case 134:
-                var1['cryptorFailureBeforeSuccessCount'] = var4;
+                if(!(!(var2 < var7))) { _fun0009_ip = 132; continue _fun0009 }
 case 133:
-                var10 = var3.bytes;
-                var9 = var3.framesCodec;
-                var12 = var3.timestamp;
-                var7 = var3.resolution;
-                var _closure3_slot1 = var7;
-                var16 = var3.minorResolution;
-                var8 = var3.majorResolution;
-                var19 = var3.encoder;
-                var15 = var3.decoder;
-                var13 = var3.codecType;
-                var4 = var3.localWant;
-                var11 = var11.timestamp;
-                var14 = var12 - var11;
-                var11 = 1000;
-                var14 = var14 / var11;
-                var _closure3_slot2 = var14;
-                var18 = var1.intervalTotal;
-                var18 = var18 + var14;
-                var1['intervalTotal'] = var18;
-                var20 = var1.resolutionTotal;
-                var18 = var7 * var14;
-                var18 = var20 + var18;
-                var1['resolutionTotal'] = var18;
-                var18 = var1.minorResolutionTotal;
-                var16 = var16 * var14;
-                var16 = var18 + var16;
-                var1['minorResolutionTotal'] = var16;
-                var16 = var1.majorResolutionTotal;
-                var8 = var8 * var14;
-                var8 = var16 + var8;
-                var1['majorResolutionTotal'] = var8;
-                var8 = global;
-                var21 = var8.Math;
-                var20 = var21.max;
-                var18 = var1.cryptorMaxAttempts;
-                var16 = var3.cryptorMaxAttempts;
-                var16 = var20.bind(var21)(var18, var16);
-                var1['cryptorMaxAttempts'] = var16;
-                if(!(var6 != var19)) { _fun0009_ip = 136; continue _fun0009 }
-case 137:
-                if(!(var6 != var13)) { _fun0009_ip = 136; continue _fun0009 }
+                var5 = var3.statsWindow;
+                var2 = var3.statsWindow;
+                var2 = var2.length;
+                var17 = 1;
+                var2 = var2 - var17;
+                var2 = var5[var2];
+                var6 = var3.statsWindow;
+                var5 = var3.statsWindow;
+                var5 = var5.length;
+                var5 = var5 - var7;
+                var12 = var6[var5];
+                var5 = var3.collectAggregationStats;
+                var5 = var5.bind(var3)(var2, var12);
+                var5 = var3.cryptorFailureBeforeSuccessCount;
+                var7 = null;
+                if(!(var7 == var5)) { _fun0009_ip = 134; continue _fun0009 }
+case 135:
+                var6 = var4.cryptorSuccessCount;
+                var5 = 0;
+                if(!(var6 > var5)) { _fun0009_ip = 134; continue _fun0009 }
+case 136:
+                var6 = var3.aggregatedProperties;
+                var6 = var6.cryptorFailureCount;
+                var8 = var7 != var6;
+                var5 = 0;
+                if(!var8) { _fun0009_ip = 137; continue _fun0009 }
 case 138:
-                var16 = 'encoderBuckets';
-                var16 = var16 in var1;
-                if(!var16) { _fun0009_ip = 136; continue _fun0009 }
-case 139:
-                var18 = var1.encoderBuckets;
-                var16 = var18[var19];
-                var16 = var16 + var14;
-                var18[var19] = var16;
-                var18 = var1.codecBuckets;
-                var16 = var18[var13];
-                var16 = var16 + var14;
-                var18[var13] = var16;
-                var16 = var3.codecType;
-                var16 = var6 != var16;
-                if(!var16) { _fun0009_ip = 140; continue _fun0009 }
-case 78:
-                var19 = var3.codecType;
+                var5 = var6;
+case 137:
+                var3['cryptorFailureBeforeSuccessCount'] = var5;
+case 134:
+                var11 = var2.bytes;
+                var10 = var2.framesCodec;
+                var13 = var2.timestamp;
+                var8 = var2.resolution;
+                var _closure3_slot1 = var8;
+                var9 = var2.minorResolution;
+                var6 = var2.majorResolution;
+                var19 = var2.encoder;
+                var16 = var2.decoder;
+                var14 = var2.codecType;
+                var5 = var2.localWant;
+                var12 = var12.timestamp;
+                var15 = var13 - var12;
+                var12 = 1000;
+                var15 = var15 / var12;
+                var _closure3_slot2 = var15;
+                var18 = var3.intervalTotal;
+                var18 = var18 + var15;
+                var3['intervalTotal'] = var18;
+                var20 = var3.resolutionTotal;
+                var18 = var8 * var15;
+                var18 = var20 + var18;
+                var3['resolutionTotal'] = var18;
+                var18 = var3.minorResolutionTotal;
+                var9 = var9 * var15;
+                var9 = var18 + var9;
+                var3['minorResolutionTotal'] = var9;
+                var9 = var3.majorResolutionTotal;
+                var6 = var6 * var15;
+                var6 = var9 + var6;
+                var3['majorResolutionTotal'] = var6;
+                var6 = global;
+                var21 = var6.Math;
+                var20 = var21.max;
+                var18 = var3.cryptorMaxAttempts;
+                var9 = var2.cryptorMaxAttempts;
+                var9 = var20.bind(var21)(var18, var9);
+                var3['cryptorMaxAttempts'] = var9;
+                if(!(var7 != var19)) { _fun0009_ip = 139; continue _fun0009 }
+case 140:
+                if(!(var7 != var14)) { _fun0009_ip = 139; continue _fun0009 }
+case 141:
+                var9 = 'encoderBuckets';
+                var9 = var9 in var3;
+                if(!var9) { _fun0009_ip = 139; continue _fun0009 }
+case 142:
+                var18 = var3.encoderBuckets;
+                var9 = var18[var19];
+                var9 = var9 + var15;
+                var18[var19] = var9;
+                var18 = var3.codecBuckets;
+                var9 = var18[var14];
+                var9 = var9 + var15;
+                var18[var14] = var9;
+                var9 = var2.codecType;
+                var9 = var7 != var9;
+                if(!var9) { _fun0009_ip = 143; continue _fun0009 }
+case 144:
+                var19 = var2.codecType;
                 var18 = _closure1_slot13;
                 var18 = var18.UNKNOWN;
-                var16 = var19 !== var18;
-case 140:
-                if(!var16) { _fun0009_ip = 43; continue _fun0009 }
-case 141:
-                var16 = var3.codecType;
-                var1['encoderCodec'] = var16;
-case 43:
-                var16 = var5.vmafScore;
-                var16 = var6 != var16;
-                if(!var16) { _fun0009_ip = 142; continue _fun0009 }
-case 82:
-                var19 = var5.vmafScore;
-                var18 = 0;
-                var16 = var19 >= var18;
-case 142:
-                if(!var16) { _fun0009_ip = 143; continue _fun0009 }
-case 144:
-                var16 = var1.vmafScoreNum;
-                var16 = var16 + var17;
-                var1['vmafScoreNum'] = var16;
-                var18 = var1.vmafScoreSum;
-                var16 = var5.vmafScore;
-                var16 = var18 + var16;
-                var1['vmafScoreSum'] = var16;
-                var19 = var1.vmafHistogram;
-                var18 = var19.addSample;
-                var16 = var5.vmafScore;
-                var16 = var18.bind(var19)(var16);
+                var9 = var19 !== var18;
 case 143:
-                var16 = var5.psnrDb;
-                var16 = var6 != var16;
-                if(!var16) { _fun0009_ip = 145; continue _fun0009 }
-case 91:
-                var19 = var5.psnrDb;
-                var18 = 0;
-                var16 = var19 >= var18;
-case 145:
-                if(!var16) { _fun0009_ip = 146; continue _fun0009 }
-case 54:
-                var16 = var1.psnrDbNum;
-                var16 = var16 + var17;
-                var1['psnrDbNum'] = var16;
-                var18 = var1.psnrDbSum;
-                var16 = var5.psnrDb;
-                var16 = var18 + var16;
-                var1['psnrDbSum'] = var16;
-                var19 = var1.psnrHistogram;
-                var18 = var19.addSample;
-                var16 = var5.psnrDb;
-                var16 = var18.bind(var19)(var16);
+                if(!var9) { _fun0009_ip = 145; continue _fun0009 }
 case 146:
-                var16 = var5.outboundSinkWant;
-                var16 = var6 != var16;
-                if(!var16) { _fun0009_ip = 147; continue _fun0009 }
+                var9 = var2.codecType;
+                var3['encoderCodec'] = var9;
+case 145:
+                var9 = var4.vmafScore;
+                var9 = var7 != var9;
+                if(!var9) { _fun0009_ip = 147; continue _fun0009 }
 case 148:
-                var19 = var5.outboundSinkWant;
+                var19 = var4.vmafScore;
                 var18 = 0;
-                var16 = var18 !== var19;
+                var9 = var19 >= var18;
 case 147:
-                if(!var16) { _fun0009_ip = 149; continue _fun0009 }
+                if(!var9) { _fun0009_ip = 149; continue _fun0009 }
 case 150:
-                var16 = var1.outboundSinkWantNum;
-                var16 = var16 + var17;
-                var1['outboundSinkWantNum'] = var16;
-                var17 = var1.outboundSinkWantSum;
-                var16 = var5.outboundSinkWant;
-                var16 = var17 + var16;
-                var1['outboundSinkWantSum'] = var16;
+                var9 = var3.vmafScoreNum;
+                var9 = var9 + var17;
+                var3['vmafScoreNum'] = var9;
+                var18 = var3.vmafScoreSum;
+                var9 = var4.vmafScore;
+                var9 = var18 + var9;
+                var3['vmafScoreSum'] = var9;
+                var19 = var3.vmafHistogram;
+                var18 = var19.addSample;
+                var9 = var4.vmafScore;
+                var9 = var18.bind(var19)(var9);
 case 149:
-                var17 = var8.Math;
-                var16 = var17.max;
-                var8 = var1.consecutiveStaticColorFramesMax;
-                var5 = var5.consecutiveStaticColorFrames;
-                var5 = var16.bind(var17)(var8, var5);
-                var1['consecutiveStaticColorFramesMax'] = var5;
-case 136:
-                if(!(var6 != var15)) { _fun0009_ip = 151; continue _fun0009 }
+                var9 = var4.psnrDb;
+                var9 = var7 != var9;
+                if(!var9) { _fun0009_ip = 151; continue _fun0009 }
 case 152:
-                if(!(var6 != var13)) { _fun0009_ip = 151; continue _fun0009 }
-case 153:
-                var5 = 'decoderBuckets';
-                var5 = var5 in var1;
-                if(!var5) { _fun0009_ip = 151; continue _fun0009 }
-case 154:
-                var8 = var1.decoderBuckets;
-                var5 = var8[var15];
-                var5 = var5 + var14;
-                var8[var15] = var5;
-                var8 = var1.codecBuckets;
-                var5 = var8[var13];
-                var5 = var5 + var14;
-                var8[var13] = var5;
-                var5 = var3.codecType;
-                var5 = var6 != var5;
-                if(!var5) { _fun0009_ip = 155; continue _fun0009 }
-case 156:
-                var8 = var3.codecType;
-                var6 = _closure1_slot13;
-                var6 = var6.UNKNOWN;
-                var5 = var8 !== var6;
-case 155:
-                if(!var5) { _fun0009_ip = 151; continue _fun0009 }
-case 157:
-                var3 = var3.codecType;
-                var1['decoderCodec'] = var3;
+                var19 = var4.psnrDb;
+                var18 = 0;
+                var9 = var19 >= var18;
 case 151:
-                var3 = var1.statsWindow;
-                var5 = var3.length;
-                var3 = 6;
-                if(!(!(var5 < var3))) { _fun0009_ip = 130; continue _fun0009 }
+                if(!var9) { _fun0009_ip = 153; continue _fun0009 }
+case 154:
+                var9 = var3.psnrDbNum;
+                var9 = var9 + var17;
+                var3['psnrDbNum'] = var9;
+                var18 = var3.psnrDbSum;
+                var9 = var4.psnrDb;
+                var9 = var18 + var9;
+                var3['psnrDbSum'] = var9;
+                var19 = var3.psnrHistogram;
+                var18 = var19.addSample;
+                var9 = var4.psnrDb;
+                var9 = var18.bind(var19)(var9);
+case 153:
+                var9 = var4.outboundSinkWant;
+                var9 = var7 != var9;
+                if(!var9) { _fun0009_ip = 155; continue _fun0009 }
+case 60:
+                var19 = var4.outboundSinkWant;
+                var18 = 0;
+                var9 = var18 !== var19;
+case 155:
+                if(!var9) { _fun0009_ip = 156; continue _fun0009 }
+case 157:
+                var9 = var3.outboundSinkWantNum;
+                var9 = var9 + var17;
+                var3['outboundSinkWantNum'] = var9;
+                var17 = var3.outboundSinkWantSum;
+                var9 = var4.outboundSinkWant;
+                var9 = var17 + var9;
+                var3['outboundSinkWantSum'] = var9;
+case 156:
+                var18 = var6.Math;
+                var17 = var18.max;
+                var9 = var3.consecutiveStaticColorFramesMax;
+                var6 = var4.consecutiveStaticColorFrames;
+                var6 = var17.bind(var18)(var9, var6);
+                var3['consecutiveStaticColorFramesMax'] = var6;
+case 139:
+                if(!(var7 != var16)) { _fun0009_ip = 158; continue _fun0009 }
+case 159:
+                if(!(var7 != var14)) { _fun0009_ip = 158; continue _fun0009 }
+case 160:
+                var6 = 'decoderBuckets';
+                var6 = var6 in var3;
+                if(!var6) { _fun0009_ip = 158; continue _fun0009 }
+case 161:
+                var9 = var3.decoderBuckets;
+                var6 = var9[var16];
+                var6 = var6 + var15;
+                var9[var16] = var6;
+                var9 = var3.codecBuckets;
+                var6 = var9[var14];
+                var6 = var6 + var15;
+                var9[var14] = var6;
+                var6 = var2.codecType;
+                var6 = var7 != var6;
+                if(!var6) { _fun0009_ip = 162; continue _fun0009 }
+case 163:
+                var9 = var2.codecType;
+                var7 = _closure1_slot13;
+                var7 = var7.UNKNOWN;
+                var6 = var9 !== var7;
+case 162:
+                if(!var6) { _fun0009_ip = 158; continue _fun0009 }
+case 164:
+                var2 = var2.codecType;
+                var3['decoderCodec'] = var2;
 case 158:
-                var5 = var1.statsWindow;
-                var3 = var1.statsWindow;
-                var6 = var3.length;
-                var3 = 3;
-                var3 = var6 - var3;
-                var3 = var5[var3];
-                var6 = var3.bytes;
-                var5 = var3.framesCodec;
-                var8 = var3.timestamp;
-                var15 = _closure1_slot11;
-                var14 = var15.forEach;
-                var13 = function(arg1) {
+                var2 = var3.statsWindow;
+                var6 = var2.length;
+                var2 = 6;
+                if(!(!(var6 < var2))) { _fun0009_ip = 130; continue _fun0009 }
+case 116:
+                var6 = var3.statsWindow;
+                var2 = var3.statsWindow;
+                var7 = var2.length;
+                var2 = 3;
+                var2 = var7 - var2;
+                var2 = var6[var2];
+                var7 = var2.bytes;
+                var6 = var2.framesCodec;
+                var9 = var2.timestamp;
+                var16 = _closure1_slot11;
+                var15 = var16.forEach;
+                var14 = function(arg1) {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                         var3 = arg1;
                         var2 = _closure3_slot1;
                         if(!(var2 <= var3)) { _fun0010_ip = 122; continue _fun0010 }
-case 159:
+case 165:
                         var2 = _closure3_slot0;
                         var2 = var2.resolutionBuckets;
                         var4 = var2[var3];
@@ -1540,26 +1541,26 @@ case 122:
                         return var1;
                     }
                 };
-                var13 = var14.bind(var15)(var13);
-                var8 = var12 - var8;
-                var8 = var8 / var11;
-                var10 = var10 - var6;
-                var6 = 8;
-                var6 = var6 * var10;
-                var6 = var6 / var8;
-                var _closure3_slot3 = var6;
-                var5 = var9 - var5;
-                var5 = var5 / var8;
-                var _closure3_slot4 = var5;
-                var10 = _closure1_slot9;
-                var9 = var10.forEach;
-                var8 = function(arg1) {
+                var14 = var15.bind(var16)(var14);
+                var9 = var13 - var9;
+                var9 = var9 / var12;
+                var11 = var11 - var7;
+                var7 = 8;
+                var7 = var7 * var11;
+                var7 = var7 / var9;
+                var _closure3_slot3 = var7;
+                var6 = var10 - var6;
+                var6 = var6 / var9;
+                var _closure3_slot4 = var6;
+                var11 = _closure1_slot9;
+                var10 = var11.forEach;
+                var9 = function(arg1) {
                     _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                         var3 = arg1;
                         var2 = _closure3_slot3;
                         if(!(var2 <= var3)) { _fun0011_ip = 122; continue _fun0011 }
-case 159:
+case 165:
                         var2 = _closure3_slot0;
                         var2 = var2.bitrateBuckets;
                         var4 = var2[var3];
@@ -1571,16 +1572,16 @@ case 122:
                         return var1;
                     }
                 };
-                var8 = var9.bind(var10)(var8);
-                var8 = _closure1_slot10;
-                var3 = var8.forEach;
-                var2 = function(arg1) {
+                var9 = var10.bind(var11)(var9);
+                var9 = _closure1_slot10;
+                var2 = var9.forEach;
+                var1 = function(arg1) {
                     _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
 case 0:
                         var3 = arg1;
                         var2 = _closure3_slot4;
                         if(!(var2 <= var3)) { _fun0012_ip = 122; continue _fun0012 }
-case 159:
+case 165:
                         var2 = _closure3_slot0;
                         var2 = var2.fpsBuckets;
                         var4 = var2[var3];
@@ -1592,22 +1593,39 @@ case 122:
                         return var1;
                     }
                 };
-                var2 = var3.bind(var8)(var2);
-                var3 = var1.resolutionHistogram;
-                var2 = var3.addSample;
-                var2 = var2.bind(var3)(var7);
-                var3 = var1.bitrateHistogram;
-                var2 = var3.addSample;
-                var2 = var2.bind(var3)(var6);
-                var3 = var1.fpsHistogram;
-                var2 = var3.addSample;
-                var2 = var2.bind(var3)(var5);
-                var3 = var1.localWantHistogram;
-                var2 = var3.addSample;
-                var2 = var2.bind(var3)(var4);
-                var2 = var1.statsWindow;
+                var1 = var2.bind(var9)(var1);
+                var2 = var3.resolutionHistogram;
+                var1 = var2.addSample;
+                var1 = var1.bind(var2)(var8);
+                var2 = var3.bitrateHistogram;
+                var1 = var2.addSample;
+                var1 = var1.bind(var2)(var7);
+                var2 = var3.fpsHistogram;
+                var1 = var2.addSample;
+                var1 = var1.bind(var2)(var6);
+                var2 = var3.localWantHistogram;
+                var1 = var2.addSample;
+                var1 = var1.bind(var2)(var5);
+                var2 = var3.statsWindow;
                 var1 = var2.shift;
                 var1 = var1.bind(var2)();
+                _fun0009_ip = 130; continue _fun0009;
+case 132:
+                var1 = var3.statsWindow;
+                var2 = var1.length;
+                var1 = 1;
+                if(!(var1 === var2)) { _fun0009_ip = 130; continue _fun0009 }
+case 166:
+                var1 = _closure1_slot19;
+                var2 = var1.prototype;
+                var2 = Object.create(var2, {constructor: {value: var1}});
+                var24 = var2;
+                var1 = new var24[var1](var23);
+                var2 = var1 instanceof Object ? var1 : var2;
+                var1 = var4.timestamp;
+                var2['timestamp'] = var1;
+                var1 = var3.collectAggregationStats;
+                var1 = var1.bind(var3)(var4, var2);
 case 130:
                 var1 = undefined;
                 return var1;
@@ -1637,14 +1655,14 @@ case 0:
                 var1 = arg1;
                 var3 = var1.inboundBitrateEstimate;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0013_ip = 160; continue _fun0013 }
-case 161:
+                if(!(var2 != var3)) { _fun0013_ip = 167; continue _fun0013 }
+case 168:
                 var2 = this;
                 var3 = var2.inboundBitrateEstimateHistogram;
                 var2 = var3.addSample;
                 var1 = var1.inboundBitrateEstimate;
                 var1 = var2.bind(var3)(var1);
-case 160:
+case 167:
                 var1 = undefined;
                 return var1;
             }
@@ -1676,7 +1694,7 @@ case 0:
                 var5 = 2;
                 var4 = 1;
                 var3 = 0;
-                if(!var2) { _fun0014_ip = 162; continue _fun0014 }
+                if(!var2) { _fun0014_ip = 169; continue _fun0014 }
 case 31:
                 var10 = var9[var3];
                 var2 = _closure1_slot6;
@@ -1684,14 +1702,14 @@ case 31:
                 var10 = var2[var8];
                 var2 = var2[var4];
                 if(!(var2 > var8)) { _fun0014_ip = 18; continue _fun0014 }
-case 163:
+case 170:
                 var2 = var1.add;
                 var2 = var2.bind(var1)(var10);
 case 18:
                 var3 = var3 + 1;
                 var2 = var9.length;
                 if(var3 < var2) { _fun0014_ip = 31; continue _fun0014 }
-case 162:
+case 169:
                 return var1;
             }
         };
@@ -1722,14 +1740,14 @@ case 0:
                 var1 = _closure1_slot4;
                 var10 = var1.bind(var5)(var4);
                 var4 = _closure1_slot3;
-                var1 = _closure1_slot19;
+                var1 = _closure1_slot20;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0015_ip = 164; continue _fun0015 }
-case 165:
+                if(var1) { _fun0015_ip = 171; continue _fun0015 }
+case 172:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
-                _fun0015_ip = 166; continue _fun0015;
-case 164:
+                _fun0015_ip = 173; continue _fun0015;
+case 171:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -1737,7 +1755,7 @@ case 164:
                 var7 = var7.bind(var5)(var6);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
-case 166:
+case 173:
                 var1 = var4.bind(var5)(var6, var1);
                 var4 = global;
                 var7 = var4.Object;
@@ -1845,33 +1863,33 @@ case 0:
                 var3 = var2.statsWindow;
                 var3 = var3.length;
                 var9 = 2;
-                if(!(!(var3 < var9))) { _fun0016_ip = 167; continue _fun0016 }
-case 168:
+                if(!(!(var3 < var9))) { _fun0016_ip = 174; continue _fun0016 }
+case 175:
                 var7 = null;
                 var10 = var7 != var1;
                 var3 = 0;
-                if(!var10) { _fun0016_ip = 169; continue _fun0016 }
-case 170:
+                if(!var10) { _fun0016_ip = 176; continue _fun0016 }
+case 177:
                 var3 = var1;
-case 169:
+case 176:
                 var10 = var7 != var5;
                 var1 = 0;
                 if(!var10) { _fun0016_ip = 22; continue _fun0016 }
-case 171:
+case 178:
                 var1 = var5;
 case 22:
                 var10 = var7 != var8;
                 var5 = 0;
                 if(!var10) { _fun0016_ip = 4; continue _fun0016 }
-case 172:
+case 179:
                 var5 = var8;
 case 4:
                 var7 = var7 != var6;
                 var4 = 0;
-                if(!var7) { _fun0016_ip = 164; continue _fun0016 }
-case 173:
+                if(!var7) { _fun0016_ip = 171; continue _fun0016 }
+case 180:
                 var4 = var6;
-case 164:
+case 171:
                 var7 = var2.statsWindow;
                 var6 = var2.statsWindow;
                 var8 = var6.length;
@@ -1915,7 +1933,7 @@ case 164:
                 var2 = var3.addSample;
                 var1 = var4 - var1;
                 var1 = var2.bind(var3)(var1);
-case 167:
+case 174:
                 var1 = undefined;
                 return var1;
             }

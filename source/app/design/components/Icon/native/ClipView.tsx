@@ -13,12 +13,12 @@ case 0:
             var1 = arg1;
             var6 = var1.backgroundColor;
             var5 = var1.cutout;
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             var3 = var1.solidCutout;
             var1 = new Array(1);
             var1[0] = var3;
             var4 = var5.shape;
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot6;
             var3 = var3.Circle;
             if(!(var4 !== var3)) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
@@ -74,8 +74,8 @@ case 2:
             var3['top'] = var5;
             var3 = var4.bind(var1)(var3);
 case 4:
-            var4 = _closure1_slot5;
-            var3 = _closure1_slot4;
+            var4 = _closure1_slot4;
+            var3 = _closure1_slot3;
             var2 = {};
             var2['style'] = var1;
             var1 = undefined;
@@ -83,24 +83,24 @@ case 4:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = function SolidCutoutOverlay(arg1) {
         var2 = arg1;
         var3 = var2.backgroundColor;
         var _closure2_slot0 = var3;
         var6 = var2.cutouts;
-        var4 = _closure1_slot5;
-        var3 = _closure1_slot4;
+        var4 = _closure1_slot4;
+        var3 = _closure1_slot3;
         var2 = {};
         var7 = 'none';
         var2['pointerEvents'] = var7;
-        var5 = _closure1_slot9;
+        var5 = _closure1_slot8;
         var5 = var5.solidCutoutContainer;
         var2['style'] = var5;
         var5 = var6.map;
         var1 = function(arg1, arg2) {
-            var5 = _closure1_slot5;
-            var4 = _closure1_slot10;
+            var5 = _closure1_slot4;
+            var4 = _closure1_slot9;
             var3 = {};
             var1 = _closure2_slot0;
             var3['backgroundColor'] = var1;
@@ -117,28 +117,7 @@ case 4:
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
-    var1 = function TokenSolidCutoutOverlay(arg1) {
-        var1 = arg1;
-        var6 = var1.backgroundColor;
-        var5 = var1.cutouts;
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var2 = 3;
-        var2 = var4[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.useToken;
-        var6 = var2.bind(var3)(var6);
-        var3 = _closure1_slot5;
-        var2 = _closure1_slot11;
-        var1 = {};
-        var1['backgroundColor'] = var6;
-        var1['cutouts'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot12 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var6 = var1.Object;
     var4 = var6.defineProperty;
@@ -152,28 +131,27 @@ case 4:
     var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
-    var _closure1_slot3 = var2;
     var2 = 1;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
     var9 = var2.StyleSheet;
     var2 = var2.View;
-    var _closure1_slot4 = var2;
+    var _closure1_slot3 = var2;
     var2 = 2;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
     var4 = var2.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var2 = var2.jsxs;
-    var _closure1_slot6 = var2;
+    var _closure1_slot5 = var2;
     var2 = {};
     var4 = 'circle';
     var2['Circle'] = var4;
     var4 = 'rounded-rect';
     var2['RoundedRect'] = var4;
-    var _closure1_slot7 = var2;
+    var _closure1_slot6 = var2;
     var4 = new Array(0);
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var6 = var9.create;
     var4 = {};
     var11 = {};
@@ -186,16 +164,16 @@ case 4:
     var11['position'] = var12;
     var4['solidCutout'] = var11;
     var4 = var6.bind(var9)(var4);
-    var _closure1_slot9 = var4;
-    var4 = 6;
+    var _closure1_slot8 = var4;
+    var4 = 5;
     var4 = var8[var4];
     var9 = var10.bind(var1)(var4);
     var6 = var9.createAnimatedComponent;
-    var4 = 5;
+    var4 = 4;
     var4 = var8[var4];
     var4 = var10.bind(var1)(var4);
     var4 = var6.bind(var9)(var4);
-    var6 = 7;
+    var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -218,22 +196,20 @@ case 0:
             var16 = var4;
             var15 = var3;
             var6 = copyDataProperties(var17, var16, var15);
-            var9 = _closure1_slot3;
-            var5 = var9.useContext;
-            var10 = _closure1_slot0;
+            var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 4;
+            var3 = 3;
             var3 = var4[var3];
             var4 = undefined;
-            var3 = var10.bind(var4)(var3);
-            var3 = var3.CutoutBackgroundContext;
-            var14 = var5.bind(var9)(var3);
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.useCutoutBackgroundColor;
+            var14 = var3.bind(var5)();
             var3 = var2 != var14;
             var9 = var13;
             var5 = null;
             if(!var3) { _fun0002_ip = 6; continue _fun0002 }
 case 7:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var10 = var2 != var13;
             if(!var10) { _fun0002_ip = 8; continue _fun0002 }
 case 9:
@@ -243,16 +219,8 @@ case 8:
             var2 = null;
             if(!var10) { _fun0002_ip = 10; continue _fun0002 }
 case 11:
-            var12 = _closure1_slot5;
-            var11 = 'string';
-            var10 = typeof var14;
-            if(!(var11 !== var10)) { _fun0002_ip = 12; continue _fun0002 }
-case 13:
-            var11 = _closure1_slot12;
-            _fun0002_ip = 14; continue _fun0002;
-case 12:
-            var11 = _closure1_slot11;
-case 14:
+            var12 = _closure1_slot4;
+            var11 = _closure1_slot10;
             var10 = {};
             var10['backgroundColor'] = var14;
             var10['cutouts'] = var13;
@@ -261,10 +229,10 @@ case 10:
             var5 = var2;
             var9 = var3;
 case 6:
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};

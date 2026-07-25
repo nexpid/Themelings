@@ -10,33 +10,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function validateGuildId(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-            var3 = arg1;
+            var4 = arg1;
             var1 = null;
-            var1 = var1 != var3;
+            var1 = var1 != var4;
             if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
             var2 = 'null';
-            var1 = var2 !== var3;
+            var1 = var2 !== var4;
 case 2:
             if(!var1) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-            var2 = _closure1_slot6;
-            var1 = var3 !== var2;
+            var2 = _closure1_slot5;
+            var1 = var4 !== var2;
 case 4:
             if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
             var2 = 'undefined';
-            var1 = var2 !== var3;
+            var1 = var2 !== var4;
 case 6:
             if(!var1) { _fun0001_ip = 8; continue _fun0001 }
 case 9:
-            var2 = _closure1_slot5;
-            var1 = var3 !== var2;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var2 = 3;
+            var3 = var3[var2];
+            var2 = undefined;
+            var3 = var5.bind(var2)(var3);
+            var2 = var3.isFavoritesGuildId;
+            var2 = var2.bind(var3)(var4);
+            var1 = !var2;
 case 8:
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot6 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -57,10 +64,8 @@ case 8:
     var6 = 2;
     var6 = var5[var6];
     var6 = var4.bind(var1)(var6);
-    var7 = var6.FAVORITES;
-    var _closure1_slot5 = var7;
     var6 = var6.ME;
-    var _closure1_slot6 = var6;
+    var _closure1_slot5 = var6;
     var2 = function() {
         var4 = _closure1_slot4;
         var3 = function GuildSubscriptions(arg1) {
@@ -72,7 +77,7 @@ case 8:
             var5 = var6.bind(var1)(var3, var5);
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var5 = 3;
+            var5 = 4;
             var5 = var6[var5];
             var9 = var7.bind(var1)(var5);
             var5 = var9.prototype;
@@ -91,7 +96,7 @@ case 8:
             var5 = new var12[var9](var11, var10);
             var5 = var5 instanceof Object ? var5 : var8;
             var3['_members'] = var5;
-            var5 = 4;
+            var5 = 5;
             var5 = var6[var5];
             var9 = var7.bind(var1)(var5);
             var5 = var9.prototype;
@@ -110,7 +115,7 @@ case 8:
             var5 = new var12[var9](var11, var10);
             var5 = var5 instanceof Object ? var5 : var8;
             var3['_channels'] = var5;
-            var5 = 5;
+            var5 = 6;
             var5 = var6[var5];
             var8 = var7.bind(var1)(var5);
             var5 = var8.prototype;
@@ -168,7 +173,7 @@ case 8:
             var5 = {};
             var3['_pending'] = var5;
             var5 = _closure1_slot0;
-            var4 = 6;
+            var4 = 7;
             var4 = var6[var4];
             var4 = var5.bind(var1)(var4);
             var6 = var4.DelayedCall;
@@ -435,7 +440,7 @@ case 15:
             var _closure3_slot0 = var3;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var4 = var4[var1];
             var1 = undefined;
             var6 = var5.bind(var1)(var4);
@@ -467,7 +472,7 @@ case 15:
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
                 var5 = arg1;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var5);
                 if(!var2) { _fun0005_ip = 17; continue _fun0005 }
@@ -490,7 +495,7 @@ case 17:
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
                 var5 = arg1;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var5);
                 if(!var2) { _fun0006_ip = 17; continue _fun0006 }
@@ -513,7 +518,7 @@ case 17:
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                 var6 = arg1;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var6);
                 var1 = !var2;
@@ -540,7 +545,7 @@ case 18:
 case 0:
                 var4 = arg1;
                 var2 = this;
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot6;
                 var1 = undefined;
                 var3 = var3.bind(var1)(var4);
                 if(var3) { _fun0008_ip = 20; continue _fun0008 }
@@ -569,7 +574,7 @@ case 20:
 case 0:
                 var5 = arg1;
                 var4 = this;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var5);
                 var6 = false;
@@ -593,7 +598,7 @@ case 20:
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
                 var6 = arg1;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var6);
                 var1 = !var2;
@@ -619,7 +624,7 @@ case 18:
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
                 var5 = arg1;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var5);
                 var1 = !var2;
@@ -673,7 +678,7 @@ case 0:
                 var5 = arg1;
                 var3 = arg2;
                 var4 = this;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot6;
                 var1 = undefined;
                 var2 = var2.bind(var1)(var5);
                 if(!var2) { _fun0012_ip = 22; continue _fun0012 }
@@ -698,14 +703,14 @@ case 22:
         return var1;
     };
     var2 = var2.bind(var1)();
-    var6 = 8;
+    var6 = 9;
     var6 = var5[var6];
     var8 = var4.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'lib/guild/GuildSubscriptions.tsx';
     var6 = var7.bind(var8)(var6);
     var3['default'] = var2;
-    var2 = 4;
+    var2 = 5;
     var6 = var5[var2];
     var6 = var4.bind(var1)(var6);
     var6 = var6.MINIMUM_RANGE;
