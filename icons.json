@@ -3437,13 +3437,13 @@
     },
     "gmail": {
         "file": "app/modules/instant_invite/native/images/gmail.png",
-        "hash": "9a94e0c492e9818d47f2c1c2afbb652d",
+        "hash": "032ba055130436392254ce3ba39e9456",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "googleauth-logo": {
         "file": "app/images/googleauth-logo.png",
@@ -9300,13 +9300,13 @@
     },
     "line": {
         "file": "app/modules/instant_invite/native/images/line.png",
-        "hash": "282a37ea44fbb33da5ed05f66bdd8373",
+        "hash": "36751208c860de1cbd5435bad168b075",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "link_expired": {
         "file": "app/images/native/link_expired.png",
@@ -9519,13 +9519,13 @@
     },
     "mail": {
         "file": "app/modules/instant_invite/native/images/mail.png",
-        "hash": "58baf8fa6980b292f561b68909cea4ab",
+        "hash": "cc54bd683628b7a915bf80d8d6517c1e",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "mallow": {
         "file": "app/modules/nuf_channels/native/images/mallow.png",
@@ -9648,13 +9648,13 @@
     },
     "messages": {
         "file": "app/modules/instant_invite/native/images/messages.png",
-        "hash": "ec8605be359d5ecc09e96a20094dce33",
+        "hash": "811fb35960f597c4ee3417f16bd2f9e6",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "MessagesTab": {
         "file": "app/design/components/LottieIcon/native/generated/lotties/MessagesTab.lottie",
@@ -9667,13 +9667,13 @@
     },
     "messenger": {
         "file": "app/modules/instant_invite/native/images/messenger.png",
-        "hash": "107347ad5bb8904d4b6b201b2b04baf4",
+        "hash": "cc6b65382ac11a7c39e085140d379e5a",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "mfa-server": {
         "file": "app/images/native/mfa-server.png",
@@ -12019,13 +12019,13 @@
     },
     "telegram": {
         "file": "app/modules/instant_invite/native/images/telegram.png",
-        "hash": "580460ed12da01baebfa5215c1203c15",
+        "hash": "19a79c674ca352a1b9c59552160bbdc6",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "TextControllerIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TextControllerIcon.png",
@@ -12425,13 +12425,13 @@
     },
     "twitter": {
         "file": "app/modules/instant_invite/native/images/twitter.png",
-        "hash": "f80e4fae7fb957b19c0df26969605319",
+        "hash": "a07985aa2246ccd4facb50f3c745ccda",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "TwitterNeutralIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/TwitterNeutralIcon.png",
@@ -12922,13 +12922,13 @@
     },
     "whatsapp": {
         "file": "app/modules/instant_invite/native/images/whatsapp.png",
-        "hash": "615539ba0c63645e5c19643e8d442753",
+        "hash": "bc9640d059e4504fae6e197e103e15f0",
         "scales": [
             2,
             3
         ],
-        "width": 52,
-        "height": 52
+        "width": 60,
+        "height": 60
     },
     "WindowLaunchIcon": {
         "file": "app/design/components/Icon/native/redesign/generated/images/WindowLaunchIcon.png",
