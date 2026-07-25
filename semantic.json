@@ -1649,63 +1649,63 @@
             }
         ]
     },
-    "CARD_GRADIENT_BG": {
+    "CARD_MUTED_BG": {
         "dark": [
-            "#00000066",
+            "#4e50584d",
             {
-                "raw": "BLACK",
-                "opacity": 0.4
+                "raw": "PRIMARY_500",
+                "opacity": 0.3
             }
         ],
         "light": [
-            "#ffffffb3",
+            "#80848e14",
             {
-                "raw": "WHITE",
-                "opacity": 0.7
+                "raw": "PRIMARY_400",
+                "opacity": 0.08
             }
         ],
         "midnight": [
-            "#00000066",
+            "#6c6f7c29",
             {
-                "raw": "BLACK",
-                "opacity": 0.4
+                "raw": "PLUM_11",
+                "opacity": 0.16
             }
         ],
         "darker": [
-            "#00000066",
+            "#6c6f7c1f",
             {
-                "raw": "BLACK",
-                "opacity": 0.4
+                "raw": "PLUM_11",
+                "opacity": 0.12
             }
         ]
     },
-    "CARD_GRADIENT_PRESSED_BG": {
+    "CARD_MUTED_PRESSED_BG": {
         "dark": [
-            "#00000080",
+            "#4e50587a",
             {
-                "raw": "BLACK",
-                "opacity": 0.5
+                "raw": "PRIMARY_500",
+                "opacity": 0.48
             }
         ],
         "light": [
-            "#ffffff80",
+            "#80848e29",
             {
-                "raw": "WHITE",
-                "opacity": 0.5
+                "raw": "PRIMARY_400",
+                "opacity": 0.16
             }
         ],
         "midnight": [
-            "#00000080",
+            "#6c6f7c1f",
             {
-                "raw": "BLACK",
-                "opacity": 0.5
+                "raw": "PLUM_11",
+                "opacity": 0.12
             }
         ],
         "darker": [
-            "#00000080",
+            "#6c6f7c29",
             {
-                "raw": "BLACK",
-                "opacity": 0.5
+                "raw": "PLUM_11",
+                "opacity": 0.16
             }
         ]
     },
@@ -7889,6 +7889,96 @@
             }
         ]
     },
+    "MOBILE_VOICE_MESSAGE_RECORDING_SPINNER_COLOR": {
+        "dark": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_VOICE_MESSAGE_RECORDING_WAVEFORM_BAR_BACKGROUND": {
+        "dark": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#ffffff",
+            {
+                "raw": "WHITE",
+                "opacity": 1
+            }
+        ]
+    },
+    "MOBILE_VOICE_PANEL_BACKGROUND": {
+        "dark": [
+            "#232428",
+            {
+                "raw": "PRIMARY_660",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#ebedef",
+            {
+                "raw": "PRIMARY_160",
+                "opacity": 1
+            }
+        ],
+        "midnight": [
+            "#000000",
+            {
+                "raw": "BLACK",
+                "opacity": 1
+            }
+        ],
+        "darker": [
+            "#131318",
+            {
+                "raw": "PLUM_23",
+                "opacity": 1
+            }
+        ]
+    },
     "MOBILE_VOICE_PANEL_BADGE_BACKGROUND": {
         "dark": [
             "#111214",
@@ -9176,6 +9266,36 @@
             {
                 "raw": "BRAND_500",
                 "opacity": 1
+            }
+        ]
+    },
+    "SHARE_CHAT_INPUT_BACKGROUND": {
+        "dark": [
+            "#1e1f22",
+            {
+                "raw": "PRIMARY_700",
+                "opacity": 1
+            }
+        ],
+        "light": [
+            "#00000014",
+            {
+                "raw": "BLACK",
+                "opacity": 0.08
+            }
+        ],
+        "midnight": [
+            "#bcc1fa1a",
+            {
+                "raw": "BRAND_300",
+                "opacity": 0.1
+            }
+        ],
+        "darker": [
+            "#6c6f7c1f",
+            {
+                "raw": "PLUM_11",
+                "opacity": 0.12
             }
         ]
     },

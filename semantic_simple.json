@@ -329,17 +329,17 @@
         "midnight": "#6c6f7c24",
         "darker": "#6c6f7c1f"
     },
-    "CARD_GRADIENT_BG": {
-        "dark": "#00000066",
-        "light": "#ffffffb3",
-        "midnight": "#00000066",
-        "darker": "#00000066"
+    "CARD_MUTED_BG": {
+        "dark": "#4e50584d",
+        "light": "#80848e14",
+        "midnight": "#6c6f7c29",
+        "darker": "#6c6f7c1f"
     },
-    "CARD_GRADIENT_PRESSED_BG": {
-        "dark": "#00000080",
-        "light": "#ffffff80",
-        "midnight": "#00000080",
-        "darker": "#00000080"
+    "CARD_MUTED_PRESSED_BG": {
+        "dark": "#4e50587a",
+        "light": "#80848e29",
+        "midnight": "#6c6f7c1f",
+        "darker": "#6c6f7c29"
     },
     "CARD_PRIMARY_PRESSED_BG": {
         "dark": "#282a2e",
@@ -1577,6 +1577,24 @@
         "midnight": "#7984f5",
         "darker": "#949cf7"
     },
+    "MOBILE_VOICE_MESSAGE_RECORDING_SPINNER_COLOR": {
+        "dark": "#ffffff",
+        "light": "#ffffff",
+        "midnight": "#ffffff",
+        "darker": "#ffffff"
+    },
+    "MOBILE_VOICE_MESSAGE_RECORDING_WAVEFORM_BAR_BACKGROUND": {
+        "dark": "#ffffff",
+        "light": "#ffffff",
+        "midnight": "#ffffff",
+        "darker": "#ffffff"
+    },
+    "MOBILE_VOICE_PANEL_BACKGROUND": {
+        "dark": "#232428",
+        "light": "#ebedef",
+        "midnight": "#000000",
+        "darker": "#131318"
+    },
     "MOBILE_VOICE_PANEL_BADGE_BACKGROUND": {
         "dark": "#111214",
         "light": "#ffffff",
@@ -1834,6 +1852,12 @@
         "light": "#5865f2",
         "midnight": "#5865f2",
         "darker": "#5865f2"
+    },
+    "SHARE_CHAT_INPUT_BACKGROUND": {
+        "dark": "#1e1f22",
+        "light": "#00000014",
+        "midnight": "#bcc1fa1a",
+        "darker": "#6c6f7c1f"
     },
     "SLIDER_TRACK_BACKGROUND": {
         "dark": "#34343a",
