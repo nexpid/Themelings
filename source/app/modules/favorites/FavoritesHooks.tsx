@@ -57,28 +57,32 @@ case 6:
         }
     };
     var _closure1_slot9 = var1;
-    var7 = function useFavoritesAccess(arg1) {
+    var7 = function useFavoritesAccess() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
 case 0:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 7;
-            var1 = var3[var1];
+            var6 = arguments[0];
             var3 = undefined;
+            if(!(var6 === var3)) { _fun0002_ip = 13; continue _fun0002 }
+case 14:
+            var6 = 'useFavoritesAccess';
+case 13:
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 7;
+            var1 = var5[var1];
             var5 = var2.bind(var3)(var1);
             var2 = var5.useFavoritesGuildConfig;
             var1 = {};
-            var6 = arg1;
             var1['location'] = var6;
             var1 = var2.bind(var5)(var1);
             var9 = var1.enabled;
             var6 = var1.hasHigherPrivileges;
             var1 = var1.isFreemium;
             var5 = var3 !== var1;
-            if(!var5) { _fun0002_ip = 13; continue _fun0002 }
-case 14:
+            if(!var5) { _fun0002_ip = 15; continue _fun0002 }
+case 16:
             var5 = var1;
-case 13:
+case 15:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
             var1 = 8;
@@ -140,12 +144,12 @@ case 13:
 case 0:
             var14 = arguments[0];
             var13 = undefined;
-            if(!(var14 === var13)) { _fun0003_ip = 15; continue _fun0003 }
-case 16:
+            if(!(var14 === var13)) { _fun0003_ip = 17; continue _fun0003 }
+case 18:
             var3 = _closure1_slot5;
             var1 = var3.getFavoriteChannels;
             var14 = var1.bind(var3)();
-case 15:
+case 17:
             var _closure2_slot0 = var14;
             var12 = null;
             var11 = '';
@@ -156,9 +160,9 @@ case 15:
             var4 = 11;
             var3 = undefined;
             for(var6 in var9)
-case 17:
+case 19:
             {
-case 18:
+case 20:
                 var15 = var6;
                 var17 = var14[var15];
                 var16 = var17.type;
@@ -168,8 +172,8 @@ case 18:
                 var15 = var18.bind(var13)(var15);
                 var15 = var15.FavoriteChannelType;
                 var15 = var15.CATEGORY;
-                if(var16 !== var15) { _fun0003_ip = 17; continue _fun0003 }
-case 19:
+                if(var16 !== var15) { _fun0003_ip = 19; continue _fun0003 }
+case 21:
                 var16 = var1.push;
                 var15 = {};
                 var18 = var17.id;
@@ -177,15 +181,15 @@ case 19:
                 var3 = var17.nickname;
                 var18 = var12 != var3;
                 var17 = var11;
-                if(!var18) { _fun0003_ip = 20; continue _fun0003 }
-case 21:
+                if(!var18) { _fun0003_ip = 22; continue _fun0003 }
+case 23:
                 var17 = var3;
-case 20:
+case 22:
                 var15['name'] = var17;
                 var15 = var16.bind(var1)(var15);
-                _fun0003_ip = 17; continue _fun0003;
+                _fun0003_ip = 19; continue _fun0003;
             }
-case 22:
+case 24:
             var3 = var1.sort;
             var2 = function(arg1, arg2) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -197,30 +201,30 @@ case 0:
                     var4 = null;
                     var2 = var4 == var1;
                     var6 = undefined;
-                    if(var2) { _fun0004_ip = 23; continue _fun0004 }
-case 24:
+                    if(var2) { _fun0004_ip = 25; continue _fun0004 }
+case 26:
                     var6 = var1.order;
-case 23:
+case 25:
                     var7 = var4 != var6;
                     var1 = 0;
-                    if(!var7) { _fun0004_ip = 25; continue _fun0004 }
+                    if(!var7) { _fun0004_ip = 27; continue _fun0004 }
 case 2:
                     var1 = var6;
-case 25:
+case 27:
                     var6 = _closure2_slot0;
                     var5 = arg2;
                     var5 = var5.id;
                     var5 = var6[var5];
                     var6 = var4 == var5;
                     var3 = undefined;
-                    if(var6) { _fun0004_ip = 17; continue _fun0004 }
-case 26:
+                    if(var6) { _fun0004_ip = 19; continue _fun0004 }
+case 28:
                     var3 = var5.order;
-case 17:
+case 19:
                     var4 = var4 != var3;
                     var2 = 0;
                     if(!var4) { _fun0004_ip = 8; continue _fun0004 }
-case 18:
+case 20:
                     var2 = var3;
 case 8:
                     var1 = var1 - var2;
@@ -324,7 +328,7 @@ case 0:
             var1['hasHigherPrivileges'] = var5;
             var5 = var3 !== var6;
             if(!var5) { _fun0005_ip = 10; continue _fun0005 }
-case 27:
+case 29:
             var5 = var6;
 case 10:
             var1['isFreemium'] = var5;
@@ -440,58 +444,58 @@ case 0:
                     var2 = _closure2_slot0;
                     var1 = null;
                     var1 = var1 != var2;
-                    if(!var1) { _fun0007_ip = 28; continue _fun0007 }
-case 29:
+                    if(!var1) { _fun0007_ip = 30; continue _fun0007 }
+case 31:
                     var6 = _closure1_slot5;
                     var3 = var6.isFavorite;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var2 = var3.bind(var6)(var2);
                     if(var2) { _fun0007_ip = 8; continue _fun0007 }
-case 30:
+case 32:
                     var6 = _closure2_slot0;
                     var3 = var6.isThread;
                     var3 = var3.bind(var6)();
-                    if(!var3) { _fun0007_ip = 18; continue _fun0007 }
-case 31:
+                    if(!var3) { _fun0007_ip = 20; continue _fun0007 }
+case 33:
                     var6 = _closure1_slot5;
                     var5 = var6.isFavorite;
                     var4 = _closure2_slot0;
                     var4 = var4.parent_id;
                     var3 = var5.bind(var6)(var4);
-case 18:
+case 20:
                     var2 = var3;
 case 8:
                     var1 = var2;
-case 28:
+case 30:
                     return var1;
                 }
             };
             var2 = var7.bind(var8)(var6, var2, var4);
-            if(!var1) { _fun0006_ip = 19; continue _fun0006 }
-case 32:
+            if(!var1) { _fun0006_ip = 21; continue _fun0006 }
+case 34:
             var4 = null;
             var1 = null;
-            if(!var5) { _fun0006_ip = 33; continue _fun0006 }
-case 34:
-            var1 = null;
-            if(!var2) { _fun0006_ip = 33; continue _fun0006 }
-case 35:
-            if(!(var4 != var3)) { _fun0006_ip = 19; continue _fun0006 }
+            if(!var5) { _fun0006_ip = 35; continue _fun0006 }
 case 36:
+            var1 = null;
+            if(!var2) { _fun0006_ip = 35; continue _fun0006 }
+case 37:
+            if(!(var4 != var3)) { _fun0006_ip = 21; continue _fun0006 }
+case 38:
             var2 = var3.isCategory;
             var2 = var2.bind(var3)();
             var1 = null;
-            if(var2) { _fun0006_ip = 33; continue _fun0006 }
-case 19:
+            if(var2) { _fun0006_ip = 35; continue _fun0006 }
+case 21:
             var2 = null;
             var4 = var2 != var3;
-            if(!var4) { _fun0006_ip = 37; continue _fun0006 }
-case 38:
+            if(!var4) { _fun0006_ip = 39; continue _fun0006 }
+case 40:
             var2 = var3;
-case 37:
+case 39:
             var1 = var2;
-case 33:
+case 35:
             return var1;
         }
     };

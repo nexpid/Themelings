@@ -303,7 +303,7 @@ case 2:
             var6 = var23[var18];
             var14 = var24.bind(var5)(var6);
             var13 = var14.useAnimatedStyle;
-            var6 = function b() {
+            var6 = function H() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
                     var2 = _closure2_slot1;
@@ -389,7 +389,7 @@ case 7:
             var13 = var23[var18];
             var17 = var24.bind(var5)(var13);
             var14 = var17.useAnimatedStyle;
-            var13 = function H() {
+            var13 = function b() {
                 var1 = {};
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -784,75 +784,76 @@ case 24:
     var2 = function useRedesignGuildHeaderHeight(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
-            var6 = arg1;
+            var7 = arg1;
             var5 = _closure1_slot1;
-            var7 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 8;
-            var1 = var7[var1];
+            var1 = var6[var1];
             var3 = undefined;
             var1 = var5.bind(var3)(var1);
             var1 = var1.bind(var3)();
             var4 = 9;
-            var4 = var7[var4];
+            var4 = var6[var4];
             var4 = var5.bind(var3)(var4);
-            var7 = var4.bind(var3)();
-            if(var1) { _fun0006_ip = 26; continue _fun0006 }
+            var6 = var4.bind(var3)();
+            var5 = var1;
+            if(var5) { _fun0006_ip = 26; continue _fun0006 }
 case 27:
-            var5 = _closure1_slot0;
+            var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 10;
-            var4 = var8[var4];
-            var5 = var5.bind(var3)(var4);
-            var4 = var5.isThemeDark;
-            var1 = var4.bind(var5)(var7);
+            var1 = 10;
+            var1 = var8[var1];
+            var4 = var4.bind(var3)(var1);
+            var1 = var4.isThemeDark;
+            var5 = var1.bind(var4)(var6);
 case 26:
-            var5 = _closure1_slot0;
+            var6 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var7 = 11;
-            var7 = var4[var7];
-            var8 = var5.bind(var3)(var7);
-            var7 = var8.useFontScale;
-            var12 = var7.bind(var8)();
+            var1 = 11;
+            var1 = var4[var1];
+            var8 = var6.bind(var3)(var1);
+            var1 = var8.useFontScale;
+            var13 = var1.bind(var8)();
             var8 = _closure1_slot1;
             var10 = 12;
-            var7 = var4[var10];
-            var7 = var8.bind(var3)(var7);
-            var8 = var7.bind(var3)(var6);
-            var7 = null;
-            var9 = var7 != var8;
-            var7 = 13;
-            var7 = var4[var7];
-            var8 = var5.bind(var3)(var7);
-            var7 = var8.isFavoritesGuildId;
-            var6 = var6.id;
-            var14 = var7.bind(var8)(var6);
-            var13 = 14;
-            var4 = var4[var13];
-            var6 = var5.bind(var3)(var4);
-            var5 = var6.scaleTextLineHeight;
+            var1 = var4[var10];
+            var1 = var8.bind(var3)(var1);
+            var8 = var1.bind(var3)(var7);
+            var1 = null;
+            var1 = var1 != var8;
+            var8 = 13;
+            var8 = var4[var8];
+            var9 = var6.bind(var3)(var8);
+            var8 = var9.isFavoritesGuildId;
+            var7 = var7.id;
+            var9 = var8.bind(var9)(var7);
+            var14 = 14;
+            var4 = var4[var14];
+            var7 = var6.bind(var3)(var4);
+            var6 = var7.scaleTextLineHeight;
             var4 = 'redesign/heading-18/bold';
-            var8 = var5.bind(var6)(var4, var12);
+            var12 = var6.bind(var7)(var4, var13);
             var4 = 0;
-            if(!var1) { _fun0006_ip = 28; continue _fun0006 }
+            if(!var5) { _fun0006_ip = 28; continue _fun0006 }
 case 29:
             var4 = 1;
 case 28:
-            var6 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 15;
-            var1 = var5[var1];
-            var11 = var6.bind(var3)(var1);
+            var6 = 15;
+            var6 = var5[var6];
+            var11 = var8.bind(var3)(var6);
             var6 = var11.useToken;
             var15 = _closure1_slot1;
-            var1 = 16;
-            var5 = var5[var1];
+            var8 = 16;
+            var5 = var5[var8];
             var5 = var15.bind(var3)(var5);
             var5 = var5.modules;
             var5 = var5.mobile;
             var5 = var5.CHANNEL_LIST_SUBTITLE_TEXT_STYLE;
             var11 = var6.bind(var11)(var5);
             var6 = 0;
-            if(var14) { _fun0006_ip = 30; continue _fun0006 }
+            if(var9) { _fun0006_ip = 30; continue _fun0006 }
 case 31:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -863,27 +864,41 @@ case 31:
             var5 = _closure1_slot12;
             var6 = var15 + var5;
 case 30:
-            var5 = var1;
-            if(!var14) { _fun0006_ip = 32; continue _fun0006 }
+            var5 = var8;
+            if(!var9) { _fun0006_ip = 32; continue _fun0006 }
 case 33:
             var5 = var10;
 case 32:
             var7 = 0;
-            if(!var9) { _fun0006_ip = 34; continue _fun0006 }
+            if(!var1) { _fun0006_ip = 34; continue _fun0006 }
 case 35:
             var10 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var9 = var9[var13];
-            var10 = var10.bind(var3)(var9);
-            var9 = var10.scaleTextLineHeight;
-            var7 = var9.bind(var10)(var11, var12);
+            var1 = _closure1_slot2;
+            var1 = var1[var14];
+            var10 = var10.bind(var3)(var1);
+            var1 = var10.scaleTextLineHeight;
+            var7 = var1.bind(var10)(var11, var13);
 case 34:
+            var1 = var12;
+            if(!var9) { _fun0006_ip = 36; continue _fun0006 }
+case 37:
+            var9 = global;
+            var11 = var9.Math;
+            var10 = var11.max;
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var9 = 17;
+            var9 = var14[var9];
+            var9 = var13.bind(var3)(var9);
+            var9 = var9.SMALL_BUTTON_HEIGHT;
+            var1 = var10.bind(var11)(var12, var9);
+case 36:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var2 = 18;
             var2 = var10[var2];
             var2 = var9.bind(var3)(var2);
-            var1 = var1 + var8;
+            var1 = var8 + var1;
             var1 = var1 + var7;
             var1 = var1 + var6;
             var1 = var1 + var5;

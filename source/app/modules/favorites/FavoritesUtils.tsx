@@ -82,6 +82,15 @@ case 8:
     };
     var3['getFavoritesAwareGuildName'] = var5;
     var3['isFavoritesGuildId'] = var4;
+    var4 = function isFavoritesGuildCategoryNameValid(arg1) {
+        var2 = arg1;
+        var1 = var2.trim;
+        var2 = var1.bind(var2)();
+        var1 = '';
+        var1 = var1 !== var2;
+        return var1;
+    };
+    var3['isFavoritesGuildCategoryNameValid'] = var4;
     var2 = function canFavoriteChannelType(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:

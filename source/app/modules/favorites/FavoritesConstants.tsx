@@ -38,5 +38,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['FAVORITES_UNCATEGORIZED_PARENT_ID'] = var2;
     var2 = 200;
     var3['MAX_FAVORITE_CHANNELS'] = var2;
+    var2 = 20;
+    var3['MAX_FAVORITES_ADD_CHANNEL_COUNT'] = var2;
+    var2 = 100;
+    var3['MAX_FAVORITE_CATEGORY_NAME_LENGTH'] = var2;
     return var1;
 })();

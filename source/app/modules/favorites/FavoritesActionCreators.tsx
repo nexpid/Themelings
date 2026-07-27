@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot11;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function getNextPositionFromChannels(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -221,7 +221,7 @@ case 41:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function cleanFavoriteChannels(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -303,7 +303,7 @@ case 53:
 case 24:
                 var20 = _closure1_slot5;
                 var19 = var20.can;
-                var18 = _closure1_slot8;
+                var18 = _closure1_slot9;
                 var18 = var18.VIEW_CHANNEL;
                 var17 = var19.bind(var20)(var18, var15);
 case 55:
@@ -318,7 +318,7 @@ case 57:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = function cleanupChannelParentId(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
 case 0:
@@ -363,83 +363,122 @@ case 48:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
-    var1 = function hasReachedLimit(arg1) {
+    var _closure1_slot14 = var1;
+    var1 = function getReachedLimit(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var5 = arg1;
-            var1 = _closure1_slot12;
-            var6 = undefined;
-            var1 = var1.bind(var6)(var5);
+            var8 = arg1;
+            var2 = _closure1_slot13;
+            var7 = undefined;
+            var2 = var2.bind(var7)(var8);
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var9 = 8;
+            var2 = var2[var9];
+            var3 = var3.bind(var7)(var2);
+            var2 = var3.size;
+            var3 = var2.bind(var3)(var8);
+            var2 = _closure1_slot8;
+            if(!(!(var3 >= var2))) { _fun0007_ip = 22; continue _fun0007 }
+case 59:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 8;
-            var1 = var4[var1];
-            var3 = var3.bind(var6)(var1);
-            var1 = var3.getFavoritesAccess;
-            var1 = var1.bind(var3)();
-            var3 = var1.favoriteLimit;
-            var1 = 0;
-            var4 = var3 <= var1;
-            var1 = !var4;
-            if(var4) { _fun0007_ip = 62; continue _fun0007 }
-case 44:
-            var4 = _closure1_slot1;
-            var7 = _closure1_slot2;
             var2 = 9;
-            var2 = var7[var2];
-            var4 = var4.bind(var6)(var2);
-            var2 = var4.size;
-            var2 = var2.bind(var4)(var5);
-            var1 = var2 >= var3;
+            var2 = var4[var2];
+            var3 = var3.bind(var7)(var2);
+            var2 = var3.getFavoritesAccess;
+            var2 = var2.bind(var3)();
+            var4 = var2.favoriteLimit;
+            var2 = 0;
+            var5 = var4 <= var2;
+            var2 = null;
+            if(var5) { _fun0007_ip = 62; continue _fun0007 }
+case 63:
+            var6 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var5 = 6;
+            var5 = var10[var5];
+            var5 = var6.bind(var7)(var5);
+            var5 = var5.FavoriteChannelType;
+            var6 = var5.CATEGORY;
+            var5 = arg2;
+            var2 = null;
+            if(!(var5 !== var6)) { _fun0007_ip = 62; continue _fun0007 }
+case 64:
+            var6 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var5 = var5[var9];
+            var7 = var6.bind(var7)(var5);
+            var6 = var7.filter;
+            var5 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 6;
+                var3 = var3[var1];
+                var1 = undefined;
+                var1 = var4.bind(var1)(var3);
+                var1 = var1.FavoriteChannelType;
+                var1 = var1.CATEGORY;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var5 = var6.bind(var7)(var8, var5);
+            var5 = var5.length;
+            var5 = var5 >= var4;
+            var3 = null;
+            if(!var5) { _fun0007_ip = 65; continue _fun0007 }
+case 66:
+            var3 = var4;
+case 65:
+            var2 = var3;
 case 62:
+            return var2;
+case 22:
+            var1 = _closure1_slot8;
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
-    var1 = function showLimitReachedAlert() {
+    var _closure1_slot15 = var1;
+    var1 = function showLimitReachedAlert(arg1) {
         var3 = _closure1_slot1;
-        var11 = _closure1_slot2;
+        var9 = _closure1_slot2;
         var1 = 10;
-        var2 = var11[var1];
+        var2 = var9[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.show;
         var2 = {};
-        var10 = _closure1_slot0;
+        var6 = _closure1_slot0;
         var5 = 11;
-        var6 = var11[var5];
-        var6 = var10.bind(var1)(var6);
-        var8 = var6.intl;
-        var7 = var8.string;
-        var6 = var11[var5];
-        var6 = var10.bind(var1)(var6);
-        var6 = var6.t;
-        var6 = var6["+XYXtZ"];
-        var6 = var7.bind(var8)(var6);
-        var2['title'] = var6;
-        var6 = var11[var5];
-        var6 = var10.bind(var1)(var6);
-        var8 = var6.intl;
+        var7 = var9[var5];
+        var7 = var6.bind(var1)(var7);
+        var10 = var7.intl;
+        var8 = var10.string;
+        var7 = var9[var5];
+        var7 = var6.bind(var1)(var7);
+        var7 = var7.t;
+        var7 = var7["+XYXtZ"];
+        var7 = var8.bind(var10)(var7);
+        var2['title'] = var7;
+        var7 = var9[var5];
+        var7 = var6.bind(var1)(var7);
+        var8 = var7.intl;
         var7 = var8.formatToPlainString;
-        var5 = var11[var5];
-        var5 = var10.bind(var1)(var5);
+        var5 = var9[var5];
+        var5 = var6.bind(var1)(var5);
         var5 = var5.t;
         var6 = var5.JaIyFi;
         var5 = {};
-        var9 = 8;
-        var9 = var11[var9];
-        var10 = var10.bind(var1)(var9);
-        var9 = var10.getFavoritesAccess;
-        var9 = var9.bind(var10)();
-        var9 = var9.favoriteLimit;
+        var9 = arg1;
         var5['count'] = var9;
         var5 = var7.bind(var8)(var6, var5);
         var2['body'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function onSaveFailed() {
         var3 = _closure1_slot1;
         var9 = _closure1_slot2;
@@ -484,7 +523,7 @@ case 62:
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = function getFavoritesCount(arg1) {
         var1 = global;
         var3 = var1.Object;
@@ -494,7 +533,7 @@ case 62:
         var1 = var1.length;
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function getAnalyticsChannelType(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
@@ -509,7 +548,7 @@ case 0:
             var2 = null;
             var5 = arg2;
             var1 = null;
-            if(!(var5 !== var6)) { _fun0008_ip = 63; continue _fun0008 }
+            if(!(var5 !== var6)) { _fun0008_ip = 67; continue _fun0008 }
 case 43:
             var6 = _closure1_slot4;
             var5 = var6.getChannel;
@@ -517,22 +556,22 @@ case 43:
             var4 = var5.bind(var6)(var4);
             var5 = var2 == var4;
             var3 = undefined;
-            if(var5) { _fun0008_ip = 64; continue _fun0008 }
-case 65:
+            if(var5) { _fun0008_ip = 68; continue _fun0008 }
+case 69:
             var3 = var4.type;
-case 64:
+case 68:
             var4 = var2 != var3;
             var2 = null;
-            if(!var4) { _fun0008_ip = 66; continue _fun0008 }
-case 67:
+            if(!var4) { _fun0008_ip = 70; continue _fun0008 }
+case 71:
             var2 = var3;
-case 66:
+case 70:
             var1 = var2;
-case 63:
+case 67:
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var5 = function addFavoriteChannels(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
 case 0:
@@ -541,10 +580,10 @@ case 0:
             var1 = arg2;
             var _closure2_slot0 = var1;
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
+            if(!(var3 === var1)) { _fun0009_ip = 72; continue _fun0009 }
+case 73:
             var3 = 'channel_context_menu';
-case 68:
+case 72:
             var _closure2_slot1 = var3;
             var _closure2_slot2 = var1;
             var4 = var5.filter;
@@ -573,119 +612,125 @@ case 30:
             var4 = var5.bind(var1)(var4);
             var4 = var4.UserSettingsDelay;
             var10 = var4.FREQUENT_USER_ACTION;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var12 = 'favorites';
             var11 = function(arg1) {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
 case 0:
-                    var16 = arg1;
-                    var3 = _closure1_slot9;
+                    var17 = arg1;
+                    var3 = _closure1_slot10;
                     var2 = _closure2_slot2;
                     var1 = undefined;
-                    var14 = var3.bind(var1)(var2);
-                    var5 = var14.bind(var1)();
+                    var15 = var3.bind(var1)(var2);
+                    var5 = var15.bind(var1)();
                     var3 = var5.done;
                     var2 = false;
-                    var13 = 13;
-                    var12 = 6;
-                    var10 = null;
-                    var9 = 7;
-                    var8 = '';
-                    var7 = var5;
-                    var6 = false;
-                    if(var3) { _fun0010_ip = 70; continue _fun0010 }
+                    var14 = 13;
+                    var13 = 6;
+                    var11 = null;
+                    var10 = 7;
+                    var9 = '';
+                    var8 = var5;
+                    var7 = false;
+                    if(var3) { _fun0010_ip = 74; continue _fun0010 }
 case 7:
-                    var21 = var7.value;
-                    var5 = _closure1_slot14;
-                    var3 = var16.favoriteChannels;
-                    var5 = var5.bind(var1)(var3);
-                    var3 = var6;
-                    if(var5) { _fun0010_ip = 71; continue _fun0010 }
-case 41:
-                    var17 = _closure1_slot4;
-                    var5 = var17.getChannel;
-                    var25 = var5.bind(var17)(var21);
-                    var17 = var16.favoriteChannels;
-                    var22 = _closure1_slot0;
-                    var20 = _closure1_slot2;
-                    var5 = var20[var12];
-                    var5 = var22.bind(var1)(var5);
-                    var19 = var5.FavoriteChannel;
-                    var18 = var19.create;
-                    var5 = {};
-                    var5['nickname'] = var8;
-                    var20 = var20[var12];
-                    var20 = var22.bind(var1)(var20);
-                    var20 = var20.FavoriteChannelType;
-                    var20 = var20.REFERENCE_ORIGINAL;
-                    var5['type'] = var20;
-                    var22 = var10 != var25;
-                    var20 = undefined;
-                    if(!var22) { _fun0010_ip = 72; continue _fun0010 }
-case 16:
+                    var22 = var8.value;
+                    var6 = _closure1_slot15;
+                    var5 = var17.favoriteChannels;
+                    var18 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var13];
+                    var3 = var18.bind(var1)(var3);
+                    var3 = var3.FavoriteChannelType;
+                    var3 = var3.REFERENCE_ORIGINAL;
+                    var5 = var6.bind(var1)(var5, var3);
+                    var3 = var7;
+                    if(!(var11 == var5)) { _fun0010_ip = 75; continue _fun0010 }
+case 48:
+                    var18 = _closure1_slot4;
+                    var6 = var18.getChannel;
+                    var26 = var6.bind(var18)(var22);
+                    var18 = var17.favoriteChannels;
                     var23 = _closure1_slot0;
-                    var22 = _closure1_slot2;
-                    var22 = var22[var9];
-                    var22 = var23.bind(var1)(var22);
-                    var24 = var22.UInt32Value;
-                    var23 = var24.create;
-                    var22 = {};
-                    var25 = var25.type;
-                    var22['value'] = var25;
-                    var20 = var23.bind(var24)(var22);
-case 72:
-                    var5['channelType'] = var20;
-                    var22 = _closure1_slot11;
-                    var20 = var16.favoriteChannels;
-                    var20 = var22.bind(var1)(var20);
-                    var5['position'] = var20;
-                    var20 = _closure2_slot0;
-                    if(!(var10 == var20)) { _fun0010_ip = 73; continue _fun0010 }
-case 74:
-                    var20 = _closure1_slot7;
-                    _fun0010_ip = 24; continue _fun0010;
-case 73:
-                    var20 = _closure2_slot0;
-case 24:
-                    var5['parentId'] = var20;
-                    var5 = var18.bind(var19)(var5);
-                    var17[var21] = var5;
-                    var17 = _closure1_slot12;
-                    var5 = var16.favoriteChannels;
-                    var5 = var17.bind(var1)(var5);
-                    var17 = _closure1_slot13;
-                    var5 = var16.favoriteChannels;
-                    var5 = var17.bind(var1)(var5, var21);
-                    var22 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var17 = var5[var13];
-                    var20 = var22.bind(var1)(var17);
-                    var19 = var20.trackFavoritesGuildAddToFavorites;
-                    var18 = _closure2_slot1;
-                    var17 = _closure1_slot18;
-                    var5 = var5[var12];
-                    var5 = var22.bind(var1)(var5);
-                    var5 = var5.FavoriteChannelType;
-                    var5 = var5.REFERENCE_ORIGINAL;
-                    var17 = var17.bind(var1)(var21, var5);
-                    var21 = _closure1_slot17;
-                    var5 = var16.favoriteChannels;
-                    var5 = var21.bind(var1)(var5);
-                    var5 = var19.bind(var20)(var18, var17, var5);
-                    var17 = var14.bind(var1)();
-                    var5 = var17.done;
-                    var7 = var17;
-                    var6 = true;
-                    if(var5) { _fun0010_ip = 70; continue _fun0010 }
-case 75:
-                    _fun0010_ip = 7; continue _fun0010;
-case 71:
-                    var4 = _closure1_slot15;
-                    var4 = var4.bind(var1)();
-                    if(var3) { _fun0010_ip = 70; continue _fun0010 }
+                    var21 = _closure1_slot2;
+                    var6 = var21[var13];
+                    var6 = var23.bind(var1)(var6);
+                    var20 = var6.FavoriteChannel;
+                    var19 = var20.create;
+                    var6 = {};
+                    var6['nickname'] = var9;
+                    var21 = var21[var13];
+                    var21 = var23.bind(var1)(var21);
+                    var21 = var21.FavoriteChannelType;
+                    var21 = var21.REFERENCE_ORIGINAL;
+                    var6['type'] = var21;
+                    var23 = var11 != var26;
+                    var21 = undefined;
+                    if(!var23) { _fun0010_ip = 76; continue _fun0010 }
+case 77:
+                    var24 = _closure1_slot0;
+                    var23 = _closure1_slot2;
+                    var23 = var23[var10];
+                    var23 = var24.bind(var1)(var23);
+                    var25 = var23.UInt32Value;
+                    var24 = var25.create;
+                    var23 = {};
+                    var26 = var26.type;
+                    var23['value'] = var26;
+                    var21 = var24.bind(var25)(var23);
 case 76:
+                    var6['channelType'] = var21;
+                    var23 = _closure1_slot12;
+                    var21 = var17.favoriteChannels;
+                    var21 = var23.bind(var1)(var21);
+                    var6['position'] = var21;
+                    var21 = _closure2_slot0;
+                    if(!(var11 == var21)) { _fun0010_ip = 78; continue _fun0010 }
+case 79:
+                    var21 = _closure1_slot7;
+                    _fun0010_ip = 80; continue _fun0010;
+case 78:
+                    var21 = _closure2_slot0;
+case 80:
+                    var6['parentId'] = var21;
+                    var6 = var19.bind(var20)(var6);
+                    var18[var22] = var6;
+                    var18 = _closure1_slot13;
+                    var6 = var17.favoriteChannels;
+                    var6 = var18.bind(var1)(var6);
+                    var18 = _closure1_slot14;
+                    var6 = var17.favoriteChannels;
+                    var6 = var18.bind(var1)(var6, var22);
+                    var23 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var18 = var6[var14];
+                    var21 = var23.bind(var1)(var18);
+                    var20 = var21.trackFavoritesGuildAddToFavorites;
+                    var19 = _closure2_slot1;
+                    var18 = _closure1_slot19;
+                    var6 = var6[var13];
+                    var6 = var23.bind(var1)(var6);
+                    var6 = var6.FavoriteChannelType;
+                    var6 = var6.REFERENCE_ORIGINAL;
+                    var18 = var18.bind(var1)(var22, var6);
+                    var22 = _closure1_slot18;
+                    var6 = var17.favoriteChannels;
+                    var6 = var22.bind(var1)(var6);
+                    var6 = var20.bind(var21)(var19, var18, var6);
+                    var18 = var15.bind(var1)();
+                    var6 = var18.done;
+                    var8 = var18;
+                    var7 = true;
+                    if(var6) { _fun0010_ip = 74; continue _fun0010 }
+case 81:
+                    _fun0010_ip = 7; continue _fun0010;
+case 75:
+                    var4 = _closure1_slot16;
+                    var4 = var4.bind(var1)(var5);
+                    if(var3) { _fun0010_ip = 74; continue _fun0010 }
+case 82:
                     return var2;
-case 70:
+case 74:
                     return var1;
                 }
             };
@@ -695,7 +740,7 @@ case 52:
             return var1;
         }
     };
-    var _closure1_slot19 = var5;
+    var _closure1_slot20 = var5;
     var4 = function removeFavoriteChannel(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
 case 0:
@@ -704,14 +749,14 @@ case 0:
             var _closure2_slot0 = var7;
             var1 = undefined;
             if(!(var3 === var1)) { _fun0011_ip = 29; continue _fun0011 }
-case 77:
+case 83:
             var3 = {};
 case 29:
             var6 = var3.trackAnalytics;
-            if(!(var6 === var1)) { _fun0011_ip = 78; continue _fun0011 }
+            if(!(var6 === var1)) { _fun0011_ip = 84; continue _fun0011 }
 case 3:
             var6 = true;
-case 78:
+case 84:
             var _closure2_slot1 = var6;
             var _closure2_slot2 = var1;
             var _closure2_slot3 = var1;
@@ -720,15 +765,15 @@ case 78:
             var5 = var4.bind(var5)(var7);
             _closure2_slot2 = var5;
             var4 = null;
-            if(!(var4 != var5)) { _fun0011_ip = 79; continue _fun0011 }
-case 80:
+            if(!(var4 != var5)) { _fun0011_ip = 85; continue _fun0011 }
+case 86:
             var4 = null;
-            if(!var6) { _fun0011_ip = 81; continue _fun0011 }
-case 82:
-            var6 = _closure1_slot18;
+            if(!var6) { _fun0011_ip = 87; continue _fun0011 }
+case 88:
+            var6 = _closure1_slot19;
             var5 = var5.type;
             var4 = var6.bind(var1)(var7, var5);
-case 81:
+case 87:
             _closure2_slot3 = var4;
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -741,7 +786,7 @@ case 81:
             var4 = var5.bind(var1)(var4);
             var4 = var4.UserSettingsDelay;
             var10 = var4.INFREQUENT_USER_ACTION;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var12 = 'favorites';
             var11 = function(arg1) {
                 _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
@@ -760,33 +805,33 @@ case 0:
                     var4 = var7.bind(var1)(var4);
                     var4 = var4.FavoriteChannelType;
                     var4 = var4.CATEGORY;
-                    if(!(var5 === var4)) { _fun0012_ip = 83; continue _fun0012 }
+                    if(!(var5 === var4)) { _fun0012_ip = 89; continue _fun0012 }
 case 35:
                     var8 = var2.favoriteChannels;
                     for(var4 in var8)
-case 84:
+case 90:
                     {
-case 85:
+case 91:
                         var11 = var4;
                         var10 = var2.favoriteChannels;
                         var10 = var10[var11];
                         var12 = var10.parentId;
                         var10 = _closure2_slot0;
-                        if(var12 !== var10) { _fun0012_ip = 84; continue _fun0012 }
-case 86:
+                        if(var12 !== var10) { _fun0012_ip = 90; continue _fun0012 }
+case 92:
                         var10 = var2.favoriteChannels;
                         var11 = var10[var11];
                         var10 = _closure1_slot7;
                         var11['parentId'] = var10;
-                        _fun0012_ip = 84; continue _fun0012;
+                        _fun0012_ip = 90; continue _fun0012;
                     }
-case 83:
-                    var5 = _closure1_slot12;
+case 89:
+                    var5 = _closure1_slot13;
                     var4 = var2.favoriteChannels;
                     var4 = var5.bind(var1)(var4);
                     var4 = _closure2_slot1;
-                    if(!var4) { _fun0012_ip = 87; continue _fun0012 }
-case 88:
+                    if(!var4) { _fun0012_ip = 93; continue _fun0012 }
+case 94:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var4 = 13;
@@ -794,21 +839,21 @@ case 88:
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.trackFavoritesGuildRemoveFromFavorites;
                     var3 = _closure2_slot3;
-                    var6 = _closure1_slot17;
+                    var6 = _closure1_slot18;
                     var2 = var2.favoriteChannels;
                     var2 = var6.bind(var1)(var2);
                     var2 = var4.bind(var5)(var3, var2);
-case 87:
+case 93:
                     return var1;
                 }
             };
             var13 = var7;
             var2 = var13[var6](var12, var11, var10, var9, var8);
-case 79:
+case 85:
             return var1;
         }
     };
-    var _closure1_slot20 = var4;
+    var _closure1_slot21 = var4;
     var1 = function setProtoFavoriteCategoryCollapsed(arg1, arg2) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
@@ -817,7 +862,7 @@ case 0:
             var1 = null;
             var1 = var1 != var3;
             if(!var1) { _fun0013_ip = 7; continue _fun0013 }
-case 89:
+case 95:
             var5 = var3.type;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -829,20 +874,20 @@ case 89:
             var4 = var4.CATEGORY;
             var1 = var5 === var4;
 case 7:
-            if(!var1) { _fun0013_ip = 65; continue _fun0013 }
-case 90:
+            if(!var1) { _fun0013_ip = 69; continue _fun0013 }
+case 96:
             var4 = var3.collapsed;
             var1 = var4 !== var2;
-case 65:
-            if(!var1) { _fun0013_ip = 91; continue _fun0013 }
-case 82:
+case 69:
+            if(!var1) { _fun0013_ip = 97; continue _fun0013 }
+case 88:
             var3['collapsed'] = var2;
             var1 = true;
-case 91:
+case 97:
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = function updateFavoriteCategoriesCollapsed(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
@@ -858,7 +903,7 @@ case 91:
         var4 = var5.bind(var1)(var4);
         var4 = var4.UserSettingsDelay;
         var10 = var4.FREQUENT_USER_ACTION;
-        var9 = _closure1_slot16;
+        var9 = _closure1_slot17;
         var12 = 'favorites';
         var11 = function(arg1) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
@@ -867,11 +912,11 @@ case 0:
                 var1 = undefined;
                 var2 = arg1;
                 var2 = var3.bind(var1)(var2);
-                if(var2) { _fun0014_ip = 92; continue _fun0014 }
+                if(var2) { _fun0014_ip = 98; continue _fun0014 }
 case 29:
                 var2 = false;
                 return var2;
-case 92:
+case 98:
                 return var1;
             }
         };
@@ -879,7 +924,7 @@ case 92:
         var2 = var13[var6](var12, var11, var10, var9, var8);
         return var1;
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -909,14 +954,16 @@ case 92:
     var6 = 4;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
-    var6 = var6.FAVORITES_UNCATEGORIZED_PARENT_ID;
-    var _closure1_slot7 = var6;
+    var9 = var6.FAVORITES_UNCATEGORIZED_PARENT_ID;
+    var _closure1_slot7 = var9;
+    var6 = var6.MAX_FAVORITE_CHANNELS;
+    var _closure1_slot8 = var6;
     var6 = 5;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.Permissions;
-    var _closure1_slot8 = var6;
-    var6 = 15;
+    var _closure1_slot9 = var6;
+    var6 = 17;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -927,11 +974,11 @@ case 92:
 case 0:
             var5 = arguments[2];
             var1 = undefined;
-            if(!(var5 === var1)) { _fun0015_ip = 89; continue _fun0015 }
-case 93:
+            if(!(var5 === var1)) { _fun0015_ip = 95; continue _fun0015 }
+case 99:
             var5 = 'channel_context_menu';
-case 89:
-            var4 = _closure1_slot19;
+case 95:
+            var4 = _closure1_slot20;
             var3 = new Array(1);
             var2 = arg1;
             var3[0] = var2;
@@ -953,7 +1000,7 @@ case 0:
             var4 = _closure1_slot6;
             var3 = var4.isFavorite;
             var3 = var3.bind(var4)(var5);
-            if(!var3) { _fun0016_ip = 94; continue _fun0016 }
+            if(!var3) { _fun0016_ip = 100; continue _fun0016 }
 case 37:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -967,7 +1014,7 @@ case 37:
             var3 = var7.bind(var4)(var3);
             var3 = var3.UserSettingsDelay;
             var10 = var3.INFREQUENT_USER_ACTION;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var12 = 'favorites';
             var11 = function(arg1) {
                 _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
@@ -980,10 +1027,10 @@ case 0:
                     var1 = null;
                     var4 = var1 != var4;
                     var1 = '';
-                    if(!var4) { _fun0017_ip = 95; continue _fun0017 }
+                    if(!var4) { _fun0017_ip = 101; continue _fun0017 }
 case 37:
                     var1 = _closure2_slot1;
-case 95:
+case 101:
                     var2['nickname'] = var1;
                     var1 = undefined;
                     return var1;
@@ -991,7 +1038,7 @@ case 95:
             };
             var13 = var6;
             var1 = var13[var5](var12, var11, var10, var9, var8);
-case 94:
+case 100:
             var1 = undefined;
             return var1;
         }
@@ -1000,19 +1047,31 @@ case 94:
     var4 = function addFavoriteCategory(arg1) {
         _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
+            var5 = arg1;
             var3 = arguments[1];
-            var1 = arg1;
-            var _closure2_slot0 = var1;
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0018_ip = 36; continue _fun0018 }
-case 77:
+            if(!(var3 === var1)) { _fun0018_ip = 83; continue _fun0018 }
+case 32:
             var3 = 'modal';
-case 36:
-            var _closure2_slot1 = var3;
+case 83:
+            var _closure2_slot0 = var3;
+            var _closure2_slot1 = var1;
             var _closure2_slot2 = var1;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 14;
+            var4 = var7[var4];
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.isFavoritesGuildCategoryNameValid;
+            var4 = var4.bind(var6)(var5);
+            if(!var4) { _fun0018_ip = 102; continue _fun0018 }
+case 35:
+            var4 = var5.trim;
+            var4 = var4.bind(var5)();
+            _closure2_slot1 = var4;
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var4 = 14;
+            var4 = 15;
             var4 = var8[var4];
             var6 = var5.bind(var1)(var4);
             var5 = var6.fromTimestamp;
@@ -1032,75 +1091,83 @@ case 36:
             var4 = var5.bind(var1)(var4);
             var4 = var4.UserSettingsDelay;
             var10 = var4.FREQUENT_USER_ACTION;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var12 = 'favorites';
             var11 = function(arg1) {
                 _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
-                    var3 = arg1;
-                    var5 = _closure1_slot14;
-                    var4 = var3.favoriteChannels;
-                    var2 = undefined;
-                    var4 = var5.bind(var2)(var4);
-                    if(var4) { _fun0019_ip = 96; continue _fun0019 }
-case 97:
-                    var7 = var3.favoriteChannels;
-                    var6 = _closure2_slot2;
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var4 = 6;
-                    var5 = var11[var4];
-                    var5 = var10.bind(var2)(var5);
-                    var12 = var5.FavoriteChannel;
-                    var9 = var12.create;
-                    var5 = {};
-                    var13 = _closure2_slot0;
-                    var5['nickname'] = var13;
-                    var13 = var11[var4];
-                    var13 = var10.bind(var2)(var13);
-                    var13 = var13.FavoriteChannelType;
-                    var13 = var13.CATEGORY;
-                    var5['type'] = var13;
-                    var14 = _closure1_slot11;
-                    var13 = var3.favoriteChannels;
-                    var13 = var14.bind(var2)(var13);
-                    var5['position'] = var13;
-                    var13 = _closure1_slot7;
-                    var5['parentId'] = var13;
-                    var5 = var9.bind(var12)(var5);
-                    var7[var6] = var5;
-                    var5 = 13;
-                    var5 = var11[var5];
-                    var7 = var10.bind(var2)(var5);
-                    var6 = var7.trackFavoritesGuildAddToFavorites;
-                    var5 = _closure2_slot1;
+                    var4 = arg1;
+                    var6 = _closure1_slot15;
+                    var5 = var4.favoriteChannels;
+                    var7 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var12 = 6;
+                    var2 = var2[var12];
+                    var3 = undefined;
+                    var2 = var7.bind(var3)(var2);
+                    var2 = var2.FavoriteChannelType;
+                    var2 = var2.CATEGORY;
+                    var2 = var6.bind(var3)(var5, var2);
+                    var5 = null;
+                    if(!(var5 == var2)) { _fun0019_ip = 103; continue _fun0019 }
+case 44:
+                    var8 = var4.favoriteChannels;
+                    var7 = _closure2_slot2;
+                    var11 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var6 = var5[var12];
+                    var6 = var11.bind(var3)(var6);
+                    var13 = var6.FavoriteChannel;
+                    var10 = var13.create;
+                    var6 = {};
+                    var14 = _closure2_slot1;
+                    var6['nickname'] = var14;
+                    var14 = var5[var12];
+                    var14 = var11.bind(var3)(var14);
+                    var14 = var14.FavoriteChannelType;
+                    var14 = var14.CATEGORY;
+                    var6['type'] = var14;
+                    var15 = _closure1_slot12;
+                    var14 = var4.favoriteChannels;
+                    var14 = var15.bind(var3)(var14);
+                    var6['position'] = var14;
+                    var14 = _closure1_slot7;
+                    var6['parentId'] = var14;
+                    var6 = var10.bind(var13)(var6);
+                    var8[var7] = var6;
+                    var6 = 13;
+                    var6 = var5[var6];
+                    var8 = var11.bind(var3)(var6);
+                    var7 = var8.trackFavoritesGuildAddToFavorites;
+                    var6 = _closure2_slot0;
+                    var10 = _closure1_slot19;
+                    var9 = _closure2_slot2;
+                    var5 = var5[var12];
+                    var5 = var11.bind(var3)(var5);
+                    var5 = var5.FavoriteChannelType;
+                    var5 = var5.CATEGORY;
+                    var5 = var10.bind(var3)(var9, var5);
                     var9 = _closure1_slot18;
-                    var8 = _closure2_slot2;
-                    var4 = var11[var4];
-                    var4 = var10.bind(var2)(var4);
-                    var4 = var4.FavoriteChannelType;
-                    var4 = var4.CATEGORY;
-                    var4 = var9.bind(var2)(var8, var4);
-                    var8 = _closure1_slot17;
-                    var3 = var3.favoriteChannels;
-                    var3 = var8.bind(var2)(var3);
-                    var3 = var6.bind(var7)(var5, var4, var3);
-                    return var2;
-case 96:
-                    var1 = _closure1_slot15;
-                    var1 = var1.bind(var2)();
+                    var4 = var4.favoriteChannels;
+                    var4 = var9.bind(var3)(var4);
+                    var4 = var7.bind(var8)(var6, var5, var4);
+                    return var3;
+case 103:
+                    var1 = _closure1_slot16;
+                    var1 = var1.bind(var3)(var2);
                     var1 = false;
                     return var1;
                 }
             };
             var13 = var7;
             var2 = var13[var6](var12, var11, var10, var9, var8);
+case 102:
             return var1;
         }
     };
     var3['addFavoriteCategory'] = var4;
     var4 = function removeFavoriteCategory(arg1) {
-        var3 = _closure1_slot20;
+        var3 = _closure1_slot21;
         var1 = undefined;
         var2 = arg1;
         var2 = var3.bind(var1)(var2);
@@ -1120,7 +1187,7 @@ case 0:
             var3 = null;
             var3 = var3 != var4;
             if(!var3) { _fun0020_ip = 9; continue _fun0020 }
-case 98:
+case 104:
             var5 = var4.type;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -1132,12 +1199,12 @@ case 98:
             var4 = var4.CATEGORY;
             var3 = var5 === var4;
 case 9:
-            if(!var3) { _fun0020_ip = 99; continue _fun0020 }
-case 100:
-            var3 = _closure1_slot22;
+            if(!var3) { _fun0020_ip = 105; continue _fun0020 }
+case 106:
+            var3 = _closure1_slot23;
             var2 = undefined;
             var1 = function(arg1) {
-                var4 = _closure1_slot21;
+                var4 = _closure1_slot22;
                 var1 = arg1;
                 var3 = var1.favoriteChannels;
                 var2 = _closure2_slot0;
@@ -1148,7 +1215,7 @@ case 100:
                 return var1;
             };
             var1 = var3.bind(var2)(var1);
-case 99:
+case 105:
             var1 = undefined;
             return var1;
         }
@@ -1157,7 +1224,7 @@ case 99:
     var4 = function setAllFavoriteCategoriesCollapsed(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var3 = _closure1_slot22;
+        var3 = _closure1_slot23;
         var1 = undefined;
         var2 = function(arg1) {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
@@ -1168,22 +1235,22 @@ case 0:
                 var3 = undefined;
                 var1 = false;
                 for(var7 in var10)
-case 97:
+case 107:
                 {
                     var1 = var2;
-case 95:
+case 101:
                     var14 = var7;
-                    var15 = _closure1_slot21;
+                    var15 = _closure1_slot22;
                     var13 = var12.favoriteChannels;
                     var14 = var13[var14];
                     var13 = _closure2_slot0;
                     var13 = var15.bind(var3)(var14, var13);
-                    if(!var13) { _fun0021_ip = 97; continue _fun0021 }
-case 101:
+                    if(!var13) { _fun0021_ip = 107; continue _fun0021 }
+case 108:
                     var2 = true;
-                    _fun0021_ip = 97; continue _fun0021;
+                    _fun0021_ip = 107; continue _fun0021;
                 }
-case 102:
+case 109:
                 return var1;
             }
         };
@@ -1198,7 +1265,7 @@ case 0:
             var _closure2_slot0 = var2;
             var3 = var2.length;
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0022_ip = 103; continue _fun0022 }
+            if(!(var2 !== var3)) { _fun0022_ip = 110; continue _fun0022 }
 case 29:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1212,13 +1279,13 @@ case 29:
             var3 = var7.bind(var4)(var3);
             var3 = var3.UserSettingsDelay;
             var10 = var3.FREQUENT_USER_ACTION;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var12 = 'favorites';
             var11 = function(arg1) {
                 _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
                     var8 = arg1;
-                    var4 = _closure1_slot9;
+                    var4 = _closure1_slot10;
                     var3 = _closure2_slot0;
                     var1 = undefined;
                     var7 = var4.bind(var1)(var3);
@@ -1227,31 +1294,31 @@ case 0:
                     var6 = null;
                     var5 = var4;
                     var4 = undefined;
-                    if(var3) { _fun0023_ip = 104; continue _fun0023 }
-case 98:
+                    if(var3) { _fun0023_ip = 111; continue _fun0023 }
+case 104:
                     var3 = var5.value;
                     var11 = var3.id;
                     var9 = var3.position;
-                    if(!(var6 != var9)) { _fun0023_ip = 105; continue _fun0023 }
-case 106:
+                    if(!(var6 != var9)) { _fun0023_ip = 112; continue _fun0023 }
+case 113:
                     var9 = var8.favoriteChannels;
                     var10 = var9[var11];
                     var9 = var3.position;
                     var10['position'] = var9;
-case 105:
+case 112:
                     var9 = var3.parent_id;
                     if(!(var1 !== var9)) { _fun0023_ip = 52; continue _fun0023 }
-case 85:
+case 91:
                     var9 = var8.favoriteChannels;
                     var10 = var9[var11];
                     var3 = var3.parent_id;
                     var9 = var3;
-                    if(!(var6 == var3)) { _fun0023_ip = 86; continue _fun0023 }
-case 107:
+                    if(!(var6 == var3)) { _fun0023_ip = 92; continue _fun0023 }
+case 114:
                     var9 = _closure1_slot7;
-case 86:
+case 92:
                     var10['parentId'] = var9;
-                    var10 = _closure1_slot13;
+                    var10 = _closure1_slot14;
                     var9 = var8.favoriteChannels;
                     var9 = var10.bind(var1)(var9, var11);
                     var4 = var3;
@@ -1259,8 +1326,8 @@ case 52:
                     var9 = var7.bind(var1)();
                     var3 = var9.done;
                     var5 = var9;
-                    if(!var3) { _fun0023_ip = 98; continue _fun0023 }
-case 104:
+                    if(!var3) { _fun0023_ip = 104; continue _fun0023 }
+case 111:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 13;
@@ -1273,7 +1340,7 @@ case 104:
             };
             var13 = var6;
             var1 = var13[var5](var12, var11, var10, var9, var8);
-case 103:
+case 110:
             var1 = undefined;
             return var1;
         }
@@ -1296,7 +1363,7 @@ case 103:
         var4 = var5.bind(var1)(var4);
         var4 = var4.UserSettingsDelay;
         var10 = var4.FREQUENT_USER_ACTION;
-        var9 = _closure1_slot16;
+        var9 = _closure1_slot17;
         var12 = 'favorites';
         var11 = function(arg1) {
             _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
@@ -1307,15 +1374,15 @@ case 0:
                 var4 = var4[var3];
                 var5 = _closure2_slot1;
                 var3 = null;
-                if(!(var3 == var5)) { _fun0024_ip = 108; continue _fun0024 }
+                if(!(var3 == var5)) { _fun0024_ip = 115; continue _fun0024 }
 case 3:
                 var3 = _closure1_slot7;
-                _fun0024_ip = 98; continue _fun0024;
-case 108:
+                _fun0024_ip = 104; continue _fun0024;
+case 115:
                 var3 = _closure2_slot1;
-case 98:
+case 104:
                 var4['parentId'] = var3;
-                var4 = _closure1_slot13;
+                var4 = _closure1_slot14;
                 var3 = var2.favoriteChannels;
                 var2 = _closure2_slot0;
                 var1 = undefined;
@@ -1341,7 +1408,7 @@ case 98:
         var3 = var4.bind(var1)(var3);
         var3 = var3.UserSettingsDelay;
         var9 = var3.INFREQUENT_USER_ACTION;
-        var8 = _closure1_slot16;
+        var8 = _closure1_slot17;
         var11 = 'favorites';
         var10 = function(arg1) {
             var2 = arg1;
@@ -1356,17 +1423,72 @@ case 98:
         return var1;
     };
     var3['toggleFavoriteGuildMuted'] = var4;
-    var2 = function setFavoritesGuildVisibility(arg1) {
+    var4 = function resetFavoritesGuild() {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+case 0:
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 12;
+            var2 = var7[var5];
+            var1 = undefined;
+            var2 = var4.bind(var1)(var2);
+            var11 = var2.PreloadedUserSettingsActionCreators;
+            var10 = var11.updateAsync;
+            var2 = var7[var5];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.UserSettingsDelay;
+            var13 = var2.INFREQUENT_USER_ACTION;
+            var12 = _closure1_slot17;
+            var15 = 'favorites';
+            var14 = function(arg1) {
+                var3 = arg1;
+                var1 = {};
+                var3['favoriteChannels'] = var1;
+                var1 = undefined;
+                var3['guildVisible'] = var1;
+                var2 = false;
+                var3['muted'] = var2;
+                return var1;
+            };
+            var16 = var11;
+            var2 = var16[var10](var15, var14, var13, var12, var11);
+            var3 = _closure1_slot10;
+            var2 = 16;
+            var2 = var7[var2];
+            var2 = var4.bind(var1)(var2);
+            var2 = var2.FAVORITES_GUILD_DISMISSIBLE_CONTENT;
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.bind(var1)();
+            var2 = var3.done;
+            if(var2) { _fun0025_ip = 17; continue _fun0025 }
+case 48:
+            var8 = var3.value;
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var5];
+            var7 = var7.bind(var1)(var2);
+            var2 = var7.removeDismissedContent;
+            var2 = var2.bind(var7)(var8);
+            var7 = var4.bind(var1)();
+            var2 = var7.done;
+            var3 = var7;
+            if(!var2) { _fun0025_ip = 48; continue _fun0025 }
+case 17:
+            return var1;
+        }
+    };
+    var3['resetFavoritesGuild'] = var4;
+    var2 = function setFavoritesGuildVisibility(arg1) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
 case 0:
             var3 = arguments[1];
             var1 = arg1;
             var _closure2_slot0 = var1;
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0025_ip = 92; continue _fun0025 }
-case 77:
+            if(!(var3 === var1)) { _fun0026_ip = 98; continue _fun0026 }
+case 83:
             var3 = 'settings_page';
-case 92:
+case 98:
             var _closure2_slot1 = var3;
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1379,7 +1501,7 @@ case 92:
             var4 = var5.bind(var1)(var4);
             var4 = var4.UserSettingsDelay;
             var10 = var4.INFREQUENT_USER_ACTION;
-            var9 = _closure1_slot16;
+            var9 = _closure1_slot17;
             var12 = 'favorites';
             var11 = function(arg1) {
                 var4 = _closure1_slot0;
