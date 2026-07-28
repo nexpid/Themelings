@@ -429,8 +429,8 @@ case 0:
                     var8 = null;
                     var9 = var8 != var7;
                     var10 = null;
-                    if(!var9) { _fun0004_ip = 18; continue _fun0004 }
-case 19:
+                    if(!var9) { _fun0004_ip = 8; continue _fun0004 }
+case 18:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var9 = 9;
@@ -439,16 +439,16 @@ case 19:
                     var9 = var11.isIOS;
                     var9 = var9.bind(var11)();
                     var10 = null;
-                    if(!var9) { _fun0004_ip = 18; continue _fun0004 }
-case 20:
+                    if(!var9) { _fun0004_ip = 8; continue _fun0004 }
+case 19:
                     var10 = var7.advertisingId;
-case 18:
+case 8:
                     var9 = 'apple_advertising_id';
                     var6[8] = var10;
                     var10 = var8 != var7;
                     var9 = null;
-                    if(!var10) { _fun0004_ip = 21; continue _fun0004 }
-case 22:
+                    if(!var10) { _fun0004_ip = 20; continue _fun0004 }
+case 21:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var10 = 9;
@@ -457,10 +457,10 @@ case 22:
                     var10 = var11.isAndroid;
                     var10 = var10.bind(var11)();
                     var9 = null;
-                    if(!var10) { _fun0004_ip = 21; continue _fun0004 }
-case 23:
+                    if(!var10) { _fun0004_ip = 20; continue _fun0004 }
+case 22:
                     var9 = var7.advertisingId;
-case 21:
+case 20:
                     var7 = 'android_advertising_id';
                     var6[6] = var9;
                     var9 = _closure1_slot0;
@@ -472,16 +472,16 @@ case 21:
                     var9 = var7.bind(var9)();
                     var10 = var8 == var9;
                     var7 = undefined;
-                    if(var10) { _fun0004_ip = 24; continue _fun0004 }
-case 25:
-                    var7 = var9.uuid;
+                    if(var10) { _fun0004_ip = 23; continue _fun0004 }
 case 24:
+                    var7 = var9.uuid;
+case 23:
                     var9 = var8 != var7;
                     var8 = null;
-                    if(!var9) { _fun0004_ip = 26; continue _fun0004 }
-case 27:
-                    var8 = var7;
+                    if(!var9) { _fun0004_ip = 25; continue _fun0004 }
 case 26:
+                    var8 = var7;
+case 25:
                     var7 = 'search_session_id';
                     var6[6] = var8;
                     var2['properties'] = var6;
@@ -549,8 +549,8 @@ case 26:
 case 0:
                 var3 = _closure2_slot0;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0005_ip = 28; continue _fun0005 }
-case 29:
+                if(!(var2 != var3)) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 3;
@@ -560,7 +560,7 @@ case 29:
                 var2 = var3.trackBountyCarouselEmptyStateViewed;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
-case 28:
+case 27:
                 var1 = undefined;
                 return var1;
             }
@@ -592,13 +592,13 @@ case 0:
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var5 = var4.QuestContent;
-            if(var8) { _fun0006_ip = 30; continue _fun0006 }
-case 31:
-            var4 = var5.QUEST_HOME_ENTRYPOINT;
-            _fun0006_ip = 32; continue _fun0006;
+            if(var8) { _fun0006_ip = 29; continue _fun0006 }
 case 30:
+            var4 = var5.QUEST_HOME_ENTRYPOINT;
+            _fun0006_ip = 31; continue _fun0006;
+case 29:
             var4 = var5.QUEST_HOME_ENTRYPOINT_THEMED;
-case 32:
+case 31:
             _closure2_slot2 = var4;
             var9 = _closure1_slot3;
             var7 = var9.useMemo;
@@ -632,11 +632,11 @@ case 0:
                     var5 = arg1;
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0007_ip = 33; continue _fun0007 }
-case 34:
-                    var1 = _closure2_slot1;
-                    if(var1) { _fun0007_ip = 35; continue _fun0007 }
+                    if(!(var1 != var2)) { _fun0007_ip = 32; continue _fun0007 }
 case 33:
+                    var1 = _closure2_slot1;
+                    if(var1) { _fun0007_ip = 34; continue _fun0007 }
+case 32:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 13;
@@ -646,8 +646,8 @@ case 33:
                     var2 = var3.track;
                     var1 = _closure2_slot3;
                     var1 = var2.bind(var3)(var5, var1);
-                    _fun0007_ip = 36; continue _fun0007;
-case 35:
+                    _fun0007_ip = 35; continue _fun0007;
+case 34:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var1 = 3;
@@ -671,7 +671,7 @@ case 35:
                     var4 = _closure2_slot2;
                     var1['sourceQuestContent'] = var4;
                     var1 = var2.bind(var3)(var1);
-case 36:
+case 35:
                     var1 = undefined;
                     return var1;
                 }
@@ -749,17 +749,17 @@ case 0:
                     var6 = copyDataProperties(var10, var9);
                     var7 = _closure2_slot0;
                     var6 = null;
-                    if(!(var6 == var7)) { _fun0008_ip = 37; continue _fun0008 }
-case 38:
-                    var6 = {};
-                    _fun0008_ip = 39; continue _fun0008;
+                    if(!(var6 == var7)) { _fun0008_ip = 36; continue _fun0008 }
 case 37:
+                    var6 = {};
+                    _fun0008_ip = 38; continue _fun0008;
+case 36:
                     var7 = {};
                     var8 = _closure2_slot0;
                     var8 = var8.id;
                     var7['ad_content_id'] = var8;
                     var6 = var7;
-case 39:
+case 38:
                     var10 = var2;
                     var9 = var6;
                     var6 = copyDataProperties(var10, var9);

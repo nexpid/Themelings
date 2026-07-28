@@ -56,8 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var2;
         var13 = var3.hasTypingText;
         var _closure2_slot1 = var13;
-        var11 = var3.slowmodeType;
-        var _closure2_slot2 = var11;
+        var3 = var3.slowmodeType;
+        var _closure2_slot2 = var3;
         var3 = _closure1_slot7;
         var4 = undefined;
         var9 = var3.bind(var4)();
@@ -65,8 +65,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = _closure1_slot2;
         var3 = 5;
         var3 = var10[var3];
-        var12 = var7.bind(var4)(var3);
-        var8 = var12.useStateFromStores;
+        var11 = var7.bind(var4)(var3);
+        var8 = var11.useStateFromStores;
         var3 = _closure1_slot4;
         var6 = new Array(1);
         var6[0] = var3;
@@ -79,13 +79,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var3 = var8.bind(var12)(var6, var3);
+        var3 = var8.bind(var11)(var6, var3);
         var _closure2_slot3 = var3;
         var6 = 6;
         var6 = var10[var6];
         var8 = var7.bind(var4)(var6);
         var6 = var8.useCanBypassSlowmode;
-        var12 = var6.bind(var8)(var2, var11);
+        var12 = var6.bind(var8)(var2);
         var _closure2_slot4 = var12;
         var6 = _closure1_slot3;
         var11 = var6.useMemo;

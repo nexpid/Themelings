@@ -1,4 +1,4 @@
-// app/modules/premium/hooks/usePremiumTrialOffer.native.tsx
+// app/modules/premium/hooks/useAndroidAndLegacyIOSPremiumTrialOfferCandidates.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -79,9 +79,9 @@ case 2:
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/premium/hooks/usePremiumTrialOffer.native.tsx';
+    var4 = 'modules/premium/hooks/useAndroidAndLegacyIOSPremiumTrialOfferCandidates.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function usePremiumTrialOffer() {
+    var2 = function useAndroidAndLegacyIOSPremiumTrialOfferCandidates() {
         var3 = _closure1_slot0;
         var5 = _closure1_slot1;
         var2 = 4;
@@ -135,6 +135,6 @@ case 2:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['usePremiumTrialOffer'] = var2;
+    var3['useAndroidAndLegacyIOSPremiumTrialOfferCandidates'] = var2;
     return var1;
 })();

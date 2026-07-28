@@ -1028,6 +1028,8 @@ case 63:
             var5['codecBuckets'] = var6;
             var6 = new Array(0);
             var5['statsWindow'] = var6;
+            var6 = false;
+            var5['hasSeededAggregation'] = var6;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var9 = 6;
@@ -1611,11 +1613,11 @@ case 122:
                 var1 = var1.bind(var2)();
                 _fun0009_ip = 130; continue _fun0009;
 case 132:
-                var1 = var3.statsWindow;
-                var2 = var1.length;
-                var1 = 1;
-                if(!(var1 === var2)) { _fun0009_ip = 130; continue _fun0009 }
+                var1 = var3.hasSeededAggregation;
+                if(var1) { _fun0009_ip = 130; continue _fun0009 }
 case 166:
+                var1 = true;
+                var3['hasSeededAggregation'] = var1;
                 var1 = _closure1_slot19;
                 var2 = var1.prototype;
                 var2 = Object.create(var2, {constructor: {value: var1}});

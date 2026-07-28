@@ -179,7 +179,9 @@ case 2:
         return var1;
     };
     var2['clearPendingWidgets'] = var7;
-    var7 = function fetchSuggestedGames() {
+    var7 = function uploadWidgetAsset(arg1) {
+        var2 = arg1;
+        var _closure2_slot0 = var2;
         var3 = _closure1_slot3;
         var2 = undefined;
         var1 = function* () {
@@ -189,6 +191,107 @@ case 0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0002_ip = 15; continue _fun0002 }
+case 3:
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var2 = 4;
+                    var2 = var4[var2];
+                    var8 = undefined;
+                    var2 = var3.bind(var8)(var2);
+                    var4 = var2.HTTP;
+                    var3 = var4.post;
+                    var2 = {};
+                    var5 = _closure1_slot5;
+                    var5 = var5.USER_PROFILE_WIDGET_ASSET_UPLOAD;
+                    var2['url'] = var5;
+                    var5 = {};
+                    var6 = _closure2_slot0;
+                    var7 = var6.name;
+                    var5['filename'] = var7;
+                    var6 = var6.size;
+                    var5['file_size'] = var6;
+                    var2['body'] = var5;
+                    var5 = true;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    SaveGenerator(address=110);
+case 16:
+                    return var2;
+case 17:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0002_ip = 18; continue _fun0002 }
+case 19:
+                    var3 = var2.body;
+                    var7 = var3.upload_url;
+                    var4 = var3.upload_filename;
+                    var5 = global;
+                    var6 = var5.fetch;
+                    var3 = {};
+                    var9 = 'PUT';
+                    var3['method'] = var9;
+                    var10 = _closure2_slot0;
+                    var3['body'] = var10;
+                    var9 = {};
+                    var13 = var10.type;
+                    var10 = 'application/octet-stream';
+                    var12 = '';
+                    if(!(var12 !== var13)) { _fun0002_ip = 20; continue _fun0002 }
+case 21:
+                    var11 = _closure2_slot0;
+                    var10 = var11.type;
+case 20:
+                    var9['Content-Type'] = var10;
+                    var3['headers'] = var9;
+                    var3 = var6.bind(var8)(var7, var3);
+                    SaveGenerator(address=215);
+case 22:
+                    return var3;
+case 23:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0002_ip = 24; continue _fun0002 }
+case 25:
+                    var6 = var3.ok;
+                    if(var6) { _fun0002_ip = 26; continue _fun0002 }
+case 27:
+                    var7 = var5.Error;
+                    var8 = var3.status;
+                    var5 = var5.HermesInternal;
+                    var6 = var5.concat;
+                    var5 = 'Failed to upload widget asset: ';
+                    var15 = var6.bind(var5)(var8);
+                    var6 = var7.prototype;
+                    var6 = Object.create(var6, {constructor: {value: var7}});
+                    var16 = var6;
+                    var5 = new var16[var7](var15, var14);
+                    var5 = var5 instanceof Object ? var5 : var6;
+                    throw var5;
+case 26:
+                    return var4;
+case 24:
+                    return var3;
+case 18:
+                    return var2;
+case 15:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
+        return var1;
+    };
+    var2['uploadWidgetAsset'] = var7;
+    var7 = function fetchSuggestedGames() {
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+case 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0003_ip = 28; continue _fun0003 }
 case 3:
                     var5 = undefined;
                     var13 = undefined;
@@ -208,7 +311,7 @@ case 3:
                     var11 = 'WIDGET_SUGGESTED_FETCH_START';
                     var2['type'] = var11;
                     var2 = var4.bind(var7)(var2);
-case 16: // try_start_0
+case 29: // try_start_0
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 4;
@@ -224,39 +327,39 @@ case 16: // try_start_0
                     var2['rejectWithError'] = var11;
                     var2 = var4.bind(var7)(var2);
                     SaveGenerator(address=132);
-case 17:
+case 30:
                     return var2;
-case 18:
+case 31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 19; continue _fun0002 }
-case 20:
+                    if(var4) { _fun0003_ip = 32; continue _fun0003 }
+case 33:
                     var9 = var2;
                     var7 = var2.body;
                     var13 = var7;
                     var11 = null;
                     var16 = var11 == var7;
                     var7 = undefined;
-                    if(var16) { _fun0002_ip = 21; continue _fun0002 }
-case 22:
+                    if(var16) { _fun0003_ip = 34; continue _fun0003 }
+case 35:
                     var7 = var13.suggested_games;
-case 21:
+case 34:
                     var7 = var11 != var7;
                     var4 = var7;
-                    if(!var7) { _fun0002_ip = 23; continue _fun0002 }
-case 24:
+                    if(!var7) { _fun0003_ip = 36; continue _fun0003 }
+case 37:
                     var7 = var9;
                     var7 = var7.body;
                     var8 = var7;
                     var13 = var11 == var7;
                     var7 = undefined;
-                    if(var13) { _fun0002_ip = 25; continue _fun0002 }
-case 26:
+                    if(var13) { _fun0003_ip = 38; continue _fun0003 }
+case 39:
                     var7 = var8.suggested_wishlist_games;
-case 25:
+case 38:
                     var4 = var11 != var7;
-case 23:
-                    if(var4) { _fun0002_ip = 27; continue _fun0002 }
-case 28:
+case 36:
+                    if(var4) { _fun0003_ip = 40; continue _fun0003 }
+case 41:
                     var7 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var4 = 5;
@@ -265,7 +368,7 @@ case 28:
                     var7 = var8.captureMessage;
                     var4 = 'Suggested games or wishlist games not found';
                     var4 = var7.bind(var8)(var4);
-case 27:
+case 40:
                     var7 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var3];
@@ -279,42 +382,42 @@ case 27:
                     var15 = var13;
                     var16 = var11 == var13;
                     var13 = undefined;
-                    if(var16) { _fun0002_ip = 29; continue _fun0002 }
-case 30:
+                    if(var16) { _fun0003_ip = 42; continue _fun0003 }
+case 43:
                     var13 = var15.suggested_games;
-case 29:
+case 42:
                     var14 = var13;
-                    if(!(var11 == var13)) { _fun0002_ip = 31; continue _fun0002 }
-case 32:
+                    if(!(var11 == var13)) { _fun0003_ip = 44; continue _fun0003 }
+case 45:
                     var13 = new Array(0);
-                    _fun0002_ip = 33; continue _fun0002;
-case 31:
+                    _fun0003_ip = 46; continue _fun0003;
+case 44:
                     var13 = var14;
-case 33:
+case 46:
                     var4['suggestedGamesIds'] = var13;
                     var9 = var9.body;
                     var12 = var9;
                     var13 = var11 == var9;
                     var9 = undefined;
-                    if(var13) { _fun0002_ip = 34; continue _fun0002 }
-case 35:
+                    if(var13) { _fun0003_ip = 47; continue _fun0003 }
+case 48:
                     var9 = var12.suggested_wishlist_games;
-case 34:
+case 47:
                     var10 = var9;
-                    if(!(var11 == var9)) { _fun0002_ip = 36; continue _fun0002 }
-case 37:
+                    if(!(var11 == var9)) { _fun0003_ip = 49; continue _fun0003 }
+case 50:
                     var9 = new Array(0);
-                    _fun0002_ip = 38; continue _fun0002;
-case 36:
+                    _fun0003_ip = 51; continue _fun0003;
+case 49:
                     var9 = var10;
-case 38:
+case 51:
                     var4['suggestedWishlistGamesIds'] = var9;
                     var4 = var7.bind(var8)(var4);
-case 39: // try_end0
+case 52: // try_end0
                     return var5;
-case 19:
+case 32:
                     return var2;
-case 40: // catch_target0
+case 53: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -331,7 +434,7 @@ case 40: // catch_target0
                     var3 = var4.captureException;
                     var3 = var3.bind(var4)(var2);
                     throw var2;
-case 15:
+case 28:
                     return var1;
                 }
             };

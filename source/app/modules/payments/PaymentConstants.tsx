@@ -53,6 +53,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['SIGNING_IN_PROGRESS'] = var11;
     var2 = 'SIGNING_IN_PROGRESS';
     var4[var11] = var2;
+    var11 = 5;
+    var4['SIGNING_FAILED'] = var11;
+    var2 = 'SIGNING_FAILED';
+    var4[var11] = var2;
     var2 = {};
     var2['UNSPECIFIED'] = var8;
     var2[var8] = var1;

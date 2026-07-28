@@ -946,7 +946,7 @@ case 27:
             var6 = 27;
             var6 = var13[var6];
             var6 = var12.bind(var5)(var6);
-            var7 = var6.QuestContentImpressionTrackerNative;
+            var7 = var6.BillableAdPlacementImpressionTrackerNative;
             var6 = {};
             var11 = var11.id;
             var6['adContentId'] = var11;

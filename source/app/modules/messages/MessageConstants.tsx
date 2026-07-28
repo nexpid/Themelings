@@ -136,6 +136,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SOCIAL_LAYER_STOREFRONT'] = var8;
     var8 = 'collectibles_shop';
     var2['COLLECTIBLES_SHOP'] = var8;
+    var8 = 'game_server_shop';
+    var2['GAME_SERVER_SHOP'] = var8;
     var8 = 'media_mention';
     var2['MEDIA_MENTION'] = var8;
     var8 = 'other';

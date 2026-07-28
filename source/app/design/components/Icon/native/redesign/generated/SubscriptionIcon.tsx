@@ -46,7 +46,7 @@ case 3:
             var1 = var5[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
-            var7 = var1.ICON_OVERLAY_LIGHT;
+            var7 = var1.ICON_STRONG;
 case 2:
             var1 = null;
             var2 = Object.create(var1);

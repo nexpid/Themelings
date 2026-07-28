@@ -420,6 +420,21 @@ case 28:
         return var1;
     };
     var3['resetAllPendingChanges'] = var4;
+    var4 = function resetAllTryItOutChanges() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'USER_PROFILE_SETTINGS_RESET_TRY_IT_OUT_CHANGES';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['resetAllTryItOutChanges'] = var4;
     var4 = function setTryItOutAvatar(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;

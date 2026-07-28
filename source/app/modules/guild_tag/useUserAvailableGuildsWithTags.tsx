@@ -51,6 +51,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
                     var3 = arg1;
+                    var5 = _closure1_slot2;
+                    var4 = var5.getSelfMember;
+                    var2 = var3.id;
+                    var4 = var4.bind(var5)(var2);
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot1;
                     var1 = 3;
@@ -61,31 +65,33 @@ case 0:
                     var1 = var1.bind(var5)(var3);
                     if(!var1) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
-                    var6 = _closure1_slot2;
-                    var5 = var6.getSelfMember;
-                    var4 = var3.id;
-                    var6 = var5.bind(var6)(var4);
-                    var5 = null;
-                    var7 = var5 == var6;
-                    var4 = undefined;
+                    var6 = null;
+                    var7 = var6 == var4;
+                    var5 = undefined;
                     if(var7) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                    var4 = var6.joinedAt;
+                    var5 = var4.joinedAt;
 case 4:
-                    var1 = var5 != var4;
+                    var1 = var6 != var5;
 case 2:
                     if(!var1) { _fun0001_ip = 6; continue _fun0001 }
 case 7:
+                    var5 = var4.isPending;
+                    var4 = true;
+                    var1 = var4 !== var5;
+case 6:
+                    if(!var1) { _fun0001_ip = 8; continue _fun0001 }
+case 9:
                     var4 = var3.profile;
                     var3 = null;
                     var5 = var3 == var4;
                     var2 = undefined;
-                    if(var5) { _fun0001_ip = 8; continue _fun0001 }
-case 9:
+                    if(var5) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
                     var2 = var4.tag;
-case 8:
+case 10:
                     var1 = var3 != var2;
-case 6:
+case 8:
                     return var1;
                 }
             };

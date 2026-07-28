@@ -1612,7 +1612,7 @@ case 88:
             var6 = 47;
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
-            var7 = var6.QuestContentImpressionTrackerNative;
+            var7 = var6.BillableAdPlacementImpressionTrackerNative;
             var6 = {};
             var6['overrideVisibility'] = var10;
             var10 = 36;

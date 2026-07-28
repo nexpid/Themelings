@@ -633,7 +633,7 @@ case 67:
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(12);
+        var1 = new Array(13);
         var1[0] = var5;
         var5 = {};
         var7 = 'getSavedMessages';
@@ -734,6 +734,56 @@ case 67:
         var5['value'] = var7;
         var1[6] = var5;
         var5 = {};
+        var7 = 'getMostRecentOverdueDueAt';
+        var5['key'] = var7;
+        var7 = function value() {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+case 0:
+                var1 = global;
+                var2 = var1.Date;
+                var1 = var2.now;
+                var8 = var1.bind(var2)();
+                var2 = _closure1_slot16;
+                var4 = _closure1_slot9;
+                var3 = var4.values;
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var1 = 7;
+                var1 = var6[var1];
+                var6 = undefined;
+                var1 = var5.bind(var6)(var1);
+                var1 = var1.SavedMessageSortTypes;
+                var1 = var1.REMINDER;
+                var1 = var3.bind(var4)(var1);
+                var5 = var2.bind(var6)(var1);
+                var3 = var5.bind(var6)();
+                var2 = var3.done;
+                var4 = var3;
+                var3 = 0;
+                var1 = 0;
+                if(var2) { _fun0013_ip = 68; continue _fun0013 }
+case 15:
+                var9 = _closure1_slot18;
+                var2 = var4.value;
+                var2 = var2.saveData;
+                var2 = var2.dueAt;
+                var9 = var9.bind(var6)(var2);
+                var1 = var3;
+                if(!(!(var9 > var8))) { _fun0013_ip = 68; continue _fun0013 }
+case 69:
+                var10 = var5.bind(var6)();
+                var2 = var10.done;
+                var4 = var10;
+                var3 = var9;
+                var1 = var3;
+                if(!var2) { _fun0013_ip = 15; continue _fun0013 }
+case 68:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[7] = var5;
+        var5 = {};
         var7 = 'getSavedMessageCount';
         var5['key'] = var7;
         var7 = function value() {
@@ -743,7 +793,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getIsStale';
         var5['key'] = var7;
@@ -752,7 +802,7 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getLastChanged';
         var5['key'] = var7;
@@ -761,41 +811,11 @@ case 67:
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'isMessageBookmarked';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
-case 0:
-                var3 = _closure1_slot9;
-                var2 = var3.get;
-                var5 = _closure1_slot21;
-                var4 = {};
-                var1 = arg1;
-                var4['channelId'] = var1;
-                var1 = arg2;
-                var4['messageId'] = var1;
-                var1 = undefined;
-                var1 = var5.bind(var1)(var4);
-                var2 = var2.bind(var3)(var1);
-                var3 = null;
-                var1 = var3 != var2;
-                if(!var1) { _fun0013_ip = 58; continue _fun0013 }
-case 42:
-                var2 = var2.saveData;
-                var2 = var2.dueAt;
-                var1 = var3 == var2;
-case 58:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[10] = var5;
-        var5 = {};
-        var7 = 'isMessageReminder';
-        var5['key'] = var7;
-        var6 = function value(arg1, arg2) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
                 var3 = _closure1_slot9;
@@ -815,13 +835,43 @@ case 0:
 case 42:
                 var2 = var2.saveData;
                 var2 = var2.dueAt;
+                var1 = var3 == var2;
+case 58:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[11] = var5;
+        var5 = {};
+        var7 = 'isMessageReminder';
+        var5['key'] = var7;
+        var6 = function value(arg1, arg2) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+case 0:
+                var3 = _closure1_slot9;
+                var2 = var3.get;
+                var5 = _closure1_slot21;
+                var4 = {};
+                var1 = arg1;
+                var4['channelId'] = var1;
+                var1 = arg2;
+                var4['messageId'] = var1;
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4);
+                var2 = var2.bind(var3)(var1);
+                var3 = null;
+                var1 = var3 != var2;
+                if(!var1) { _fun0015_ip = 58; continue _fun0015 }
+case 42:
+                var2 = var2.saveData;
+                var2 = var2.dueAt;
                 var1 = var3 != var2;
 case 58:
                 return var1;
             }
         };
         var5['value'] = var6;
-        var1[11] = var5;
+        var1[12] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -856,7 +906,7 @@ case 58:
     };
     var4['LOGOUT'] = var11;
     var11 = function handleUpdate(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.savedMessages;
@@ -876,16 +926,16 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0015_ip = 68; continue _fun0015 }
-case 69:
+            if(var2) { _fun0016_ip = 70; continue _fun0016 }
+case 71:
             var6 = _closure1_slot22;
             var2 = var3.value;
             var2 = var6.bind(var1)(var2);
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0015_ip = 69; continue _fun0015 }
-case 68:
+            if(!var2) { _fun0016_ip = 71; continue _fun0016 }
+case 70:
             return var1;
         }
     };
@@ -900,7 +950,7 @@ case 68:
     };
     var4['SAVED_MESSAGE_CREATE'] = var11;
     var11 = function handleDelete(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
             var1 = arg1;
             var6 = var1.savedMessageData;
@@ -913,8 +963,8 @@ case 0:
             var3 = null;
             var7 = var3 == var5;
             var1 = false;
-            if(var7) { _fun0016_ip = 70; continue _fun0016 }
-case 71:
+            if(var7) { _fun0017_ip = 72; continue _fun0017 }
+case 73:
             var8 = _closure1_slot9;
             var7 = var8.delete;
             var7 = var7.bind(var8)(var9);
@@ -924,7 +974,7 @@ case 71:
             var5 = var5.saveData;
             var5 = var5.channelId;
             var5 = var7.bind(var8)(var5);
-            if(!(var3 != var5)) { _fun0016_ip = 57; continue _fun0016 }
+            if(!(var3 != var5)) { _fun0017_ip = 57; continue _fun0017 }
 case 15:
             var3 = var5.delete;
             var3 = var3.bind(var5)(var6);
@@ -941,7 +991,7 @@ case 57:
             var3 = var3.bind(var5)();
             _closure1_slot11 = var3;
             var1 = undefined;
-case 70:
+case 72:
             return var1;
         }
     };
@@ -960,7 +1010,7 @@ case 70:
     };
     var4['MESSAGE_DELETE'] = var11;
     var11 = function handleMessageDeleteBulk(arg1) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.ids;
@@ -970,7 +1020,7 @@ case 0:
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0017_ip = 72; continue _fun0017 }
+            if(var2) { _fun0018_ip = 74; continue _fun0018 }
 case 46:
             var7 = _closure1_slot23;
             var2 = {};
@@ -981,24 +1031,24 @@ case 46:
             var7 = var4.bind(var1)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0017_ip = 46; continue _fun0017 }
-case 72:
+            if(!var2) { _fun0018_ip = 46; continue _fun0018 }
+case 74:
             return var1;
         }
     };
     var4['MESSAGE_DELETE_BULK'] = var11;
     var11 = function handleMessageUpdate(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
 case 0:
             var1 = arg1;
             var8 = var1.message;
             var1 = var8.id;
             var6 = null;
-            if(!(var6 != var1)) { _fun0018_ip = 73; continue _fun0018 }
-case 74:
+            if(!(var6 != var1)) { _fun0019_ip = 75; continue _fun0019 }
+case 76:
             var1 = var8.channel_id;
-            if(!(var6 != var1)) { _fun0018_ip = 73; continue _fun0018 }
-case 75:
+            if(!(var6 != var1)) { _fun0019_ip = 75; continue _fun0019 }
+case 77:
             var4 = _closure1_slot21;
             var3 = {};
             var1 = var8.id;
@@ -1012,12 +1062,12 @@ case 75:
             var3 = var3.bind(var4)(var5);
             var7 = var6 == var3;
             var4 = undefined;
-            if(var7) { _fun0018_ip = 15; continue _fun0018 }
-case 76:
+            if(var7) { _fun0019_ip = 15; continue _fun0019 }
+case 78:
             var4 = var3.message;
 case 15:
-            if(!(var6 != var4)) { _fun0018_ip = 77; continue _fun0018 }
-case 78:
+            if(!(var6 != var4)) { _fun0019_ip = 79; continue _fun0019 }
+case 80:
             var4 = {};
             var11 = var4;
             var10 = var3;
@@ -1035,10 +1085,10 @@ case 78:
             var2 = var3.set;
             var2 = var2.bind(var3)(var5, var4);
             return var1;
-case 77:
+case 79:
             var1 = false;
             return var1;
-case 73:
+case 75:
             var1 = false;
             return var1;
         }
@@ -1048,7 +1098,7 @@ case 73:
     var4['GUILD_UPDATE'] = var10;
     var4['GUILD_DELETE'] = var10;
     var11 = function handleChannelCreate(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.channel;
@@ -1056,11 +1106,11 @@ case 0:
             var2 = var1.size;
             var1 = 0;
             var1 = var1 !== var2;
-            if(!var1) { _fun0019_ip = 79; continue _fun0019 }
+            if(!var1) { _fun0020_ip = 81; continue _fun0020 }
 case 47:
             var4 = _closure1_slot10;
             var2 = !var4;
-            if(var4) { _fun0019_ip = 80; continue _fun0019 }
+            if(var4) { _fun0020_ip = 82; continue _fun0020 }
 case 61:
             var5 = _closure1_slot20;
             var3 = var3.id;
@@ -1068,33 +1118,33 @@ case 61:
             var5 = var5.bind(var4)(var3);
             var3 = !var5;
             var3 = !var3;
-            if(!var5) { _fun0019_ip = 3; continue _fun0019 }
+            if(!var5) { _fun0020_ip = 3; continue _fun0020 }
 case 48:
             var5 = true;
             _closure1_slot10 = var5;
             var3 = undefined;
 case 3:
             var2 = var3;
-case 80:
+case 82:
             var1 = var2;
-case 79:
+case 81:
             return var1;
         }
     };
     var4['CHANNEL_CREATE'] = var11;
     var11 = function handleChannelUpdates(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
 case 0:
             var1 = arg1;
             var2 = var1.channels;
             var1 = _closure1_slot13;
             var3 = var1.size;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0020_ip = 81; continue _fun0020 }
-case 82:
+            if(!(var1 !== var3)) { _fun0021_ip = 83; continue _fun0021 }
+case 84:
             var1 = _closure1_slot10;
-            if(var1) { _fun0020_ip = 83; continue _fun0020 }
-case 75:
+            if(var1) { _fun0021_ip = 85; continue _fun0021 }
+case 77:
             var1 = _closure1_slot16;
             var7 = undefined;
             var6 = var1.bind(var7)(var2);
@@ -1104,35 +1154,35 @@ case 75:
             var4 = var3;
             var3 = false;
             var1 = false;
-            if(var2) { _fun0020_ip = 68; continue _fun0020 }
+            if(var2) { _fun0021_ip = 70; continue _fun0021 }
 case 64:
             var9 = _closure1_slot20;
             var2 = var4.value;
             var2 = var2.id;
             var2 = var9.bind(var7)(var2);
-            if(!var2) { _fun0020_ip = 84; continue _fun0020 }
-case 85:
+            if(!var2) { _fun0021_ip = 86; continue _fun0021 }
+case 87:
             _closure1_slot10 = var5;
             var3 = true;
-case 84:
+case 86:
             var10 = var6.bind(var7)();
             var2 = var10.done;
             var4 = var10;
             var1 = var3;
-            if(!var2) { _fun0020_ip = 64; continue _fun0020 }
-case 68:
+            if(!var2) { _fun0021_ip = 64; continue _fun0021 }
+case 70:
             return var1;
-case 83:
+case 85:
             var1 = false;
             return var1;
-case 81:
+case 83:
             var1 = false;
             return var1;
         }
     };
     var4['CHANNEL_UPDATES'] = var11;
     var11 = function handleChannelDelete(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.channel;
@@ -1140,11 +1190,11 @@ case 0:
             var2 = var1.size;
             var1 = 0;
             var1 = var1 !== var2;
-            if(!var1) { _fun0021_ip = 79; continue _fun0021 }
+            if(!var1) { _fun0022_ip = 81; continue _fun0022 }
 case 47:
             var4 = _closure1_slot10;
             var2 = !var4;
-            if(var4) { _fun0021_ip = 80; continue _fun0021 }
+            if(var4) { _fun0022_ip = 82; continue _fun0022 }
 case 61:
             var5 = _closure1_slot20;
             var3 = var3.id;
@@ -1152,22 +1202,22 @@ case 61:
             var5 = var5.bind(var4)(var3);
             var3 = !var5;
             var3 = !var3;
-            if(!var5) { _fun0021_ip = 3; continue _fun0021 }
+            if(!var5) { _fun0022_ip = 3; continue _fun0022 }
 case 48:
             var5 = true;
             _closure1_slot10 = var5;
             var3 = undefined;
 case 3:
             var2 = var3;
-case 80:
+case 82:
             var1 = var2;
-case 79:
+case 81:
             return var1;
         }
     };
     var4['CHANNEL_DELETE'] = var11;
     var11 = function handleGuildMemberUpdate(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
 case 0:
             var1 = arg1;
             var3 = var1.user;
@@ -1175,11 +1225,11 @@ case 0:
             var2 = var1.size;
             var1 = 0;
             var1 = var1 !== var2;
-            if(!var1) { _fun0022_ip = 84; continue _fun0022 }
+            if(!var1) { _fun0023_ip = 86; continue _fun0023 }
 case 47:
             var4 = _closure1_slot10;
             var2 = !var4;
-            if(var4) { _fun0022_ip = 76; continue _fun0022 }
+            if(var4) { _fun0023_ip = 78; continue _fun0023 }
 case 61:
             var5 = var3.id;
             var4 = _closure1_slot7;
@@ -1188,21 +1238,21 @@ case 61:
             var3 = null;
             var8 = var3 == var7;
             var3 = undefined;
-            if(var8) { _fun0022_ip = 86; continue _fun0022 }
-case 87:
+            if(var8) { _fun0023_ip = 88; continue _fun0023 }
+case 89:
             var3 = var7.id;
-case 86:
-            var3 = var5 === var3;
-            if(!var3) { _fun0022_ip = 85; continue _fun0022 }
 case 88:
+            var3 = var5 === var3;
+            if(!var3) { _fun0023_ip = 87; continue _fun0023 }
+case 90:
             var5 = true;
             _closure1_slot10 = var5;
             var3 = undefined;
-case 85:
+case 87:
             var2 = var3;
-case 76:
+case 78:
             var1 = var2;
-case 84:
+case 86:
             return var1;
         }
     };

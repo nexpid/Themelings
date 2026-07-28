@@ -381,23 +381,40 @@ case 25:
     var2 = function transformSKUTenantMetadata(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
-            var2 = arg1;
-            var1 = null;
-            if(!(var1 == var2)) { _fun0007_ip = 2; continue _fun0007 }
+            var4 = arg1;
+            var3 = null;
+            if(!(var3 == var4)) { _fun0007_ip = 2; continue _fun0007 }
 case 3:
             var1 = undefined;
             return var1;
 case 2:
             var1 = {};
-            var6 = _closure1_slot6;
-            var5 = var2.social_layer;
-            var4 = undefined;
-            var5 = var6.bind(var4)(var5);
-            var1['socialLayer'] = var5;
-            var3 = _closure1_slot7;
-            var2 = var2.collectibles;
-            var2 = var3.bind(var4)(var2);
-            var1['collectibles'] = var2;
+            var7 = _closure1_slot6;
+            var6 = var4.social_layer;
+            var2 = undefined;
+            var6 = var7.bind(var2)(var6);
+            var1['socialLayer'] = var6;
+            var6 = _closure1_slot7;
+            var5 = var4.collectibles;
+            var5 = var6.bind(var2)(var5);
+            var1['collectibles'] = var5;
+            var5 = var4.plan_features;
+            var3 = var3 == var5;
+            if(var3) { _fun0007_ip = 27; continue _fun0007 }
+case 24:
+            var4 = var5.map;
+            var3 = function(arg1) {
+                var2 = arg1;
+                var1 = {};
+                var3 = var2.title;
+                var1['title'] = var3;
+                var2 = var2.description;
+                var1['description'] = var2;
+                return var1;
+            };
+            var2 = var4.bind(var5)(var3);
+case 27:
+            var1['gameServerPlanFeatures'] = var2;
             return var1;
         }
     };

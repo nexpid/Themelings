@@ -1012,7 +1012,7 @@ case 0:
                     var2 = var10[var2];
                     var4 = undefined;
                     var2 = var9.bind(var4)(var2);
-                    var3 = var2.QuestContentImpressionTrackerNative;
+                    var3 = var2.BillableAdPlacementImpressionTrackerNative;
                     var2 = {};
                     var8 = var1.id;
                     var2['adContentId'] = var8;

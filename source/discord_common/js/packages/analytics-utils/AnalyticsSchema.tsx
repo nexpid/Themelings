@@ -576,6 +576,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FORGOT_PASSWORD'] = var5;
     var5 = 'network_action_guild_create';
     var2['GUILD_CREATE'] = var5;
+    var5 = 'network_action_guild_space_fetch';
+    var2['GUILD_SPACE_FETCH'] = var5;
     var5 = 'network_action_guild_transfer_ownership';
     var2['GUILD_TRANSFER_OWNERSHIP'] = var5;
     var5 = 'network_action_guild_transfer_ownership_send_code';

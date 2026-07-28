@@ -58,8 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['primaryCollectionStyles'] = var4;
             var4 = var2.primaryCollectionPdpBgUrl;
             var3['primaryCollectionPdpBgUrl'] = var4;
-            var2 = var2.primaryCollectionWillUnpublishAt;
-            var3['primaryCollectionWillUnpublishAt'] = var2;
+            var4 = var2.primaryCollectionWillUnpublishAt;
+            var3['primaryCollectionWillUnpublishAt'] = var4;
+            var2 = var2.gameApplicationId;
+            var3['gameApplicationId'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -70,30 +72,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function value(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
 case 0:
-                var5 = arg1;
-                var6 = var5.sku_ids;
-                var9 = var5.options;
-                var11 = var5.created_at;
-                var10 = var5.updated_at;
-                var8 = var5.skus;
-                var2 = var5.tenant_metadata;
+                var4 = arg1;
+                var7 = var4.sku_ids;
+                var9 = var4.options;
+                var11 = var4.created_at;
+                var10 = var4.updated_at;
+                var8 = var4.skus;
+                var2 = var4.tenant_metadata;
                 var3 = {'sku_ids': 0, 'options': 0, 'created_at': 0, 'updated_at': 0, 'skus': 0, 'tenant_metadata': 0};
-                var7 = null;
+                var5 = null;
                 var14 = var3;
                 var13 = null;
                 var1 = silentSetPrototypeOf(var14, var13);
                 var14 = {};
-                var13 = var5;
+                var13 = var4;
                 var12 = var3;
                 var13 = copyDataProperties(var14, var13, var12);
                 var3 = _closure2_slot0;
                 var1 = {};
                 var14 = var1;
-                var5 = copyDataProperties(var14, var13);
-                var5 = 'skuIds';
-                var1[4] = var6;
-                var6 = var9.map;
-                var5 = function(arg1) {
+                var4 = copyDataProperties(var14, var13);
+                var4 = 'skuIds';
+                var1[3] = var7;
+                var7 = var9.map;
+                var4 = function(arg1) {
                     var2 = arg1;
                     var1 = {};
                     var3 = var2.name;
@@ -102,77 +104,91 @@ case 0:
                     var1['optionValues'] = var2;
                     return var1;
                 };
-                var6 = var6.bind(var9)(var5);
-                var5 = 'options';
-                var1[4] = var6;
-                var5 = global;
-                var6 = var5.Date;
-                var9 = var6.prototype;
-                var9 = Object.create(var9, {constructor: {value: var6}});
+                var7 = var7.bind(var9)(var4);
+                var4 = 'options';
+                var1[3] = var7;
+                var4 = global;
+                var7 = var4.Date;
+                var9 = var7.prototype;
+                var9 = Object.create(var9, {constructor: {value: var7}});
                 var15 = var9;
                 var14 = var11;
-                var6 = new var15[var6](var14, var13);
-                var9 = var6 instanceof Object ? var6 : var9;
-                var6 = 'createdAt';
-                var1[5] = var9;
-                var6 = var5.Date;
-                var9 = var6.prototype;
-                var9 = Object.create(var9, {constructor: {value: var6}});
+                var7 = new var15[var7](var14, var13);
+                var9 = var7 instanceof Object ? var7 : var9;
+                var7 = 'createdAt';
+                var1[6] = var9;
+                var7 = var4.Date;
+                var9 = var7.prototype;
+                var9 = Object.create(var9, {constructor: {value: var7}});
                 var15 = var9;
                 var14 = var10;
-                var6 = new var15[var6](var14, var13);
-                var9 = var6 instanceof Object ? var6 : var9;
-                var6 = 'updatedAt';
-                var1[5] = var9;
-                var6 = var8.map;
-                var4 = function(arg1) {
+                var7 = new var15[var7](var14, var13);
+                var9 = var7 instanceof Object ? var7 : var9;
+                var7 = 'updatedAt';
+                var1[6] = var9;
+                var7 = var8.map;
+                var6 = function(arg1) {
                     var3 = _closure1_slot3;
                     var2 = var3.createFromServer;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var6 = var6.bind(var8)(var4);
-                var4 = 'skus';
-                var1[3] = var6;
-                var4 = var2.collectibles;
-                var6 = var4.primary_collection_id;
-                var4 = 'primaryCollectionId';
-                var1[3] = var6;
-                var4 = var2.collectibles;
-                var4 = var4.primary_collection_styles;
-                var6 = var7 != var4;
+                var7 = var7.bind(var8)(var6);
+                var6 = 'skus';
+                var1[5] = var7;
+                var6 = var2.collectibles;
+                var7 = var6.primary_collection_id;
+                var6 = 'primaryCollectionId';
+                var1[5] = var7;
+                var6 = var2.collectibles;
+                var6 = var6.primary_collection_styles;
+                var7 = var5 != var6;
                 var8 = undefined;
-                if(!var6) { _fun0001_ip = 2; continue _fun0001 }
+                if(!var7) { _fun0001_ip = 2; continue _fun0001 }
 case 3:
                 var10 = _closure1_slot2;
                 var9 = var10.fromServer;
-                var6 = var2.collectibles;
-                var6 = var6.primary_collection_styles;
-                var8 = var9.bind(var10)(var6);
+                var7 = var2.collectibles;
+                var7 = var7.primary_collection_styles;
+                var8 = var9.bind(var10)(var7);
 case 2:
-                var6 = 'primaryCollectionStyles';
-                var1[5] = var8;
-                var6 = var2.collectibles;
-                var8 = var6.primary_collection_pdp_bg_url;
-                var6 = 'primaryCollectionPdpBgUrl';
-                var1[5] = var8;
-                var6 = var2.collectibles;
-                var6 = var6.primary_collection_will_unpublish_at;
-                var6 = var7 != var6;
-                var4 = undefined;
-                if(!var6) { _fun0001_ip = 4; continue _fun0001 }
+                var7 = 'primaryCollectionStyles';
+                var1[6] = var8;
+                var7 = var2.collectibles;
+                var8 = var7.primary_collection_pdp_bg_url;
+                var7 = 'primaryCollectionPdpBgUrl';
+                var1[6] = var8;
+                var7 = var2.collectibles;
+                var7 = var7.primary_collection_will_unpublish_at;
+                var8 = var5 != var7;
+                var7 = undefined;
+                if(!var8) { _fun0001_ip = 4; continue _fun0001 }
 case 5:
-                var6 = var5.Date;
-                var2 = var2.collectibles;
-                var14 = var2.primary_collection_will_unpublish_at;
-                var5 = var6.prototype;
-                var5 = Object.create(var5, {constructor: {value: var6}});
-                var15 = var5;
-                var2 = new var15[var6](var14, var13);
-                var4 = var2 instanceof Object ? var2 : var5;
+                var9 = var4.Date;
+                var4 = var2.collectibles;
+                var14 = var4.primary_collection_will_unpublish_at;
+                var8 = var9.prototype;
+                var8 = Object.create(var8, {constructor: {value: var9}});
+                var15 = var8;
+                var4 = new var15[var9](var14, var13);
+                var7 = var4 instanceof Object ? var4 : var8;
 case 4:
-                var2 = 'primaryCollectionWillUnpublishAt';
+                var4 = 'primaryCollectionWillUnpublishAt';
+                var1[3] = var7;
+                var2 = var2.guild_monetization;
+                var7 = var5 == var2;
+                var4 = undefined;
+                if(var7) { _fun0001_ip = 6; continue _fun0001 }
+case 7:
+                var2 = var2.game_server;
+                var5 = var5 == var2;
+                var4 = undefined;
+                if(var5) { _fun0001_ip = 6; continue _fun0001 }
+case 8:
+                var4 = var2.game_application_id;
+case 6:
+                var2 = 'gameApplicationId';
                 var1[1] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

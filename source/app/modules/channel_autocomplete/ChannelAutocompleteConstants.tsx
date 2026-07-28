@@ -60,6 +60,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['formatGameMentionRaw'] = var6;
+    var6 = function formatGameMentionToken(arg1) {
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var3 = var1.concat;
+        var2 = '$';
+        var1 = arg1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
+    };
+    var3['formatGameMentionToken'] = var6;
     var3['GAME_MENTION_RAW_RE'] = var5;
     var3['GAME_MENTION_RAW_RE_GLOBAL'] = var4;
     var2 = function extractGameMentionIds(arg1) {

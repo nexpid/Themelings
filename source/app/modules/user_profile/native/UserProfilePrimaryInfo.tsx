@@ -593,135 +593,173 @@ case 50:
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
                     var1 = _closure2_slot3;
-                    var8 = null;
-                    if(!(var8 != var1)) { _fun0007_ip = 53; continue _fun0007 }
+                    var10 = null;
+                    if(!(var10 != var1)) { _fun0007_ip = 53; continue _fun0007 }
 case 54:
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-                    _fun0007_ip = 55; continue _fun0007;
+                    _fun0007_ip = 50; continue _fun0007;
 case 53:
-                    var2 = _closure2_slot1;
-                    var3 = _closure1_slot7;
-                    var4 = _closure1_slot0;
+                    var3 = _closure2_slot1;
+                    var4 = _closure1_slot7;
+                    var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 21;
-                    var1 = var6[var1];
-                    var10 = undefined;
-                    var1 = var4.bind(var10)(var1);
-                    var1 = var1.BadgeId;
-                    var1 = var1.GIFTING;
-                    var1 = var3.bind(var10)(var1);
-                    if(!(var2 === var1)) { _fun0007_ip = 56; continue _fun0007 }
-case 57:
-                    var2 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 22;
-                    var1 = var3[var1];
-                    var3 = var2.bind(var10)(var1);
-                    var2 = var3.openUserSettings;
-                    var1 = {};
-                    var4 = _closure1_slot12;
-                    var4 = var4.PREMIUM_GIFTING;
-                    var1['screen'] = var4;
-                    var4 = {};
-                    var1['params'] = var4;
-                    var1 = var2.bind(var3)(var1);
-                    _fun0007_ip = 55; continue _fun0007;
+                    var2 = 21;
+                    var2 = var6[var2];
+                    var6 = undefined;
+                    var2 = var5.bind(var6)(var2);
+                    var2 = var2.BadgeId;
+                    var2 = var2.GIFTING;
+                    var2 = var4.bind(var6)(var2);
+                    if(!(var3 === var2)) { _fun0007_ip = 55; continue _fun0007 }
 case 56:
-                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var1 = 23;
-                    var1 = var4[var1];
-                    var3 = var2.bind(var10)(var1);
-                    var2 = var3.open;
-                    var1 = {};
-                    var6 = _closure2_slot2;
+                    var2 = 22;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var6)(var2);
+                    var3 = var4.openUserSettings;
+                    var2 = {};
+                    var5 = _closure1_slot12;
+                    var5 = var5.PREMIUM_GIFTING;
+                    var2['screen'] = var5;
+                    var5 = {};
+                    var2['params'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    _fun0007_ip = 50; continue _fun0007;
+case 55:
+                    var3 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var2 = 23;
+                    var2 = var5[var2];
+                    var4 = var3.bind(var6)(var2);
+                    var3 = var4.open;
+                    var2 = {};
+                    var8 = _closure2_slot2;
                     var9 = global;
                     var9 = var9.HermesInternal;
                     var11 = var9.concat;
                     var9 = 'PROFILE_BADGE-';
-                    var9 = var11.bind(var9)(var6);
-                    var1['key'] = var9;
-                    var1['content'] = var6;
-                    var6 = _closure2_slot0;
-                    var1['icon'] = var6;
-                    var1 = var2.bind(var3)(var1);
-                    var2 = _closure2_slot1;
+                    var9 = var11.bind(var9)(var8);
+                    var2['key'] = var9;
+                    var2['content'] = var8;
+                    var8 = _closure2_slot0;
+                    var2['icon'] = var8;
+                    var2 = var3.bind(var4)(var2);
+                    var3 = _closure2_slot1;
+                    var4 = _closure1_slot0;
+                    var2 = 24;
+                    var2 = var5[var2];
+                    var2 = var4.bind(var6)(var2);
+                    var2 = var2.QUEST_COMPLETED_BADGE;
+                    if(!(var3 === var2)) { _fun0007_ip = 50; continue _fun0007 }
+case 57:
                     var3 = _closure1_slot0;
-                    var1 = 24;
-                    var1 = var4[var1];
-                    var1 = var3.bind(var10)(var1);
-                    var1 = var1.QUEST_COMPLETED_BADGE;
-                    if(!(var2 === var1)) { _fun0007_ip = 55; continue _fun0007 }
-case 58:
-                    var2 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var2 = 25;
+                    var4 = var8[var2];
+                    var5 = var3.bind(var6)(var4);
+                    var4 = var5.shouldMigrateToAdAnalyticsInterface;
+                    var2 = var8[var2];
+                    var2 = var3.bind(var6)(var2);
+                    var2 = var2.AdAnalyticsInterfaceExperimentStep;
+                    var3 = var2.STEP_4_VIEWED_NON_IMPRESSION;
+                    var2 = 'quest_completed_badge_toast';
+                    var2 = var4.bind(var5)(var3, var2);
+                    if(var2) { _fun0007_ip = 58; continue _fun0007 }
+case 26:
+                    var3 = _closure1_slot1;
                     var13 = _closure1_slot2;
-                    var1 = 25;
-                    var1 = var13[var1];
-                    var4 = var2.bind(var10)(var1);
-                    var3 = var4.track;
-                    var1 = _closure1_slot11;
-                    var2 = var1.QUEST_CONTENT_VIEWED;
-                    var1 = {};
+                    var2 = 29;
+                    var2 = var13[var2];
+                    var5 = var3.bind(var6)(var2);
+                    var4 = var5.track;
+                    var2 = _closure1_slot11;
+                    var3 = var2.QUEST_CONTENT_VIEWED;
+                    var2 = {};
                     var12 = _closure1_slot0;
-                    var6 = 26;
-                    var6 = var13[var6];
-                    var11 = var12.bind(var10)(var6);
+                    var8 = 30;
+                    var8 = var13[var8];
+                    var11 = var12.bind(var6)(var8);
                     var9 = var11.getContentProperties;
-                    var6 = 27;
-                    var6 = var13[var6];
-                    var6 = var12.bind(var10)(var6);
-                    var6 = var6.QuestContent;
-                    var6 = var6.QUEST_BADGE;
-                    var14 = var9.bind(var11)(var6);
-                    var15 = var1;
-                    var6 = copyDataProperties(var15, var14);
-                    var6 = _closure2_slot4;
-                    var6 = var8 != var6;
+                    var8 = 28;
+                    var8 = var13[var8];
+                    var8 = var12.bind(var6)(var8);
+                    var8 = var8.QuestContent;
+                    var8 = var8.QUEST_BADGE;
+                    var14 = var9.bind(var11)(var8);
+                    var15 = var2;
+                    var8 = copyDataProperties(var15, var14);
+                    var8 = _closure2_slot4;
+                    var8 = var10 != var8;
                     var9 = null;
-                    if(!var6) { _fun0007_ip = 59; continue _fun0007 }
+                    if(!var8) { _fun0007_ip = 59; continue _fun0007 }
 case 60:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var6 = 28;
-                    var6 = var12[var6];
-                    var11 = var11.bind(var10)(var6);
-                    var6 = var11.isIOS;
-                    var6 = var6.bind(var11)();
+                    var8 = 31;
+                    var8 = var12[var8];
+                    var11 = var11.bind(var6)(var8);
+                    var8 = var11.isIOS;
+                    var8 = var8.bind(var11)();
                     var9 = null;
-                    if(!var6) { _fun0007_ip = 59; continue _fun0007 }
+                    if(!var8) { _fun0007_ip = 59; continue _fun0007 }
 case 61:
-                    var6 = _closure2_slot4;
-                    var9 = var6.advertisingId;
+                    var8 = _closure2_slot4;
+                    var9 = var8.advertisingId;
 case 59:
-                    var6 = 'apple_advertising_id';
-                    var1[5] = var9;
-                    var6 = _closure2_slot4;
-                    var9 = var8 != var6;
-                    var6 = null;
+                    var8 = 'apple_advertising_id';
+                    var2[7] = var9;
+                    var8 = _closure2_slot4;
+                    var9 = var10 != var8;
+                    var8 = null;
                     if(!var9) { _fun0007_ip = 62; continue _fun0007 }
 case 63:
-                    var9 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var7 = 28;
-                    var7 = var11[var7];
-                    var9 = var9.bind(var10)(var7);
-                    var7 = var9.isAndroid;
-                    var7 = var7.bind(var9)();
-                    var6 = null;
-                    if(!var7) { _fun0007_ip = 62; continue _fun0007 }
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var9 = 31;
+                    var9 = var12[var9];
+                    var11 = var11.bind(var6)(var9);
+                    var9 = var11.isAndroid;
+                    var9 = var9.bind(var11)();
+                    var8 = null;
+                    if(!var9) { _fun0007_ip = 62; continue _fun0007 }
 case 64:
-                    var5 = _closure2_slot4;
-                    var6 = var5.advertisingId;
+                    var7 = _closure2_slot4;
+                    var8 = var7.advertisingId;
 case 62:
-                    var5 = 'android_advertising_id';
-                    var1[4] = var6;
-                    var6 = false;
-                    var5 = 'is_targeted';
-                    var1[4] = var6;
-                    var1 = var3.bind(var4)(var2, var1);
-case 55:
+                    var7 = 'android_advertising_id';
+                    var2[6] = var8;
+                    var8 = false;
+                    var7 = 'is_targeted';
+                    var2[6] = var8;
+                    var2 = var4.bind(var5)(var3, var2);
+                    _fun0007_ip = 50; continue _fun0007;
+case 58:
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var1 = 26;
+                    var1 = var7[var1];
+                    var3 = var5.bind(var6)(var1);
+                    var2 = var3.captureAdUserAction;
+                    var1 = {};
+                    var4 = 27;
+                    var4 = var7[var4];
+                    var4 = var5.bind(var6)(var4);
+                    var4 = var4.AdUserActionType;
+                    var4 = var4.VIEW_INTERNAL_SURFACE_IMPRESSION;
+                    var1['type'] = var4;
+                    var4 = 28;
+                    var4 = var7[var4];
+                    var4 = var5.bind(var6)(var4);
+                    var4 = var4.QuestContent;
+                    var4 = var4.QUEST_BADGE;
+                    var1['surfaceId'] = var4;
+                    var4 = false;
+                    var1['isTargeted'] = var4;
+                    var1 = var2.bind(var3)(var1);
+case 50:
                     var1 = undefined;
                     return var1;
                 }
@@ -839,7 +877,7 @@ case 70:
             var1 = {};
             var15 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var14 = 29;
+            var14 = 32;
             var14 = var17[var14];
             var14 = var15.bind(var4)(var14);
             var1['source'] = var14;
@@ -874,7 +912,7 @@ case 70:
 case 69:
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var1 = 30;
+            var1 = 33;
             var1 = var11[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
@@ -1000,7 +1038,7 @@ case 71:
             var11 = var1.bind(var5)();
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 31;
+            var1 = 34;
             var1 = var3[var1];
             var4 = var2.bind(var5)(var1);
             var2 = var4.getUserPrimaryGuild;
@@ -1022,7 +1060,7 @@ case 73:
             var9 = var4.guildTagTextVariant;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var4 = 28;
+            var4 = 31;
             var4 = var12[var4];
             var7 = var7.bind(var5)(var4);
             var4 = var7.isAndroid;
@@ -1066,7 +1104,7 @@ case 78:
             var8 = _closure1_slot13;
             var7 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var6 = 32;
+            var6 = 35;
             var6 = var15[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
@@ -1202,7 +1240,7 @@ case 28:
     var10['guildTagBadgeSize'] = var12;
     var7[10] = var10;
     var _closure1_slot18 = var7;
-    var7 = 34;
+    var7 = 37;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -1237,7 +1275,7 @@ case 0:
             var15['backgroundColor'] = var1;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 33;
+            var1 = 36;
             var5 = var3[var1];
             var7 = var2.bind(var4)(var5);
             var5 = var7.useName;

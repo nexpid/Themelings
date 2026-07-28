@@ -548,7 +548,7 @@ case 15:
                     var27 = var27 == var25;
                     var25 = undefined;
                     if(var27) { _fun0004_ip = 17; continue _fun0004 }
-case 18:
+case 8:
                     var27 = _closure2_slot12;
                     var25 = var27.time_display_latest_messages_end;
 case 17:

@@ -52,6 +52,8 @@ case 2:
             var1['port'] = var3;
             var3 = var2.entitlement_id;
             var1['entitlementId'] = var3;
+            var3 = var2.subscription_id;
+            var1['subscriptionId'] = var3;
             var3 = var2.provider_type;
             var1['providerType'] = var3;
             var3 = var2.provider_url;

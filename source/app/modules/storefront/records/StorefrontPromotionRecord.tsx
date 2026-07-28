@@ -182,22 +182,11 @@ case 21:
             var9 = var7.reward;
             var9 = var9.storefront;
             var9 = var9.nagbar;
-            var10 = var9.body_text;
-            var11 = var8 != var10;
-            var9 = undefined;
-            if(!var11) { _fun0005_ip = 23; continue _fun0005 }
-case 24:
-            var9 = var10;
-case 23:
-            var5['bodyText'] = var9;
-            var9 = var7.reward;
-            var9 = var9.storefront;
-            var9 = var9.nagbar;
             var9 = var9.cta;
             var10 = var8 != var9;
             var9 = undefined;
-            if(!var10) { _fun0005_ip = 25; continue _fun0005 }
-case 26:
+            if(!var10) { _fun0005_ip = 23; continue _fun0005 }
+case 24:
             var10 = {};
             var11 = var7.reward;
             var11 = var11.storefront;
@@ -206,13 +195,13 @@ case 26:
             var12 = var11.text;
             var13 = var8 != var12;
             var11 = undefined;
-            if(!var13) { _fun0005_ip = 27; continue _fun0005 }
-case 28:
+            if(!var13) { _fun0005_ip = 25; continue _fun0005 }
+case 26:
             var11 = var12;
-case 27:
+case 25:
             var10['text'] = var11;
             var9 = var10;
-case 25:
+case 23:
             var5['cta'] = var9;
             var7 = var7.reward;
             var7 = var7.storefront;
@@ -220,10 +209,10 @@ case 25:
             var7 = var7.help_center_id;
             var8 = var8 != var7;
             var6 = undefined;
-            if(!var8) { _fun0005_ip = 29; continue _fun0005 }
-case 30:
+            if(!var8) { _fun0005_ip = 27; continue _fun0005 }
+case 28:
             var6 = var7;
-case 29:
+case 27:
             var5['helpCenterId'] = var6;
             var4['nagbar'] = var5;
             var3['storefront'] = var4;
@@ -285,12 +274,12 @@ case 0:
                 var3 = _closure1_slot3;
                 var1 = _closure1_slot6;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0006_ip = 31; continue _fun0006 }
-case 32:
+                if(var1) { _fun0006_ip = 29; continue _fun0006 }
+case 30:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var5, var4);
-                _fun0006_ip = 33; continue _fun0006;
-case 31:
+                _fun0006_ip = 31; continue _fun0006;
+case 29:
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
@@ -299,7 +288,7 @@ case 31:
                 var7 = var6.constructor;
                 var6 = new Array(0);
                 var1 = var8.bind(var9)(var10, var6, var7);
-case 33:
+case 31:
                 var1 = var3.bind(var4)(var5, var1);
                 var3 = var2.id;
                 var1['id'] = var3;
@@ -347,23 +336,23 @@ case 0:
                 var2 = null;
                 var7 = var2 != var6;
                 var5 = null;
-                if(!var7) { _fun0007_ip = 34; continue _fun0007 }
-case 35:
+                if(!var7) { _fun0007_ip = 32; continue _fun0007 }
+case 33:
                 var5 = var6;
-case 34:
+case 32:
                 var1['displayName'] = var5;
                 var5 = var4.reward_type;
                 var1['rewardType'] = var5;
                 var5 = var4.reward_config;
                 var6 = var2 != var5;
                 var5 = null;
-                if(!var6) { _fun0007_ip = 36; continue _fun0007 }
-case 37:
+                if(!var6) { _fun0007_ip = 34; continue _fun0007 }
+case 35:
                 var8 = _closure1_slot7;
                 var7 = var4.reward_config;
                 var6 = undefined;
                 var5 = var8.bind(var6)(var7);
-case 36:
+case 34:
                 var1['rewardConfig'] = var5;
                 var8 = _closure1_slot8;
                 var7 = var4.sku_ids;
@@ -375,8 +364,8 @@ case 36:
                 var7 = var4.starts_at;
                 var8 = var2 != var7;
                 var7 = null;
-                if(!var8) { _fun0007_ip = 38; continue _fun0007 }
-case 39:
+                if(!var8) { _fun0007_ip = 36; continue _fun0007 }
+case 37:
                 var8 = global;
                 var10 = var8.Date;
                 var11 = var4.starts_at;
@@ -385,13 +374,13 @@ case 39:
                 var12 = var9;
                 var8 = new var12[var10](var11, var10);
                 var7 = var8 instanceof Object ? var8 : var9;
-case 38:
+case 36:
                 var1['startsAt'] = var7;
                 var7 = var4.ends_at;
                 var8 = var2 != var7;
                 var7 = null;
-                if(!var8) { _fun0007_ip = 40; continue _fun0007 }
-case 41:
+                if(!var8) { _fun0007_ip = 38; continue _fun0007 }
+case 39:
                 var8 = global;
                 var10 = var8.Date;
                 var11 = var4.ends_at;
@@ -400,17 +389,17 @@ case 41:
                 var12 = var9;
                 var8 = new var12[var10](var11, var10);
                 var7 = var8 instanceof Object ? var8 : var9;
-case 40:
+case 38:
                 var1['endsAt'] = var7;
                 var7 = var4.tenant_metadata;
                 var7 = var2 != var7;
                 var2 = null;
-                if(!var7) { _fun0007_ip = 42; continue _fun0007 }
-case 43:
+                if(!var7) { _fun0007_ip = 40; continue _fun0007 }
+case 41:
                 var5 = _closure1_slot9;
                 var4 = var4.tenant_metadata;
                 var2 = var5.bind(var6)(var4);
-case 42:
+case 40:
                 var1['tenantMetadata'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

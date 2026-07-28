@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot11;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var7 = function isDismissible(arg1) {
         var1 = global;
         var4 = var1.Object;
@@ -202,7 +202,7 @@ case 35:
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot11 = var7;
+    var _closure1_slot12 = var7;
     var6 = function isQuestConfigExpired(arg1) {
         var1 = global;
         var4 = var1.Date;
@@ -221,90 +221,23 @@ case 35:
         var1 = var2 <= var1;
         return var1;
     };
-    var _closure1_slot12 = var6;
+    var _closure1_slot13 = var6;
     var5 = function isQuestExpired(arg1) {
-        var3 = _closure1_slot12;
+        var3 = _closure1_slot13;
         var1 = arg1;
         var2 = var1.config;
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var _closure1_slot13 = var5;
+    var _closure1_slot14 = var5;
     var4 = function getQuestPlacementFromQuestContent(arg1) {
-        var2 = {};
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 4;
-        var3 = var6[var1];
-        var4 = undefined;
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestContent;
-        var7 = var3.QUEST_BAR;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.AdPlacement;
-        var3 = var3.DESKTOP_ACCOUNT_PANEL_AREA;
-        var2[6] = var3;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestContent;
-        var7 = var3.QUEST_BAR_V2;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.AdPlacement;
-        var3 = var3.DESKTOP_ACCOUNT_PANEL_AREA;
-        var2[6] = var3;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestContent;
-        var7 = var3.QUEST_BAR_MOBILE;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.AdPlacement;
-        var3 = var3.MOBILE_HOME_DOCK_AREA;
-        var2[6] = var3;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestContent;
-        var7 = var3.QUEST_HOME_HERO;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.AdPlacement;
-        var3 = var3.QUEST_HOME_BANNER_DESKTOP;
-        var2[6] = var3;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestContent;
-        var7 = var3.QUEST_HOME_HERO_SHELF;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.AdPlacement;
-        var3 = var3.QUEST_HOME_BANNER_DESKTOP;
-        var2[6] = var3;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestContent;
-        var7 = var3.QUEST_HOME_MOBILE_CAROUSEL;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.AdPlacement;
-        var3 = var3.QUEST_HOME_MOBILE_CAROUSEL;
-        var2[6] = var3;
-        var3 = var6[var1];
-        var3 = var5.bind(var4)(var3);
-        var3 = var3.QuestContent;
-        var3 = var3.VIDEO_MODAL_MOBILE;
-        var1 = var6[var1];
-        var1 = var5.bind(var4)(var1);
-        var1 = var1.AdPlacement;
-        var1 = var1.VIDEO_MODAL_MOBILE;
-        var2[2] = var1;
+        var2 = _closure1_slot9;
         var1 = arg1;
         var1 = var2[var1];
         return var1;
     };
-    var _closure1_slot14 = var4;
+    var _closure1_slot15 = var4;
     var1 = function mapQuestAdDecision(arg1) {
         var2 = arg1;
         var1 = {};
@@ -322,7 +255,7 @@ case 35:
         var1['trafficMetadataSealed'] = var2;
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function getQuestDeliveryDataForPlacement(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -359,7 +292,7 @@ case 39:
             var3 = null;
             if(!var5) { _fun0004_ip = 40; continue _fun0004 }
 case 41:
-            var5 = _closure1_slot15;
+            var5 = _closure1_slot16;
             var3 = var5.bind(var4)(var6);
 case 40:
             var1 = var3;
@@ -424,19 +357,19 @@ case 47:
             var5 = null;
             if(var6) { _fun0004_ip = 50; continue _fun0004 }
 case 51:
-            var6 = _closure1_slot15;
+            var6 = _closure1_slot16;
             var5 = var6.bind(var4)(var3);
 case 50:
             return var5;
 case 46:
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot16;
             var2 = var2.bind(var4)(var3);
             return var2;
 case 42:
             return var1;
         }
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = global;
     var13 = var1.Object;
     var12 = var13.defineProperty;
@@ -467,6 +400,72 @@ case 42:
     var _closure1_slot7 = var11;
     var8 = var8.EMPTY_AD_DECISION_DATA;
     var _closure1_slot8 = var8;
+    var8 = {};
+    var11 = 4;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.QuestContent;
+    var13 = var12.QUEST_BAR;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.AdPlacement;
+    var12 = var12.DESKTOP_ACCOUNT_PANEL_AREA;
+    var8[12] = var12;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.QuestContent;
+    var13 = var12.QUEST_BAR_V2;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.AdPlacement;
+    var12 = var12.DESKTOP_ACCOUNT_PANEL_AREA;
+    var8[12] = var12;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.QuestContent;
+    var13 = var12.QUEST_BAR_MOBILE;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.AdPlacement;
+    var12 = var12.MOBILE_HOME_DOCK_AREA;
+    var8[12] = var12;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.QuestContent;
+    var13 = var12.QUEST_HOME_HERO;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.AdPlacement;
+    var12 = var12.QUEST_HOME_BANNER_DESKTOP;
+    var8[12] = var12;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.QuestContent;
+    var13 = var12.QUEST_HOME_HERO_SHELF;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.AdPlacement;
+    var12 = var12.QUEST_HOME_BANNER_DESKTOP;
+    var8[12] = var12;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.QuestContent;
+    var13 = var12.QUEST_HOME_MOBILE_CAROUSEL;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.AdPlacement;
+    var12 = var12.QUEST_HOME_MOBILE_CAROUSEL;
+    var8[12] = var12;
+    var12 = var10[var11];
+    var12 = var9.bind(var1)(var12);
+    var12 = var12.QuestContent;
+    var12 = var12.VIDEO_MODAL_MOBILE;
+    var11 = var10[var11];
+    var11 = var9.bind(var1)(var11);
+    var11 = var11.AdPlacement;
+    var11 = var11.VIDEO_MODAL_MOBILE;
+    var8[11] = var11;
+    var _closure1_slot9 = var8;
     var8 = 8;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
@@ -580,7 +579,7 @@ case 57:
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
 case 0:
             var5 = arg2;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var4 = undefined;
             var2 = var2.bind(var4)(var5);
             if(var2) { _fun0007_ip = 63; continue _fun0007 }
@@ -614,7 +613,7 @@ case 63:
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
 case 0:
             var1 = arg1;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot14;
             var2 = undefined;
             var2 = var3.bind(var2)(var1);
             if(var2) { _fun0008_ip = 63; continue _fun0008 }
@@ -658,7 +657,7 @@ case 0:
             var2 = var9.Date;
             var1 = var2.now;
             var8 = var1.bind(var2)();
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot10;
             var7 = undefined;
             var1 = arg1;
             var6 = var2.bind(var7)(var1);
@@ -784,7 +783,7 @@ case 77:
             var1 = undefined;
             if(var3) { _fun0012_ip = 78; continue _fun0012 }
 case 7:
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot14;
             var3 = var3.bind(var4)(var2);
             var1 = undefined;
             if(var3) { _fun0012_ip = 78; continue _fun0012 }
@@ -799,7 +798,7 @@ case 78:
     var4 = function isBillableQuestContent(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
 case 0:
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot15;
             var3 = undefined;
             var1 = arg1;
             var4 = var4.bind(var3)(var1);
@@ -819,14 +818,14 @@ case 80:
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
 case 0:
             var4 = arg1;
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot15;
             var6 = undefined;
             var2 = arg2;
             var5 = var3.bind(var6)(var2);
             var2 = null;
             if(!(var2 != var5)) { _fun0014_ip = 81; continue _fun0014 }
 case 74:
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot17;
             var3 = var3.bind(var6)(var5, var4);
             if(!(var2 == var3)) { _fun0014_ip = 82; continue _fun0014 }
 case 80:
@@ -863,7 +862,7 @@ case 81:
     var4 = function getAdMetadataSealed(arg1, arg2) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
 case 0:
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot15;
             var1 = undefined;
             var3 = arg1;
             var5 = var4.bind(var1)(var3);
@@ -872,7 +871,7 @@ case 0:
 case 31:
             return var1;
 case 73:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var2 = arg2;
             var2 = var4.bind(var1)(var5, var2);
             var3 = var3 == var2;
@@ -890,14 +889,14 @@ case 88:
 case 0:
             var6 = arg2;
             var7 = arg3;
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot15;
             var2 = undefined;
             var1 = arg1;
             var5 = var4.bind(var2)(var1);
             var4 = null;
             if(!(var4 != var5)) { _fun0016_ip = 89; continue _fun0016 }
 case 77:
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot17;
             var5 = var1.bind(var2)(var5, var7);
             if(!(var4 == var5)) { _fun0016_ip = 90; continue _fun0016 }
 case 91:
@@ -933,7 +932,7 @@ case 92:
     var4 = function getAdContext(arg1, arg2) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
 case 0:
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot15;
             var1 = undefined;
             var3 = arg1;
             var5 = var4.bind(var1)(var3);
@@ -942,7 +941,7 @@ case 0:
 case 31:
             return var1;
 case 73:
-            var4 = _closure1_slot16;
+            var4 = _closure1_slot17;
             var2 = arg2;
             var2 = var4.bind(var1)(var5, var2);
             var3 = var3 == var2;

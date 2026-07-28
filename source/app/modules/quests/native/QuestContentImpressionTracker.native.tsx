@@ -78,7 +78,7 @@ case 22:
             var7 = undefined;
             if(!var9) { _fun0001_ip = 23; continue _fun0001 }
 case 21:
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot11;
             var7 = var9.bind(var8)(var3, var8);
 case 23:
             _fun0001_ip = 24; continue _fun0001;
@@ -90,7 +90,7 @@ case 24:
             var6 = var7;
             _fun0001_ip = 10; continue _fun0001;
 case 12:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot11;
             var6 = var7.bind(var8)(var3, var8);
 case 10:
             var4 = var6;
@@ -149,7 +149,7 @@ case 6:
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
 case 0:
@@ -182,7 +182,7 @@ case 35:
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function calculateVisibilityPercentage(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
 case 0:
@@ -356,7 +356,7 @@ case 41:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function useVisibilityData(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
 case 0:
@@ -371,7 +371,7 @@ case 0:
             var3 = var3.bind(var11)(var2);
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 5;
+            var4 = 6;
             var6 = var6[var4];
             var4 = undefined;
             var8 = var7.bind(var4)(var6);
@@ -430,7 +430,7 @@ case 59:
                                 var5 = copyDataProperties(var7, var6);
                                 var5 = function calculateVisibility() {
                                     var3 = _closure4_slot0;
-                                    var5 = _closure1_slot11;
+                                    var5 = _closure1_slot12;
                                     var4 = {};
                                     var1 = _closure4_slot1;
                                     var4['visibilityRef'] = var1;
@@ -449,7 +449,7 @@ case 59:
                                 var1 = undefined;
                                 return var1;
                             };
-                            var1 = _closure1_slot9;
+                            var1 = _closure1_slot10;
                             var4 = undefined;
                             var3 = var1.bind(var4)(var2);
                             var2 = var3.bind(var4)();
@@ -490,7 +490,7 @@ case 0:
                             var5 = null;
                             if(!(var5 != var1)) { _fun0008_ip = 63; continue _fun0008 }
 case 64:
-                            var2 = _closure1_slot9;
+                            var2 = _closure1_slot10;
                             var1 = _closure2_slot0;
                             var4 = undefined;
                             var3 = var2.bind(var4)(var1);
@@ -527,7 +527,7 @@ case 17:
             var1['visible'] = var3;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 6;
+            var2 = 7;
             var2 = var6[var2];
             var2 = var5.bind(var4)(var2);
             var2 = var2.bind(var4)(var3);
@@ -536,7 +536,117 @@ case 17:
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
+    var1 = function AdContentImpressionTrackerBaseNative(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+case 0:
+            var1 = arg1;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 8;
+            var2 = var9[var2];
+            var4 = undefined;
+            var7 = var8.bind(var4)(var2);
+            var5 = var7.useStateFromStores;
+            var2 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var2 = _closure1_slot5;
+                var1 = var2.getState;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var3 = var5.bind(var7)(var3, var2);
+            var2 = _closure1_slot7;
+            var2 = var2.ACTIVE;
+            var5 = var3 === var2;
+            var7 = _closure1_slot4;
+            var3 = var7.useRef;
+            var2 = null;
+            var7 = var3.bind(var7)(var2);
+            var3 = _closure1_slot1;
+            var2 = 7;
+            var2 = var9[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.bind(var4)(var5);
+            var2 = 9;
+            var2 = var9[var2];
+            var8 = var8.bind(var4)(var2);
+            var2 = var8.useAdContentImpressionTrackerProps;
+            var8 = var2.bind(var8)(var1);
+            var2 = var8.key;
+            var9 = var8.adContentIds;
+            var11 = _closure1_slot13;
+            var10 = {};
+            var14 = var10;
+            var13 = var1;
+            var8 = copyDataProperties(var14, var13);
+            var8 = 'adContentIds';
+            var10[7] = var9;
+            var11 = var11.bind(var4)(var10);
+            var10 = {};
+            var14 = var10;
+            var13 = var1;
+            var12 = copyDataProperties(var14, var13);
+            var14 = var10;
+            var13 = var11;
+            var11 = copyDataProperties(var14, var13);
+            var11 = 'focused';
+            var10[10] = var5;
+            var11 = var5 !== var3;
+            var3 = 'focusedChanged';
+            var10[2] = var11;
+            var3 = 'reference';
+            var10[2] = var7;
+            var3 = 'isFocused';
+            var10[2] = var5;
+            var3 = var1.skipRemountKey;
+            var11 = undefined;
+            if(var3) { _fun0009_ip = 68; continue _fun0009 }
+case 69:
+            var11 = var2;
+case 68:
+            var3 = _closure1_slot8;
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 10;
+            var2 = var7[var2];
+            var2 = var5.bind(var4)(var2);
+            var2 = var2.QuestContentImpressionTracker;
+            var5 = 'questOrQuests';
+            var7 = var5 in var1;
+            var5 = {};
+            var14 = var5;
+            var13 = var10;
+            var10 = copyDataProperties(var14, var13);
+            var10 = 'key';
+            var5[9] = var11;
+            var5[7] = var9;
+            if(var7) { _fun0009_ip = 70; continue _fun0009 }
+case 71:
+            var7 = var1.adCreativeType;
+            var1 = 'adCreativeType';
+            var5[0] = var7;
+            var1 = var5;
+            _fun0009_ip = 72; continue _fun0009;
+case 70:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 11;
+            var6 = var8[var6];
+            var6 = var7.bind(var4)(var6);
+            var6 = var6.AdCreativeType;
+            var7 = var6.QUEST;
+            var6 = 'adCreativeType';
+            var5[5] = var7;
+            var1 = var5;
+case 72:
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot14 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -573,121 +683,40 @@ case 17:
     var4 = var5.bind(var1)(var4);
     var4 = var4.createElement;
     var _closure1_slot8 = var4;
-    var4 = 11;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot9 = var4;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/quests/native/QuestContentImpressionTracker.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function QuestContentImpressionTrackerNative(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
-case 0:
-            var1 = arg1;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var2 = 7;
-            var2 = var9[var2];
-            var4 = undefined;
-            var7 = var8.bind(var4)(var2);
-            var5 = var7.useStateFromStores;
-            var2 = _closure1_slot5;
-            var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
-                var2 = _closure1_slot5;
-                var1 = var2.getState;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var5.bind(var7)(var3, var2);
-            var2 = _closure1_slot7;
-            var2 = var2.ACTIVE;
-            var5 = var3 === var2;
-            var7 = _closure1_slot4;
-            var3 = var7.useRef;
-            var2 = null;
-            var7 = var3.bind(var7)(var2);
-            var3 = _closure1_slot1;
-            var2 = 6;
-            var2 = var9[var2];
-            var2 = var3.bind(var4)(var2);
-            var3 = var2.bind(var4)(var5);
-            var2 = 8;
-            var2 = var9[var2];
-            var8 = var8.bind(var4)(var2);
-            var2 = var8.useAdContentImpressionTrackerProps;
-            var8 = var2.bind(var8)(var1);
-            var2 = var8.key;
-            var9 = var8.adContentIds;
-            var11 = _closure1_slot12;
-            var10 = {};
-            var14 = var10;
-            var13 = var1;
-            var8 = copyDataProperties(var14, var13);
-            var8 = 'adContentIds';
-            var10[7] = var9;
-            var11 = var11.bind(var4)(var10);
-            var10 = {};
-            var14 = var10;
-            var13 = var1;
-            var12 = copyDataProperties(var14, var13);
-            var14 = var10;
-            var13 = var11;
-            var11 = copyDataProperties(var14, var13);
-            var11 = 'focused';
-            var10[10] = var5;
-            var11 = var5 !== var3;
-            var3 = 'focusedChanged';
-            var10[2] = var11;
-            var3 = 'reference';
-            var10[2] = var7;
-            var3 = 'isFocused';
-            var10[2] = var5;
-            var3 = var1.skipRemountKey;
-            var11 = undefined;
-            if(var3) { _fun0009_ip = 68; continue _fun0009 }
-case 69:
-            var11 = var2;
-case 68:
-            var3 = _closure1_slot8;
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 9;
-            var2 = var7[var2];
-            var2 = var5.bind(var4)(var2);
-            var2 = var2.QuestContentImpressionTracker;
-            var5 = 'questOrQuests';
-            var7 = var5 in var1;
-            var5 = {};
-            var14 = var5;
-            var13 = var10;
-            var10 = copyDataProperties(var14, var13);
-            var10 = 'key';
-            var5[9] = var11;
-            var5[7] = var9;
-            if(var7) { _fun0009_ip = 70; continue _fun0009 }
-case 71:
-            var7 = var1.adCreativeType;
-            var1 = 'adCreativeType';
-            var5[0] = var7;
-            var1 = var5;
-            _fun0009_ip = 72; continue _fun0009;
-case 70:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 10;
-            var6 = var8[var6];
-            var6 = var7.bind(var4)(var6);
-            var6 = var6.AdCreativeType;
-            var7 = var6.QUEST;
-            var6 = 'adCreativeType';
-            var5[5] = var7;
-            var1 = var5;
-case 72:
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
+    var4 = function QuestContentImpressionTrackerNative(arg1) {
+        var4 = _closure1_slot9;
+        var3 = _closure1_slot14;
+        var2 = {};
+        var5 = arg1;
+        var6 = var2;
+        var1 = copyDataProperties(var6, var5);
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    var3['QuestContentImpressionTrackerNative'] = var2;
+    var3['QuestContentImpressionTrackerNative'] = var4;
+    var2 = function BillableAdPlacementImpressionTrackerNative(arg1) {
+        var4 = _closure1_slot9;
+        var3 = _closure1_slot14;
+        var2 = {};
+        var5 = arg1;
+        var6 = var2;
+        var1 = copyDataProperties(var6, var5);
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
+    };
+    var3['BillableAdPlacementImpressionTrackerNative'] = var2;
     return var1;
 })();

@@ -132,6 +132,8 @@ case 2:
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var16 = var1.top;
+            var10 = var1.left;
+            var8 = var1.right;
             var2 = _closure1_slot0;
             var1 = 8;
             var1 = var3[var1];
@@ -180,7 +182,18 @@ case 8:
             var1['importantForAccessibility'] = var5;
             var5 = !var24;
             var1['accessibilityElementsHidden'] = var5;
-            var5 = var17.chat;
+            var6 = var17.chat;
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = undefined;
+            if(var18) { _fun0001_ip = 10; continue _fun0001 }
+case 11:
+            var7 = {};
+            var7['paddingLeft'] = var10;
+            var7['paddingRight'] = var8;
+            var6 = var7;
+case 10:
+            var5[1] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot6;
             var6 = _closure1_slot1;
@@ -203,8 +216,8 @@ case 8:
             var6['guildId'] = var20;
             var6['channelId'] = var19;
             var10 = null;
-            if(var18) { _fun0001_ip = 10; continue _fun0001 }
-case 11:
+            if(var18) { _fun0001_ip = 12; continue _fun0001 }
+case 13:
             var12 = _closure1_slot6;
             var11 = _closure1_slot1;
             var25 = _closure1_slot2;
@@ -213,23 +226,23 @@ case 11:
             var11 = var11.bind(var4)(var9);
             var9 = {};
             var24 = !var24;
-            if(!var24) { _fun0001_ip = 12; continue _fun0001 }
-case 13:
+            if(!var24) { _fun0001_ip = 14; continue _fun0001 }
+case 15:
             var24 = undefined;
-case 12:
+case 14:
             var9['hidden'] = var24;
             var9['animated'] = var21;
-            if(var15) { _fun0001_ip = 14; continue _fun0001 }
-case 15:
+            if(var15) { _fun0001_ip = 16; continue _fun0001 }
+case 17:
             var15 = 'dark-content';
             var21 = 'dark';
-            if(!(var21 === var23)) { _fun0001_ip = 16; continue _fun0001 }
-case 14:
-            var15 = 'light-content';
+            if(!(var21 === var23)) { _fun0001_ip = 18; continue _fun0001 }
 case 16:
+            var15 = 'light-content';
+case 18:
             var9['barStyle'] = var15;
             var10 = var12.bind(var4)(var11, var9);
-case 10:
+case 12:
             var9 = new Array(5);
             var9[0] = var10;
             var12 = _closure1_slot6;
@@ -241,10 +254,10 @@ case 10:
             var21 = {};
             var21['height'] = var16;
             var23 = undefined;
-            if(!var18) { _fun0001_ip = 17; continue _fun0001 }
-case 18:
+            if(!var18) { _fun0001_ip = 19; continue _fun0001 }
+case 20:
             var23 = 'none';
-case 17:
+case 19:
             var21['display'] = var23;
             var15[1] = var21;
             var10['style'] = var15;
@@ -258,10 +271,10 @@ case 17:
             var15[0] = var21;
             var21 = {};
             var23 = undefined;
-            if(!var18) { _fun0001_ip = 19; continue _fun0001 }
-case 20:
+            if(!var18) { _fun0001_ip = 21; continue _fun0001 }
+case 22:
             var23 = 'none';
-case 19:
+case 21:
             var21['display'] = var23;
             var15[1] = var21;
             var10['style'] = var15;
@@ -290,10 +303,10 @@ case 19:
             var15 = {};
             var15['top'] = var16;
             var16 = undefined;
-            if(!var18) { _fun0001_ip = 21; continue _fun0001 }
-case 22:
+            if(!var18) { _fun0001_ip = 23; continue _fun0001 }
+case 24:
             var16 = 'none';
-case 21:
+case 23:
             var15['display'] = var16;
             var13[1] = var15;
             var10['style'] = var13;

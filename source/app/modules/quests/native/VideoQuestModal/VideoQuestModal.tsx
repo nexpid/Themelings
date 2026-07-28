@@ -713,7 +713,7 @@ case 28:
                         var7 = 22;
                         var7 = var13[var7];
                         var7 = var12.bind(var3)(var7);
-                        var8 = var7.QuestContentImpressionTrackerNative;
+                        var8 = var7.BillableAdPlacementImpressionTrackerNative;
                         var7 = {};
                         var11 = true;
                         var7['overrideVisibility'] = var11;

@@ -1400,7 +1400,7 @@ case 97:
                 return var1;
             };
             var3['handleTextChanged'] = var1;
-            var1 = function insertText(arg1, arg2, arg3) {
+            var1 = function insertText(arg1, arg2, arg3, arg4) {
                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
 case 0:
                     var8 = arg1;
@@ -1430,16 +1430,18 @@ case 64:
                     var6 = var8 + var7;
 case 101:
                     var2['text'] = var6;
+                    var6 = arg4;
+                    var2['nodes'] = var6;
                     var5 = _closure2_slot14;
                     var5 = var5.current;
                     var6 = var5.editId;
                     var7 = var1 != var6;
                     var1 = undefined;
                     var5 = undefined;
-                    if(!var7) { _fun0018_ip = 102; continue _fun0018 }
-case 103:
-                    var5 = var6;
+                    if(!var7) { _fun0018_ip = 57; continue _fun0018 }
 case 102:
+                    var5 = var6;
+case 57:
                     var2['editId'] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -1495,7 +1497,7 @@ case 0:
                     var3 = var3.KeyboardTypes;
                     var3 = var3.SYSTEM;
                     var3 = var4 === var3;
-                    if(!var3) { _fun0019_ip = 104; continue _fun0019 }
+                    if(!var3) { _fun0019_ip = 103; continue _fun0019 }
 case 31:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -1507,9 +1509,9 @@ case 31:
                     var8 = false;
                     var4['includeCustomKeyboard'] = var8;
                     var3 = var5.bind(var6)(var4);
-case 104:
-                    if(var3) { _fun0019_ip = 105; continue _fun0019 }
-case 106:
+case 103:
+                    if(var3) { _fun0019_ip = 104; continue _fun0019 }
+case 105:
                     var8 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 21;
@@ -1535,7 +1537,7 @@ case 106:
                     var2 = _closure2_slot8;
                     var2 = var2.current;
                     var2 = var3.bind(var4)(var2);
-case 105:
+case 104:
                     return var1;
                 }
             };

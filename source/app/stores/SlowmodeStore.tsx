@@ -256,7 +256,7 @@ case 39:
             var1 = undefined;
             var7 = var7.bind(var1)(var6);
             var6 = var7.canBypassSlowmode;
-            var6 = var6.bind(var7)(var3, var5);
+            var6 = var6.bind(var7)(var3);
             if(var6) { _fun0005_ip = 41; continue _fun0005 }
 case 42:
             var6 = 0;
