@@ -13,8 +13,9 @@ on:
                 default: false
                 required: false
                 type: boolean
-    schedule:
-        - cron: "30 * * * *"
+#   schedule:
+#       - cron: "30 * * * *"
+    workflow_dispatch:
 
 jobs:
     check-update:
