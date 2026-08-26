@@ -15,7 +15,6 @@ on:
                 type: boolean
 #   schedule:
 #       - cron: "30 * * * *"
-    workflow_dispatch:
 
 jobs:
     check-update:
